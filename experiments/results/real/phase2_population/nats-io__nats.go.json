@@ -1,0 +1,20 @@
+{
+  "repo": "nats-io/nats.go",
+  "language": "go",
+  "status": "completed",
+  "total_commits": 228,
+  "total_months": 25,
+  "total_triples": 899,
+  "triples_loaded": 899,
+  "phase": "stabilization",
+  "law_conformance": {
+    "law_1": true,
+    "law_2": true,
+    "law_3": true,
+    "law_4": true,
+    "law_5": true,
+    "law_6": true,
+    "law_7": true,
+    "law_8": false
+  }
+}

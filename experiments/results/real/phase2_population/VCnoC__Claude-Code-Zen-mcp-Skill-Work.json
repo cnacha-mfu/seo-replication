@@ -1,0 +1,20 @@
+{
+  "repo": "VCnoC/Claude-Code-Zen-mcp-Skill-Work",
+  "language": "python",
+  "status": "completed",
+  "total_commits": 31,
+  "total_months": 2,
+  "total_triples": 117,
+  "triples_loaded": 117,
+  "phase": "unknown",
+  "law_conformance": {
+    "law_1": true,
+    "law_2": false,
+    "law_3": false,
+    "law_4": false,
+    "law_5": false,
+    "law_6": false,
+    "law_7": false,
+    "law_8": false
+  }
+}

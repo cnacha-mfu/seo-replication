@@ -1,0 +1,49 @@
+# SENSO Framework — Dependencies for all papers
+# Install: pip install -r requirements.txt
+# For paper-specific extras, see comments below.
+
+# ── Core (all papers) ─────────────────────────────────────────────────────────
+numpy>=1.26.0
+scipy>=1.12.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+
+# ── Repository Mining (Papers 1–3) ────────────────────────────────────────────
+pydriller>=2.6
+requests>=2.31.0
+lizard>=1.17.0           # Multi-language cyclomatic complexity
+
+# ── Statistical Analysis (Papers 1–4) ─────────────────────────────────────────
+statsmodels>=0.14.0      # DiD regression, KPSS test
+krippendorff>=0.7.0      # Inter-rater agreement
+
+# ── Visualization (all papers) ────────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# ── LLM APIs (Papers 1, 4 — LLM-as-Judge; Paper 4 — anti-pattern detection) ─
+anthropic>=0.40.0
+openai>=1.50.0
+
+# ── Graph Neural Networks (Paper 2) — install separately per CUDA version ─────
+# torch>=2.2.0
+# torch-geometric>=2.5.0
+# dgl>=2.0
+
+# ── Ontology (Paper 1) ────────────────────────────────────────────────────────
+owlready2>=0.46
+rdflib>=7.0.0
+SPARQLWrapper>=2.0.0
+pymannkendall>=1.4.3     # Mann-Kendall trend test for phase detection
+python-dotenv>=1.0.0     # .env loading
+
+# ── Knowledge Graph (Papers 1–2, 4–5) ─────────────────────────────────────────
+# neo4j>=5.0.0
+
+# ── Experiment Tracking ───────────────────────────────────────────────────────
+pyyaml>=6.0.0
+tqdm>=4.66.0
+
+# ── Platform (Paper 5) ────────────────────────────────────────────────────────
+# fastapi>=0.115.0
+# uvicorn>=0.30.0

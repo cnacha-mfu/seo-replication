@@ -1,0 +1,569 @@
+# Scenario Bank for Paper 1 — Software Evolution Ontology (SEO)
+# 20 evolution scenarios with known ground-truth outcomes for ontology validation.
+# Each scenario simulates a repo snapshot and declares expected inferences.
+#
+# Fields:
+#   id: unique scenario identifier
+#   name: descriptive name
+#   description: what this scenario represents
+#   repo_snapshot: simulated repository state
+#     months: list of monthly data points (oldest first)
+#       - month: ISO date (YYYY-MM)
+#         loc: lines of code
+#         commits: number of commits
+#         complexity_avg: average cyclomatic complexity
+#         dependency_count: number of dependencies
+#         agent_commit_ratio: fraction of commits by coding agents (0.0-1.0)
+#         new_features: number of new feature commits
+#         bug_fixes: number of bug fix commits
+#         refactorings: number of refactoring commits
+#   expected_phase: growth | stabilization | decline
+#   expected_law_conformance: mapping of Lehman's 8 laws to boolean
+#     I   - Continuing Change
+#     II  - Increasing Complexity
+#     III - Self Regulation
+#     IV  - Conservation of Organisational Stability
+#     V   - Conservation of Familiarity
+#     VI  - Continuing Growth
+#     VII - Declining Quality
+#     VIII - Feedback System
+#   expected_patterns: list of evolution pattern names
+
+scenarios:
+
+  # ============================================================
+  # Scenarios 1-5: Clear Growth Phase
+  # ============================================================
+
+  - id: scenario_01
+    name: "Greenfield Rapid Growth"
+    description: >
+      A new open-source project experiencing explosive growth. LOC doubles every
+      few months, many new features, low complexity (still small), few agents.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 2000, commits: 45, complexity_avg: 2.1, dependency_count: 8, agent_commit_ratio: 0.0, new_features: 30, bug_fixes: 10, refactorings: 5 }
+        - { month: "2025-02", loc: 4200, commits: 62, complexity_avg: 2.3, dependency_count: 12, agent_commit_ratio: 0.0, new_features: 42, bug_fixes: 12, refactorings: 8 }
+        - { month: "2025-03", loc: 7500, commits: 78, complexity_avg: 2.5, dependency_count: 15, agent_commit_ratio: 0.02, new_features: 55, bug_fixes: 14, refactorings: 9 }
+        - { month: "2025-04", loc: 12000, commits: 95, complexity_avg: 2.8, dependency_count: 19, agent_commit_ratio: 0.03, new_features: 68, bug_fixes: 16, refactorings: 11 }
+        - { month: "2025-05", loc: 18500, commits: 110, complexity_avg: 3.0, dependency_count: 22, agent_commit_ratio: 0.05, new_features: 80, bug_fixes: 18, refactorings: 12 }
+        - { month: "2025-06", loc: 26000, commits: 130, complexity_avg: 3.2, dependency_count: 26, agent_commit_ratio: 0.05, new_features: 95, bug_fixes: 20, refactorings: 15 }
+    expected_phase: growth
+    expected_law_conformance:
+      I: true
+      II: true
+      III: true
+      IV: true
+      V: true
+      VI: true
+      VII: true
+      VIII: true
+    expected_patterns: []
+
+  - id: scenario_02
+    name: "Startup Feature Sprint"
+    description: >
+      A venture-backed startup adding features aggressively. Growth is steady,
+      complexity rising slightly, dependencies accumulating normally.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 15000, commits: 80, complexity_avg: 4.2, dependency_count: 30, agent_commit_ratio: 0.1, new_features: 50, bug_fixes: 20, refactorings: 10 }
+        - { month: "2025-02", loc: 19000, commits: 85, complexity_avg: 4.4, dependency_count: 33, agent_commit_ratio: 0.1, new_features: 52, bug_fixes: 22, refactorings: 11 }
+        - { month: "2025-03", loc: 24000, commits: 90, complexity_avg: 4.6, dependency_count: 36, agent_commit_ratio: 0.12, new_features: 58, bug_fixes: 20, refactorings: 12 }
+        - { month: "2025-04", loc: 30000, commits: 98, complexity_avg: 4.8, dependency_count: 40, agent_commit_ratio: 0.12, new_features: 64, bug_fixes: 21, refactorings: 13 }
+        - { month: "2025-05", loc: 37000, commits: 105, complexity_avg: 5.0, dependency_count: 44, agent_commit_ratio: 0.15, new_features: 72, bug_fixes: 19, refactorings: 14 }
+        - { month: "2025-06", loc: 45000, commits: 115, complexity_avg: 5.2, dependency_count: 48, agent_commit_ratio: 0.15, new_features: 80, bug_fixes: 22, refactorings: 13 }
+    expected_phase: growth
+    expected_law_conformance:
+      I: true
+      II: true
+      III: true
+      IV: true
+      V: true
+      VI: true
+      VII: true
+      VIII: true
+    expected_patterns: []
+
+  - id: scenario_03
+    name: "Growth with Proactive Refactoring"
+    description: >
+      A well-managed project growing steadily with frequent refactoring to keep
+      complexity in check. Law II technically violated (complexity not increasing
+      due to active refactoring), but this is healthy behavior.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 30000, commits: 60, complexity_avg: 5.5, dependency_count: 25, agent_commit_ratio: 0.0, new_features: 30, bug_fixes: 10, refactorings: 20 }
+        - { month: "2025-02", loc: 34000, commits: 65, complexity_avg: 5.3, dependency_count: 26, agent_commit_ratio: 0.0, new_features: 32, bug_fixes: 12, refactorings: 21 }
+        - { month: "2025-03", loc: 38000, commits: 68, complexity_avg: 5.4, dependency_count: 27, agent_commit_ratio: 0.0, new_features: 35, bug_fixes: 10, refactorings: 23 }
+        - { month: "2025-04", loc: 43000, commits: 70, complexity_avg: 5.2, dependency_count: 28, agent_commit_ratio: 0.02, new_features: 38, bug_fixes: 11, refactorings: 21 }
+        - { month: "2025-05", loc: 48000, commits: 72, complexity_avg: 5.3, dependency_count: 29, agent_commit_ratio: 0.02, new_features: 40, bug_fixes: 10, refactorings: 22 }
+        - { month: "2025-06", loc: 54000, commits: 75, complexity_avg: 5.1, dependency_count: 30, agent_commit_ratio: 0.03, new_features: 42, bug_fixes: 12, refactorings: 21 }
+    expected_phase: growth
+    expected_law_conformance:
+      I: true
+      II: false   # Complexity not increasing — refactoring counteracts Law II
+      III: true
+      IV: true
+      V: true
+      VI: true
+      VII: false  # Quality not declining — refactoring counteracts Law VII
+      VIII: true
+    expected_patterns: []
+
+  - id: scenario_04
+    name: "Exponential Community Growth"
+    description: >
+      An open-source project that went viral. Commit counts and contributor
+      growth are very high, LOC growth is steep, dependencies added rapidly.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 5000, commits: 30, complexity_avg: 2.5, dependency_count: 10, agent_commit_ratio: 0.0, new_features: 20, bug_fixes: 5, refactorings: 5 }
+        - { month: "2025-02", loc: 9000, commits: 55, complexity_avg: 2.8, dependency_count: 14, agent_commit_ratio: 0.0, new_features: 35, bug_fixes: 10, refactorings: 10 }
+        - { month: "2025-03", loc: 18000, commits: 100, complexity_avg: 3.2, dependency_count: 22, agent_commit_ratio: 0.05, new_features: 70, bug_fixes: 18, refactorings: 12 }
+        - { month: "2025-04", loc: 35000, commits: 180, complexity_avg: 3.8, dependency_count: 35, agent_commit_ratio: 0.08, new_features: 130, bug_fixes: 30, refactorings: 20 }
+        - { month: "2025-05", loc: 62000, commits: 290, complexity_avg: 4.5, dependency_count: 50, agent_commit_ratio: 0.1, new_features: 210, bug_fixes: 50, refactorings: 30 }
+        - { month: "2025-06", loc: 100000, commits: 420, complexity_avg: 5.2, dependency_count: 68, agent_commit_ratio: 0.12, new_features: 310, bug_fixes: 70, refactorings: 40 }
+    expected_phase: growth
+    expected_law_conformance:
+      I: true
+      II: true
+      III: false  # Growth too fast for self-regulation
+      IV: false   # Organisational stability not conserved — massive contributor flux
+      V: false    # Familiarity not conserved — too much change per release
+      VI: true
+      VII: true
+      VIII: true
+    expected_patterns:
+      - DependencySprawl
+
+  - id: scenario_05
+    name: "Steady Enterprise Growth"
+    description: >
+      A mature enterprise project adding new modules at a controlled pace.
+      LOC grows linearly, complexity well-managed, all laws conformed.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 120000, commits: 50, complexity_avg: 6.0, dependency_count: 45, agent_commit_ratio: 0.0, new_features: 25, bug_fixes: 15, refactorings: 10 }
+        - { month: "2025-02", loc: 124000, commits: 52, complexity_avg: 6.1, dependency_count: 46, agent_commit_ratio: 0.0, new_features: 26, bug_fixes: 16, refactorings: 10 }
+        - { month: "2025-03", loc: 128000, commits: 50, complexity_avg: 6.2, dependency_count: 47, agent_commit_ratio: 0.0, new_features: 24, bug_fixes: 16, refactorings: 10 }
+        - { month: "2025-04", loc: 132000, commits: 53, complexity_avg: 6.3, dependency_count: 47, agent_commit_ratio: 0.0, new_features: 27, bug_fixes: 15, refactorings: 11 }
+        - { month: "2025-05", loc: 136000, commits: 51, complexity_avg: 6.4, dependency_count: 48, agent_commit_ratio: 0.02, new_features: 25, bug_fixes: 16, refactorings: 10 }
+        - { month: "2025-06", loc: 140000, commits: 52, complexity_avg: 6.5, dependency_count: 48, agent_commit_ratio: 0.02, new_features: 26, bug_fixes: 15, refactorings: 11 }
+    expected_phase: growth
+    expected_law_conformance:
+      I: true
+      II: true
+      III: true
+      IV: true
+      V: true
+      VI: true
+      VII: true
+      VIII: true
+    expected_patterns: []
+
+  # ============================================================
+  # Scenarios 6-10: Stabilization Phase
+  # ============================================================
+
+  - id: scenario_06
+    name: "Mature Maintenance Mode"
+    description: >
+      A well-established library in maintenance mode. LOC nearly flat,
+      commits mostly bug fixes, no significant new features.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 85000, commits: 15, complexity_avg: 7.2, dependency_count: 35, agent_commit_ratio: 0.0, new_features: 2, bug_fixes: 10, refactorings: 3 }
+        - { month: "2025-02", loc: 85200, commits: 12, complexity_avg: 7.2, dependency_count: 35, agent_commit_ratio: 0.0, new_features: 1, bug_fixes: 9, refactorings: 2 }
+        - { month: "2025-03", loc: 85500, commits: 14, complexity_avg: 7.3, dependency_count: 35, agent_commit_ratio: 0.0, new_features: 2, bug_fixes: 10, refactorings: 2 }
+        - { month: "2025-04", loc: 85300, commits: 11, complexity_avg: 7.3, dependency_count: 35, agent_commit_ratio: 0.0, new_features: 1, bug_fixes: 8, refactorings: 2 }
+        - { month: "2025-05", loc: 85600, commits: 13, complexity_avg: 7.3, dependency_count: 35, agent_commit_ratio: 0.0, new_features: 2, bug_fixes: 9, refactorings: 2 }
+        - { month: "2025-06", loc: 85400, commits: 12, complexity_avg: 7.3, dependency_count: 35, agent_commit_ratio: 0.0, new_features: 1, bug_fixes: 9, refactorings: 2 }
+    expected_phase: stabilization
+    expected_law_conformance:
+      I: true
+      II: true
+      III: true
+      IV: true
+      V: true
+      VI: false   # Not growing — stabilized
+      VII: true
+      VIII: true
+    expected_patterns: []
+
+  - id: scenario_07
+    name: "Post-Release Stabilization"
+    description: >
+      A project that just shipped a major release and is now in stabilization.
+      Bug fix rate is high, few new features, LOC slightly declining as
+      dead code is removed.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 65000, commits: 40, complexity_avg: 6.8, dependency_count: 42, agent_commit_ratio: 0.05, new_features: 5, bug_fixes: 30, refactorings: 5 }
+        - { month: "2025-02", loc: 64500, commits: 35, complexity_avg: 6.7, dependency_count: 41, agent_commit_ratio: 0.05, new_features: 3, bug_fixes: 28, refactorings: 4 }
+        - { month: "2025-03", loc: 64200, commits: 30, complexity_avg: 6.6, dependency_count: 41, agent_commit_ratio: 0.06, new_features: 2, bug_fixes: 24, refactorings: 4 }
+        - { month: "2025-04", loc: 64000, commits: 25, complexity_avg: 6.5, dependency_count: 40, agent_commit_ratio: 0.06, new_features: 2, bug_fixes: 20, refactorings: 3 }
+        - { month: "2025-05", loc: 63800, commits: 22, complexity_avg: 6.5, dependency_count: 40, agent_commit_ratio: 0.07, new_features: 1, bug_fixes: 18, refactorings: 3 }
+        - { month: "2025-06", loc: 63700, commits: 20, complexity_avg: 6.4, dependency_count: 40, agent_commit_ratio: 0.07, new_features: 1, bug_fixes: 16, refactorings: 3 }
+    expected_phase: stabilization
+    expected_law_conformance:
+      I: true
+      II: false   # Complexity decreasing due to bug fixes and cleanup
+      III: true
+      IV: true
+      V: true
+      VI: false   # Not growing
+      VII: false  # Quality improving due to focused bug fixing
+      VIII: true
+    expected_patterns: []
+
+  - id: scenario_08
+    name: "Feature-Complete Framework"
+    description: >
+      A web framework that is feature-complete. Changes are only security
+      patches and minor bug fixes. Very low activity.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 150000, commits: 8, complexity_avg: 8.5, dependency_count: 55, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 6, refactorings: 2 }
+        - { month: "2025-02", loc: 150100, commits: 5, complexity_avg: 8.5, dependency_count: 55, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 4, refactorings: 1 }
+        - { month: "2025-03", loc: 150050, commits: 6, complexity_avg: 8.5, dependency_count: 55, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 5, refactorings: 1 }
+        - { month: "2025-04", loc: 150200, commits: 4, complexity_avg: 8.5, dependency_count: 55, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 3, refactorings: 1 }
+        - { month: "2025-05", loc: 150100, commits: 7, complexity_avg: 8.5, dependency_count: 55, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 5, refactorings: 2 }
+        - { month: "2025-06", loc: 150150, commits: 5, complexity_avg: 8.5, dependency_count: 55, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 4, refactorings: 1 }
+    expected_phase: stabilization
+    expected_law_conformance:
+      I: true    # Still changing (security patches)
+      II: true   # Complexity flat (no new features to add complexity)
+      III: true
+      IV: true
+      V: true
+      VI: false  # No functional growth
+      VII: true
+      VIII: true
+    expected_patterns: []
+
+  - id: scenario_09
+    name: "Stabilization with Technical Debt Payment"
+    description: >
+      A project that paused feature development to pay down technical debt.
+      Lots of refactoring, complexity dropping, LOC slightly decreasing.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 95000, commits: 35, complexity_avg: 9.0, dependency_count: 50, agent_commit_ratio: 0.0, new_features: 2, bug_fixes: 8, refactorings: 25 }
+        - { month: "2025-02", loc: 93000, commits: 38, complexity_avg: 8.5, dependency_count: 48, agent_commit_ratio: 0.0, new_features: 1, bug_fixes: 7, refactorings: 30 }
+        - { month: "2025-03", loc: 90000, commits: 40, complexity_avg: 8.0, dependency_count: 46, agent_commit_ratio: 0.0, new_features: 1, bug_fixes: 9, refactorings: 30 }
+        - { month: "2025-04", loc: 88000, commits: 36, complexity_avg: 7.5, dependency_count: 44, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 8, refactorings: 28 }
+        - { month: "2025-05", loc: 86000, commits: 34, complexity_avg: 7.2, dependency_count: 42, agent_commit_ratio: 0.0, new_features: 1, bug_fixes: 8, refactorings: 25 }
+        - { month: "2025-06", loc: 84000, commits: 32, complexity_avg: 7.0, dependency_count: 41, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 7, refactorings: 25 }
+    expected_phase: stabilization
+    expected_law_conformance:
+      I: true
+      II: false   # Complexity actively decreasing (refactoring)
+      III: true    # Self-regulation visible — debt being paid
+      IV: true
+      V: true
+      VI: false    # Not growing
+      VII: false   # Quality improving
+      VIII: true
+    expected_patterns: []
+
+  - id: scenario_10
+    name: "Seasonal Low Activity"
+    description: >
+      A project with periodic low activity (e.g., academic project during
+      semester break). Minimal changes, flat metrics.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 42000, commits: 5, complexity_avg: 5.8, dependency_count: 22, agent_commit_ratio: 0.0, new_features: 1, bug_fixes: 3, refactorings: 1 }
+        - { month: "2025-02", loc: 42100, commits: 3, complexity_avg: 5.8, dependency_count: 22, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 2, refactorings: 1 }
+        - { month: "2025-03", loc: 42000, commits: 4, complexity_avg: 5.8, dependency_count: 22, agent_commit_ratio: 0.0, new_features: 1, bug_fixes: 2, refactorings: 1 }
+        - { month: "2025-04", loc: 42050, commits: 2, complexity_avg: 5.8, dependency_count: 22, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 1, refactorings: 1 }
+        - { month: "2025-05", loc: 42000, commits: 3, complexity_avg: 5.8, dependency_count: 22, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 2, refactorings: 1 }
+        - { month: "2025-06", loc: 42100, commits: 4, complexity_avg: 5.8, dependency_count: 22, agent_commit_ratio: 0.0, new_features: 1, bug_fixes: 2, refactorings: 1 }
+    expected_phase: stabilization
+    expected_law_conformance:
+      I: true     # Still some changes (minimal)
+      II: true    # Complexity flat
+      III: true
+      IV: true
+      V: true
+      VI: false   # Not growing
+      VII: true
+      VIII: true
+    expected_patterns: []
+
+  # ============================================================
+  # Scenarios 11-14: Decline Phase
+  # ============================================================
+
+  - id: scenario_11
+    name: "Abandoned Project"
+    description: >
+      A once-popular project now nearly abandoned. Commit activity dropping
+      to near zero, open issues piling up, complexity stagnant.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 70000, commits: 8, complexity_avg: 8.8, dependency_count: 38, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 5, refactorings: 3 }
+        - { month: "2025-02", loc: 70000, commits: 5, complexity_avg: 8.8, dependency_count: 38, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 3, refactorings: 2 }
+        - { month: "2025-03", loc: 69800, commits: 3, complexity_avg: 8.9, dependency_count: 38, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 2, refactorings: 1 }
+        - { month: "2025-04", loc: 69800, commits: 1, complexity_avg: 8.9, dependency_count: 38, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 1, refactorings: 0 }
+        - { month: "2025-05", loc: 69800, commits: 0, complexity_avg: 8.9, dependency_count: 38, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 0, refactorings: 0 }
+        - { month: "2025-06", loc: 69800, commits: 1, complexity_avg: 8.9, dependency_count: 38, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 1, refactorings: 0 }
+    expected_phase: decline
+    expected_law_conformance:
+      I: false    # Effectively not changing (Law I violated — should change but doesn't)
+      II: true    # Complexity stagnant/slightly up
+      III: false  # No self-regulation — nobody is managing
+      IV: false   # Organisation collapsed
+      V: true
+      VI: false   # No growth
+      VII: true   # Quality declining (unfixed bugs accumulating)
+      VIII: false  # Feedback loop broken
+    expected_patterns: []
+
+  - id: scenario_12
+    name: "Complexity Death Spiral"
+    description: >
+      A project where complexity has grown unchecked. New contributors
+      cannot understand the code, commits slow down, but each commit
+      adds more complexity. Classic Lehman Law II/VII failure.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 110000, commits: 25, complexity_avg: 12.0, dependency_count: 60, agent_commit_ratio: 0.0, new_features: 8, bug_fixes: 12, refactorings: 5 }
+        - { month: "2025-02", loc: 112000, commits: 22, complexity_avg: 12.8, dependency_count: 62, agent_commit_ratio: 0.0, new_features: 6, bug_fixes: 12, refactorings: 4 }
+        - { month: "2025-03", loc: 113000, commits: 18, complexity_avg: 13.5, dependency_count: 63, agent_commit_ratio: 0.0, new_features: 4, bug_fixes: 11, refactorings: 3 }
+        - { month: "2025-04", loc: 114000, commits: 15, complexity_avg: 14.2, dependency_count: 65, agent_commit_ratio: 0.0, new_features: 3, bug_fixes: 10, refactorings: 2 }
+        - { month: "2025-05", loc: 114500, commits: 12, complexity_avg: 15.0, dependency_count: 66, agent_commit_ratio: 0.0, new_features: 2, bug_fixes: 8, refactorings: 2 }
+        - { month: "2025-06", loc: 115000, commits: 10, complexity_avg: 15.8, dependency_count: 67, agent_commit_ratio: 0.0, new_features: 1, bug_fixes: 7, refactorings: 2 }
+    expected_phase: decline
+    expected_law_conformance:
+      I: true
+      II: true     # Complexity continuously increasing (Law II observed)
+      III: false   # No self-regulation — complexity unchecked
+      IV: false    # Org stability declining (fewer contributors)
+      V: false     # Familiarity lost — complexity too high for newcomers
+      VI: false    # Growth stalled
+      VII: true    # Quality declining
+      VIII: false  # Feedback system broken — no corrective action
+    expected_patterns: []
+
+  - id: scenario_13
+    name: "Dependency Rot"
+    description: >
+      A project whose dependencies are becoming outdated. No dependency
+      updates, security vulnerabilities accumulating, minimal activity.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 55000, commits: 10, complexity_avg: 7.5, dependency_count: 48, agent_commit_ratio: 0.0, new_features: 2, bug_fixes: 6, refactorings: 2 }
+        - { month: "2025-02", loc: 55100, commits: 8, complexity_avg: 7.5, dependency_count: 48, agent_commit_ratio: 0.0, new_features: 1, bug_fixes: 5, refactorings: 2 }
+        - { month: "2025-03", loc: 55000, commits: 6, complexity_avg: 7.6, dependency_count: 48, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 4, refactorings: 2 }
+        - { month: "2025-04", loc: 55000, commits: 5, complexity_avg: 7.6, dependency_count: 48, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 3, refactorings: 2 }
+        - { month: "2025-05", loc: 54900, commits: 4, complexity_avg: 7.7, dependency_count: 48, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 3, refactorings: 1 }
+        - { month: "2025-06", loc: 54800, commits: 3, complexity_avg: 7.7, dependency_count: 48, agent_commit_ratio: 0.0, new_features: 0, bug_fixes: 2, refactorings: 1 }
+    expected_phase: decline
+    expected_law_conformance:
+      I: false   # Not changing sufficiently
+      II: true
+      III: false # No self-regulation
+      IV: false  # Org dissolving
+      V: true
+      VI: false  # No growth
+      VII: true  # Quality declining (vulnerabilities)
+      VIII: false
+    expected_patterns: []
+
+  - id: scenario_14
+    name: "Fork-Driven Decline"
+    description: >
+      The community forked this project. Activity dropped sharply as
+      contributors migrated to the fork. LOC unchanged, commits minimal.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 200000, commits: 40, complexity_avg: 9.5, dependency_count: 70, agent_commit_ratio: 0.05, new_features: 15, bug_fixes: 18, refactorings: 7 }
+        - { month: "2025-02", loc: 200500, commits: 30, complexity_avg: 9.5, dependency_count: 70, agent_commit_ratio: 0.05, new_features: 8, bug_fixes: 16, refactorings: 6 }
+        - { month: "2025-03", loc: 200200, commits: 15, complexity_avg: 9.6, dependency_count: 70, agent_commit_ratio: 0.08, new_features: 2, bug_fixes: 10, refactorings: 3 }
+        - { month: "2025-04", loc: 200000, commits: 8, complexity_avg: 9.6, dependency_count: 70, agent_commit_ratio: 0.1, new_features: 0, bug_fixes: 6, refactorings: 2 }
+        - { month: "2025-05", loc: 200000, commits: 5, complexity_avg: 9.6, dependency_count: 70, agent_commit_ratio: 0.1, new_features: 0, bug_fixes: 4, refactorings: 1 }
+        - { month: "2025-06", loc: 199800, commits: 3, complexity_avg: 9.7, dependency_count: 70, agent_commit_ratio: 0.15, new_features: 0, bug_fixes: 2, refactorings: 1 }
+    expected_phase: decline
+    expected_law_conformance:
+      I: false   # Ceasing to change
+      II: true
+      III: false
+      IV: false  # Organisation collapsed after fork
+      V: true
+      VI: false
+      VII: true
+      VIII: false
+    expected_patterns: []
+
+  # ============================================================
+  # Scenarios 15-17: Agent-Heavy Scenarios
+  # ============================================================
+
+  - id: scenario_15
+    name: "Agent-Driven Feature Factory"
+    description: >
+      A project where >50% of commits come from AI coding agents. LOC
+      growing fast, but complexity is rising disproportionately. Dependencies
+      added without consolidation. Classic Shadow Tech Debt pattern.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 40000, commits: 80, complexity_avg: 6.0, dependency_count: 30, agent_commit_ratio: 0.35, new_features: 50, bug_fixes: 20, refactorings: 10 }
+        - { month: "2025-02", loc: 48000, commits: 95, complexity_avg: 6.8, dependency_count: 36, agent_commit_ratio: 0.45, new_features: 62, bug_fixes: 22, refactorings: 11 }
+        - { month: "2025-03", loc: 58000, commits: 110, complexity_avg: 7.8, dependency_count: 44, agent_commit_ratio: 0.55, new_features: 75, bug_fixes: 24, refactorings: 11 }
+        - { month: "2025-04", loc: 70000, commits: 130, complexity_avg: 9.0, dependency_count: 54, agent_commit_ratio: 0.60, new_features: 90, bug_fixes: 28, refactorings: 12 }
+        - { month: "2025-05", loc: 84000, commits: 150, complexity_avg: 10.5, dependency_count: 66, agent_commit_ratio: 0.65, new_features: 105, bug_fixes: 30, refactorings: 15 }
+        - { month: "2025-06", loc: 100000, commits: 170, complexity_avg: 12.2, dependency_count: 80, agent_commit_ratio: 0.70, new_features: 120, bug_fixes: 32, refactorings: 18 }
+    expected_phase: growth
+    expected_law_conformance:
+      I: true
+      II: true
+      III: false   # Complexity growth outpacing LOC growth — not self-regulating
+      IV: false    # Org stability disrupted by heavy agent use
+      V: false     # Familiarity not conserved — too many agent-generated changes
+      VI: true
+      VII: true    # Quality declining despite growth
+      VIII: false  # Feedback not working — agents don't respond to quality signals
+    expected_patterns:
+      - ShadowTechDebt
+      - DependencySprawl
+
+  - id: scenario_16
+    name: "Agent Copy-Paste Over Reuse"
+    description: >
+      A project where agents are generating boilerplate code instead of
+      reusing existing modules. LOC growing fast, but much is duplicated.
+      Complexity per function is low but total code mass is bloated.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 50000, commits: 60, complexity_avg: 3.5, dependency_count: 20, agent_commit_ratio: 0.40, new_features: 35, bug_fixes: 15, refactorings: 10 }
+        - { month: "2025-02", loc: 60000, commits: 70, complexity_avg: 3.6, dependency_count: 21, agent_commit_ratio: 0.50, new_features: 42, bug_fixes: 18, refactorings: 10 }
+        - { month: "2025-03", loc: 72000, commits: 80, complexity_avg: 3.7, dependency_count: 22, agent_commit_ratio: 0.55, new_features: 50, bug_fixes: 20, refactorings: 10 }
+        - { month: "2025-04", loc: 86000, commits: 90, complexity_avg: 3.8, dependency_count: 23, agent_commit_ratio: 0.58, new_features: 58, bug_fixes: 22, refactorings: 10 }
+        - { month: "2025-05", loc: 103000, commits: 100, complexity_avg: 3.9, dependency_count: 24, agent_commit_ratio: 0.62, new_features: 65, bug_fixes: 24, refactorings: 11 }
+        - { month: "2025-06", loc: 122000, commits: 110, complexity_avg: 4.0, dependency_count: 25, agent_commit_ratio: 0.65, new_features: 72, bug_fixes: 26, refactorings: 12 }
+    expected_phase: growth
+    expected_law_conformance:
+      I: true
+      II: true
+      III: false   # LOC growth far outpaces functional growth
+      IV: true
+      V: false     # Code mass changing too fast
+      VI: true
+      VII: true
+      VIII: false
+    expected_patterns:
+      - ShadowTechDebt
+      - CopyPasteOverReuse
+
+  - id: scenario_17
+    name: "Agent Refactoring Avoidance"
+    description: >
+      A project using agents extensively but agents avoid refactoring —
+      they add features and fix bugs but never restructure. Complexity
+      growing steadily, coupling increasing.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 75000, commits: 50, complexity_avg: 7.0, dependency_count: 40, agent_commit_ratio: 0.30, new_features: 25, bug_fixes: 20, refactorings: 5 }
+        - { month: "2025-02", loc: 79000, commits: 55, complexity_avg: 7.4, dependency_count: 42, agent_commit_ratio: 0.40, new_features: 28, bug_fixes: 22, refactorings: 5 }
+        - { month: "2025-03", loc: 83000, commits: 58, complexity_avg: 7.9, dependency_count: 44, agent_commit_ratio: 0.48, new_features: 30, bug_fixes: 23, refactorings: 5 }
+        - { month: "2025-04", loc: 87000, commits: 60, complexity_avg: 8.5, dependency_count: 47, agent_commit_ratio: 0.52, new_features: 32, bug_fixes: 23, refactorings: 5 }
+        - { month: "2025-05", loc: 91000, commits: 62, complexity_avg: 9.1, dependency_count: 50, agent_commit_ratio: 0.55, new_features: 34, bug_fixes: 23, refactorings: 5 }
+        - { month: "2025-06", loc: 95000, commits: 65, complexity_avg: 9.8, dependency_count: 53, agent_commit_ratio: 0.58, new_features: 36, bug_fixes: 24, refactorings: 5 }
+    expected_phase: growth
+    expected_law_conformance:
+      I: true
+      II: true    # Complexity increasing (agents aren't refactoring)
+      III: false  # No self-regulation — refactoring absent
+      IV: true
+      V: false    # Complexity growth makes codebase unfamiliar
+      VI: true
+      VII: true   # Quality declining
+      VIII: false # No feedback — agents don't respond to quality signals
+    expected_patterns:
+      - ShadowTechDebt
+      - RefactoringAvoidance
+
+  # ============================================================
+  # Scenarios 18-20: Mixed / Transition Scenarios
+  # ============================================================
+
+  - id: scenario_18
+    name: "Growth-to-Stabilization Transition"
+    description: >
+      A project transitioning from growth to stabilization mid-window.
+      First 3 months show growth, last 3 months show leveling off.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 50000, commits: 60, complexity_avg: 5.5, dependency_count: 30, agent_commit_ratio: 0.1, new_features: 35, bug_fixes: 15, refactorings: 10 }
+        - { month: "2025-02", loc: 56000, commits: 65, complexity_avg: 5.7, dependency_count: 32, agent_commit_ratio: 0.1, new_features: 38, bug_fixes: 16, refactorings: 11 }
+        - { month: "2025-03", loc: 62000, commits: 68, complexity_avg: 5.9, dependency_count: 34, agent_commit_ratio: 0.12, new_features: 40, bug_fixes: 17, refactorings: 11 }
+        - { month: "2025-04", loc: 64000, commits: 40, complexity_avg: 6.0, dependency_count: 35, agent_commit_ratio: 0.12, new_features: 15, bug_fixes: 18, refactorings: 7 }
+        - { month: "2025-05", loc: 65000, commits: 35, complexity_avg: 6.0, dependency_count: 35, agent_commit_ratio: 0.12, new_features: 10, bug_fixes: 18, refactorings: 7 }
+        - { month: "2025-06", loc: 65500, commits: 30, complexity_avg: 6.1, dependency_count: 35, agent_commit_ratio: 0.12, new_features: 8, bug_fixes: 16, refactorings: 6 }
+    expected_phase: stabilization
+    expected_law_conformance:
+      I: true
+      II: true
+      III: true   # Self-regulation visible — growth slowed naturally
+      IV: true
+      V: true
+      VI: false   # Growth ended
+      VII: true
+      VIII: true
+    expected_patterns: []
+
+  - id: scenario_19
+    name: "Big-Bang Refactoring Event"
+    description: >
+      A project that underwent a massive refactoring in months 3-4.
+      LOC dropped sharply, complexity decreased, then resumed growth.
+      Demonstrates healthy self-regulation but also familiarity disruption.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 80000, commits: 45, complexity_avg: 9.5, dependency_count: 45, agent_commit_ratio: 0.15, new_features: 20, bug_fixes: 15, refactorings: 10 }
+        - { month: "2025-02", loc: 82000, commits: 48, complexity_avg: 9.8, dependency_count: 46, agent_commit_ratio: 0.15, new_features: 22, bug_fixes: 16, refactorings: 10 }
+        - { month: "2025-03", loc: 70000, commits: 60, complexity_avg: 7.0, dependency_count: 38, agent_commit_ratio: 0.20, new_features: 5, bug_fixes: 10, refactorings: 45 }
+        - { month: "2025-04", loc: 68000, commits: 55, complexity_avg: 6.5, dependency_count: 35, agent_commit_ratio: 0.20, new_features: 5, bug_fixes: 8, refactorings: 42 }
+        - { month: "2025-05", loc: 72000, commits: 50, complexity_avg: 6.8, dependency_count: 36, agent_commit_ratio: 0.18, new_features: 22, bug_fixes: 14, refactorings: 14 }
+        - { month: "2025-06", loc: 76000, commits: 52, complexity_avg: 7.0, dependency_count: 37, agent_commit_ratio: 0.18, new_features: 25, bug_fixes: 15, refactorings: 12 }
+    expected_phase: growth
+    expected_law_conformance:
+      I: true
+      II: false   # Complexity dropped due to refactoring
+      III: true    # Self-regulation — refactoring triggered by high complexity
+      IV: true
+      V: false     # Major refactoring disrupted familiarity
+      VI: true     # Net growth over the window
+      VII: false   # Quality improved via refactoring
+      VIII: true   # Feedback working — high complexity triggered refactoring
+    expected_patterns: []
+
+  - id: scenario_20
+    name: "Agent Adoption Transition"
+    description: >
+      A project that adopted AI coding agents mid-window. First 3 months
+      are human-only with moderate growth. Last 3 months show agent
+      adoption with accelerated but less structured growth.
+    repo_snapshot:
+      months:
+        - { month: "2025-01", loc: 60000, commits: 40, complexity_avg: 6.0, dependency_count: 30, agent_commit_ratio: 0.0, new_features: 20, bug_fixes: 12, refactorings: 8 }
+        - { month: "2025-02", loc: 63000, commits: 42, complexity_avg: 6.1, dependency_count: 31, agent_commit_ratio: 0.0, new_features: 21, bug_fixes: 13, refactorings: 8 }
+        - { month: "2025-03", loc: 66000, commits: 44, complexity_avg: 6.2, dependency_count: 32, agent_commit_ratio: 0.05, new_features: 22, bug_fixes: 14, refactorings: 8 }
+        - { month: "2025-04", loc: 72000, commits: 65, complexity_avg: 6.8, dependency_count: 36, agent_commit_ratio: 0.35, new_features: 40, bug_fixes: 18, refactorings: 7 }
+        - { month: "2025-05", loc: 80000, commits: 80, complexity_avg: 7.5, dependency_count: 42, agent_commit_ratio: 0.45, new_features: 52, bug_fixes: 20, refactorings: 8 }
+        - { month: "2025-06", loc: 90000, commits: 95, complexity_avg: 8.4, dependency_count: 50, agent_commit_ratio: 0.55, new_features: 65, bug_fixes: 22, refactorings: 8 }
+    expected_phase: growth
+    expected_law_conformance:
+      I: true
+      II: true     # Complexity increasing
+      III: false   # Post-adoption complexity growth disproportionate
+      IV: false    # Org stability disrupted by agent adoption
+      V: false     # Familiarity not conserved — rapid change post-adoption
+      VI: true
+      VII: true    # Quality declining post-adoption
+      VIII: false  # Feedback system not adapted to agent workflow
+    expected_patterns:
+      - ShadowTechDebt
+      - DependencySprawl

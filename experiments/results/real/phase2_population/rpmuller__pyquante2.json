@@ -1,0 +1,20 @@
+{
+  "repo": "rpmuller/pyquante2",
+  "language": "python",
+  "status": "completed",
+  "total_commits": 49,
+  "total_months": 2,
+  "total_triples": 184,
+  "triples_loaded": 184,
+  "phase": "unknown",
+  "law_conformance": {
+    "law_1": true,
+    "law_2": false,
+    "law_3": false,
+    "law_4": false,
+    "law_5": false,
+    "law_6": false,
+    "law_7": false,
+    "law_8": false
+  }
+}

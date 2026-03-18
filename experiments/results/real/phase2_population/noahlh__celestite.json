@@ -1,0 +1,20 @@
+{
+  "repo": "noahlh/celestite",
+  "language": "javascript",
+  "status": "completed",
+  "total_commits": 5,
+  "total_months": 2,
+  "total_triples": 135,
+  "triples_loaded": 135,
+  "phase": "unknown",
+  "law_conformance": {
+    "law_1": true,
+    "law_2": false,
+    "law_3": false,
+    "law_4": false,
+    "law_5": false,
+    "law_6": false,
+    "law_7": false,
+    "law_8": false
+  }
+}

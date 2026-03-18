@@ -1,0 +1,20 @@
+{
+  "repo": "cellwebb/gac",
+  "language": "python",
+  "status": "completed",
+  "total_commits": 1146,
+  "total_months": 12,
+  "total_triples": 590,
+  "triples_loaded": 590,
+  "phase": "stabilization",
+  "law_conformance": {
+    "law_1": true,
+    "law_2": true,
+    "law_3": true,
+    "law_4": true,
+    "law_5": true,
+    "law_6": true,
+    "law_7": true,
+    "law_8": true
+  }
+}

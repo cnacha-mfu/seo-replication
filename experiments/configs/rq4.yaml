@@ -1,0 +1,79 @@
+# RQ4 Agentic Code Generation Experiment Configuration — Paper 1
+# Tests whether evolution-aware manifests improve agentic code generation.
+
+experiment:
+  name: "rq4_agentic_code_generation"
+  paper: 1
+  description: >
+    20 repos x 5 tasks = 100 tasks from real closed issues/PRs.
+    3 conditions (A=no manifest, B=human manifest, C=SENSO manifest).
+    2 NIM models x 3 conditions x 100 tasks x 3 repeats = 1,800 runs.
+
+models:
+  primary:
+    name: "meta/llama-3.3-70b-instruct"
+    api_key_env: "NVIDIA_API_KEY"
+    base_url: "https://integrate.api.nvidia.com/v1"
+  replication:
+    name: "mistralai/mistral-large-latest"
+    api_key_env: "NVIDIA_API_KEY_3"
+    base_url: "https://integrate.api.nvidia.com/v1"
+
+conditions:
+  A:
+    label: "no_manifest"
+    description: "No CLAUDE.md manifest in repo root"
+    manifest: null
+  B:
+    label: "human_manifest"
+    description: "Human-written CLAUDE.md manifest placed in repo root"
+    manifest_source: "human"
+  C:
+    label: "senso_manifest"
+    description: "SENSO-generated CLAUDE.md manifest placed in repo root"
+    manifest_source: "senso"
+
+execution:
+  temperature: 0.0
+  max_tokens: 4096
+  timeout_seconds: 600          # 10 minutes per run
+  repeats_per_task: 3
+  sequential: true
+  rate_limit_backoff_base: 5    # seconds
+  rate_limit_backoff_max: 120   # seconds
+  rate_limit_max_retries: 10
+  sleep_between_runs: 3         # seconds
+
+agent:
+  # OpenCode configuration for agentic runs
+  opencode_binary: "opencode"   # path or name on $PATH
+  simulated_mode: true          # fall back to direct NIM API multi-turn simulation
+  simulated_max_turns: 8        # max conversation turns in simulated mode
+  workspace_base: "/tmp/rq4_workspaces"
+
+task_selection:
+  repos_count: 20
+  tasks_per_repo: 5
+  max_diff_lines: 500
+  require_tests: true
+  languages:
+    - python
+    - javascript
+    - typescript
+    - java
+    - go
+
+metrics:
+  complexity_tool: "radon"      # radon or lizard
+  fallback_tool: "lizard"
+  diff_similarity_threshold: 0.6
+
+statistics:
+  friedman_alpha: 0.05
+  posthoc_alpha: 0.05
+  correction: "holm_bonferroni"
+
+output:
+  results_dir: "experiments/paper1_ontology_manifests/results/rq4"
+  logs_dir: "experiments/paper1_ontology_manifests/results/rq4/logs"
+  report_path: "experiments/paper1_ontology_manifests/results/rq4_report.json"

@@ -1,0 +1,388 @@
+# Competency Question Suite for Paper 1 — Software Evolution Ontology (SEO)
+# 15 SPARQL competency questions with expected result shapes and validation rules.
+#
+# Ontology IRI prefix: http://senso-framework.org/ontology/seo#
+# Designed for evaluation against a Fuseki triple store or in-memory RDF graph.
+#
+# Fields:
+#   id: CQ01-CQ15
+#   question: natural language question
+#   sparql: SPARQL query against the SEO ontology
+#   expected_result_shape: description of expected result structure
+#     columns: list of variable names in SELECT
+#     types: expected data types per column
+#   validation_rule: how to validate the result (Python expression using 'results')
+
+prefix: &prefix "http://senso-framework.org/ontology/seo#"
+
+competency_questions:
+
+  # ============================================================
+  # CQ01-CQ03: Entity Queries
+  # ============================================================
+
+  - id: CQ01
+    question: "List all software projects tracked in the ontology."
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+      SELECT ?project ?name ?language
+      WHERE {
+        ?project rdf:type seo:SoftwareProject .
+        OPTIONAL { ?project seo:hasName ?name }
+        OPTIONAL { ?project seo:hasPrimaryLanguage ?language }
+      }
+      ORDER BY ?name
+    expected_result_shape:
+      columns: ["project", "name", "language"]
+      types: ["uri", "string", "string"]
+    validation_rule: "result_count > 0"
+
+  - id: CQ02
+    question: "Find all versions (releases) of a given software project."
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?project ?version ?releaseDate ?versionTag
+      WHERE {
+        ?project rdf:type seo:SoftwareProject .
+        ?version rdf:type seo:Version .
+        ?version seo:belongsToProject ?project .
+        OPTIONAL { ?version seo:hasReleaseDate ?releaseDate }
+        OPTIONAL { ?version seo:hasVersionTag ?versionTag }
+      }
+      ORDER BY ?project ?releaseDate
+    expected_result_shape:
+      columns: ["project", "version", "releaseDate", "versionTag"]
+      types: ["uri", "uri", "dateTime", "string"]
+    validation_rule: "result_count > 0"
+
+  - id: CQ03
+    question: "Find all commits made by AI coding agents (not human developers)."
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?commit ?agent ?commitDate ?message
+      WHERE {
+        ?commit rdf:type seo:AgentCommit .
+        ?commit seo:madeByAgent ?agent .
+        OPTIONAL { ?commit seo:hasCommitDate ?commitDate }
+        OPTIONAL { ?commit seo:hasMessage ?message }
+      }
+      ORDER BY DESC(?commitDate)
+    expected_result_shape:
+      columns: ["commit", "agent", "commitDate", "message"]
+      types: ["uri", "uri", "dateTime", "string"]
+    validation_rule: "result_count >= 0"
+
+  # ============================================================
+  # CQ04-CQ06: Process Queries
+  # ============================================================
+
+  - id: CQ04
+    question: "Which projects are currently in a growth phase?"
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?project ?projectName ?phase ?startDate
+      WHERE {
+        ?project rdf:type seo:SoftwareProject .
+        ?phase rdf:type seo:GrowthPhase .
+        ?project seo:experiencesPhase ?phase .
+        OPTIONAL { ?project seo:hasName ?projectName }
+        OPTIONAL { ?phase seo:hasStartDate ?startDate }
+      }
+      ORDER BY ?projectName
+    expected_result_shape:
+      columns: ["project", "projectName", "phase", "startDate"]
+      types: ["uri", "string", "uri", "dateTime"]
+    validation_rule: "result_count >= 0"
+
+  - id: CQ05
+    question: "Find all refactoring events and the modules they affected."
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?refactoring ?refType ?module ?date ?complexityDelta
+      WHERE {
+        ?refactoring rdf:type seo:RefactoringEvent .
+        OPTIONAL { ?refactoring seo:hasRefactoringType ?refType }
+        OPTIONAL { ?refactoring seo:affectsModule ?module }
+        OPTIONAL { ?refactoring seo:hasDate ?date }
+        OPTIONAL { ?refactoring seo:hasComplexityDelta ?complexityDelta }
+      }
+      ORDER BY DESC(?date)
+    expected_result_shape:
+      columns: ["refactoring", "refType", "module", "date", "complexityDelta"]
+      types: ["uri", "string", "uri", "dateTime", "float"]
+    validation_rule: "result_count >= 0"
+
+  - id: CQ06
+    question: "Find projects that experienced an agent adoption event (transition to AI-assisted development)."
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?project ?projectName ?adoptionEvent ?adoptionDate ?preAdoptionRatio ?postAdoptionRatio
+      WHERE {
+        ?project rdf:type seo:SoftwareProject .
+        ?adoptionEvent rdf:type seo:AgentAdoptionEvent .
+        ?adoptionEvent seo:occursInProject ?project .
+        OPTIONAL { ?project seo:hasName ?projectName }
+        OPTIONAL { ?adoptionEvent seo:hasDate ?adoptionDate }
+        OPTIONAL { ?adoptionEvent seo:hasPreAdoptionAgentRatio ?preAdoptionRatio }
+        OPTIONAL { ?adoptionEvent seo:hasPostAdoptionAgentRatio ?postAdoptionRatio }
+      }
+      ORDER BY ?adoptionDate
+    expected_result_shape:
+      columns: ["project", "projectName", "adoptionEvent", "adoptionDate", "preAdoptionRatio", "postAdoptionRatio"]
+      types: ["uri", "string", "uri", "dateTime", "float", "float"]
+    validation_rule: "result_count >= 0"
+
+  # ============================================================
+  # CQ07-CQ09: Metric Queries
+  # ============================================================
+
+  - id: CQ07
+    question: "What is the cyclomatic complexity trend for each project over the last 12 months?"
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+      SELECT ?project ?projectName ?month ?complexityAvg
+      WHERE {
+        ?project rdf:type seo:SoftwareProject .
+        ?metric rdf:type seo:ComplexityMetric .
+        ?metric seo:measuresProject ?project .
+        ?metric seo:hasMeasurementMonth ?month .
+        ?metric seo:hasComplexityAvg ?complexityAvg .
+        OPTIONAL { ?project seo:hasName ?projectName }
+      }
+      ORDER BY ?project ?month
+    expected_result_shape:
+      columns: ["project", "projectName", "month", "complexityAvg"]
+      types: ["uri", "string", "string", "float"]
+    validation_rule: "all_values_are_type('complexityAvg', float)"
+
+  - id: CQ08
+    question: "Which modules have coupling (fan-out) above the project's 75th percentile?"
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?project ?module ?moduleName ?fanOut ?projectP75FanOut
+      WHERE {
+        ?project rdf:type seo:SoftwareProject .
+        ?module rdf:type seo:Module .
+        ?module seo:belongsToProject ?project .
+        ?coupling rdf:type seo:CouplingMetric .
+        ?coupling seo:measuresModule ?module .
+        ?coupling seo:hasFanOut ?fanOut .
+        ?project seo:hasP75FanOut ?projectP75FanOut .
+        FILTER(?fanOut > ?projectP75FanOut)
+        OPTIONAL { ?module seo:hasName ?moduleName }
+      }
+      ORDER BY DESC(?fanOut)
+    expected_result_shape:
+      columns: ["project", "module", "moduleName", "fanOut", "projectP75FanOut"]
+      types: ["uri", "uri", "string", "integer", "integer"]
+    validation_rule: "all_values_satisfy('fanOut', 'projectP75FanOut', lambda fo, p75: fo > p75)"
+
+  - id: CQ09
+    question: "What is the agent contribution ratio (agent commits / total commits) per project per month?"
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?project ?projectName ?month ?agentRatio ?totalCommits ?agentCommits
+      WHERE {
+        ?metric rdf:type seo:AgentContributionRatio .
+        ?metric seo:measuresProject ?project .
+        ?metric seo:hasMeasurementMonth ?month .
+        ?metric seo:hasAgentRatio ?agentRatio .
+        OPTIONAL { ?metric seo:hasTotalCommits ?totalCommits }
+        OPTIONAL { ?metric seo:hasAgentCommits ?agentCommits }
+        OPTIONAL { ?project seo:hasName ?projectName }
+      }
+      ORDER BY ?project ?month
+    expected_result_shape:
+      columns: ["project", "projectName", "month", "agentRatio", "totalCommits", "agentCommits"]
+      types: ["uri", "string", "string", "float", "integer", "integer"]
+    validation_rule: "all_values_are_type('agentRatio', float) and all_values_in_range('agentRatio', 0.0, 1.0)"
+
+  # ============================================================
+  # CQ10-CQ12: Law Queries
+  # ============================================================
+
+  - id: CQ10
+    question: "Which projects have violations of any of Lehman's 8 evolution laws?"
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?project ?projectName ?law ?lawName ?violationDate ?severity
+      WHERE {
+        ?violation rdf:type seo:LawViolation .
+        ?violation seo:violatesLaw ?law .
+        ?violation seo:occursInProject ?project .
+        OPTIONAL { ?project seo:hasName ?projectName }
+        OPTIONAL { ?law seo:hasLawName ?lawName }
+        OPTIONAL { ?violation seo:hasDate ?violationDate }
+        OPTIONAL { ?violation seo:hasSeverity ?severity }
+      }
+      ORDER BY ?project ?law
+    expected_result_shape:
+      columns: ["project", "projectName", "law", "lawName", "violationDate", "severity"]
+      types: ["uri", "string", "uri", "string", "dateTime", "string"]
+    validation_rule: "result_count >= 0"
+
+  - id: CQ11
+    question: "Find projects where complexity increased without any refactoring in the same period (Law II without corrective action)."
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?project ?projectName ?month ?complexityBefore ?complexityAfter ?refactoringCount
+      WHERE {
+        ?project rdf:type seo:SoftwareProject .
+
+        ?metricBefore rdf:type seo:ComplexityMetric .
+        ?metricBefore seo:measuresProject ?project .
+        ?metricBefore seo:hasMeasurementMonth ?monthBefore .
+        ?metricBefore seo:hasComplexityAvg ?complexityBefore .
+
+        ?metricAfter rdf:type seo:ComplexityMetric .
+        ?metricAfter seo:measuresProject ?project .
+        ?metricAfter seo:hasMeasurementMonth ?month .
+        ?metricAfter seo:hasComplexityAvg ?complexityAfter .
+        ?metricAfter seo:succeedsMetric ?metricBefore .
+
+        FILTER(?complexityAfter > ?complexityBefore)
+
+        OPTIONAL {
+          SELECT ?project ?month (COUNT(?ref) AS ?refactoringCount)
+          WHERE {
+            ?ref rdf:type seo:RefactoringEvent .
+            ?ref seo:occursInProject ?project .
+            ?ref seo:hasMonth ?month .
+          }
+          GROUP BY ?project ?month
+        }
+        FILTER(!BOUND(?refactoringCount) || ?refactoringCount = 0)
+
+        OPTIONAL { ?project seo:hasName ?projectName }
+      }
+      ORDER BY ?project ?month
+    expected_result_shape:
+      columns: ["project", "projectName", "month", "complexityBefore", "complexityAfter", "refactoringCount"]
+      types: ["uri", "string", "string", "float", "float", "integer"]
+    validation_rule: "all_values_satisfy_single('complexityAfter', 'complexityBefore', lambda a, b: a > b)"
+
+  - id: CQ12
+    question: "What is the functional growth rate (new features per month) for active projects, and does it satisfy Law VI?"
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?project ?projectName ?monthCount ?totalNewFeatures
+             ((?totalNewFeatures / ?monthCount) AS ?avgFeaturesPerMonth)
+             ?satisfiesLawVI
+      WHERE {
+        {
+          SELECT ?project (COUNT(DISTINCT ?month) AS ?monthCount) (SUM(?features) AS ?totalNewFeatures)
+          WHERE {
+            ?activity rdf:type seo:ActivityMetric .
+            ?activity seo:measuresProject ?project .
+            ?activity seo:hasMeasurementMonth ?month .
+            ?activity seo:hasNewFeatureCount ?features .
+          }
+          GROUP BY ?project
+        }
+        OPTIONAL { ?project seo:hasName ?projectName }
+        BIND(IF(?totalNewFeatures / ?monthCount > 1, true, false) AS ?satisfiesLawVI)
+      }
+      ORDER BY DESC(?avgFeaturesPerMonth)
+    expected_result_shape:
+      columns: ["project", "projectName", "monthCount", "totalNewFeatures", "avgFeaturesPerMonth", "satisfiesLawVI"]
+      types: ["uri", "string", "integer", "integer", "float", "boolean"]
+    validation_rule: "all_values_are_type('avgFeaturesPerMonth', float)"
+
+  # ============================================================
+  # CQ13-CQ15: Pattern Queries
+  # ============================================================
+
+  - id: CQ13
+    question: "Find all instances of Shadow Tech Debt — projects where agent-generated code adds complexity without proportional architectural improvement."
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?project ?projectName ?pattern ?detectionDate ?agentRatio ?complexityGrowthRate ?locGrowthRate
+      WHERE {
+        ?pattern rdf:type seo:ShadowTechDebt .
+        ?pattern seo:detectedInProject ?project .
+        OPTIONAL { ?project seo:hasName ?projectName }
+        OPTIONAL { ?pattern seo:hasDetectionDate ?detectionDate }
+        OPTIONAL { ?pattern seo:hasAgentRatio ?agentRatio }
+        OPTIONAL { ?pattern seo:hasComplexityGrowthRate ?complexityGrowthRate }
+        OPTIONAL { ?pattern seo:hasLOCGrowthRate ?locGrowthRate }
+      }
+      ORDER BY DESC(?complexityGrowthRate)
+    expected_result_shape:
+      columns: ["project", "projectName", "pattern", "detectionDate", "agentRatio", "complexityGrowthRate", "locGrowthRate"]
+      types: ["uri", "string", "uri", "dateTime", "float", "float", "float"]
+    validation_rule: "result_count >= 0"
+
+  - id: CQ14
+    question: "Find all instances of Dependency Sprawl — projects with rapidly growing dependency counts, especially in agent-heavy periods."
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+      SELECT ?project ?projectName ?pattern ?depCountStart ?depCountEnd
+             ((?depCountEnd - ?depCountStart) AS ?depGrowth)
+             ?agentRatio
+      WHERE {
+        ?pattern rdf:type seo:DependencySprawl .
+        ?pattern seo:detectedInProject ?project .
+        OPTIONAL { ?project seo:hasName ?projectName }
+        OPTIONAL { ?pattern seo:hasDependencyCountStart ?depCountStart }
+        OPTIONAL { ?pattern seo:hasDependencyCountEnd ?depCountEnd }
+        OPTIONAL { ?pattern seo:hasAgentRatio ?agentRatio }
+      }
+      ORDER BY DESC(?depGrowth)
+    expected_result_shape:
+      columns: ["project", "projectName", "pattern", "depCountStart", "depCountEnd", "depGrowth", "agentRatio"]
+      types: ["uri", "string", "uri", "integer", "integer", "integer", "float"]
+    validation_rule: "result_count >= 0"
+
+  - id: CQ15
+    question: "Get the severity and type of all detected evolution anti-patterns, grouped by project."
+    sparql: |
+      PREFIX seo: <http://senso-framework.org/ontology/seo#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+      SELECT ?project ?projectName ?pattern ?patternType ?severity ?detectionDate ?description
+      WHERE {
+        ?pattern rdf:type ?patternType .
+        ?patternType rdfs:subClassOf seo:EvolutionAntiPattern .
+        ?pattern seo:detectedInProject ?project .
+        OPTIONAL { ?project seo:hasName ?projectName }
+        OPTIONAL { ?pattern seo:hasSeverity ?severity }
+        OPTIONAL { ?pattern seo:hasDetectionDate ?detectionDate }
+        OPTIONAL { ?pattern seo:hasDescription ?description }
+        FILTER(?patternType != seo:EvolutionAntiPattern)
+      }
+      ORDER BY ?project ?severity
+    expected_result_shape:
+      columns: ["project", "projectName", "pattern", "patternType", "severity", "detectionDate", "description"]
+      types: ["uri", "string", "uri", "uri", "string", "dateTime", "string"]
+    validation_rule: "result_count >= 0"

@@ -1,0 +1,20 @@
+{
+  "repo": "kubernetes-sigs/cloud-provider-azure",
+  "language": "go",
+  "status": "completed",
+  "total_commits": 1999,
+  "total_months": 25,
+  "total_triples": 2363,
+  "triples_loaded": 2363,
+  "phase": "stabilization",
+  "law_conformance": {
+    "law_1": true,
+    "law_2": false,
+    "law_3": false,
+    "law_4": true,
+    "law_5": false,
+    "law_6": true,
+    "law_7": true,
+    "law_8": true
+  }
+}

@@ -1,0 +1,37 @@
+# Real experiments configuration — Paper 1
+# Runs RQ2-RQ4 against real GitHub repositories instead of synthetic data.
+
+repos:
+  search_query: "filename:CLAUDE.md"
+  min_stars: 50
+  min_history_months: 12
+  languages: [Python, JavaScript, TypeScript, Java, Go]
+  target_count: 25
+  exclude_forks: true
+  exclude_archived: true
+
+fuseki:
+  fuseki_url: "http://localhost:3030"
+  dataset: "seo"
+
+mining:
+  lookback_months: 24
+  complexity_sample_months: 6
+
+manifests:
+  use_llm: true
+  model: "meta/llama-3.3-70b-instruct"
+
+rq4:
+  tasks_per_repo: 5
+  max_diff_lines: 1500
+  temperature: 0.0
+  max_tokens: 4096
+  repeats_per_task: 1
+  # Also discover additional high-star repos with good issue/PR hygiene
+  # (separate from the CLAUDE.md repos) to reach ≥30 tasks
+  discover_additional_repos: true
+  additional_repo_count: 40
+
+output:
+  base_dir: "experiments/paper1_ontology_manifests/results/real"

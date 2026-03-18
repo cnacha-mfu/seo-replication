@@ -1,0 +1,20 @@
+{
+  "repo": "javascript-obfuscator/javascript-obfuscator",
+  "language": "typescript",
+  "status": "completed",
+  "total_commits": 41,
+  "total_months": 6,
+  "total_triples": 701,
+  "triples_loaded": 701,
+  "phase": "stabilization",
+  "law_conformance": {
+    "law_1": true,
+    "law_2": true,
+    "law_3": true,
+    "law_4": true,
+    "law_5": true,
+    "law_6": true,
+    "law_7": true,
+    "law_8": false
+  }
+}

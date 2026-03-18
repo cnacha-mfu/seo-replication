@@ -1,0 +1,20 @@
+{
+  "repo": "run-llama/LlamaIndexTS",
+  "language": "typescript",
+  "status": "completed",
+  "total_commits": 1205,
+  "total_months": 23,
+  "total_triples": 2659,
+  "triples_loaded": 2659,
+  "phase": "decline",
+  "law_conformance": {
+    "law_1": true,
+    "law_2": false,
+    "law_3": true,
+    "law_4": true,
+    "law_5": true,
+    "law_6": false,
+    "law_7": false,
+    "law_8": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "n_pairs": 23,
+  "n_judgments": 918,
+  "data_source": "real_github_repos",
+  "agreement": {
+    "evolution_coverage": {
+      "krippendorff_alpha": 0.7686
+    },
+    "architectural_specificity": {
+      "krippendorff_alpha": 0.2403
+    },
+    "actionability": {
+      "krippendorff_alpha": 0.2968
+    },
+    "phase_awareness": {
+      "krippendorff_alpha": 0.8035
+    }
+  },
+  "wilcoxon_tests": {
+    "evolution_coverage": {
+      "wilcoxon_stat": 0.0,
+      "p_value": 2.4e-05,
+      "cliffs_delta": 1.0,
+      "effect_magnitude": "large",
+      "human_mean": 1.409,
+      "senso_mean": 3.383,
+      "n_pairs": 23,
+      "significant_after_correction": true
+    },
+    "architectural_specificity": {
+      "wilcoxon_stat": 64.5,
+      "p_value": 0.357732,
+      "cliffs_delta": -0.155,
+      "effect_magnitude": "small",
+      "human_mean": 2.783,
+      "senso_mean": 2.8,
+      "n_pairs": 23,
+      "significant_after_correction": false
+    },
+    "actionability": {
+      "wilcoxon_stat": 0.0,
+      "p_value": 3.8e-05,
+      "cliffs_delta": 0.8979,
+      "effect_magnitude": "large",
+      "human_mean": 2.696,
+      "senso_mean": 3.278,
+      "n_pairs": 23,
+      "significant_after_correction": true
+    },
+    "phase_awareness": {
+      "wilcoxon_stat": 2.0,
+      "p_value": 3.4e-05,
+      "cliffs_delta": 0.9849,
+      "effect_magnitude": "large",
+      "human_mean": 1.543,
+      "senso_mean": 3.617,
+      "n_pairs": 23,
+      "significant_after_correction": true
+    }
+  }
+}

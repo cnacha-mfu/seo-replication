@@ -1,0 +1,20 @@
+{
+  "repo": "saleor/macaw-ui",
+  "language": "typescript",
+  "status": "completed",
+  "total_commits": 90,
+  "total_months": 18,
+  "total_triples": 983,
+  "triples_loaded": 983,
+  "phase": "stabilization",
+  "law_conformance": {
+    "law_1": true,
+    "law_2": false,
+    "law_3": true,
+    "law_4": true,
+    "law_5": true,
+    "law_6": true,
+    "law_7": false,
+    "law_8": false
+  }
+}

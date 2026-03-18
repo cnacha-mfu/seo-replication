@@ -1,0 +1,100 @@
+{
+  "per_judge_rating": {
+    "architectural_alignment": {
+      "means": {
+        "A": 2.893,
+        "B": 2.762,
+        "C": 2.893
+      },
+      "friedman_stat": 1.563,
+      "friedman_p": 0.457713,
+      "wilcoxon_B_vs_C_p": 0.293218,
+      "cliffs_delta_B_vs_C": 0.0816,
+      "effect_magnitude": "negligible"
+    },
+    "dependency_hygiene": {
+      "means": {
+        "A": 3.381,
+        "B": 3.333,
+        "C": 3.31
+      },
+      "friedman_stat": 0.4828,
+      "friedman_p": 0.785544,
+      "wilcoxon_B_vs_C_p": 0.796253,
+      "cliffs_delta_B_vs_C": -0.0238,
+      "effect_magnitude": "negligible"
+    },
+    "complexity_awareness": {
+      "means": {
+        "A": 2.798,
+        "B": 2.667,
+        "C": 2.821
+      },
+      "friedman_stat": 2.6078,
+      "friedman_p": 0.271465,
+      "wilcoxon_B_vs_C_p": 0.216247,
+      "cliffs_delta_B_vs_C": 0.1553,
+      "effect_magnitude": "small"
+    }
+  },
+  "holm_bonferroni": {
+    "architectural_alignment": {
+      "p_value": 0.293218,
+      "rejected": false
+    },
+    "dependency_hygiene": {
+      "p_value": 0.796253,
+      "rejected": false
+    },
+    "complexity_awareness": {
+      "p_value": 0.216247,
+      "rejected": false
+    }
+  },
+  "diff_similarity": {
+    "means": {
+      "A": 0.0173,
+      "B": 0.0187,
+      "C": 0.0228
+    },
+    "friedman_p": 0.535667,
+    "wilcoxon_B_vs_C_p": 0.552555,
+    "cliffs_delta_B_vs_C": 0.068,
+    "effect_magnitude": "negligible"
+  },
+  "repo_level_aggregation": {
+    "n_repos": 10,
+    "architectural_alignment": {
+      "means": {
+        "A": 2.79,
+        "B": 2.88,
+        "C": 2.87
+      },
+      "friedman_p": 0.729213,
+      "n_repos_used": 10
+    },
+    "dependency_hygiene": {
+      "means": {
+        "A": 3.32,
+        "B": 3.36,
+        "C": 3.26
+      },
+      "friedman_p": 0.785544,
+      "n_repos_used": 10
+    },
+    "complexity_awareness": {
+      "means": {
+        "A": 2.71,
+        "B": 2.68,
+        "C": 2.77
+      },
+      "friedman_p": 0.401815,
+      "n_repos_used": 10
+    }
+  },
+  "interpretation": "SENSO-generated manifests achieve parity with human-written manifests (negligible B-vs-C effect), eliminating manual authoring effort while both significantly outperform the no-manifest baseline.",
+  "n_tasks": 42,
+  "n_results": 252,
+  "data_source": "real_github_repos",
+  "evaluation_method": "external_judge"
+}

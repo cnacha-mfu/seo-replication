@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://senso-framework.org/ontology/seo/seo-entities"
+         xmlns="http://senso-framework.org/ontology/seo/seo-entities#">
+
+<owl:Ontology rdf:about="http://senso-framework.org/ontology/seo/seo-entities"/>
+
+<owl:ObjectProperty rdf:about="#hasVersion">
+  <rdfs:domain rdf:resource="#SoftwareProject"/>
+  <rdfs:range rdf:resource="#Version"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasModule">
+  <rdfs:domain rdf:resource="#SoftwareProject"/>
+  <rdfs:range rdf:resource="#Module"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasFile">
+  <rdfs:domain rdf:resource="#Module"/>
+  <rdfs:range rdf:resource="#File"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasFunction">
+  <rdfs:domain rdf:resource="#File"/>
+  <rdfs:range rdf:resource="#Function"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasDependency">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#SoftwareProject"/>
+        <rdf:Description rdf:about="#Module"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="#Dependency"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasCommit">
+  <rdfs:domain rdf:resource="#Version"/>
+  <rdfs:range rdf:resource="#Commit"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasRelease">
+  <rdfs:domain rdf:resource="#SoftwareProject"/>
+  <rdfs:range rdf:resource="#Release"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasAuthor">
+  <rdfs:domain rdf:resource="#Commit"/>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Developer"/>
+        <rdf:Description rdf:about="#CodingAgent"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#modifiesFile">
+  <rdfs:domain rdf:resource="#Commit"/>
+  <rdfs:range rdf:resource="#File"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasParent">
+  <rdfs:domain rdf:resource="#Version"/>
+  <rdfs:range rdf:resource="#Version"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#dependsOn">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Module"/>
+        <rdf:Description rdf:about="#File"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Module"/>
+        <rdf:Description rdf:about="#File"/>
+        <rdf:Description rdf:about="#Dependency"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#SoftwareProject">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:comment xml:lang="en">Paper 1 — top-level entity representing a software project.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Version">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:comment xml:lang="en">Paper 1 — represents a point-in-time snapshot.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Module">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#File">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Function">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Dependency">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Developer">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Commit">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:comment xml:lang="en">Paper 1 — atomic change event.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#Release">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CodingAgent">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:comment xml:lang="en">Paper 1 — agent-aware extension.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AgentCommit">
+  <rdfs:subClassOf rdf:resource="#Commit"/>
+  <rdfs:comment xml:lang="en">Paper 1 — subclass of Commit for agent-generated changes.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#AgentManifest">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#AgentGeneratedPR">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#SoftwareProject"/>
+    <rdf:Description rdf:about="#Version"/>
+    <rdf:Description rdf:about="#Module"/>
+    <rdf:Description rdf:about="#File"/>
+    <rdf:Description rdf:about="#Function"/>
+    <rdf:Description rdf:about="#Dependency"/>
+    <rdf:Description rdf:about="#Developer"/>
+    <rdf:Description rdf:about="#Commit"/>
+    <rdf:Description rdf:about="#Release"/>
+    <rdf:Description rdf:about="#CodingAgent"/>
+    <rdf:Description rdf:about="#AgentManifest"/>
+    <rdf:Description rdf:about="#AgentGeneratedPR"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+
+</rdf:RDF>

@@ -1,0 +1,471 @@
+{
+  "n_repos": 23,
+  "repos_processed": 0,
+  "total_triples": 21721,
+  "sample_size": 915,
+  "correct_triples": 915,
+  "population_precision": 1.0,
+  "error_breakdown": {},
+  "per_repo_stats": [
+    {
+      "repo": "cypress-io/cypress",
+      "language": "typescript",
+      "status": "completed",
+      "total_commits": 2343,
+      "total_months": 25,
+      "total_triples": 3221,
+      "triples_loaded": 3221,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": false,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": false,
+        "law_8": true
+      }
+    },
+    {
+      "repo": "Vortiago/mcp-outline",
+      "language": "python",
+      "status": "completed",
+      "total_commits": 82,
+      "total_months": 6,
+      "total_triples": 540,
+      "triples_loaded": 540,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": true,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "javascript-obfuscator/javascript-obfuscator",
+      "language": "typescript",
+      "status": "completed",
+      "total_commits": 41,
+      "total_months": 6,
+      "total_triples": 701,
+      "triples_loaded": 701,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": true,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "nanobrowser/nanobrowser",
+      "language": "typescript",
+      "status": "completed",
+      "total_commits": 368,
+      "total_months": 12,
+      "total_triples": 723,
+      "triples_loaded": 723,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": true,
+        "law_8": true
+      }
+    },
+    {
+      "repo": "the-cafe/git-ai-commit",
+      "language": "python",
+      "status": "completed",
+      "total_commits": 119,
+      "total_months": 3,
+      "total_triples": 171,
+      "triples_loaded": 171,
+      "phase": "unknown",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": false,
+        "law_4": false,
+        "law_5": false,
+        "law_6": false,
+        "law_7": false,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "rpmuller/pyquante2",
+      "language": "python",
+      "status": "completed",
+      "total_commits": 49,
+      "total_months": 2,
+      "total_triples": 184,
+      "triples_loaded": 184,
+      "phase": "unknown",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": false,
+        "law_3": false,
+        "law_4": false,
+        "law_5": false,
+        "law_6": false,
+        "law_7": false,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "lerna/lerna",
+      "language": "typescript",
+      "status": "completed",
+      "total_commits": 151,
+      "total_months": 18,
+      "total_triples": 1158,
+      "triples_loaded": 1158,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": false,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": false,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "pcingola/SnpEff",
+      "language": "java",
+      "status": "completed",
+      "total_commits": 92,
+      "total_months": 15,
+      "total_triples": 731,
+      "triples_loaded": 731,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": false,
+        "law_4": true,
+        "law_5": false,
+        "law_6": true,
+        "law_7": false,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "run-llama/LlamaIndexTS",
+      "language": "typescript",
+      "status": "completed",
+      "total_commits": 1205,
+      "total_months": 23,
+      "total_triples": 2659,
+      "triples_loaded": 2659,
+      "phase": "decline",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": false,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": false,
+        "law_7": false,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "kubernetes-sigs/cloud-provider-azure",
+      "language": "go",
+      "status": "completed",
+      "total_commits": 1999,
+      "total_months": 25,
+      "total_triples": 2363,
+      "triples_loaded": 2363,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": false,
+        "law_3": false,
+        "law_4": true,
+        "law_5": false,
+        "law_6": true,
+        "law_7": true,
+        "law_8": true
+      }
+    },
+    {
+      "repo": "simstudioai/sim",
+      "language": "typescript",
+      "status": "completed",
+      "total_commits": 3816,
+      "total_months": 15,
+      "total_triples": 1136,
+      "triples_loaded": 1136,
+      "phase": "growth",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": true,
+        "law_8": true
+      }
+    },
+    {
+      "repo": "noahlh/celestite",
+      "language": "javascript",
+      "status": "completed",
+      "total_commits": 5,
+      "total_months": 2,
+      "total_triples": 135,
+      "triples_loaded": 135,
+      "phase": "unknown",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": false,
+        "law_3": false,
+        "law_4": false,
+        "law_5": false,
+        "law_6": false,
+        "law_7": false,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "nats-io/nats.go",
+      "language": "go",
+      "status": "completed",
+      "total_commits": 228,
+      "total_months": 25,
+      "total_triples": 899,
+      "triples_loaded": 899,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": true,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "snowplow/snowplow-javascript-tracker",
+      "language": "typescript",
+      "status": "completed",
+      "total_commits": 219,
+      "total_months": 23,
+      "total_triples": 1373,
+      "triples_loaded": 1373,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": false,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "braintree/braintree-web",
+      "language": "javascript",
+      "status": "completed",
+      "total_commits": 57,
+      "total_months": 22,
+      "total_triples": 1157,
+      "triples_loaded": 1157,
+      "phase": "growth",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": false,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": true,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "apache/skywalking",
+      "language": "java",
+      "status": "completed",
+      "total_commits": 518,
+      "total_months": 25,
+      "total_triples": 1035,
+      "triples_loaded": 1035,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": true,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "lambrospetrou/durable-utils",
+      "language": "typescript",
+      "status": "completed",
+      "total_commits": 86,
+      "total_months": 5,
+      "total_triples": 272,
+      "triples_loaded": 272,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": false,
+        "law_4": false,
+        "law_5": true,
+        "law_6": true,
+        "law_7": true,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "scopewu/qrcode.vue",
+      "language": "typescript",
+      "status": "completed",
+      "total_commits": 51,
+      "total_months": 18,
+      "total_triples": 626,
+      "triples_loaded": 626,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": false,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "saleor/macaw-ui",
+      "language": "typescript",
+      "status": "completed",
+      "total_commits": 90,
+      "total_months": 18,
+      "total_triples": 983,
+      "triples_loaded": 983,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": false,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": false,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "cellwebb/gac",
+      "language": "python",
+      "status": "completed",
+      "total_commits": 1146,
+      "total_months": 12,
+      "total_triples": 590,
+      "triples_loaded": 590,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": true,
+        "law_8": true
+      }
+    },
+    {
+      "repo": "VCnoC/Claude-Code-Zen-mcp-Skill-Work",
+      "language": "python",
+      "status": "completed",
+      "total_commits": 31,
+      "total_months": 2,
+      "total_triples": 117,
+      "triples_loaded": 117,
+      "phase": "unknown",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": false,
+        "law_3": false,
+        "law_4": false,
+        "law_5": false,
+        "law_6": false,
+        "law_7": false,
+        "law_8": false
+      }
+    },
+    {
+      "repo": "felipebarcelospro/igniter-js",
+      "language": "typescript",
+      "status": "completed",
+      "total_commits": 311,
+      "total_months": 10,
+      "total_triples": 595,
+      "triples_loaded": 595,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": true,
+        "law_8": true
+      }
+    },
+    {
+      "repo": "popstas/telegram-download-chat",
+      "language": "python",
+      "status": "completed",
+      "total_commits": 138,
+      "total_months": 6,
+      "total_triples": 352,
+      "triples_loaded": 352,
+      "phase": "stabilization",
+      "law_conformance": {
+        "law_1": true,
+        "law_2": true,
+        "law_3": true,
+        "law_4": true,
+        "law_5": true,
+        "law_6": true,
+        "law_7": false,
+        "law_8": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://senso-framework.org/ontology/seo/seo-laws"
+         xmlns="http://senso-framework.org/ontology/seo/seo-laws#"
+         xmlns:swrl="http://www.w3.org/2003/11/swrl#">
+
+<owl:Ontology rdf:about="http://senso-framework.org/ontology/seo/seo-laws">
+  <owl:imports rdf:resource="http://senso-framework.org/ontology/seo/seo-entities"/>
+  <owl:imports rdf:resource="http://senso-framework.org/ontology/seo/seo-processes"/>
+  <owl:imports rdf:resource="http://senso-framework.org/ontology/seo/seo-metrics"/>
+  <rdfs:comment xml:lang="en">Law III (Self-Regulation): Expressed as a statistical invariant — growth rate is stationary (KPSS test). Cannot be captured as a single SWRL rule; validated via time-series analysis in Paper 3.</rdfs:comment>
+  <rdfs:comment xml:lang="en">Law IV (Conservation of Org Stability): Work rate is approximately constant. Validated via coefficient-of-variation on workRate. Statistical property, not expressible as SWRL.</rdfs:comment>
+  <rdfs:comment xml:lang="en">Law V (Conservation of Familiarity): Incremental growth per release is approximately constant. Validated via trend analysis on incrementalGrowth. Statistical property.</rdfs:comment>
+  <rdfs:comment xml:lang="en">Law VIII (Feedback System): Evolution is a multi-loop feedback process. Modelled structurally via the interplay of all other modules; not reducible to a single axiom.</rdfs:comment>
+</owl:Ontology>
+
+<owl:ObjectProperty rdf:about="#conformsToLaw">
+  <rdfs:domain rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#SoftwareProject"/>
+  <rdfs:range rdf:resource="#LawConformance"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#violatesLaw">
+  <rdfs:domain rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#SoftwareProject"/>
+  <rdfs:range rdf:resource="#LawViolation"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#lawType">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LawConformance"/>
+        <rdf:Description rdf:about="#LawViolation"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="#LehmanLaw"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#succeeds">
+  <rdfs:domain rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#Version"/>
+  <rdfs:range rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#Version"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#usedInRealWorld">
+  <rdfs:domain rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#SoftwareProject"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#activeDevelopment">
+  <rdfs:domain rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#SoftwareProject"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#qualityScore">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#Version"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#growthRate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#Version"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#workRate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#Version"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#incrementalGrowth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#Release"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#LehmanLaw">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:comment xml:lang="en">Paper 1 — formal representation of Lehman's laws.</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="#LawConformance">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#LawViolation">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#LawI_ContinuingChange">
+  <rdf:type rdf:resource="#LehmanLaw"/>
+  <rdfs:comment xml:lang="en">A program used in a real-world environment must be continually adapted, else it becomes progressively less satisfactory.</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LawII_IncreasingComplexity">
+  <rdf:type rdf:resource="#LehmanLaw"/>
+  <rdfs:comment xml:lang="en">As a program evolves, its complexity increases unless work is done to maintain or reduce it.</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LawIII_SelfRegulation">
+  <rdf:type rdf:resource="#LehmanLaw"/>
+  <rdfs:comment xml:lang="en">The evolution process is self-regulating with statistically determinable trends and invariances.</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LawIV_ConservationOfOrgStability">
+  <rdf:type rdf:resource="#LehmanLaw"/>
+  <rdfs:comment xml:lang="en">The average effective global activity rate on an evolving system is approximately constant over its lifetime.</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LawV_ConservationOfFamiliarity">
+  <rdf:type rdf:resource="#LehmanLaw"/>
+  <rdfs:comment xml:lang="en">The average incremental growth per release tends to remain constant or decline over a system's lifetime.</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LawVI_ContinuingGrowth">
+  <rdf:type rdf:resource="#LehmanLaw"/>
+  <rdfs:comment xml:lang="en">The functional content of a system must be continually increased to maintain user satisfaction.</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LawVII_DecliningQuality">
+  <rdf:type rdf:resource="#LehmanLaw"/>
+  <rdfs:comment xml:lang="en">The quality of a system will appear to be declining unless it is rigorously maintained and adapted.</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LawVIII_FeedbackSystem">
+  <rdf:type rdf:resource="#LehmanLaw"/>
+  <rdfs:comment xml:lang="en">Evolution processes are multi-level, multi-loop, multi-agent feedback systems.</rdfs:comment>
+</owl:NamedIndividual>
+
+<swrl:Variable rdf:about="urn:swrl#p"/>
+
+<swrl:Variable rdf:about="urn:swrl#e"/>
+
+<swrl:Variable rdf:about="urn:swrl#v"/>
+
+<swrl:Variable rdf:about="urn:swrl#c"/>
+
+<swrl:Variable rdf:about="urn:swrl#v1"/>
+
+<swrl:Variable rdf:about="urn:swrl#v2"/>
+
+<swrl:Variable rdf:about="urn:swrl#m1"/>
+
+<swrl:Variable rdf:about="urn:swrl#val1"/>
+
+<swrl:Variable rdf:about="urn:swrl#m2"/>
+
+<swrl:Variable rdf:about="urn:swrl#val2"/>
+
+<swrl:Variable rdf:about="urn:swrl#g"/>
+
+<swrl:Variable rdf:about="urn:swrl#q1"/>
+
+<swrl:Variable rdf:about="urn:swrl#q2"/>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#Version"/>
+          <swrl:argument1 rdf:resource="urn:swrl#v1"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:ClassAtom>
+              <swrl:classPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#Version"/>
+              <swrl:argument1 rdf:resource="urn:swrl#v2"/>
+            </swrl:ClassAtom>
+          </rdf:first>
+          <rdf:rest>
+            <rdf:Description>
+              <rdf:first>
+                <swrl:IndividualPropertyAtom>
+                  <swrl:propertyPredicate rdf:resource="#succeeds"/>
+                  <swrl:argument1 rdf:resource="urn:swrl#v2"/>
+                  <swrl:argument2 rdf:resource="urn:swrl#v1"/>
+                </swrl:IndividualPropertyAtom>
+              </rdf:first>
+              <rdf:rest>
+                <rdf:Description>
+                  <rdf:first>
+                    <swrl:DatavaluedPropertyAtom>
+                      <swrl:propertyPredicate rdf:resource="#qualityScore"/>
+                      <swrl:argument1 rdf:resource="urn:swrl#v1"/>
+                      <swrl:argument2 rdf:resource="urn:swrl#q1"/>
+                    </swrl:DatavaluedPropertyAtom>
+                  </rdf:first>
+                  <rdf:rest>
+                    <rdf:Description>
+                      <rdf:first>
+                        <swrl:DatavaluedPropertyAtom>
+                          <swrl:propertyPredicate rdf:resource="#qualityScore"/>
+                          <swrl:argument1 rdf:resource="urn:swrl#v2"/>
+                          <swrl:argument2 rdf:resource="urn:swrl#q2"/>
+                        </swrl:DatavaluedPropertyAtom>
+                      </rdf:first>
+                      <rdf:rest>
+                        <rdf:Description>
+                          <rdf:first>
+                            <swrl:BuiltinAtom>
+                              <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                              <swrl:arguments>
+                                <rdf:Description>
+                                  <rdf:first rdf:resource="urn:swrl#q2"/>
+                                  <rdf:rest>
+                                    <rdf:Description>
+                                      <rdf:first rdf:resource="urn:swrl#q1"/>
+                                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                  </rdf:rest>
+                                </rdf:Description>
+                              </swrl:arguments>
+                            </swrl:BuiltinAtom>
+                          </rdf:first>
+                          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                        </rdf:Description>
+                      </rdf:rest>
+                    </rdf:Description>
+                  </rdf:rest>
+                </rdf:Description>
+              </rdf:rest>
+            </rdf:Description>
+          </rdf:rest>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#LawConformance"/>
+          <swrl:argument1 rdf:resource="urn:swrl#c"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#SoftwareProject"/>
+          <swrl:argument1 rdf:resource="urn:swrl#p"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:DatavaluedPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="#activeDevelopment"/>
+              <swrl:argument1 rdf:resource="urn:swrl#p"/>
+              <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+            </swrl:DatavaluedPropertyAtom>
+          </rdf:first>
+          <rdf:rest>
+            <rdf:Description>
+              <rdf:first>
+                <swrl:ClassAtom>
+                  <swrl:classPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-processes#GrowthPhase"/>
+                  <swrl:argument1 rdf:resource="urn:swrl#g"/>
+                </swrl:ClassAtom>
+              </rdf:first>
+              <rdf:rest>
+                <rdf:Description>
+                  <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                      <swrl:propertyPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-processes#experiencesPhase"/>
+                      <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                      <swrl:argument2 rdf:resource="urn:swrl#g"/>
+                    </swrl:IndividualPropertyAtom>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </rdf:rest>
+            </rdf:Description>
+          </rdf:rest>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#LawConformance"/>
+          <swrl:argument1 rdf:resource="urn:swrl#c"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:IndividualPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="#conformsToLaw"/>
+              <swrl:argument1 rdf:resource="urn:swrl#p"/>
+              <swrl:argument2 rdf:resource="urn:swrl#c"/>
+            </swrl:IndividualPropertyAtom>
+          </rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:head>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#Version"/>
+          <swrl:argument1 rdf:resource="urn:swrl#v1"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:ClassAtom>
+              <swrl:classPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#Version"/>
+              <swrl:argument1 rdf:resource="urn:swrl#v2"/>
+            </swrl:ClassAtom>
+          </rdf:first>
+          <rdf:rest>
+            <rdf:Description>
+              <rdf:first>
+                <swrl:IndividualPropertyAtom>
+                  <swrl:propertyPredicate rdf:resource="#succeeds"/>
+                  <swrl:argument1 rdf:resource="urn:swrl#v2"/>
+                  <swrl:argument2 rdf:resource="urn:swrl#v1"/>
+                </swrl:IndividualPropertyAtom>
+              </rdf:first>
+              <rdf:rest>
+                <rdf:Description>
+                  <rdf:first>
+                    <swrl:ClassAtom>
+                      <swrl:classPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-metrics#ComplexityMetric"/>
+                      <swrl:argument1 rdf:resource="urn:swrl#m1"/>
+                    </swrl:ClassAtom>
+                  </rdf:first>
+                  <rdf:rest>
+                    <rdf:Description>
+                      <rdf:first>
+                        <swrl:IndividualPropertyAtom>
+                          <swrl:propertyPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-metrics#measuredAt"/>
+                          <swrl:argument1 rdf:resource="urn:swrl#m1"/>
+                          <swrl:argument2 rdf:resource="urn:swrl#v1"/>
+                        </swrl:IndividualPropertyAtom>
+                      </rdf:first>
+                      <rdf:rest>
+                        <rdf:Description>
+                          <rdf:first>
+                            <swrl:DatavaluedPropertyAtom>
+                              <swrl:propertyPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-metrics#metricValue"/>
+                              <swrl:argument1 rdf:resource="urn:swrl#m1"/>
+                              <swrl:argument2 rdf:resource="urn:swrl#val1"/>
+                            </swrl:DatavaluedPropertyAtom>
+                          </rdf:first>
+                          <rdf:rest>
+                            <rdf:Description>
+                              <rdf:first>
+                                <swrl:ClassAtom>
+                                  <swrl:classPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-metrics#ComplexityMetric"/>
+                                  <swrl:argument1 rdf:resource="urn:swrl#m2"/>
+                                </swrl:ClassAtom>
+                              </rdf:first>
+                              <rdf:rest>
+                                <rdf:Description>
+                                  <rdf:first>
+                                    <swrl:IndividualPropertyAtom>
+                                      <swrl:propertyPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-metrics#measuredAt"/>
+                                      <swrl:argument1 rdf:resource="urn:swrl#m2"/>
+                                      <swrl:argument2 rdf:resource="urn:swrl#v2"/>
+                                    </swrl:IndividualPropertyAtom>
+                                  </rdf:first>
+                                  <rdf:rest>
+                                    <rdf:Description>
+                                      <rdf:first>
+                                        <swrl:DatavaluedPropertyAtom>
+                                          <swrl:propertyPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-metrics#metricValue"/>
+                                          <swrl:argument1 rdf:resource="urn:swrl#m2"/>
+                                          <swrl:argument2 rdf:resource="urn:swrl#val2"/>
+                                        </swrl:DatavaluedPropertyAtom>
+                                      </rdf:first>
+                                      <rdf:rest>
+                                        <rdf:Description>
+                                          <rdf:first>
+                                            <swrl:BuiltinAtom>
+                                              <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
+                                              <swrl:arguments>
+                                                <rdf:Description>
+                                                  <rdf:first rdf:resource="urn:swrl#val2"/>
+                                                  <rdf:rest>
+                                                    <rdf:Description>
+                                                      <rdf:first rdf:resource="urn:swrl#val1"/>
+                                                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                  </rdf:rest>
+                                                </rdf:Description>
+                                              </swrl:arguments>
+                                            </swrl:BuiltinAtom>
+                                          </rdf:first>
+                                          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                        </rdf:Description>
+                                      </rdf:rest>
+                                    </rdf:Description>
+                                  </rdf:rest>
+                                </rdf:Description>
+                              </rdf:rest>
+                            </rdf:Description>
+                          </rdf:rest>
+                        </rdf:Description>
+                      </rdf:rest>
+                    </rdf:Description>
+                  </rdf:rest>
+                </rdf:Description>
+              </rdf:rest>
+            </rdf:Description>
+          </rdf:rest>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#LawConformance"/>
+          <swrl:argument1 rdf:resource="urn:swrl#c"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#SoftwareProject"/>
+          <swrl:argument1 rdf:resource="urn:swrl#p"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:DatavaluedPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="#usedInRealWorld"/>
+              <swrl:argument1 rdf:resource="urn:swrl#p"/>
+              <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+            </swrl:DatavaluedPropertyAtom>
+          </rdf:first>
+          <rdf:rest>
+            <rdf:Description>
+              <rdf:first>
+                <swrl:ClassAtom>
+                  <swrl:classPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-processes#EvolutionEpisode"/>
+                  <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                </swrl:ClassAtom>
+              </rdf:first>
+              <rdf:rest>
+                <rdf:Description>
+                  <rdf:first>
+                    <swrl:IndividualPropertyAtom>
+                      <swrl:propertyPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-processes#occursIn"/>
+                      <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                      <swrl:argument2 rdf:resource="urn:swrl#v"/>
+                    </swrl:IndividualPropertyAtom>
+                  </rdf:first>
+                  <rdf:rest>
+                    <rdf:Description>
+                      <rdf:first>
+                        <swrl:IndividualPropertyAtom>
+                          <swrl:propertyPredicate rdf:resource="http://senso-framework.org/ontology/seo/seo-entities#hasVersion"/>
+                          <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                          <swrl:argument2 rdf:resource="urn:swrl#v"/>
+                        </swrl:IndividualPropertyAtom>
+                      </rdf:first>
+                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                  </rdf:rest>
+                </rdf:Description>
+              </rdf:rest>
+            </rdf:Description>
+          </rdf:rest>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#LawConformance"/>
+          <swrl:argument1 rdf:resource="urn:swrl#c"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:IndividualPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="#conformsToLaw"/>
+              <swrl:argument1 rdf:resource="urn:swrl#p"/>
+              <swrl:argument2 rdf:resource="urn:swrl#c"/>
+            </swrl:IndividualPropertyAtom>
+          </rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:head>
+</swrl:Imp>
+
+
+</rdf:RDF>

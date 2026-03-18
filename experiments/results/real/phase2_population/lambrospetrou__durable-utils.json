@@ -1,0 +1,20 @@
+{
+  "repo": "lambrospetrou/durable-utils",
+  "language": "typescript",
+  "status": "completed",
+  "total_commits": 86,
+  "total_months": 5,
+  "total_triples": 272,
+  "triples_loaded": 272,
+  "phase": "stabilization",
+  "law_conformance": {
+    "law_1": true,
+    "law_2": true,
+    "law_3": false,
+    "law_4": false,
+    "law_5": true,
+    "law_6": true,
+    "law_7": true,
+    "law_8": false
+  }
+}
