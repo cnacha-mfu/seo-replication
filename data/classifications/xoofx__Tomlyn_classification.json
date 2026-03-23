@@ -1,0 +1,130 @@
+{
+  "repo": "xoofx__Tomlyn",
+  "full_name": "xoofx/Tomlyn",
+  "n_sections": 1,
+  "n_chars": 448,
+  "sections": [
+    {
+      "heading": "Claude Instructions",
+      "level": 1,
+      "char_count": 425,
+      "voted_categories": [
+        "project_structure",
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "xoofx/Tomlyn",
+          "section_heading": "Claude Instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides an overview of the repository's configuration and references other files for detailed information on project structure, coding guidelines, and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides an overview of the repository's configuration and references other files for detailed information on project structure, coding guidelines, and workflow processes.\"}"
+        },
+        {
+          "repo": "xoofx/Tomlyn",
+          "section_heading": "Claude Instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section references project overview and structure (project_structure), coding guidelines and conventions (coding_style), and Git commit practices (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section references project overview and structure (project_structure), coding guidelines and conventions (coding_style), and Git commit practices (workflow_process).\" }"
+        },
+        {
+          "repo": "xoofx/Tomlyn",
+          "section_heading": "Claude Instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses project structure, coding guidelines, and commit practices.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses project structure, coding guidelines, and commit practices.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Claude Instructions",
+      "level": 1,
+      "char_count": 425,
+      "voted_categories": [
+        "project_structure",
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "xoofx/Tomlyn",
+          "section_heading": "Claude Instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides an overview of the repository's configuration and references other files for detailed information on project structure, coding guidelines, and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides an overview of the repository's configuration and references other files for detailed information on project structure, coding guidelines, and workflow processes.\"}"
+        },
+        {
+          "repo": "xoofx/Tomlyn",
+          "section_heading": "Claude Instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section references project overview and structure (project_structure), coding guidelines and conventions (coding_style), and Git commit practices (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section references project overview and structure (project_structure), coding guidelines and conventions (coding_style), and Git commit practices (workflow_process).\" }"
+        },
+        {
+          "repo": "xoofx/Tomlyn",
+          "section_heading": "Claude Instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses project structure, coding guidelines, and commit practices.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses project structure, coding guidelines, and commit practices.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 1.0,
+    "project_structure": 1.0,
+    "workflow_process": 1.0,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 1.0,
+    "project_structure": 1.0,
+    "workflow_process": 1.0,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

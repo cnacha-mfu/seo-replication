@@ -1,0 +1,808 @@
+{
+  "repo": "WordPress__wp-ai-client",
+  "full_name": "WordPress/wp-ai-client",
+  "n_sections": 9,
+  "n_chars": 4952,
+  "sections": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 386,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides a high-level description of the project's purpose and its key components, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides a high-level description of the project's purpose and its key components, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the project's foundational technology stack and its integration with existing components, implying both how the project is structured and its architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the project's foundational technology stack and its integration with existing components, implying both how the project is structured and its architectural design.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall project structure and the architecture of the AI client, including its components and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall project structure and the architecture of the AI client, including its components and dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commands & Scripts",
+      "level": 2,
+      "char_count": 808,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Commands & Scripts",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes coding style tools and linting/formating commands, as well as workflow processes like testing and building, for both PHP and JavaScript code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily describes coding style tools and linting/formating commands, as well as workflow processes like testing and building, for both PHP and JavaScript code.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Commands & Scripts",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section lists code linting/formating commands (coding_style) and build/test scripts (workflow_process), with both aspects being equally dominant.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section lists code linting/formating commands (coding_style) and build/test scripts (workflow_process), with both aspects being equally dominant.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Commands & Scripts",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commands for linting and formatting code, which falls under coding_style, and also outlines the process for building and testing JavaScript and PHP assets, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes commands for linting and formatting code, which falls under coding_style, and also outlines the process for building and testing JavaScript and PHP assets, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Standards & Compatibility Constraints",
+      "level": 2,
+      "char_count": 627,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Coding Standards & Compatibility Constraints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding standards, compatibility constraints, and specific guidelines for PHP version and code style, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding standards, compatibility constraints, and specific guidelines for PHP version and code style, which are all related to coding style.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Coding Standards & Compatibility Constraints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding standards, compatibility, and style guidelines, which directly relate to naming conventions and code formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding standards, compatibility, and style guidelines, which directly relate to naming conventions and code formatting.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Coding Standards & Compatibility Constraints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section primarily discusses coding standards and compatibility constraints, including PHP version, code style, and type hints, which fall under coding_style; it also mandates that AI agents must follow these guidelines, which falls under agent_rules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section primarily discusses coding standards and compatibility constraints, including PHP version, code style, and type hints, which fall under coding_style; it also mandates that AI agents must follow these guidelines, which falls under agent_rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Principles",
+      "level": 2,
+      "char_count": 469,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Core Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines core principles that guide the design and implementation of the AI client, including uniform API, security, and standards compliance, which relate to architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section outlines core principles that guide the design and implementation of the AI client, including uniform API, security, and standards compliance, which relate to architecture and coding style.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Core Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines design principles (architecture) and coding standards (coding_style) for the project.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design principles (architecture) and coding standards (coding_style) for the project.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Core Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the core principles of the project's architecture, including API design, integration with WordPress, and security, as well as adherence to coding standards and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section outlines the core principles of the project's architecture, including API design, integration with WordPress, and security, as well as adherence to coding standards and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Architecture Overview",
+      "level": 2,
+      "char_count": 545,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Architecture Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the overall design and structure of the project, including its layers and components, which aligns with both architecture and project structure categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the overall design and structure of the project, including its layers and components, which aligns with both architecture and project structure categories.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Architecture Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the high-level structure and roles of different modules within the project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the high-level structure and roles of different modules within the project.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Architecture Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's main layers, their roles, and dependencies, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the project's main layers, their roles, and dependencies, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Directory Structure",
+      "level": 2,
+      "char_count": 530,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Directory Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Directory Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Directory Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Git Repo",
+      "level": 2,
+      "char_count": 51,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Git Repo",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the main branch of the project, which relates to the directory layout and key files in the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the main branch of the project, which relates to the directory layout and key files in the repository.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Git Repo",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies the main branch name, which pertains to project repository organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies the main branch name, which pertains to project repository organization.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Git Repo",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the main branch of the project, which is part of project structure, and also implies a workflow process by naming the main branch.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the main branch of the project, which is part of project structure, and also implies a workflow process by naming the main branch.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Agent Guidelines",
+      "level": 2,
+      "char_count": 588,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Agent Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section provides guidelines for coding style, testing, and project structure, with a focus on PHP compatibility, testing, and directory organization.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"project_structure\"], \"reasoning\": \"This section provides guidelines for coding style, testing, and project structure, with a focus on PHP compatibility, testing, and directory organization.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Agent Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding standards (coding_style), directory guidance (project_structure), and development workflow instructions (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides coding standards (coding_style), directory guidance (project_structure), and development workflow instructions (workflow_process).\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Agent Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides coding style guidelines, workflow processes, and project structure rules for the AI client.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides coding style guidelines, workflow processes, and project structure rules for the AI client.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Pitfalls",
+      "level": 2,
+      "char_count": 663,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Common Pitfalls",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses coding best practices and potential errors to avoid, which relates to coding style, and also touches on the importance of capability checks, hinting at workflow process considerations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses coding best practices and potential errors to avoid, which relates to coding style, and also touches on the importance of capability checks, hinting at workflow process considerations.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Common Pitfalls",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section addresses coding best practices (coding_style) and implies workflow checks for secure development practices (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section addresses coding best practices (coding_style) and implies workflow checks for secure development practices (workflow_process).\"}\n\n**Rationale for chosen categories:**\n\n1. **coding_style**: \n   - The first point about preferring the Fluent API over complex method calls directly relates to coding style and readability.\n   - The second point regarding the use of `{@inheritDoc}` for documentation is about maintaining consistent and efficient coding practices.\n\n2. **workflow_process**: \n   - The third point, although primarily about a specific coding practice (capability checks), implies a workflow or development process that should ensure security and privilege checks are consistently applied, fitting into broader workflow or development process guidelines. \n\n**Why not other categories?**\n\n- **project_structure**: No mention of directory layout or file organization.\n- **architecture**: While capability checks relate to system design, the focus here is on a specific implementation practice rather than overall architecture or component interactions.\n- **evolution_context**: No discussion of project phase, complexity, or historical context.\n- **agent_rules**: No directives or strategies specific to AI agents like Claude are mentioned."
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Common Pitfalls",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidance on coding style (fluent API usage, PHPDoc descriptions) and architecture (capability checks in REST).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidance on coding style (fluent API usage, PHPDoc descriptions) and architecture (capability checks in REST).\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 386,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides a high-level description of the project's purpose and its key components, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides a high-level description of the project's purpose and its key components, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the project's foundational technology stack and its integration with existing components, implying both how the project is structured and its architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the project's foundational technology stack and its integration with existing components, implying both how the project is structured and its architectural design.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall project structure and the architecture of the AI client, including its components and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall project structure and the architecture of the AI client, including its components and dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commands & Scripts",
+      "level": 2,
+      "char_count": 808,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Commands & Scripts",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes coding style tools and linting/formating commands, as well as workflow processes like testing and building, for both PHP and JavaScript code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily describes coding style tools and linting/formating commands, as well as workflow processes like testing and building, for both PHP and JavaScript code.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Commands & Scripts",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section lists code linting/formating commands (coding_style) and build/test scripts (workflow_process), with both aspects being equally dominant.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section lists code linting/formating commands (coding_style) and build/test scripts (workflow_process), with both aspects being equally dominant.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Commands & Scripts",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commands for linting and formatting code, which falls under coding_style, and also outlines the process for building and testing JavaScript and PHP assets, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes commands for linting and formatting code, which falls under coding_style, and also outlines the process for building and testing JavaScript and PHP assets, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Standards & Compatibility Constraints",
+      "level": 2,
+      "char_count": 627,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Coding Standards & Compatibility Constraints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding standards, compatibility constraints, and specific guidelines for PHP version and code style, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding standards, compatibility constraints, and specific guidelines for PHP version and code style, which are all related to coding style.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Coding Standards & Compatibility Constraints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding standards, compatibility, and style guidelines, which directly relate to naming conventions and code formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding standards, compatibility, and style guidelines, which directly relate to naming conventions and code formatting.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Coding Standards & Compatibility Constraints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section primarily discusses coding standards and compatibility constraints, including PHP version, code style, and type hints, which fall under coding_style; it also mandates that AI agents must follow these guidelines, which falls under agent_rules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section primarily discusses coding standards and compatibility constraints, including PHP version, code style, and type hints, which fall under coding_style; it also mandates that AI agents must follow these guidelines, which falls under agent_rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Principles",
+      "level": 2,
+      "char_count": 469,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Core Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines core principles that guide the design and implementation of the AI client, including uniform API, security, and standards compliance, which relate to architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section outlines core principles that guide the design and implementation of the AI client, including uniform API, security, and standards compliance, which relate to architecture and coding style.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Core Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines design principles (architecture) and coding standards (coding_style) for the project.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design principles (architecture) and coding standards (coding_style) for the project.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Core Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the core principles of the project's architecture, including API design, integration with WordPress, and security, as well as adherence to coding standards and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section outlines the core principles of the project's architecture, including API design, integration with WordPress, and security, as well as adherence to coding standards and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Architecture Overview",
+      "level": 2,
+      "char_count": 545,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Architecture Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the overall design and structure of the project, including its layers and components, which aligns with both architecture and project structure categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the overall design and structure of the project, including its layers and components, which aligns with both architecture and project structure categories.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Architecture Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the high-level structure and roles of different modules within the project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the high-level structure and roles of different modules within the project.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Project Architecture Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's main layers, their roles, and dependencies, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the project's main layers, their roles, and dependencies, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Directory Structure",
+      "level": 2,
+      "char_count": 530,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Directory Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Directory Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Directory Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Git Repo",
+      "level": 2,
+      "char_count": 51,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Git Repo",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the main branch of the project, which relates to the directory layout and key files in the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the main branch of the project, which relates to the directory layout and key files in the repository.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Git Repo",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies the main branch name, which pertains to project repository organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies the main branch name, which pertains to project repository organization.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Git Repo",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the main branch of the project, which is part of project structure, and also implies a workflow process by naming the main branch.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the main branch of the project, which is part of project structure, and also implies a workflow process by naming the main branch.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Agent Guidelines",
+      "level": 2,
+      "char_count": 588,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Agent Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section provides guidelines for coding style, testing, and project structure, with a focus on PHP compatibility, testing, and directory organization.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"project_structure\"], \"reasoning\": \"This section provides guidelines for coding style, testing, and project structure, with a focus on PHP compatibility, testing, and directory organization.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Agent Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding standards (coding_style), directory guidance (project_structure), and development workflow instructions (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides coding standards (coding_style), directory guidance (project_structure), and development workflow instructions (workflow_process).\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Agent Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides coding style guidelines, workflow processes, and project structure rules for the AI client.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides coding style guidelines, workflow processes, and project structure rules for the AI client.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Pitfalls",
+      "level": 2,
+      "char_count": 663,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Common Pitfalls",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses coding best practices and potential errors to avoid, which relates to coding style, and also touches on the importance of capability checks, hinting at workflow process considerations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses coding best practices and potential errors to avoid, which relates to coding style, and also touches on the importance of capability checks, hinting at workflow process considerations.\"}"
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Common Pitfalls",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section addresses coding best practices (coding_style) and implies workflow checks for secure development practices (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section addresses coding best practices (coding_style) and implies workflow checks for secure development practices (workflow_process).\"}\n\n**Rationale for chosen categories:**\n\n1. **coding_style**: \n   - The first point about preferring the Fluent API over complex method calls directly relates to coding style and readability.\n   - The second point regarding the use of `{@inheritDoc}` for documentation is about maintaining consistent and efficient coding practices.\n\n2. **workflow_process**: \n   - The third point, although primarily about a specific coding practice (capability checks), implies a workflow or development process that should ensure security and privilege checks are consistently applied, fitting into broader workflow or development process guidelines. \n\n**Why not other categories?**\n\n- **project_structure**: No mention of directory layout or file organization.\n- **architecture**: While capability checks relate to system design, the focus here is on a specific implementation practice rather than overall architecture or component interactions.\n- **evolution_context**: No discussion of project phase, complexity, or historical context.\n- **agent_rules**: No directives or strategies specific to AI agents like Claude are mentioned."
+        },
+        {
+          "repo": "WordPress/wp-ai-client",
+          "section_heading": "Common Pitfalls",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidance on coding style (fluent API usage, PHPDoc descriptions) and architecture (capability checks in REST).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidance on coding style (fluent API usage, PHPDoc descriptions) and architecture (capability checks in REST).\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.5555555555555556,
+    "project_structure": 0.4444444444444444,
+    "workflow_process": 0.3333333333333333,
+    "architecture": 0.3333333333333333,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.6760231412041997,
+    "project_structure": 0.33319048639382903,
+    "workflow_process": 0.4411827726590958,
+    "architecture": 0.2999785729590744,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

@@ -1,0 +1,858 @@
+{
+  "repo": "shiguredo__mp4-rs",
+  "full_name": "shiguredo/mp4-rs",
+  "n_sections": 10,
+  "n_chars": 2116,
+  "sections": [
+    {
+      "heading": "AGENTS",
+      "level": 1,
+      "char_count": 112,
+      "voted_categories": [
+        "agent_rules",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "AGENTS",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section heading 'AGENTS' and the content listing specific directives suggest that it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section heading 'AGENTS' and the content listing specific directives suggest that it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "AGENTS",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines coding style guidelines (e.g., spacing, language, emoji use) and is explicitly under 'AGENTS', implying AI agent directives.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section outlines coding style guidelines (e.g., spacing, language, emoji use) and is explicitly under 'AGENTS', implying AI agent directives.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "AGENTS",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides coding style guidelines and AI-specific directives for the agent.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section provides coding style guidelines and AI-specific directives for the agent.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30ec\u30d3\u30e5\u30fc\u306b\u3064\u3044\u3066",
+      "level": 2,
+      "char_count": 237,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ec\u30d3\u30e5\u30fc\u306b\u3064\u3044\u3066",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines review guidelines and rules for the repository, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines review guidelines and rules for the repository, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ec\u30d3\u30e5\u30fc\u306b\u3064\u3044\u3066",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific guidelines for the review process, focusing on how reviews should be conducted and communicated, which directly relates to workflow and collaboration practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific guidelines for the review process, focusing on how reviews should be conducted and communicated, which directly relates to workflow and collaboration practices.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ec\u30d3\u30e5\u30fc\u306b\u3064\u3044\u3066",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses guidelines for conducting code reviews, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses guidelines for conducting code reviews, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30b3\u30df\u30c3\u30c8\u306b\u3064\u3044\u3066",
+      "level": 2,
+      "char_count": 100,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b3\u30df\u30c3\u30c8\u306b\u3064\u3044\u3066",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses commit rules and guidelines, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses commit rules and guidelines, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b3\u30df\u30c3\u30c8\u306b\u3064\u3044\u3066",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules for commit messages, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules for commit messages, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b3\u30df\u30c3\u30c8\u306b\u3064\u3044\u3066",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses commit rules and guidelines, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses commit rules and guidelines, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30ab\u30c3\u30c8\u30aa\u30d5",
+      "level": 2,
+      "char_count": 34,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30c3\u30c8\u30aa\u30d5",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section specifies the required Rust compiler version and edition, which relates to coding style and compatibility.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section specifies the required Rust compiler version and edition, which relates to coding style and compatibility.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30c3\u30c8\u30aa\u30d5",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "Specifies Rust compiler and edition version, influencing coding style and compatibility.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"Specifies Rust compiler and edition version, influencing coding style and compatibility.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30c3\u30c8\u30aa\u30d5",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies the Rust compiler version and edition, which are coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies the Rust compiler version and edition, which are coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30ab\u30d0\u30ec\u30c3\u30b8",
+      "level": 2,
+      "char_count": 103,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30d0\u30ec\u30c3\u30b8",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses testing requirements and goals, such as coverage targets and testing strategies, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses testing requirements and goals, such as coverage targets and testing strategies, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30d0\u30ec\u30c3\u30b8",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing goals and rules, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing goals and rules, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30d0\u30ec\u30c3\u30b8",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses testing requirements and code style guidelines for achieving code coverage.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section discusses testing requirements and code style guidelines for achieving code coverage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30b5\u30f3\u30d7\u30eb\u306b\u3064\u3044\u3066",
+      "level": 2,
+      "char_count": 55,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b5\u30f3\u30d7\u30eb\u306b\u3064\u3044\u3066",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses sample code guidelines, focusing on performance and robustness, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses sample code guidelines, focusing on performance and robustness, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b5\u30f3\u30d7\u30eb\u306b\u3064\u3044\u3066",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses code quality (performance and robustness) and adherence to a standard (RFC), relating to both coding style and workflow/process guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses code quality (performance and robustness) and adherence to a standard (RFC), relating to both coding style and workflow/process guidelines.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b5\u30f3\u30d7\u30eb\u306b\u3064\u3044\u3066",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style in terms of performance and robustness, and architecture in terms of adhering to RFC standards.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding style in terms of performance and robustness, and architecture in terms of adhering to RFC standards.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30c6\u30b9\u30c8\u306b\u3064\u3044\u3066",
+      "level": 2,
+      "char_count": 60,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30c6\u30b9\u30c8\u306b\u3064\u3044\u3066",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses testing requirements and rules for writing unit tests, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section discusses testing requirements and rules for writing unit tests, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30c6\u30b9\u30c8\u306b\u3064\u3044\u3066",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing requirements and guidelines, which fall under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing requirements and guidelines, which fall under workflow processes.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30c6\u30b9\u30c8\u306b\u3064\u3044\u3066",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses testing requirements and coding conventions for unit tests.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section discusses testing requirements and coding conventions for unit tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "pre-commit",
+      "level": 2,
+      "char_count": 61,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "pre-commit",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the use of tools like cargo fmt and cargo clippy, which relate to coding style, and also mentions cargo test, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses the use of tools like cargo fmt and cargo clippy, which relate to coding style, and also mentions cargo test, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "pre-commit",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific pre-commit checks (fmt, clippy, check, test) which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific pre-commit checks (fmt, clippy, check, test) which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "pre-commit",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes running tools for code formatting, linting, and testing, which are part of coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes running tools for code formatting, linting, and testing, which are part of coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CHANGES \u306e\u8a18\u8f09\u65b9\u6cd5\u306b\u3064\u3044\u3066",
+      "level": 2,
+      "char_count": 503,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "CHANGES \u306e\u8a18\u8f09\u65b9\u6cd5\u306b\u3064\u3044\u3066",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the formatting rules for the CHANGES file, which is related to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the formatting rules for the CHANGES file, which is related to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "CHANGES \u306e\u8a18\u8f09\u65b9\u6cd5\u306b\u3064\u3044\u3066",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific formatting and organizational rules for change logs (CHANGES.md), which relates to workflow and documentation process within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific formatting and organizational rules for change logs (CHANGES.md), which relates to workflow and documentation process within the project.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "CHANGES \u306e\u8a18\u8f09\u65b9\u6cd5\u306b\u3064\u3044\u3066",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for formatting and organizing CHANGES entries, which falls under coding style, and outlines a process for maintaining the order of entries, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for formatting and organizing CHANGES entries, which falls under coding style, and outlines a process for maintaining the order of entries, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Rust",
+      "level": 2,
+      "char_count": 706,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "Rust",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses coding conventions, such as memory allocation methods, lint warnings, and error handling, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses coding conventions, such as memory allocation methods, lint warnings, and error handling, which are all related to coding style.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "Rust",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific Rust coding practices, error handling, and testing approaches, which relate to naming conventions, formatting, and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific Rust coding practices, error handling, and testing approaches, which relate to naming conventions, formatting, and code style guidelines.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "Rust",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides coding style guidelines and rules for AI agents, such as memory allocation, lint suppression, error handling, and prioritizing robustness over performance.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section provides coding style guidelines and rules for AI agents, such as memory allocation, lint suppression, error handling, and prioritizing robustness over performance.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "AGENTS",
+      "level": 1,
+      "char_count": 112,
+      "voted_categories": [
+        "agent_rules",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "AGENTS",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section heading 'AGENTS' and the content listing specific directives suggest that it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section heading 'AGENTS' and the content listing specific directives suggest that it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "AGENTS",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines coding style guidelines (e.g., spacing, language, emoji use) and is explicitly under 'AGENTS', implying AI agent directives.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section outlines coding style guidelines (e.g., spacing, language, emoji use) and is explicitly under 'AGENTS', implying AI agent directives.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "AGENTS",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides coding style guidelines and AI-specific directives for the agent.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section provides coding style guidelines and AI-specific directives for the agent.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30ec\u30d3\u30e5\u30fc\u306b\u3064\u3044\u3066",
+      "level": 2,
+      "char_count": 237,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ec\u30d3\u30e5\u30fc\u306b\u3064\u3044\u3066",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines review guidelines and rules for the repository, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines review guidelines and rules for the repository, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ec\u30d3\u30e5\u30fc\u306b\u3064\u3044\u3066",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific guidelines for the review process, focusing on how reviews should be conducted and communicated, which directly relates to workflow and collaboration practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific guidelines for the review process, focusing on how reviews should be conducted and communicated, which directly relates to workflow and collaboration practices.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ec\u30d3\u30e5\u30fc\u306b\u3064\u3044\u3066",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses guidelines for conducting code reviews, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses guidelines for conducting code reviews, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30b3\u30df\u30c3\u30c8\u306b\u3064\u3044\u3066",
+      "level": 2,
+      "char_count": 100,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b3\u30df\u30c3\u30c8\u306b\u3064\u3044\u3066",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses commit rules and guidelines, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses commit rules and guidelines, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b3\u30df\u30c3\u30c8\u306b\u3064\u3044\u3066",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules for commit messages, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules for commit messages, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b3\u30df\u30c3\u30c8\u306b\u3064\u3044\u3066",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses commit rules and guidelines, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses commit rules and guidelines, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30ab\u30c3\u30c8\u30aa\u30d5",
+      "level": 2,
+      "char_count": 34,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30c3\u30c8\u30aa\u30d5",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section specifies the required Rust compiler version and edition, which relates to coding style and compatibility.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section specifies the required Rust compiler version and edition, which relates to coding style and compatibility.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30c3\u30c8\u30aa\u30d5",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "Specifies Rust compiler and edition version, influencing coding style and compatibility.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"Specifies Rust compiler and edition version, influencing coding style and compatibility.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30c3\u30c8\u30aa\u30d5",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies the Rust compiler version and edition, which are coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies the Rust compiler version and edition, which are coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30ab\u30d0\u30ec\u30c3\u30b8",
+      "level": 2,
+      "char_count": 103,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30d0\u30ec\u30c3\u30b8",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses testing requirements and goals, such as coverage targets and testing strategies, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses testing requirements and goals, such as coverage targets and testing strategies, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30d0\u30ec\u30c3\u30b8",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing goals and rules, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing goals and rules, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30ab\u30d0\u30ec\u30c3\u30b8",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses testing requirements and code style guidelines for achieving code coverage.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section discusses testing requirements and code style guidelines for achieving code coverage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30b5\u30f3\u30d7\u30eb\u306b\u3064\u3044\u3066",
+      "level": 2,
+      "char_count": 55,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b5\u30f3\u30d7\u30eb\u306b\u3064\u3044\u3066",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses sample code guidelines, focusing on performance and robustness, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses sample code guidelines, focusing on performance and robustness, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b5\u30f3\u30d7\u30eb\u306b\u3064\u3044\u3066",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses code quality (performance and robustness) and adherence to a standard (RFC), relating to both coding style and workflow/process guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses code quality (performance and robustness) and adherence to a standard (RFC), relating to both coding style and workflow/process guidelines.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30b5\u30f3\u30d7\u30eb\u306b\u3064\u3044\u3066",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style in terms of performance and robustness, and architecture in terms of adhering to RFC standards.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding style in terms of performance and robustness, and architecture in terms of adhering to RFC standards.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u30c6\u30b9\u30c8\u306b\u3064\u3044\u3066",
+      "level": 2,
+      "char_count": 60,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30c6\u30b9\u30c8\u306b\u3064\u3044\u3066",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses testing requirements and rules for writing unit tests, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section discusses testing requirements and rules for writing unit tests, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30c6\u30b9\u30c8\u306b\u3064\u3044\u3066",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing requirements and guidelines, which fall under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing requirements and guidelines, which fall under workflow processes.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "\u30c6\u30b9\u30c8\u306b\u3064\u3044\u3066",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses testing requirements and coding conventions for unit tests.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section discusses testing requirements and coding conventions for unit tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "pre-commit",
+      "level": 2,
+      "char_count": 61,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "pre-commit",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the use of tools like cargo fmt and cargo clippy, which relate to coding style, and also mentions cargo test, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses the use of tools like cargo fmt and cargo clippy, which relate to coding style, and also mentions cargo test, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "pre-commit",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific pre-commit checks (fmt, clippy, check, test) which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific pre-commit checks (fmt, clippy, check, test) which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "pre-commit",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes running tools for code formatting, linting, and testing, which are part of coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes running tools for code formatting, linting, and testing, which are part of coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CHANGES \u306e\u8a18\u8f09\u65b9\u6cd5\u306b\u3064\u3044\u3066",
+      "level": 2,
+      "char_count": 503,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "CHANGES \u306e\u8a18\u8f09\u65b9\u6cd5\u306b\u3064\u3044\u3066",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the formatting rules for the CHANGES file, which is related to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the formatting rules for the CHANGES file, which is related to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "CHANGES \u306e\u8a18\u8f09\u65b9\u6cd5\u306b\u3064\u3044\u3066",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific formatting and organizational rules for change logs (CHANGES.md), which relates to workflow and documentation process within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific formatting and organizational rules for change logs (CHANGES.md), which relates to workflow and documentation process within the project.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "CHANGES \u306e\u8a18\u8f09\u65b9\u6cd5\u306b\u3064\u3044\u3066",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for formatting and organizing CHANGES entries, which falls under coding style, and outlines a process for maintaining the order of entries, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for formatting and organizing CHANGES entries, which falls under coding style, and outlines a process for maintaining the order of entries, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Rust",
+      "level": 2,
+      "char_count": 706,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "Rust",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses coding conventions, such as memory allocation methods, lint warnings, and error handling, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses coding conventions, such as memory allocation methods, lint warnings, and error handling, which are all related to coding style.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "Rust",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific Rust coding practices, error handling, and testing approaches, which relate to naming conventions, formatting, and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific Rust coding practices, error handling, and testing approaches, which relate to naming conventions, formatting, and code style guidelines.\"}"
+        },
+        {
+          "repo": "shiguredo/mp4-rs",
+          "section_heading": "Rust",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides coding style guidelines and rules for AI agents, such as memory allocation, lint suppression, error handling, and prioritizing robustness over performance.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section provides coding style guidelines and rules for AI agents, such as memory allocation, lint suppression, error handling, and prioritizing robustness over performance.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": false,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.5,
+    "project_structure": 0.0,
+    "workflow_process": 0.6,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.1
+  },
+  "category_char_fraction": {
+    "coding_style": 0.4911212582445459,
+    "project_structure": 0.0,
+    "workflow_process": 0.5398274987316083,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.056823947234906136
+  }
+}

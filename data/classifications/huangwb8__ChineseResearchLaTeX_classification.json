@@ -1,0 +1,368 @@
+{
+  "repo": "huangwb8__ChineseResearchLaTeX",
+  "full_name": "huangwb8/ChineseResearchLaTeX",
+  "n_sections": 4,
+  "n_chars": 1074,
+  "sections": [
+    {
+      "heading": "\u6587\u4ef6\u5f15\u7528\u89c4\u8303",
+      "level": 3,
+      "char_count": 211,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u6587\u4ef6\u5f15\u7528\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes the naming conventions and formatting for referencing files in markdown links, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes the naming conventions and formatting for referencing files in markdown links, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u6587\u4ef6\u5f15\u7528\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific formatting rules for referencing files within the codebase, which pertains to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific formatting rules for referencing files within the codebase, which pertains to coding style conventions.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u6587\u4ef6\u5f15\u7528\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on how to reference files in markdown, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on how to reference files in markdown, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u4efb\u52a1\u7ba1\u7406",
+      "level": 3,
+      "char_count": 169,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4efb\u52a1\u7ba1\u7406",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses task management procedures and release publishing tasks, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses task management procedures and release publishing tasks, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4efb\u52a1\u7ba1\u7406",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines task management procedures, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines task management procedures, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4efb\u52a1\u7ba1\u7406",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes task management guidelines, including the use of a specific tool, marking tasks as completed, breaking down large tasks, and a specific requirement for release tasks, which aligns with workflow and process practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes task management guidelines, including the use of a specific tool, marking tasks as completed, breaking down large tasks, and a specific requirement for release tasks, which aligns with workflow and process practices.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u4ee3\u7801\u53d8\u66f4\u89c4\u8303",
+      "level": 3,
+      "char_count": 58,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4ee3\u7801\u53d8\u66f4\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses code modification guidelines and tools, which relates to both workflow processes and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses code modification guidelines and tools, which relates to both workflow processes and coding style conventions.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4ee3\u7801\u53d8\u66f4\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and tools for modifying code, which relates to the workflow and process of development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and tools for modifying code, which relates to the workflow and process of development.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4ee3\u7801\u53d8\u66f4\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines for modifying code, which falls under coding_style, and also outlines a specific workflow process for making changes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides guidelines for modifying code, which falls under coding_style, and also outlines a specific workflow process for making changes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u4e0e AGENTS.md \u7684\u5173\u7cfb",
+      "level": 3,
+      "char_count": 492,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4e0e AGENTS.md \u7684\u5173\u7cfb",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the relationship between AGENTS.md and CLAUDE.md, including maintenance procedures and reference documentation, which primarily relates to workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the relationship between AGENTS.md and CLAUDE.md, including maintenance procedures and reference documentation, which primarily relates to workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4e0e AGENTS.md \u7684\u5173\u7cfb",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"Dominant content describes m",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"Dominant content describes maintenance workflow (workflow_process) between AGENTS.md and CLAUDE.md, with implications on project file dependencies (project_structure).\""
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4e0e AGENTS.md \u7684\u5173\u7cfb",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the relationship between AGENTS.md and CLAUDE.md files, and outlines the maintenance process for these files, which falls under project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the relationship between AGENTS.md and CLAUDE.md files, and outlines the maintenance process for these files, which falls under project structure and workflow process categories.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "\u6587\u4ef6\u5f15\u7528\u89c4\u8303",
+      "level": 3,
+      "char_count": 211,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u6587\u4ef6\u5f15\u7528\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes the naming conventions and formatting for referencing files in markdown links, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes the naming conventions and formatting for referencing files in markdown links, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u6587\u4ef6\u5f15\u7528\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific formatting rules for referencing files within the codebase, which pertains to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific formatting rules for referencing files within the codebase, which pertains to coding style conventions.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u6587\u4ef6\u5f15\u7528\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on how to reference files in markdown, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on how to reference files in markdown, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u4efb\u52a1\u7ba1\u7406",
+      "level": 3,
+      "char_count": 169,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4efb\u52a1\u7ba1\u7406",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses task management procedures and release publishing tasks, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses task management procedures and release publishing tasks, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4efb\u52a1\u7ba1\u7406",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines task management procedures, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines task management procedures, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4efb\u52a1\u7ba1\u7406",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes task management guidelines, including the use of a specific tool, marking tasks as completed, breaking down large tasks, and a specific requirement for release tasks, which aligns with workflow and process practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes task management guidelines, including the use of a specific tool, marking tasks as completed, breaking down large tasks, and a specific requirement for release tasks, which aligns with workflow and process practices.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u4ee3\u7801\u53d8\u66f4\u89c4\u8303",
+      "level": 3,
+      "char_count": 58,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4ee3\u7801\u53d8\u66f4\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses code modification guidelines and tools, which relates to both workflow processes and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses code modification guidelines and tools, which relates to both workflow processes and coding style conventions.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4ee3\u7801\u53d8\u66f4\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and tools for modifying code, which relates to the workflow and process of development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and tools for modifying code, which relates to the workflow and process of development.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4ee3\u7801\u53d8\u66f4\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines for modifying code, which falls under coding_style, and also outlines a specific workflow process for making changes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides guidelines for modifying code, which falls under coding_style, and also outlines a specific workflow process for making changes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u4e0e AGENTS.md \u7684\u5173\u7cfb",
+      "level": 3,
+      "char_count": 492,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4e0e AGENTS.md \u7684\u5173\u7cfb",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the relationship between AGENTS.md and CLAUDE.md, including maintenance procedures and reference documentation, which primarily relates to workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the relationship between AGENTS.md and CLAUDE.md, including maintenance procedures and reference documentation, which primarily relates to workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4e0e AGENTS.md \u7684\u5173\u7cfb",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"Dominant content describes m",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"Dominant content describes maintenance workflow (workflow_process) between AGENTS.md and CLAUDE.md, with implications on project file dependencies (project_structure).\""
+        },
+        {
+          "repo": "huangwb8/ChineseResearchLaTeX",
+          "section_heading": "\u4e0e AGENTS.md \u7684\u5173\u7cfb",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the relationship between AGENTS.md and CLAUDE.md files, and outlines the maintenance process for these files, which falls under project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the relationship between AGENTS.md and CLAUDE.md files, and outlines the maintenance process for these files, which falls under project structure and workflow process categories.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.5,
+    "project_structure": 0.25,
+    "workflow_process": 0.75,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.289247311827957,
+    "project_structure": 0.5290322580645161,
+    "workflow_process": 0.7731182795698924,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

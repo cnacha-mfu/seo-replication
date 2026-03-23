@@ -1,0 +1,530 @@
+{
+  "repo": "funnyzak__weread-bot",
+  "full_name": "funnyzak/weread-bot",
+  "n_sections": 6,
+  "n_chars": 2873,
+  "sections": [
+    {
+      "heading": "Project Structure & Module Organization",
+      "level": 2,
+      "char_count": 383,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the directory layout and key files of the project, such as the location of automation logic, configuration templates, and documentation.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section primarily describes the directory layout and key files of the project, such as the location of automation logic, configuration templates, and documentation.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and locations of key files/modules within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and locations of key files/modules within the project.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as the role of the main module.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files, as well as the role of the main module.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build, Test, and Development Commands",
+      "level": 2,
+      "char_count": 664,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes build, test, and development commands, which relates to workflow processes, and also touches on project structure by mentioning specific files and directories like requirements.txt and config.yaml.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes build, test, and development commands, which relates to workflow processes, and also touches on project structure by mentioning specific files and directories like requirements.txt and config.yaml.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building, testing, and developing the project, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building, testing, and developing the project, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on how to set up the Python environment and run the bot, which involves coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on how to set up the Python environment and run the bot, which involves coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Style & Naming Conventions",
+      "level": 2,
+      "char_count": 404,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly outlines naming conventions, indentation, and formatting guidelines, all of which are core aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly outlines naming conventions, indentation, and formatting guidelines, all of which are core aspects of coding style.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, including indentation, naming conventions, and type hints.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions, including indentation, naming conventions, and type hints.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Guidelines",
+      "level": 2,
+      "char_count": 410,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Testing Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines testing requirements and guidelines for the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines testing requirements and guidelines for the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Testing Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing procedures and requirements for PRs, which directly relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing procedures and requirements for PRs, which directly relates to workflow and process.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Testing Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines for testing, which falls under workflow_process, and also outlines the manual test matrix and log inspection, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines for testing, which falls under workflow_process, and also outlines the manual test matrix and log inspection, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit & Pull Request Guidelines",
+      "level": 2,
+      "char_count": 426,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines guidelines for commit and pull request formatting, which relates to workflow_process, and also touches on coding_style by mentioning the use of Conventional Commits.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines guidelines for commit and pull request formatting, which relates to workflow_process, and also touches on coding_style by mentioning the use of Conventional Commits.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules for commits and pull requests, which are core aspects of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules for commits and pull requests, which are core aspects of the workflow process.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for commit and pull request practices, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for commit and pull request practices, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security & Configuration Tips",
+      "level": 2,
+      "char_count": 339,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Security & Configuration Tips",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding practices related to security and configuration, including environment variables and file storage, which pertains to both coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses coding practices related to security and configuration, including environment variables and file storage, which pertains to both coding style and project structure.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Security & Configuration Tips",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on security practices within the development workflow, such as handling sensitive information and logging, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on security practices within the development workflow, such as handling sensitive information and logging, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Security & Configuration Tips",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidance on where to store sensitive information and how to handle it, which relates to project structure and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidance on where to store sensitive information and how to handle it, which relates to project structure and workflow processes.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Structure & Module Organization",
+      "level": 2,
+      "char_count": 383,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the directory layout and key files of the project, such as the location of automation logic, configuration templates, and documentation.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section primarily describes the directory layout and key files of the project, such as the location of automation logic, configuration templates, and documentation.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and locations of key files/modules within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and locations of key files/modules within the project.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as the role of the main module.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files, as well as the role of the main module.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build, Test, and Development Commands",
+      "level": 2,
+      "char_count": 664,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes build, test, and development commands, which relates to workflow processes, and also touches on project structure by mentioning specific files and directories like requirements.txt and config.yaml.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes build, test, and development commands, which relates to workflow processes, and also touches on project structure by mentioning specific files and directories like requirements.txt and config.yaml.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building, testing, and developing the project, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building, testing, and developing the project, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on how to set up the Python environment and run the bot, which involves coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on how to set up the Python environment and run the bot, which involves coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Style & Naming Conventions",
+      "level": 2,
+      "char_count": 404,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly outlines naming conventions, indentation, and formatting guidelines, all of which are core aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly outlines naming conventions, indentation, and formatting guidelines, all of which are core aspects of coding style.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, including indentation, naming conventions, and type hints.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions, including indentation, naming conventions, and type hints.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Guidelines",
+      "level": 2,
+      "char_count": 410,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Testing Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines testing requirements and guidelines for the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines testing requirements and guidelines for the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Testing Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing procedures and requirements for PRs, which directly relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing procedures and requirements for PRs, which directly relates to workflow and process.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Testing Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines for testing, which falls under workflow_process, and also outlines the manual test matrix and log inspection, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines for testing, which falls under workflow_process, and also outlines the manual test matrix and log inspection, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit & Pull Request Guidelines",
+      "level": 2,
+      "char_count": 426,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines guidelines for commit and pull request formatting, which relates to workflow_process, and also touches on coding_style by mentioning the use of Conventional Commits.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines guidelines for commit and pull request formatting, which relates to workflow_process, and also touches on coding_style by mentioning the use of Conventional Commits.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules for commits and pull requests, which are core aspects of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules for commits and pull requests, which are core aspects of the workflow process.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for commit and pull request practices, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for commit and pull request practices, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security & Configuration Tips",
+      "level": 2,
+      "char_count": 339,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Security & Configuration Tips",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding practices related to security and configuration, including environment variables and file storage, which pertains to both coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses coding practices related to security and configuration, including environment variables and file storage, which pertains to both coding style and project structure.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Security & Configuration Tips",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on security practices within the development workflow, such as handling sensitive information and logging, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on security practices within the development workflow, such as handling sensitive information and logging, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "funnyzak/weread-bot",
+          "section_heading": "Security & Configuration Tips",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidance on where to store sensitive information and how to handle it, which relates to project structure and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidance on where to store sensitive information and how to handle it, which relates to project structure and workflow processes.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.16666666666666666,
+    "project_structure": 0.3333333333333333,
+    "workflow_process": 0.6666666666666666,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.15384615384615385,
+    "project_structure": 0.27494287890327496,
+    "workflow_process": 0.7003046458492003,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

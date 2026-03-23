@@ -1,0 +1,114 @@
+{
+  "repo": "coffebar__dotfiles",
+  "full_name": "coffebar/dotfiles",
+  "n_sections": 1,
+  "n_chars": 637,
+  "sections": [
+    {
+      "heading": "(no heading)",
+      "level": 1,
+      "char_count": 637,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "coffebar/dotfiles",
+          "section_heading": "(no heading)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides directives for writing instructions for the AI agent Claude, specifying how to use context and what to include in the instructions file.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides directives for writing instructions for the AI agent Claude, specifying how to use context and what to include in the instructions file.\"}"
+        },
+        {
+          "repo": "coffebar/dotfiles",
+          "section_heading": "(no heading)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines specific directives and constraints for using Claude (AI agent) with a particular tool and file setup.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section outlines specific directives and constraints for using Claude (AI agent) with a particular tool and file setup.\"}"
+        },
+        {
+          "repo": "coffebar/dotfiles",
+          "section_heading": "(no heading)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides instructions for an AI agent, specifically Claude Code, on how to use context files and write prompts, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides instructions for an AI agent, specifically Claude Code, on how to use context files and write prompts, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "(no heading)",
+      "level": 1,
+      "char_count": 637,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "coffebar/dotfiles",
+          "section_heading": "(no heading)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides directives for writing instructions for the AI agent Claude, specifying how to use context and what to include in the instructions file.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides directives for writing instructions for the AI agent Claude, specifying how to use context and what to include in the instructions file.\"}"
+        },
+        {
+          "repo": "coffebar/dotfiles",
+          "section_heading": "(no heading)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines specific directives and constraints for using Claude (AI agent) with a particular tool and file setup.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section outlines specific directives and constraints for using Claude (AI agent) with a particular tool and file setup.\"}"
+        },
+        {
+          "repo": "coffebar/dotfiles",
+          "section_heading": "(no heading)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides instructions for an AI agent, specifically Claude Code, on how to use context files and write prompts, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides instructions for an AI agent, specifically Claude Code, on how to use context files and write prompts, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": false,
+    "project_structure": false,
+    "workflow_process": false,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.0,
+    "workflow_process": 0.0,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 1.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.0,
+    "workflow_process": 0.0,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 1.0
+  }
+}

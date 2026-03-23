@@ -1,0 +1,1304 @@
+{
+  "repo": "github__gh-models",
+  "full_name": "github/gh-models",
+  "n_sections": 15,
+  "n_chars": 4253,
+  "sections": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 314,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides a high-level description of the repository's purpose and functionality, indicating its place within the project structure, and also touches on the technical architecture by mentioning the use of specific frameworks and APIs.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides a high-level description of the repository's purpose and functionality, indicating its place within the project structure, and also touches on the technical architecture by mentioning the use of specific frameworks and APIs.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the repository's purpose and its key components (CLI extension, technologies used), aligning with project overview aspects of structure and architectural choices.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the repository's purpose and its key components (CLI extension, technologies used), aligning with project overview aspects of structure and architectural choices.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall project and its implementation details, including the technology stack and supported features, which falls under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall project and its implementation details, including the technology stack and supported features, which falls under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building and Testing",
+      "level": 3,
+      "char_count": 243,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building and Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the commands and procedures for building and testing the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes the commands and procedures for building and testing the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building and Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and their purposes related to building, testing, and validating code changes, which directly relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and their purposes related to building, testing, and validating code changes, which directly relates to workflow processes.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building and Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commands for building and testing, which includes code style checks and testing requirements, aligning with both coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes commands for building and testing, which includes code style checks and testing requirements, aligning with both coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Command Structure",
+      "level": 3,
+      "char_count": 359,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key files, as well as the module roles and dependencies of the command structure.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key files, as well as the module roles and dependencies of the command structure.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes directory ",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes directory layout (project_structure) and module roles/dependencies (architecture).\""
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout of the project and the role of each module, including the entry point and shared configuration pattern.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout of the project and the role of each module, including the entry point and shared configuration pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Services",
+      "level": 3,
+      "char_count": 319,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Core Services",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the repository, while also outlining the roles and dependencies of specific modules.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key components of the repository, while also outlining the roles and dependencies of specific modules.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Core Services",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\"], \"reasoning\": \"Describes module roles and dependencies with specific",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes module roles and dependencies with specific design patterns (e.g., interface usage, template syntax).\""
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Core Services",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as the roles and dependencies of modules, which aligns with the project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files, as well as the roles and dependencies of modules, which aligns with the project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Data Flow",
+      "level": 3,
+      "char_count": 318,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Data Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the module roles and dependencies in the data flow process, which is a key aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the module roles and dependencies in the data flow process, which is a key aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Data Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes how different components interact and transform data, outlining the system's data flow architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes how different components interact and transform data, outlining the system's data flow architecture.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Data Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the flow of data through various components, which falls under architecture, and also mentions specific function calls, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the flow of data through various components, which falls under architecture, and also mentions specific function calls, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building & Testing",
+      "level": 3,
+      "char_count": 332,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building & Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the build and testing processes, which falls under workflow_process, and also touches on coding_style with mentions of formatting and vetting tools.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the build and testing processes, which falls under workflow_process, and also touches on coding_style with mentions of formatting and vetting tools.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building & Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on build commands, testing procedures, and quality gates, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on build commands, testing procedures, and quality gates, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building & Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes build and testing commands, which are part of coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes build and testing commands, which are part of coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Authentication & Setup",
+      "level": 3,
+      "char_count": 225,
+      "voted_categories": [
+        "project_structure",
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Authentication & Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the setup and authentication process for the repository, which relates to project structure, and also touches on client initialization patterns, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the setup and authentication process for the repository, which relates to project structure, and also touches on client initialization patterns, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Authentication & Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"Describes client initialization l",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"Describes client initialization logic (architecture) and authentication prerequisites (workflow_process).\""
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Authentication & Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the client initialization pattern in a specific file, which falls under project_structure, and also discusses the requirement for authentication before use, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the client initialization pattern in a specific file, which falls under project_structure, and also discusses the requirement for authentication before use, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Structure (.prompt.yml)",
+      "level": 3,
+      "char_count": 387,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Structure (.prompt.yml)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the structure of a specific file (.prompt.yml) and describes AI agent configuration, making it relevant to both project structure and agent rules categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"agent_rules\"], \"reasoning\": \"This section describes the structure of a specific file (.prompt.yml) and describes AI agent configuration, making it relevant to both project structure and agent rules categories.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Structure (.prompt.yml)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on the structure of a specific file (.prompt.yml), detailing its components and layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on the structure of a specific file (.prompt.yml), detailing its components and layout.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Structure (.prompt.yml)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the structure of a prompt file, including naming conventions, formatting, and file layout, which fits both coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the structure of a prompt file, including naming conventions, formatting, and file layout, which fits both coding_style and project_structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Response Formats",
+      "level": 3,
+      "char_count": 204,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Response Formats",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses specific formatting and structural conventions for response formats, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses specific formatting and structural conventions for response formats, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Response Formats",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific formatting and structural conventions for response formats (JSON Schema and template substitution), which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific formatting and structural conventions for response formats (JSON Schema and template substitution), which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Response Formats",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding style in terms of JSON schema and project structure by mentioning the use of templates and variable substitution.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses coding style in terms of JSON schema and project structure by mentioning the use of templates and variable substitution.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Command Tests",
+      "level": 3,
+      "char_count": 281,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location, pattern, and structure of command tests, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the location, pattern, and structure of command tests, which relates to coding style and project structure.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines testing prac",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines testing practices (workflow_process) and specifies a testing library and structure (coding_style).\""
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style (mock client creation, assertions), project structure (file location, pattern), and workflow process (table-driven tests, subtests).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes coding style (mock client creation, assertions), project structure (file location, pattern), and workflow process (table-driven tests, subtests).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Mock Usage",
+      "level": 3,
+      "char_count": 128,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Mock Usage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section contains code snippets demonstrating mock usage, which relates to coding style, and also implies the project's structure through the import and usage of specific modules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section contains code snippets demonstrating mock usage, which relates to coding style, and also implies the project's structure through the import and usage of specific modules.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Mock Usage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section demonstrates how to set up a mock client and configuration, implying guidance on project setup or key components' usage, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section demonstrates how to set up a mock client and configuration, implying guidance on project setup or key components' usage, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Mock Usage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates coding style through code snippets and architecture by showcasing the use of a mock client and configuration.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding style through code snippets and architecture by showcasing the use of a mock client and configuration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "GitHub Authentication",
+      "level": 3,
+      "char_count": 121,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "GitHub Authentication",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the authentication mechanism and its implementation, which relates to architecture, and also mentions a specific package and pattern, which touches on project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the authentication mechanism and its implementation, which relates to architecture, and also mentions a specific package and pattern, which touches on project structure.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "GitHub Authentication",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes a specific technical implementation detail (token management pattern) related to dependency usage, which pertains to architectural design choices.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes a specific technical implementation detail (token management pattern) related to dependency usage, which pertains to architectural design choices.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "GitHub Authentication",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes a specific coding style for token management and the architecture of the authentication process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes a specific coding style for token management and the architecture of the authentication process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Azure Models API",
+      "level": 3,
+      "char_count": 160,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Azure Models API",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the Azure Models API's technical implementation and constraints, which relate to architecture and AI-specific directives.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the Azure Models API's technical implementation and constraints, which relate to architecture and AI-specific directives.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Azure Models API",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes specific technical implementation details of the API (streaming, rate limiting, content filtering), which relates to the system's design and component behavior.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes specific technical implementation details of the API (streaming, rate limiting, content filtering), which relates to the system's design and component behavior.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Azure Models API",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of a custom `sse.EventReader` for streaming, which is an architectural decision, and also mentions a coding style choice of always enabling content safety filtering.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the use of a custom `sse.EventReader` for streaming, which is an architectural decision, and also mentions a coding style choice of always enabling content safety filtering.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Terminal Handling",
+      "level": 3,
+      "char_count": 316,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Terminal Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses key files and their roles, indicating project structure, and also mentions specific coding configurations, such as terminal-aware writers and table formatting.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses key files and their roles, indicating project structure, and also mentions specific coding configurations, such as terminal-aware writers and table formatting.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Terminal Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section mentions specific key files and their roles (project_structure), alongside coding practices for terminal handling (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section mentions specific key files and their roles (project_structure), alongside coding practices for terminal handling (coding_style).\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Terminal Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes coding style for output and table formatting, and lists key files related to the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes coding style for output and table formatting, and lists key files related to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Instructions",
+      "level": 2,
+      "char_count": 23,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [],
+          "reasoning": "The section contains only boilerplate and does not provide any meaningful content related to the categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section contains only boilerplate and does not provide any meaningful content related to the categories.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [],
+          "reasoning": "The section contains only a brief, non-specific instruction that doesn't clearly relate to any of the defined categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section contains only a brief, non-specific instruction that doesn't clearly relate to any of the defined categories.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on what to include in the final summary, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions on what to include in the final summary, which is part of the workflow process.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 314,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides a high-level description of the repository's purpose and functionality, indicating its place within the project structure, and also touches on the technical architecture by mentioning the use of specific frameworks and APIs.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides a high-level description of the repository's purpose and functionality, indicating its place within the project structure, and also touches on the technical architecture by mentioning the use of specific frameworks and APIs.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the repository's purpose and its key components (CLI extension, technologies used), aligning with project overview aspects of structure and architectural choices.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the repository's purpose and its key components (CLI extension, technologies used), aligning with project overview aspects of structure and architectural choices.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall project and its implementation details, including the technology stack and supported features, which falls under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall project and its implementation details, including the technology stack and supported features, which falls under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building and Testing",
+      "level": 3,
+      "char_count": 243,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building and Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the commands and procedures for building and testing the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes the commands and procedures for building and testing the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building and Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and their purposes related to building, testing, and validating code changes, which directly relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and their purposes related to building, testing, and validating code changes, which directly relates to workflow processes.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building and Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commands for building and testing, which includes code style checks and testing requirements, aligning with both coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes commands for building and testing, which includes code style checks and testing requirements, aligning with both coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Command Structure",
+      "level": 3,
+      "char_count": 359,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key files, as well as the module roles and dependencies of the command structure.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key files, as well as the module roles and dependencies of the command structure.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes directory ",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes directory layout (project_structure) and module roles/dependencies (architecture).\""
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout of the project and the role of each module, including the entry point and shared configuration pattern.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout of the project and the role of each module, including the entry point and shared configuration pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Services",
+      "level": 3,
+      "char_count": 319,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Core Services",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the repository, while also outlining the roles and dependencies of specific modules.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key components of the repository, while also outlining the roles and dependencies of specific modules.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Core Services",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\"], \"reasoning\": \"Describes module roles and dependencies with specific",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes module roles and dependencies with specific design patterns (e.g., interface usage, template syntax).\""
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Core Services",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as the roles and dependencies of modules, which aligns with the project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files, as well as the roles and dependencies of modules, which aligns with the project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Data Flow",
+      "level": 3,
+      "char_count": 318,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Data Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the module roles and dependencies in the data flow process, which is a key aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the module roles and dependencies in the data flow process, which is a key aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Data Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes how different components interact and transform data, outlining the system's data flow architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes how different components interact and transform data, outlining the system's data flow architecture.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Data Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the flow of data through various components, which falls under architecture, and also mentions specific function calls, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the flow of data through various components, which falls under architecture, and also mentions specific function calls, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building & Testing",
+      "level": 3,
+      "char_count": 332,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building & Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the build and testing processes, which falls under workflow_process, and also touches on coding_style with mentions of formatting and vetting tools.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the build and testing processes, which falls under workflow_process, and also touches on coding_style with mentions of formatting and vetting tools.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building & Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on build commands, testing procedures, and quality gates, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on build commands, testing procedures, and quality gates, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Building & Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes build and testing commands, which are part of coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes build and testing commands, which are part of coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Authentication & Setup",
+      "level": 3,
+      "char_count": 225,
+      "voted_categories": [
+        "project_structure",
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Authentication & Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the setup and authentication process for the repository, which relates to project structure, and also touches on client initialization patterns, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the setup and authentication process for the repository, which relates to project structure, and also touches on client initialization patterns, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Authentication & Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"Describes client initialization l",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"Describes client initialization logic (architecture) and authentication prerequisites (workflow_process).\""
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Authentication & Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the client initialization pattern in a specific file, which falls under project_structure, and also discusses the requirement for authentication before use, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the client initialization pattern in a specific file, which falls under project_structure, and also discusses the requirement for authentication before use, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Structure (.prompt.yml)",
+      "level": 3,
+      "char_count": 387,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Structure (.prompt.yml)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the structure of a specific file (.prompt.yml) and describes AI agent configuration, making it relevant to both project structure and agent rules categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"agent_rules\"], \"reasoning\": \"This section describes the structure of a specific file (.prompt.yml) and describes AI agent configuration, making it relevant to both project structure and agent rules categories.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Structure (.prompt.yml)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on the structure of a specific file (.prompt.yml), detailing its components and layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on the structure of a specific file (.prompt.yml), detailing its components and layout.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Structure (.prompt.yml)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the structure of a prompt file, including naming conventions, formatting, and file layout, which fits both coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the structure of a prompt file, including naming conventions, formatting, and file layout, which fits both coding_style and project_structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Response Formats",
+      "level": 3,
+      "char_count": 204,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Response Formats",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses specific formatting and structural conventions for response formats, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses specific formatting and structural conventions for response formats, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Response Formats",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific formatting and structural conventions for response formats (JSON Schema and template substitution), which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific formatting and structural conventions for response formats (JSON Schema and template substitution), which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Response Formats",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding style in terms of JSON schema and project structure by mentioning the use of templates and variable substitution.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses coding style in terms of JSON schema and project structure by mentioning the use of templates and variable substitution.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Command Tests",
+      "level": 3,
+      "char_count": 281,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location, pattern, and structure of command tests, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the location, pattern, and structure of command tests, which relates to coding style and project structure.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines testing prac",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines testing practices (workflow_process) and specifies a testing library and structure (coding_style).\""
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Command Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style (mock client creation, assertions), project structure (file location, pattern), and workflow process (table-driven tests, subtests).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes coding style (mock client creation, assertions), project structure (file location, pattern), and workflow process (table-driven tests, subtests).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Mock Usage",
+      "level": 3,
+      "char_count": 128,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Mock Usage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section contains code snippets demonstrating mock usage, which relates to coding style, and also implies the project's structure through the import and usage of specific modules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section contains code snippets demonstrating mock usage, which relates to coding style, and also implies the project's structure through the import and usage of specific modules.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Mock Usage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section demonstrates how to set up a mock client and configuration, implying guidance on project setup or key components' usage, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section demonstrates how to set up a mock client and configuration, implying guidance on project setup or key components' usage, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Mock Usage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates coding style through code snippets and architecture by showcasing the use of a mock client and configuration.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding style through code snippets and architecture by showcasing the use of a mock client and configuration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "GitHub Authentication",
+      "level": 3,
+      "char_count": 121,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "GitHub Authentication",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the authentication mechanism and its implementation, which relates to architecture, and also mentions a specific package and pattern, which touches on project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the authentication mechanism and its implementation, which relates to architecture, and also mentions a specific package and pattern, which touches on project structure.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "GitHub Authentication",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes a specific technical implementation detail (token management pattern) related to dependency usage, which pertains to architectural design choices.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes a specific technical implementation detail (token management pattern) related to dependency usage, which pertains to architectural design choices.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "GitHub Authentication",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes a specific coding style for token management and the architecture of the authentication process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes a specific coding style for token management and the architecture of the authentication process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Azure Models API",
+      "level": 3,
+      "char_count": 160,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Azure Models API",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the Azure Models API's technical implementation and constraints, which relate to architecture and AI-specific directives.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the Azure Models API's technical implementation and constraints, which relate to architecture and AI-specific directives.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Azure Models API",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes specific technical implementation details of the API (streaming, rate limiting, content filtering), which relates to the system's design and component behavior.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes specific technical implementation details of the API (streaming, rate limiting, content filtering), which relates to the system's design and component behavior.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Azure Models API",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of a custom `sse.EventReader` for streaming, which is an architectural decision, and also mentions a coding style choice of always enabling content safety filtering.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the use of a custom `sse.EventReader` for streaming, which is an architectural decision, and also mentions a coding style choice of always enabling content safety filtering.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Terminal Handling",
+      "level": 3,
+      "char_count": 316,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Terminal Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses key files and their roles, indicating project structure, and also mentions specific coding configurations, such as terminal-aware writers and table formatting.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses key files and their roles, indicating project structure, and also mentions specific coding configurations, such as terminal-aware writers and table formatting.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Terminal Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section mentions specific key files and their roles (project_structure), alongside coding practices for terminal handling (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section mentions specific key files and their roles (project_structure), alongside coding practices for terminal handling (coding_style).\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Terminal Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes coding style for output and table formatting, and lists key files related to the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes coding style for output and table formatting, and lists key files related to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Instructions",
+      "level": 2,
+      "char_count": 23,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [],
+          "reasoning": "The section contains only boilerplate and does not provide any meaningful content related to the categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section contains only boilerplate and does not provide any meaningful content related to the categories.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [],
+          "reasoning": "The section contains only a brief, non-specific instruction that doesn't clearly relate to any of the defined categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section contains only a brief, non-specific instruction that doesn't clearly relate to any of the defined categories.\"}"
+        },
+        {
+          "repo": "github/gh-models",
+          "section_heading": "Instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on what to include in the final summary, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions on what to include in the final summary, which is part of the workflow process.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.3333333333333333,
+    "project_structure": 0.5333333333333333,
+    "workflow_process": 0.26666666666666666,
+    "architecture": 0.4666666666666667,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.33806970509383377,
+    "project_structure": 0.6243967828418231,
+    "workflow_process": 0.2898123324396783,
+    "architecture": 0.4868632707774799,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

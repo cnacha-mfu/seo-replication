@@ -1,0 +1,1124 @@
+{
+  "repo": "getsentry__sentry-docs",
+  "full_name": "getsentry/sentry-docs",
+  "n_sections": 13,
+  "n_chars": 3744,
+  "sections": [
+    {
+      "heading": "Package Manager",
+      "level": 2,
+      "char_count": 67,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Package Manager",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section specifies the use of a particular package manager, which relates to coding style and project configuration.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section specifies the use of a particular package manager, which relates to coding style and project configuration.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Package Manager",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies the tool and commands for package management, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies the tool and commands for package management, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Package Manager",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on using a specific package manager and its commands, which falls under coding_style, and also mentions the package manager used in the project, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on using a specific package manager and its commands, which falls under coding_style, and also mentions the package manager used in the project, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development",
+      "level": 2,
+      "char_count": 252,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes development workflows and commands, including testing and linting, which are related to both workflow processes and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes development workflows and commands, including testing and linting, which are related to both workflow processes and coding style conventions.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists development commands for running the dev server, building, testing, and linting, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists development commands for running the dev server, building, testing, and linting, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style tools (linters) and workflow processes (commands for starting the dev server, building, testing).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style tools (linters) and workflow processes (commands for starting the dev server, building, testing).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tech Stack",
+      "level": 2,
+      "char_count": 131,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Tech Stack",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the technology stack used in the project, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the technology stack used in the project, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Tech Stack",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key technologies and frameworks used, implying how the project is structured in terms of dependencies and tech choices.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key technologies and frameworks used, implying how the project is structured in terms of dependencies and tech choices.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Tech Stack",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the technology stack used in the project, which falls under project_structure, and also mentions specific libraries and frameworks, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the technology stack used in the project, which falls under project_structure, and also mentions specific libraries and frameworks, which relates to coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 309,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the directory layout of the project.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 2,
+      "char_count": 117,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses code formatting and linting tools, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses code formatting and linting tools, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on enforcing coding conventions (ESLint, Prettier, TypeScript strict mode) and adherence to existing code patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on enforcing coding conventions (ESLint, Prettier, TypeScript strict mode) and adherence to existing code patterns.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines, including the use of ESLint, Prettier, TypeScript strict mode, and following existing codebase patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style guidelines, including the use of ESLint, Prettier, TypeScript strict mode, and following existing codebase patterns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 92,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes testing requirements and where tests live, which relates to workflow process and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes testing requirements and where tests live, which relates to workflow process and project structure.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing requirements and command for running tests, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes testing requirements and command for running tests, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for running tests and describes the location of test files, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command for running tests and describes the location of test files, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CLI Commands",
+      "level": 2,
+      "char_count": 307,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "CLI Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes CLI commands for development, testing, and linting, which relates to workflow processes and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes CLI commands for development, testing, and linting, which relates to workflow processes and coding style conventions.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "CLI Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific commands for development workflow tasks like setup, testing, and linting, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists specific commands for development workflow tasks like setup, testing, and linting, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "CLI Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes CLI commands related to coding style (TypeScript check, ESLint check, Prettier check) and workflow process (initial setup, running tests).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes CLI commands related to coding style (TypeScript check, ESLint check, Prettier check) and workflow process (initial setup, running tests).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repo UX / Generated files",
+      "level": 2,
+      "char_count": 227,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Repo UX / Generated files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a generated file and its handling in the repository, relating to directory layout and workflow processes like CI and linting.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a generated file and its handling in the repository, relating to directory layout and workflow processes like CI and linting.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Repo UX / Generated files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses a generated file's handling in the repository (project_structure) and its integration with CI and linting workflows (workflow_process).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section discusses a generated file's handling in the repository (project_structure) and its integration with CI and linting workflows (workflow_process).\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Repo UX / Generated files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses the location of a generated file and the process for generating it, which fits into both project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses the location of a generated file and the process for generating it, which fits into both project structure and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Developer Documentation (develop-docs/)",
+      "level": 2,
+      "char_count": 796,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Developer Documentation (develop-docs/)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on specific formatting and language requirements for writing documentation, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on specific formatting and language requirements for writing documentation, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Developer Documentation (develop-docs/)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific formatting and keyword usage conventions for writing requirements, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific formatting and keyword usage conventions for writing requirements, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Developer Documentation (develop-docs/)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using RFC 2119 keywords and formatting for writing requirements, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using RFC 2119 keywords and formatting for writing requirements, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Content Authoring",
+      "level": 2,
+      "char_count": 357,
+      "voted_categories": [
+        "workflow_process",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Content Authoring",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines specific guidelines and tools for content authoring, including auditing and review processes, which relate to workflow and AI agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section outlines specific guidelines and tools for content authoring, including auditing and review processes, which relate to workflow and AI agent rules.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Content Authoring",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines specific review and auditing steps using AI skills before committing, relating to workflow (workflow_process) and AI tool usage directives (agent_rules).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines specific review and auditing steps using AI skills before committing, relating to workflow (workflow_process) and AI tool usage directives (agent_rules).\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Content Authoring",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on using specific tools and skills for content authoring and review, which falls under coding style and workflow process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on using specific tools and skills for content authoring and review, which falls under coding style and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "LLM-Friendly MD Exports",
+      "level": 2,
+      "char_count": 417,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "LLM-Friendly MD Exports",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key files for MD exports, as well as referencing an architecture spec, making it primarily related to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key files for MD exports, as well as referencing an architecture spec, making it primarily related to project structure and architecture.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "LLM-Friendly MD Exports",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes directory layout and specific file locations (project_structure) and references an architecture spec (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes directory layout and specific file locations (project_structure) and references an architecture spec (architecture).\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "LLM-Friendly MD Exports",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of MD exports and the script used to generate them, as well as the architecture spec for LLM-friendly docs.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of MD exports and the script used to generate them, as well as the architecture spec for LLM-friendly docs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Plan Mode",
+      "level": 2,
+      "char_count": 164,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Plan Mode",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section focuses on directives for Claude's plan mode, specifically how to structure and present plans.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section focuses on directives for Claude's plan mode, specifically how to structure and present plans.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Plan Mode",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines specific directives for Claude's plan mode, focusing on format and content requirements.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section outlines specific directives for Claude's plan mode, focusing on format and content requirements.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Plan Mode",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidelines for the AI agent's plan mode, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidelines for the AI agent's plan mode, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit and Pull Request generation",
+      "level": 2,
+      "char_count": 168,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Commit and Pull Request generation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses commit and pull request guidelines, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses commit and pull request guidelines, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Commit and Pull Request generation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section discusses commit and P",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section discusses commit and PR practices (workflow_process) and specifies the use of Sentry skills (agent_rules).\""
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Commit and Pull Request generation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on commit format and PR rules, which fall under workflow_process, and also mentions the use of a specific tool for committing changes, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on commit format and PR rules, which fall under workflow_process, and also mentions the use of a specific tool for committing changes, which relates to coding_style.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Package Manager",
+      "level": 2,
+      "char_count": 67,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Package Manager",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section specifies the use of a particular package manager, which relates to coding style and project configuration.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section specifies the use of a particular package manager, which relates to coding style and project configuration.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Package Manager",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies the tool and commands for package management, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies the tool and commands for package management, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Package Manager",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on using a specific package manager and its commands, which falls under coding_style, and also mentions the package manager used in the project, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on using a specific package manager and its commands, which falls under coding_style, and also mentions the package manager used in the project, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development",
+      "level": 2,
+      "char_count": 252,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes development workflows and commands, including testing and linting, which are related to both workflow processes and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes development workflows and commands, including testing and linting, which are related to both workflow processes and coding style conventions.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists development commands for running the dev server, building, testing, and linting, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists development commands for running the dev server, building, testing, and linting, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style tools (linters) and workflow processes (commands for starting the dev server, building, testing).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style tools (linters) and workflow processes (commands for starting the dev server, building, testing).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tech Stack",
+      "level": 2,
+      "char_count": 131,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Tech Stack",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the technology stack used in the project, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the technology stack used in the project, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Tech Stack",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key technologies and frameworks used, implying how the project is structured in terms of dependencies and tech choices.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key technologies and frameworks used, implying how the project is structured in terms of dependencies and tech choices.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Tech Stack",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the technology stack used in the project, which falls under project_structure, and also mentions specific libraries and frameworks, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the technology stack used in the project, which falls under project_structure, and also mentions specific libraries and frameworks, which relates to coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 309,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the directory layout of the project.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 2,
+      "char_count": 117,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses code formatting and linting tools, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses code formatting and linting tools, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on enforcing coding conventions (ESLint, Prettier, TypeScript strict mode) and adherence to existing code patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on enforcing coding conventions (ESLint, Prettier, TypeScript strict mode) and adherence to existing code patterns.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines, including the use of ESLint, Prettier, TypeScript strict mode, and following existing codebase patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style guidelines, including the use of ESLint, Prettier, TypeScript strict mode, and following existing codebase patterns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 92,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes testing requirements and where tests live, which relates to workflow process and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes testing requirements and where tests live, which relates to workflow process and project structure.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing requirements and command for running tests, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes testing requirements and command for running tests, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for running tests and describes the location of test files, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command for running tests and describes the location of test files, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CLI Commands",
+      "level": 2,
+      "char_count": 307,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "CLI Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes CLI commands for development, testing, and linting, which relates to workflow processes and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes CLI commands for development, testing, and linting, which relates to workflow processes and coding style conventions.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "CLI Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific commands for development workflow tasks like setup, testing, and linting, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists specific commands for development workflow tasks like setup, testing, and linting, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "CLI Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes CLI commands related to coding style (TypeScript check, ESLint check, Prettier check) and workflow process (initial setup, running tests).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes CLI commands related to coding style (TypeScript check, ESLint check, Prettier check) and workflow process (initial setup, running tests).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repo UX / Generated files",
+      "level": 2,
+      "char_count": 227,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Repo UX / Generated files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a generated file and its handling in the repository, relating to directory layout and workflow processes like CI and linting.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a generated file and its handling in the repository, relating to directory layout and workflow processes like CI and linting.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Repo UX / Generated files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses a generated file's handling in the repository (project_structure) and its integration with CI and linting workflows (workflow_process).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section discusses a generated file's handling in the repository (project_structure) and its integration with CI and linting workflows (workflow_process).\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Repo UX / Generated files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses the location of a generated file and the process for generating it, which fits into both project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses the location of a generated file and the process for generating it, which fits into both project structure and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Developer Documentation (develop-docs/)",
+      "level": 2,
+      "char_count": 796,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Developer Documentation (develop-docs/)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on specific formatting and language requirements for writing documentation, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on specific formatting and language requirements for writing documentation, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Developer Documentation (develop-docs/)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific formatting and keyword usage conventions for writing requirements, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific formatting and keyword usage conventions for writing requirements, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Developer Documentation (develop-docs/)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using RFC 2119 keywords and formatting for writing requirements, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using RFC 2119 keywords and formatting for writing requirements, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Content Authoring",
+      "level": 2,
+      "char_count": 357,
+      "voted_categories": [
+        "workflow_process",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Content Authoring",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines specific guidelines and tools for content authoring, including auditing and review processes, which relate to workflow and AI agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section outlines specific guidelines and tools for content authoring, including auditing and review processes, which relate to workflow and AI agent rules.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Content Authoring",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines specific review and auditing steps using AI skills before committing, relating to workflow (workflow_process) and AI tool usage directives (agent_rules).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines specific review and auditing steps using AI skills before committing, relating to workflow (workflow_process) and AI tool usage directives (agent_rules).\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Content Authoring",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on using specific tools and skills for content authoring and review, which falls under coding style and workflow process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on using specific tools and skills for content authoring and review, which falls under coding style and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "LLM-Friendly MD Exports",
+      "level": 2,
+      "char_count": 417,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "LLM-Friendly MD Exports",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key files for MD exports, as well as referencing an architecture spec, making it primarily related to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key files for MD exports, as well as referencing an architecture spec, making it primarily related to project structure and architecture.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "LLM-Friendly MD Exports",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes directory layout and specific file locations (project_structure) and references an architecture spec (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes directory layout and specific file locations (project_structure) and references an architecture spec (architecture).\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "LLM-Friendly MD Exports",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of MD exports and the script used to generate them, as well as the architecture spec for LLM-friendly docs.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of MD exports and the script used to generate them, as well as the architecture spec for LLM-friendly docs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Plan Mode",
+      "level": 2,
+      "char_count": 164,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Plan Mode",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section focuses on directives for Claude's plan mode, specifically how to structure and present plans.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section focuses on directives for Claude's plan mode, specifically how to structure and present plans.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Plan Mode",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines specific directives for Claude's plan mode, focusing on format and content requirements.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section outlines specific directives for Claude's plan mode, focusing on format and content requirements.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Plan Mode",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidelines for the AI agent's plan mode, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidelines for the AI agent's plan mode, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit and Pull Request generation",
+      "level": 2,
+      "char_count": 168,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Commit and Pull Request generation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses commit and pull request guidelines, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses commit and pull request guidelines, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Commit and Pull Request generation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section discusses commit and P",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section discusses commit and PR practices (workflow_process) and specifies the use of Sentry skills (agent_rules).\""
+        },
+        {
+          "repo": "getsentry/sentry-docs",
+          "section_heading": "Commit and Pull Request generation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on commit format and PR rules, which fall under workflow_process, and also mentions the use of a specific tool for committing changes, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on commit format and PR rules, which fall under workflow_process, and also mentions the use of a specific tool for committing changes, which relates to coding_style.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.38461538461538464,
+    "project_structure": 0.3076923076923077,
+    "workflow_process": 0.46153846153846156,
+    "architecture": 0.07692307692307693,
+    "evolution_context": 0.0,
+    "agent_rules": 0.15384615384615385
+  },
+  "category_char_fraction": {
+    "coding_style": 0.4521151586368978,
+    "project_structure": 0.318448883666275,
+    "workflow_process": 0.41216216216216217,
+    "architecture": 0.12250293772032902,
+    "evolution_context": 0.0,
+    "agent_rules": 0.15305522914218567
+  }
+}

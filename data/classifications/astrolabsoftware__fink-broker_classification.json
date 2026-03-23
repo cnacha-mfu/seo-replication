@@ -1,0 +1,386 @@
+{
+  "repo": "astrolabsoftware__fink-broker",
+  "full_name": "astrolabsoftware/fink-broker",
+  "n_sections": 4,
+  "n_chars": 1524,
+  "sections": [
+    {
+      "heading": "Project Context",
+      "level": 2,
+      "char_count": 192,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project Context",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes the working directory, current branch, main branch, and git repository, which relates to project structure and provides context about the project's state and history.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section describes the working directory, current branch, main branch, and git repository, which relates to project structure and provides context about the project's state and history.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project Context",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides information about the project's working directory, branch details, and repository, which pertains to how the project is organized and set up.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides information about the project's working directory, branch details, and repository, which pertains to how the project is organized and set up.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project Context",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides information about the project's working directory and main branch, which are related to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides information about the project's working directory and main branch, which are related to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Guidelines",
+      "level": 2,
+      "char_count": 415,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Development Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines guidelines for development workflow and commit messages, but also touches on coding style by implying concise and minimal changes to the codebase.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines guidelines for development workflow and commit messages, but also touches on coding style by implying concise and minimal changes to the codebase.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Development Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules and guidelines for the development workflow, such as commit message language, file creation policies, and authorship, which are directly related to how work is processed.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules and guidelines for the development workflow, such as commit message language, file creation policies, and authorship, which are directly related to how work is processed.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Development Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on commit messages, file creation, and documentation, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on commit messages, file creation, and documentation, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Auto-approved Operations",
+      "level": 2,
+      "char_count": 493,
+      "voted_categories": [
+        "agent_rules",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Auto-approved Operations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific auto-approved operations, which pertains to agent rules, and also involves workflow processes like git commands.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"workflow_process\"], \"reasoning\": \"This section outlines specific auto-approved operations, which pertains to agent rules, and also involves workflow processes like git commands.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Auto-approved Operations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "Lists auto-approved operations (agent_rules) related to Git workflow actions (workflow_process)",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"Lists auto-approved operations (agent_rules) related to Git workflow actions (workflow_process)\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Auto-approved Operations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines automated operations, which are part of the workflow process, and specifies rules for the AI agent to follow.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines automated operations, which are part of the workflow process, and specifies rules for the AI agent to follow.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project-Specific Notes",
+      "level": 2,
+      "char_count": 267,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project-Specific Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides an overview of the project's context, its use of specific technologies like Docker and GitHub Actions, and its support for multiple surveys, which relates to project structure, workflow, and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section provides an overview of the project's context, its use of specific technologies like Docker and GitHub Actions, and its support for multiple surveys, which relates to project structure, workflow, and evolution context.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project-Specific Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "Mentions project context (project_structure), CI/CD pipelines (workflow_process), and design patterns (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"Mentions project context (project_structure), CI/CD pipelines (workflow_process), and design patterns (architecture).\"}\n\n**Breakdown for clarity (not part of the required response format, but added for understanding):**\n\n* **project_structure**: \"This is an astronomy/astrophysics project\" (context about the project), \"Supports multiple surveys (ZTF, Rubin)\" (project scope)\n* **workflow_process**: \"Uses Docker containers for testing\", \"GitHub Actions workflows for CI/CD\" (direct workflow/process mentions)\n* **architecture**: \"Uses reusable workflows pattern for Sentinel tests\" (implies a design choice/pattern)"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project-Specific Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's domain, testing setup, CI/CD pipeline, and support for multiple surveys, which are aspects of project structure, workflow process, and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the project's domain, testing setup, CI/CD pipeline, and support for multiple surveys, which are aspects of project structure, workflow process, and architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Context",
+      "level": 2,
+      "char_count": 192,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project Context",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes the working directory, current branch, main branch, and git repository, which relates to project structure and provides context about the project's state and history.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section describes the working directory, current branch, main branch, and git repository, which relates to project structure and provides context about the project's state and history.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project Context",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides information about the project's working directory, branch details, and repository, which pertains to how the project is organized and set up.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides information about the project's working directory, branch details, and repository, which pertains to how the project is organized and set up.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project Context",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides information about the project's working directory and main branch, which are related to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides information about the project's working directory and main branch, which are related to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Guidelines",
+      "level": 2,
+      "char_count": 415,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Development Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines guidelines for development workflow and commit messages, but also touches on coding style by implying concise and minimal changes to the codebase.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines guidelines for development workflow and commit messages, but also touches on coding style by implying concise and minimal changes to the codebase.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Development Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules and guidelines for the development workflow, such as commit message language, file creation policies, and authorship, which are directly related to how work is processed.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules and guidelines for the development workflow, such as commit message language, file creation policies, and authorship, which are directly related to how work is processed.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Development Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on commit messages, file creation, and documentation, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on commit messages, file creation, and documentation, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Auto-approved Operations",
+      "level": 2,
+      "char_count": 493,
+      "voted_categories": [
+        "agent_rules",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Auto-approved Operations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific auto-approved operations, which pertains to agent rules, and also involves workflow processes like git commands.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"workflow_process\"], \"reasoning\": \"This section outlines specific auto-approved operations, which pertains to agent rules, and also involves workflow processes like git commands.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Auto-approved Operations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "Lists auto-approved operations (agent_rules) related to Git workflow actions (workflow_process)",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"Lists auto-approved operations (agent_rules) related to Git workflow actions (workflow_process)\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Auto-approved Operations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines automated operations, which are part of the workflow process, and specifies rules for the AI agent to follow.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines automated operations, which are part of the workflow process, and specifies rules for the AI agent to follow.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project-Specific Notes",
+      "level": 2,
+      "char_count": 267,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project-Specific Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides an overview of the project's context, its use of specific technologies like Docker and GitHub Actions, and its support for multiple surveys, which relates to project structure, workflow, and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section provides an overview of the project's context, its use of specific technologies like Docker and GitHub Actions, and its support for multiple surveys, which relates to project structure, workflow, and evolution context.\"}"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project-Specific Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "Mentions project context (project_structure), CI/CD pipelines (workflow_process), and design patterns (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"Mentions project context (project_structure), CI/CD pipelines (workflow_process), and design patterns (architecture).\"}\n\n**Breakdown for clarity (not part of the required response format, but added for understanding):**\n\n* **project_structure**: \"This is an astronomy/astrophysics project\" (context about the project), \"Supports multiple surveys (ZTF, Rubin)\" (project scope)\n* **workflow_process**: \"Uses Docker containers for testing\", \"GitHub Actions workflows for CI/CD\" (direct workflow/process mentions)\n* **architecture**: \"Uses reusable workflows pattern for Sentinel tests\" (implies a design choice/pattern)"
+        },
+        {
+          "repo": "astrolabsoftware/fink-broker",
+          "section_heading": "Project-Specific Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's domain, testing setup, CI/CD pipeline, and support for multiple surveys, which are aspects of project structure, workflow process, and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the project's domain, testing setup, CI/CD pipeline, and support for multiple surveys, which are aspects of project structure, workflow process, and architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.25,
+    "project_structure": 0.5,
+    "workflow_process": 0.75,
+    "architecture": 0.25,
+    "evolution_context": 0.0,
+    "agent_rules": 0.25
+  },
+  "category_char_fraction": {
+    "coding_style": 0.3035844915874177,
+    "project_structure": 0.3357717629846379,
+    "workflow_process": 0.8595464520848574,
+    "architecture": 0.19531821506949523,
+    "evolution_context": 0.0,
+    "agent_rules": 0.3606437454279444
+  }
+}

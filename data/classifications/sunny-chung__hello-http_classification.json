@@ -1,0 +1,206 @@
+{
+  "repo": "sunny-chung__hello-http",
+  "full_name": "sunny-chung/hello-http",
+  "n_sections": 2,
+  "n_chars": 407,
+  "sections": [
+    {
+      "heading": "Welcome, Agents",
+      "level": 1,
+      "char_count": 130,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "Welcome, Agents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the application's purpose and supported protocols, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the application's purpose and supported protocols, which relates to project structure and architecture.\"}"
+        },
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "Welcome, Agents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a brief overview of the project's purpose and supported protocols, which relates to understanding where things live in the project context.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a brief overview of the project's purpose and supported protocols, which relates to understanding where things live in the project context.\"}"
+        },
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "Welcome, Agents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the application's functionality and supported protocols, which relates to its architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the application's functionality and supported protocols, which relates to its architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "General",
+      "level": 2,
+      "char_count": 244,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "General",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section contains guidelines for coding practice and workflow, including asking before making changes and following a specific code practice document.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section contains guidelines for coding practice and workflow, including asking before making changes and following a specific code practice document.\"}"
+        },
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "General",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a workflow rule (asking before changes) and references strict coding practices, with a minor note on specific tech versions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines a workflow rule (asking before changes) and references strict coding practices, with a minor note on specific tech versions.\"}"
+        },
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "General",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding practice guidelines and rules for making changes, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding practice guidelines and rules for making changes, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Welcome, Agents",
+      "level": 1,
+      "char_count": 130,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "Welcome, Agents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the application's purpose and supported protocols, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the application's purpose and supported protocols, which relates to project structure and architecture.\"}"
+        },
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "Welcome, Agents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a brief overview of the project's purpose and supported protocols, which relates to understanding where things live in the project context.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a brief overview of the project's purpose and supported protocols, which relates to understanding where things live in the project context.\"}"
+        },
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "Welcome, Agents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the application's functionality and supported protocols, which relates to its architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the application's functionality and supported protocols, which relates to its architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "General",
+      "level": 2,
+      "char_count": 244,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "General",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section contains guidelines for coding practice and workflow, including asking before making changes and following a specific code practice document.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section contains guidelines for coding practice and workflow, including asking before making changes and following a specific code practice document.\"}"
+        },
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "General",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a workflow rule (asking before changes) and references strict coding practices, with a minor note on specific tech versions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines a workflow rule (asking before changes) and references strict coding practices, with a minor note on specific tech versions.\"}"
+        },
+        {
+          "repo": "sunny-chung/hello-http",
+          "section_heading": "General",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding practice guidelines and rules for making changes, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding practice guidelines and rules for making changes, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.5,
+    "project_structure": 0.5,
+    "workflow_process": 0.5,
+    "architecture": 0.5,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.6524064171122995,
+    "project_structure": 0.34759358288770054,
+    "workflow_process": 0.6524064171122995,
+    "architecture": 0.34759358288770054,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

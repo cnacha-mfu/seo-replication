@@ -1,0 +1,1896 @@
+{
+  "repo": "bpowers__simlin",
+  "full_name": "bpowers/simlin",
+  "n_sections": 22,
+  "n_chars": 9721,
+  "sections": [
+    {
+      "heading": "Simlin Development Guide",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin Development Guide",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a general overview of the project, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a general overview of the project, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin Development Guide",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level overview of the project's purpose, which informs how the project is structured and understood.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level overview of the project's purpose, which informs how the project is structured and understood.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin Development Guide",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the overall purpose and functionality of the project, which falls under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the overall purpose and functionality of the project, which falls under project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Simlin's Mission",
+      "level": 2,
+      "char_count": 249,
+      "voted_categories": [
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin's Mission",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines the project's mission and purpose, relating to its evolution context and AI-specific directives for agent rules.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section outlines the project's mission and purpose, relating to its evolution context and AI-specific directives for agent rules.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin's Mission",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "Describes the project's overarching goal and value proposition, implying its purpose and potential growth context.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"Describes the project's overarching goal and value proposition, implying its purpose and potential growth context.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin's Mission",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the mission of Simlin, which implies its role and purpose in the overall system architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the mission of Simlin, which implies its role and purpose in the overall system architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Components",
+      "level": 2,
+      "char_count": 2327,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the project, including their roles and dependencies, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key components of the project, including their roles and dependencies, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section outlines the directory layout and key components (project_structure), while also describing their roles and dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines the directory layout and key components (project_structure), while also describing their roles and dependencies (architecture).\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project, as well as the roles and dependencies of the components, which aligns with the project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files of the project, as well as the roles and dependencies of the components, which aligns with the project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Setup",
+      "level": 2,
+      "char_count": 137,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Environment Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific workflow step to be performed at the start of every session, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific workflow step to be performed at the start of every session, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Environment Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a mandatory, repeatable task (running a script) to be performed at the start of every work session, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a mandatory, repeatable task (running a script) to be performed at the start of every work session, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Environment Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a script for setting up the development environment, which is part of the project structure, and outlines a process to be followed at the start of every session, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a script for setting up the development environment, which is part of the project structure, and outlines a process to be followed at the start of every session, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build / Test / Lint",
+      "level": 2,
+      "char_count": 254,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Build / Test / Lint",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the build, test, and lint commands, which relates to workflow processes, and also touches on code formatting, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the build, test, and lint commands, which relates to workflow processes, and also touches on code formatting, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Build / Test / Lint",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on commands and processes for building, testing, and linting the project, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on commands and processes for building, testing, and linting the project, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Build / Test / Lint",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides commands for building, testing, and linting the code, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides commands for building, testing, and linting the code, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pre-commit Hooks",
+      "level": 2,
+      "char_count": 491,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Pre-commit Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses pre-commit hooks that enforce coding style through formatting and linting checks, and also relates to workflow process by describing how commits should be handled with these hooks in place.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses pre-commit hooks that enforce coding style through formatting and linting checks, and also relates to workflow process by describing how commits should be handled with these hooks in place.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Pre-commit Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on the pre-commit hook process, which is part of the workflow, enforcing checks before commits.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on the pre-commit hook process, which is part of the workflow, enforcing checks before commits.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Pre-commit Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style tools (Rust formatting, linting, TypeScript linting, type checking) and workflow processes (pre-commit hook, running tests).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style tools (Rust formatting, linting, TypeScript linting, type checking) and workflow processes (pre-commit hook, running tests).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit Message Style",
+      "level": 2,
+      "char_count": 352,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Commit Message Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the commit message style, which relates to workflow process, and also touches on formatting, which is a coding style aspect.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the commit message style, which relates to workflow process, and also touches on formatting, which is a coding style aspect.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Commit Message Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific guidelines for formatting commit messages, which is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific guidelines for formatting commit messages, which is a part of the workflow process.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Commit Message Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on commit message formatting and content, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on commit message formatting and content, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Hard Rules",
+      "level": 2,
+      "char_count": 484,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Hard Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines coding principles and testing requirements, which are key aspects of coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines coding principles and testing requirements, which are key aspects of coding style and workflow process.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Hard Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines coding princ",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines coding principles (coding_style) and enforces a specific development methodology (workflow_process).\""
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Hard Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines and emphasizes the importance of test-driven development, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines and emphasizes the importance of test-driven development, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Comment and Rustdoc Standards",
+      "level": 2,
+      "char_count": 647,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Comment and Rustdoc Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions and code documentation standards, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions and code documentation standards, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Comment and Rustdoc Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on guidelines for writing, maintaining, and formatting comments and documentation, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on guidelines for writing, maintaining, and formatting comments and documentation, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Comment and Rustdoc Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on commenting and rustdoc standards, which are part of coding style, and also discusses the purpose and side effects of public Rust items and non-trivial internal functions, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on commenting and rustdoc standards, which are part of coding style, and also discusses the purpose and side effects of public Rust items and non-trivial internal functions, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Standards",
+      "level": 2,
+      "char_count": 256,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Development Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines development standards, including links to specific language guidelines and workflow practices, which primarily relate to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines development standards, including links to specific language guidelines and workflow practices, which primarily relate to coding style and workflow process.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Development Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "Lists coding standards by language (coding_style) and references workflow/process guidelines (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"Lists coding standards by language (coding_style) and references workflow/process guidelines (workflow_process).\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Development Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section lists coding standards for different languages used in the project and provides links to more detailed documentation, which implies project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section lists coding standards for different languages used in the project and provides links to more detailed documentation, which implies project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Understanding Requirements",
+      "level": 3,
+      "char_count": 257,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Understanding Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses the process of understanding requirements, which involves reading code and documentation, asking about architecture decisions, and building simple interfaces, relating to both workflow and architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses the process of understanding requirements, which involves reading code and documentation, asking about architecture decisions, and building simple interfaces, relating to both workflow and architecture.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Understanding Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines steps for understanding and addressing requirements, which relates to workflow (testing, iterative development) and architectural considerations (interface design, decision clarity).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines steps for understanding and addressing requirements, which relates to workflow (testing, iterative development) and architectural considerations (interface design, decision clarity).\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Understanding Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines for workflow processes such as reading code and documentation, asking about architecture decisions, and adding tests, as well as architectural advice on building simple interfaces.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines for workflow processes such as reading code and documentation, asking about architecture decisions, and adding tests, as well as architectural advice on building simple interfaces.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "libsimlin API Design",
+      "level": 3,
+      "char_count": 169,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "libsimlin API Design",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section discusses design principles for the libsimlin API, focusing on module roles and design patterns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section discusses design principles for the libsimlin API, focusing on module roles and design patterns.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "libsimlin API Design",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on design principles for the API's structure and functionality, indicating architectural decisions.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on design principles for the API's structure and functionality, indicating architectural decisions.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "libsimlin API Design",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses design patterns and component boundaries for the API, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses design patterns and component boundaries for the API, which falls under the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tracking Discovered Issues",
+      "level": 2,
+      "char_count": 603,
+      "voted_categories": [
+        "workflow_process",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Tracking Discovered Issues",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the process of tracking discovered issues, which involves workflow, technical debt, and the use of a specific agent.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section describes the process of tracking discovered issues, which involves workflow, technical debt, and the use of a specific agent.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Tracking Discovered Issues",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines a workflow process for tracking issues and mentions tech debt, implying evolution context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section outlines a workflow process for tracking issues and mentions tech debt, implying evolution context.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Tracking Discovered Issues",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section describes a workflow process for tracking issues and also relates to the evolution context of the project, such as tech debt and design limitations.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section describes a workflow process for tracking issues and also relates to the evolution context of the project, such as tech debt and design limitations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Generated/Noise Paths",
+      "level": 2,
+      "char_count": 253,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Generated/Noise Paths",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes specific directories and files that are treated as generated output, indicating a focus on project directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes specific directories and files that are treated as generated output, indicating a focus on project directory layout and key files.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Generated/Noise Paths",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific directory paths and their treatment, which relates to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific directory paths and their treatment, which relates to how the project is organized.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Generated/Noise Paths",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific directories and files that are generated output, which is relevant to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section lists specific directories and files that are generated output, which is relevant to project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Models",
+      "level": 2,
+      "char_count": 197,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Test Models",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the location and purpose of test models within the project directory, relating to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the location and purpose of test models within the project directory, relating to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Test Models",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Describes a directory's purpose (project_structure) and its role in integration testing (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Describes a directory's purpose (project_structure) and its role in integration testing (workflow_process).\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Test Models",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the location of test models in the project structure and explains their role in the testing workflow.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the location of test models in the project structure and explains their role in the testing workflow.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Protobuf Generation",
+      "level": 2,
+      "char_count": 79,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Protobuf Generation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a build process and mentions a specific command for regenerating protobuf bindings, which relates to both workflow and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a build process and mentions a specific command for regenerating protobuf bindings, which relates to both workflow and project structure.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Protobuf Generation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command for regeneration, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command for regeneration, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Protobuf Generation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes a build command for generating TypeScript and Rust protobuf bindings, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes a build command for generating TypeScript and Rust protobuf bindings, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Users",
+      "level": 3,
+      "char_count": 300,
+      "voted_categories": [
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Users",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the target users and their goals, which informs the project's context and evolution, as well as guiding principles for the AI agent's interaction with the system.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section describes the target users and their goals, which informs the project's context and evolution, as well as guiding principles for the AI agent's interaction with the system.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Users",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "Describes the target users and their needs, implying the project's purpose and context.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"Describes the target users and their needs, implying the project's purpose and context.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Users",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the intended users of the project, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the intended users of the project, which is a key aspect of project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Brand Personality",
+      "level": 3,
+      "char_count": 200,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Brand Personality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section defines the tone and personality of the Simlin project, which is related to AI-specific directives and the overall strategy of the agent.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section defines the tone and personality of the Simlin project, which is related to AI-specific directives and the overall strategy of the agent.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Brand Personality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section defines the tone and personality of the AI agent (Simlin), which relates to its interaction and operational guidelines.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section defines the tone and personality of the AI agent (Simlin), which relates to its interaction and operational guidelines.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Brand Personality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the overall tone and personality of the project, which is a part of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the overall tone and personality of the project, which is a part of project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Aesthetic Direction",
+      "level": 3,
+      "char_count": 459,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Aesthetic Direction",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses visual design principles and style guidelines, which aligns with coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses visual design principles and style guidelines, which aligns with coding style conventions.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Aesthetic Direction",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on visual design principles and UI component styling, which relates to coding style guidelines for maintaining a consistent aesthetic in the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on visual design principles and UI component styling, which relates to coding style guidelines for maintaining a consistent aesthetic in the codebase.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Aesthetic Direction",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the aesthetic direction of the project, which influences the project's structure and architecture, including UI components and design patterns.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the aesthetic direction of the project, which influences the project's structure and architecture, including UI components and design patterns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Design Principles",
+      "level": 3,
+      "char_count": 715,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines design principles that influence the architecture of the application and also touches on coding style through the mention of specific typography and color schemes.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section outlines design principles that influence the architecture of the application and also touches on coding style through the mention of specific typography and color schemes.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines high-level design principles guiding the structure and behavior of the application's components and UI, which relates to architectural decisions.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines high-level design principles guiding the structure and behavior of the application's components and UI, which relates to architectural decisions.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines design principles that guide the visual and functional aspects of the project, which can be considered as part of coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines design principles that guide the visual and functional aspects of the project, which can be considered as part of coding style and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Design Tokens Reference",
+      "level": 3,
+      "char_count": 418,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Tokens Reference",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes design tokens and their locations, which relates to project structure, and also specifies coding style elements like font and spacing.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes design tokens and their locations, which relates to project structure, and also specifies coding style elements like font and spacing.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Tokens Reference",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section outlines coding styl",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section outlines coding style guidelines (colors, fonts, spacing) and references project structure locations (component library, theme.css file).\""
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Tokens Reference",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides color, font, and spacing conventions, which fall under coding_style, and also specifies the location of design tokens and component library, which is project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides color, font, and spacing conventions, which fall under coding_style, and also specifies the location of design tokens and component library, which is project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Accessibility",
+      "level": 3,
+      "char_count": 163,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Accessibility",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on following good practices for accessibility, which relates to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on following good practices for accessibility, which relates to coding style and conventions.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Accessibility",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on coding practices for accessibility, aligning with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on coding practices for accessibility, aligning with coding style guidelines.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Accessibility",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses coding practices for accessibility and implies a project-wide approach to implementing them.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses coding practices for accessibility and implies a project-wide approach to implementing them.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Simlin Development Guide",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin Development Guide",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a general overview of the project, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a general overview of the project, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin Development Guide",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level overview of the project's purpose, which informs how the project is structured and understood.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level overview of the project's purpose, which informs how the project is structured and understood.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin Development Guide",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the overall purpose and functionality of the project, which falls under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the overall purpose and functionality of the project, which falls under project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Simlin's Mission",
+      "level": 2,
+      "char_count": 249,
+      "voted_categories": [
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin's Mission",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines the project's mission and purpose, relating to its evolution context and AI-specific directives for agent rules.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section outlines the project's mission and purpose, relating to its evolution context and AI-specific directives for agent rules.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin's Mission",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "Describes the project's overarching goal and value proposition, implying its purpose and potential growth context.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"Describes the project's overarching goal and value proposition, implying its purpose and potential growth context.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Simlin's Mission",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the mission of Simlin, which implies its role and purpose in the overall system architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the mission of Simlin, which implies its role and purpose in the overall system architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Components",
+      "level": 2,
+      "char_count": 2327,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the project, including their roles and dependencies, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key components of the project, including their roles and dependencies, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section outlines the directory layout and key components (project_structure), while also describing their roles and dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines the directory layout and key components (project_structure), while also describing their roles and dependencies (architecture).\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project, as well as the roles and dependencies of the components, which aligns with the project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files of the project, as well as the roles and dependencies of the components, which aligns with the project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Setup",
+      "level": 2,
+      "char_count": 137,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Environment Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific workflow step to be performed at the start of every session, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific workflow step to be performed at the start of every session, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Environment Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a mandatory, repeatable task (running a script) to be performed at the start of every work session, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a mandatory, repeatable task (running a script) to be performed at the start of every work session, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Environment Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a script for setting up the development environment, which is part of the project structure, and outlines a process to be followed at the start of every session, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a script for setting up the development environment, which is part of the project structure, and outlines a process to be followed at the start of every session, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build / Test / Lint",
+      "level": 2,
+      "char_count": 254,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Build / Test / Lint",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the build, test, and lint commands, which relates to workflow processes, and also touches on code formatting, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the build, test, and lint commands, which relates to workflow processes, and also touches on code formatting, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Build / Test / Lint",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on commands and processes for building, testing, and linting the project, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on commands and processes for building, testing, and linting the project, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Build / Test / Lint",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides commands for building, testing, and linting the code, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides commands for building, testing, and linting the code, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pre-commit Hooks",
+      "level": 2,
+      "char_count": 491,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Pre-commit Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses pre-commit hooks that enforce coding style through formatting and linting checks, and also relates to workflow process by describing how commits should be handled with these hooks in place.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses pre-commit hooks that enforce coding style through formatting and linting checks, and also relates to workflow process by describing how commits should be handled with these hooks in place.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Pre-commit Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on the pre-commit hook process, which is part of the workflow, enforcing checks before commits.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on the pre-commit hook process, which is part of the workflow, enforcing checks before commits.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Pre-commit Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style tools (Rust formatting, linting, TypeScript linting, type checking) and workflow processes (pre-commit hook, running tests).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style tools (Rust formatting, linting, TypeScript linting, type checking) and workflow processes (pre-commit hook, running tests).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit Message Style",
+      "level": 2,
+      "char_count": 352,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Commit Message Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the commit message style, which relates to workflow process, and also touches on formatting, which is a coding style aspect.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the commit message style, which relates to workflow process, and also touches on formatting, which is a coding style aspect.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Commit Message Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific guidelines for formatting commit messages, which is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific guidelines for formatting commit messages, which is a part of the workflow process.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Commit Message Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on commit message formatting and content, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on commit message formatting and content, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Hard Rules",
+      "level": 2,
+      "char_count": 484,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Hard Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines coding principles and testing requirements, which are key aspects of coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines coding principles and testing requirements, which are key aspects of coding style and workflow process.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Hard Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines coding princ",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines coding principles (coding_style) and enforces a specific development methodology (workflow_process).\""
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Hard Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines and emphasizes the importance of test-driven development, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines and emphasizes the importance of test-driven development, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Comment and Rustdoc Standards",
+      "level": 2,
+      "char_count": 647,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Comment and Rustdoc Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions and code documentation standards, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions and code documentation standards, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Comment and Rustdoc Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on guidelines for writing, maintaining, and formatting comments and documentation, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on guidelines for writing, maintaining, and formatting comments and documentation, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Comment and Rustdoc Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on commenting and rustdoc standards, which are part of coding style, and also discusses the purpose and side effects of public Rust items and non-trivial internal functions, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on commenting and rustdoc standards, which are part of coding style, and also discusses the purpose and side effects of public Rust items and non-trivial internal functions, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Standards",
+      "level": 2,
+      "char_count": 256,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Development Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines development standards, including links to specific language guidelines and workflow practices, which primarily relate to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines development standards, including links to specific language guidelines and workflow practices, which primarily relate to coding style and workflow process.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Development Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "Lists coding standards by language (coding_style) and references workflow/process guidelines (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"Lists coding standards by language (coding_style) and references workflow/process guidelines (workflow_process).\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Development Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section lists coding standards for different languages used in the project and provides links to more detailed documentation, which implies project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section lists coding standards for different languages used in the project and provides links to more detailed documentation, which implies project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Understanding Requirements",
+      "level": 3,
+      "char_count": 257,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Understanding Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses the process of understanding requirements, which involves reading code and documentation, asking about architecture decisions, and building simple interfaces, relating to both workflow and architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses the process of understanding requirements, which involves reading code and documentation, asking about architecture decisions, and building simple interfaces, relating to both workflow and architecture.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Understanding Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines steps for understanding and addressing requirements, which relates to workflow (testing, iterative development) and architectural considerations (interface design, decision clarity).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines steps for understanding and addressing requirements, which relates to workflow (testing, iterative development) and architectural considerations (interface design, decision clarity).\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Understanding Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines for workflow processes such as reading code and documentation, asking about architecture decisions, and adding tests, as well as architectural advice on building simple interfaces.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines for workflow processes such as reading code and documentation, asking about architecture decisions, and adding tests, as well as architectural advice on building simple interfaces.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "libsimlin API Design",
+      "level": 3,
+      "char_count": 169,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "libsimlin API Design",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section discusses design principles for the libsimlin API, focusing on module roles and design patterns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section discusses design principles for the libsimlin API, focusing on module roles and design patterns.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "libsimlin API Design",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on design principles for the API's structure and functionality, indicating architectural decisions.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on design principles for the API's structure and functionality, indicating architectural decisions.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "libsimlin API Design",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses design patterns and component boundaries for the API, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses design patterns and component boundaries for the API, which falls under the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tracking Discovered Issues",
+      "level": 2,
+      "char_count": 603,
+      "voted_categories": [
+        "workflow_process",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Tracking Discovered Issues",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the process of tracking discovered issues, which involves workflow, technical debt, and the use of a specific agent.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section describes the process of tracking discovered issues, which involves workflow, technical debt, and the use of a specific agent.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Tracking Discovered Issues",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines a workflow process for tracking issues and mentions tech debt, implying evolution context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section outlines a workflow process for tracking issues and mentions tech debt, implying evolution context.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Tracking Discovered Issues",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section describes a workflow process for tracking issues and also relates to the evolution context of the project, such as tech debt and design limitations.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section describes a workflow process for tracking issues and also relates to the evolution context of the project, such as tech debt and design limitations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Generated/Noise Paths",
+      "level": 2,
+      "char_count": 253,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Generated/Noise Paths",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes specific directories and files that are treated as generated output, indicating a focus on project directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes specific directories and files that are treated as generated output, indicating a focus on project directory layout and key files.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Generated/Noise Paths",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific directory paths and their treatment, which relates to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific directory paths and their treatment, which relates to how the project is organized.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Generated/Noise Paths",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific directories and files that are generated output, which is relevant to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section lists specific directories and files that are generated output, which is relevant to project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Models",
+      "level": 2,
+      "char_count": 197,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Test Models",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the location and purpose of test models within the project directory, relating to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the location and purpose of test models within the project directory, relating to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Test Models",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Describes a directory's purpose (project_structure) and its role in integration testing (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Describes a directory's purpose (project_structure) and its role in integration testing (workflow_process).\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Test Models",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the location of test models in the project structure and explains their role in the testing workflow.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the location of test models in the project structure and explains their role in the testing workflow.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Protobuf Generation",
+      "level": 2,
+      "char_count": 79,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Protobuf Generation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a build process and mentions a specific command for regenerating protobuf bindings, which relates to both workflow and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a build process and mentions a specific command for regenerating protobuf bindings, which relates to both workflow and project structure.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Protobuf Generation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command for regeneration, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command for regeneration, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Protobuf Generation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes a build command for generating TypeScript and Rust protobuf bindings, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes a build command for generating TypeScript and Rust protobuf bindings, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Users",
+      "level": 3,
+      "char_count": 300,
+      "voted_categories": [
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Users",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the target users and their goals, which informs the project's context and evolution, as well as guiding principles for the AI agent's interaction with the system.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section describes the target users and their goals, which informs the project's context and evolution, as well as guiding principles for the AI agent's interaction with the system.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Users",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "Describes the target users and their needs, implying the project's purpose and context.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"Describes the target users and their needs, implying the project's purpose and context.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Users",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the intended users of the project, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the intended users of the project, which is a key aspect of project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Brand Personality",
+      "level": 3,
+      "char_count": 200,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Brand Personality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section defines the tone and personality of the Simlin project, which is related to AI-specific directives and the overall strategy of the agent.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section defines the tone and personality of the Simlin project, which is related to AI-specific directives and the overall strategy of the agent.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Brand Personality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section defines the tone and personality of the AI agent (Simlin), which relates to its interaction and operational guidelines.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section defines the tone and personality of the AI agent (Simlin), which relates to its interaction and operational guidelines.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Brand Personality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the overall tone and personality of the project, which is a part of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the overall tone and personality of the project, which is a part of project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Aesthetic Direction",
+      "level": 3,
+      "char_count": 459,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Aesthetic Direction",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses visual design principles and style guidelines, which aligns with coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses visual design principles and style guidelines, which aligns with coding style conventions.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Aesthetic Direction",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on visual design principles and UI component styling, which relates to coding style guidelines for maintaining a consistent aesthetic in the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on visual design principles and UI component styling, which relates to coding style guidelines for maintaining a consistent aesthetic in the codebase.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Aesthetic Direction",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the aesthetic direction of the project, which influences the project's structure and architecture, including UI components and design patterns.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the aesthetic direction of the project, which influences the project's structure and architecture, including UI components and design patterns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Design Principles",
+      "level": 3,
+      "char_count": 715,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines design principles that influence the architecture of the application and also touches on coding style through the mention of specific typography and color schemes.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section outlines design principles that influence the architecture of the application and also touches on coding style through the mention of specific typography and color schemes.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines high-level design principles guiding the structure and behavior of the application's components and UI, which relates to architectural decisions.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines high-level design principles guiding the structure and behavior of the application's components and UI, which relates to architectural decisions.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines design principles that guide the visual and functional aspects of the project, which can be considered as part of coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines design principles that guide the visual and functional aspects of the project, which can be considered as part of coding style and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Design Tokens Reference",
+      "level": 3,
+      "char_count": 418,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Tokens Reference",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes design tokens and their locations, which relates to project structure, and also specifies coding style elements like font and spacing.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes design tokens and their locations, which relates to project structure, and also specifies coding style elements like font and spacing.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Tokens Reference",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section outlines coding styl",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section outlines coding style guidelines (colors, fonts, spacing) and references project structure locations (component library, theme.css file).\""
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Design Tokens Reference",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides color, font, and spacing conventions, which fall under coding_style, and also specifies the location of design tokens and component library, which is project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides color, font, and spacing conventions, which fall under coding_style, and also specifies the location of design tokens and component library, which is project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Accessibility",
+      "level": 3,
+      "char_count": 163,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Accessibility",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on following good practices for accessibility, which relates to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on following good practices for accessibility, which relates to coding style and conventions.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Accessibility",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on coding practices for accessibility, aligning with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on coding practices for accessibility, aligning with coding style guidelines.\"}"
+        },
+        {
+          "repo": "bpowers/simlin",
+          "section_heading": "Accessibility",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses coding practices for accessibility and implies a project-wide approach to implementing them.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses coding practices for accessibility and implies a project-wide approach to implementing them.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.45454545454545453,
+    "project_structure": 0.2727272727272727,
+    "workflow_process": 0.45454545454545453,
+    "architecture": 0.18181818181818182,
+    "evolution_context": 0.13636363636363635,
+    "agent_rules": 0.045454545454545456
+  },
+  "category_char_fraction": {
+    "coding_style": 0.4652107111501317,
+    "project_structure": 0.37050043898156276,
+    "workflow_process": 0.3413081650570676,
+    "architecture": 0.3805970149253731,
+    "evolution_context": 0.1264266900790167,
+    "agent_rules": 0.021949078138718173
+  }
+}

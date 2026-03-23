@@ -1,0 +1,1708 @@
+{
+  "repo": "hapifhir__org.hl7.fhir.validator-wrapper",
+  "full_name": "hapifhir/org.hl7.fhir.validator-wrapper",
+  "n_sections": 20,
+  "n_chars": 17671,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 447,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project's layout and technology stack, including its backend, frontend, and shared code, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project's layout and technology stack, including its backend, frontend, and shared code, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the project's overall structure (Kotlin Multiplatform with specific components) and its architectural components (JVM backend, JS frontend, shared code).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the project's overall structure (Kotlin Multiplatform with specific components) and its architectural components (JVM backend, JS frontend, shared code).\" }"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall project structure and the architecture of the application, including the backend, frontend, and shared code components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall project structure and the architecture of the application, including the backend, frontend, and shared code components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building",
+      "level": 3,
+      "char_count": 221,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Building",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build commands and processes, which falls under workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build commands and processes, which falls under workflow and development procedures.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Building",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific build commands, which are part of the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific build commands, which are part of the development workflow process.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Building",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for building the project, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions for building the project, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running",
+      "level": 3,
+      "char_count": 243,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Running",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run the application, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run the application, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Running",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commands for running the application in different modes, which relates to workflow and execution processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes commands for running the application in different modes, which relates to workflow and execution processes.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Running",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions for running the project, which involves coding style commands and project structure details.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions for running the project, which involves coding style commands and project structure details.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 357,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes testing requirements and commands for running tests, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes testing requirements and commands for running tests, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and procedures for running tests, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and procedures for running tests, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions on running tests, which is part of the workflow process, and also includes coding style conventions for test class names.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides instructions on running tests, which is part of the workflow process, and also includes coding style conventions for test class names.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Version Management",
+      "level": 3,
+      "char_count": 163,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Version Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses version management, which relates to project structure through the mention of a specific file and evolution context through the concept of versioning.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section discusses version management, which relates to project structure through the mention of a specific file and evolution context through the concept of versioning.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Version Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section discusses version management through a specific file and command, relating to how the project is organized and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section discusses version management through a specific file and command, relating to how the project is organized and key files.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Version Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a project structure element (version.properties) and a workflow process (version management via a plugin).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a project structure element (version.properties) and a workflow process (version management via a plugin).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Kotlin Multiplatform Structure",
+      "level": 3,
+      "char_count": 1498,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Kotlin Multiplatform Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the Kotlin Multiplatform project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the Kotlin Multiplatform project.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Kotlin Multiplatform Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key components of the Kotlin Multiplatform project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key components of the Kotlin Multiplatform project.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Kotlin Multiplatform Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project, as well as the module roles and dependencies, which aligns with the project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files of the project, as well as the module roles and dependencies, which aligns with the project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "JVM Backend Architecture",
+      "level": 3,
+      "char_count": 1257,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JVM Backend Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section primarily describes the JVM backend architecture, including entry points, dependency injection, feature-based controllers, and key backend classes, which are all related to the system's design and structure.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section primarily describes the JVM backend architecture, including entry points, dependency injection, feature-based controllers, and key backend classes, which are all related to the system's design and structure.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JVM Backend Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Dominantly describes architectural design (dependency injection, feature-based controllers, key classes) with some emphasis on project structure (directory layout example).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Dominantly describes architectural design (dependency injection, feature-based controllers, key classes) with some emphasis on project structure (directory layout example).\" }"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JVM Backend Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's backend architecture, including dependency injection, feature-based controllers, and key backend classes, which fall under the project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's backend architecture, including dependency injection, feature-based controllers, and key backend classes, which fall under the project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "JS Frontend Architecture",
+      "level": 3,
+      "char_count": 4151,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JS Frontend Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the frontend architecture of the application, focusing on the React Context API and state management with three context providers.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the frontend architecture of the application, focusing on the React Context API and state management with three context providers.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JS Frontend Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section details the design and structure of the React frontend's state management system, focusing on module roles and component boundaries.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section details the design and structure of the React frontend's state management system, focusing on module roles and component boundaries.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JS Frontend Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the architecture of the frontend using React's Context API, including the hierarchy of context providers and the purpose of each context, while also providing details on the coding style and conventions used for state management and callback functions.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the architecture of the frontend using React's Context API, including the hierarchy of context providers and the purpose of each context, while also providing details on the coding style and conventions used for state management and callback functions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "API Communication Flow",
+      "level": 3,
+      "char_count": 1277,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "API Communication Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the API communication flow, key differences from previous architecture, and API endpoints, which primarily relates to the system's architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the API communication flow, key differences from previous architecture, and API endpoints, which primarily relates to the system's architecture and project structure.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "API Communication Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the system",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the system's architecture (communication flow, component interactions) and outlines key API endpoints (project structure aspect).\""
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "API Communication Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the architecture of the API communication flow and the project structure in terms of components and their interactions.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the architecture of the API communication flow and the project structure in terms of components and their interactions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Multiplatform Data Models",
+      "level": 3,
+      "char_count": 478,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Multiplatform Data Models",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the design pattern and organization of data models across different platforms, indicating both architectural and project structure concerns.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the design pattern and organization of data models across different platforms, indicating both architectural and project structure concerns.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Multiplatform Data Models",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes directory layout (project_structure) and module roles/design patterns (architecture) for multiplatform data models.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes directory layout (project_structure) and module roles/design patterns (architecture) for multiplatform data models.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Multiplatform Data Models",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure of the project's data models across different platforms and the architecture of the models using the `expect`/`actual` pattern.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure of the project's data models across different platforms and the architecture of the models using the `expect`/`actual` pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important Patterns & Decisions",
+      "level": 3,
+      "char_count": 766,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Important Patterns & Decisions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes important design patterns and decisions, which relates to architecture, and also touches on the project's evolution context by implying the complexity and technical considerations of the system.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section describes important design patterns and decisions, which relates to architecture, and also touches on the project's evolution context by implying the complexity and technical considerations of the system.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Important Patterns & Decisions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines key architectural design patterns and decisions governing the system's structure and behavior.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines key architectural design patterns and decisions governing the system's structure and behavior.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Important Patterns & Decisions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes architectural patterns like session tracking, state management, preset configuration, localization, hybrid rendering, and validation context builder, along with coding style conventions for React state immutability and Kotlin's .copy() method.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes architectural patterns like session tracking, state management, preset configuration, localization, hybrid rendering, and validation context builder, along with coding style conventions for React state immutability and Kotlin's .copy() method.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "React Context Migration (2025)",
+      "level": 3,
+      "char_count": 1746,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "React Context Migration (2025)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "This section describes a significant migration in the project's history, detailing the reasons and implementation of the switch from Redux to React Context API, which pertains to both evolution context and architecture.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"This section describes a significant migration in the project's history, detailing the reasons and implementation of the switch from Redux to React Context API, which pertains to both evolution context and architecture.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "React Context Migration (2025)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section describes a significant architectural change (Redux to React Context API) and provides context about the project's evolution (migration reasons, timeline, impact).",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section describes a significant architectural change (Redux to React Context API) and provides context about the project's evolution (migration reasons, timeline, impact).\" }"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "React Context Migration (2025)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section describes a significant architectural change in the project (migration from Redux to React Context API) and provides context on the evolution of the project.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section describes a significant architectural change in the project (migration from Redux to React Context API) and provides context on the evolution of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependency Version Compatibility",
+      "level": 3,
+      "char_count": 1244,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Dependency Version Compatibility",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses dependency version compatibility, which relates to project structure, and also mentions updates and changes to the project, indicating evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section discusses dependency version compatibility, which relates to project structure, and also mentions updates and changes to the project, indicating evolution context.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Dependency Version Compatibility",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses dependency management and build configuration, which relates to project structure, and implies workflow processes through version update guidelines.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency management and build configuration, which relates to project structure, and implies workflow processes through version update guidelines.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Dependency Version Compatibility",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses dependency version compatibility, which falls under coding style, and also mentions the removal of certain dependencies, affecting the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses dependency version compatibility, which falls under coding style, and also mentions the removal of certain dependencies, affecting the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "FHIR Core Version",
+      "level": 3,
+      "char_count": 135,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "FHIR Core Version",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section discusses a key configuration property that affects the project's dependency on a specific validation library, relating to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section discusses a key configuration property that affects the project's dependency on a specific validation library, relating to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "FHIR Core Version",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Mentions a key project file (gradle.properties) and its impact on the core validation engine's dependency, touching both project structure and architectural dependency choices.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Mentions a key project file (gradle.properties) and its impact on the core validation engine's dependency, touching both project structure and architectural dependency choices.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "FHIR Core Version",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes a specific file in the project structure and its role in the overall architecture of the validation engine.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes a specific file in the project structure and its role in the overall architecture of the validation engine.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Variables",
+      "level": 3,
+      "char_count": 192,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Environment Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes environment variables that affect the deployment and behavior of the application, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes environment variables that affect the deployment and behavior of the application, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Environment Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes environment variables that influence how the project is set up and deployed, relating to its structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes environment variables that influence how the project is set up and deployed, relating to its structure.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Environment Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes environment variables, which are part of the project structure, and also touches on coding style by mentioning a configuration file and a specific value setting.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes environment variables, which are part of the project structure, and also touches on coding style by mentioning a configuration file and a specific value setting.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When Adding New Features",
+      "level": 3,
+      "char_count": 1834,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "When Adding New Features",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes the steps and guidelines for adding new features to the project, including backend and frontend modifications, which relates to project structure, workflow process, and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes the steps and guidelines for adding new features to the project, including backend and frontend modifications, which relates to project structure, workflow process, and architecture.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "When Adding New Features",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps for adding new features, implying both how the project is structured (directory references) and the workflow/process to follow.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines specific steps for adding new features, implying both how the project is structured (directory references) and the workflow/process to follow.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "When Adding New Features",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on where to add new features in both backend and frontend, and how to structure them, which falls under project_structure; it also outlines the process of adding new features, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on where to add new features in both backend and frontend, and how to structure them, which falls under project_structure; it also outlines the process of adding new features, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 215,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and frameworks used in the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and frameworks used in the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing frameworks and tools, which relates to workflow processes in software development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing frameworks and tools, which relates to workflow processes in software development.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style for testing (JUnit 5, MockK, Karma, Chrome Headless) and workflow process for testing (Ktor's testApplication, io.ktor:ktor-server-test-host).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style for testing (JUnit 5, MockK, Karma, Chrome Headless) and workflow process for testing (Ktor's testApplication, io.ktor:ktor-server-test-host).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CI/CD",
+      "level": 2,
+      "char_count": 422,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CI/CD",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the CI/CD pipeline configurations and processes for the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes the CI/CD pipeline configurations and processes for the project.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CI/CD",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes CI/CD pipeline configurations and triggers, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes CI/CD pipeline configurations and triggers, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CI/CD",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the CI/CD pipelines for different branches, which is a workflow process, and also mentions the release process and hosted validator, which relates to the architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the CI/CD pipelines for different branches, which is a workflow process, and also mentions the release process and hosted validator, which relates to the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Additional Resources",
+      "level": 2,
+      "char_count": 317,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Additional Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [],
+          "reasoning": "This section contains only links to external resources, which does not fit into any of the specified content categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"This section contains only links to external resources, which does not fit into any of the specified content categories.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Additional Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [],
+          "reasoning": "The section contains only external resource links, which don't directly relate to any of the specified project management, coding, or AI agent instruction categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section contains only external resource links, which don't directly relate to any of the specified project management, coding, or AI agent instruction categories.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Additional Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides links to project documentation and resources, which can be considered as part of the project structure.",
+          "raw_response": "{\n  \"categories\": [\"project_structure\"],\n  \"reasoning\": \"The section provides links to project documentation and resources, which can be considered as part of the project structure.\"\n}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 447,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project's layout and technology stack, including its backend, frontend, and shared code, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project's layout and technology stack, including its backend, frontend, and shared code, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the project's overall structure (Kotlin Multiplatform with specific components) and its architectural components (JVM backend, JS frontend, shared code).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the project's overall structure (Kotlin Multiplatform with specific components) and its architectural components (JVM backend, JS frontend, shared code).\" }"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall project structure and the architecture of the application, including the backend, frontend, and shared code components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall project structure and the architecture of the application, including the backend, frontend, and shared code components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building",
+      "level": 3,
+      "char_count": 221,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Building",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build commands and processes, which falls under workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build commands and processes, which falls under workflow and development procedures.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Building",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific build commands, which are part of the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific build commands, which are part of the development workflow process.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Building",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for building the project, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions for building the project, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running",
+      "level": 3,
+      "char_count": 243,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Running",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run the application, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run the application, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Running",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commands for running the application in different modes, which relates to workflow and execution processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes commands for running the application in different modes, which relates to workflow and execution processes.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Running",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions for running the project, which involves coding style commands and project structure details.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions for running the project, which involves coding style commands and project structure details.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 357,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes testing requirements and commands for running tests, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes testing requirements and commands for running tests, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and procedures for running tests, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and procedures for running tests, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions on running tests, which is part of the workflow process, and also includes coding style conventions for test class names.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides instructions on running tests, which is part of the workflow process, and also includes coding style conventions for test class names.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Version Management",
+      "level": 3,
+      "char_count": 163,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Version Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses version management, which relates to project structure through the mention of a specific file and evolution context through the concept of versioning.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section discusses version management, which relates to project structure through the mention of a specific file and evolution context through the concept of versioning.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Version Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section discusses version management through a specific file and command, relating to how the project is organized and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section discusses version management through a specific file and command, relating to how the project is organized and key files.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Version Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a project structure element (version.properties) and a workflow process (version management via a plugin).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a project structure element (version.properties) and a workflow process (version management via a plugin).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Kotlin Multiplatform Structure",
+      "level": 3,
+      "char_count": 1498,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Kotlin Multiplatform Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the Kotlin Multiplatform project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the Kotlin Multiplatform project.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Kotlin Multiplatform Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key components of the Kotlin Multiplatform project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key components of the Kotlin Multiplatform project.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Kotlin Multiplatform Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project, as well as the module roles and dependencies, which aligns with the project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files of the project, as well as the module roles and dependencies, which aligns with the project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "JVM Backend Architecture",
+      "level": 3,
+      "char_count": 1257,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JVM Backend Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section primarily describes the JVM backend architecture, including entry points, dependency injection, feature-based controllers, and key backend classes, which are all related to the system's design and structure.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section primarily describes the JVM backend architecture, including entry points, dependency injection, feature-based controllers, and key backend classes, which are all related to the system's design and structure.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JVM Backend Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Dominantly describes architectural design (dependency injection, feature-based controllers, key classes) with some emphasis on project structure (directory layout example).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Dominantly describes architectural design (dependency injection, feature-based controllers, key classes) with some emphasis on project structure (directory layout example).\" }"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JVM Backend Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's backend architecture, including dependency injection, feature-based controllers, and key backend classes, which fall under the project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's backend architecture, including dependency injection, feature-based controllers, and key backend classes, which fall under the project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "JS Frontend Architecture",
+      "level": 3,
+      "char_count": 4151,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JS Frontend Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the frontend architecture of the application, focusing on the React Context API and state management with three context providers.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the frontend architecture of the application, focusing on the React Context API and state management with three context providers.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JS Frontend Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section details the design and structure of the React frontend's state management system, focusing on module roles and component boundaries.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section details the design and structure of the React frontend's state management system, focusing on module roles and component boundaries.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "JS Frontend Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the architecture of the frontend using React's Context API, including the hierarchy of context providers and the purpose of each context, while also providing details on the coding style and conventions used for state management and callback functions.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the architecture of the frontend using React's Context API, including the hierarchy of context providers and the purpose of each context, while also providing details on the coding style and conventions used for state management and callback functions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "API Communication Flow",
+      "level": 3,
+      "char_count": 1277,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "API Communication Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the API communication flow, key differences from previous architecture, and API endpoints, which primarily relates to the system's architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the API communication flow, key differences from previous architecture, and API endpoints, which primarily relates to the system's architecture and project structure.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "API Communication Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the system",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the system's architecture (communication flow, component interactions) and outlines key API endpoints (project structure aspect).\""
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "API Communication Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the architecture of the API communication flow and the project structure in terms of components and their interactions.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the architecture of the API communication flow and the project structure in terms of components and their interactions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Multiplatform Data Models",
+      "level": 3,
+      "char_count": 478,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Multiplatform Data Models",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the design pattern and organization of data models across different platforms, indicating both architectural and project structure concerns.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the design pattern and organization of data models across different platforms, indicating both architectural and project structure concerns.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Multiplatform Data Models",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes directory layout (project_structure) and module roles/design patterns (architecture) for multiplatform data models.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes directory layout (project_structure) and module roles/design patterns (architecture) for multiplatform data models.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Multiplatform Data Models",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure of the project's data models across different platforms and the architecture of the models using the `expect`/`actual` pattern.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure of the project's data models across different platforms and the architecture of the models using the `expect`/`actual` pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important Patterns & Decisions",
+      "level": 3,
+      "char_count": 766,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Important Patterns & Decisions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes important design patterns and decisions, which relates to architecture, and also touches on the project's evolution context by implying the complexity and technical considerations of the system.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section describes important design patterns and decisions, which relates to architecture, and also touches on the project's evolution context by implying the complexity and technical considerations of the system.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Important Patterns & Decisions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines key architectural design patterns and decisions governing the system's structure and behavior.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines key architectural design patterns and decisions governing the system's structure and behavior.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Important Patterns & Decisions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes architectural patterns like session tracking, state management, preset configuration, localization, hybrid rendering, and validation context builder, along with coding style conventions for React state immutability and Kotlin's .copy() method.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes architectural patterns like session tracking, state management, preset configuration, localization, hybrid rendering, and validation context builder, along with coding style conventions for React state immutability and Kotlin's .copy() method.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "React Context Migration (2025)",
+      "level": 3,
+      "char_count": 1746,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "React Context Migration (2025)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "This section describes a significant migration in the project's history, detailing the reasons and implementation of the switch from Redux to React Context API, which pertains to both evolution context and architecture.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"This section describes a significant migration in the project's history, detailing the reasons and implementation of the switch from Redux to React Context API, which pertains to both evolution context and architecture.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "React Context Migration (2025)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section describes a significant architectural change (Redux to React Context API) and provides context about the project's evolution (migration reasons, timeline, impact).",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section describes a significant architectural change (Redux to React Context API) and provides context about the project's evolution (migration reasons, timeline, impact).\" }"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "React Context Migration (2025)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section describes a significant architectural change in the project (migration from Redux to React Context API) and provides context on the evolution of the project.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section describes a significant architectural change in the project (migration from Redux to React Context API) and provides context on the evolution of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependency Version Compatibility",
+      "level": 3,
+      "char_count": 1244,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Dependency Version Compatibility",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses dependency version compatibility, which relates to project structure, and also mentions updates and changes to the project, indicating evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section discusses dependency version compatibility, which relates to project structure, and also mentions updates and changes to the project, indicating evolution context.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Dependency Version Compatibility",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses dependency management and build configuration, which relates to project structure, and implies workflow processes through version update guidelines.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency management and build configuration, which relates to project structure, and implies workflow processes through version update guidelines.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Dependency Version Compatibility",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses dependency version compatibility, which falls under coding style, and also mentions the removal of certain dependencies, affecting the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses dependency version compatibility, which falls under coding style, and also mentions the removal of certain dependencies, affecting the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "FHIR Core Version",
+      "level": 3,
+      "char_count": 135,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "FHIR Core Version",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section discusses a key configuration property that affects the project's dependency on a specific validation library, relating to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section discusses a key configuration property that affects the project's dependency on a specific validation library, relating to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "FHIR Core Version",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Mentions a key project file (gradle.properties) and its impact on the core validation engine's dependency, touching both project structure and architectural dependency choices.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Mentions a key project file (gradle.properties) and its impact on the core validation engine's dependency, touching both project structure and architectural dependency choices.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "FHIR Core Version",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes a specific file in the project structure and its role in the overall architecture of the validation engine.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes a specific file in the project structure and its role in the overall architecture of the validation engine.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Variables",
+      "level": 3,
+      "char_count": 192,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Environment Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes environment variables that affect the deployment and behavior of the application, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes environment variables that affect the deployment and behavior of the application, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Environment Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes environment variables that influence how the project is set up and deployed, relating to its structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes environment variables that influence how the project is set up and deployed, relating to its structure.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Environment Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes environment variables, which are part of the project structure, and also touches on coding style by mentioning a configuration file and a specific value setting.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes environment variables, which are part of the project structure, and also touches on coding style by mentioning a configuration file and a specific value setting.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When Adding New Features",
+      "level": 3,
+      "char_count": 1834,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "When Adding New Features",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes the steps and guidelines for adding new features to the project, including backend and frontend modifications, which relates to project structure, workflow process, and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes the steps and guidelines for adding new features to the project, including backend and frontend modifications, which relates to project structure, workflow process, and architecture.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "When Adding New Features",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps for adding new features, implying both how the project is structured (directory references) and the workflow/process to follow.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines specific steps for adding new features, implying both how the project is structured (directory references) and the workflow/process to follow.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "When Adding New Features",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on where to add new features in both backend and frontend, and how to structure them, which falls under project_structure; it also outlines the process of adding new features, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on where to add new features in both backend and frontend, and how to structure them, which falls under project_structure; it also outlines the process of adding new features, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 215,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and frameworks used in the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and frameworks used in the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing frameworks and tools, which relates to workflow processes in software development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing frameworks and tools, which relates to workflow processes in software development.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style for testing (JUnit 5, MockK, Karma, Chrome Headless) and workflow process for testing (Ktor's testApplication, io.ktor:ktor-server-test-host).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style for testing (JUnit 5, MockK, Karma, Chrome Headless) and workflow process for testing (Ktor's testApplication, io.ktor:ktor-server-test-host).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CI/CD",
+      "level": 2,
+      "char_count": 422,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CI/CD",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the CI/CD pipeline configurations and processes for the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes the CI/CD pipeline configurations and processes for the project.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CI/CD",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes CI/CD pipeline configurations and triggers, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes CI/CD pipeline configurations and triggers, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "CI/CD",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the CI/CD pipelines for different branches, which is a workflow process, and also mentions the release process and hosted validator, which relates to the architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the CI/CD pipelines for different branches, which is a workflow process, and also mentions the release process and hosted validator, which relates to the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Additional Resources",
+      "level": 2,
+      "char_count": 317,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Additional Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [],
+          "reasoning": "This section contains only links to external resources, which does not fit into any of the specified content categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"This section contains only links to external resources, which does not fit into any of the specified content categories.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Additional Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [],
+          "reasoning": "The section contains only external resource links, which don't directly relate to any of the specified project management, coding, or AI agent instruction categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section contains only external resource links, which don't directly relate to any of the specified project management, coding, or AI agent instruction categories.\"}"
+        },
+        {
+          "repo": "hapifhir/org.hl7.fhir.validator-wrapper",
+          "section_heading": "Additional Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides links to project documentation and resources, which can be considered as part of the project structure.",
+          "raw_response": "{\n  \"categories\": [\"project_structure\"],\n  \"reasoning\": \"The section provides links to project documentation and resources, which can be considered as part of the project structure.\"\n}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": false,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.5,
+    "workflow_process": 0.3,
+    "architecture": 0.4,
+    "evolution_context": 0.05,
+    "agent_rules": 0.05
+  },
+  "category_char_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.4995605039554644,
+    "workflow_process": 0.19290946381482565,
+    "architecture": 0.6010547905068855,
+    "evolution_context": 0.10231467916788749,
+    "agent_rules": 0.0059771462056841486
+  }
+}

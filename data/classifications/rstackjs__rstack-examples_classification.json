@@ -1,0 +1,1038 @@
+{
+  "repo": "rstackjs__rstack-examples",
+  "full_name": "rstackjs/rstack-examples",
+  "n_sections": 12,
+  "n_chars": 4295,
+  "sections": [
+    {
+      "heading": "AGENTS.md",
+      "level": 1,
+      "char_count": 76,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "AGENTS.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about guidance for AI coding agents, which falls under agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about guidance for AI coding agents, which falls under agent-specific directives.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "AGENTS.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses AI coding agents with guidance, aligning with agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses AI coding agents with guidance, aligning with agent-specific directives.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "AGENTS.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance for AI coding agents, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance for AI coding agents, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repository Overview",
+      "level": 2,
+      "char_count": 316,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Repository Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the repository layout and key files, which is the dominant content related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the repository layout and key files, which is the dominant content related to project structure.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Repository Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the repository's layout and key configuration files, which is primarily about project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the repository's layout and key configuration files, which is primarily about project structure.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Repository Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the overall structure of the repository and the package manager used, which falls under project_structure, and also mentions the workspace layout, which is related to workflow_process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the overall structure of the repository and the package manager used, which falls under project_structure, and also mentions the workspace layout, which is related to workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Purpose of Examples",
+      "level": 2,
+      "char_count": 836,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Core Purpose of Examples",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines guidelines for creating and modifying examples in the repository, focusing on minimalism, simplicity, and clarity, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section outlines guidelines for creating and modifying examples in the repository, focusing on minimalism, simplicity, and clarity, which relates to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Core Purpose of Examples",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines structural guidelines for examples (project_structure) and workflow/process for creating/modifying them (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines structural guidelines for examples (project_structure) and workflow/process for creating/modifying them (workflow_process).\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Core Purpose of Examples",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on structuring and coding examples, focusing on minimalism, avoiding over-engineering, and maintaining clarity.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on structuring and coding examples, focusing on minimalism, avoiding over-engineering, and maintaining clarity.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Good: Demonstrates rstest's mocking API",
+      "level": 1,
+      "char_count": 81,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Good: Demonstrates rstest's mocking API",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on demonstrating good coding practices with rstest's mocking API, emphasizing simplicity and clarity.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on demonstrating good coding practices with rstest's mocking API, emphasizing simplicity and clarity.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Good: Demonstrates rstest's mocking API",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section evaluates code quality aspects (mock function usage, assertions, setup code brevity) which relate to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section evaluates code quality aspects (mock function usage, assertions, setup code brevity) which relate to coding style.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Good: Demonstrates rstest's mocking API",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on coding style with mock function usage and clear assertions, and also implies workflow processes with testing requirements.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section focuses on coding style with mock function usage and clear assertions, and also implies workflow processes with testing requirements.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Bad: Demonstrates rstest's mocking API",
+      "level": 1,
+      "char_count": 141,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Bad: Demonstrates rstest's mocking API",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section demonstrates testing practices and code organization, which relates to workflow_process and coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section demonstrates testing practices and code organization, which relates to workflow_process and coding_style.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Bad: Demonstrates rstest's mocking API",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing practices (DOM testing, mocking API, test assertions), which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing practices (DOM testing, mocking API, test assertions), which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Bad: Demonstrates rstest's mocking API",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses coding style in the context of testing and demonstrates a workflow process for testing complex React components.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses coding style in the context of testing and demonstrates a workflow process for testing complex React components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quick Start (Local)",
+      "level": 2,
+      "char_count": 665,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Quick Start (Local)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the workflow and commands for setting up and building the project, with some information about the project structure and directory layout.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the workflow and commands for setting up and building the project, with some information about the project structure and directory layout.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Quick Start (Local)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and steps for setting up, building, testing, and working with the project locally, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and steps for setting up, building, testing, and working with the project locally, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Quick Start (Local)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on how to navigate the project structure and execute workflow processes such as installing dependencies and running tests.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on how to navigate the project structure and execute workflow processes such as installing dependencies and running tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Where Things Live",
+      "level": 2,
+      "char_count": 377,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Where Things Live",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files, which is a clear indication of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files, which is a clear indication of project structure.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Where Things Live",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the top-level directory layout and the purpose of each directory.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the top-level directory layout and the purpose of each directory.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Where Things Live",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the top-level directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the top-level directory layout of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Conventions",
+      "level": 2,
+      "char_count": 378,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Coding Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding conventions, including formatting, linting, and style preferences, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding conventions, including formatting, linting, and style preferences, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Coding Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses formatting, linting, and coding preferences, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses formatting, linting, and coding preferences, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Coding Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses formatting, linting, and language conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses formatting, linting, and language conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running/Changing Examples",
+      "level": 2,
+      "char_count": 222,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Running/Changing Examples",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the procedures and expectations for running and modifying examples, which falls under workflow processes and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the procedures and expectations for running and modifying examples, which falls under workflow processes and testing requirements.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Running/Changing Examples",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on procedural requirements for modifying and ensuring the functionality of examples, aligning with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on procedural requirements for modifying and ensuring the functionality of examples, aligning with workflow processes.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Running/Changing Examples",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines for running and changing examples, which falls under workflow_process, and also implies the project's structure by mentioning 'dev' script and 'build'.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides guidelines for running and changing examples, which falls under workflow_process, and also implies the project's structure by mentioning 'dev' script and 'build'.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies & Workspace Notes",
+      "level": 2,
+      "char_count": 232,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Dependencies & Workspace Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses dependency management and workspace notes, which relates to project structure, and also mentions command usage, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses dependency management and workspace notes, which relates to project structure, and also mentions command usage, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Dependencies & Workspace Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses dependency management (project_structure) and command usage for scoped operations (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency management (project_structure) and command usage for scoped operations (workflow_process).\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Dependencies & Workspace Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses where dependencies should be added in the project structure and provides a workflow process for scoping commands to specific packages.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses where dependencies should be added in the project structure and provides a workflow process for scoping commands to specific packages.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Agent Workflow Expectations",
+      "level": 2,
+      "char_count": 321,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Agent Workflow Expectations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines expectations for making changes, which aligns with workflow processes such as testing requirements and commit rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines expectations for making changes, which aligns with workflow processes such as testing requirements and commit rules.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Agent Workflow Expectations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and guidelines for making changes, which directly relates to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and guidelines for making changes, which directly relates to the workflow process.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Agent Workflow Expectations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific workflow processes for making changes and also provides guidance on project structure, such as keeping changes scoped to a specific package and updating configuration consistently with conventions in that subtree.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific workflow processes for making changes and also provides guidance on project structure, such as keeping changes scoped to a specific package and updating configuration consistently with conventions in that subtree.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Pitfalls",
+      "level": 2,
+      "char_count": 294,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Common Pitfalls",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses common pitfalls and considerations when working with the repository's examples, which relates to both the project's structure and its evolution context.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"This section discusses common pitfalls and considerations when working with the repository's examples, which relates to both the project's structure and its evolution context.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Common Pitfalls",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section advises on handling project artifacts (project_structure) and working practices (workflow_process) to avoid common issues.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section advises on handling project artifacts (project_structure) and working practices (workflow_process) to avoid common issues.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Common Pitfalls",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidance on the structure of the project directories and warns against editing generated output directories, while also advising on checking package.json for specific versions or Node constraints, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidance on the structure of the project directories and warns against editing generated output directories, while also advising on checking package.json for specific versions or Node constraints, which relates to workflow processes.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "AGENTS.md",
+      "level": 1,
+      "char_count": 76,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "AGENTS.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about guidance for AI coding agents, which falls under agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about guidance for AI coding agents, which falls under agent-specific directives.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "AGENTS.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses AI coding agents with guidance, aligning with agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses AI coding agents with guidance, aligning with agent-specific directives.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "AGENTS.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance for AI coding agents, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance for AI coding agents, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repository Overview",
+      "level": 2,
+      "char_count": 316,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Repository Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the repository layout and key files, which is the dominant content related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the repository layout and key files, which is the dominant content related to project structure.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Repository Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the repository's layout and key configuration files, which is primarily about project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the repository's layout and key configuration files, which is primarily about project structure.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Repository Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the overall structure of the repository and the package manager used, which falls under project_structure, and also mentions the workspace layout, which is related to workflow_process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the overall structure of the repository and the package manager used, which falls under project_structure, and also mentions the workspace layout, which is related to workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Purpose of Examples",
+      "level": 2,
+      "char_count": 836,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Core Purpose of Examples",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines guidelines for creating and modifying examples in the repository, focusing on minimalism, simplicity, and clarity, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section outlines guidelines for creating and modifying examples in the repository, focusing on minimalism, simplicity, and clarity, which relates to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Core Purpose of Examples",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines structural guidelines for examples (project_structure) and workflow/process for creating/modifying them (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines structural guidelines for examples (project_structure) and workflow/process for creating/modifying them (workflow_process).\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Core Purpose of Examples",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on structuring and coding examples, focusing on minimalism, avoiding over-engineering, and maintaining clarity.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on structuring and coding examples, focusing on minimalism, avoiding over-engineering, and maintaining clarity.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Good: Demonstrates rstest's mocking API",
+      "level": 1,
+      "char_count": 81,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Good: Demonstrates rstest's mocking API",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on demonstrating good coding practices with rstest's mocking API, emphasizing simplicity and clarity.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on demonstrating good coding practices with rstest's mocking API, emphasizing simplicity and clarity.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Good: Demonstrates rstest's mocking API",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section evaluates code quality aspects (mock function usage, assertions, setup code brevity) which relate to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section evaluates code quality aspects (mock function usage, assertions, setup code brevity) which relate to coding style.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Good: Demonstrates rstest's mocking API",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on coding style with mock function usage and clear assertions, and also implies workflow processes with testing requirements.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section focuses on coding style with mock function usage and clear assertions, and also implies workflow processes with testing requirements.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Bad: Demonstrates rstest's mocking API",
+      "level": 1,
+      "char_count": 141,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Bad: Demonstrates rstest's mocking API",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section demonstrates testing practices and code organization, which relates to workflow_process and coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section demonstrates testing practices and code organization, which relates to workflow_process and coding_style.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Bad: Demonstrates rstest's mocking API",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing practices (DOM testing, mocking API, test assertions), which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing practices (DOM testing, mocking API, test assertions), which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Bad: Demonstrates rstest's mocking API",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses coding style in the context of testing and demonstrates a workflow process for testing complex React components.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses coding style in the context of testing and demonstrates a workflow process for testing complex React components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quick Start (Local)",
+      "level": 2,
+      "char_count": 665,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Quick Start (Local)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the workflow and commands for setting up and building the project, with some information about the project structure and directory layout.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the workflow and commands for setting up and building the project, with some information about the project structure and directory layout.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Quick Start (Local)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and steps for setting up, building, testing, and working with the project locally, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and steps for setting up, building, testing, and working with the project locally, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Quick Start (Local)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on how to navigate the project structure and execute workflow processes such as installing dependencies and running tests.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on how to navigate the project structure and execute workflow processes such as installing dependencies and running tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Where Things Live",
+      "level": 2,
+      "char_count": 377,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Where Things Live",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files, which is a clear indication of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files, which is a clear indication of project structure.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Where Things Live",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the top-level directory layout and the purpose of each directory.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the top-level directory layout and the purpose of each directory.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Where Things Live",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the top-level directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the top-level directory layout of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Conventions",
+      "level": 2,
+      "char_count": 378,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Coding Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding conventions, including formatting, linting, and style preferences, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding conventions, including formatting, linting, and style preferences, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Coding Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses formatting, linting, and coding preferences, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses formatting, linting, and coding preferences, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Coding Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses formatting, linting, and language conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses formatting, linting, and language conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running/Changing Examples",
+      "level": 2,
+      "char_count": 222,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Running/Changing Examples",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the procedures and expectations for running and modifying examples, which falls under workflow processes and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the procedures and expectations for running and modifying examples, which falls under workflow processes and testing requirements.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Running/Changing Examples",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on procedural requirements for modifying and ensuring the functionality of examples, aligning with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on procedural requirements for modifying and ensuring the functionality of examples, aligning with workflow processes.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Running/Changing Examples",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines for running and changing examples, which falls under workflow_process, and also implies the project's structure by mentioning 'dev' script and 'build'.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides guidelines for running and changing examples, which falls under workflow_process, and also implies the project's structure by mentioning 'dev' script and 'build'.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies & Workspace Notes",
+      "level": 2,
+      "char_count": 232,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Dependencies & Workspace Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses dependency management and workspace notes, which relates to project structure, and also mentions command usage, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses dependency management and workspace notes, which relates to project structure, and also mentions command usage, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Dependencies & Workspace Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses dependency management (project_structure) and command usage for scoped operations (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency management (project_structure) and command usage for scoped operations (workflow_process).\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Dependencies & Workspace Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses where dependencies should be added in the project structure and provides a workflow process for scoping commands to specific packages.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses where dependencies should be added in the project structure and provides a workflow process for scoping commands to specific packages.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Agent Workflow Expectations",
+      "level": 2,
+      "char_count": 321,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Agent Workflow Expectations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines expectations for making changes, which aligns with workflow processes such as testing requirements and commit rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines expectations for making changes, which aligns with workflow processes such as testing requirements and commit rules.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Agent Workflow Expectations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and guidelines for making changes, which directly relates to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and guidelines for making changes, which directly relates to the workflow process.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Agent Workflow Expectations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific workflow processes for making changes and also provides guidance on project structure, such as keeping changes scoped to a specific package and updating configuration consistently with conventions in that subtree.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific workflow processes for making changes and also provides guidance on project structure, such as keeping changes scoped to a specific package and updating configuration consistently with conventions in that subtree.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Pitfalls",
+      "level": 2,
+      "char_count": 294,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Common Pitfalls",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses common pitfalls and considerations when working with the repository's examples, which relates to both the project's structure and its evolution context.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"This section discusses common pitfalls and considerations when working with the repository's examples, which relates to both the project's structure and its evolution context.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Common Pitfalls",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section advises on handling project artifacts (project_structure) and working practices (workflow_process) to avoid common issues.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section advises on handling project artifacts (project_structure) and working practices (workflow_process) to avoid common issues.\"}"
+        },
+        {
+          "repo": "rstackjs/rstack-examples",
+          "section_heading": "Common Pitfalls",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidance on the structure of the project directories and warns against editing generated output directories, while also advising on checking package.json for specific versions or Node constraints, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidance on the structure of the project directories and warns against editing generated output directories, while also advising on checking package.json for specific versions or Node constraints, which relates to workflow processes.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.3333333333333333,
+    "project_structure": 0.5,
+    "workflow_process": 0.5,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.08333333333333333
+  },
+  "category_char_fraction": {
+    "coding_style": 0.36455953287636456,
+    "project_structure": 0.6905305915206905,
+    "workflow_process": 0.476009139375476,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.019294237116019294
+  }
+}

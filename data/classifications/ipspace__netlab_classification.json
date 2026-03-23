@@ -1,0 +1,2212 @@
+{
+  "repo": "ipspace__netlab",
+  "full_name": "ipspace/netlab",
+  "n_sections": 26,
+  "n_chars": 7086,
+  "sections": [
+    {
+      "heading": "AGENTS.md - Guidelines for Agentic Coding Agents",
+      "level": 1,
+      "char_count": 144,
+      "voted_categories": [
+        "agent_rules",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "AGENTS.md - Guidelines for Agentic Coding Agents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "coding_style"
+          ],
+          "reasoning": "This section is primarily about guidelines for agentic coding agents, which falls under agent_rules, and also includes code style guidelines, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"coding_style\"], \"reasoning\": \"This section is primarily about guidelines for agentic coding agents, which falls under agent_rules, and also includes code style guidelines, which relates to coding_style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "AGENTS.md - Guidelines for Agentic Coding Agents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "Mentions 'code style guidelines' (coding_style) and 'guidelines for Agentic Coding Agents' (agent_rules), with 'build commands' being less dominant but not fitting perfectly into the other categories listed.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"Mentions 'code style guidelines' (coding_style) and 'guidelines for Agentic Coding Agents' (agent_rules), with 'build commands' being less dominant but not fitting perfectly into the other categories listed.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "AGENTS.md - Guidelines for Agentic Coding Agents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses code style guidelines and development practices, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses code style guidelines and development practices, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type checking",
+      "level": 1,
+      "char_count": 94,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type checking",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on type checking, which is a coding style tool used to enforce consistent coding practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on type checking, which is a coding style tool used to enforce consistent coding practices.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type checking",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on type checking, which is a coding style enforcement tool.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on type checking, which is a coding style enforcement tool.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type checking",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a type checking workflow process using a coding style tool.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes a type checking workflow process using a coding style tool.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting and formatting",
+      "level": 1,
+      "char_count": 91,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Linting and formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on linting and formatting, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on linting and formatting, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Linting and formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting and formatting tools, which are aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting and formatting tools, which are aspects of coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Linting and formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of a linting and formatting tool, which falls under coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes the use of a linting and formatting tool, which falls under coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "YAML linting",
+      "level": 1,
+      "char_count": 49,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "YAML linting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is about YAML linting, which falls under coding style as it pertains to formatting and code style tools.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is about YAML linting, which falls under coding style as it pertains to formatting and code style tools.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "YAML linting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a YAML linting command, which relates to code formatting and style enforcement.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a YAML linting command, which relates to code formatting and style enforcement.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "YAML linting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a linting process for YAML files, which falls under coding style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a linting process for YAML files, which falls under coding style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 1,
+      "char_count": 284,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing requirements and commands, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing requirements and commands, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and configurations for running different types of tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and configurations for running different types of tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes testing workflow and includes coding style for test cases.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes testing workflow and includes coding style for test cases.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run single test file",
+      "level": 1,
+      "char_count": 49,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run single test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing command, which falls under workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing command, which falls under workflow and testing processes.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run single test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for executing a specific test file, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for executing a specific test file, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run single test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running a test file, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running a test file, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests with CI mode (fail fast)",
+      "level": 1,
+      "char_count": 72,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run tests with CI mode (fail fast)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of running tests with CI mode, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of running tests with CI mode, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run tests with CI mode (fail fast)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command with a CI mode, which relates to workflow and testing requirements within the development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command with a CI mode, which relates to workflow and testing requirements within the development process.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run tests with CI mode (fail fast)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for running tests in CI mode.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for running tests in CI mode.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Install dependencies",
+      "level": 1,
+      "char_count": 69,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the installation of dependencies, which relates to both workflow process and project structure, as it outlines a step in setting up the project and its development environment.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the installation of dependencies, which relates to both workflow process and project structure, as it outlines a step in setting up the project and its development environment.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for installing dependencies, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for installing dependencies, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the process of installing dependencies, which is related to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the process of installing dependencies, which is related to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Install in development mode",
+      "level": 1,
+      "char_count": 21,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install in development mode",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the development workflow, specifically how to install the project in development mode.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the development workflow, specifically how to install the project in development mode.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install in development mode",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific installation command for development mode, which relates to the workflow and process of setting up the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific installation command for development mode, which relates to the workflow and process of setting up the project.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install in development mode",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command for installing the project in development mode, which is related to coding style and project setup.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command for installing the project in development mode, which is related to coding style and project setup.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Import Organization",
+      "level": 3,
+      "char_count": 183,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Import Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on import organization and sorting, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on import organization and sorting, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Import Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on import ordering and formatting rules, which pertain to code style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on import ordering and formatting rules, which pertain to code style conventions.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Import Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses import organization, which falls under coding style, and also mentions where things live, which is part of project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses import organization, which falls under coding style, and also mentions where things live, which is part of project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Formatting Standards",
+      "level": 3,
+      "char_count": 207,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Formatting Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific formatting rules for code, such as line length and indentation, which are characteristic of coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific formatting rules for code, such as line length and indentation, which are characteristic of coding style guidelines.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Formatting Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions (line length, indentation, quotes, trailing commas, comment alignment) which directly relate to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions (line length, indentation, quotes, trailing commas, comment alignment) which directly relate to coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Formatting Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding style guidelines, including line length, indentation, quotes, trailing commas, and comment alignment.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding style guidelines, including line length, indentation, quotes, trailing commas, and comment alignment.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type Hints",
+      "level": 3,
+      "char_count": 216,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type Hints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and code style tools, specifically type hints and mypy configuration.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and code style tools, specifically type hints and mypy configuration.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type Hints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on type hints, mypy configuration, and specific typing practices, which relate to code style and formatting conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on type hints, mypy configuration, and specific typing practices, which relate to code style and formatting conventions.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type Hints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style by mandating the use of type hints and specific type modules.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style by mandating the use of type hints and specific type modules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming Conventions",
+      "level": 3,
+      "char_count": 159,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines naming conventions for variables, functions, classes, and constants, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines naming conventions for variables, functions, classes, and constants, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for different code elements, which directly relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for different code elements, which directly relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively discusses naming conventions for variables, functions, classes, constants, and private members, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively discusses naming conventions for variables, functions, classes, constants, and private members, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling",
+      "level": 3,
+      "char_count": 363,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Error Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses custom exception classes and logging practices, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses custom exception classes and logging practices, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Error Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices for error handling, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices for error handling, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Error Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on using custom exception classes and logging functions, which falls under coding_style, and also discusses the architecture of the library code, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on using custom exception classes and logging functions, which falls under coding_style, and also discusses the architecture of the library code, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File Structure Patterns",
+      "level": 3,
+      "char_count": 318,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "File Structure Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the repository, focusing on the organization of different module types.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the repository, focusing on the organization of different module types.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "File Structure Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and purpose of specific folders within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and purpose of specific folders within the project.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "File Structure Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using Box objects",
+      "level": 3,
+      "char_count": 477,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Box objects",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the usage of a specific data structure (Box object) and its settings in the project, which relates to project structure, and also touches on how the data is converted and used, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the usage of a specific data structure (Box object) and its settings in the project, which relates to project structure, and also touches on how the data is converted and used, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Box objects",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a specific data structure (Box object) and its usage within the project's topology, impacting how data is handled and accessed.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a specific data structure (Box object) and its usage within the project's topology, impacting how data is handled and accessed.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Box objects",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of Box objects in the topology data structure, which is an architectural decision, and also discusses coding style for using dotted paths in indices and in tests.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the use of Box objects in the topology data structure, which is an architectural decision, and also discusses coding style for using dotted paths in indices and in tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using Jinja2 templates",
+      "level": 3,
+      "char_count": 609,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Jinja2 templates",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidelines for using Jinja2 templates, focusing on coding conventions and best practices for template development.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides guidelines for using Jinja2 templates, focusing on coding conventions and best practices for template development.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Jinja2 templates",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices and best practices for using Jinja2 templates, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices and best practices for using Jinja2 templates, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Jinja2 templates",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for using Jinja2 templates and describes the architecture of the custom `undefined` method.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for using Jinja2 templates and describes the architecture of the custom `undefined` method.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Guidelines",
+      "level": 3,
+      "char_count": 221,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily outlines testing requirements and guidelines, which falls under workflow_process, and also mentions specific directory layouts for tests, relating to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily outlines testing requirements and guidelines, which falls under workflow_process, and also mentions specific directory layouts for tests, relating to project_structure.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing requirements and directory structure for tests, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing requirements and directory structure for tests, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines for testing process and specifies the structure of the project for test files.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides guidelines for testing process and specifies the structure of the project for test files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration and Data",
+      "level": 3,
+      "char_count": 194,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Configuration and Data",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the organization and formatting of configuration and data files, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the organization and formatting of configuration and data files, which relates to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Configuration and Data",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses both the o",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses both the organization of configuration files (project_structure) and the specific tools/formats used for configuration (coding_style).\""
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Configuration and Data",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of specific file types and directories for configuration and data, which falls under project structure, and also mentions the use of a specific tool (Jinja2 templates), which is coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the use of specific file types and directories for configuration and data, which falls under project structure, and also mentions the use of a specific tool (Jinja2 templates), which is coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation",
+      "level": 3,
+      "char_count": 147,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses documentation style and location, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses documentation style and location, which relates to coding style and project structure.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses docstring ",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses docstring style (coding_style) and locations of specific document types (project_structure).\""
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses docstring style, which falls under coding_style, and mentions the location of CLI help and user documentation, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses docstring style, which falls under coding_style, and mentions the location of CLI help and user documentation, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Philosophy",
+      "level": 2,
+      "char_count": 452,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Development Philosophy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section outlines the development philosophy, which encompasses coding principles, workflow processes, and architectural considerations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section outlines the development philosophy, which encompasses coding principles, workflow processes, and architectural considerations.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Development Philosophy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines principles that influence coding style (elegant, self-documenting code), workflow (iterative testing and refinement), and architectural approach (documenting architecture before implementation).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines principles that influence coding style (elegant, self-documenting code), workflow (iterative testing and refinement), and architectural approach (documenting architecture before implementation).\" }"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Development Philosophy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for coding style, architecture planning, and continuous iteration in the development process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for coding style, architecture planning, and continuous iteration in the development process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CRUCIAL: NO NITPICKING!!!",
+      "level": 2,
+      "char_count": 206,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "CRUCIAL: NO NITPICKING!!!",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on coding conventions, specifically quoting, whitespace, and formatting rules.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on coding conventions, specifically quoting, whitespace, and formatting rules.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "CRUCIAL: NO NITPICKING!!!",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding style guidelines for quote usage, whitespace, and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding style guidelines for quote usage, whitespace, and formatting.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "CRUCIAL: NO NITPICKING!!!",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on code formatting and changes, which falls under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on code formatting and changes, which falls under the coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Dependencies",
+      "level": 2,
+      "char_count": 245,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Key Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists key dependencies, which relates to project structure and also implies architectural decisions on module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section lists key dependencies, which relates to project structure and also implies architectural decisions on module roles and dependencies.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Key Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Lists key dependencies, which relates to module roles and dependencies, a core aspect of architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Lists key dependencies, which relates to module roles and dependencies, a core aspect of architecture.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Key Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section lists key dependencies, which is part of project structure, and also describes the roles of these dependencies, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section lists key dependencies, which is part of project structure, and also describes the roles of these dependencies, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Platform Requirements",
+      "level": 2,
+      "char_count": 133,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Platform Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section outlines the necessary dependencies and environment for the project, which falls under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section outlines the necessary dependencies and environment for the project, which falls under project structure.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Platform Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists platform and package manager requirements, which relate to how the project is set up and structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists platform and package manager requirements, which relate to how the project is set up and structured.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Platform Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section specifies programming language version, supported operating systems, and package managers, which are related to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section specifies programming language version, supported operating systems, and package managers, which are related to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quality Gates",
+      "level": 2,
+      "char_count": 206,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Quality Gates",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines coding standards and testing requirements that must be met before merging code, relating to both coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines coding standards and testing requirements that must be met before merging code, relating to both coding style and workflow process.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Quality Gates",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies code quality checks (coding_style) that must pass before merging (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section specifies code quality checks (coding_style) that must pass before merging (workflow_process).\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Quality Gates",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines coding style tools and formatting rules, as well as testing requirements for merging code, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines coding style tools and formatting rules, as well as testing requirements for merging code, which are part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Writing Configuration Template Development Documentation",
+      "level": 3,
+      "char_count": 1016,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Writing Configuration Template Development Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the project structure by specifying where documentation files should be stored, and also outlines workflow processes and coding style guidelines for writing configuration template development documentation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the project structure by specifying where documentation files should be stored, and also outlines workflow processes and coding style guidelines for writing configuration template development documentation.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Writing Configuration Template Development Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines directory placement and file inclusions (project_structure) alongside specific formatting and style guidelines (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section outlines directory placement and file inclusions (project_structure) alongside specific formatting and style guidelines (coding_style).\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Writing Configuration Template Development Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on where to store documentation files (project_structure), mentions a specific syntax highlighter to avoid (coding_style), and directs on how to include new files in the ToC and where to find relevant tests (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on where to store documentation files (project_structure), mentions a specific syntax highlighter to avoid (coding_style), and directs on how to include new files in the ToC and where to find relevant tests (workflow_process).\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "AGENTS.md - Guidelines for Agentic Coding Agents",
+      "level": 1,
+      "char_count": 144,
+      "voted_categories": [
+        "agent_rules",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "AGENTS.md - Guidelines for Agentic Coding Agents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "coding_style"
+          ],
+          "reasoning": "This section is primarily about guidelines for agentic coding agents, which falls under agent_rules, and also includes code style guidelines, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"coding_style\"], \"reasoning\": \"This section is primarily about guidelines for agentic coding agents, which falls under agent_rules, and also includes code style guidelines, which relates to coding_style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "AGENTS.md - Guidelines for Agentic Coding Agents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "Mentions 'code style guidelines' (coding_style) and 'guidelines for Agentic Coding Agents' (agent_rules), with 'build commands' being less dominant but not fitting perfectly into the other categories listed.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"Mentions 'code style guidelines' (coding_style) and 'guidelines for Agentic Coding Agents' (agent_rules), with 'build commands' being less dominant but not fitting perfectly into the other categories listed.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "AGENTS.md - Guidelines for Agentic Coding Agents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses code style guidelines and development practices, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses code style guidelines and development practices, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type checking",
+      "level": 1,
+      "char_count": 94,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type checking",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on type checking, which is a coding style tool used to enforce consistent coding practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on type checking, which is a coding style tool used to enforce consistent coding practices.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type checking",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on type checking, which is a coding style enforcement tool.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on type checking, which is a coding style enforcement tool.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type checking",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a type checking workflow process using a coding style tool.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes a type checking workflow process using a coding style tool.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting and formatting",
+      "level": 1,
+      "char_count": 91,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Linting and formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on linting and formatting, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on linting and formatting, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Linting and formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting and formatting tools, which are aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting and formatting tools, which are aspects of coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Linting and formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of a linting and formatting tool, which falls under coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes the use of a linting and formatting tool, which falls under coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "YAML linting",
+      "level": 1,
+      "char_count": 49,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "YAML linting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is about YAML linting, which falls under coding style as it pertains to formatting and code style tools.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is about YAML linting, which falls under coding style as it pertains to formatting and code style tools.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "YAML linting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a YAML linting command, which relates to code formatting and style enforcement.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a YAML linting command, which relates to code formatting and style enforcement.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "YAML linting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a linting process for YAML files, which falls under coding style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a linting process for YAML files, which falls under coding style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 1,
+      "char_count": 284,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing requirements and commands, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing requirements and commands, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and configurations for running different types of tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and configurations for running different types of tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes testing workflow and includes coding style for test cases.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes testing workflow and includes coding style for test cases.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run single test file",
+      "level": 1,
+      "char_count": 49,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run single test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing command, which falls under workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing command, which falls under workflow and testing processes.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run single test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for executing a specific test file, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for executing a specific test file, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run single test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running a test file, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running a test file, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests with CI mode (fail fast)",
+      "level": 1,
+      "char_count": 72,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run tests with CI mode (fail fast)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of running tests with CI mode, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of running tests with CI mode, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run tests with CI mode (fail fast)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command with a CI mode, which relates to workflow and testing requirements within the development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command with a CI mode, which relates to workflow and testing requirements within the development process.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Run tests with CI mode (fail fast)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for running tests in CI mode.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for running tests in CI mode.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Install dependencies",
+      "level": 1,
+      "char_count": 69,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the installation of dependencies, which relates to both workflow process and project structure, as it outlines a step in setting up the project and its development environment.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the installation of dependencies, which relates to both workflow process and project structure, as it outlines a step in setting up the project and its development environment.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for installing dependencies, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for installing dependencies, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the process of installing dependencies, which is related to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the process of installing dependencies, which is related to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Install in development mode",
+      "level": 1,
+      "char_count": 21,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install in development mode",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the development workflow, specifically how to install the project in development mode.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the development workflow, specifically how to install the project in development mode.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install in development mode",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific installation command for development mode, which relates to the workflow and process of setting up the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific installation command for development mode, which relates to the workflow and process of setting up the project.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Install in development mode",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command for installing the project in development mode, which is related to coding style and project setup.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command for installing the project in development mode, which is related to coding style and project setup.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Import Organization",
+      "level": 3,
+      "char_count": 183,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Import Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on import organization and sorting, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on import organization and sorting, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Import Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on import ordering and formatting rules, which pertain to code style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on import ordering and formatting rules, which pertain to code style conventions.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Import Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses import organization, which falls under coding style, and also mentions where things live, which is part of project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses import organization, which falls under coding style, and also mentions where things live, which is part of project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Formatting Standards",
+      "level": 3,
+      "char_count": 207,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Formatting Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific formatting rules for code, such as line length and indentation, which are characteristic of coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific formatting rules for code, such as line length and indentation, which are characteristic of coding style guidelines.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Formatting Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions (line length, indentation, quotes, trailing commas, comment alignment) which directly relate to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions (line length, indentation, quotes, trailing commas, comment alignment) which directly relate to coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Formatting Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding style guidelines, including line length, indentation, quotes, trailing commas, and comment alignment.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding style guidelines, including line length, indentation, quotes, trailing commas, and comment alignment.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type Hints",
+      "level": 3,
+      "char_count": 216,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type Hints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and code style tools, specifically type hints and mypy configuration.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and code style tools, specifically type hints and mypy configuration.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type Hints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on type hints, mypy configuration, and specific typing practices, which relate to code style and formatting conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on type hints, mypy configuration, and specific typing practices, which relate to code style and formatting conventions.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Type Hints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style by mandating the use of type hints and specific type modules.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style by mandating the use of type hints and specific type modules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming Conventions",
+      "level": 3,
+      "char_count": 159,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines naming conventions for variables, functions, classes, and constants, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines naming conventions for variables, functions, classes, and constants, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for different code elements, which directly relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for different code elements, which directly relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively discusses naming conventions for variables, functions, classes, constants, and private members, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively discusses naming conventions for variables, functions, classes, constants, and private members, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling",
+      "level": 3,
+      "char_count": 363,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Error Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses custom exception classes and logging practices, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses custom exception classes and logging practices, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Error Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices for error handling, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices for error handling, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Error Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on using custom exception classes and logging functions, which falls under coding_style, and also discusses the architecture of the library code, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on using custom exception classes and logging functions, which falls under coding_style, and also discusses the architecture of the library code, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File Structure Patterns",
+      "level": 3,
+      "char_count": 318,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "File Structure Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the repository, focusing on the organization of different module types.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the repository, focusing on the organization of different module types.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "File Structure Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and purpose of specific folders within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and purpose of specific folders within the project.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "File Structure Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using Box objects",
+      "level": 3,
+      "char_count": 477,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Box objects",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the usage of a specific data structure (Box object) and its settings in the project, which relates to project structure, and also touches on how the data is converted and used, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the usage of a specific data structure (Box object) and its settings in the project, which relates to project structure, and also touches on how the data is converted and used, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Box objects",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a specific data structure (Box object) and its usage within the project's topology, impacting how data is handled and accessed.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a specific data structure (Box object) and its usage within the project's topology, impacting how data is handled and accessed.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Box objects",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of Box objects in the topology data structure, which is an architectural decision, and also discusses coding style for using dotted paths in indices and in tests.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the use of Box objects in the topology data structure, which is an architectural decision, and also discusses coding style for using dotted paths in indices and in tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using Jinja2 templates",
+      "level": 3,
+      "char_count": 609,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Jinja2 templates",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidelines for using Jinja2 templates, focusing on coding conventions and best practices for template development.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides guidelines for using Jinja2 templates, focusing on coding conventions and best practices for template development.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Jinja2 templates",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices and best practices for using Jinja2 templates, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices and best practices for using Jinja2 templates, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Using Jinja2 templates",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for using Jinja2 templates and describes the architecture of the custom `undefined` method.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for using Jinja2 templates and describes the architecture of the custom `undefined` method.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Guidelines",
+      "level": 3,
+      "char_count": 221,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily outlines testing requirements and guidelines, which falls under workflow_process, and also mentions specific directory layouts for tests, relating to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily outlines testing requirements and guidelines, which falls under workflow_process, and also mentions specific directory layouts for tests, relating to project_structure.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing requirements and directory structure for tests, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing requirements and directory structure for tests, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Testing Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines for testing process and specifies the structure of the project for test files.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides guidelines for testing process and specifies the structure of the project for test files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration and Data",
+      "level": 3,
+      "char_count": 194,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Configuration and Data",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the organization and formatting of configuration and data files, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the organization and formatting of configuration and data files, which relates to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Configuration and Data",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses both the o",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses both the organization of configuration files (project_structure) and the specific tools/formats used for configuration (coding_style).\""
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Configuration and Data",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of specific file types and directories for configuration and data, which falls under project structure, and also mentions the use of a specific tool (Jinja2 templates), which is coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the use of specific file types and directories for configuration and data, which falls under project structure, and also mentions the use of a specific tool (Jinja2 templates), which is coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation",
+      "level": 3,
+      "char_count": 147,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses documentation style and location, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses documentation style and location, which relates to coding style and project structure.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses docstring ",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses docstring style (coding_style) and locations of specific document types (project_structure).\""
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses docstring style, which falls under coding_style, and mentions the location of CLI help and user documentation, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses docstring style, which falls under coding_style, and mentions the location of CLI help and user documentation, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Philosophy",
+      "level": 2,
+      "char_count": 452,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Development Philosophy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section outlines the development philosophy, which encompasses coding principles, workflow processes, and architectural considerations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section outlines the development philosophy, which encompasses coding principles, workflow processes, and architectural considerations.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Development Philosophy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines principles that influence coding style (elegant, self-documenting code), workflow (iterative testing and refinement), and architectural approach (documenting architecture before implementation).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines principles that influence coding style (elegant, self-documenting code), workflow (iterative testing and refinement), and architectural approach (documenting architecture before implementation).\" }"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Development Philosophy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for coding style, architecture planning, and continuous iteration in the development process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for coding style, architecture planning, and continuous iteration in the development process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CRUCIAL: NO NITPICKING!!!",
+      "level": 2,
+      "char_count": 206,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "CRUCIAL: NO NITPICKING!!!",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on coding conventions, specifically quoting, whitespace, and formatting rules.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on coding conventions, specifically quoting, whitespace, and formatting rules.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "CRUCIAL: NO NITPICKING!!!",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding style guidelines for quote usage, whitespace, and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding style guidelines for quote usage, whitespace, and formatting.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "CRUCIAL: NO NITPICKING!!!",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on code formatting and changes, which falls under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on code formatting and changes, which falls under the coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Dependencies",
+      "level": 2,
+      "char_count": 245,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Key Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists key dependencies, which relates to project structure and also implies architectural decisions on module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section lists key dependencies, which relates to project structure and also implies architectural decisions on module roles and dependencies.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Key Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Lists key dependencies, which relates to module roles and dependencies, a core aspect of architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Lists key dependencies, which relates to module roles and dependencies, a core aspect of architecture.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Key Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section lists key dependencies, which is part of project structure, and also describes the roles of these dependencies, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section lists key dependencies, which is part of project structure, and also describes the roles of these dependencies, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Platform Requirements",
+      "level": 2,
+      "char_count": 133,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Platform Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section outlines the necessary dependencies and environment for the project, which falls under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section outlines the necessary dependencies and environment for the project, which falls under project structure.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Platform Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists platform and package manager requirements, which relate to how the project is set up and structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists platform and package manager requirements, which relate to how the project is set up and structured.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Platform Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section specifies programming language version, supported operating systems, and package managers, which are related to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section specifies programming language version, supported operating systems, and package managers, which are related to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quality Gates",
+      "level": 2,
+      "char_count": 206,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Quality Gates",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines coding standards and testing requirements that must be met before merging code, relating to both coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines coding standards and testing requirements that must be met before merging code, relating to both coding style and workflow process.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Quality Gates",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies code quality checks (coding_style) that must pass before merging (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section specifies code quality checks (coding_style) that must pass before merging (workflow_process).\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Quality Gates",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines coding style tools and formatting rules, as well as testing requirements for merging code, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines coding style tools and formatting rules, as well as testing requirements for merging code, which are part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Writing Configuration Template Development Documentation",
+      "level": 3,
+      "char_count": 1016,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Writing Configuration Template Development Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the project structure by specifying where documentation files should be stored, and also outlines workflow processes and coding style guidelines for writing configuration template development documentation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the project structure by specifying where documentation files should be stored, and also outlines workflow processes and coding style guidelines for writing configuration template development documentation.\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Writing Configuration Template Development Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines directory placement and file inclusions (project_structure) alongside specific formatting and style guidelines (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section outlines directory placement and file inclusions (project_structure) alongside specific formatting and style guidelines (coding_style).\"}"
+        },
+        {
+          "repo": "ipspace/netlab",
+          "section_heading": "Writing Configuration Template Development Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on where to store documentation files (project_structure), mentions a specific syntax highlighter to avoid (coding_style), and directs on how to include new files in the ToC and where to find relevant tests (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on where to store documentation files (project_structure), mentions a specific syntax highlighter to avoid (coding_style), and directs on how to include new files in the ToC and where to find relevant tests (workflow_process).\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.6538461538461539,
+    "project_structure": 0.3076923076923077,
+    "workflow_process": 0.34615384615384615,
+    "architecture": 0.11538461538461539,
+    "evolution_context": 0.0,
+    "agent_rules": 0.038461538461538464
+  },
+  "category_char_fraction": {
+    "coding_style": 0.7731726907630522,
+    "project_structure": 0.3763855421686747,
+    "workflow_process": 0.38393574297188754,
+    "architecture": 0.18859437751004016,
+    "evolution_context": 0.0,
+    "agent_rules": 0.02313253012048193
+  }
+}

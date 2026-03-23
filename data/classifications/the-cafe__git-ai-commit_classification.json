@@ -1,0 +1,608 @@
+{
+  "repo": "the-cafe__git-ai-commit",
+  "full_name": "the-cafe/git-ai-commit",
+  "n_sections": 7,
+  "n_chars": 1566,
+  "sections": [
+    {
+      "heading": "Claude AI Git Workflow Integration",
+      "level": 1,
+      "char_count": 149,
+      "voted_categories": [
+        "workflow_process",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Claude AI Git Workflow Integration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section integrates Claude AI with git workflow, specifically recommending a CLI tool for commit messages, which relates to both workflow processes and agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section integrates Claude AI with git workflow, specifically recommending a CLI tool for commit messages, which relates to both workflow processes and agent rules.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Claude AI Git Workflow Integration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section specifies a workflow t",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section specifies a workflow tool (git-ai-commit) for commit messages (workflow_process) and directs Claude's behavior (agent_rules).\""
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Claude AI Git Workflow Integration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a recommendation for a specific tool and workflow process for creating commit messages in git repositories.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a recommendation for a specific tool and workflow process for creating commit messages in git repositories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. Commit Message Generation",
+      "level": 3,
+      "char_count": 64,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "1. Commit Message Generation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section focuses on commit message generation, which is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section focuses on commit message generation, which is a part of the workflow process.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "1. Commit Message Generation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on commit message generation, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on commit message generation, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "1. Commit Message Generation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses commit message generation, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses commit message generation, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Conventional Commits",
+      "level": 3,
+      "char_count": 92,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Conventional Commits",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses commit format, which is a key aspect of workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section discusses commit format, which is a key aspect of workflow processes.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Conventional Commits",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific commit format guideline, which is a key aspect of workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific commit format guideline, which is a key aspect of workflow processes.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Conventional Commits",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for following commit standards, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for following commit standards, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Change Analysis",
+      "level": 3,
+      "char_count": 81,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "3. Change Analysis",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the commit process, suggesting a command to review changes before committing, which falls under workflow guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the commit process, suggesting a command to review changes before committing, which falls under workflow guidelines.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "3. Change Analysis",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a pre-committing step involving a tool command, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a pre-committing step involving a tool command, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "3. Change Analysis",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for reviewing changes before committing, which is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for reviewing changes before committing, which is a part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Get a summary of changes (optional)",
+      "level": 1,
+      "char_count": 23,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Get a summary of changes (optional)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the workflow process, specifically an optional command to summarize changes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the workflow process, specifically an optional command to summarize changes.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Get a summary of changes (optional)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes an optional step in the workflow process using a specific git command.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes an optional step in the workflow process using a specific git command.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Get a summary of changes (optional)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for summarizing changes, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for summarizing changes, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Benefits to Highlight:",
+      "level": 2,
+      "char_count": 365,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Benefits to Highlight:",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section highlights the benefits of using AI for generating commit messages, which relates to workflow processes and agent rules for AI-specific directives.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section highlights the benefits of using AI for generating commit messages, which relates to workflow processes and agent rules for AI-specific directives.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Benefits to Highlight:",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section highlights benefits related to commit message generation and integration with workflows, which aligns with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section highlights benefits related to commit message generation and integration with workflows, which aligns with workflow processes.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Benefits to Highlight:",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section emphasizes the benefits of using AI for generating consistent, descriptive commit messages and following conventional commit standards, which aligns with the workflow_process and coding_style categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section emphasizes the benefits of using AI for generating consistent, descriptive commit messages and following conventional commit standards, which aligns with the workflow_process and coding_style categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Setup Assistance:",
+      "level": 2,
+      "char_count": 290,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Setup Assistance:",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section provides setup instructions and guidelines for using AI-powered commit messages, which relates to both workflow processes and agent-specific rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section provides setup instructions and guidelines for using AI-powered commit messages, which relates to both workflow processes and agent-specific rules.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Setup Assistance:",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step setup process for integrating a tool into the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step setup process for integrating a tool into the development workflow.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Setup Assistance:",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for setting up the project and integrating it with a workflow process that includes AI-powered commit messages.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for setting up the project and integrating it with a workflow process that includes AI-powered commit messages.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Claude AI Git Workflow Integration",
+      "level": 1,
+      "char_count": 149,
+      "voted_categories": [
+        "workflow_process",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Claude AI Git Workflow Integration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section integrates Claude AI with git workflow, specifically recommending a CLI tool for commit messages, which relates to both workflow processes and agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section integrates Claude AI with git workflow, specifically recommending a CLI tool for commit messages, which relates to both workflow processes and agent rules.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Claude AI Git Workflow Integration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section specifies a workflow t",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section specifies a workflow tool (git-ai-commit) for commit messages (workflow_process) and directs Claude's behavior (agent_rules).\""
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Claude AI Git Workflow Integration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a recommendation for a specific tool and workflow process for creating commit messages in git repositories.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a recommendation for a specific tool and workflow process for creating commit messages in git repositories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. Commit Message Generation",
+      "level": 3,
+      "char_count": 64,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "1. Commit Message Generation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section focuses on commit message generation, which is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section focuses on commit message generation, which is a part of the workflow process.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "1. Commit Message Generation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on commit message generation, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on commit message generation, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "1. Commit Message Generation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses commit message generation, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses commit message generation, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Conventional Commits",
+      "level": 3,
+      "char_count": 92,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Conventional Commits",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses commit format, which is a key aspect of workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section discusses commit format, which is a key aspect of workflow processes.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Conventional Commits",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific commit format guideline, which is a key aspect of workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific commit format guideline, which is a key aspect of workflow processes.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Conventional Commits",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for following commit standards, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for following commit standards, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Change Analysis",
+      "level": 3,
+      "char_count": 81,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "3. Change Analysis",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the commit process, suggesting a command to review changes before committing, which falls under workflow guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the commit process, suggesting a command to review changes before committing, which falls under workflow guidelines.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "3. Change Analysis",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a pre-committing step involving a tool command, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a pre-committing step involving a tool command, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "3. Change Analysis",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for reviewing changes before committing, which is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for reviewing changes before committing, which is a part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Get a summary of changes (optional)",
+      "level": 1,
+      "char_count": 23,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Get a summary of changes (optional)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the workflow process, specifically an optional command to summarize changes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the workflow process, specifically an optional command to summarize changes.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Get a summary of changes (optional)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes an optional step in the workflow process using a specific git command.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes an optional step in the workflow process using a specific git command.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "2. Get a summary of changes (optional)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for summarizing changes, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for summarizing changes, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Benefits to Highlight:",
+      "level": 2,
+      "char_count": 365,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Benefits to Highlight:",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section highlights the benefits of using AI for generating commit messages, which relates to workflow processes and agent rules for AI-specific directives.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section highlights the benefits of using AI for generating commit messages, which relates to workflow processes and agent rules for AI-specific directives.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Benefits to Highlight:",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section highlights benefits related to commit message generation and integration with workflows, which aligns with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section highlights benefits related to commit message generation and integration with workflows, which aligns with workflow processes.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Benefits to Highlight:",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section emphasizes the benefits of using AI for generating consistent, descriptive commit messages and following conventional commit standards, which aligns with the workflow_process and coding_style categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section emphasizes the benefits of using AI for generating consistent, descriptive commit messages and following conventional commit standards, which aligns with the workflow_process and coding_style categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Setup Assistance:",
+      "level": 2,
+      "char_count": 290,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Setup Assistance:",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section provides setup instructions and guidelines for using AI-powered commit messages, which relates to both workflow processes and agent-specific rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section provides setup instructions and guidelines for using AI-powered commit messages, which relates to both workflow processes and agent-specific rules.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Setup Assistance:",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step setup process for integrating a tool into the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step setup process for integrating a tool into the development workflow.\"}"
+        },
+        {
+          "repo": "the-cafe/git-ai-commit",
+          "section_heading": "Setup Assistance:",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for setting up the project and integrating it with a workflow process that includes AI-powered commit messages.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for setting up the project and integrating it with a workflow process that includes AI-powered commit messages.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": false,
+    "project_structure": false,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.0,
+    "workflow_process": 1.0,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.14285714285714285
+  },
+  "category_char_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.0,
+    "workflow_process": 1.0,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.1400375939849624
+  }
+}

@@ -1,0 +1,2036 @@
+{
+  "repo": "openai__openai-agents-js",
+  "full_name": "openai/openai-agents-js",
+  "n_sections": 24,
+  "n_chars": 12801,
+  "sections": [
+    {
+      "heading": "Contributor Guide",
+      "level": 1,
+      "char_count": 254,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Contributor Guide",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section covers repository structure and guidelines for commits and PRs, which relate to project organization and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section covers repository structure and guidelines for commits and PRs, which relate to project organization and workflow processes.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Contributor Guide",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section covers repo structure (project_structure) and guidelines for commits and PRs (workflow_process), with both being equally prominent.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section covers repo structure (project_structure) and guidelines for commits and PRs (workflow_process), with both being equally prominent.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Contributor Guide",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses repo structure and guidelines for commits and PRs.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses repo structure and guidelines for commits and PRs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Table of Contents",
+      "level": 2,
+      "char_count": 156,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Table of Contents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [],
+          "reasoning": "This section contains only boilerplate in the form of a table of contents.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"This section contains only boilerplate in the form of a table of contents.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Table of Contents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [],
+          "reasoning": "The section contains only boilerplate (Table of Contents) with no descriptive content to classify.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section contains only boilerplate (Table of Contents) with no descriptive content to classify.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Table of Contents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [],
+          "reasoning": "This section is a table of contents and does not contain any relevant content for classification.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"This section is a table of contents and does not contain any relevant content for classification.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`$code-change-verification`",
+      "level": 4,
+      "char_count": 587,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$code-change-verification`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the development workflow, namely running a verification command before marking work as complete, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the development workflow, namely running a verification command before marking work as complete, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$code-change-verification`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific step (running a verification command) to be integrated into the development workflow, especially before marking work as complete, which directly relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific step (running a verification command) to be integrated into the development workflow, especially before marking work as complete, which directly relates to workflow processes.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$code-change-verification`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a workflow process for code change verification and specifies project structure elements that trigger this process.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a workflow process for code change verification and specifies project structure elements that trigger this process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`$changeset-validation`",
+      "level": 4,
+      "char_count": 479,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$changeset-validation`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a validation process and commit message style, which relates to workflow and coding conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a validation process and commit message style, which relates to workflow and coding conventions.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$changeset-validation`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific step in the development workflow involving validation and commit formatting.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific step in the development workflow involving validation and commit formatting.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$changeset-validation`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a process for creating and validating changesets, and also mentions a coding style for commit messages.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes a process for creating and validating changesets, and also mentions a coding style for commit messages.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`$openai-knowledge`",
+      "level": 4,
+      "char_count": 316,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$openai-knowledge`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a workflow process for accessing documentation and also implies a project structure by referencing specific APIs and tools within the repository.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a workflow process for accessing documentation and also implies a project structure by referencing specific APIs and tools within the repository.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$openai-knowledge`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow tool and its setup for working on integrations, which relates to the development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow tool and its setup for working on integrations, which relates to the development process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$openai-knowledge`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the use of a specific tool ($openai-knowledge) for accessing authoritative docs and guides setup, which falls under project structure, and also outlines a workflow process for working with OpenAI API or platform integrations.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the use of a specific tool ($openai-knowledge) for accessing authoritative docs and guides setup, which falls under project structure, and also outlines a workflow process for working with OpenAI API or platform integrations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`$implementation-strategy`",
+      "level": 4,
+      "char_count": 558,
+      "voted_categories": [
+        "workflow_process",
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$implementation-strategy`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses the strategy for making changes to the codebase, considering compatibility boundaries and implementation shapes, which relates to workflow processes and evolution context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses the strategy for making changes to the codebase, considering compatibility boundaries and implementation shapes, which relates to workflow processes and evolution context.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$implementation-strategy`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a decision-m",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a decision-making process for handling changes (workflow_process) with a focus on compatibility boundaries and interface changes (architecture).\""
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$implementation-strategy`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses the strategy for implementing changes in the codebase, which involves considering compatibility boundaries and the impact of changes on user-facing behavior, aligning with the 'architecture' and 'evolution_context' categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section discusses the strategy for implementing changes in the codebase, which involves considering compatibility boundaries and the impact of changes on user-facing behavior, aligning with the 'architecture' and 'evolution_context' categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "ExecPlans",
+      "level": 3,
+      "char_count": 708,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "ExecPlans",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the process of writing and storing ExecPlans, which relates to workflow_process, and also mentions the directory layout for storing these plans, which pertains to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the process of writing and storing ExecPlans, which relates to workflow_process, and also mentions the directory layout for storing these plans, which pertains to project_structure.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "ExecPlans",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a workflow process (using ExecPlans for design to implementation) and specifies a project structure directive (storing ExecPlan files under `plans/`).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a workflow process (using ExecPlans for design to implementation) and specifies a project structure directive (storing ExecPlan files under `plans/`).\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "ExecPlans",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the use of ExecPlans for complex features or refactors, their storage location, and compatibility considerations, which relate to architecture, project structure, and workflow process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the use of ExecPlans for complex features or refactors, their storage location, and compatibility considerations, which relate to architecture, project structure, and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Overview",
+      "level": 3,
+      "char_count": 670,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key components of the repository, indicating its dominant content is related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key components of the repository, indicating its dominant content is related to project structure.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key components of the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key components of the repository.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides an overview of the directory layout and key files in the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides an overview of the directory layout and key files in the repository.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repo Structure & Important Files",
+      "level": 3,
+      "char_count": 1245,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Repo Structure & Important Files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the repository, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files in the repository, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Repo Structure & Important Files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the repository's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the repository's directory layout and key files.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Repo Structure & Important Files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as coding style tools like ESLint configuration.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the directory layout and key files, as well as coding style tools like ESLint configuration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Agents Core Runtime Guidelines",
+      "level": 3,
+      "char_count": 1409,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Agents Core Runtime Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides guidelines for the Agents Core Runtime, covering code organization, module responsibilities, and design patterns, which span across coding style, project structure, and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section provides guidelines for the Agents Core Runtime, covering code organization, module responsibilities, and design patterns, which span across coding style, project structure, and architecture categories.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Agents Core Runtime Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section outlines directory layout and file responsibilities (project_structure) alongside design and behavioral guidelines for core components (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines directory layout and file responsibilities (project_structure) alongside design and behavioral guidelines for core components (architecture).\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Agents Core Runtime Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on directory layout, module descriptions, and where things live (project_structure), discusses module roles, dependencies, and design patterns (architecture), and offers coding style advice on naming conventions, formatting, and refactoring (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on directory layout, module descriptions, and where things live (project_structure), discusses module roles, dependencies, and design patterns (architecture), and offers coding style advice on naming conventions, formatting, and refactoring (coding_style).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Prerequisites",
+      "level": 3,
+      "char_count": 92,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Prerequisites",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the required environment and tools for the project, which is related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines the required environment and tools for the project, which is related to project structure.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Prerequisites",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines prerequisites for the project, which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines prerequisites for the project, which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Prerequisites",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section specifies coding environment requirements, including Node.js and pnpm versions, which relate to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section specifies coding environment requirements, including Node.js and pnpm versions, which relate to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Workflow",
+      "level": 3,
+      "char_count": 807,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Development Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the step-by-step process for making changes, testing, committing, and submitting code, which falls under workflow and development guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the step-by-step process for making changes, testing, committing, and submitting code, which falls under workflow and development guidelines.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Development Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines step-by-step procedures for managing code changes, commits, testing, and pull requests, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines step-by-step procedures for managing code changes, commits, testing, and pull requests, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Development Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines the development workflow process and includes guidelines on commit format and unit tests, which fall under coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines the development workflow process and includes guidelines on commit format and unit tests, which fall under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing & Automated Checks",
+      "level": 3,
+      "char_count": 406,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Testing & Automated Checks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and procedures for code changes, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and procedures for code changes, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Testing & Automated Checks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on pre-submission requirements for testing and automated checks, which relates to workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on pre-submission requirements for testing and automated checks, which relates to workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Testing & Automated Checks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines the process for verifying code changes and emphasizes the importance of unit tests, which aligns with the workflow_process and coding_style categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines the process for verifying code changes and emphasizes the importance of unit tests, which aligns with the workflow_process and coding_style categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Type Checking",
+      "level": 4,
+      "char_count": 255,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build and Type Checking",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses build and type checking processes, which relates to workflow_process, and also touches on coding_style by mentioning validation and error checking for TypeScript code.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses build and type checking processes, which relates to workflow_process, and also touches on coding_style by mentioning validation and error checking for TypeScript code.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build and Type Checking",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and practices for building and validating the project, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and practices for building and validating the project, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build and Type Checking",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on building and type checking, which are related to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on building and type checking, which are related to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Unit Tests",
+      "level": 4,
+      "char_count": 184,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Unit Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes testing requirements and procedures, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes testing requirements and procedures, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Unit Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing requirements and command-line instructions for running tests, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing requirements and command-line instructions for running tests, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Unit Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on running tests, which is a coding style guideline, and also outlines the workflow process for testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on running tests, which is a coding style guideline, and also outlines the workflow process for testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Integration Tests",
+      "level": 4,
+      "char_count": 397,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Integration Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process for running integration tests, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process for running integration tests, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Integration Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing workflow process for running integration tests, including commands and environment setup.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing workflow process for running integration tests, including commands and environment setup.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Integration Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the process for running integration tests locally and mentions the project structure for the local npm registry.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the process for running integration tests locally and mentions the project structure for the local npm registry.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Coverage",
+      "level": 4,
+      "char_count": 97,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Code Coverage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, specifically how to generate a code coverage report, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, specifically how to generate a code coverage report, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Code Coverage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing workflow command and its output location, which relates to the project's workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing workflow command and its output location, which relates to the project's workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Code Coverage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a testing requirement and a command to generate a coverage report, which falls under workflow_process, and also mentions a specific code style tool output, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a testing requirement and a command to generate a coverage report, which falls under workflow_process, and also mentions a specific code style tool output, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting & Formatting",
+      "level": 4,
+      "char_count": 274,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Linting & Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses linting and formatting rules, including ESLint and Prettier configurations, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses linting and formatting rules, including ESLint and Prettier configurations, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Linting & Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting, formatting rules, and specific style conventions, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting, formatting rules, and specific style conventions, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Linting & Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, including ESLint usage, code formatting, and commenting rules.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions, including ESLint usage, code formatting, and commenting rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build Details",
+      "level": 4,
+      "char_count": 78,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build Details",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build process, which is a key aspect of workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the build process, which is a key aspect of workflow and development procedures.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build Details",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Describes a specific build process step, which is part of the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Describes a specific build process step, which is part of the workflow.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build Details",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build process and the specific commands used, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build process and the specific commands used, which relates to both project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Mandatory Local Run Order",
+      "level": 4,
+      "char_count": 434,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Mandatory Local Run Order",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the mandatory steps and order for local validation and testing before opening a pull request, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the mandatory steps and order for local validation and testing before opening a pull request, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Mandatory Local Run Order",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific, mandatory steps and checks to be performed locally before opening a pull request, which relates to workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific, mandatory steps and checks to be performed locally before opening a pull request, which relates to workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Mandatory Local Run Order",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the local run order and validation sequence, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the local run order and validation sequence, which are part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pre-commit Hooks",
+      "level": 4,
+      "char_count": 73,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pre-commit Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses pre-commit hooks, which are related to the workflow process of committing code.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section discusses pre-commit hooks, which are related to the workflow process of committing code.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pre-commit Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses pre-commit hooks, which are part of the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses pre-commit hooks, which are part of the development workflow process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pre-commit Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a process for skipping failing precommit hooks during the commit phase, which is a workflow process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a process for skipping failing precommit hooks during the commit phase, which is a workflow process guideline.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Utilities & Tips",
+      "level": 3,
+      "char_count": 1465,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Utilities & Tips",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development workflows, scripts, and tools, but also touches on project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\", \"coding_style\"], \"reasoning\": \"This section primarily describes development workflows, scripts, and tools, but also touches on project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Utilities & Tips",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines specific commands, scripts, and guidelines for development, testing, and workflow operations.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily outlines specific commands, scripts, and guidelines for development, testing, and workflow operations.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Utilities & Tips",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides information on running specific commands for different packages and directories, as well as tips on how to operate on specific packages, which relates to project structure; it also includes guidelines on how to handle review feedback and update version pins, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides information on running specific commands for different packages and directories, as well as tips on how to operate on specific packages, which relates to project structure; it also includes guidelines on how to handle review feedback and update version pins, which pertains to workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pull Request & Commit Guidelines",
+      "level": 3,
+      "char_count": 722,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pull Request & Commit Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes guidelines for commit messages and pull requests, which falls under workflow_process, but also touches on code style, making it relevant to coding_style as well.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes guidelines for commit messages and pull requests, which falls under workflow_process, but also touches on code style, making it relevant to coding_style as well.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pull Request & Commit Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on commit message formats and PR guidelines, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on commit message formats and PR guidelines, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pull Request & Commit Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for commit messages and pull requests, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for commit messages and pull requests, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Review Process & What Reviewers Look For",
+      "level": 3,
+      "char_count": 338,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Review Process & What Reviewers Look For",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines the review process and requirements, which falls under workflow_process, and also touches on coding_style aspects such as code readability and maintainability.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines the review process and requirements, which falls under workflow_process, and also touches on coding_style aspects such as code readability and maintainability.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Review Process & What Reviewers Look For",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific criteria reviewers check during the review process, which is part of the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific criteria reviewers check during the review process, which is part of the workflow.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Review Process & What Reviewers Look For",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines the review process, which includes passing automated checks, testing requirements, and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines the review process, which includes passing automated checks, testing requirements, and coding style guidelines.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Contributor Guide",
+      "level": 1,
+      "char_count": 254,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Contributor Guide",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section covers repository structure and guidelines for commits and PRs, which relate to project organization and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section covers repository structure and guidelines for commits and PRs, which relate to project organization and workflow processes.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Contributor Guide",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section covers repo structure (project_structure) and guidelines for commits and PRs (workflow_process), with both being equally prominent.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section covers repo structure (project_structure) and guidelines for commits and PRs (workflow_process), with both being equally prominent.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Contributor Guide",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses repo structure and guidelines for commits and PRs.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses repo structure and guidelines for commits and PRs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Table of Contents",
+      "level": 2,
+      "char_count": 156,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Table of Contents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [],
+          "reasoning": "This section contains only boilerplate in the form of a table of contents.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"This section contains only boilerplate in the form of a table of contents.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Table of Contents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [],
+          "reasoning": "The section contains only boilerplate (Table of Contents) with no descriptive content to classify.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section contains only boilerplate (Table of Contents) with no descriptive content to classify.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Table of Contents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [],
+          "reasoning": "This section is a table of contents and does not contain any relevant content for classification.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"This section is a table of contents and does not contain any relevant content for classification.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`$code-change-verification`",
+      "level": 4,
+      "char_count": 587,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$code-change-verification`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the development workflow, namely running a verification command before marking work as complete, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the development workflow, namely running a verification command before marking work as complete, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$code-change-verification`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific step (running a verification command) to be integrated into the development workflow, especially before marking work as complete, which directly relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific step (running a verification command) to be integrated into the development workflow, especially before marking work as complete, which directly relates to workflow processes.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$code-change-verification`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a workflow process for code change verification and specifies project structure elements that trigger this process.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a workflow process for code change verification and specifies project structure elements that trigger this process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`$changeset-validation`",
+      "level": 4,
+      "char_count": 479,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$changeset-validation`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a validation process and commit message style, which relates to workflow and coding conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a validation process and commit message style, which relates to workflow and coding conventions.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$changeset-validation`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific step in the development workflow involving validation and commit formatting.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific step in the development workflow involving validation and commit formatting.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$changeset-validation`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a process for creating and validating changesets, and also mentions a coding style for commit messages.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes a process for creating and validating changesets, and also mentions a coding style for commit messages.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`$openai-knowledge`",
+      "level": 4,
+      "char_count": 316,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$openai-knowledge`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a workflow process for accessing documentation and also implies a project structure by referencing specific APIs and tools within the repository.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a workflow process for accessing documentation and also implies a project structure by referencing specific APIs and tools within the repository.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$openai-knowledge`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow tool and its setup for working on integrations, which relates to the development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow tool and its setup for working on integrations, which relates to the development process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$openai-knowledge`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the use of a specific tool ($openai-knowledge) for accessing authoritative docs and guides setup, which falls under project structure, and also outlines a workflow process for working with OpenAI API or platform integrations.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the use of a specific tool ($openai-knowledge) for accessing authoritative docs and guides setup, which falls under project structure, and also outlines a workflow process for working with OpenAI API or platform integrations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`$implementation-strategy`",
+      "level": 4,
+      "char_count": 558,
+      "voted_categories": [
+        "workflow_process",
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$implementation-strategy`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses the strategy for making changes to the codebase, considering compatibility boundaries and implementation shapes, which relates to workflow processes and evolution context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses the strategy for making changes to the codebase, considering compatibility boundaries and implementation shapes, which relates to workflow processes and evolution context.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$implementation-strategy`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a decision-m",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a decision-making process for handling changes (workflow_process) with a focus on compatibility boundaries and interface changes (architecture).\""
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "`$implementation-strategy`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses the strategy for implementing changes in the codebase, which involves considering compatibility boundaries and the impact of changes on user-facing behavior, aligning with the 'architecture' and 'evolution_context' categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section discusses the strategy for implementing changes in the codebase, which involves considering compatibility boundaries and the impact of changes on user-facing behavior, aligning with the 'architecture' and 'evolution_context' categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "ExecPlans",
+      "level": 3,
+      "char_count": 708,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "ExecPlans",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the process of writing and storing ExecPlans, which relates to workflow_process, and also mentions the directory layout for storing these plans, which pertains to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the process of writing and storing ExecPlans, which relates to workflow_process, and also mentions the directory layout for storing these plans, which pertains to project_structure.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "ExecPlans",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a workflow process (using ExecPlans for design to implementation) and specifies a project structure directive (storing ExecPlan files under `plans/`).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a workflow process (using ExecPlans for design to implementation) and specifies a project structure directive (storing ExecPlan files under `plans/`).\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "ExecPlans",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the use of ExecPlans for complex features or refactors, their storage location, and compatibility considerations, which relate to architecture, project structure, and workflow process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the use of ExecPlans for complex features or refactors, their storage location, and compatibility considerations, which relate to architecture, project structure, and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Overview",
+      "level": 3,
+      "char_count": 670,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key components of the repository, indicating its dominant content is related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key components of the repository, indicating its dominant content is related to project structure.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key components of the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key components of the repository.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides an overview of the directory layout and key files in the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides an overview of the directory layout and key files in the repository.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repo Structure & Important Files",
+      "level": 3,
+      "char_count": 1245,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Repo Structure & Important Files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the repository, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files in the repository, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Repo Structure & Important Files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the repository's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the repository's directory layout and key files.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Repo Structure & Important Files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as coding style tools like ESLint configuration.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the directory layout and key files, as well as coding style tools like ESLint configuration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Agents Core Runtime Guidelines",
+      "level": 3,
+      "char_count": 1409,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Agents Core Runtime Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides guidelines for the Agents Core Runtime, covering code organization, module responsibilities, and design patterns, which span across coding style, project structure, and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section provides guidelines for the Agents Core Runtime, covering code organization, module responsibilities, and design patterns, which span across coding style, project structure, and architecture categories.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Agents Core Runtime Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section outlines directory layout and file responsibilities (project_structure) alongside design and behavioral guidelines for core components (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines directory layout and file responsibilities (project_structure) alongside design and behavioral guidelines for core components (architecture).\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Agents Core Runtime Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on directory layout, module descriptions, and where things live (project_structure), discusses module roles, dependencies, and design patterns (architecture), and offers coding style advice on naming conventions, formatting, and refactoring (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on directory layout, module descriptions, and where things live (project_structure), discusses module roles, dependencies, and design patterns (architecture), and offers coding style advice on naming conventions, formatting, and refactoring (coding_style).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Prerequisites",
+      "level": 3,
+      "char_count": 92,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Prerequisites",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the required environment and tools for the project, which is related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines the required environment and tools for the project, which is related to project structure.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Prerequisites",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines prerequisites for the project, which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines prerequisites for the project, which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Prerequisites",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section specifies coding environment requirements, including Node.js and pnpm versions, which relate to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section specifies coding environment requirements, including Node.js and pnpm versions, which relate to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Workflow",
+      "level": 3,
+      "char_count": 807,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Development Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the step-by-step process for making changes, testing, committing, and submitting code, which falls under workflow and development guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the step-by-step process for making changes, testing, committing, and submitting code, which falls under workflow and development guidelines.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Development Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines step-by-step procedures for managing code changes, commits, testing, and pull requests, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines step-by-step procedures for managing code changes, commits, testing, and pull requests, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Development Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines the development workflow process and includes guidelines on commit format and unit tests, which fall under coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines the development workflow process and includes guidelines on commit format and unit tests, which fall under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing & Automated Checks",
+      "level": 3,
+      "char_count": 406,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Testing & Automated Checks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and procedures for code changes, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and procedures for code changes, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Testing & Automated Checks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on pre-submission requirements for testing and automated checks, which relates to workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on pre-submission requirements for testing and automated checks, which relates to workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Testing & Automated Checks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines the process for verifying code changes and emphasizes the importance of unit tests, which aligns with the workflow_process and coding_style categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines the process for verifying code changes and emphasizes the importance of unit tests, which aligns with the workflow_process and coding_style categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Type Checking",
+      "level": 4,
+      "char_count": 255,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build and Type Checking",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses build and type checking processes, which relates to workflow_process, and also touches on coding_style by mentioning validation and error checking for TypeScript code.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses build and type checking processes, which relates to workflow_process, and also touches on coding_style by mentioning validation and error checking for TypeScript code.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build and Type Checking",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and practices for building and validating the project, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and practices for building and validating the project, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build and Type Checking",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on building and type checking, which are related to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on building and type checking, which are related to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Unit Tests",
+      "level": 4,
+      "char_count": 184,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Unit Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes testing requirements and procedures, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes testing requirements and procedures, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Unit Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing requirements and command-line instructions for running tests, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing requirements and command-line instructions for running tests, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Unit Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on running tests, which is a coding style guideline, and also outlines the workflow process for testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on running tests, which is a coding style guideline, and also outlines the workflow process for testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Integration Tests",
+      "level": 4,
+      "char_count": 397,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Integration Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process for running integration tests, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process for running integration tests, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Integration Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing workflow process for running integration tests, including commands and environment setup.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing workflow process for running integration tests, including commands and environment setup.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Integration Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the process for running integration tests locally and mentions the project structure for the local npm registry.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the process for running integration tests locally and mentions the project structure for the local npm registry.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Coverage",
+      "level": 4,
+      "char_count": 97,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Code Coverage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, specifically how to generate a code coverage report, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, specifically how to generate a code coverage report, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Code Coverage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing workflow command and its output location, which relates to the project's workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing workflow command and its output location, which relates to the project's workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Code Coverage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a testing requirement and a command to generate a coverage report, which falls under workflow_process, and also mentions a specific code style tool output, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a testing requirement and a command to generate a coverage report, which falls under workflow_process, and also mentions a specific code style tool output, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting & Formatting",
+      "level": 4,
+      "char_count": 274,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Linting & Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses linting and formatting rules, including ESLint and Prettier configurations, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses linting and formatting rules, including ESLint and Prettier configurations, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Linting & Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting, formatting rules, and specific style conventions, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting, formatting rules, and specific style conventions, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Linting & Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, including ESLint usage, code formatting, and commenting rules.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions, including ESLint usage, code formatting, and commenting rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build Details",
+      "level": 4,
+      "char_count": 78,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build Details",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build process, which is a key aspect of workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the build process, which is a key aspect of workflow and development procedures.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build Details",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Describes a specific build process step, which is part of the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Describes a specific build process step, which is part of the workflow.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Build Details",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build process and the specific commands used, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build process and the specific commands used, which relates to both project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Mandatory Local Run Order",
+      "level": 4,
+      "char_count": 434,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Mandatory Local Run Order",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the mandatory steps and order for local validation and testing before opening a pull request, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the mandatory steps and order for local validation and testing before opening a pull request, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Mandatory Local Run Order",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific, mandatory steps and checks to be performed locally before opening a pull request, which relates to workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific, mandatory steps and checks to be performed locally before opening a pull request, which relates to workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Mandatory Local Run Order",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the local run order and validation sequence, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the local run order and validation sequence, which are part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pre-commit Hooks",
+      "level": 4,
+      "char_count": 73,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pre-commit Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses pre-commit hooks, which are related to the workflow process of committing code.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section discusses pre-commit hooks, which are related to the workflow process of committing code.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pre-commit Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses pre-commit hooks, which are part of the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses pre-commit hooks, which are part of the development workflow process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pre-commit Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a process for skipping failing precommit hooks during the commit phase, which is a workflow process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a process for skipping failing precommit hooks during the commit phase, which is a workflow process guideline.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Utilities & Tips",
+      "level": 3,
+      "char_count": 1465,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Utilities & Tips",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development workflows, scripts, and tools, but also touches on project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\", \"coding_style\"], \"reasoning\": \"This section primarily describes development workflows, scripts, and tools, but also touches on project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Utilities & Tips",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines specific commands, scripts, and guidelines for development, testing, and workflow operations.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily outlines specific commands, scripts, and guidelines for development, testing, and workflow operations.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Utilities & Tips",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides information on running specific commands for different packages and directories, as well as tips on how to operate on specific packages, which relates to project structure; it also includes guidelines on how to handle review feedback and update version pins, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides information on running specific commands for different packages and directories, as well as tips on how to operate on specific packages, which relates to project structure; it also includes guidelines on how to handle review feedback and update version pins, which pertains to workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pull Request & Commit Guidelines",
+      "level": 3,
+      "char_count": 722,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pull Request & Commit Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes guidelines for commit messages and pull requests, which falls under workflow_process, but also touches on code style, making it relevant to coding_style as well.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes guidelines for commit messages and pull requests, which falls under workflow_process, but also touches on code style, making it relevant to coding_style as well.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pull Request & Commit Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on commit message formats and PR guidelines, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on commit message formats and PR guidelines, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Pull Request & Commit Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for commit messages and pull requests, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for commit messages and pull requests, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Review Process & What Reviewers Look For",
+      "level": 3,
+      "char_count": 338,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Review Process & What Reviewers Look For",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines the review process and requirements, which falls under workflow_process, and also touches on coding_style aspects such as code readability and maintainability.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines the review process and requirements, which falls under workflow_process, and also touches on coding_style aspects such as code readability and maintainability.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Review Process & What Reviewers Look For",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific criteria reviewers check during the review process, which is part of the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific criteria reviewers check during the review process, which is part of the workflow.\"}"
+        },
+        {
+          "repo": "openai/openai-agents-js",
+          "section_heading": "Review Process & What Reviewers Look For",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines the review process, which includes passing automated checks, testing requirements, and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines the review process, which includes passing automated checks, testing requirements, and coding style guidelines.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.25,
+    "project_structure": 0.3333333333333333,
+    "workflow_process": 0.75,
+    "architecture": 0.08333333333333333,
+    "evolution_context": 0.041666666666666664,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.2896534488503832,
+    "project_structure": 0.5130789736754415,
+    "workflow_process": 0.6796067977340886,
+    "architecture": 0.16386204598467177,
+    "evolution_context": 0.04648450516494502,
+    "agent_rules": 0.0
+  }
+}

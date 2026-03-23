@@ -1,0 +1,3386 @@
+{
+  "repo": "Vortiago__mcp-outline",
+  "full_name": "Vortiago/mcp-outline",
+  "n_sections": 40,
+  "n_chars": 16911,
+  "sections": [
+    {
+      "heading": "MCP Outline Server Guide",
+      "level": 1,
+      "char_count": 77,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Outline Server Guide",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section heading and content suggest a focus on implementing and modifying a server, which relates to the overall project structure and organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section heading and content suggest a focus on implementing and modifying a server, which relates to the overall project structure and organization.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Outline Server Guide",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section appears to introduce a guide related to implementing and modifying a server, which implies guidance on how the project is structured or set up.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section appears to introduce a guide related to implementing and modifying a server, which implies guidance on how the project is structured or set up.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Outline Server Guide",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidance on implementing and modifying the MCP Outline server, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides guidance on implementing and modifying the MCP Outline server, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Purpose",
+      "level": 2,
+      "char_count": 368,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Purpose",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the purpose and functionality of the MCP server, outlining its integration with Outline's platform and key features, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the purpose and functionality of the MCP server, outlining its integration with Outline's platform and key features, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Purpose",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the project's integration purpose and key technical components, implying both its place in the overall structure and architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the project's integration purpose and key technical components, implying both its place in the overall structure and architectural design.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Purpose",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose of the MCP server, which includes its role in the project structure and the architecture of the system, such as REST API integration, MCP resources, and API key authentication.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the purpose of the MCP server, which includes its role in the project structure and the architecture of the system, such as REST API integration, MCP resources, and API key authentication.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tool Categories",
+      "level": 3,
+      "char_count": 525,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Tool Categories",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines the different tool categories, which relates to the overall project structure and architecture of the system, describing the various components and their roles.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines the different tool categories, which relates to the overall project structure and architecture of the system, describing the various components and their roles.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Tool Categories",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines distinct functional modules (tool categories) with their responsibilities, implying a design pattern for the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines distinct functional modules (tool categories) with their responsibilities, implying a design pattern for the system's architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Tool Categories",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines the different tools and their functions, which relates to project structure, and also includes an AI tool category, which relates to agent rules.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"agent_rules\"], \"reasoning\": \"The section outlines the different tools and their functions, which relates to project structure, and also includes an AI tool category, which relates to agent rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Feature Registration Flow",
+      "level": 3,
+      "char_count": 1072,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature Registration Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the feature registration flow, which pertains to the overall system architecture and also outlines a specific workflow process for registering features.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section describes the feature registration flow, which pertains to the overall system architecture and also outlines a specific workflow process for registering features.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature Registration Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a structured flow of feature registration (architecture) with conditional logic that implies process rules (workflow_process).",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section describes a structured flow of feature registration (architecture) with conditional logic that implies process rules (workflow_process).\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature Registration Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files (project_structure) as well as module roles and dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files (project_structure) as well as module roles and dependencies (architecture).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "MCP Resources (`outline://` URI scheme)",
+      "level": 3,
+      "char_count": 359,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Resources (`outline://` URI scheme)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the URI scheme and resource structure of the project, indicating how resources are organized and accessed, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the URI scheme and resource structure of the project, indicating how resources are organized and accessed, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Resources (`outline://` URI scheme)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a URI scheme for accessing specific resources within the project, which relates to how the project's components and data are organized and accessed.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a URI scheme for accessing specific resources within the project, which relates to how the project's components and data are organized and accessed.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Resources (`outline://` URI scheme)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the URI scheme for accessing resources within the project, which is related to the project's structure.",
+          "raw_response": "{\n  \"categories\": [\"project_structure\"],\n  \"reasoning\": \"The section describes the URI scheme for accessing resources within the project, which is related to the project's structure.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Health Check Endpoints",
+      "level": 3,
+      "char_count": 140,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Health Check Endpoints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes specific API endpoints and their roles, which pertains to the overall design and structure of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes specific API endpoints and their roles, which pertains to the overall design and structure of the system's architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Health Check Endpoints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes specific API endpoints and their functional roles, which pertains to system design and component behavior.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes specific API endpoints and their functional roles, which pertains to system design and component behavior.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Health Check Endpoints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the health check endpoints, which are part of the system's architecture and design patterns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the health check endpoints, which are part of the system's architecture and design patterns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Outline Objects",
+      "level": 3,
+      "char_count": 446,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline Objects",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key objects and their relationships in the repository, indicating both how the project is structured and the architectural components of the system.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key objects and their relationships in the repository, indicating both how the project is structured and the architectural components of the system.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline Objects",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes core components and their relationships (architecture), and how key elements are organized within the project (project_structure).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes core components and their relationships (architecture), and how key elements are organized within the project (project_structure).\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline Objects",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure and organization of the project's objects, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure and organization of the project's objects, which relates to both project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "API Client",
+      "level": 3,
+      "char_count": 1210,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "API Client",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the design and implementation of the API client, including its operations, connection pooling, rate limiting, and error handling, which pertains to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section describes the design and implementation of the API client, including its operations, connection pooling, rate limiting, and error handling, which pertains to both architecture and coding style.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "API Client",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section primarily describes the design and functionality of a specific module (`OutlineClient`), its operations, and technical implementation details (connection pooling, rate limiting, error handling), which are core to the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section primarily describes the design and functionality of a specific module (`OutlineClient`), its operations, and technical implementation details (connection pooling, rate limiting, error handling), which are core to the system's architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "API Client",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure and functionality of the OutlineClient, coding style for error handling, and architectural details of connection pooling and rate limiting.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure and functionality of the OutlineClient, coding style for error handling, and architectural details of connection pooling and rate limiting.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Utilities (`features/documents/common.py`)",
+      "level": 3,
+      "char_count": 454,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Utilities (`features/documents/common.py`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the location and implementation details of specific utility functions and classes, indicating both project structure and architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the location and implementation details of specific utility functions and classes, indicating both project structure and architectural design.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Utilities (`features/documents/common.py`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes specific utility functions and an exception class related to integrating with an external API, which pertains to system design and component interaction.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes specific utility functions and an exception class related to integrating with an external API, which pertains to system design and component interaction.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Utilities (`features/documents/common.py`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes function and class definitions, which falls under coding_style, and also mentions the location of the file, which is project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes function and class definitions, which falls under coding_style, and also mentions the location of the file, which is project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Copilot CLI Patch (`patches/copilot_cli.py`)",
+      "level": 3,
+      "char_count": 193,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Copilot CLI Patch (`patches/copilot_cli.py`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific patch file and its purpose, relating to project structure, and also touches on module dependencies and design, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes a specific patch file and its purpose, relating to project structure, and also touches on module dependencies and design, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Copilot CLI Patch (`patches/copilot_cli.py`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Describes a specific code patch ",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Describes a specific code patch (architecture) addressing a particular issue (evolution_context).\""
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Copilot CLI Patch (`patches/copilot_cli.py`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes a code patch for a specific issue, which falls under coding_style, and also discusses the modification of a component's behavior, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes a code patch for a specific issue, which falls under coding_style, and also discusses the modification of a component's behavior, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Module Structure",
+      "level": 3,
+      "char_count": 47,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Module Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the organization and layout of modules within the project, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the organization and layout of modules within the project, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Module Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a specific directory or organizational pattern for feature modules, which directly relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines a specific directory or organizational pattern for feature modules, which directly relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Module Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure of feature modules, which falls under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure of feature modules, which falls under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. Imports (standard lib -> third-party -> local)",
+      "level": 1,
+      "char_count": 221,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "1. Imports (standard lib -> third-party -> local)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on import order, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on import order, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "1. Imports (standard lib -> third-party -> local)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies import order, a common coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies import order, a common coding style convention.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "1. Imports (standard lib -> third-party -> local)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section demonstrates import order and naming conventions, which falls under coding_style, and also shows the directory layout and key files, which falls under project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section demonstrates import order and naming conventions, which falls under coding_style, and also shows the directory layout and key files, which falls under project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Helper formatters (private functions)",
+      "level": 1,
+      "char_count": 143,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "2. Helper formatters (private functions)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on a specific private function with formatting concerns, indicating a focus on coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on a specific private function with formatting concerns, indicating a focus on coding style.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "2. Helper formatters (private functions)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific code implementation with a note on 'Clean, readable output formatting', aligning with coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific code implementation with a note on 'Clean, readable output formatting', aligning with coding style conventions.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "2. Helper formatters (private functions)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a private function definition, which is an example of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a private function definition, which is an example of coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Tool registration function",
+      "level": 1,
+      "char_count": 999,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "3. Tool registration function",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section contains code with specific formatting and naming conventions, indicating coding_style, and also describes a module's functionality and dependencies, suggesting architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section contains code with specific formatting and naming conventions, indicating coding_style, and also describes a module's functionality and dependencies, suggesting architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "3. Tool registration function",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines a specific module function with annotations and dependencies, focusing on design and component interaction.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines a specific module function with annotations and dependencies, focusing on design and component interaction.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "3. Tool registration function",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides a code snippet defining a function for registering tools, which falls under coding_style, and also demonstrates the use of tools by an AI agent, which falls under agent_rules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section provides a code snippet defining a function for registering tools, which falls under coding_style, and also demonstrates the use of tools by an AI agent, which falls under agent_rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding New Tools",
+      "level": 3,
+      "char_count": 1395,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Adding New Tools",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section contains code snippets with formatting and style, describes a specific tool's placement and functionality within the project, outlines testing requirements, and defines module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section contains code snippets with formatting and style, describes a specific tool's placement and functionality within the project, outlines testing requirements, and defines module roles and dependencies.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Adding New Tools",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process",
+            "architecture",
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section provides a comprehensive guide on adding new tools, covering code structure, directory implications, testing guidelines, architectural dependencies, project evolution context, and agent-specific rules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\", \"architecture\", \"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section provides a comprehensive guide on adding new tools, covering code structure, directory implications, testing guidelines, architectural dependencies, project evolution context, and agent-specific rules.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Adding New Tools",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides code snippets for adding new tools, which includes naming conventions and formatting, as well as module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides code snippets for adding new tools, which includes naming conventions and formatting, as well as module roles and dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 3,
+      "char_count": 209,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions, formatting, and code style tools, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions, formatting, and code style tools, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively discusses coding conventions, formatting rules, and style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively discusses coding conventions, formatting rules, and style guidelines.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on coding style conventions, including PEP 8, type hints, line length, docstrings, import order, and single responsibility per function.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on coding style conventions, including PEP 8, type hints, line length, docstrings, import order, and single responsibility per function.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "In OutlineClient methods",
+      "level": 1,
+      "char_count": 538,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In OutlineClient methods",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to coding_style due to its focus on code formatting and syntax, and to architecture because it describes the implementation details of a specific module method.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to coding_style due to its focus on code formatting and syntax, and to architecture because it describes the implementation details of a specific module method.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In OutlineClient methods",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on code formatting and error handling within a method, which relates to coding conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on code formatting and error handling within a method, which relates to coding conventions.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In OutlineClient methods",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section contains error handling code, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section contains error handling code, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "In tool functions",
+      "level": 1,
+      "char_count": 246,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In tool functions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section contains code with specific formatting and error handling, indicating coding style, and also implies the role of a module or component, suggesting architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section contains code with specific formatting and error handling, indicating coding style, and also implies the role of a module or component, suggesting architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In tool functions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on module dependency and error handling within a specific function, which relates to system design and component interaction, characteristic of architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on module dependency and error handling within a specific function, which relates to system design and component interaction, characteristic of architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In tool functions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides an example of error handling in code, which falls under coding style.",
+          "raw_response": "{\n  \"categories\": [\"coding_style\"],\n  \"reasoning\": \"The section provides an example of error handling in code, which falls under coding style.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 904,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses testing conventions, including code snippets and guidelines for writing tests, which relates to coding style, and also touches on workflow process through the discussion of testing requirements and patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses testing conventions, including code snippets and guidelines for writing tests, which relates to coding style, and also touches on workflow process through the discussion of testing requirements and patterns.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines testing conventions (coding_style) and indirectly influences workflow through testing requirements (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines testing conventions (coding_style) and indirectly influences workflow through testing requirements (workflow_process).\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for testing, including mocking and naming conventions, and outlines workflow processes for testing, such as setup and teardown methods.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for testing, including mocking and naming conventions, and outlines workflow processes for testing, such as setup and teardown methods.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "E2E Tests",
+      "level": 3,
+      "char_count": 878,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "E2E Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes the setup and execution of end-to-end tests, including the use of specific markers, fixtures, and APIs, which relates to workflow process, and also touches on the architecture of the system by mentioning the interaction between different components and tools.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes the setup and execution of end-to-end tests, including the use of specific markers, fixtures, and APIs, which relates to workflow process, and also touches on the architecture of the system by mentioning the interaction between different components and tools.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "E2E Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes the setup, markers, fixtures, and specific configurations for running End-to-End (E2E) tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes the setup, markers, fixtures, and specific configurations for running End-to-End (E2E) tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "E2E Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the process for running end-to-end tests and the architecture of the test setup, including fixtures and dependencies.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the process for running end-to-end tests and the architecture of the test setup, including fixtures and dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration",
+      "level": 3,
+      "char_count": 20,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section discusses the configuration file, which is a key part of the project's directory layout and organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section discusses the configuration file, which is a key part of the project's directory layout and organization.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on the `.env` file, which is a key file in the project's setup, indicating its placement within the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on the `.env` file, which is a key file in the project's setup, indicating its placement within the project structure.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a key file in the project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a key file in the project directory layout.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Outline API (optional \u2014 if unset, every request must include x-outline-api-key header)",
+      "level": 1,
+      "char_count": 26,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional \u2014 if unset, every request must include x-outline-api-key header)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes an optional API key setting, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes an optional API key setting, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional \u2014 if unset, every request must include x-outline-api-key header)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section specifies an environment variable setting, which relates to how the project is configured and structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section specifies an environment variable setting, which relates to how the project is configured and structured.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional \u2014 if unset, every request must include x-outline-api-key header)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a coding style guideline for setting an environment variable.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a coding style guideline for setting an environment variable.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Outline API (optional)",
+      "level": 1,
+      "char_count": 177,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a project configuration setting for an external API, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a project configuration setting for an external API, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section specifies configuration for an external API integration, which relates to how the project is set up and where certain settings live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section specifies configuration for an external API integration, which relates to how the project is set up and where certain settings live.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section sets up API URL and SSL verification, which is related to project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section sets up API URL and SSL verification, which is related to project structure and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Connection pooling (optional)",
+      "level": 1,
+      "char_count": 357,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Connection pooling (optional)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes connection pooling settings, which pertains to the design and configuration of system components, falling under architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes connection pooling settings, which pertains to the design and configuration of system components, falling under architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Connection pooling (optional)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section configures connection pooling parameters, which relates to system design and performance, falling under architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section configures connection pooling parameters, which relates to system design and performance, falling under architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Connection pooling (optional)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides configuration details for connection pooling, which is a coding style practice and also relates to the architecture of the system.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides configuration details for connection pooling, which is a coding style practice and also relates to the architecture of the system.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Feature flags (optional)",
+      "level": 1,
+      "char_count": 317,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature flags (optional)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines optional feature flags that control AI tool behavior and access, which falls under agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section outlines optional feature flags that control AI tool behavior and access, which falls under agent-specific directives.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature flags (optional)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes feature flags that control system behavior and tool integration, which relates to architectural design choices.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes feature flags that control system behavior and tool integration, which relates to architectural design choices.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature flags (optional)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "This section provides configuration options for the AI agent, which can be considered as coding style guidelines, and also includes agent-specific rules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"This section provides configuration options for the AI agent, which can be considered as coding style guidelines, and also includes agent-specific rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "MCP server (optional)",
+      "level": 1,
+      "char_count": 898,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP server (optional)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the configuration of an MCP server, including transport, host, and port, as well as access control notes, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the configuration of an MCP server, including transport, host, and port, as well as access control notes, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP server (optional)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section defines server configuration (architecture) and access control rules impacting system behavior (workflow_process).",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section defines server configuration (architecture) and access control rules impacting system behavior (workflow_process).\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP server (optional)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "The section contains configuration variables (coding_style), server details (project_structure), and access control notes related to AI-specific directives (agent_rules).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"agent_rules\"], \"reasoning\": \"The section contains configuration variables (coding_style), server details (project_structure), and access control notes related to AI-specific directives (agent_rules).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Critical Requirements",
+      "level": 3,
+      "char_count": 365,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Critical Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines specific coding conventions and guidelines for tool functions, error handling, and client method calls, which pertain to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines specific coding conventions and guidelines for tool functions, error handling, and client method calls, which pertain to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Critical Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific coding ",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific coding conventions (coding_style) and design decisions influencing the system's structure and behavior (architecture).\""
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Critical Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines and workflow process rules for tool functions and client method calls.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines and workflow process rules for tool functions and client method calls.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pre-Commit Checks",
+      "level": 3,
+      "char_count": 89,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Pre-Commit Checks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section focuses on testing requirements and CI/CD guidelines before committing code.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section focuses on testing requirements and CI/CD guidelines before committing code.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Pre-Commit Checks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on a specific step in the development workflow (pre-commit checks) that ensures code quality before committing.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on a specific step in the development workflow (pre-commit checks) that ensures code quality before committing.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Pre-Commit Checks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on running CI checks locally before committing, which is a workflow process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions on running CI checks locally before committing, which is a workflow process guideline.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Format code",
+      "level": 1,
+      "char_count": 20,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Format code",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section is about formatting code, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section is about formatting code, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Format code",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a command for code formatting, which directly relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a command for code formatting, which directly relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Format code",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command for formatting code, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command for formatting code, which falls under coding style guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check formatting",
+      "level": 1,
+      "char_count": 28,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Check formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is classified as coding_style because it mentions running a formatting check using a tool called ruff.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is classified as coding_style because it mentions running a formatting check using a tool called ruff.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Check formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a command to check code formatting, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a command to check code formatting, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Check formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a formatting command, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a formatting command, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests",
+      "level": 1,
+      "char_count": 20,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command to run unit tests, which falls under testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command to run unit tests, which falls under testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command to run unit tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command to run unit tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run integration tests",
+      "level": 1,
+      "char_count": 27,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run integration tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run integration tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to the workflow and testing requirements within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to the workflow and testing requirements within the project.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run integration tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running integration tests, which falls under workflow_process category.",
+          "raw_response": "{\n  \"categories\": [\"workflow_process\"],\n  \"reasoning\": \"The section describes a command for running integration tests, which falls under workflow_process category.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Run E2E tests (requires Docker)",
+      "level": 1,
+      "char_count": 23,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run E2E tests (requires Docker)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, which is a key aspect of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, which is a key aspect of the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run E2E tests (requires Docker)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run E2E tests (requires Docker)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running end-to-end tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running end-to-end tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Verifying CI on GitHub",
+      "level": 3,
+      "char_count": 195,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Verifying CI on GitHub",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses verifying Continuous Integration checks on GitHub, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses verifying Continuous Integration checks on GitHub, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Verifying CI on GitHub",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on verifying CI/CD pipeline checks on GitHub, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on verifying CI/CD pipeline checks on GitHub, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Verifying CI on GitHub",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a workflow process for verifying CI on GitHub, including the use of GitHub Actions checks and the GitHub API to check status.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a workflow process for verifying CI on GitHub, including the use of GitHub Actions checks and the GitHub API to check status.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Get status of all check runs for a commit",
+      "level": 1,
+      "char_count": 805,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Get status of all check runs for a commit",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a workflow process for checking the status of commit checks and handling potential failures, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a workflow process for checking the status of commit checks and handling potential failures, which aligns with the workflow_process category.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Get status of all check runs for a commit",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a workflow process for checking commit status and handling test results, including commands and expected outcomes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a workflow process for checking commit status and handling test results, including commands and expected outcomes.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Get status of all check runs for a commit",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to check the status of all check runs for a commit, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to check the status of all check runs for a commit, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "List failed test annotations for a check run",
+      "level": 1,
+      "char_count": 358,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "List failed test annotations for a check run",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a workflow process for retrieving and handling test annotations for a check run using GitHub API and command-line tools.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a workflow process for retrieving and handling test annotations for a check run using GitHub API and command-line tools.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "List failed test annotations for a check run",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow task (listing failed test annotations) using GitHub API and scripting, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow task (listing failed test annotations) using GitHub API and scripting, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "List failed test annotations for a check run",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a process for retrieving and displaying failed test annotations, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a process for retrieving and displaying failed test annotations, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Patterns",
+      "level": 2,
+      "char_count": 417,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes specific coding patterns and design principles, such as pagination and tree formatting, which relate to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes specific coding patterns and design principles, such as pagination and tree formatting, which relate to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines design patterns (architecture) and specific implementation guidelines (coding_style).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design patterns (architecture) and specific implementation guidelines (coding_style).\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for specific tasks and describes architectural patterns for tool annotations and conditional registration.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for specific tasks and describes architectural patterns for tool annotations and conditional registration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Version Number Rules",
+      "level": 3,
+      "char_count": 209,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Version Number Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines rules for version numbering based on commit types, which is a workflow process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines rules for version numbering based on commit types, which is a workflow process guideline.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Version Number Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Describes rules for version numbering based on commit types, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Describes rules for version numbering based on commit types, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Version Number Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes version number rules based on commit types, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes version number rules based on commit types, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Bump Script",
+      "level": 3,
+      "char_count": 409,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Bump Script",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a script used for updating version files across the project, which relates to workflow processes, and also mentions specific files and their locations, touching on project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a script used for updating version files across the project, which relates to workflow processes, and also mentions specific files and their locations, touching on project structure.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Bump Script",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific script and its usage for version bumping, which relates to the workflow process of managing versions and updates.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific script and its usage for version bumping, which relates to the workflow process of managing versions and updates.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Bump Script",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for versioning and its validation rules, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes a specific command for versioning and its validation rules, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Release Workflow",
+      "level": 3,
+      "char_count": 294,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Release Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the step-by-step process for releasing a new version, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the step-by-step process for releasing a new version, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Release Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for releasing a version, which directly relates to workflow and CI/CD practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for releasing a version, which directly relates to workflow and CI/CD practices.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Release Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a step-by-step process for releasing a new version, including commit, PR, and tagging guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a step-by-step process for releasing a new version, including commit, PR, and tagging guidelines.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "MCP Outline Server Guide",
+      "level": 1,
+      "char_count": 77,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Outline Server Guide",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section heading and content suggest a focus on implementing and modifying a server, which relates to the overall project structure and organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section heading and content suggest a focus on implementing and modifying a server, which relates to the overall project structure and organization.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Outline Server Guide",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section appears to introduce a guide related to implementing and modifying a server, which implies guidance on how the project is structured or set up.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section appears to introduce a guide related to implementing and modifying a server, which implies guidance on how the project is structured or set up.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Outline Server Guide",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidance on implementing and modifying the MCP Outline server, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides guidance on implementing and modifying the MCP Outline server, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Purpose",
+      "level": 2,
+      "char_count": 368,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Purpose",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the purpose and functionality of the MCP server, outlining its integration with Outline's platform and key features, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the purpose and functionality of the MCP server, outlining its integration with Outline's platform and key features, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Purpose",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the project's integration purpose and key technical components, implying both its place in the overall structure and architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the project's integration purpose and key technical components, implying both its place in the overall structure and architectural design.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Purpose",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose of the MCP server, which includes its role in the project structure and the architecture of the system, such as REST API integration, MCP resources, and API key authentication.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the purpose of the MCP server, which includes its role in the project structure and the architecture of the system, such as REST API integration, MCP resources, and API key authentication.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tool Categories",
+      "level": 3,
+      "char_count": 525,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Tool Categories",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines the different tool categories, which relates to the overall project structure and architecture of the system, describing the various components and their roles.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines the different tool categories, which relates to the overall project structure and architecture of the system, describing the various components and their roles.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Tool Categories",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines distinct functional modules (tool categories) with their responsibilities, implying a design pattern for the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines distinct functional modules (tool categories) with their responsibilities, implying a design pattern for the system's architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Tool Categories",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines the different tools and their functions, which relates to project structure, and also includes an AI tool category, which relates to agent rules.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"agent_rules\"], \"reasoning\": \"The section outlines the different tools and their functions, which relates to project structure, and also includes an AI tool category, which relates to agent rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Feature Registration Flow",
+      "level": 3,
+      "char_count": 1072,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature Registration Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the feature registration flow, which pertains to the overall system architecture and also outlines a specific workflow process for registering features.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section describes the feature registration flow, which pertains to the overall system architecture and also outlines a specific workflow process for registering features.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature Registration Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a structured flow of feature registration (architecture) with conditional logic that implies process rules (workflow_process).",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section describes a structured flow of feature registration (architecture) with conditional logic that implies process rules (workflow_process).\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature Registration Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files (project_structure) as well as module roles and dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files (project_structure) as well as module roles and dependencies (architecture).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "MCP Resources (`outline://` URI scheme)",
+      "level": 3,
+      "char_count": 359,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Resources (`outline://` URI scheme)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the URI scheme and resource structure of the project, indicating how resources are organized and accessed, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the URI scheme and resource structure of the project, indicating how resources are organized and accessed, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Resources (`outline://` URI scheme)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a URI scheme for accessing specific resources within the project, which relates to how the project's components and data are organized and accessed.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a URI scheme for accessing specific resources within the project, which relates to how the project's components and data are organized and accessed.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP Resources (`outline://` URI scheme)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the URI scheme for accessing resources within the project, which is related to the project's structure.",
+          "raw_response": "{\n  \"categories\": [\"project_structure\"],\n  \"reasoning\": \"The section describes the URI scheme for accessing resources within the project, which is related to the project's structure.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Health Check Endpoints",
+      "level": 3,
+      "char_count": 140,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Health Check Endpoints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes specific API endpoints and their roles, which pertains to the overall design and structure of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes specific API endpoints and their roles, which pertains to the overall design and structure of the system's architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Health Check Endpoints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes specific API endpoints and their functional roles, which pertains to system design and component behavior.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes specific API endpoints and their functional roles, which pertains to system design and component behavior.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Health Check Endpoints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the health check endpoints, which are part of the system's architecture and design patterns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the health check endpoints, which are part of the system's architecture and design patterns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Outline Objects",
+      "level": 3,
+      "char_count": 446,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline Objects",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key objects and their relationships in the repository, indicating both how the project is structured and the architectural components of the system.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key objects and their relationships in the repository, indicating both how the project is structured and the architectural components of the system.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline Objects",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes core components and their relationships (architecture), and how key elements are organized within the project (project_structure).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes core components and their relationships (architecture), and how key elements are organized within the project (project_structure).\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline Objects",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure and organization of the project's objects, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure and organization of the project's objects, which relates to both project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "API Client",
+      "level": 3,
+      "char_count": 1210,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "API Client",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the design and implementation of the API client, including its operations, connection pooling, rate limiting, and error handling, which pertains to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section describes the design and implementation of the API client, including its operations, connection pooling, rate limiting, and error handling, which pertains to both architecture and coding style.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "API Client",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section primarily describes the design and functionality of a specific module (`OutlineClient`), its operations, and technical implementation details (connection pooling, rate limiting, error handling), which are core to the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section primarily describes the design and functionality of a specific module (`OutlineClient`), its operations, and technical implementation details (connection pooling, rate limiting, error handling), which are core to the system's architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "API Client",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure and functionality of the OutlineClient, coding style for error handling, and architectural details of connection pooling and rate limiting.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure and functionality of the OutlineClient, coding style for error handling, and architectural details of connection pooling and rate limiting.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Utilities (`features/documents/common.py`)",
+      "level": 3,
+      "char_count": 454,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Utilities (`features/documents/common.py`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the location and implementation details of specific utility functions and classes, indicating both project structure and architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the location and implementation details of specific utility functions and classes, indicating both project structure and architectural design.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Utilities (`features/documents/common.py`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes specific utility functions and an exception class related to integrating with an external API, which pertains to system design and component interaction.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes specific utility functions and an exception class related to integrating with an external API, which pertains to system design and component interaction.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Utilities (`features/documents/common.py`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes function and class definitions, which falls under coding_style, and also mentions the location of the file, which is project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes function and class definitions, which falls under coding_style, and also mentions the location of the file, which is project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Copilot CLI Patch (`patches/copilot_cli.py`)",
+      "level": 3,
+      "char_count": 193,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Copilot CLI Patch (`patches/copilot_cli.py`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific patch file and its purpose, relating to project structure, and also touches on module dependencies and design, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes a specific patch file and its purpose, relating to project structure, and also touches on module dependencies and design, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Copilot CLI Patch (`patches/copilot_cli.py`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Describes a specific code patch ",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Describes a specific code patch (architecture) addressing a particular issue (evolution_context).\""
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Copilot CLI Patch (`patches/copilot_cli.py`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes a code patch for a specific issue, which falls under coding_style, and also discusses the modification of a component's behavior, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes a code patch for a specific issue, which falls under coding_style, and also discusses the modification of a component's behavior, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Module Structure",
+      "level": 3,
+      "char_count": 47,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Module Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the organization and layout of modules within the project, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the organization and layout of modules within the project, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Module Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a specific directory or organizational pattern for feature modules, which directly relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines a specific directory or organizational pattern for feature modules, which directly relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Module Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure of feature modules, which falls under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure of feature modules, which falls under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. Imports (standard lib -> third-party -> local)",
+      "level": 1,
+      "char_count": 221,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "1. Imports (standard lib -> third-party -> local)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on import order, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on import order, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "1. Imports (standard lib -> third-party -> local)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies import order, a common coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies import order, a common coding style convention.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "1. Imports (standard lib -> third-party -> local)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section demonstrates import order and naming conventions, which falls under coding_style, and also shows the directory layout and key files, which falls under project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section demonstrates import order and naming conventions, which falls under coding_style, and also shows the directory layout and key files, which falls under project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Helper formatters (private functions)",
+      "level": 1,
+      "char_count": 143,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "2. Helper formatters (private functions)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on a specific private function with formatting concerns, indicating a focus on coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on a specific private function with formatting concerns, indicating a focus on coding style.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "2. Helper formatters (private functions)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific code implementation with a note on 'Clean, readable output formatting', aligning with coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific code implementation with a note on 'Clean, readable output formatting', aligning with coding style conventions.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "2. Helper formatters (private functions)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a private function definition, which is an example of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a private function definition, which is an example of coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Tool registration function",
+      "level": 1,
+      "char_count": 999,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "3. Tool registration function",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section contains code with specific formatting and naming conventions, indicating coding_style, and also describes a module's functionality and dependencies, suggesting architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section contains code with specific formatting and naming conventions, indicating coding_style, and also describes a module's functionality and dependencies, suggesting architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "3. Tool registration function",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines a specific module function with annotations and dependencies, focusing on design and component interaction.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines a specific module function with annotations and dependencies, focusing on design and component interaction.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "3. Tool registration function",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides a code snippet defining a function for registering tools, which falls under coding_style, and also demonstrates the use of tools by an AI agent, which falls under agent_rules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section provides a code snippet defining a function for registering tools, which falls under coding_style, and also demonstrates the use of tools by an AI agent, which falls under agent_rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding New Tools",
+      "level": 3,
+      "char_count": 1395,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Adding New Tools",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section contains code snippets with formatting and style, describes a specific tool's placement and functionality within the project, outlines testing requirements, and defines module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section contains code snippets with formatting and style, describes a specific tool's placement and functionality within the project, outlines testing requirements, and defines module roles and dependencies.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Adding New Tools",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process",
+            "architecture",
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section provides a comprehensive guide on adding new tools, covering code structure, directory implications, testing guidelines, architectural dependencies, project evolution context, and agent-specific rules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\", \"architecture\", \"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section provides a comprehensive guide on adding new tools, covering code structure, directory implications, testing guidelines, architectural dependencies, project evolution context, and agent-specific rules.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Adding New Tools",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides code snippets for adding new tools, which includes naming conventions and formatting, as well as module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides code snippets for adding new tools, which includes naming conventions and formatting, as well as module roles and dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 3,
+      "char_count": 209,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions, formatting, and code style tools, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions, formatting, and code style tools, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively discusses coding conventions, formatting rules, and style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively discusses coding conventions, formatting rules, and style guidelines.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on coding style conventions, including PEP 8, type hints, line length, docstrings, import order, and single responsibility per function.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on coding style conventions, including PEP 8, type hints, line length, docstrings, import order, and single responsibility per function.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "In OutlineClient methods",
+      "level": 1,
+      "char_count": 538,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In OutlineClient methods",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to coding_style due to its focus on code formatting and syntax, and to architecture because it describes the implementation details of a specific module method.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to coding_style due to its focus on code formatting and syntax, and to architecture because it describes the implementation details of a specific module method.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In OutlineClient methods",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on code formatting and error handling within a method, which relates to coding conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on code formatting and error handling within a method, which relates to coding conventions.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In OutlineClient methods",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section contains error handling code, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section contains error handling code, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "In tool functions",
+      "level": 1,
+      "char_count": 246,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In tool functions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section contains code with specific formatting and error handling, indicating coding style, and also implies the role of a module or component, suggesting architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section contains code with specific formatting and error handling, indicating coding style, and also implies the role of a module or component, suggesting architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In tool functions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on module dependency and error handling within a specific function, which relates to system design and component interaction, characteristic of architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on module dependency and error handling within a specific function, which relates to system design and component interaction, characteristic of architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "In tool functions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides an example of error handling in code, which falls under coding style.",
+          "raw_response": "{\n  \"categories\": [\"coding_style\"],\n  \"reasoning\": \"The section provides an example of error handling in code, which falls under coding style.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 904,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses testing conventions, including code snippets and guidelines for writing tests, which relates to coding style, and also touches on workflow process through the discussion of testing requirements and patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses testing conventions, including code snippets and guidelines for writing tests, which relates to coding style, and also touches on workflow process through the discussion of testing requirements and patterns.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines testing conventions (coding_style) and indirectly influences workflow through testing requirements (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines testing conventions (coding_style) and indirectly influences workflow through testing requirements (workflow_process).\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for testing, including mocking and naming conventions, and outlines workflow processes for testing, such as setup and teardown methods.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for testing, including mocking and naming conventions, and outlines workflow processes for testing, such as setup and teardown methods.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "E2E Tests",
+      "level": 3,
+      "char_count": 878,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "E2E Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes the setup and execution of end-to-end tests, including the use of specific markers, fixtures, and APIs, which relates to workflow process, and also touches on the architecture of the system by mentioning the interaction between different components and tools.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes the setup and execution of end-to-end tests, including the use of specific markers, fixtures, and APIs, which relates to workflow process, and also touches on the architecture of the system by mentioning the interaction between different components and tools.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "E2E Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes the setup, markers, fixtures, and specific configurations for running End-to-End (E2E) tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes the setup, markers, fixtures, and specific configurations for running End-to-End (E2E) tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "E2E Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the process for running end-to-end tests and the architecture of the test setup, including fixtures and dependencies.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the process for running end-to-end tests and the architecture of the test setup, including fixtures and dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration",
+      "level": 3,
+      "char_count": 20,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section discusses the configuration file, which is a key part of the project's directory layout and organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section discusses the configuration file, which is a key part of the project's directory layout and organization.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on the `.env` file, which is a key file in the project's setup, indicating its placement within the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on the `.env` file, which is a key file in the project's setup, indicating its placement within the project structure.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a key file in the project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a key file in the project directory layout.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Outline API (optional \u2014 if unset, every request must include x-outline-api-key header)",
+      "level": 1,
+      "char_count": 26,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional \u2014 if unset, every request must include x-outline-api-key header)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes an optional API key setting, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes an optional API key setting, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional \u2014 if unset, every request must include x-outline-api-key header)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section specifies an environment variable setting, which relates to how the project is configured and structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section specifies an environment variable setting, which relates to how the project is configured and structured.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional \u2014 if unset, every request must include x-outline-api-key header)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a coding style guideline for setting an environment variable.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a coding style guideline for setting an environment variable.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Outline API (optional)",
+      "level": 1,
+      "char_count": 177,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a project configuration setting for an external API, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a project configuration setting for an external API, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section specifies configuration for an external API integration, which relates to how the project is set up and where certain settings live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section specifies configuration for an external API integration, which relates to how the project is set up and where certain settings live.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Outline API (optional)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section sets up API URL and SSL verification, which is related to project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section sets up API URL and SSL verification, which is related to project structure and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Connection pooling (optional)",
+      "level": 1,
+      "char_count": 357,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Connection pooling (optional)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes connection pooling settings, which pertains to the design and configuration of system components, falling under architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes connection pooling settings, which pertains to the design and configuration of system components, falling under architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Connection pooling (optional)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section configures connection pooling parameters, which relates to system design and performance, falling under architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section configures connection pooling parameters, which relates to system design and performance, falling under architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Connection pooling (optional)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides configuration details for connection pooling, which is a coding style practice and also relates to the architecture of the system.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides configuration details for connection pooling, which is a coding style practice and also relates to the architecture of the system.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Feature flags (optional)",
+      "level": 1,
+      "char_count": 317,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature flags (optional)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines optional feature flags that control AI tool behavior and access, which falls under agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section outlines optional feature flags that control AI tool behavior and access, which falls under agent-specific directives.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature flags (optional)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes feature flags that control system behavior and tool integration, which relates to architectural design choices.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes feature flags that control system behavior and tool integration, which relates to architectural design choices.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Feature flags (optional)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "This section provides configuration options for the AI agent, which can be considered as coding style guidelines, and also includes agent-specific rules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"This section provides configuration options for the AI agent, which can be considered as coding style guidelines, and also includes agent-specific rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "MCP server (optional)",
+      "level": 1,
+      "char_count": 898,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP server (optional)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the configuration of an MCP server, including transport, host, and port, as well as access control notes, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the configuration of an MCP server, including transport, host, and port, as well as access control notes, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP server (optional)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section defines server configuration (architecture) and access control rules impacting system behavior (workflow_process).",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section defines server configuration (architecture) and access control rules impacting system behavior (workflow_process).\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "MCP server (optional)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "The section contains configuration variables (coding_style), server details (project_structure), and access control notes related to AI-specific directives (agent_rules).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"agent_rules\"], \"reasoning\": \"The section contains configuration variables (coding_style), server details (project_structure), and access control notes related to AI-specific directives (agent_rules).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Critical Requirements",
+      "level": 3,
+      "char_count": 365,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Critical Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines specific coding conventions and guidelines for tool functions, error handling, and client method calls, which pertain to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines specific coding conventions and guidelines for tool functions, error handling, and client method calls, which pertain to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Critical Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific coding ",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific coding conventions (coding_style) and design decisions influencing the system's structure and behavior (architecture).\""
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Critical Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines and workflow process rules for tool functions and client method calls.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines and workflow process rules for tool functions and client method calls.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pre-Commit Checks",
+      "level": 3,
+      "char_count": 89,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Pre-Commit Checks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section focuses on testing requirements and CI/CD guidelines before committing code.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section focuses on testing requirements and CI/CD guidelines before committing code.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Pre-Commit Checks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on a specific step in the development workflow (pre-commit checks) that ensures code quality before committing.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on a specific step in the development workflow (pre-commit checks) that ensures code quality before committing.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Pre-Commit Checks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on running CI checks locally before committing, which is a workflow process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions on running CI checks locally before committing, which is a workflow process guideline.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Format code",
+      "level": 1,
+      "char_count": 20,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Format code",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section is about formatting code, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section is about formatting code, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Format code",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a command for code formatting, which directly relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a command for code formatting, which directly relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Format code",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command for formatting code, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command for formatting code, which falls under coding style guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check formatting",
+      "level": 1,
+      "char_count": 28,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Check formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is classified as coding_style because it mentions running a formatting check using a tool called ruff.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is classified as coding_style because it mentions running a formatting check using a tool called ruff.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Check formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a command to check code formatting, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a command to check code formatting, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Check formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a formatting command, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a formatting command, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests",
+      "level": 1,
+      "char_count": 20,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command to run unit tests, which falls under testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command to run unit tests, which falls under testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command to run unit tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command to run unit tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run integration tests",
+      "level": 1,
+      "char_count": 27,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run integration tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run integration tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to the workflow and testing requirements within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to the workflow and testing requirements within the project.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run integration tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running integration tests, which falls under workflow_process category.",
+          "raw_response": "{\n  \"categories\": [\"workflow_process\"],\n  \"reasoning\": \"The section describes a command for running integration tests, which falls under workflow_process category.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Run E2E tests (requires Docker)",
+      "level": 1,
+      "char_count": 23,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run E2E tests (requires Docker)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, which is a key aspect of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, which is a key aspect of the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run E2E tests (requires Docker)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Run E2E tests (requires Docker)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running end-to-end tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running end-to-end tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Verifying CI on GitHub",
+      "level": 3,
+      "char_count": 195,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Verifying CI on GitHub",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses verifying Continuous Integration checks on GitHub, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses verifying Continuous Integration checks on GitHub, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Verifying CI on GitHub",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on verifying CI/CD pipeline checks on GitHub, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on verifying CI/CD pipeline checks on GitHub, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Verifying CI on GitHub",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a workflow process for verifying CI on GitHub, including the use of GitHub Actions checks and the GitHub API to check status.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a workflow process for verifying CI on GitHub, including the use of GitHub Actions checks and the GitHub API to check status.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Get status of all check runs for a commit",
+      "level": 1,
+      "char_count": 805,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Get status of all check runs for a commit",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a workflow process for checking the status of commit checks and handling potential failures, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a workflow process for checking the status of commit checks and handling potential failures, which aligns with the workflow_process category.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Get status of all check runs for a commit",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a workflow process for checking commit status and handling test results, including commands and expected outcomes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a workflow process for checking commit status and handling test results, including commands and expected outcomes.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Get status of all check runs for a commit",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to check the status of all check runs for a commit, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to check the status of all check runs for a commit, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "List failed test annotations for a check run",
+      "level": 1,
+      "char_count": 358,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "List failed test annotations for a check run",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a workflow process for retrieving and handling test annotations for a check run using GitHub API and command-line tools.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a workflow process for retrieving and handling test annotations for a check run using GitHub API and command-line tools.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "List failed test annotations for a check run",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow task (listing failed test annotations) using GitHub API and scripting, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow task (listing failed test annotations) using GitHub API and scripting, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "List failed test annotations for a check run",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a process for retrieving and displaying failed test annotations, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a process for retrieving and displaying failed test annotations, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Patterns",
+      "level": 2,
+      "char_count": 417,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes specific coding patterns and design principles, such as pagination and tree formatting, which relate to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes specific coding patterns and design principles, such as pagination and tree formatting, which relate to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines design patterns (architecture) and specific implementation guidelines (coding_style).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design patterns (architecture) and specific implementation guidelines (coding_style).\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Common Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for specific tasks and describes architectural patterns for tool annotations and conditional registration.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for specific tasks and describes architectural patterns for tool annotations and conditional registration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Version Number Rules",
+      "level": 3,
+      "char_count": 209,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Version Number Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines rules for version numbering based on commit types, which is a workflow process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines rules for version numbering based on commit types, which is a workflow process guideline.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Version Number Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Describes rules for version numbering based on commit types, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Describes rules for version numbering based on commit types, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Version Number Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes version number rules based on commit types, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes version number rules based on commit types, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Bump Script",
+      "level": 3,
+      "char_count": 409,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Bump Script",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a script used for updating version files across the project, which relates to workflow processes, and also mentions specific files and their locations, touching on project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a script used for updating version files across the project, which relates to workflow processes, and also mentions specific files and their locations, touching on project structure.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Bump Script",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific script and its usage for version bumping, which relates to the workflow process of managing versions and updates.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific script and its usage for version bumping, which relates to the workflow process of managing versions and updates.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Bump Script",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for versioning and its validation rules, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes a specific command for versioning and its validation rules, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Release Workflow",
+      "level": 3,
+      "char_count": 294,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Release Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the step-by-step process for releasing a new version, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the step-by-step process for releasing a new version, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Release Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for releasing a version, which directly relates to workflow and CI/CD practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for releasing a version, which directly relates to workflow and CI/CD practices.\"}"
+        },
+        {
+          "repo": "Vortiago/mcp-outline",
+          "section_heading": "Release Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a step-by-step process for releasing a new version, including commit, PR, and tagging guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a step-by-step process for releasing a new version, including commit, PR, and tagging guidelines.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.325,
+    "project_structure": 0.3,
+    "workflow_process": 0.35,
+    "architecture": 0.425,
+    "evolution_context": 0.0,
+    "agent_rules": 0.025
+  },
+  "category_char_fraction": {
+    "coding_style": 0.43254942499030885,
+    "project_structure": 0.30960072360770124,
+    "workflow_process": 0.43145109187233494,
+    "architecture": 0.6467243829952191,
+    "evolution_context": 0.0,
+    "agent_rules": 0.020480682258689754
+  }
+}

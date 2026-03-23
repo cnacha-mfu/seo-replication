@@ -1,0 +1,120 @@
+{
+  "repo": "microsoftgraph__msgraph-sdk-dotnet",
+  "full_name": "microsoftgraph/msgraph-sdk-dotnet",
+  "n_sections": 1,
+  "n_chars": 379,
+  "sections": [
+    {
+      "heading": "(no heading)",
+      "level": 1,
+      "char_count": 379,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "microsoftgraph/msgraph-sdk-dotnet",
+          "section_heading": "(no heading)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses the purpose of the repository, code generation, and reviewer responsibilities, which relates to workflow processes and evolution context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses the purpose of the repository, code generation, and reviewer responsibilities, which relates to workflow processes and evolution context.\"}"
+        },
+        {
+          "repo": "microsoftgraph/msgraph-sdk-dotnet",
+          "section_heading": "(no heading)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines a specific reviewer task (workflow_process) with a directive for the copilot reviewer (agent_rules), both being dominant.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines a specific reviewer task (workflow_process) with a directive for the copilot reviewer (agent_rules), both being dominant.\"}"
+        },
+        {
+          "repo": "microsoftgraph/msgraph-sdk-dotnet",
+          "section_heading": "(no heading)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the purpose of the repository and the requirement for commenting on code changes, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the purpose of the repository and the requirement for commenting on code changes, which relates to project structure and workflow process.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "(no heading)",
+      "level": 1,
+      "char_count": 379,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "microsoftgraph/msgraph-sdk-dotnet",
+          "section_heading": "(no heading)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses the purpose of the repository, code generation, and reviewer responsibilities, which relates to workflow processes and evolution context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses the purpose of the repository, code generation, and reviewer responsibilities, which relates to workflow processes and evolution context.\"}"
+        },
+        {
+          "repo": "microsoftgraph/msgraph-sdk-dotnet",
+          "section_heading": "(no heading)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines a specific reviewer task (workflow_process) with a directive for the copilot reviewer (agent_rules), both being dominant.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines a specific reviewer task (workflow_process) with a directive for the copilot reviewer (agent_rules), both being dominant.\"}"
+        },
+        {
+          "repo": "microsoftgraph/msgraph-sdk-dotnet",
+          "section_heading": "(no heading)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the purpose of the repository and the requirement for commenting on code changes, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the purpose of the repository and the requirement for commenting on code changes, which relates to project structure and workflow process.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": false,
+    "project_structure": false,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.0,
+    "workflow_process": 1.0,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.0,
+    "workflow_process": 1.0,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

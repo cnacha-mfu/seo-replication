@@ -1,0 +1,946 @@
+{
+  "repo": "managedcode__Storage",
+  "full_name": "managedcode/Storage",
+  "n_sections": 11,
+  "n_chars": 3360,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as guidance for Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as guidance for Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Basic Commands",
+      "level": 3,
+      "char_count": 282,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Basic Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines basic commands for building, restoring, and testing the solution, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines basic commands for building, restoring, and testing the solution, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Basic Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building, restoring, testing, and measuring coverage, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building, restoring, testing, and measuring coverage, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Basic Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides coding style in terms of commands and also describes the workflow process for building, restoring, and testing the solution.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides coding style in terms of commands and also describes the workflow process for building, restoring, and testing the solution.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Specific Projects",
+      "level": 3,
+      "char_count": 180,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing Specific Projects",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines for testing specific projects, which falls under workflow processes such as testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides guidelines for testing specific projects, which falls under workflow processes such as testing requirements.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing Specific Projects",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides specific commands for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing Specific Projects",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for running tests, which falls under coding_style, and also outlines the process for running tests, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific commands for running tests, which falls under coding_style, and also outlines the process for running tests, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 3,
+      "char_count": 96,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files implicitly by mentioning the solution and its target, and also touches on module roles and dependencies by referencing a universal interface for multiple cloud storage providers.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files implicitly by mentioning the solution and its target, and also touches on module roles and dependencies by referencing a universal interface for multiple cloud storage providers.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the project's directory structure and key files, which are core aspects of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the project's directory structure and key files, which are core aspects of project structure.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall structure of the project and its targeting of multiple cloud storage providers, which implies a specific architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall structure of the project and its targeting of multiple cloud storage providers, which implies a specific architectural design.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Architecture",
+      "level": 3,
+      "char_count": 887,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Core Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the overall design and structure of the solution, including module roles and dependencies, which aligns with the architecture category, and also mentions specific directories and key files, relating to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the overall design and structure of the solution, including module roles and dependencies, which aligns with the architecture category, and also mentions specific directories and key files, relating to project structure.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Core Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the high-level design and components of the system, including patterns (provider pattern), module roles, and dependencies.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the high-level design and components of the system, including patterns (provider pattern), module roles, and dependencies.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Core Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall design pattern and module roles, including the core library, storage providers, and integrations.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the overall design pattern and module roles, including the core library, storage providers, and integrations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Interfaces",
+      "level": 3,
+      "char_count": 277,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Key Interfaces",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key interfaces, which are key components of the system's architecture, defining how different parts interact with each other.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key interfaces, which are key components of the system's architecture, defining how different parts interact with each other.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Key Interfaces",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines key interfaces which outline module roles and dependencies, characteristic of architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines key interfaces which outline module roles and dependencies, characteristic of architectural design.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Key Interfaces",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the roles and boundaries of key interfaces, which is a component of software architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the roles and boundaries of key interfaces, which is a component of software architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Connection Modes",
+      "level": 3,
+      "char_count": 206,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Connection Modes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes design patterns and component boundaries related to connection modes in the library.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes design patterns and component boundaries related to connection modes in the library.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Connection Modes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes design choices for module interfaces and dependencies, impacting system architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes design choices for module interfaces and dependencies, impacting system architecture.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Connection Modes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the design pattern of the library's connection modes, which is an architectural concern.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the design pattern of the library's connection modes, which is an architectural concern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Provider Factory Pattern",
+      "level": 3,
+      "char_count": 192,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Provider Factory Pattern",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a design pattern and module roles, indicating architecture, and also touches on key files and module descriptions, relating to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes a design pattern and module roles, indicating architecture, and also touches on key files and module descriptions, relating to project structure.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Provider Factory Pattern",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes design patterns and interface roles for managing storage providers, which pertains to system architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes design patterns and interface roles for managing storage providers, which pertains to system architecture.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Provider Factory Pattern",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes design patterns and component boundaries, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes design patterns and component boundaries, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 228,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes testing frameworks and tools used, as well as the project structure for test projects and fakes, relating to both workflow process and project structure categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes testing frameworks and tools used, as well as the project structure for test projects and fakes, relating to both workflow process and project structure categories.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines testing tools and structures, which relate to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily outlines testing tools and structures, which relate to the workflow and development process.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style (xUnit with Shouldly), project structure (test projects pattern and test fakes location), and workflow process (use of Testcontainers for integration testing).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes coding style (xUnit with Shouldly), project structure (test projects pattern and test fakes location), and workflow process (use of Testcontainers for integration testing).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Patterns",
+      "level": 2,
+      "char_count": 263,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Development Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes development patterns, including inheritance, interface implementation, and dependency injection, which relate to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section describes development patterns, including inheritance, interface implementation, and dependency injection, which relate to both architecture and coding style.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Development Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines design patterns (architecture) and specific coding practices (coding_style) for the project.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design patterns (architecture) and specific coding practices (coding_style) for the project.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Development Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes coding style conventions such as async/await usage and dependency injection, as well as architectural patterns like inheritance and result pattern.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes coding style conventions such as async/await usage and dependency injection, as well as architectural patterns like inheritance and result pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Operations",
+      "level": 2,
+      "char_count": 335,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Common Operations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes common operations of a storage module, indicating its role and functionality within the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes common operations of a storage module, indicating its role and functionality within the system's architecture.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Common Operations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates specific, high-level interactions with a module (storage), implying its role and interface within the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section demonstrates specific, high-level interactions with a module (storage), implying its role and interface within the system's architecture.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Common Operations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides code examples for common operations, which falls under coding_style, and also describes the functionality of the storage module, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides code examples for common operations, which falls under coding_style, and also describes the functionality of the storage module, which relates to project_structure.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as guidance for Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as guidance for Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Basic Commands",
+      "level": 3,
+      "char_count": 282,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Basic Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines basic commands for building, restoring, and testing the solution, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines basic commands for building, restoring, and testing the solution, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Basic Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building, restoring, testing, and measuring coverage, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building, restoring, testing, and measuring coverage, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Basic Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides coding style in terms of commands and also describes the workflow process for building, restoring, and testing the solution.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides coding style in terms of commands and also describes the workflow process for building, restoring, and testing the solution.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Specific Projects",
+      "level": 3,
+      "char_count": 180,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing Specific Projects",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines for testing specific projects, which falls under workflow processes such as testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides guidelines for testing specific projects, which falls under workflow processes such as testing requirements.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing Specific Projects",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides specific commands for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing Specific Projects",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for running tests, which falls under coding_style, and also outlines the process for running tests, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific commands for running tests, which falls under coding_style, and also outlines the process for running tests, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 3,
+      "char_count": 96,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files implicitly by mentioning the solution and its target, and also touches on module roles and dependencies by referencing a universal interface for multiple cloud storage providers.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files implicitly by mentioning the solution and its target, and also touches on module roles and dependencies by referencing a universal interface for multiple cloud storage providers.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the project's directory structure and key files, which are core aspects of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the project's directory structure and key files, which are core aspects of project structure.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall structure of the project and its targeting of multiple cloud storage providers, which implies a specific architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall structure of the project and its targeting of multiple cloud storage providers, which implies a specific architectural design.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Architecture",
+      "level": 3,
+      "char_count": 887,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Core Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the overall design and structure of the solution, including module roles and dependencies, which aligns with the architecture category, and also mentions specific directories and key files, relating to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the overall design and structure of the solution, including module roles and dependencies, which aligns with the architecture category, and also mentions specific directories and key files, relating to project structure.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Core Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the high-level design and components of the system, including patterns (provider pattern), module roles, and dependencies.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the high-level design and components of the system, including patterns (provider pattern), module roles, and dependencies.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Core Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall design pattern and module roles, including the core library, storage providers, and integrations.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the overall design pattern and module roles, including the core library, storage providers, and integrations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Interfaces",
+      "level": 3,
+      "char_count": 277,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Key Interfaces",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key interfaces, which are key components of the system's architecture, defining how different parts interact with each other.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key interfaces, which are key components of the system's architecture, defining how different parts interact with each other.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Key Interfaces",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines key interfaces which outline module roles and dependencies, characteristic of architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines key interfaces which outline module roles and dependencies, characteristic of architectural design.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Key Interfaces",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the roles and boundaries of key interfaces, which is a component of software architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the roles and boundaries of key interfaces, which is a component of software architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Connection Modes",
+      "level": 3,
+      "char_count": 206,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Connection Modes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes design patterns and component boundaries related to connection modes in the library.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes design patterns and component boundaries related to connection modes in the library.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Connection Modes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes design choices for module interfaces and dependencies, impacting system architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes design choices for module interfaces and dependencies, impacting system architecture.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Connection Modes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the design pattern of the library's connection modes, which is an architectural concern.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the design pattern of the library's connection modes, which is an architectural concern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Provider Factory Pattern",
+      "level": 3,
+      "char_count": 192,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Provider Factory Pattern",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a design pattern and module roles, indicating architecture, and also touches on key files and module descriptions, relating to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes a design pattern and module roles, indicating architecture, and also touches on key files and module descriptions, relating to project structure.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Provider Factory Pattern",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes design patterns and interface roles for managing storage providers, which pertains to system architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes design patterns and interface roles for managing storage providers, which pertains to system architecture.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Provider Factory Pattern",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes design patterns and component boundaries, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes design patterns and component boundaries, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 228,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes testing frameworks and tools used, as well as the project structure for test projects and fakes, relating to both workflow process and project structure categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes testing frameworks and tools used, as well as the project structure for test projects and fakes, relating to both workflow process and project structure categories.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines testing tools and structures, which relate to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily outlines testing tools and structures, which relate to the workflow and development process.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style (xUnit with Shouldly), project structure (test projects pattern and test fakes location), and workflow process (use of Testcontainers for integration testing).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes coding style (xUnit with Shouldly), project structure (test projects pattern and test fakes location), and workflow process (use of Testcontainers for integration testing).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Patterns",
+      "level": 2,
+      "char_count": 263,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Development Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes development patterns, including inheritance, interface implementation, and dependency injection, which relate to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section describes development patterns, including inheritance, interface implementation, and dependency injection, which relate to both architecture and coding style.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Development Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines design patterns (architecture) and specific coding practices (coding_style) for the project.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design patterns (architecture) and specific coding practices (coding_style) for the project.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Development Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes coding style conventions such as async/await usage and dependency injection, as well as architectural patterns like inheritance and result pattern.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes coding style conventions such as async/await usage and dependency injection, as well as architectural patterns like inheritance and result pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Operations",
+      "level": 2,
+      "char_count": 335,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Common Operations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes common operations of a storage module, indicating its role and functionality within the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes common operations of a storage module, indicating its role and functionality within the system's architecture.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Common Operations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates specific, high-level interactions with a module (storage), implying its role and interface within the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section demonstrates specific, high-level interactions with a module (storage), implying its role and interface within the system's architecture.\"}"
+        },
+        {
+          "repo": "managedcode/Storage",
+          "section_heading": "Common Operations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides code examples for common operations, which falls under coding_style, and also describes the functionality of the storage module, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides code examples for common operations, which falls under coding_style, and also describes the functionality of the storage module, which relates to project_structure.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.09090909090909091,
+    "project_structure": 0.18181818181818182,
+    "workflow_process": 0.2727272727272727,
+    "architecture": 0.6363636363636364,
+    "evolution_context": 0.0,
+    "agent_rules": 0.09090909090909091
+  },
+  "category_char_fraction": {
+    "coding_style": 0.08628608923884515,
+    "project_structure": 0.1062992125984252,
+    "workflow_process": 0.2263779527559055,
+    "architecture": 0.7401574803149606,
+    "evolution_context": 0.0,
+    "agent_rules": 0.03346456692913386
+  }
+}

@@ -1,0 +1,1626 @@
+{
+  "repo": "scopewu__qrcode.vue",
+  "full_name": "scopewu/qrcode.vue",
+  "n_sections": 19,
+  "n_chars": 5385,
+  "sections": [
+    {
+      "heading": "Agent Guidelines for qrcode.vue",
+      "level": 1,
+      "char_count": 173,
+      "voted_categories": [
+        "agent_rules",
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Agent Guidelines for qrcode.vue",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides guidelines for AI agents, including code style conventions and project-specific patterns, which relate to agent rules, coding style, and project structure.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides guidelines for AI agents, including code style conventions and project-specific patterns, which relate to agent rules, coding style, and project structure.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Agent Guidelines for qrcode.vue",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "Mentions AI agent guidelines, code style conventions, and build/test commands, aligning with agent rules, coding style, and workflow process respectively.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"Mentions AI agent guidelines, code style conventions, and build/test commands, aligning with agent rules, coding style, and workflow process respectively.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Agent Guidelines for qrcode.vue",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "The section discusses code style conventions, project-specific patterns, and provides guidelines for AI agents.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"agent_rules\"], \"reasoning\": \"The section discusses code style conventions, project-specific patterns, and provides guidelines for AI agents.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Development Commands",
+      "level": 2,
+      "char_count": 302,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build and Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the development and build commands, which falls under workflow processes such as testing and building.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the development and build commands, which falls under workflow processes such as testing and building.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build and Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and their purposes related to development workflow (dev, build, test), which directly pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and their purposes related to development workflow (dev, build, test), which directly pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build and Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes npm script commands for development and build processes, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes npm script commands for development and build processes, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running a Single Test",
+      "level": 3,
+      "char_count": 37,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Running a Single Test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing procedure, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing procedure, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Running a Single Test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for testing, aligning with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for testing, aligning with workflow processes.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Running a Single Test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for running a single test using the rstest CLI.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for running a single test using the rstest CLI.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run a specific test file",
+      "level": 1,
+      "char_count": 29,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run a specific test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing command, which falls under workflow processes related to testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing command, which falls under workflow processes related to testing requirements.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run a specific test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for executing a test file, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for executing a test file, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run a specific test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running a specific test file, which is related to testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running a specific test file, which is related to testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests matching a pattern",
+      "level": 1,
+      "char_count": 46,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run tests matching a pattern",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing process using a specific command and pattern, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing process using a specific command and pattern, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run tests matching a pattern",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing workflow command, aligning with testing requirements under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing workflow command, aligning with testing requirements under workflow processes.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run tests matching a pattern",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type Checking",
+      "level": 3,
+      "char_count": 138,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Type Checking",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses type checking, which relates to coding style, and also mentions the build process, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses type checking, which relates to coding style, and also mentions the build process, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Type Checking",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Describes a specific step (type checking) in the build process, indicating when and how it occurs.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Describes a specific step (type checking) in the build process, indicating when and how it occurs.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Type Checking",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the use of TypeScript with strict mode, a coding style choice, and also mentions the type checking process during Rollup build, a workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses the use of TypeScript with strict mode, a coding style choice, and also mentions the type checking process during Rollup build, a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Indentation and Formatting",
+      "level": 3,
+      "char_count": 181,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Indentation and Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and formatting rules, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and formatting rules, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Indentation and Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding conventions (indentation, line endings, trailing whitespace, final newline) which are directly related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding conventions (indentation, line endings, trailing whitespace, final newline) which are directly related to coding style.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Indentation and Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions such as indentation, line endings, and trailing whitespace.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions such as indentation, line endings, and trailing whitespace.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "TypeScript Conventions",
+      "level": 3,
+      "char_count": 428,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "TypeScript Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific guidelines for coding practices in TypeScript, such as strict mode, type annotations, and import style, which are all related to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific guidelines for coding practices in TypeScript, such as strict mode, type annotations, and import style, which are all related to coding style conventions.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "TypeScript Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions related to TypeScript usage, such as strict mode, type annotations, and import styles, which directly pertain to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions related to TypeScript usage, such as strict mode, type annotations, and import styles, which directly pertain to coding style guidelines.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "TypeScript Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for TypeScript coding style, including strict mode, type annotations, interfaces vs types, and import style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for TypeScript coding style, including strict mode, type annotations, interfaces vs types, and import style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming Conventions",
+      "level": 3,
+      "char_count": 274,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions for components, variables, functions, and constants, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions for components, variables, functions, and constants, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for components, variables, functions, constants, and private fields, which directly relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for components, variables, functions, constants, and private fields, which directly relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively discusses naming conventions for components, variables, functions, constants, and private fields.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively discusses naming conventions for components, variables, functions, constants, and private fields.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Vue Component Patterns",
+      "level": 3,
+      "char_count": 506,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Vue Component Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes specific coding patterns and best practices for Vue components, which relates to coding style, and also touches on component design and structure, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes specific coding patterns and best practices for Vue components, which relates to coding style, and also touches on component design and structure, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Vue Component Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific coding practices (coding_style) for Vue components and describes architectural design choices for the components (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific coding practices (coding_style) for Vue components and describes architectural design choices for the components (architecture).\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Vue Component Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions for Vue components, such as using Composition API, PropType annotations, and reactive state management, while also touching on architectural aspects like the use of lifecycle hooks and render functions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily discusses coding style conventions for Vue components, such as using Composition API, PropType annotations, and reactive state management, while also touching on architectural aspects like the use of lifecycle hooks and render functions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling",
+      "level": 3,
+      "char_count": 194,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Error Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses error handling mechanisms, including specific coding practices and architectural considerations for handling invalid arguments and unsupported browser features.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses error handling mechanisms, including specific coding practices and architectural considerations for handling invalid arguments and unsupported browser features.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Error Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "Error handling guidelines reflect both coding conventions (coding_style) and architectural design decisions for robustness (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"Error handling guidelines reflect both coding conventions (coding_style) and architectural design decisions for robustness (architecture).\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Error Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for error handling and workflow process rules for handling invalid arguments and unsupported browser features.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for error handling and workflow process rules for handling invalid arguments and unsupported browser features.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Imports Order",
+      "level": 3,
+      "char_count": 83,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Imports Order",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on the ordering of imports, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on the ordering of imports, which is a coding style convention.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Imports Order",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a specific rule for organizing import statements, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines a specific rule for organizing import statements, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Imports Order",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses the order of imports, which is a coding style guideline, and also implies the project structure by distinguishing between Vue framework, third-party libraries, and local modules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses the order of imports, which is a coding style guideline, and also implies the project structure by distinguishing between Vue framework, third-party libraries, and local modules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Semicolons",
+      "level": 3,
+      "char_count": 193,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Semicolons",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the use of semicolons in the code, which falls under naming conventions and code style tools.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses the use of semicolons in the code, which falls under naming conventions and code style tools.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Semicolons",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses semicolon usage, a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses semicolon usage, a coding style convention.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Semicolons",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the use of semicolons, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the use of semicolons, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 613,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing requirements and guidelines, which falls under workflow_process, and also touches on coding style with specific testing patterns and libraries.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing requirements and guidelines, which falls under workflow_process, and also touches on coding style with specific testing patterns and libraries.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing requirements and guidelines, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing requirements and guidelines, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style for writing tests, project structure for test files, and workflow process for testing requirements.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes coding style for writing tests, project structure for test files, and workflow process for testing requirements.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build Configuration",
+      "level": 2,
+      "char_count": 300,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the build configuration and tools used in the project, which relates to project structure, and also mentions specific coding style and linting choices.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the build configuration and tools used in the project, which relates to project structure, and also mentions specific coding style and linting choices.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses configuration files (project_structure) and coding conventions enforced by TypeScript and editorconfig (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses configuration files (project_structure) and coding conventions enforced by TypeScript and editorconfig (coding_style).\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding style tools like TypeScript and editorconfig, and project structure details like build configurations and their respective files.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses coding style tools like TypeScript and editorconfig, and project structure details like build configurations and their respective files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 473,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the primary focus of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the primary focus of the project_structure category.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Notes for Agents",
+      "level": 2,
+      "char_count": 366,
+      "voted_categories": [
+        "architecture",
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Notes for Agents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "The section provides directives for agents and describes the component's architecture and dependencies.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"The section provides directives for agents and describes the component's architecture and dependencies.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Notes for Agents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses code-specific guidelines (coding_style), references a specific library/file within the project (project_structure), and implies development practices (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses code-specific guidelines (coding_style), references a specific library/file within the project (project_structure), and implies development practices (workflow_process).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **coding_style**: \"maintain the existing prop definition pattern with appropriate validators\" suggests a style or pattern to follow in coding.\n- **project_structure**: Mention of a specific file (`qrcodegen.ts`) and its handling implies information about the project's structure or key components.\n- **workflow_process**: The directive to \"avoid modifications unless absolutely necessary\" for a third-party library hints at guidelines for the development workflow."
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Notes for Agents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style (prop definition pattern), project structure (third-party library and rendering features), and architecture (Vue 3 dependency and component capabilities).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section discusses coding style (prop definition pattern), project structure (third-party library and rendering features), and architecture (Vue 3 dependency and component capabilities).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit Guidelines",
+      "level": 2,
+      "char_count": 167,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Commit Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines rules for commit format and messaging, which is a key aspect of workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines rules for commit format and messaging, which is a key aspect of workflow process.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Commit Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines rules for commit formatting and practices, which directly relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines rules for commit formatting and practices, which directly relates to workflow processes.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Commit Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for committing code, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for committing code, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Resources",
+      "level": 2,
+      "char_count": 364,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key resources and libraries used in the project, which relates to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key resources and libraries used in the project, which relates to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key external resources and libraries relevant to the project, which relates to how the project is structured in terms of dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key external resources and libraries relevant to the project, which relates to how the project is structured in terms of dependencies.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists external resources used in the project, contributing to its structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists external resources used in the project, contributing to its structure.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Agent Guidelines for qrcode.vue",
+      "level": 1,
+      "char_count": 173,
+      "voted_categories": [
+        "agent_rules",
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Agent Guidelines for qrcode.vue",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides guidelines for AI agents, including code style conventions and project-specific patterns, which relate to agent rules, coding style, and project structure.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides guidelines for AI agents, including code style conventions and project-specific patterns, which relate to agent rules, coding style, and project structure.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Agent Guidelines for qrcode.vue",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "Mentions AI agent guidelines, code style conventions, and build/test commands, aligning with agent rules, coding style, and workflow process respectively.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"Mentions AI agent guidelines, code style conventions, and build/test commands, aligning with agent rules, coding style, and workflow process respectively.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Agent Guidelines for qrcode.vue",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "The section discusses code style conventions, project-specific patterns, and provides guidelines for AI agents.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"agent_rules\"], \"reasoning\": \"The section discusses code style conventions, project-specific patterns, and provides guidelines for AI agents.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Development Commands",
+      "level": 2,
+      "char_count": 302,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build and Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the development and build commands, which falls under workflow processes such as testing and building.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the development and build commands, which falls under workflow processes such as testing and building.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build and Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and their purposes related to development workflow (dev, build, test), which directly pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and their purposes related to development workflow (dev, build, test), which directly pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build and Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes npm script commands for development and build processes, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes npm script commands for development and build processes, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running a Single Test",
+      "level": 3,
+      "char_count": 37,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Running a Single Test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing procedure, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing procedure, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Running a Single Test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for testing, aligning with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for testing, aligning with workflow processes.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Running a Single Test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for running a single test using the rstest CLI.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for running a single test using the rstest CLI.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run a specific test file",
+      "level": 1,
+      "char_count": 29,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run a specific test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing command, which falls under workflow processes related to testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing command, which falls under workflow processes related to testing requirements.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run a specific test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for executing a test file, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for executing a test file, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run a specific test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running a specific test file, which is related to testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running a specific test file, which is related to testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests matching a pattern",
+      "level": 1,
+      "char_count": 46,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run tests matching a pattern",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing process using a specific command and pattern, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing process using a specific command and pattern, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run tests matching a pattern",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing workflow command, aligning with testing requirements under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing workflow command, aligning with testing requirements under workflow processes.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Run tests matching a pattern",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type Checking",
+      "level": 3,
+      "char_count": 138,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Type Checking",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses type checking, which relates to coding style, and also mentions the build process, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses type checking, which relates to coding style, and also mentions the build process, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Type Checking",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Describes a specific step (type checking) in the build process, indicating when and how it occurs.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Describes a specific step (type checking) in the build process, indicating when and how it occurs.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Type Checking",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the use of TypeScript with strict mode, a coding style choice, and also mentions the type checking process during Rollup build, a workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses the use of TypeScript with strict mode, a coding style choice, and also mentions the type checking process during Rollup build, a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Indentation and Formatting",
+      "level": 3,
+      "char_count": 181,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Indentation and Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and formatting rules, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and formatting rules, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Indentation and Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding conventions (indentation, line endings, trailing whitespace, final newline) which are directly related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding conventions (indentation, line endings, trailing whitespace, final newline) which are directly related to coding style.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Indentation and Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions such as indentation, line endings, and trailing whitespace.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions such as indentation, line endings, and trailing whitespace.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "TypeScript Conventions",
+      "level": 3,
+      "char_count": 428,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "TypeScript Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific guidelines for coding practices in TypeScript, such as strict mode, type annotations, and import style, which are all related to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific guidelines for coding practices in TypeScript, such as strict mode, type annotations, and import style, which are all related to coding style conventions.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "TypeScript Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions related to TypeScript usage, such as strict mode, type annotations, and import styles, which directly pertain to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions related to TypeScript usage, such as strict mode, type annotations, and import styles, which directly pertain to coding style guidelines.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "TypeScript Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for TypeScript coding style, including strict mode, type annotations, interfaces vs types, and import style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for TypeScript coding style, including strict mode, type annotations, interfaces vs types, and import style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming Conventions",
+      "level": 3,
+      "char_count": 274,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions for components, variables, functions, and constants, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions for components, variables, functions, and constants, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for components, variables, functions, constants, and private fields, which directly relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for components, variables, functions, constants, and private fields, which directly relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively discusses naming conventions for components, variables, functions, constants, and private fields.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively discusses naming conventions for components, variables, functions, constants, and private fields.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Vue Component Patterns",
+      "level": 3,
+      "char_count": 506,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Vue Component Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes specific coding patterns and best practices for Vue components, which relates to coding style, and also touches on component design and structure, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes specific coding patterns and best practices for Vue components, which relates to coding style, and also touches on component design and structure, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Vue Component Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific coding practices (coding_style) for Vue components and describes architectural design choices for the components (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific coding practices (coding_style) for Vue components and describes architectural design choices for the components (architecture).\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Vue Component Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions for Vue components, such as using Composition API, PropType annotations, and reactive state management, while also touching on architectural aspects like the use of lifecycle hooks and render functions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily discusses coding style conventions for Vue components, such as using Composition API, PropType annotations, and reactive state management, while also touching on architectural aspects like the use of lifecycle hooks and render functions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling",
+      "level": 3,
+      "char_count": 194,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Error Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses error handling mechanisms, including specific coding practices and architectural considerations for handling invalid arguments and unsupported browser features.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses error handling mechanisms, including specific coding practices and architectural considerations for handling invalid arguments and unsupported browser features.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Error Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "Error handling guidelines reflect both coding conventions (coding_style) and architectural design decisions for robustness (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"Error handling guidelines reflect both coding conventions (coding_style) and architectural design decisions for robustness (architecture).\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Error Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for error handling and workflow process rules for handling invalid arguments and unsupported browser features.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for error handling and workflow process rules for handling invalid arguments and unsupported browser features.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Imports Order",
+      "level": 3,
+      "char_count": 83,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Imports Order",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on the ordering of imports, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on the ordering of imports, which is a coding style convention.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Imports Order",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a specific rule for organizing import statements, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines a specific rule for organizing import statements, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Imports Order",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses the order of imports, which is a coding style guideline, and also implies the project structure by distinguishing between Vue framework, third-party libraries, and local modules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses the order of imports, which is a coding style guideline, and also implies the project structure by distinguishing between Vue framework, third-party libraries, and local modules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Semicolons",
+      "level": 3,
+      "char_count": 193,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Semicolons",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the use of semicolons in the code, which falls under naming conventions and code style tools.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses the use of semicolons in the code, which falls under naming conventions and code style tools.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Semicolons",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses semicolon usage, a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses semicolon usage, a coding style convention.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Semicolons",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the use of semicolons, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the use of semicolons, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 613,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing requirements and guidelines, which falls under workflow_process, and also touches on coding style with specific testing patterns and libraries.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing requirements and guidelines, which falls under workflow_process, and also touches on coding style with specific testing patterns and libraries.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing requirements and guidelines, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing requirements and guidelines, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style for writing tests, project structure for test files, and workflow process for testing requirements.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes coding style for writing tests, project structure for test files, and workflow process for testing requirements.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build Configuration",
+      "level": 2,
+      "char_count": 300,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the build configuration and tools used in the project, which relates to project structure, and also mentions specific coding style and linting choices.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the build configuration and tools used in the project, which relates to project structure, and also mentions specific coding style and linting choices.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses configuration files (project_structure) and coding conventions enforced by TypeScript and editorconfig (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses configuration files (project_structure) and coding conventions enforced by TypeScript and editorconfig (coding_style).\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Build Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding style tools like TypeScript and editorconfig, and project structure details like build configurations and their respective files.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses coding style tools like TypeScript and editorconfig, and project structure details like build configurations and their respective files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 473,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the primary focus of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the primary focus of the project_structure category.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Notes for Agents",
+      "level": 2,
+      "char_count": 366,
+      "voted_categories": [
+        "architecture",
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Notes for Agents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "The section provides directives for agents and describes the component's architecture and dependencies.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"The section provides directives for agents and describes the component's architecture and dependencies.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Notes for Agents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses code-specific guidelines (coding_style), references a specific library/file within the project (project_structure), and implies development practices (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses code-specific guidelines (coding_style), references a specific library/file within the project (project_structure), and implies development practices (workflow_process).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **coding_style**: \"maintain the existing prop definition pattern with appropriate validators\" suggests a style or pattern to follow in coding.\n- **project_structure**: Mention of a specific file (`qrcodegen.ts`) and its handling implies information about the project's structure or key components.\n- **workflow_process**: The directive to \"avoid modifications unless absolutely necessary\" for a third-party library hints at guidelines for the development workflow."
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Notes for Agents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style (prop definition pattern), project structure (third-party library and rendering features), and architecture (Vue 3 dependency and component capabilities).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section discusses coding style (prop definition pattern), project structure (third-party library and rendering features), and architecture (Vue 3 dependency and component capabilities).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit Guidelines",
+      "level": 2,
+      "char_count": 167,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Commit Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines rules for commit format and messaging, which is a key aspect of workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines rules for commit format and messaging, which is a key aspect of workflow process.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Commit Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines rules for commit formatting and practices, which directly relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines rules for commit formatting and practices, which directly relates to workflow processes.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Commit Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for committing code, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for committing code, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Resources",
+      "level": 2,
+      "char_count": 364,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key resources and libraries used in the project, which relates to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key resources and libraries used in the project, which relates to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key external resources and libraries relevant to the project, which relates to how the project is structured in terms of dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key external resources and libraries relevant to the project, which relates to how the project is structured in terms of dependencies.\"}"
+        },
+        {
+          "repo": "scopewu/qrcode.vue",
+          "section_heading": "Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists external resources used in the project, contributing to its structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists external resources used in the project, contributing to its structure.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.631578947368421,
+    "project_structure": 0.2631578947368421,
+    "workflow_process": 0.3684210526315789,
+    "architecture": 0.15789473684210525,
+    "evolution_context": 0.0,
+    "agent_rules": 0.05263157894736842
+  },
+  "category_char_fraction": {
+    "coding_style": 0.7086500924594206,
+    "project_structure": 0.3443599753441545,
+    "workflow_process": 0.2736798849393877,
+    "architecture": 0.2190260941031436,
+    "evolution_context": 0.0,
+    "agent_rules": 0.03554551058146702
+  }
+}

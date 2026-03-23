@@ -1,0 +1,370 @@
+{
+  "repo": "daohainam__microservice-patterns",
+  "full_name": "daohainam/microservice-patterns",
+  "n_sections": 4,
+  "n_chars": 1228,
+  "sections": [
+    {
+      "heading": "General",
+      "level": 2,
+      "char_count": 130,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "General",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses code review suggestions and C# version usage, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses code review suggestions and C# version usage, which relates to coding style and workflow process.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "General",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section combines code review guidelines (workflow_process) with a specific programming language version directive (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section combines code review guidelines (workflow_process) with a specific programming language version directive (coding_style).\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "General",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on code review practices and specifies the use of a specific programming language version, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on code review practices and specifies the use of a specific programming language version, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Formatting",
+      "level": 2,
+      "char_count": 571,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions and formatting rules for the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions and formatting rules for the codebase.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for formatting code, including namespace declarations, code blocks, return statements, pattern matching, and XML doc comments.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for formatting code, including namespace declarations, code blocks, return statements, pattern matching, and XML doc comments.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Nullable Reference Types",
+      "level": 3,
+      "char_count": 254,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Nullable Reference Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and coding practices for handling null references in C#.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and coding practices for handling null references in C#.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Nullable Reference Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions for handling null types in C#, which pertains to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions for handling null types in C#, which pertains to coding style guidelines.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Nullable Reference Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on variable declaration and null checks, which are coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on variable declaration and null checks, which are coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 197,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses testing tools and conventions, which relates to coding style, and also implies testing requirements, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses testing tools and conventions, which relates to coding style, and also implies testing requirements, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies testing tools (workflow_process) and coding conventions for tests (coding_style).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section specifies testing tools (workflow_process) and coding conventions for tests (coding_style).\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for writing tests and specifies the use of xUnit SDK v3 and Moq, which falls under coding_style; it also outlines workflow_process rules for writing tests, such as not emitting certain comments and following existing style in nearby files.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for writing tests and specifies the use of xUnit SDK v3 and Moq, which falls under coding_style; it also outlines workflow_process rules for writing tests, such as not emitting certain comments and following existing style in nearby files.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "General",
+      "level": 2,
+      "char_count": 130,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "General",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses code review suggestions and C# version usage, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses code review suggestions and C# version usage, which relates to coding style and workflow process.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "General",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section combines code review guidelines (workflow_process) with a specific programming language version directive (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section combines code review guidelines (workflow_process) with a specific programming language version directive (coding_style).\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "General",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on code review practices and specifies the use of a specific programming language version, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on code review practices and specifies the use of a specific programming language version, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Formatting",
+      "level": 2,
+      "char_count": 571,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions and formatting rules for the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions and formatting rules for the codebase.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for formatting code, including namespace declarations, code blocks, return statements, pattern matching, and XML doc comments.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for formatting code, including namespace declarations, code blocks, return statements, pattern matching, and XML doc comments.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Nullable Reference Types",
+      "level": 3,
+      "char_count": 254,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Nullable Reference Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and coding practices for handling null references in C#.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and coding practices for handling null references in C#.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Nullable Reference Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions for handling null types in C#, which pertains to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions for handling null types in C#, which pertains to coding style guidelines.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Nullable Reference Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on variable declaration and null checks, which are coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on variable declaration and null checks, which are coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 197,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses testing tools and conventions, which relates to coding style, and also implies testing requirements, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses testing tools and conventions, which relates to coding style, and also implies testing requirements, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies testing tools (workflow_process) and coding conventions for tests (coding_style).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section specifies testing tools (workflow_process) and coding conventions for tests (coding_style).\"}"
+        },
+        {
+          "repo": "daohainam/microservice-patterns",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for writing tests and specifies the use of xUnit SDK v3 and Moq, which falls under coding_style; it also outlines workflow_process rules for writing tests, such as not emitting certain comments and following existing style in nearby files.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for writing tests and specifies the use of xUnit SDK v3 and Moq, which falls under coding_style; it also outlines workflow_process rules for writing tests, such as not emitting certain comments and following existing style in nearby files.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": false,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 1.0,
+    "project_structure": 0.0,
+    "workflow_process": 0.5,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 1.0,
+    "project_structure": 0.0,
+    "workflow_process": 0.2838541666666667,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

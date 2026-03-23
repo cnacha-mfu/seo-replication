@@ -1,0 +1,1052 @@
+{
+  "repo": "vinhnx__VT.ai",
+  "full_name": "vinhnx/VT.ai",
+  "n_sections": 12,
+  "n_chars": 2680,
+  "sections": [
+    {
+      "heading": "Project context",
+      "level": 2,
+      "char_count": 234,
+      "voted_categories": [
+        "evolution_context",
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Project context",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "This section describes the project's focus, goals, and key technologies, indicating its context and architectural foundations.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"This section describes the project's focus, goals, and key technologies, indicating its context and architectural foundations.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Project context",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "Describes project's focus and key technologies, implying its context and foundational setup.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"Describes project's focus and key technologies, implying its context and foundational setup.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Project context",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides context on the project's focus and key technologies, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides context on the project's focus and key technologies, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Indentation",
+      "level": 2,
+      "char_count": 24,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Indentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses indentation, which is a coding convention related to formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses indentation, which is a coding convention related to formatting.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Indentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a naming convention for indentation, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a naming convention for indentation, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Indentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses a specific coding style guideline, which is the use of tabs instead of spaces for indentation.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses a specific coding style guideline, which is the use of tabs instead of spaces for indentation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding style",
+      "level": 2,
+      "char_count": 273,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Coding style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Coding style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly outlines naming conventions, formatting rules, and style guidelines for code.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly outlines naming conventions, formatting rules, and style guidelines for code.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Coding style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly discusses naming conventions, docstrings, line length, and type hints, all of which are aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly discusses naming conventions, docstrings, line length, and type hints, all of which are aspects of coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 203,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses testing requirements and test directory structure, which relates to workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses testing requirements and test directory structure, which relates to workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing tools and practices, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing tools and practices, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for testing, specifies the project structure for test files, and outlines workflow processes for writing and running tests.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for testing, specifies the project structure for test files, and outlines workflow processes for writing and running tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 2,
+      "char_count": 178,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section discusses key dependencies and their management, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section discusses key dependencies and their management, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses dependency management (project_structure) and the process of keeping them updated (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency management (project_structure) and the process of keeping them updated (workflow_process).\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses key dependencies, which is part of project structure, and also mentions managing dependencies using specific tools, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses key dependencies, which is part of project structure, and also mentions managing dependencies using specific tools, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File structure",
+      "level": 2,
+      "char_count": 349,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "File structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "File structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "File structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "API usage",
+      "level": 2,
+      "char_count": 278,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "API usage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses API usage guidelines, which relates to workflow processes and architectural considerations for interacting with external APIs.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses API usage guidelines, which relates to workflow processes and architectural considerations for interacting with external APIs.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "API usage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section covers secure API key",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section covers secure API key handling (coding_style) and error handling/retry mechanisms (workflow_process).\""
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "API usage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on securely handling API keys and implementing error handling and retry mechanisms, which fall under coding_style, and also discusses rate limits, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on securely handling API keys and implementing error handling and retry mechanisms, which fall under coding_style, and also discusses rate limits, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common pitfalls",
+      "level": 2,
+      "char_count": 216,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Common pitfalls",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on best practices for writing clean and robust code, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on best practices for writing clean and robust code, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Common pitfalls",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices to avoid common programming mistakes.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices to avoid common programming mistakes.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Common pitfalls",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on coding style (e.g., mutable default arguments) and workflow process (e.g., exception handling, resource management).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on coding style (e.g., mutable default arguments) and workflow process (e.g., exception handling, resource management).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security considerations",
+      "level": 2,
+      "char_count": 245,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Security considerations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses security practices that relate to both the workflow process of managing dependencies and the architecture of handling sensitive data and preventing injection attacks.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses security practices that relate to both the workflow process of managing dependencies and the architecture of handling sensitive data and preventing injection attacks.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Security considerations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific practices for maintaining security, which relates to the workflow and process of developing and maintaining the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific practices for maintaining security, which relates to the workflow and process of developing and maintaining the project.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Security considerations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section provides coding style guidelines for handling external input and sensitive data, workflow process for managing dependencies, and evolution context for maintaining security.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section provides coding style guidelines for handling external input and sensitive data, workflow process for managing dependencies, and evolution context for maintaining security.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance considerations",
+      "level": 2,
+      "char_count": 168,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Performance considerations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses efficient coding practices and algorithm optimization, which relates to coding style, and also touches on design considerations like caching, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses efficient coding practices and algorithm optimization, which relates to coding style, and also touches on design considerations like caching, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Performance considerations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses code efficiency",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses code efficiency (coding_style) and system design aspects like caching (architecture).\""
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Performance considerations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on writing efficient code and algorithms, which falls under coding_style, and also discusses caching strategies, which is related to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on writing efficient code and algorithms, which falls under coding_style, and also discusses caching strategies, which is related to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Future development",
+      "level": 2,
+      "char_count": 109,
+      "voted_categories": [
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Future development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section discusses future plans and potential expansions, which relates to the evolution context of the project and also touches on agent rules by mentioning new AI capabilities.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section discusses future plans and potential expansions, which relates to the evolution context of the project and also touches on agent rules by mentioning new AI capabilities.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Future development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines future development plans, which relate to the project's evolution and growth trajectory.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"The section outlines future development plans, which relate to the project's evolution and growth trajectory.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Future development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "The section discusses future development plans, which falls under evolution_context, and mentions adding new AI capabilities, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"The section discusses future development plans, which falls under evolution_context, and mentions adding new AI capabilities, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Python workflow",
+      "level": 2,
+      "char_count": 109,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Python workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses a specific workflow rule for running pip commands with a prefix, which relates to both workflow process and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses a specific workflow rule for running pip commands with a prefix, which relates to both workflow process and coding style conventions.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Python workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a specific command-line workflow practice for package installation, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a specific command-line workflow practice for package installation, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Python workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a coding style guideline for using pip commands and also describes a workflow process for running these commands.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a coding style guideline for using pip commands and also describes a workflow process for running these commands.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project context",
+      "level": 2,
+      "char_count": 234,
+      "voted_categories": [
+        "evolution_context",
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Project context",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "This section describes the project's focus, goals, and key technologies, indicating its context and architectural foundations.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"This section describes the project's focus, goals, and key technologies, indicating its context and architectural foundations.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Project context",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "Describes project's focus and key technologies, implying its context and foundational setup.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"Describes project's focus and key technologies, implying its context and foundational setup.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Project context",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides context on the project's focus and key technologies, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides context on the project's focus and key technologies, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Indentation",
+      "level": 2,
+      "char_count": 24,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Indentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses indentation, which is a coding convention related to formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses indentation, which is a coding convention related to formatting.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Indentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a naming convention for indentation, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a naming convention for indentation, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Indentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses a specific coding style guideline, which is the use of tabs instead of spaces for indentation.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses a specific coding style guideline, which is the use of tabs instead of spaces for indentation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding style",
+      "level": 2,
+      "char_count": 273,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Coding style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions, formatting, and code style guidelines, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Coding style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly outlines naming conventions, formatting rules, and style guidelines for code.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly outlines naming conventions, formatting rules, and style guidelines for code.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Coding style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly discusses naming conventions, docstrings, line length, and type hints, all of which are aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly discusses naming conventions, docstrings, line length, and type hints, all of which are aspects of coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 203,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses testing requirements and test directory structure, which relates to workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses testing requirements and test directory structure, which relates to workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing tools and practices, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing tools and practices, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for testing, specifies the project structure for test files, and outlines workflow processes for writing and running tests.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for testing, specifies the project structure for test files, and outlines workflow processes for writing and running tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 2,
+      "char_count": 178,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section discusses key dependencies and their management, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section discusses key dependencies and their management, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses dependency management (project_structure) and the process of keeping them updated (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency management (project_structure) and the process of keeping them updated (workflow_process).\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses key dependencies, which is part of project structure, and also mentions managing dependencies using specific tools, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses key dependencies, which is part of project structure, and also mentions managing dependencies using specific tools, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File structure",
+      "level": 2,
+      "char_count": 349,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "File structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "File structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "File structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "API usage",
+      "level": 2,
+      "char_count": 278,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "API usage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses API usage guidelines, which relates to workflow processes and architectural considerations for interacting with external APIs.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses API usage guidelines, which relates to workflow processes and architectural considerations for interacting with external APIs.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "API usage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section covers secure API key",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section covers secure API key handling (coding_style) and error handling/retry mechanisms (workflow_process).\""
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "API usage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on securely handling API keys and implementing error handling and retry mechanisms, which fall under coding_style, and also discusses rate limits, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on securely handling API keys and implementing error handling and retry mechanisms, which fall under coding_style, and also discusses rate limits, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common pitfalls",
+      "level": 2,
+      "char_count": 216,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Common pitfalls",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on best practices for writing clean and robust code, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on best practices for writing clean and robust code, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Common pitfalls",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices to avoid common programming mistakes.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices to avoid common programming mistakes.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Common pitfalls",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on coding style (e.g., mutable default arguments) and workflow process (e.g., exception handling, resource management).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on coding style (e.g., mutable default arguments) and workflow process (e.g., exception handling, resource management).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security considerations",
+      "level": 2,
+      "char_count": 245,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Security considerations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses security practices that relate to both the workflow process of managing dependencies and the architecture of handling sensitive data and preventing injection attacks.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses security practices that relate to both the workflow process of managing dependencies and the architecture of handling sensitive data and preventing injection attacks.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Security considerations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific practices for maintaining security, which relates to the workflow and process of developing and maintaining the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific practices for maintaining security, which relates to the workflow and process of developing and maintaining the project.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Security considerations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section provides coding style guidelines for handling external input and sensitive data, workflow process for managing dependencies, and evolution context for maintaining security.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section provides coding style guidelines for handling external input and sensitive data, workflow process for managing dependencies, and evolution context for maintaining security.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance considerations",
+      "level": 2,
+      "char_count": 168,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Performance considerations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses efficient coding practices and algorithm optimization, which relates to coding style, and also touches on design considerations like caching, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses efficient coding practices and algorithm optimization, which relates to coding style, and also touches on design considerations like caching, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Performance considerations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses code efficiency",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses code efficiency (coding_style) and system design aspects like caching (architecture).\""
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Performance considerations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on writing efficient code and algorithms, which falls under coding_style, and also discusses caching strategies, which is related to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on writing efficient code and algorithms, which falls under coding_style, and also discusses caching strategies, which is related to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Future development",
+      "level": 2,
+      "char_count": 109,
+      "voted_categories": [
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Future development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section discusses future plans and potential expansions, which relates to the evolution context of the project and also touches on agent rules by mentioning new AI capabilities.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section discusses future plans and potential expansions, which relates to the evolution context of the project and also touches on agent rules by mentioning new AI capabilities.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Future development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines future development plans, which relate to the project's evolution and growth trajectory.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"The section outlines future development plans, which relate to the project's evolution and growth trajectory.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Future development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "The section discusses future development plans, which falls under evolution_context, and mentions adding new AI capabilities, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"The section discusses future development plans, which falls under evolution_context, and mentions adding new AI capabilities, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Python workflow",
+      "level": 2,
+      "char_count": 109,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Python workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses a specific workflow rule for running pip commands with a prefix, which relates to both workflow process and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses a specific workflow rule for running pip commands with a prefix, which relates to both workflow process and coding style conventions.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Python workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a specific command-line workflow practice for package installation, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a specific command-line workflow practice for package installation, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "vinhnx/VT.ai",
+          "section_heading": "Python workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a coding style guideline for using pip commands and also describes a workflow process for running these commands.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a coding style guideline for using pip commands and also describes a workflow process for running these commands.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.5,
+    "project_structure": 0.3333333333333333,
+    "workflow_process": 0.3333333333333333,
+    "architecture": 0.16666666666666666,
+    "evolution_context": 0.16666666666666666,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.44761106454316846,
+    "project_structure": 0.40402347024308466,
+    "workflow_process": 0.34995808885163454,
+    "architecture": 0.16848281642917015,
+    "evolution_context": 0.1437552388935457,
+    "agent_rules": 0.0
+  }
+}

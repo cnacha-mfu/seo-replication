@@ -1,0 +1,554 @@
+{
+  "repo": "bbc__simorgh",
+  "full_name": "bbc/simorgh",
+  "n_sections": 6,
+  "n_chars": 3439,
+  "sections": [
+    {
+      "heading": "Simorgh AGENTS.md file",
+      "level": 1,
+      "char_count": 447,
+      "voted_categories": [
+        "agent_rules",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Simorgh AGENTS.md file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "evolution_context"
+          ],
+          "reasoning": "This section primarily describes guidelines and directives for AI agents working on the project, while also touching on the project's history and potential issues that have arisen over time.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"evolution_context\"], \"reasoning\": \"This section primarily describes guidelines and directives for AI agents working on the project, while also touching on the project's history and potential issues that have arisen over time.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Simorgh AGENTS.md file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules",
+            "evolution_context"
+          ],
+          "reasoning": "The section defines the role of the AGENTS.md file for agent guidance (agent_rules) and implies tracking project issues over time to prevent future occurrences (evolution_context).",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"evolution_context\"], \"reasoning\": \"The section defines the role of the AGENTS.md file for agent guidance (agent_rules) and implies tracking project issues over time to prevent future occurrences (evolution_context).\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Simorgh AGENTS.md file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines the role of the file in addressing common issues and confusion points that agents might encounter, emphasizing the importance of communication with developers and documentation for future agents, which aligns with workflow process and agent rules categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines the role of the file in addressing common issues and confusion points that agents might encounter, emphasizing the importance of communication with developers and documentation for future agents, which aligns with workflow process and agent rules categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project overview",
+      "level": 2,
+      "char_count": 843,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Project overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the overall structure and organization of the Simorgh repository, including its components and services, as well as the unique requirements and variations between them, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the overall structure and organization of the Simorgh repository, including its components and services, as well as the unique requirements and variations between them, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Project overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the repository's composition (project_structure) and highlights variability in service requirements impacting design (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the repository's composition (project_structure) and highlights variability in service requirements impacting design (architecture).\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Project overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall structure of the project, including its components and their unique requirements, which falls under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall structure of the project, including its components and their unique requirements, which falls under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dev environment tips",
+      "level": 2,
+      "char_count": 190,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Dev environment tips",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides tips for setting up a development environment, including directory aliases and installation commands, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section provides tips for setting up a development environment, including directory aliases and installation commands, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Dev environment tips",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides setup instructions (workflow_process) and references a specific file for directory aliases (project_structure), with both aspects being equally dominant.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides setup instructions (workflow_process) and references a specific file for directory aliases (project_structure), with both aspects being equally dominant.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Dev environment tips",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on using specific tools (nvm, yarn) and directory aliases, which relate to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on using specific tools (nvm, yarn) and directory aliases, which relate to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Standards",
+      "level": 2,
+      "char_count": 1177,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Coding Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding conventions, formatting, and style guidelines, which are core aspects of the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding conventions, formatting, and style guidelines, which are core aspects of the coding_style category.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Coding Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section predominantly outlines specific coding conventions, formatting preferences, and linting rules.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section predominantly outlines specific coding conventions, formatting preferences, and linting rules.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Coding Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily discusses coding standards, including naming conventions, formatting, linting, and functional approach, which fall under coding_style, and also mentions service-awareness and avoiding hard-coding assumptions, which relate to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily discusses coding standards, including naming conventions, formatting, linting, and functional approach, which fall under coding_style, and also mentions service-awareness and avoiding hard-coding assumptions, which relate to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing instructions",
+      "level": 2,
+      "char_count": 533,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Testing instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing procedures and guidelines, which falls under workflow_process, and also touches on coding style by specifying how to import testing libraries.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing procedures and guidelines, which falls under workflow_process, and also touches on coding style by specifying how to import testing libraries.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Testing instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section primarily outlines testing workflow (workflow_process) but also specifies a coding convention for imports (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section primarily outlines testing workflow (workflow_process) but also specifies a coding convention for imports (coding_style).\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Testing instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions for running tests and specifies a coding style for writing React tests.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides instructions for running tests and specifies a coding style for writing React tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "PR instructions",
+      "level": 2,
+      "char_count": 104,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "PR instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidelines for commit messages, which relates to workflow_process, and also touches on coding_style by mentioning the use of GitHub Copilot for code generation.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section provides guidelines for commit messages, which relates to workflow_process, and also touches on coding_style by mentioning the use of GitHub Copilot for code generation.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "PR instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a commit message format rule, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a commit message format rule, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "PR instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a coding style guideline specific to GitHub Copilot usage and is part of the workflow process for commits.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a coding style guideline specific to GitHub Copilot usage and is part of the workflow process for commits.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Simorgh AGENTS.md file",
+      "level": 1,
+      "char_count": 447,
+      "voted_categories": [
+        "agent_rules",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Simorgh AGENTS.md file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "evolution_context"
+          ],
+          "reasoning": "This section primarily describes guidelines and directives for AI agents working on the project, while also touching on the project's history and potential issues that have arisen over time.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"evolution_context\"], \"reasoning\": \"This section primarily describes guidelines and directives for AI agents working on the project, while also touching on the project's history and potential issues that have arisen over time.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Simorgh AGENTS.md file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules",
+            "evolution_context"
+          ],
+          "reasoning": "The section defines the role of the AGENTS.md file for agent guidance (agent_rules) and implies tracking project issues over time to prevent future occurrences (evolution_context).",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"evolution_context\"], \"reasoning\": \"The section defines the role of the AGENTS.md file for agent guidance (agent_rules) and implies tracking project issues over time to prevent future occurrences (evolution_context).\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Simorgh AGENTS.md file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines the role of the file in addressing common issues and confusion points that agents might encounter, emphasizing the importance of communication with developers and documentation for future agents, which aligns with workflow process and agent rules categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines the role of the file in addressing common issues and confusion points that agents might encounter, emphasizing the importance of communication with developers and documentation for future agents, which aligns with workflow process and agent rules categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project overview",
+      "level": 2,
+      "char_count": 843,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Project overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the overall structure and organization of the Simorgh repository, including its components and services, as well as the unique requirements and variations between them, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the overall structure and organization of the Simorgh repository, including its components and services, as well as the unique requirements and variations between them, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Project overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the repository's composition (project_structure) and highlights variability in service requirements impacting design (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the repository's composition (project_structure) and highlights variability in service requirements impacting design (architecture).\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Project overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall structure of the project, including its components and their unique requirements, which falls under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall structure of the project, including its components and their unique requirements, which falls under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dev environment tips",
+      "level": 2,
+      "char_count": 190,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Dev environment tips",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides tips for setting up a development environment, including directory aliases and installation commands, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section provides tips for setting up a development environment, including directory aliases and installation commands, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Dev environment tips",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides setup instructions (workflow_process) and references a specific file for directory aliases (project_structure), with both aspects being equally dominant.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides setup instructions (workflow_process) and references a specific file for directory aliases (project_structure), with both aspects being equally dominant.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Dev environment tips",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on using specific tools (nvm, yarn) and directory aliases, which relate to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on using specific tools (nvm, yarn) and directory aliases, which relate to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Standards",
+      "level": 2,
+      "char_count": 1177,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Coding Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding conventions, formatting, and style guidelines, which are core aspects of the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding conventions, formatting, and style guidelines, which are core aspects of the coding_style category.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Coding Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section predominantly outlines specific coding conventions, formatting preferences, and linting rules.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section predominantly outlines specific coding conventions, formatting preferences, and linting rules.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Coding Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily discusses coding standards, including naming conventions, formatting, linting, and functional approach, which fall under coding_style, and also mentions service-awareness and avoiding hard-coding assumptions, which relate to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily discusses coding standards, including naming conventions, formatting, linting, and functional approach, which fall under coding_style, and also mentions service-awareness and avoiding hard-coding assumptions, which relate to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing instructions",
+      "level": 2,
+      "char_count": 533,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Testing instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing procedures and guidelines, which falls under workflow_process, and also touches on coding style by specifying how to import testing libraries.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing procedures and guidelines, which falls under workflow_process, and also touches on coding style by specifying how to import testing libraries.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Testing instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section primarily outlines testing workflow (workflow_process) but also specifies a coding convention for imports (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section primarily outlines testing workflow (workflow_process) but also specifies a coding convention for imports (coding_style).\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "Testing instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions for running tests and specifies a coding style for writing React tests.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides instructions for running tests and specifies a coding style for writing React tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "PR instructions",
+      "level": 2,
+      "char_count": 104,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "PR instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidelines for commit messages, which relates to workflow_process, and also touches on coding_style by mentioning the use of GitHub Copilot for code generation.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section provides guidelines for commit messages, which relates to workflow_process, and also touches on coding_style by mentioning the use of GitHub Copilot for code generation.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "PR instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a commit message format rule, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a commit message format rule, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "bbc/simorgh",
+          "section_heading": "PR instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a coding style guideline specific to GitHub Copilot usage and is part of the workflow process for commits.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a coding style guideline specific to GitHub Copilot usage and is part of the workflow process for commits.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.5,
+    "project_structure": 0.3333333333333333,
+    "workflow_process": 0.5,
+    "architecture": 0.16666666666666666,
+    "evolution_context": 0.16666666666666666,
+    "agent_rules": 0.16666666666666666
+  },
+  "category_char_fraction": {
+    "coding_style": 0.5506982392228293,
+    "project_structure": 0.3136004857316333,
+    "workflow_process": 0.2510625379477838,
+    "architecture": 0.25591985428051,
+    "evolution_context": 0.13570127504553733,
+    "agent_rules": 0.13570127504553733
+  }
+}

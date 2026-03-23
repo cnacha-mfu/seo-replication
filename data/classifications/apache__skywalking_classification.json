@@ -1,0 +1,1934 @@
+{
+  "repo": "apache__skywalking",
+  "full_name": "apache/skywalking",
+  "n_sections": 23,
+  "n_chars": 10840,
+  "sections": [
+    {
+      "heading": "CLAUDE.md - AI Assistant Guide for Apache SkyWalking",
+      "level": 1,
+      "char_count": 90,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "CLAUDE.md - AI Assistant Guide for Apache SkyWalking",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section introduces a guide for AI assistants, indicating it primarily belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section introduces a guide for AI assistants, indicating it primarily belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "CLAUDE.md - AI Assistant Guide for Apache SkyWalking",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces a guide specifically for AI assistants, implying rules or directives for their operation within the project.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces a guide specifically for AI assistants, implying rules or directives for their operation within the project.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "CLAUDE.md - AI Assistant Guide for Apache SkyWalking",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as a guide for AI assistants, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as a guide for AI assistants, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 289,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides a high-level introduction to the project, describing its purpose and functionality, which relates to project structure, and also hints at the project's evolution context by mentioning its design for specific architectures.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides a high-level introduction to the project, describing its purpose and functionality, which relates to project structure, and also hints at the project's evolution context by mentioning its design for specific architectures.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project, which aligns with project structure as it sets the context for how the project is organized in terms of its capabilities and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project, which aligns with project structure as it sets the context for how the project is organized in terms of its capabilities and architecture.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall design and capabilities of the system, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the overall design and capabilities of the system, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repository Structure",
+      "level": 2,
+      "char_count": 1843,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Repository Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the Skywalking repository, making project_structure the dominant category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the Skywalking repository, making project_structure the dominant category.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Repository Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key components of the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key components of the repository.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Repository Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Module System",
+      "level": 3,
+      "char_count": 591,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Module System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the module system and provider architecture of SkyWalking, focusing on design patterns and component boundaries.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the module system and provider architecture of SkyWalking, focusing on design patterns and component boundaries.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Module System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the custom module/provider architecture, key components, and their interactions, which is central to the system's design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the custom module/provider architecture, key components, and their interactions, which is central to the system's design.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Module System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the custom module/provider architecture of the project, which falls under the 'architecture' category, and also explains the directory layout and key files, which falls under the 'project_structure' category.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the custom module/provider architecture of the project, which falls under the 'architecture' category, and also explains the directory layout and key files, which falls under the 'project_structure' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Concepts",
+      "level": 3,
+      "char_count": 406,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Core Concepts",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key concepts and components of the Skywalking system, which is indicative of architectural design and module roles.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key concepts and components of the Skywalking system, which is indicative of architectural design and module roles.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Core Concepts",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines key architectural components and their roles within the project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines key architectural components and their roles within the project.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Core Concepts",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the roles and definitions of various components in the system, which aligns with the 'architecture' category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the roles and definitions of various components in the system, which aligns with the 'architecture' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Data Flow",
+      "level": 3,
+      "char_count": 227,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Data Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the high-level data processing pipeline and component interactions, which is a key aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the high-level data processing pipeline and component interactions, which is a key aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Data Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the high-level data processing pipeline and component interactions, which is central to the system's architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the high-level data processing pipeline and component interactions, which is central to the system's architectural design.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Data Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the roles and dependencies of different components in the data flow, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the roles and dependencies of different components in the data flow, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Checkstyle Rules (enforced via `apm-checkstyle/checkStyle.xml`)",
+      "level": 3,
+      "char_count": 1274,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Checkstyle Rules (enforced via `apm-checkstyle/checkStyle.xml`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes coding conventions, formatting rules, and linting guidelines for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily describes coding conventions, formatting rules, and linting guidelines for the project.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Checkstyle Rules (enforced via `apm-checkstyle/checkStyle.xml`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively details coding conventions, formatting rules, and style enforcements, which are core aspects of coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively details coding conventions, formatting rules, and style enforcements, which are core aspects of coding_style.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Checkstyle Rules (enforced via `apm-checkstyle/checkStyle.xml`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding style rules, including prohibited and required patterns, naming conventions, file limits, and whitespace usage.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding style rules, including prohibited and required patterns, naming conventions, file limits, and whitespace usage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style (via `codeStyle.xml` for IntelliJ IDEA)",
+      "level": 3,
+      "char_count": 574,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Code Style (via `codeStyle.xml` for IntelliJ IDEA)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses code formatting, indentation, and import order, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses code formatting, indentation, and import order, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Code Style (via `codeStyle.xml` for IntelliJ IDEA)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly outlines coding conventions for indentation, imports, formatting, and general coding practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly outlines coding conventions for indentation, imports, formatting, and general coding practices.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Code Style (via `codeStyle.xml` for IntelliJ IDEA)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides detailed guidelines on code style, including indentation, imports, formatting, and general practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides detailed guidelines on code style, including indentation, imports, formatting, and general practices.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "License Header",
+      "level": 3,
+      "char_count": 186,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "License Header",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes the requirement for including a specific license header in certain file types, which relates to coding conventions and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes the requirement for including a specific license header in certain file types, which relates to coding conventions and formatting.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "License Header",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a formatting requirement (license header) for specific file types, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a formatting requirement (license header) for specific file types, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "License Header",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on including license headers in code files, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on including license headers in code files, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "JDK 11 Compatibility",
+      "level": 3,
+      "char_count": 994,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "JDK 11 Compatibility",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses JDK 11 compatibility, prohibited and allowed Java features, and verification commands, which all relate to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses JDK 11 compatibility, prohibited and allowed Java features, and verification commands, which all relate to coding style and conventions.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "JDK 11 Compatibility",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on Java language feature compatibility and restrictions for JDK 11, guiding coding practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on Java language feature compatibility and restrictions for JDK 11, guiding coding practices.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "JDK 11 Compatibility",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines coding style guidelines for JDK compatibility and lists allowed and prohibited Java features, which also impacts the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section outlines coding style guidelines for JDK compatibility and lists allowed and prohibited Java features, which also impacts the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check for switch expressions (should return no matches)",
+      "level": 1,
+      "char_count": 44,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for switch expressions (should return no matches)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on a specific coding convention, namely checking for switch expressions in Java files using a grep command.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on a specific coding convention, namely checking for switch expressions in Java files using a grep command.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for switch expressions (should return no matches)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command to search for a specific Java syntax pattern, implying a coding style check.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command to search for a specific Java syntax pattern, implying a coding style check.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for switch expressions (should return no matches)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command to check for a specific coding style in Java files.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command to check for a specific coding style in Java files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check for Stream.toList() (should return no matches)",
+      "level": 1,
+      "char_count": 44,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for Stream.toList() (should return no matches)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on enforcing a specific coding convention by checking for the use of Stream.toList() in Java files.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on enforcing a specific coding convention by checking for the use of Stream.toList() in Java files.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for Stream.toList() (should return no matches)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command to search for a specific coding pattern (.toList() in Java files), implying a coding style or convention check.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command to search for a specific coding pattern (.toList() in Java files), implying a coding style or convention check.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for Stream.toList() (should return no matches)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for checking code, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for checking code, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check for text blocks (should return no matches)",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for text blocks (should return no matches)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is about checking for specific text blocks in Java files, which relates to coding conventions and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is about checking for specific text blocks in Java files, which relates to coding conventions and formatting.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for text blocks (should return no matches)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section contains a command to search for specific text blocks (triple quotes) in Java files, implying a check for a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section contains a command to search for specific text blocks (triple quotes) in Java files, implying a check for a coding style convention.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for text blocks (should return no matches)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command to check for coding style violations related to text blocks in Java files.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command to check for coding style violations related to text blocks in Java files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Git Submodules",
+      "level": 2,
+      "char_count": 435,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Git Submodules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the use of Git submodules in the project, which relates to the directory layout and key files, indicating a dominant content of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the use of Git submodules in the project, which relates to the directory layout and key files, indicating a dominant content of project structure.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Git Submodules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the use and configuration of Git submodules, which pertains to how the project's components are organized and managed within its repository structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the use and configuration of Git submodules, which pertains to how the project's components are organized and managed within its repository structure.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Git Submodules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project's directory layout and key files, as well as a coding style tool usage for submodules.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the project's directory layout and key files, as well as a coding style tool usage for submodules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Files for Understanding the Codebase",
+      "level": 2,
+      "char_count": 392,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Key Files for Understanding the Codebase",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key files and directories in the codebase, indicating project structure, and also touches on architecture by mentioning core modules and grammar definitions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key files and directories in the codebase, indicating project structure, and also touches on architecture by mentioning core modules and grammar definitions.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Key Files for Understanding the Codebase",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key files indicating where core components and architecture docs live, relating to both project layout and system design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key files indicating where core components and architecture docs live, relating to both project layout and system design.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Key Files for Understanding the Codebase",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section lists key files and directories that define the project structure and provide insight into the architecture of the codebase.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section lists key files and directories that define the project structure and provide insight into the architecture of the codebase.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New Receiver Plugin",
+      "level": 3,
+      "char_count": 180,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Receiver Plugin",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the process of adding a new plugin, which involves creating a module in a specific directory and implementing certain interfaces, indicating both project structure and architectural considerations.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the process of adding a new plugin, which involves creating a module in a specific directory and implementing certain interfaces, indicating both project structure and architectural considerations.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Receiver Plugin",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes creating a module within a specific directory (project_structure) and implementing specific architectural components (ModuleDefine, ModuleProvider, SPI registration) for plugin integration (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes creating a module within a specific directory (project_structure) and implementing specific architectural components (ModuleDefine, ModuleProvider, SPI registration) for plugin integration (architecture).\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Receiver Plugin",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes where to add a new plugin (project_structure) and how to implement and register it (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes where to add a new plugin (project_structure) and how to implement and register it (architecture).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New Storage Plugin",
+      "level": 3,
+      "char_count": 156,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Storage Plugin",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the process of adding a new storage plugin, which involves creating a module in a specific directory and implementing specific DAOs, indicating both project structure and architectural considerations.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the process of adding a new storage plugin, which involves creating a module in a specific directory and implementing specific DAOs, indicating both project structure and architectural considerations.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Storage Plugin",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes creating a module in a specific directory (project_structure) and implementing logic following existing patterns (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes creating a module in a specific directory (project_structure) and implementing logic following existing patterns (architecture).\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Storage Plugin",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidance on where to create a new module and how to implement storage DAOs, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides guidance on where to create a new module and how to implement storage DAOs, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Modifying OAL Metrics",
+      "level": 3,
+      "char_count": 148,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Modifying OAL Metrics",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes modifying specific files in a particular directory and regenerating the project, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes modifying specific files in a particular directory and regenerating the project, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Modifying OAL Metrics",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific location within the project structure and outlines a step-by-step workflow process for modification and regeneration.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a specific location within the project structure and outlines a step-by-step workflow process for modification and regeneration.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Modifying OAL Metrics",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides information on where to find specific files in the project structure and how to modify them, which also relates to the architecture of the system.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides information on where to find specific files in the project structure and how to modify them, which also relates to the architecture of the system.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "MAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+      "level": 3,
+      "char_count": 120,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "MAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files within the repository, specifically the location of MAL scripts.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files within the repository, specifically the location of MAL scripts.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "MAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location and purpose of specific directories within the repository, indicating directory layout and where certain types of files live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location and purpose of specific directories within the repository, indicating directory layout and where certain types of files live.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "MAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of MAL scripts in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of MAL scripts in the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "LAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+      "level": 3,
+      "char_count": 80,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "LAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files within the repository, specifically the location of LAL scripts.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files within the repository, specifically the location of LAL scripts.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "LAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location and purpose of specific directories within the repository, indicating how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location and purpose of specific directories within the repository, indicating how the project is structured.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "LAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files in the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation (in `docs/en/`, structure defined in `docs/menu.yml`)",
+      "level": 2,
+      "char_count": 362,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Documentation (in `docs/en/`, structure defined in `docs/menu.yml`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the directory layout and key files of the documentation, defining where different types of documents live within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section primarily describes the directory layout and key files of the documentation, defining where different types of documents live within the project.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Documentation (in `docs/en/`, structure defined in `docs/menu.yml`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and content of the documentation, fitting best with project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and content of the documentation, fitting best with project structure.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Documentation (in `docs/en/`, structure defined in `docs/menu.yml`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout of the project's documentation and includes architecture-related concepts and designs.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout of the project's documentation and includes architecture-related concepts and designs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Submitting Pull Requests",
+      "level": 2,
+      "char_count": 204,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Submitting Pull Requests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the process of submitting pull requests, including pre-flight checks for compile, checkstyle, and license headers, which relates to both workflow process and coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes the process of submitting pull requests, including pre-flight checks for compile, checkstyle, and license headers, which relates to both workflow process and coding style.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Submitting Pull Requests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow for submitting pull requests, including automated checks and PR creation.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow for submitting pull requests, including automated checks and PR creation.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Submitting Pull Requests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for submitting pull requests, including pre-flight checks and PR creation.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for submitting pull requests, including pre-flight checks and PR creation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tips for AI Assistants",
+      "level": 2,
+      "char_count": 1119,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Tips for AI Assistants",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section provides tips for AI assistants, covering coding conventions, development workflow, and project organization.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"project_structure\"], \"reasoning\": \"This section provides tips for AI assistants, covering coding conventions, development workflow, and project organization.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Tips for AI Assistants",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides coding conventions (coding_style), workflow advice (workflow_process), and hints on project layout and module usage (project_structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides coding conventions (coding_style), workflow advice (workflow_process), and hints on project layout and module usage (project_structure).\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Tips for AI Assistants",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on coding style, project structure, and workflow processes, such as checking submodules, generating sources, installing packages, respecting checkstyle, following module patterns, testing, and documenting.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on coding style, project structure, and workflow processes, such as checking submodules, generating sources, installing packages, respecting checkstyle, following module patterns, testing, and documenting.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md - AI Assistant Guide for Apache SkyWalking",
+      "level": 1,
+      "char_count": 90,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "CLAUDE.md - AI Assistant Guide for Apache SkyWalking",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section introduces a guide for AI assistants, indicating it primarily belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section introduces a guide for AI assistants, indicating it primarily belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "CLAUDE.md - AI Assistant Guide for Apache SkyWalking",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces a guide specifically for AI assistants, implying rules or directives for their operation within the project.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces a guide specifically for AI assistants, implying rules or directives for their operation within the project.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "CLAUDE.md - AI Assistant Guide for Apache SkyWalking",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as a guide for AI assistants, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as a guide for AI assistants, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 289,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides a high-level introduction to the project, describing its purpose and functionality, which relates to project structure, and also hints at the project's evolution context by mentioning its design for specific architectures.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides a high-level introduction to the project, describing its purpose and functionality, which relates to project structure, and also hints at the project's evolution context by mentioning its design for specific architectures.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project, which aligns with project structure as it sets the context for how the project is organized in terms of its capabilities and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project, which aligns with project structure as it sets the context for how the project is organized in terms of its capabilities and architecture.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall design and capabilities of the system, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the overall design and capabilities of the system, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repository Structure",
+      "level": 2,
+      "char_count": 1843,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Repository Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the Skywalking repository, making project_structure the dominant category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the Skywalking repository, making project_structure the dominant category.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Repository Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key components of the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key components of the repository.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Repository Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Module System",
+      "level": 3,
+      "char_count": 591,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Module System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the module system and provider architecture of SkyWalking, focusing on design patterns and component boundaries.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the module system and provider architecture of SkyWalking, focusing on design patterns and component boundaries.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Module System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the custom module/provider architecture, key components, and their interactions, which is central to the system's design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the custom module/provider architecture, key components, and their interactions, which is central to the system's design.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Module System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the custom module/provider architecture of the project, which falls under the 'architecture' category, and also explains the directory layout and key files, which falls under the 'project_structure' category.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the custom module/provider architecture of the project, which falls under the 'architecture' category, and also explains the directory layout and key files, which falls under the 'project_structure' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Concepts",
+      "level": 3,
+      "char_count": 406,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Core Concepts",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key concepts and components of the Skywalking system, which is indicative of architectural design and module roles.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key concepts and components of the Skywalking system, which is indicative of architectural design and module roles.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Core Concepts",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines key architectural components and their roles within the project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines key architectural components and their roles within the project.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Core Concepts",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the roles and definitions of various components in the system, which aligns with the 'architecture' category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the roles and definitions of various components in the system, which aligns with the 'architecture' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Data Flow",
+      "level": 3,
+      "char_count": 227,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Data Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the high-level data processing pipeline and component interactions, which is a key aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the high-level data processing pipeline and component interactions, which is a key aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Data Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the high-level data processing pipeline and component interactions, which is central to the system's architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the high-level data processing pipeline and component interactions, which is central to the system's architectural design.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Data Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the roles and dependencies of different components in the data flow, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the roles and dependencies of different components in the data flow, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Checkstyle Rules (enforced via `apm-checkstyle/checkStyle.xml`)",
+      "level": 3,
+      "char_count": 1274,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Checkstyle Rules (enforced via `apm-checkstyle/checkStyle.xml`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes coding conventions, formatting rules, and linting guidelines for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily describes coding conventions, formatting rules, and linting guidelines for the project.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Checkstyle Rules (enforced via `apm-checkstyle/checkStyle.xml`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively details coding conventions, formatting rules, and style enforcements, which are core aspects of coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively details coding conventions, formatting rules, and style enforcements, which are core aspects of coding_style.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Checkstyle Rules (enforced via `apm-checkstyle/checkStyle.xml`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding style rules, including prohibited and required patterns, naming conventions, file limits, and whitespace usage.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding style rules, including prohibited and required patterns, naming conventions, file limits, and whitespace usage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style (via `codeStyle.xml` for IntelliJ IDEA)",
+      "level": 3,
+      "char_count": 574,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Code Style (via `codeStyle.xml` for IntelliJ IDEA)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses code formatting, indentation, and import order, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses code formatting, indentation, and import order, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Code Style (via `codeStyle.xml` for IntelliJ IDEA)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly outlines coding conventions for indentation, imports, formatting, and general coding practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly outlines coding conventions for indentation, imports, formatting, and general coding practices.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Code Style (via `codeStyle.xml` for IntelliJ IDEA)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides detailed guidelines on code style, including indentation, imports, formatting, and general practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides detailed guidelines on code style, including indentation, imports, formatting, and general practices.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "License Header",
+      "level": 3,
+      "char_count": 186,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "License Header",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes the requirement for including a specific license header in certain file types, which relates to coding conventions and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes the requirement for including a specific license header in certain file types, which relates to coding conventions and formatting.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "License Header",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a formatting requirement (license header) for specific file types, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a formatting requirement (license header) for specific file types, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "License Header",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on including license headers in code files, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on including license headers in code files, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "JDK 11 Compatibility",
+      "level": 3,
+      "char_count": 994,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "JDK 11 Compatibility",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses JDK 11 compatibility, prohibited and allowed Java features, and verification commands, which all relate to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses JDK 11 compatibility, prohibited and allowed Java features, and verification commands, which all relate to coding style and conventions.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "JDK 11 Compatibility",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on Java language feature compatibility and restrictions for JDK 11, guiding coding practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on Java language feature compatibility and restrictions for JDK 11, guiding coding practices.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "JDK 11 Compatibility",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines coding style guidelines for JDK compatibility and lists allowed and prohibited Java features, which also impacts the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section outlines coding style guidelines for JDK compatibility and lists allowed and prohibited Java features, which also impacts the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check for switch expressions (should return no matches)",
+      "level": 1,
+      "char_count": 44,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for switch expressions (should return no matches)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on a specific coding convention, namely checking for switch expressions in Java files using a grep command.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on a specific coding convention, namely checking for switch expressions in Java files using a grep command.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for switch expressions (should return no matches)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command to search for a specific Java syntax pattern, implying a coding style check.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command to search for a specific Java syntax pattern, implying a coding style check.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for switch expressions (should return no matches)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command to check for a specific coding style in Java files.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command to check for a specific coding style in Java files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check for Stream.toList() (should return no matches)",
+      "level": 1,
+      "char_count": 44,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for Stream.toList() (should return no matches)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on enforcing a specific coding convention by checking for the use of Stream.toList() in Java files.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on enforcing a specific coding convention by checking for the use of Stream.toList() in Java files.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for Stream.toList() (should return no matches)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command to search for a specific coding pattern (.toList() in Java files), implying a coding style or convention check.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command to search for a specific coding pattern (.toList() in Java files), implying a coding style or convention check.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for Stream.toList() (should return no matches)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for checking code, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for checking code, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check for text blocks (should return no matches)",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for text blocks (should return no matches)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is about checking for specific text blocks in Java files, which relates to coding conventions and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is about checking for specific text blocks in Java files, which relates to coding conventions and formatting.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for text blocks (should return no matches)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section contains a command to search for specific text blocks (triple quotes) in Java files, implying a check for a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section contains a command to search for specific text blocks (triple quotes) in Java files, implying a check for a coding style convention.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Check for text blocks (should return no matches)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command to check for coding style violations related to text blocks in Java files.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command to check for coding style violations related to text blocks in Java files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Git Submodules",
+      "level": 2,
+      "char_count": 435,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Git Submodules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the use of Git submodules in the project, which relates to the directory layout and key files, indicating a dominant content of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the use of Git submodules in the project, which relates to the directory layout and key files, indicating a dominant content of project structure.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Git Submodules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the use and configuration of Git submodules, which pertains to how the project's components are organized and managed within its repository structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the use and configuration of Git submodules, which pertains to how the project's components are organized and managed within its repository structure.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Git Submodules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project's directory layout and key files, as well as a coding style tool usage for submodules.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the project's directory layout and key files, as well as a coding style tool usage for submodules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Files for Understanding the Codebase",
+      "level": 2,
+      "char_count": 392,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Key Files for Understanding the Codebase",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key files and directories in the codebase, indicating project structure, and also touches on architecture by mentioning core modules and grammar definitions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key files and directories in the codebase, indicating project structure, and also touches on architecture by mentioning core modules and grammar definitions.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Key Files for Understanding the Codebase",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key files indicating where core components and architecture docs live, relating to both project layout and system design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key files indicating where core components and architecture docs live, relating to both project layout and system design.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Key Files for Understanding the Codebase",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section lists key files and directories that define the project structure and provide insight into the architecture of the codebase.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section lists key files and directories that define the project structure and provide insight into the architecture of the codebase.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New Receiver Plugin",
+      "level": 3,
+      "char_count": 180,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Receiver Plugin",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the process of adding a new plugin, which involves creating a module in a specific directory and implementing certain interfaces, indicating both project structure and architectural considerations.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the process of adding a new plugin, which involves creating a module in a specific directory and implementing certain interfaces, indicating both project structure and architectural considerations.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Receiver Plugin",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes creating a module within a specific directory (project_structure) and implementing specific architectural components (ModuleDefine, ModuleProvider, SPI registration) for plugin integration (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes creating a module within a specific directory (project_structure) and implementing specific architectural components (ModuleDefine, ModuleProvider, SPI registration) for plugin integration (architecture).\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Receiver Plugin",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes where to add a new plugin (project_structure) and how to implement and register it (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes where to add a new plugin (project_structure) and how to implement and register it (architecture).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New Storage Plugin",
+      "level": 3,
+      "char_count": 156,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Storage Plugin",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the process of adding a new storage plugin, which involves creating a module in a specific directory and implementing specific DAOs, indicating both project structure and architectural considerations.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the process of adding a new storage plugin, which involves creating a module in a specific directory and implementing specific DAOs, indicating both project structure and architectural considerations.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Storage Plugin",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes creating a module in a specific directory (project_structure) and implementing logic following existing patterns (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes creating a module in a specific directory (project_structure) and implementing logic following existing patterns (architecture).\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Adding a New Storage Plugin",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidance on where to create a new module and how to implement storage DAOs, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides guidance on where to create a new module and how to implement storage DAOs, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Modifying OAL Metrics",
+      "level": 3,
+      "char_count": 148,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Modifying OAL Metrics",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes modifying specific files in a particular directory and regenerating the project, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes modifying specific files in a particular directory and regenerating the project, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Modifying OAL Metrics",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific location within the project structure and outlines a step-by-step workflow process for modification and regeneration.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a specific location within the project structure and outlines a step-by-step workflow process for modification and regeneration.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Modifying OAL Metrics",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides information on where to find specific files in the project structure and how to modify them, which also relates to the architecture of the system.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides information on where to find specific files in the project structure and how to modify them, which also relates to the architecture of the system.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "MAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+      "level": 3,
+      "char_count": 120,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "MAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files within the repository, specifically the location of MAL scripts.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files within the repository, specifically the location of MAL scripts.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "MAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location and purpose of specific directories within the repository, indicating directory layout and where certain types of files live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location and purpose of specific directories within the repository, indicating directory layout and where certain types of files live.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "MAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of MAL scripts in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of MAL scripts in the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "LAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+      "level": 3,
+      "char_count": 80,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "LAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files within the repository, specifically the location of LAL scripts.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files within the repository, specifically the location of LAL scripts.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "LAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location and purpose of specific directories within the repository, indicating how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location and purpose of specific directories within the repository, indicating how the project is structured.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "LAL Scripts (in `oap-server/server-starter/src/main/resources/`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files in the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation (in `docs/en/`, structure defined in `docs/menu.yml`)",
+      "level": 2,
+      "char_count": 362,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Documentation (in `docs/en/`, structure defined in `docs/menu.yml`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the directory layout and key files of the documentation, defining where different types of documents live within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section primarily describes the directory layout and key files of the documentation, defining where different types of documents live within the project.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Documentation (in `docs/en/`, structure defined in `docs/menu.yml`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and content of the documentation, fitting best with project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and content of the documentation, fitting best with project structure.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Documentation (in `docs/en/`, structure defined in `docs/menu.yml`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout of the project's documentation and includes architecture-related concepts and designs.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout of the project's documentation and includes architecture-related concepts and designs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Submitting Pull Requests",
+      "level": 2,
+      "char_count": 204,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Submitting Pull Requests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the process of submitting pull requests, including pre-flight checks for compile, checkstyle, and license headers, which relates to both workflow process and coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes the process of submitting pull requests, including pre-flight checks for compile, checkstyle, and license headers, which relates to both workflow process and coding style.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Submitting Pull Requests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow for submitting pull requests, including automated checks and PR creation.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow for submitting pull requests, including automated checks and PR creation.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Submitting Pull Requests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for submitting pull requests, including pre-flight checks and PR creation.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for submitting pull requests, including pre-flight checks and PR creation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tips for AI Assistants",
+      "level": 2,
+      "char_count": 1119,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Tips for AI Assistants",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section provides tips for AI assistants, covering coding conventions, development workflow, and project organization.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"project_structure\"], \"reasoning\": \"This section provides tips for AI assistants, covering coding conventions, development workflow, and project organization.\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Tips for AI Assistants",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides coding conventions (coding_style), workflow advice (workflow_process), and hints on project layout and module usage (project_structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides coding conventions (coding_style), workflow advice (workflow_process), and hints on project layout and module usage (project_structure).\"}"
+        },
+        {
+          "repo": "apache/skywalking",
+          "section_heading": "Tips for AI Assistants",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on coding style, project structure, and workflow processes, such as checking submodules, generating sources, installing packages, respecting checkstyle, following module patterns, testing, and documenting.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on coding style, project structure, and workflow processes, such as checking submodules, generating sources, installing packages, respecting checkstyle, following module patterns, testing, and documenting.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.34782608695652173,
+    "project_structure": 0.4782608695652174,
+    "workflow_process": 0.13043478260869565,
+    "architecture": 0.2608695652173913,
+    "evolution_context": 0.0,
+    "agent_rules": 0.043478260869565216
+  },
+  "category_char_fraction": {
+    "coding_style": 0.43637105827125217,
+    "project_structure": 0.5229105010715379,
+    "workflow_process": 0.1501173589141749,
+    "architecture": 0.1992040004082049,
+    "evolution_context": 0.0,
+    "agent_rules": 0.009184610674558629
+  }
+}

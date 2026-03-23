@@ -1,0 +1,538 @@
+{
+  "repo": "cypress-io__cypress",
+  "full_name": "cypress-io/cypress",
+  "n_sections": 6,
+  "n_chars": 1463,
+  "sections": [
+    {
+      "heading": "1. Plan Mode Default",
+      "level": 3,
+      "char_count": 269,
+      "voted_categories": [
+        "agent_rules",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "1. Plan Mode Default",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses plan mode defaults and task management, which relates to both agent rules and workflow processes.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"workflow_process\"], \"reasoning\": \"This section discusses plan mode defaults and task management, which relates to both agent rules and workflow processes.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "1. Plan Mode Default",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines a workflow process for task management and specifies a directive for using 'plan mode', which relates to agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines a workflow process for task management and specifies a directive for using 'plan mode', which relates to agent rules.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "1. Plan Mode Default",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for using plan mode and writing specifications, which are AI-specific directives and workflow processes.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for using plan mode and writing specifications, which are AI-specific directives and workflow processes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Subagent Strategy",
+      "level": 3,
+      "char_count": 236,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "2. Subagent Strategy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section discusses the strategy for using subagents, which is a directive specific to the AI agent Claude.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section discusses the strategy for using subagents, which is a directive specific to the AI agent Claude.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "2. Subagent Strategy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines the strategy for utilizing subagents, which directly relates to AI-specific directives within the agent's plan mode.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section outlines the strategy for utilizing subagents, which directly relates to AI-specific directives within the agent's plan mode.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "2. Subagent Strategy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section primarily discusses the strategy for using subagents, which falls under the 'agent_rules' category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section primarily discusses the strategy for using subagents, which falls under the 'agent_rules' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Self-Improvement Loop",
+      "level": 3,
+      "char_count": 139,
+      "voted_categories": [
+        "agent_rules",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "3. Self-Improvement Loop",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses updating CLAUDE.md files and writing rules to prevent mistakes, which relates to both AI-specific directives and project evolution context.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"evolution_context\"], \"reasoning\": \"This section discusses updating CLAUDE.md files and writing rules to prevent mistakes, which relates to both AI-specific directives and project evolution context.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "3. Self-Improvement Loop",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines a process (updating CLAUDE.md after corrections) and defines self-imposed rules for the AI agent (preventing mistakes), aligning with both workflow and agent rule categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines a process (updating CLAUDE.md after corrections) and defines self-imposed rules for the AI agent (preventing mistakes), aligning with both workflow and agent rule categories.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "3. Self-Improvement Loop",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes a workflow process for updating relevant files after user correction and writing rules to prevent the same mistake, which also involves agent rules for self-improvement.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section describes a workflow process for updating relevant files after user correction and writing rules to prevent the same mistake, which also involves agent rules for self-improvement.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. Verification Before Done",
+      "level": 3,
+      "char_count": 231,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "4. Verification Before Done",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines guidelines for verifying task completion, which falls under workflow processes and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines guidelines for verifying task completion, which falls under workflow processes and testing requirements.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "4. Verification Before Done",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and guidelines for task completion and verification, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and guidelines for task completion and verification, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "4. Verification Before Done",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for verifying task completion, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for verifying task completion, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "5. Demand Elegance (Balanced)",
+      "level": 3,
+      "char_count": 266,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "5. Demand Elegance (Balanced)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses the approach to implementing changes and evaluating the elegance of solutions, which relates to workflow processes and the evolution context of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses the approach to implementing changes and evaluating the elegance of solutions, which relates to workflow processes and the evolution context of the project.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "5. Demand Elegance (Balanced)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a process for reviewing and refining code changes before implementation or review, which relates to workflow and development practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a process for reviewing and refining code changes before implementation or review, which relates to workflow and development practices.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "5. Demand Elegance (Balanced)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines for code implementation and workflow process, emphasizing elegance and avoiding over-engineering.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides guidelines for code implementation and workflow process, emphasizing elegance and avoiding over-engineering.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Principles",
+      "level": 2,
+      "char_count": 101,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "Core Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section outlines a core principle guiding changes in the repository, which relates to both the workflow process of making minimal impact changes and the evolution context of avoiding introducing bugs and technical debt.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section outlines a core principle guiding changes in the repository, which relates to both the workflow process of making minimal impact changes and the evolution context of avoiding introducing bugs and technical debt.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "Core Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a guiding principle for making changes, which influences the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a guiding principle for making changes, which influences the workflow and development process.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "Core Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines a principle for making changes that impacts both the workflow process and the architecture of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a principle for making changes that impacts both the workflow process and the architecture of the project.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "1. Plan Mode Default",
+      "level": 3,
+      "char_count": 269,
+      "voted_categories": [
+        "agent_rules",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "1. Plan Mode Default",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses plan mode defaults and task management, which relates to both agent rules and workflow processes.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"workflow_process\"], \"reasoning\": \"This section discusses plan mode defaults and task management, which relates to both agent rules and workflow processes.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "1. Plan Mode Default",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines a workflow process for task management and specifies a directive for using 'plan mode', which relates to agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines a workflow process for task management and specifies a directive for using 'plan mode', which relates to agent rules.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "1. Plan Mode Default",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for using plan mode and writing specifications, which are AI-specific directives and workflow processes.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for using plan mode and writing specifications, which are AI-specific directives and workflow processes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Subagent Strategy",
+      "level": 3,
+      "char_count": 236,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "2. Subagent Strategy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section discusses the strategy for using subagents, which is a directive specific to the AI agent Claude.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section discusses the strategy for using subagents, which is a directive specific to the AI agent Claude.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "2. Subagent Strategy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines the strategy for utilizing subagents, which directly relates to AI-specific directives within the agent's plan mode.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section outlines the strategy for utilizing subagents, which directly relates to AI-specific directives within the agent's plan mode.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "2. Subagent Strategy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section primarily discusses the strategy for using subagents, which falls under the 'agent_rules' category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section primarily discusses the strategy for using subagents, which falls under the 'agent_rules' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Self-Improvement Loop",
+      "level": 3,
+      "char_count": 139,
+      "voted_categories": [
+        "agent_rules",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "3. Self-Improvement Loop",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses updating CLAUDE.md files and writing rules to prevent mistakes, which relates to both AI-specific directives and project evolution context.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"evolution_context\"], \"reasoning\": \"This section discusses updating CLAUDE.md files and writing rules to prevent mistakes, which relates to both AI-specific directives and project evolution context.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "3. Self-Improvement Loop",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines a process (updating CLAUDE.md after corrections) and defines self-imposed rules for the AI agent (preventing mistakes), aligning with both workflow and agent rule categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines a process (updating CLAUDE.md after corrections) and defines self-imposed rules for the AI agent (preventing mistakes), aligning with both workflow and agent rule categories.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "3. Self-Improvement Loop",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes a workflow process for updating relevant files after user correction and writing rules to prevent the same mistake, which also involves agent rules for self-improvement.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section describes a workflow process for updating relevant files after user correction and writing rules to prevent the same mistake, which also involves agent rules for self-improvement.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. Verification Before Done",
+      "level": 3,
+      "char_count": 231,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "4. Verification Before Done",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines guidelines for verifying task completion, which falls under workflow processes and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines guidelines for verifying task completion, which falls under workflow processes and testing requirements.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "4. Verification Before Done",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and guidelines for task completion and verification, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and guidelines for task completion and verification, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "4. Verification Before Done",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for verifying task completion, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for verifying task completion, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "5. Demand Elegance (Balanced)",
+      "level": 3,
+      "char_count": 266,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "5. Demand Elegance (Balanced)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses the approach to implementing changes and evaluating the elegance of solutions, which relates to workflow processes and the evolution context of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses the approach to implementing changes and evaluating the elegance of solutions, which relates to workflow processes and the evolution context of the project.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "5. Demand Elegance (Balanced)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a process for reviewing and refining code changes before implementation or review, which relates to workflow and development practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a process for reviewing and refining code changes before implementation or review, which relates to workflow and development practices.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "5. Demand Elegance (Balanced)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines for code implementation and workflow process, emphasizing elegance and avoiding over-engineering.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides guidelines for code implementation and workflow process, emphasizing elegance and avoiding over-engineering.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Principles",
+      "level": 2,
+      "char_count": 101,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "Core Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section outlines a core principle guiding changes in the repository, which relates to both the workflow process of making minimal impact changes and the evolution context of avoiding introducing bugs and technical debt.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section outlines a core principle guiding changes in the repository, which relates to both the workflow process of making minimal impact changes and the evolution context of avoiding introducing bugs and technical debt.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "Core Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a guiding principle for making changes, which influences the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a guiding principle for making changes, which influences the workflow and development process.\"}"
+        },
+        {
+          "repo": "cypress-io/cypress",
+          "section_heading": "Core Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines a principle for making changes that impacts both the workflow process and the architecture of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a principle for making changes that impacts both the workflow process and the architecture of the project.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": false,
+    "project_structure": false,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.0,
+    "workflow_process": 0.8333333333333334,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.5
+  },
+  "category_char_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.0,
+    "workflow_process": 0.8099838969404187,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.5185185185185185
+  }
+}

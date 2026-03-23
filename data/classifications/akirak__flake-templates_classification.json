@@ -1,0 +1,956 @@
+{
+  "repo": "akirak__flake-templates",
+  "full_name": "akirak/flake-templates",
+  "n_sections": 11,
+  "n_chars": 3301,
+  "sections": [
+    {
+      "heading": "AGENT.md",
+      "level": 1,
+      "char_count": 87,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "AGENT.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance to coding agents, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance to coding agents, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "AGENT.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for coding agents, which falls under AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for coding agents, which falls under AI-specific directives.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "AGENT.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance to coding agents, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance to coding agents, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repository Overview",
+      "level": 2,
+      "char_count": 240,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Repository Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides a high-level description of the repository's purpose and content, which is most relevant to the project structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides a high-level description of the repository's purpose and content, which is most relevant to the project structure category.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Repository Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes the repository's purpose and content structure, which relates to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes the repository's purpose and content structure, which relates to how the project is organized.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Repository Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the overall structure of the repository and mentions language-specific tooling, formatters, and linters.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the overall structure of the repository and mentions language-specific tooling, formatters, and linters.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture",
+      "level": 2,
+      "char_count": 338,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the repository, which relates to project structure, and also outlines the roles of different parts, fitting into architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key components of the repository, which relates to project structure, and also outlines the roles of different parts, fitting into architecture.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes both the overall directory layout (project_structure) and the roles of key components (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes both the overall directory layout (project_structure) and the roles of key components (architecture).\" }"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the layout of the project's directories and the role of each directory, which falls under project_structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the layout of the project's directories and the role of each directory, which falls under project_structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Template Categories",
+      "level": 3,
+      "char_count": 398,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Categories",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the organization and categorization of templates within the repository, which relates to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the organization and categorization of templates within the repository, which relates to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Categories",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines different template categories which imply how projects might be structured based on the template chosen.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines different template categories which imply how projects might be structured based on the template chosen.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Categories",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists directory layout and key files for different types of projects.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists directory layout and key files for different types of projects.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Initialize a project with a template",
+      "level": 1,
+      "char_count": 63,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Initialize a project with a template",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section belongs to both project_structure and workflow_process as it describes the initial setup of a project using a template and a specific command to initialize the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section belongs to both project_structure and workflow_process as it describes the initial setup of a project using a template and a specific command to initialize the project.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Initialize a project with a template",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command to initialize a project's structure using a template.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a command to initialize a project's structure using a template.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Initialize a project with a template",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command to initialize a project with a specific template, which is related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a command to initialize a project with a specific template, which is related to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "For documentation work",
+      "level": 1,
+      "char_count": 25,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "For documentation work",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command to navigate to the documentation directory and start a development environment, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a specific command to navigate to the documentation directory and start a development environment, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "For documentation work",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for setting up a development environment for documentation work.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for setting up a development environment for documentation work.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "For documentation work",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command for navigating to the documentation directory and starting a development environment, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a command for navigating to the documentation directory and starting a development environment, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Design Principles",
+      "level": 2,
+      "char_count": 339,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Key Design Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section outlines the fundamental design principles guiding the structure and organization of the project, including assumptions about dependencies and the role of templates, which relates to both architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section outlines the fundamental design principles guiding the structure and organization of the project, including assumptions about dependencies and the role of templates, which relates to both architecture and project structure.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Key Design Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Outlines foundational design choices (architecture) and how project elements are structured to work together (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Outlines foundational design choices (architecture) and how project elements are structured to work together (project_structure).\" }"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Key Design Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section outlines design principles for the project structure and architecture, including dependency management and the use of specific tools.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines design principles for the project structure and architecture, including dependency management and the use of specific tools.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Template Structure Patterns",
+      "level": 2,
+      "char_count": 311,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Structure Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the template repository, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the template repository, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Structure Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes the layout and key files of the template repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes the layout and key files of the template repository.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Structure Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the directory layout and key files, which is project structure, and also mentions language-specific config files, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the directory layout and key files, which is project structure, and also mentions language-specific config files, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Special Templates",
+      "level": 2,
+      "char_count": 361,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Special Templates",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes special templates for different programming languages and frameworks, indicating both project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes special templates for different programming languages and frameworks, indicating both project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Special Templates",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific project setups with integrated tools and dependencies, implying directory and configuration layouts.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific project setups with integrated tools and dependencies, implying directory and configuration layouts.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Special Templates",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes specific project setups with different languages and tools, which relates to project structure, and also mentions formatter configuration, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes specific project setups with different languages and tools, which relates to project structure, and also mentions formatter configuration, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Templates",
+      "level": 2,
+      "char_count": 232,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Testing Templates",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes testing procedures and tool usage for template modification, which relates to workflow processes and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes testing procedures and tool usage for template modification, which relates to workflow processes and coding style guidelines.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Testing Templates",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step testing process for template modifications, which relates to workflow and development practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step testing process for template modifications, which relates to workflow and development practices.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Testing Templates",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for testing templates, which involves code formatting and linting, as well as a workflow process for testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for testing templates, which involves code formatting and linting, as well as a workflow process for testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation",
+      "level": 2,
+      "char_count": 110,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section discusses the organization and linking of documentation within the project, which relates to the directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section discusses the organization and linking of documentation within the project, which relates to the directory layout and key files.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section discusses documentation organization and linking within a specific project directory (`/doc/`), which pertains to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section discusses documentation organization and linking within a specific project directory (`/doc/`), which pertains to how the project is structured.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the specifics of project documentation and its linking, which falls under project_structure and coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses the specifics of project documentation and its linking, which falls under project_structure and coding_style.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "AGENT.md",
+      "level": 1,
+      "char_count": 87,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "AGENT.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance to coding agents, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance to coding agents, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "AGENT.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for coding agents, which falls under AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for coding agents, which falls under AI-specific directives.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "AGENT.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance to coding agents, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance to coding agents, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repository Overview",
+      "level": 2,
+      "char_count": 240,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Repository Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides a high-level description of the repository's purpose and content, which is most relevant to the project structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides a high-level description of the repository's purpose and content, which is most relevant to the project structure category.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Repository Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes the repository's purpose and content structure, which relates to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes the repository's purpose and content structure, which relates to how the project is organized.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Repository Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the overall structure of the repository and mentions language-specific tooling, formatters, and linters.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the overall structure of the repository and mentions language-specific tooling, formatters, and linters.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture",
+      "level": 2,
+      "char_count": 338,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the repository, which relates to project structure, and also outlines the roles of different parts, fitting into architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key components of the repository, which relates to project structure, and also outlines the roles of different parts, fitting into architecture.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes both the overall directory layout (project_structure) and the roles of key components (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes both the overall directory layout (project_structure) and the roles of key components (architecture).\" }"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the layout of the project's directories and the role of each directory, which falls under project_structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the layout of the project's directories and the role of each directory, which falls under project_structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Template Categories",
+      "level": 3,
+      "char_count": 398,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Categories",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the organization and categorization of templates within the repository, which relates to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the organization and categorization of templates within the repository, which relates to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Categories",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines different template categories which imply how projects might be structured based on the template chosen.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines different template categories which imply how projects might be structured based on the template chosen.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Categories",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists directory layout and key files for different types of projects.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists directory layout and key files for different types of projects.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Initialize a project with a template",
+      "level": 1,
+      "char_count": 63,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Initialize a project with a template",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section belongs to both project_structure and workflow_process as it describes the initial setup of a project using a template and a specific command to initialize the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section belongs to both project_structure and workflow_process as it describes the initial setup of a project using a template and a specific command to initialize the project.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Initialize a project with a template",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command to initialize a project's structure using a template.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a command to initialize a project's structure using a template.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Initialize a project with a template",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command to initialize a project with a specific template, which is related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a command to initialize a project with a specific template, which is related to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "For documentation work",
+      "level": 1,
+      "char_count": 25,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "For documentation work",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command to navigate to the documentation directory and start a development environment, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a specific command to navigate to the documentation directory and start a development environment, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "For documentation work",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for setting up a development environment for documentation work.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for setting up a development environment for documentation work.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "For documentation work",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command for navigating to the documentation directory and starting a development environment, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a command for navigating to the documentation directory and starting a development environment, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Design Principles",
+      "level": 2,
+      "char_count": 339,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Key Design Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section outlines the fundamental design principles guiding the structure and organization of the project, including assumptions about dependencies and the role of templates, which relates to both architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section outlines the fundamental design principles guiding the structure and organization of the project, including assumptions about dependencies and the role of templates, which relates to both architecture and project structure.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Key Design Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Outlines foundational design choices (architecture) and how project elements are structured to work together (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Outlines foundational design choices (architecture) and how project elements are structured to work together (project_structure).\" }"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Key Design Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section outlines design principles for the project structure and architecture, including dependency management and the use of specific tools.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines design principles for the project structure and architecture, including dependency management and the use of specific tools.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Template Structure Patterns",
+      "level": 2,
+      "char_count": 311,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Structure Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the template repository, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the template repository, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Structure Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes the layout and key files of the template repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes the layout and key files of the template repository.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Template Structure Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the directory layout and key files, which is project structure, and also mentions language-specific config files, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the directory layout and key files, which is project structure, and also mentions language-specific config files, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Special Templates",
+      "level": 2,
+      "char_count": 361,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Special Templates",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes special templates for different programming languages and frameworks, indicating both project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes special templates for different programming languages and frameworks, indicating both project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Special Templates",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific project setups with integrated tools and dependencies, implying directory and configuration layouts.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific project setups with integrated tools and dependencies, implying directory and configuration layouts.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Special Templates",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes specific project setups with different languages and tools, which relates to project structure, and also mentions formatter configuration, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes specific project setups with different languages and tools, which relates to project structure, and also mentions formatter configuration, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Templates",
+      "level": 2,
+      "char_count": 232,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Testing Templates",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes testing procedures and tool usage for template modification, which relates to workflow processes and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes testing procedures and tool usage for template modification, which relates to workflow processes and coding style guidelines.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Testing Templates",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step testing process for template modifications, which relates to workflow and development practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step testing process for template modifications, which relates to workflow and development practices.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Testing Templates",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for testing templates, which involves code formatting and linting, as well as a workflow process for testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for testing templates, which involves code formatting and linting, as well as a workflow process for testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation",
+      "level": 2,
+      "char_count": 110,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section discusses the organization and linking of documentation within the project, which relates to the directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section discusses the organization and linking of documentation within the project, which relates to the directory layout and key files.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section discusses documentation organization and linking within a specific project directory (`/doc/`), which pertains to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section discusses documentation organization and linking within a specific project directory (`/doc/`), which pertains to how the project is structured.\"}"
+        },
+        {
+          "repo": "akirak/flake-templates",
+          "section_heading": "Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the specifics of project documentation and its linking, which falls under project_structure and coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses the specifics of project documentation and its linking, which falls under project_structure and coding_style.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.18181818181818182,
+    "project_structure": 0.8181818181818182,
+    "workflow_process": 0.18181818181818182,
+    "architecture": 0.18181818181818182,
+    "evolution_context": 0.0,
+    "agent_rules": 0.09090909090909091
+  },
+  "category_char_fraction": {
+    "coding_style": 0.23682108626198084,
+    "project_structure": 0.8726038338658147,
+    "workflow_process": 0.10263578274760383,
+    "architecture": 0.2703674121405751,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0347444089456869
+  }
+}

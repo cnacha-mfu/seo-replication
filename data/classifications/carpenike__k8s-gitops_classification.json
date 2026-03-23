@@ -1,0 +1,874 @@
+{
+  "repo": "carpenike__k8s-gitops",
+  "full_name": "carpenike/k8s-gitops",
+  "n_sections": 10,
+  "n_chars": 3367,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Architecture",
+      "level": 2,
+      "char_count": 222,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Project Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the overall design and organization of the project, including its hierarchical pattern and use of specific tools, which relates to both architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the overall design and organization of the project, including its hierarchical pattern and use of specific tools, which relates to both architecture and project structure.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Project Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explicitly describes the project's architectural design and technology stack.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes the project's architectural design and technology stack.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Project Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall design pattern and component boundaries of the project, which aligns with the 'architecture' category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the overall design pattern and component boundaries of the project, which aligns with the 'architecture' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Directory Structure",
+      "level": 3,
+      "char_count": 194,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Directory Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the key directory layout and the purpose of each directory, which is a clear indication of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the key directory layout and the purpose of each directory, which is a clear indication of project structure.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Directory Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the key directories and their purposes within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the key directories and their purposes within the project.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Directory Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the key directories in the project, which falls under the project_structure category.",
+          "raw_response": "{\n  \"categories\": [\"project_structure\"],\n  \"reasoning\": \"The section describes the key directories in the project, which falls under the project_structure category.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Application Deployment Pattern",
+      "level": 3,
+      "char_count": 397,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Application Deployment Pattern",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the standardized directory layout and key files for application deployment, which relates to project structure, and also touches on component boundaries and design patterns, relevant to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the standardized directory layout and key files for application deployment, which relates to project structure, and also touches on component boundaries and design patterns, relevant to architecture.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Application Deployment Pattern",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a standardized directory layout for applications, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a standardized directory layout for applications, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Application Deployment Pattern",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the standardized directory structure for applications, which falls under project_structure, and also outlines the roles of different components, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the standardized directory structure for applications, which falls under project_structure, and also outlines the roles of different components, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Task Automation (using `task` command)",
+      "level": 3,
+      "char_count": 1002,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Task Automation (using `task` command)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes automated tasks and commands for managing and validating Kubernetes and Flux operations, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes automated tasks and commands for managing and validating Kubernetes and Flux operations, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Task Automation (using `task` command)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and tasks for automating various operations within the project's workflow, such as syncing, validating, and managing resources, which directly relates to the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and tasks for automating various operations within the project's workflow, such as syncing, validating, and managing resources, which directly relates to the workflow process category.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Task Automation (using `task` command)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a list of command line tasks for automating operations, which falls under coding style and workflow process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a list of command line tasks for automating operations, which falls under coding style and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Validation and Linting",
+      "level": 3,
+      "char_count": 271,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Validation and Linting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses validation and linting tools and processes, which relates to coding style, and also mentions CI and manual validation tasks, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses validation and linting tools and processes, which relates to coding style, and also mentions CI and manual validation tasks, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Validation and Linting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses linting and validation tools (coding_style) and their integration into CI (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses linting and validation tools (coding_style) and their integration into CI (workflow_process).\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Validation and Linting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the use of specific tools for linting and validation, which falls under coding_style, and also outlines the CI process for these tools, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes the use of specific tools for linting and validation, which falls under coding_style, and also outlines the CI process for these tools, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security and Secrets",
+      "level": 2,
+      "char_count": 196,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Security and Secrets",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses security practices and secret management, which relates to workflow processes and project structure guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses security practices and secret management, which relates to workflow processes and project structure guidelines.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Security and Secrets",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific security practices and rules for handling secrets, which relates to workflow and operational processes within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific security practices and rules for handling secrets, which relates to workflow and operational processes within the project.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Security and Secrets",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's structure for handling secrets and the workflow process for managing and securing secrets.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's structure for handling secrets and the workflow process for managing and securing secrets.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "GitOps Workflow",
+      "level": 2,
+      "char_count": 234,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "GitOps Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the GitOps workflow, which includes automation tools and validation processes, primarily belonging to workflow_process, with some relation to project_structure due to the mention of repository synchronization and dependency management.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the GitOps workflow, which includes automation tools and validation processes, primarily belonging to workflow_process, with some relation to project_structure due to the mention of repository synchronization and dependency management.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "GitOps Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific tools and processes for managing and validating changes in the repository, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific tools and processes for managing and validating changes in the repository, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "GitOps Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes a workflow process using FluxCD for automatic syncing and pull request validation, and also touches on the architecture with hierarchical reconciliation and dependency management.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes a workflow process using FluxCD for automatic syncing and pull request validation, and also touches on the architecture with hierarchical reconciliation and dependency management.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Technologies",
+      "level": 2,
+      "char_count": 303,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Technologies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines key technologies used in the project, which relates to project structure, and also describes their roles, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines key technologies used in the project, which relates to project structure, and also describes their roles, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Technologies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Lists key technologies, implying their roles in the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Lists key technologies, implying their roles in the system's architecture.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Technologies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section lists key technologies used in the project, which contributes to the project's structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section lists key technologies used in the project, which contributes to the project's structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Cluster Variables",
+      "level": 2,
+      "char_count": 140,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Cluster Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a key variable and its usage in the project, relating to directory layout and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a key variable and its usage in the project, relating to directory layout and workflow processes.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Cluster Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a variable setting process for working with different clusters, which relates to workflow execution.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a variable setting process for working with different clusters, which relates to workflow execution.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Cluster Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a project variable (project_structure) and provides a code snippet for setting it (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes a project variable (project_structure) and provides a code snippet for setting it (coding_style).\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Architecture",
+      "level": 2,
+      "char_count": 222,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Project Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the overall design and organization of the project, including its hierarchical pattern and use of specific tools, which relates to both architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the overall design and organization of the project, including its hierarchical pattern and use of specific tools, which relates to both architecture and project structure.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Project Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explicitly describes the project's architectural design and technology stack.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes the project's architectural design and technology stack.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Project Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall design pattern and component boundaries of the project, which aligns with the 'architecture' category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the overall design pattern and component boundaries of the project, which aligns with the 'architecture' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Directory Structure",
+      "level": 3,
+      "char_count": 194,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Directory Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the key directory layout and the purpose of each directory, which is a clear indication of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the key directory layout and the purpose of each directory, which is a clear indication of project structure.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Directory Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the key directories and their purposes within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the key directories and their purposes within the project.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Directory Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the key directories in the project, which falls under the project_structure category.",
+          "raw_response": "{\n  \"categories\": [\"project_structure\"],\n  \"reasoning\": \"The section describes the key directories in the project, which falls under the project_structure category.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Application Deployment Pattern",
+      "level": 3,
+      "char_count": 397,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Application Deployment Pattern",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the standardized directory layout and key files for application deployment, which relates to project structure, and also touches on component boundaries and design patterns, relevant to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the standardized directory layout and key files for application deployment, which relates to project structure, and also touches on component boundaries and design patterns, relevant to architecture.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Application Deployment Pattern",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a standardized directory layout for applications, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a standardized directory layout for applications, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Application Deployment Pattern",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the standardized directory structure for applications, which falls under project_structure, and also outlines the roles of different components, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the standardized directory structure for applications, which falls under project_structure, and also outlines the roles of different components, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Task Automation (using `task` command)",
+      "level": 3,
+      "char_count": 1002,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Task Automation (using `task` command)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes automated tasks and commands for managing and validating Kubernetes and Flux operations, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes automated tasks and commands for managing and validating Kubernetes and Flux operations, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Task Automation (using `task` command)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and tasks for automating various operations within the project's workflow, such as syncing, validating, and managing resources, which directly relates to the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and tasks for automating various operations within the project's workflow, such as syncing, validating, and managing resources, which directly relates to the workflow process category.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Task Automation (using `task` command)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a list of command line tasks for automating operations, which falls under coding style and workflow process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a list of command line tasks for automating operations, which falls under coding style and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Validation and Linting",
+      "level": 3,
+      "char_count": 271,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Validation and Linting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses validation and linting tools and processes, which relates to coding style, and also mentions CI and manual validation tasks, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses validation and linting tools and processes, which relates to coding style, and also mentions CI and manual validation tasks, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Validation and Linting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses linting and validation tools (coding_style) and their integration into CI (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses linting and validation tools (coding_style) and their integration into CI (workflow_process).\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Validation and Linting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the use of specific tools for linting and validation, which falls under coding_style, and also outlines the CI process for these tools, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes the use of specific tools for linting and validation, which falls under coding_style, and also outlines the CI process for these tools, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security and Secrets",
+      "level": 2,
+      "char_count": 196,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Security and Secrets",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses security practices and secret management, which relates to workflow processes and project structure guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses security practices and secret management, which relates to workflow processes and project structure guidelines.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Security and Secrets",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific security practices and rules for handling secrets, which relates to workflow and operational processes within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific security practices and rules for handling secrets, which relates to workflow and operational processes within the project.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Security and Secrets",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's structure for handling secrets and the workflow process for managing and securing secrets.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's structure for handling secrets and the workflow process for managing and securing secrets.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "GitOps Workflow",
+      "level": 2,
+      "char_count": 234,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "GitOps Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the GitOps workflow, which includes automation tools and validation processes, primarily belonging to workflow_process, with some relation to project_structure due to the mention of repository synchronization and dependency management.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the GitOps workflow, which includes automation tools and validation processes, primarily belonging to workflow_process, with some relation to project_structure due to the mention of repository synchronization and dependency management.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "GitOps Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific tools and processes for managing and validating changes in the repository, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific tools and processes for managing and validating changes in the repository, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "GitOps Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes a workflow process using FluxCD for automatic syncing and pull request validation, and also touches on the architecture with hierarchical reconciliation and dependency management.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes a workflow process using FluxCD for automatic syncing and pull request validation, and also touches on the architecture with hierarchical reconciliation and dependency management.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Technologies",
+      "level": 2,
+      "char_count": 303,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Technologies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines key technologies used in the project, which relates to project structure, and also describes their roles, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines key technologies used in the project, which relates to project structure, and also describes their roles, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Technologies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Lists key technologies, implying their roles in the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Lists key technologies, implying their roles in the system's architecture.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Key Technologies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section lists key technologies used in the project, which contributes to the project's structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section lists key technologies used in the project, which contributes to the project's structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Cluster Variables",
+      "level": 2,
+      "char_count": 140,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Cluster Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a key variable and its usage in the project, relating to directory layout and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a key variable and its usage in the project, relating to directory layout and workflow processes.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Cluster Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a variable setting process for working with different clusters, which relates to workflow execution.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a variable setting process for working with different clusters, which relates to workflow execution.\"}"
+        },
+        {
+          "repo": "carpenike/k8s-gitops",
+          "section_heading": "Cluster Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a project variable (project_structure) and provides a code snippet for setting it (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes a project variable (project_structure) and provides a code snippet for setting it (coding_style).\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.1,
+    "project_structure": 0.5,
+    "workflow_process": 0.5,
+    "architecture": 0.3,
+    "evolution_context": 0.0,
+    "agent_rules": 0.1
+  },
+  "category_char_fraction": {
+    "coding_style": 0.08853315909833388,
+    "project_structure": 0.4018294674942829,
+    "workflow_process": 0.6020908199934661,
+    "architecture": 0.30120875530872265,
+    "evolution_context": 0.0,
+    "agent_rules": 0.03332244364586737
+  }
+}

@@ -1,0 +1,1518 @@
+{
+  "repo": "reliverse__experiments",
+  "full_name": "reliverse/experiments",
+  "n_sections": 18,
+  "n_chars": 6326,
+  "sections": [
+    {
+      "heading": "Monorepo Project",
+      "level": 1,
+      "char_count": 254,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Monorepo Project",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and package management of the monorepo, as well as its submodule structure and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and package management of the monorepo, as well as its submodule structure and dependencies.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Monorepo Project",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "Describes the monorepo setup (project_structure) and mentions adherence to submodule-specific AGENTS.md files (agent_rules).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"agent_rules\"], \"reasoning\": \"Describes the monorepo setup (project_structure) and mentions adherence to submodule-specific AGENTS.md files (agent_rules).\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Monorepo Project",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's structure as a monorepo with TypeScript and Bun workspaces, and also mentions the use of Turborepo, which can be considered an architectural decision.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's structure as a monorepo with TypeScript and Bun workspaces, and also mentions the use of Turborepo, which can be considered an architectural decision.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 144,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the primary focus of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the primary focus of the project_structure category.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout of the project.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project, specifically the location of workspace packages and application definitions.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project, specifically the location of workspace packages and application definitions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dler Rules",
+      "level": 2,
+      "char_count": 231,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Dler Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the use of a specific tool to manage monorepos and outlines rules for dependency updates, which relates to both project structure and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the use of a specific tool to manage monorepos and outlines rules for dependency updates, which relates to both project structure and workflow processes.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Dler Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and dependency management rules for the project's workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and dependency management rules for the project's workflow.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Dler Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the use of a specific tool for managing the project structure and outlines a command for updating dependencies, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the use of a specific tool for managing the project structure and outlines a command for updating dependencies, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Where to find information",
+      "level": 2,
+      "char_count": 68,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Where to find information",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides information about the location of key files, specifically the README.md file, which is a crucial part of a project's directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides information about the location of key files, specifically the README.md file, which is a crucial part of a project's directory layout.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Where to find information",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section directs users to a key file (README.md) for project information, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section directs users to a key file (README.md) for project information, which relates to project structure.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Where to find information",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides information on the key file to find project details.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides information on the key file to find project details.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Standards",
+      "level": 2,
+      "char_count": 139,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses code quality standards, formatting, and linting, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses code quality standards, formatting, and linting, which are all related to coding style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses automated formatting and linting, which are aspects of code style enforcement.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses automated formatting and linting, which are aspects of code style enforcement.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the use of a preset for enforcing strict code quality standards, which falls under coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the use of a preset for enforcing strict code quality standards, which falls under coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quick Reference",
+      "level": 2,
+      "char_count": 247,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Quick Reference",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on code formatting and linting tools, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on code formatting and linting tools, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Quick Reference",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on code formatting and linting commands, which are directly related to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on code formatting and linting commands, which are directly related to coding style conventions.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Quick Reference",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides commands for formatting code and checking for issues, which are related to coding style, and also describes a workflow process for diagnosing setup.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides commands for formatting code and checking for issues, which are related to coding style, and also describes a workflow process for diagnosing setup.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Principles",
+      "level": 2,
+      "char_count": 658,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Core Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines coding conventions, naming preferences, and best practices for writing clean and maintainable code.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines coding conventions, naming preferences, and best practices for writing clean and maintainable code.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Core Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions, formatting preferences, and language usage guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions, formatting preferences, and language usage guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Core Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on coding style and project structure, including naming conventions, import order, and dependency management.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on coding style and project structure, including naming conventions, import order, and dependency management.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type Safety & Explicitness",
+      "level": 3,
+      "char_count": 394,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Type Safety & Explicitness",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions, type usage, and coding best practices, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions, type usage, and coding best practices, which are all related to coding style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Type Safety & Explicitness",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices related to type safety and variable naming, which are aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices related to type safety and variable naming, which are aspects of coding style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Type Safety & Explicitness",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on type usage, const assertions, and variable naming in TypeScript, which are coding style practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on type usage, const assertions, and variable naming in TypeScript, which are coding style practices.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Modern JavaScript/TypeScript",
+      "level": 3,
+      "char_count": 394,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Modern JavaScript/TypeScript",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific guidelines for writing modern JavaScript and TypeScript code, focusing on naming conventions, formatting, and code style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific guidelines for writing modern JavaScript and TypeScript code, focusing on naming conventions, formatting, and code style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Modern JavaScript/TypeScript",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions and preferences for JavaScript/TypeScript, such as function types, loop preferences, and variable declarations.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions and preferences for JavaScript/TypeScript, such as function types, loop preferences, and variable declarations.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Modern JavaScript/TypeScript",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for writing JavaScript/TypeScript code, including naming conventions, formatting, and best practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for writing JavaScript/TypeScript code, including naming conventions, formatting, and best practices.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Async & Promises",
+      "level": 3,
+      "char_count": 274,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Async & Promises",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and code style guidelines for using async/await and promises in the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and code style guidelines for using async/await and promises in the codebase.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Async & Promises",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices for handling asynchronous code, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices for handling asynchronous code, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Async & Promises",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using async/await syntax, handling promises, and error handling, which are coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using async/await syntax, handling promises, and error handling, which are coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "React & JSX",
+      "level": 3,
+      "char_count": 685,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "React & JSX",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions, formatting, and code style guidelines specific to React and JSX.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions, formatting, and code style guidelines specific to React and JSX.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "React & JSX",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions and best practices for React & JSX, focusing on component structure, hook usage, and accessibility, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions and best practices for React & JSX, focusing on component structure, hook usage, and accessibility, which are all related to coding style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "React & JSX",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines for coding style in React and JSX, and also touches on project structure by suggesting semantic HTML and ARIA attributes for accessibility.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines for coding style in React and JSX, and also touches on project structure by suggesting semantic HTML and ARIA attributes for accessibility.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling & Debugging",
+      "level": 3,
+      "char_count": 302,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Error Handling & Debugging",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on coding best practices for error handling and debugging, which falls under naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on coding best practices for error handling and debugging, which falls under naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Error Handling & Debugging",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices for error handling and debugging, which relates to code style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices for error handling and debugging, which relates to code style and conventions.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Error Handling & Debugging",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on coding style for error handling and debugging, as well as architectural considerations for structuring error handling code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on coding style for error handling and debugging, as well as architectural considerations for structuring error handling code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Organization",
+      "level": 3,
+      "char_count": 285,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, code simplicity, and formatting guidelines for better code readability and maintainability.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, code simplicity, and formatting guidelines for better code readability and maintainability.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section focuses on code structure",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section focuses on code structure and readability (coding_style) while also touching on the organization of code elements (architecture).\""
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for writing clean and maintainable code, which falls under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for writing clean and maintainable code, which falls under the coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security",
+      "level": 3,
+      "char_count": 218,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Security",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices to ensure security, which aligns with naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices to ensure security, which aligns with naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Security",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding practices for security, which falls under naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding practices for security, which falls under naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Security",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines and workflow process rules related to security.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines and workflow process rules related to security.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance",
+      "level": 3,
+      "char_count": 299,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Performance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for coding practices, such as avoiding spread syntax and preferring specific imports, which are related to naming conventions, formatting, and code style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for coding practices, such as avoiding spread syntax and preferring specific imports, which are related to naming conventions, formatting, and code style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Performance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices and optimizations, aligning with naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices and optimizations, aligning with naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Performance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on coding style, including naming conventions, formatting, and import order.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on coding style, including naming conventions, formatting, and import order.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Framework-Specific Guidance",
+      "level": 3,
+      "char_count": 368,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Framework-Specific Guidance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides framework-specific coding guidelines and best practices for using various frameworks such as Next.js, React, Solid, Svelte, Vue, and Qwik.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides framework-specific coding guidelines and best practices for using various frameworks such as Next.js, React, Solid, Svelte, Vue, and Qwik.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Framework-Specific Guidance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides specific coding conventions and component usage guidelines for different frameworks.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides specific coding conventions and component usage guidelines for different frameworks.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Framework-Specific Guidance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides specific coding style guidelines for different frameworks and describes where certain components should be used in the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides specific coding style guidelines for different frameworks and describes where certain components should be used in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 236,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses coding conventions for writing tests, but also touches on workflow by implying how tests should be structured and run.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses coding conventions for writing tests, but also touches on workflow by implying how tests should be structured and run.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding guidelines for testing (coding_style) and influences how tests are structured and executed (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding guidelines for testing (coding_style) and influences how tests are structured and executed (workflow_process).\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on writing test code (coding_style) and managing test suites (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on writing test code (coding_style) and managing test suites (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When Biome Can't Help",
+      "level": 2,
+      "char_count": 688,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "When Biome Can't Help",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding best practices, such as meaningful naming and self-documenting code, as well as architecture decisions, like component structure and API design.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding best practices, such as meaningful naming and self-documenting code, as well as architecture decisions, like component structure and API design.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "When Biome Can't Help",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily discusses naming conventions (coding_style) and architecture decisions (architecture), with other aspects either implied or secondary.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily discusses naming conventions (coding_style) and architecture decisions (architecture), with other aspects either implied or secondary.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "When Biome Can't Help",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily focuses on coding style guidelines such as meaningful naming and documentation, as well as architecture decisions like component structure and API design.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily focuses on coding style guidelines such as meaningful naming and documentation, as well as architecture decisions like component structure and API design.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Monorepo Project",
+      "level": 1,
+      "char_count": 254,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Monorepo Project",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and package management of the monorepo, as well as its submodule structure and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and package management of the monorepo, as well as its submodule structure and dependencies.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Monorepo Project",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "Describes the monorepo setup (project_structure) and mentions adherence to submodule-specific AGENTS.md files (agent_rules).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"agent_rules\"], \"reasoning\": \"Describes the monorepo setup (project_structure) and mentions adherence to submodule-specific AGENTS.md files (agent_rules).\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Monorepo Project",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's structure as a monorepo with TypeScript and Bun workspaces, and also mentions the use of Turborepo, which can be considered an architectural decision.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's structure as a monorepo with TypeScript and Bun workspaces, and also mentions the use of Turborepo, which can be considered an architectural decision.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 144,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the primary focus of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the primary focus of the project_structure category.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout of the project.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project, specifically the location of workspace packages and application definitions.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project, specifically the location of workspace packages and application definitions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dler Rules",
+      "level": 2,
+      "char_count": 231,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Dler Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the use of a specific tool to manage monorepos and outlines rules for dependency updates, which relates to both project structure and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the use of a specific tool to manage monorepos and outlines rules for dependency updates, which relates to both project structure and workflow processes.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Dler Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and dependency management rules for the project's workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and dependency management rules for the project's workflow.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Dler Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the use of a specific tool for managing the project structure and outlines a command for updating dependencies, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the use of a specific tool for managing the project structure and outlines a command for updating dependencies, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Where to find information",
+      "level": 2,
+      "char_count": 68,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Where to find information",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides information about the location of key files, specifically the README.md file, which is a crucial part of a project's directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides information about the location of key files, specifically the README.md file, which is a crucial part of a project's directory layout.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Where to find information",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section directs users to a key file (README.md) for project information, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section directs users to a key file (README.md) for project information, which relates to project structure.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Where to find information",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides information on the key file to find project details.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides information on the key file to find project details.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Standards",
+      "level": 2,
+      "char_count": 139,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses code quality standards, formatting, and linting, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses code quality standards, formatting, and linting, which are all related to coding style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses automated formatting and linting, which are aspects of code style enforcement.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses automated formatting and linting, which are aspects of code style enforcement.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the use of a preset for enforcing strict code quality standards, which falls under coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the use of a preset for enforcing strict code quality standards, which falls under coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quick Reference",
+      "level": 2,
+      "char_count": 247,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Quick Reference",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on code formatting and linting tools, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on code formatting and linting tools, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Quick Reference",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on code formatting and linting commands, which are directly related to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on code formatting and linting commands, which are directly related to coding style conventions.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Quick Reference",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides commands for formatting code and checking for issues, which are related to coding style, and also describes a workflow process for diagnosing setup.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides commands for formatting code and checking for issues, which are related to coding style, and also describes a workflow process for diagnosing setup.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Principles",
+      "level": 2,
+      "char_count": 658,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Core Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines coding conventions, naming preferences, and best practices for writing clean and maintainable code.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines coding conventions, naming preferences, and best practices for writing clean and maintainable code.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Core Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions, formatting preferences, and language usage guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions, formatting preferences, and language usage guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Core Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on coding style and project structure, including naming conventions, import order, and dependency management.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on coding style and project structure, including naming conventions, import order, and dependency management.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type Safety & Explicitness",
+      "level": 3,
+      "char_count": 394,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Type Safety & Explicitness",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions, type usage, and coding best practices, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions, type usage, and coding best practices, which are all related to coding style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Type Safety & Explicitness",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices related to type safety and variable naming, which are aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices related to type safety and variable naming, which are aspects of coding style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Type Safety & Explicitness",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on type usage, const assertions, and variable naming in TypeScript, which are coding style practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on type usage, const assertions, and variable naming in TypeScript, which are coding style practices.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Modern JavaScript/TypeScript",
+      "level": 3,
+      "char_count": 394,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Modern JavaScript/TypeScript",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific guidelines for writing modern JavaScript and TypeScript code, focusing on naming conventions, formatting, and code style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific guidelines for writing modern JavaScript and TypeScript code, focusing on naming conventions, formatting, and code style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Modern JavaScript/TypeScript",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions and preferences for JavaScript/TypeScript, such as function types, loop preferences, and variable declarations.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions and preferences for JavaScript/TypeScript, such as function types, loop preferences, and variable declarations.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Modern JavaScript/TypeScript",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for writing JavaScript/TypeScript code, including naming conventions, formatting, and best practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for writing JavaScript/TypeScript code, including naming conventions, formatting, and best practices.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Async & Promises",
+      "level": 3,
+      "char_count": 274,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Async & Promises",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and code style guidelines for using async/await and promises in the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and code style guidelines for using async/await and promises in the codebase.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Async & Promises",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices for handling asynchronous code, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices for handling asynchronous code, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Async & Promises",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using async/await syntax, handling promises, and error handling, which are coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using async/await syntax, handling promises, and error handling, which are coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "React & JSX",
+      "level": 3,
+      "char_count": 685,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "React & JSX",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions, formatting, and code style guidelines specific to React and JSX.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions, formatting, and code style guidelines specific to React and JSX.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "React & JSX",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions and best practices for React & JSX, focusing on component structure, hook usage, and accessibility, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions and best practices for React & JSX, focusing on component structure, hook usage, and accessibility, which are all related to coding style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "React & JSX",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines for coding style in React and JSX, and also touches on project structure by suggesting semantic HTML and ARIA attributes for accessibility.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines for coding style in React and JSX, and also touches on project structure by suggesting semantic HTML and ARIA attributes for accessibility.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling & Debugging",
+      "level": 3,
+      "char_count": 302,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Error Handling & Debugging",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on coding best practices for error handling and debugging, which falls under naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on coding best practices for error handling and debugging, which falls under naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Error Handling & Debugging",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices for error handling and debugging, which relates to code style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices for error handling and debugging, which relates to code style and conventions.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Error Handling & Debugging",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on coding style for error handling and debugging, as well as architectural considerations for structuring error handling code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on coding style for error handling and debugging, as well as architectural considerations for structuring error handling code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Organization",
+      "level": 3,
+      "char_count": 285,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, code simplicity, and formatting guidelines for better code readability and maintainability.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, code simplicity, and formatting guidelines for better code readability and maintainability.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section focuses on code structure",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section focuses on code structure and readability (coding_style) while also touching on the organization of code elements (architecture).\""
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Code Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for writing clean and maintainable code, which falls under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for writing clean and maintainable code, which falls under the coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security",
+      "level": 3,
+      "char_count": 218,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Security",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices to ensure security, which aligns with naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices to ensure security, which aligns with naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Security",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding practices for security, which falls under naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding practices for security, which falls under naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Security",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines and workflow process rules related to security.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines and workflow process rules related to security.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance",
+      "level": 3,
+      "char_count": 299,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Performance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for coding practices, such as avoiding spread syntax and preferring specific imports, which are related to naming conventions, formatting, and code style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for coding practices, such as avoiding spread syntax and preferring specific imports, which are related to naming conventions, formatting, and code style.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Performance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices and optimizations, aligning with naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices and optimizations, aligning with naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Performance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on coding style, including naming conventions, formatting, and import order.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on coding style, including naming conventions, formatting, and import order.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Framework-Specific Guidance",
+      "level": 3,
+      "char_count": 368,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Framework-Specific Guidance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides framework-specific coding guidelines and best practices for using various frameworks such as Next.js, React, Solid, Svelte, Vue, and Qwik.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides framework-specific coding guidelines and best practices for using various frameworks such as Next.js, React, Solid, Svelte, Vue, and Qwik.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Framework-Specific Guidance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides specific coding conventions and component usage guidelines for different frameworks.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides specific coding conventions and component usage guidelines for different frameworks.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Framework-Specific Guidance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides specific coding style guidelines for different frameworks and describes where certain components should be used in the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides specific coding style guidelines for different frameworks and describes where certain components should be used in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 236,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses coding conventions for writing tests, but also touches on workflow by implying how tests should be structured and run.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses coding conventions for writing tests, but also touches on workflow by implying how tests should be structured and run.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding guidelines for testing (coding_style) and influences how tests are structured and executed (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding guidelines for testing (coding_style) and influences how tests are structured and executed (workflow_process).\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on writing test code (coding_style) and managing test suites (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on writing test code (coding_style) and managing test suites (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When Biome Can't Help",
+      "level": 2,
+      "char_count": 688,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "When Biome Can't Help",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding best practices, such as meaningful naming and self-documenting code, as well as architecture decisions, like component structure and API design.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding best practices, such as meaningful naming and self-documenting code, as well as architecture decisions, like component structure and API design.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "When Biome Can't Help",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily discusses naming conventions (coding_style) and architecture decisions (architecture), with other aspects either implied or secondary.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily discusses naming conventions (coding_style) and architecture decisions (architecture), with other aspects either implied or secondary.\"}"
+        },
+        {
+          "repo": "reliverse/experiments",
+          "section_heading": "When Biome Can't Help",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily focuses on coding style guidelines such as meaningful naming and documentation, as well as architecture decisions like component structure and API design.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily focuses on coding style guidelines such as meaningful naming and documentation, as well as architecture decisions like component structure and API design.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.7777777777777778,
+    "project_structure": 0.2222222222222222,
+    "workflow_process": 0.1111111111111111,
+    "architecture": 0.1111111111111111,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.8815431679129844,
+    "project_structure": 0.11845683208701563,
+    "workflow_process": 0.07936777702243372,
+    "architecture": 0.1600951733514616,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

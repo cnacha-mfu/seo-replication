@@ -1,0 +1,3200 @@
+{
+  "repo": "tuist__tuist",
+  "full_name": "tuist/tuist",
+  "n_sections": 38,
+  "n_chars": 18584,
+  "sections": [
+    {
+      "heading": "AGENTS.md",
+      "level": 1,
+      "char_count": 165,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "AGENTS.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about providing guidance to AI agents, which directly relates to agent rules and directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about providing guidance to AI agents, which directly relates to agent rules and directives.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "AGENTS.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses AI agents with guidance, aligning with agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses AI agents with guidance, aligning with agent-specific directives.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "AGENTS.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance to AI agents, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance to AI agents, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repository Map",
+      "level": 2,
+      "char_count": 723,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Repository Map",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the repository, making project_structure the dominant category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key components of the repository, making project_structure the dominant category.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Repository Map",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the directory layout and describes key components' locations within the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines the directory layout and describes key components' locations within the repository.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Repository Map",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a directory layout of the project, describing the key files and modules.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a directory layout of the project, describing the key files and modules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Global Guardrails",
+      "level": 2,
+      "char_count": 205,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Global Guardrails",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules and guidelines for modifying certain files, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules and guidelines for modifying certain files, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Global Guardrails",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules and restrictions on modifying certain files, which relates to the workflow and process of contributing to the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules and restrictions on modifying certain files, which relates to the workflow and process of contributing to the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Global Guardrails",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on which files to modify and which to avoid, indicating project structure, and also outlines workflow processes related to file editing.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on which files to modify and which to avoid, indicating project structure, and also outlines workflow processes related to file editing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Intent Layer Maintenance",
+      "level": 2,
+      "char_count": 197,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Intent Layer Maintenance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses maintaining directory structure and updating files, which relates to project structure, and also implies a workflow process for making changes and updates.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses maintaining directory structure and updating files, which relates to project structure, and also implies a workflow process for making changes and updates.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Intent Layer Maintenance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses direct",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses directory structure updates (project_structure) in the context of making changes (workflow_process).\""
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Intent Layer Maintenance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section discusses the maintenance of the 'AGENTS.md' files in directories, which relates to project structure, and also mentions the introduction of new subsystems or boundaries, which is related to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section discusses the maintenance of the 'AGENTS.md' files in directories, which relates to project structure, and also mentions the introduction of new subsystems or boundaries, which is related to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Git and Pull Requests",
+      "level": 2,
+      "char_count": 773,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Git and Pull Requests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses commit and pull request conventions, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses commit and pull request conventions, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Git and Pull Requests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific guidelines for commit and pull request formatting, which directly relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific guidelines for commit and pull request formatting, which directly relates to workflow processes.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Git and Pull Requests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for creating commits and pull requests, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for creating commits and pull requests, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code style",
+      "level": 2,
+      "char_count": 71,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses code style guidelines, specifically commenting conventions, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses code style guidelines, specifically commenting conventions, which falls under coding style.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly addresses a coding convention (use of one-line comments), which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly addresses a coding convention (use of one-line comments), which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly discusses commenting conventions, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly discusses commenting conventions, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workflow",
+      "level": 2,
+      "char_count": 803,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and preferences for building, testing, and compiling Swift changes, which pertains to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and preferences for building, testing, and compiling Swift changes, which pertains to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and preferences for building, testing, and compiling the project, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and preferences for building, testing, and compiling the project, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the workflow process for compiling and testing Swift changes, as well as using specific commands for building and testing.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the workflow process for compiling and testing Swift changes, as well as using specific commands for building and testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 621,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing requirements and guidelines, which falls under workflow_process, and also touches on coding style with specific import and trait usage recommendations.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing requirements and guidelines, which falls under workflow_process, and also touches on coding style with specific import and trait usage recommendations.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing practices and rules for the project, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing practices and rules for the project, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for testing and outlines a workflow process for using Swift Testing framework with custom traits.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for testing and outlines a workflow process for using Swift Testing framework with custom traits.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "OpenAPI Code Generation",
+      "level": 2,
+      "char_count": 395,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "OpenAPI Code Generation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a specific code generation process and mentions key files and directories, indicating a mix of workflow and project structure content.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a specific code generation process and mentions key files and directories, indicating a mix of workflow and project structure content.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "OpenAPI Code Generation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for regenerating code based on OpenAPI specs, including commands and guidelines for manual edits.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for regenerating code based on OpenAPI specs, including commands and guidelines for manual edits.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "OpenAPI Code Generation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes a specific coding style for generating OpenAPI code and the project structure for the generated files.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes a specific coding style for generating OpenAPI code and the project structure for the generated files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting",
+      "level": 2,
+      "char_count": 115,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Linting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section is about linting, which is a coding style tool used for checking and fixing code formatting and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section is about linting, which is a coding style tool used for checking and fixing code formatting and conventions.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Linting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting commands, which relate to code formatting and style enforcement.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting commands, which relate to code formatting and style enforcement.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Linting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting, which is a coding style tool for maintaining code quality.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting, which is a coding style tool for maintaining code quality.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Architecture",
+      "level": 2,
+      "char_count": 1427,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Project Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section is primarily about the overall architecture and key components of the Tuist Server project, including its technologies, core components, and business domains, which also touches on the project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section is primarily about the overall architecture and key components of the Tuist Server project, including its technologies, core components, and business domains, which also touches on the project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Project Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Dominantly describes module roles, dependencies, and design patterns (architecture), with a notable emphasis on directory layout and key files (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Dominantly describes module roles, dependencies, and design patterns (architecture), with a notable emphasis on directory layout and key files (project_structure).\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Project Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the architecture of the Tuist Server, including its key technologies, core components, and main business domains, as well as the project structure with directory layout and key files.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the architecture of the Tuist Server, including its key technologies, core components, and main business domains, as well as the project structure with directory layout and key files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Setup",
+      "level": 2,
+      "char_count": 704,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Development Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the development setup, including prerequisites and setup commands, which relates to project structure, and also includes steps for installing dependencies and running tests, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the development setup, including prerequisites and setup commands, which relates to project structure, and also includes steps for installing dependencies and running tests, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Development Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines prerequisites and setup commands for the project environment (project_structure), and implies a workflow for getting started with development (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines prerequisites and setup commands for the project environment (project_structure), and implies a workflow for getting started with development (workflow_process).\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Development Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes system dependencies and setup commands, which fall under project structure, and also outlines the process for setting up the development environment, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes system dependencies and setup commands, which fall under project structure, and also outlines the process for setting up the development environment, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Development Commands",
+      "level": 2,
+      "char_count": 1341,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Common Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development commands and workflows, but also touches on code quality and formatting, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes development commands and workflows, but also touches on code quality and formatting, which relates to coding style.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Common Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists various development commands for tasks like database management, testing, code quality, and asset building, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists various development commands for tasks like database management, testing, code quality, and asset building, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Common Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides commands for code formatting, linting, and testing, which fall under coding_style, as well as commands for running the development server and managing the database, which are part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides commands for code formatting, linting, and testing, which fall under coding_style, as well as commands for running the development server and managing the database, which are part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Configuration Files",
+      "level": 2,
+      "char_count": 311,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Key Configuration Files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes key configuration files and their purposes, which is related to the directory layout and key files in the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes key configuration files and their purposes, which is related to the directory layout and key files in the project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Key Configuration Files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key configuration files and directories, indicating where important project settings live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key configuration files and directories, indicating where important project settings live.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Key Configuration Files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key configuration files and their roles in the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key configuration files and their roles in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Patterns",
+      "level": 2,
+      "char_count": 619,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing patterns, guidelines, and practices, which relates to workflow_process, and also touches on code organization and formatting, relating to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing patterns, guidelines, and practices, which relates to workflow_process, and also touches on code organization and formatting, relating to coding_style.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines testing practices, guidelines, and commands, which relate to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily outlines testing practices, guidelines, and commands, which relate to the workflow and development process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the testing framework used (coding_style) and provides guidelines and commands for running tests (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes the testing framework used (coding_style) and provides guidelines and commands for running tests (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style Guidelines (Elixir)",
+      "level": 2,
+      "char_count": 1173,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code Style Guidelines (Elixir)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, formatting, and coding best practices for Elixir, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, formatting, and coding best practices for Elixir, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code Style Guidelines (Elixir)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively outlines specific coding conventions, formatting rules, and style guidelines for Elixir code.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively outlines specific coding conventions, formatting rules, and style guidelines for Elixir code.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code Style Guidelines (Elixir)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on formatting, imports, aliases, naming conventions, error handling, and comments, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on formatting, imports, aliases, naming conventions, error handling, and comments, which are all related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Translation Management (Gettext)",
+      "level": 2,
+      "char_count": 1189,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Translation Management (Gettext)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the translation management workflow and coding principles for handling translatable strings, which relates to both workflow processes and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the translation management workflow and coding principles for handling translatable strings, which relates to both workflow processes and coding style guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Translation Management (Gettext)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "Dominantly outlines translation workflow steps (workflow_process) with specific file type handling and directory implications (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"Dominantly outlines translation workflow steps (workflow_process) with specific file type handling and directory implications (project_structure).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **workflow_process**: \n  - Explicit step-by-step workflow for translation management.\n  - Mention of CI pipeline protection enforcing workflow rules.\n  - Specific commands to run (e.g., `mix gettext.extract`).\n\n- **project_structure**: \n  - Implicit directory structure through file type management (`.pot`, `.po` files).\n  - Rules on who (or what, in the case of `tuistit` bot) can modify certain files, implying organizational structure within the project. \n\n- **Why not others?**\n  - **coding_style**: While coding practices are mentioned (e.g., using `dgettext/2`), the focus is on the workflow around these practices, not the coding style itself.\n  - **architecture**, **evolution_context**, **agent_rules**: No direct discussion of system architecture, project evolution context, or specific AI agent rules beyond the workflow and structure."
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Translation Management (Gettext)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for translation management, describes the project structure for translation files, and outlines the workflow process for handling translations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for translation management, describes the project structure for translation files, and outlines the workflow process for handling translations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Deployment",
+      "level": 2,
+      "char_count": 210,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Deployment",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the deployment process and commands for different environments, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the deployment process and commands for different environments, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Deployment",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific deployment commands and environments, which relates to the workflow and process of managing the project's deployment stages.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific deployment commands and environments, which relates to the workflow and process of managing the project's deployment stages.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Deployment",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes deployment commands and environments, which are part of the workflow process and also provide insight into the application's architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes deployment commands and environments, which are part of the workflow process and also provide insight into the application's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important Notes",
+      "level": 2,
+      "char_count": 205,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for development workflow, including commands to run after pulling changes and local development setup.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for development workflow, including commands to run after pulling changes and local development setup.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and setup steps to be followed during development, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and setup steps to be followed during development, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on running specific commands after certain changes, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions on running specific commands after certain changes, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Overview",
+      "level": 2,
+      "char_count": 610,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides an overview of the handbook's organization and main sections, which relates to the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides an overview of the handbook's organization and main sections, which relates to the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the organization and layout of the handbook, which aligns with project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the organization and layout of the handbook, which aligns with project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the overall structure and organization of the Tuist handbook, which can be considered as a project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the overall structure and organization of the Tuist handbook, which can be considered as a project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building and Testing",
+      "level": 3,
+      "char_count": 316,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Building and Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes build commands, development server setup, and deployment processes, which are all related to workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes build commands, development server setup, and deployment processes, which are all related to workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Building and Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and processes for building, testing, and deploying the handbook, which relates to workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and processes for building, testing, and deploying the handbook, which relates to workflow and development procedures.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Building and Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the commands for building, testing, and deploying the project, which are part of the workflow process, and also mentions the project's deployment location, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the commands for building, testing, and deploying the project, which are part of the workflow process, and also mentions the project's deployment location, which relates to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Directory Structure",
+      "level": 3,
+      "char_count": 294,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Directory Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout of the repository, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout of the repository, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Directory Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout of the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Directory Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Working with Security Policies",
+      "level": 2,
+      "char_count": 820,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Working with Security Policies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily discusses the standard format and structure for security policies, which relates to coding style, and also touches on the organization of policy sections, which pertains to project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section primarily discusses the standard format and structure for security policies, which relates to coding style, and also touches on the organization of policy sections, which pertains to project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Working with Security Policies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on formatting and structural guidelines for security policy documents, akin to coding style conventions but applied to policy writing.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on formatting and structural guidelines for security policy documents, akin to coding style conventions but applied to policy writing.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Working with Security Policies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for creating and modifying security policies, including standard format and structure, which can be classified as coding_style, and workflow_process as it outlines the process for working with security policies.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for creating and modifying security policies, including standard format and structure, which can be classified as coding_style, and workflow_process as it outlines the process for working with security policies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Navigation Configuration",
+      "level": 2,
+      "char_count": 251,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Navigation Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the configuration of site navigation in relation to the directory structure, which falls under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the configuration of site navigation in relation to the directory structure, which falls under project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Navigation Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section discusses configuration that directly relates to how the project's documentation site is structured and organized, aligning with project structure guidelines.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section discusses configuration that directly relates to how the project's documentation site is structured and organized, aligning with project structure guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Navigation Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the configuration of the site navigation, which is related to project structure, and also mentions the process for adding new pages and handling redirects, which is related to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the configuration of the site navigation, which is related to project structure, and also mentions the process for adding new pages and handling redirects, which is related to workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Writing Style",
+      "level": 3,
+      "char_count": 138,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Writing Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on language usage and clarity, which is related to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on language usage and clarity, which is related to coding style and conventions.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Writing Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on language and writing conventions, which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on language and writing conventions, which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Writing Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on writing style, which can be considered a part of coding style as it pertains to the language and tone used in the code comments and documentation.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on writing style, which can be considered a part of coding style as it pertains to the language and tone used in the code comments and documentation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Frontmatter Format",
+      "level": 3,
+      "char_count": 137,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Frontmatter Format",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the format of frontmatter, which is related to coding conventions and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the format of frontmatter, which is related to coding conventions and formatting.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Frontmatter Format",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific formatting convention (frontmatter format in YAML) for repository content, which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific formatting convention (frontmatter format in YAML) for repository content, which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Frontmatter Format",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a specific format for frontmatter, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a specific format for frontmatter, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Markdown Conventions",
+      "level": 3,
+      "char_count": 163,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Markdown Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses markdown conventions, which is related to formatting and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses markdown conventions, which is related to formatting and coding style guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Markdown Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific formatting guidelines for markdown, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific formatting guidelines for markdown, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Markdown Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for writing markdown, which is a form of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for writing markdown, which is a form of coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Handbook Important Reminders",
+      "level": 2,
+      "char_count": 726,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Handbook Important Reminders",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section primarily outlines reminders for workflow processes, such as verifying builds and updating security policies, and also touches on project structure by mentioning infrastructure responsibilities and dependencies.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section primarily outlines reminders for workflow processes, such as verifying builds and updating security policies, and also touches on project structure by mentioning infrastructure responsibilities and dependencies.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Handbook Important Reminders",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific workflow steps (build verification) and project infrastructure dependencies, with the former being more dominant.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific workflow steps (build verification) and project infrastructure dependencies, with the former being more dominant.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Handbook Important Reminders",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines for verifying builds and updating security policies, which are part of the workflow process, and also mentions the infrastructure responsibilities, which relates to the architecture category.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines for verifying builds and updating security policies, which are part of the workflow process, and also mentions the infrastructure responsibilities, which relates to the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a new page",
+      "level": 3,
+      "char_count": 250,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Adding a new page",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for adding a new page, including verification, commit, and PR creation, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for adding a new page, including verification, commit, and PR creation, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Adding a new page",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a step-by-step process (workflow) involving specific project structure elements (directory, config file location).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a step-by-step process (workflow) involving specific project structure elements (directory, config file location).\" }"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Adding a new page",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes where to place new files (project_structure) and the process for adding and verifying them (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes where to place new files (project_structure) and the process for adding and verifying them (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Updating Existing Content",
+      "level": 3,
+      "char_count": 207,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Updating Existing Content",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for updating content, committing changes, and creating a pull request, which falls under workflow and development guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for updating content, committing changes, and creating a pull request, which falls under workflow and development guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Updating Existing Content",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for updating content, including testing, commit messaging, and PR creation with specific reviewer assignment, all of which relate to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for updating content, including testing, commit messaging, and PR creation with specific reviewer assignment, all of which relate to workflow and process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Updating Existing Content",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes steps for updating existing content, including commit format and PR rules, which fall under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes steps for updating existing content, including commit format and PR rules, which fall under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Moving or Renaming Pages",
+      "level": 3,
+      "char_count": 266,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Moving or Renaming Pages",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines a step-by-step procedure for moving or renaming pages, which is related to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines a step-by-step procedure for moving or renaming pages, which is related to the workflow and development process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Moving or Renaming Pages",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for a specific task within the project's workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for a specific task within the project's workflow.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Moving or Renaming Pages",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on how to move or rename pages, which involves updating the project structure and following a specific workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on how to move or rename pages, which involves updating the project structure and following a specific workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important: Keep server/data-export.md Up to Date",
+      "level": 2,
+      "char_count": 249,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important: Keep server/data-export.md Up to Date",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily belongs to workflow_process due to its emphasis on a specific maintenance task, and secondarily to project_structure as it references a key file in the repository.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily belongs to workflow_process due to its emphasis on a specific maintenance task, and secondarily to project_structure as it references a key file in the repository.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important: Keep server/data-export.md Up to Date",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific maintenance requirement tied to database changes, implying a workflow or process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific maintenance requirement tied to database changes, implying a workflow or process guideline.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important: Keep server/data-export.md Up to Date",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses a specific file's location and its purpose in storing and exporting data, and emphasizes the need to update it with changes in data storage, which relates to project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section discusses a specific file's location and its purpose in storing and exporting data, and emphasizes the need to update it with changes in data storage, which relates to project structure and evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When to Update server/data-export.md",
+      "level": 3,
+      "char_count": 85,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "When to Update server/data-export.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines a specific requirement for updating a file when making certain changes, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines a specific requirement for updating a file when making certain changes, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "When to Update server/data-export.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a mandatory update rule for a specific file when certain changes are made, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a mandatory update rule for a specific file when certain changes are made, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "When to Update server/data-export.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific conditions for updating a document, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific conditions for updating a document, which falls under workflow process guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Database Schema Changes",
+      "level": 4,
+      "char_count": 217,
+      "voted_categories": [
+        "architecture",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Database Schema Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses modifications to the database schema, which relates to the architecture of the system, and also implies evolution and change over time, fitting into evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section discusses modifications to the database schema, which relates to the architecture of the system, and also implies evolution and change over time, fitting into evolution context.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Database Schema Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on structural changes to the database, which relates to the system's architecture and data modeling.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on structural changes to the database, which relates to the system's architecture and data modeling.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Database Schema Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses changes to the database schema, which involves the architecture of the system, and also reflects the evolution of the system over time.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section discusses changes to the database schema, which involves the architecture of the system, and also reflects the evolution of the system over time.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File Storage Changes",
+      "level": 4,
+      "char_count": 169,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "File Storage Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section discusses changes to file storage, which relates to project structure and architecture, as it involves modifying how files are organized and accessed within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section discusses changes to file storage, which relates to project structure and architecture, as it involves modifying how files are organized and accessed within the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "File Storage Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on modifying processes related to file storage, which relates to workflow and operational procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on modifying processes related to file storage, which relates to workflow and operational procedures.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "File Storage Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section discusses changes to file storage structures and processes, which falls under project structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section discusses changes to file storage structures and processes, which falls under project structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "New Data Collection",
+      "level": 4,
+      "char_count": 173,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "New Data Collection",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses adding new features and data collection methods, indicating a focus on project evolution and structure.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"This section discusses adding new features and data collection methods, indicating a focus on project evolution and structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "New Data Collection",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses adding new data-related features and integrations, implying architectural design decisions (architecture) within the context of project evolution and growth (evolution_context).",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section discusses adding new data-related features and integrations, implying architectural design decisions (architecture) within the context of project evolution and growth (evolution_context).\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "New Data Collection",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses adding new features and integrations, which relates to module roles and dependencies in architecture, and project phase and complexity trends in evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section discusses adding new features and integrations, which relates to module roles and dependencies in architecture, and project phase and complexity trends in evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "How to Update server/data-export.md",
+      "level": 3,
+      "char_count": 612,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "How to Update server/data-export.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines a step-by-step process for updating documentation when making changes, which is related to workflow process, but 'documentation' is not a valid category, so focusing on the dominant content it falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"documentation\"], \"reasoning\": \"This section outlines a step-by-step process for updating documentation when making changes, which is related to workflow process, but 'documentation' is not a valid category, so focusing on the dominant content it falls under workflow_process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "How to Update server/data-export.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines a step-by-st",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines a step-by-step process for updating documentation (workflow_process) with a focus on maintaining a specific format and style (coding_style).\""
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "How to Update server/data-export.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on updating a specific file in the project structure and outlines a workflow process for documenting changes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on updating a specific file in the project structure and outlines a workflow process for documenting changes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Legal Compliance",
+      "level": 3,
+      "char_count": 429,
+      "voted_categories": [
+        "evolution_context",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Legal Compliance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the importance of maintaining current documentation for legal compliance, which relates to the project's evolution context and workflow process.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"workflow_process\"], \"reasoning\": \"This section discusses the importance of maintaining current documentation for legal compliance, which relates to the project's evolution context and workflow process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Legal Compliance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific requirements and consequences for maintaining documentation, which relates to operational procedures and guidelines within the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific requirements and consequences for maintaining documentation, which relates to operational procedures and guidelines within the workflow.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Legal Compliance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines legal compliance requirements, which are part of the project structure, and discusses the need for keeping the documentation current, which relates to the evolution context of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section outlines legal compliance requirements, which are part of the project structure, and discusses the need for keeping the documentation current, which relates to the evolution context of the project.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "AGENTS.md",
+      "level": 1,
+      "char_count": 165,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "AGENTS.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about providing guidance to AI agents, which directly relates to agent rules and directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about providing guidance to AI agents, which directly relates to agent rules and directives.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "AGENTS.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses AI agents with guidance, aligning with agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses AI agents with guidance, aligning with agent-specific directives.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "AGENTS.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance to AI agents, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance to AI agents, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repository Map",
+      "level": 2,
+      "char_count": 723,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Repository Map",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the repository, making project_structure the dominant category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key components of the repository, making project_structure the dominant category.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Repository Map",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the directory layout and describes key components' locations within the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines the directory layout and describes key components' locations within the repository.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Repository Map",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a directory layout of the project, describing the key files and modules.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a directory layout of the project, describing the key files and modules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Global Guardrails",
+      "level": 2,
+      "char_count": 205,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Global Guardrails",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules and guidelines for modifying certain files, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules and guidelines for modifying certain files, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Global Guardrails",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules and restrictions on modifying certain files, which relates to the workflow and process of contributing to the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules and restrictions on modifying certain files, which relates to the workflow and process of contributing to the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Global Guardrails",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on which files to modify and which to avoid, indicating project structure, and also outlines workflow processes related to file editing.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on which files to modify and which to avoid, indicating project structure, and also outlines workflow processes related to file editing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Intent Layer Maintenance",
+      "level": 2,
+      "char_count": 197,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Intent Layer Maintenance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses maintaining directory structure and updating files, which relates to project structure, and also implies a workflow process for making changes and updates.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses maintaining directory structure and updating files, which relates to project structure, and also implies a workflow process for making changes and updates.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Intent Layer Maintenance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses direct",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses directory structure updates (project_structure) in the context of making changes (workflow_process).\""
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Intent Layer Maintenance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section discusses the maintenance of the 'AGENTS.md' files in directories, which relates to project structure, and also mentions the introduction of new subsystems or boundaries, which is related to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section discusses the maintenance of the 'AGENTS.md' files in directories, which relates to project structure, and also mentions the introduction of new subsystems or boundaries, which is related to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Git and Pull Requests",
+      "level": 2,
+      "char_count": 773,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Git and Pull Requests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses commit and pull request conventions, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses commit and pull request conventions, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Git and Pull Requests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific guidelines for commit and pull request formatting, which directly relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific guidelines for commit and pull request formatting, which directly relates to workflow processes.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Git and Pull Requests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for creating commits and pull requests, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for creating commits and pull requests, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code style",
+      "level": 2,
+      "char_count": 71,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses code style guidelines, specifically commenting conventions, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses code style guidelines, specifically commenting conventions, which falls under coding style.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly addresses a coding convention (use of one-line comments), which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly addresses a coding convention (use of one-line comments), which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly discusses commenting conventions, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly discusses commenting conventions, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workflow",
+      "level": 2,
+      "char_count": 803,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and preferences for building, testing, and compiling Swift changes, which pertains to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and preferences for building, testing, and compiling Swift changes, which pertains to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and preferences for building, testing, and compiling the project, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and preferences for building, testing, and compiling the project, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the workflow process for compiling and testing Swift changes, as well as using specific commands for building and testing.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the workflow process for compiling and testing Swift changes, as well as using specific commands for building and testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 621,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing requirements and guidelines, which falls under workflow_process, and also touches on coding style with specific import and trait usage recommendations.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing requirements and guidelines, which falls under workflow_process, and also touches on coding style with specific import and trait usage recommendations.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing practices and rules for the project, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing practices and rules for the project, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for testing and outlines a workflow process for using Swift Testing framework with custom traits.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for testing and outlines a workflow process for using Swift Testing framework with custom traits.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "OpenAPI Code Generation",
+      "level": 2,
+      "char_count": 395,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "OpenAPI Code Generation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a specific code generation process and mentions key files and directories, indicating a mix of workflow and project structure content.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a specific code generation process and mentions key files and directories, indicating a mix of workflow and project structure content.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "OpenAPI Code Generation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for regenerating code based on OpenAPI specs, including commands and guidelines for manual edits.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for regenerating code based on OpenAPI specs, including commands and guidelines for manual edits.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "OpenAPI Code Generation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes a specific coding style for generating OpenAPI code and the project structure for the generated files.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes a specific coding style for generating OpenAPI code and the project structure for the generated files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting",
+      "level": 2,
+      "char_count": 115,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Linting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section is about linting, which is a coding style tool used for checking and fixing code formatting and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section is about linting, which is a coding style tool used for checking and fixing code formatting and conventions.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Linting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting commands, which relate to code formatting and style enforcement.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting commands, which relate to code formatting and style enforcement.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Linting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting, which is a coding style tool for maintaining code quality.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting, which is a coding style tool for maintaining code quality.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Architecture",
+      "level": 2,
+      "char_count": 1427,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Project Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section is primarily about the overall architecture and key components of the Tuist Server project, including its technologies, core components, and business domains, which also touches on the project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section is primarily about the overall architecture and key components of the Tuist Server project, including its technologies, core components, and business domains, which also touches on the project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Project Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Dominantly describes module roles, dependencies, and design patterns (architecture), with a notable emphasis on directory layout and key files (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Dominantly describes module roles, dependencies, and design patterns (architecture), with a notable emphasis on directory layout and key files (project_structure).\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Project Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the architecture of the Tuist Server, including its key technologies, core components, and main business domains, as well as the project structure with directory layout and key files.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the architecture of the Tuist Server, including its key technologies, core components, and main business domains, as well as the project structure with directory layout and key files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Setup",
+      "level": 2,
+      "char_count": 704,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Development Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the development setup, including prerequisites and setup commands, which relates to project structure, and also includes steps for installing dependencies and running tests, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the development setup, including prerequisites and setup commands, which relates to project structure, and also includes steps for installing dependencies and running tests, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Development Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines prerequisites and setup commands for the project environment (project_structure), and implies a workflow for getting started with development (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines prerequisites and setup commands for the project environment (project_structure), and implies a workflow for getting started with development (workflow_process).\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Development Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes system dependencies and setup commands, which fall under project structure, and also outlines the process for setting up the development environment, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes system dependencies and setup commands, which fall under project structure, and also outlines the process for setting up the development environment, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Development Commands",
+      "level": 2,
+      "char_count": 1341,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Common Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development commands and workflows, but also touches on code quality and formatting, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes development commands and workflows, but also touches on code quality and formatting, which relates to coding style.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Common Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists various development commands for tasks like database management, testing, code quality, and asset building, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists various development commands for tasks like database management, testing, code quality, and asset building, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Common Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides commands for code formatting, linting, and testing, which fall under coding_style, as well as commands for running the development server and managing the database, which are part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides commands for code formatting, linting, and testing, which fall under coding_style, as well as commands for running the development server and managing the database, which are part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Configuration Files",
+      "level": 2,
+      "char_count": 311,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Key Configuration Files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes key configuration files and their purposes, which is related to the directory layout and key files in the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes key configuration files and their purposes, which is related to the directory layout and key files in the project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Key Configuration Files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key configuration files and directories, indicating where important project settings live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key configuration files and directories, indicating where important project settings live.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Key Configuration Files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key configuration files and their roles in the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key configuration files and their roles in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Patterns",
+      "level": 2,
+      "char_count": 619,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing patterns, guidelines, and practices, which relates to workflow_process, and also touches on code organization and formatting, relating to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing patterns, guidelines, and practices, which relates to workflow_process, and also touches on code organization and formatting, relating to coding_style.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines testing practices, guidelines, and commands, which relate to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily outlines testing practices, guidelines, and commands, which relate to the workflow and development process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Testing Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the testing framework used (coding_style) and provides guidelines and commands for running tests (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes the testing framework used (coding_style) and provides guidelines and commands for running tests (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style Guidelines (Elixir)",
+      "level": 2,
+      "char_count": 1173,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code Style Guidelines (Elixir)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, formatting, and coding best practices for Elixir, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, formatting, and coding best practices for Elixir, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code Style Guidelines (Elixir)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively outlines specific coding conventions, formatting rules, and style guidelines for Elixir code.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively outlines specific coding conventions, formatting rules, and style guidelines for Elixir code.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Code Style Guidelines (Elixir)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on formatting, imports, aliases, naming conventions, error handling, and comments, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on formatting, imports, aliases, naming conventions, error handling, and comments, which are all related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Translation Management (Gettext)",
+      "level": 2,
+      "char_count": 1189,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Translation Management (Gettext)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the translation management workflow and coding principles for handling translatable strings, which relates to both workflow processes and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the translation management workflow and coding principles for handling translatable strings, which relates to both workflow processes and coding style guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Translation Management (Gettext)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "Dominantly outlines translation workflow steps (workflow_process) with specific file type handling and directory implications (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"Dominantly outlines translation workflow steps (workflow_process) with specific file type handling and directory implications (project_structure).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **workflow_process**: \n  - Explicit step-by-step workflow for translation management.\n  - Mention of CI pipeline protection enforcing workflow rules.\n  - Specific commands to run (e.g., `mix gettext.extract`).\n\n- **project_structure**: \n  - Implicit directory structure through file type management (`.pot`, `.po` files).\n  - Rules on who (or what, in the case of `tuistit` bot) can modify certain files, implying organizational structure within the project. \n\n- **Why not others?**\n  - **coding_style**: While coding practices are mentioned (e.g., using `dgettext/2`), the focus is on the workflow around these practices, not the coding style itself.\n  - **architecture**, **evolution_context**, **agent_rules**: No direct discussion of system architecture, project evolution context, or specific AI agent rules beyond the workflow and structure."
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Translation Management (Gettext)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for translation management, describes the project structure for translation files, and outlines the workflow process for handling translations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for translation management, describes the project structure for translation files, and outlines the workflow process for handling translations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Deployment",
+      "level": 2,
+      "char_count": 210,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Deployment",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the deployment process and commands for different environments, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the deployment process and commands for different environments, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Deployment",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific deployment commands and environments, which relates to the workflow and process of managing the project's deployment stages.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific deployment commands and environments, which relates to the workflow and process of managing the project's deployment stages.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Deployment",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes deployment commands and environments, which are part of the workflow process and also provide insight into the application's architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes deployment commands and environments, which are part of the workflow process and also provide insight into the application's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important Notes",
+      "level": 2,
+      "char_count": 205,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for development workflow, including commands to run after pulling changes and local development setup.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for development workflow, including commands to run after pulling changes and local development setup.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and setup steps to be followed during development, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and setup steps to be followed during development, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on running specific commands after certain changes, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions on running specific commands after certain changes, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Overview",
+      "level": 2,
+      "char_count": 610,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides an overview of the handbook's organization and main sections, which relates to the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides an overview of the handbook's organization and main sections, which relates to the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the organization and layout of the handbook, which aligns with project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the organization and layout of the handbook, which aligns with project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the overall structure and organization of the Tuist handbook, which can be considered as a project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the overall structure and organization of the Tuist handbook, which can be considered as a project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building and Testing",
+      "level": 3,
+      "char_count": 316,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Building and Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes build commands, development server setup, and deployment processes, which are all related to workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes build commands, development server setup, and deployment processes, which are all related to workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Building and Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and processes for building, testing, and deploying the handbook, which relates to workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and processes for building, testing, and deploying the handbook, which relates to workflow and development procedures.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Building and Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the commands for building, testing, and deploying the project, which are part of the workflow process, and also mentions the project's deployment location, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the commands for building, testing, and deploying the project, which are part of the workflow process, and also mentions the project's deployment location, which relates to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Directory Structure",
+      "level": 3,
+      "char_count": 294,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Directory Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout of the repository, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout of the repository, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Directory Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout of the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Directory Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Working with Security Policies",
+      "level": 2,
+      "char_count": 820,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Working with Security Policies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily discusses the standard format and structure for security policies, which relates to coding style, and also touches on the organization of policy sections, which pertains to project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section primarily discusses the standard format and structure for security policies, which relates to coding style, and also touches on the organization of policy sections, which pertains to project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Working with Security Policies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on formatting and structural guidelines for security policy documents, akin to coding style conventions but applied to policy writing.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on formatting and structural guidelines for security policy documents, akin to coding style conventions but applied to policy writing.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Working with Security Policies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for creating and modifying security policies, including standard format and structure, which can be classified as coding_style, and workflow_process as it outlines the process for working with security policies.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for creating and modifying security policies, including standard format and structure, which can be classified as coding_style, and workflow_process as it outlines the process for working with security policies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Navigation Configuration",
+      "level": 2,
+      "char_count": 251,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Navigation Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the configuration of site navigation in relation to the directory structure, which falls under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the configuration of site navigation in relation to the directory structure, which falls under project structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Navigation Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section discusses configuration that directly relates to how the project's documentation site is structured and organized, aligning with project structure guidelines.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section discusses configuration that directly relates to how the project's documentation site is structured and organized, aligning with project structure guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Navigation Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the configuration of the site navigation, which is related to project structure, and also mentions the process for adding new pages and handling redirects, which is related to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the configuration of the site navigation, which is related to project structure, and also mentions the process for adding new pages and handling redirects, which is related to workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Writing Style",
+      "level": 3,
+      "char_count": 138,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Writing Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on language usage and clarity, which is related to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on language usage and clarity, which is related to coding style and conventions.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Writing Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on language and writing conventions, which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on language and writing conventions, which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Writing Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on writing style, which can be considered a part of coding style as it pertains to the language and tone used in the code comments and documentation.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on writing style, which can be considered a part of coding style as it pertains to the language and tone used in the code comments and documentation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Frontmatter Format",
+      "level": 3,
+      "char_count": 137,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Frontmatter Format",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the format of frontmatter, which is related to coding conventions and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the format of frontmatter, which is related to coding conventions and formatting.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Frontmatter Format",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific formatting convention (frontmatter format in YAML) for repository content, which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific formatting convention (frontmatter format in YAML) for repository content, which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Frontmatter Format",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a specific format for frontmatter, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a specific format for frontmatter, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Markdown Conventions",
+      "level": 3,
+      "char_count": 163,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Markdown Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses markdown conventions, which is related to formatting and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses markdown conventions, which is related to formatting and coding style guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Markdown Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific formatting guidelines for markdown, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific formatting guidelines for markdown, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Markdown Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for writing markdown, which is a form of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for writing markdown, which is a form of coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Handbook Important Reminders",
+      "level": 2,
+      "char_count": 726,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Handbook Important Reminders",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section primarily outlines reminders for workflow processes, such as verifying builds and updating security policies, and also touches on project structure by mentioning infrastructure responsibilities and dependencies.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section primarily outlines reminders for workflow processes, such as verifying builds and updating security policies, and also touches on project structure by mentioning infrastructure responsibilities and dependencies.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Handbook Important Reminders",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific workflow steps (build verification) and project infrastructure dependencies, with the former being more dominant.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific workflow steps (build verification) and project infrastructure dependencies, with the former being more dominant.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Handbook Important Reminders",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines for verifying builds and updating security policies, which are part of the workflow process, and also mentions the infrastructure responsibilities, which relates to the architecture category.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines for verifying builds and updating security policies, which are part of the workflow process, and also mentions the infrastructure responsibilities, which relates to the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a new page",
+      "level": 3,
+      "char_count": 250,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Adding a new page",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for adding a new page, including verification, commit, and PR creation, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for adding a new page, including verification, commit, and PR creation, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Adding a new page",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a step-by-step process (workflow) involving specific project structure elements (directory, config file location).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a step-by-step process (workflow) involving specific project structure elements (directory, config file location).\" }"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Adding a new page",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes where to place new files (project_structure) and the process for adding and verifying them (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes where to place new files (project_structure) and the process for adding and verifying them (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Updating Existing Content",
+      "level": 3,
+      "char_count": 207,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Updating Existing Content",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for updating content, committing changes, and creating a pull request, which falls under workflow and development guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for updating content, committing changes, and creating a pull request, which falls under workflow and development guidelines.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Updating Existing Content",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for updating content, including testing, commit messaging, and PR creation with specific reviewer assignment, all of which relate to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for updating content, including testing, commit messaging, and PR creation with specific reviewer assignment, all of which relate to workflow and process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Updating Existing Content",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes steps for updating existing content, including commit format and PR rules, which fall under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes steps for updating existing content, including commit format and PR rules, which fall under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Moving or Renaming Pages",
+      "level": 3,
+      "char_count": 266,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Moving or Renaming Pages",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines a step-by-step procedure for moving or renaming pages, which is related to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines a step-by-step procedure for moving or renaming pages, which is related to the workflow and development process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Moving or Renaming Pages",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for a specific task within the project's workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for a specific task within the project's workflow.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Moving or Renaming Pages",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on how to move or rename pages, which involves updating the project structure and following a specific workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on how to move or rename pages, which involves updating the project structure and following a specific workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important: Keep server/data-export.md Up to Date",
+      "level": 2,
+      "char_count": 249,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important: Keep server/data-export.md Up to Date",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily belongs to workflow_process due to its emphasis on a specific maintenance task, and secondarily to project_structure as it references a key file in the repository.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily belongs to workflow_process due to its emphasis on a specific maintenance task, and secondarily to project_structure as it references a key file in the repository.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important: Keep server/data-export.md Up to Date",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific maintenance requirement tied to database changes, implying a workflow or process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific maintenance requirement tied to database changes, implying a workflow or process guideline.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Important: Keep server/data-export.md Up to Date",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses a specific file's location and its purpose in storing and exporting data, and emphasizes the need to update it with changes in data storage, which relates to project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section discusses a specific file's location and its purpose in storing and exporting data, and emphasizes the need to update it with changes in data storage, which relates to project structure and evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When to Update server/data-export.md",
+      "level": 3,
+      "char_count": 85,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "When to Update server/data-export.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines a specific requirement for updating a file when making certain changes, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines a specific requirement for updating a file when making certain changes, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "When to Update server/data-export.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a mandatory update rule for a specific file when certain changes are made, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a mandatory update rule for a specific file when certain changes are made, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "When to Update server/data-export.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific conditions for updating a document, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific conditions for updating a document, which falls under workflow process guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Database Schema Changes",
+      "level": 4,
+      "char_count": 217,
+      "voted_categories": [
+        "architecture",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Database Schema Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses modifications to the database schema, which relates to the architecture of the system, and also implies evolution and change over time, fitting into evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section discusses modifications to the database schema, which relates to the architecture of the system, and also implies evolution and change over time, fitting into evolution context.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Database Schema Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on structural changes to the database, which relates to the system's architecture and data modeling.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on structural changes to the database, which relates to the system's architecture and data modeling.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Database Schema Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses changes to the database schema, which involves the architecture of the system, and also reflects the evolution of the system over time.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section discusses changes to the database schema, which involves the architecture of the system, and also reflects the evolution of the system over time.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File Storage Changes",
+      "level": 4,
+      "char_count": 169,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "File Storage Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section discusses changes to file storage, which relates to project structure and architecture, as it involves modifying how files are organized and accessed within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section discusses changes to file storage, which relates to project structure and architecture, as it involves modifying how files are organized and accessed within the project.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "File Storage Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on modifying processes related to file storage, which relates to workflow and operational procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on modifying processes related to file storage, which relates to workflow and operational procedures.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "File Storage Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section discusses changes to file storage structures and processes, which falls under project structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section discusses changes to file storage structures and processes, which falls under project structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "New Data Collection",
+      "level": 4,
+      "char_count": 173,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "New Data Collection",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses adding new features and data collection methods, indicating a focus on project evolution and structure.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"This section discusses adding new features and data collection methods, indicating a focus on project evolution and structure.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "New Data Collection",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses adding new data-related features and integrations, implying architectural design decisions (architecture) within the context of project evolution and growth (evolution_context).",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section discusses adding new data-related features and integrations, implying architectural design decisions (architecture) within the context of project evolution and growth (evolution_context).\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "New Data Collection",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses adding new features and integrations, which relates to module roles and dependencies in architecture, and project phase and complexity trends in evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section discusses adding new features and integrations, which relates to module roles and dependencies in architecture, and project phase and complexity trends in evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "How to Update server/data-export.md",
+      "level": 3,
+      "char_count": 612,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "How to Update server/data-export.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines a step-by-step process for updating documentation when making changes, which is related to workflow process, but 'documentation' is not a valid category, so focusing on the dominant content it falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"documentation\"], \"reasoning\": \"This section outlines a step-by-step process for updating documentation when making changes, which is related to workflow process, but 'documentation' is not a valid category, so focusing on the dominant content it falls under workflow_process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "How to Update server/data-export.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines a step-by-st",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines a step-by-step process for updating documentation (workflow_process) with a focus on maintaining a specific format and style (coding_style).\""
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "How to Update server/data-export.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on updating a specific file in the project structure and outlines a workflow process for documenting changes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on updating a specific file in the project structure and outlines a workflow process for documenting changes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Legal Compliance",
+      "level": 3,
+      "char_count": 429,
+      "voted_categories": [
+        "evolution_context",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Legal Compliance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the importance of maintaining current documentation for legal compliance, which relates to the project's evolution context and workflow process.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"workflow_process\"], \"reasoning\": \"This section discusses the importance of maintaining current documentation for legal compliance, which relates to the project's evolution context and workflow process.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Legal Compliance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific requirements and consequences for maintaining documentation, which relates to operational procedures and guidelines within the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific requirements and consequences for maintaining documentation, which relates to operational procedures and guidelines within the workflow.\"}"
+        },
+        {
+          "repo": "tuist/tuist",
+          "section_heading": "Legal Compliance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines legal compliance requirements, which are part of the project structure, and discusses the need for keeping the documentation current, which relates to the evolution context of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section outlines legal compliance requirements, which are part of the project structure, and discusses the need for keeping the documentation current, which relates to the evolution context of the project.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.2894736842105263,
+    "project_structure": 0.3684210526315789,
+    "workflow_process": 0.5526315789473685,
+    "architecture": 0.10526315789473684,
+    "evolution_context": 0.07894736842105263,
+    "agent_rules": 0.02631578947368421
+  },
+  "category_char_fraction": {
+    "coding_style": 0.36793594101042687,
+    "project_structure": 0.43176450256351173,
+    "workflow_process": 0.5992280661328417,
+    "architecture": 0.11440751195345354,
+    "evolution_context": 0.04718013710467193,
+    "agent_rules": 0.009505155826948558
+  }
+}

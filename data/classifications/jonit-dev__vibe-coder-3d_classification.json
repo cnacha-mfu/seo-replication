@@ -1,0 +1,1346 @@
+{
+  "repo": "jonit-dev__vibe-coder-3d",
+  "full_name": "jonit-dev/vibe-coder-3d",
+  "n_sections": 16,
+  "n_chars": 6407,
+  "sections": [
+    {
+      "heading": "Most Critical Rule",
+      "level": 2,
+      "char_count": 2790,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Most Critical Rule",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section primarily outlines coding conventions, testing requirements, and architectural principles, with some workflow process guidelines, making it a mix of coding style, workflow process, and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section primarily outlines coding conventions, testing requirements, and architectural principles, with some workflow process guidelines, making it a mix of coding style, workflow process, and architecture categories.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Most Critical Rule",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section predominantly outlines coding conventions (coding_style), workflow practices (workflow_process), and architectural design principles (architecture) for maintaining the project's integrity and quality.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section predominantly outlines coding conventions (coding_style), workflow practices (workflow_process), and architectural design principles (architecture) for maintaining the project's integrity and quality.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Most Critical Rule",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines, workflow processes, and architectural rules for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines, workflow processes, and architectural rules for the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Scenes",
+      "level": 3,
+      "char_count": 81,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Running Scenes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to start the development server, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to start the development server, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Running Scenes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to start development mode, which relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to start development mode, which relates to workflow and process.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Running Scenes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for starting a development server, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for starting a development server, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Scenes located in: src/game/scenes/*.tsx",
+      "level": 1,
+      "char_count": 39,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scenes located in: src/game/scenes/*.tsx",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location of specific files within the project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location of specific files within the project directory layout.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scenes located in: src/game/scenes/*.tsx",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section specifies a directory location for specific files (scenes), which pertains to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section specifies a directory location for specific files (scenes), which pertains to how the project is organized.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scenes located in: src/game/scenes/*.tsx",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location of scenes in the project directory structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location of scenes in the project directory structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Basic run",
+      "level": 1,
+      "char_count": 36,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic run",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a basic command to run the application, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a basic command to run the application, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic run",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running a specific part of the project, which relates to workflow and execution process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running a specific part of the project, which relates to workflow and execution process.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic run",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to run the project, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to run the project, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "With debug mode (colliders, FPS, grid)",
+      "level": 1,
+      "char_count": 44,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "With debug mode (colliders, FPS, grid)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a command for running the application in debug mode, which relates to workflow process, and also implies a specific project structure by referencing a scene and engine.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a command for running the application in debug mode, which relates to workflow process, and also implies a specific project structure by referencing a scene and engine.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "With debug mode (colliders, FPS, grid)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for running the application in debug mode, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for running the application in debug mode, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "With debug mode (colliders, FPS, grid)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command line instruction for running a debug mode, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command line instruction for running a debug mode, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Custom window size",
+      "level": 1,
+      "char_count": 63,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom window size",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes a custom command for running the application with specific window size parameters, which relates to the project's structure and configuration.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes a custom command for running the application with specific window size parameters, which relates to the project's structure and configuration.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom window size",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for running the application with custom settings.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for running the application with custom settings.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom window size",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a specific command line instruction for running a program with custom window size, which falls under coding style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a specific command line instruction for running a program with custom window size, which falls under coding style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Debugging Tools",
+      "level": 3,
+      "char_count": 1007,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Debugging Tools",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section is primarily about debugging tools and workflows, but also touches on project structure by mentioning specific files and directories, such as the TypeScript editor and Rust engine debug mode.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section is primarily about debugging tools and workflows, but also touches on project structure by mentioning specific files and directories, such as the TypeScript editor and Rust engine debug mode.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Debugging Tools",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes tools and commands for debugging, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes tools and commands for debugging, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Debugging Tools",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding conventions for logging and keyboard shortcuts, as well as debugging workflows and tools.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding conventions for logging and keyboard shortcuts, as well as debugging workflows and tools.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Basic screenshot (saves to rust/engine/screenshots/<scene>.jpg)",
+      "level": 1,
+      "char_count": 40,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic screenshot (saves to rust/engine/screenshots/<scene>.jpg)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command to capture a screenshot, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command to capture a screenshot, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic screenshot (saves to rust/engine/screenshots/<scene>.jpg)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for generating a screenshot, which relates to project workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for generating a screenshot, which relates to project workflow processes.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic screenshot (saves to rust/engine/screenshots/<scene>.jpg)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for taking a screenshot, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for taking a screenshot, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Custom path and quality",
+      "level": 1,
+      "char_count": 142,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom path and quality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes command-line flags and parameters for a specific build or run configuration, which relates to coding style and execution conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes command-line flags and parameters for a specific build or run configuration, which relates to coding style and execution conventions.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom path and quality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for running the application with custom screenshot settings.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for running the application with custom screenshot settings.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom path and quality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command line argument example, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command line argument example, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Debugging Workflows",
+      "level": 3,
+      "char_count": 72,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Common Debugging Workflows",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific debugging workflow, which falls under the workflow_process category as it relates to testing requirements and procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific debugging workflow, which falls under the workflow_process category as it relates to testing requirements and procedures.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Common Debugging Workflows",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific command-line workflow for debugging a particular aspect of the project (physics), which relates to the workflow processes used in the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific command-line workflow for debugging a particular aspect of the project (physics), which relates to the workflow processes used in the project.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Common Debugging Workflows",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a debugging workflow process using a specific command.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a debugging workflow process using a specific command.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Press F2 for colliders, F3 for orbit cam, F1 for stats",
+      "level": 1,
+      "char_count": 96,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Press F2 for colliders, F3 for orbit cam, F1 for stats",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides instructions for running the application in debug mode, which relates to the workflow process of testing and debugging.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides instructions for running the application in debug mode, which relates to the workflow process of testing and debugging.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Press F2 for colliders, F3 for orbit cam, F1 for stats",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific debugging workflow using commands and environment variables.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific debugging workflow using commands and environment variables.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Press F2 for colliders, F3 for orbit cam, F1 for stats",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a debug script, which relates to coding style, and also describes a workflow process for debugging.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a debug script, which relates to coding style, and also describes a workflow process for debugging.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Scripts: rust/game/scripts/tests/*.lua",
+      "level": 1,
+      "char_count": 249,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scripts: rust/game/scripts/tests/*.lua",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes specific commands and scripts for testing, debugging, and profiling, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes specific commands and scripts for testing, debugging, and profiling, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scripts: rust/game/scripts/tests/*.lua",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific commands and scripts for debugging and profiling, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific commands and scripts for debugging and profiling, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scripts: rust/game/scripts/tests/*.lua",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions for debugging and performance profiling, which are part of the workflow process, and also includes specific command-line instructions, which relate to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides instructions for debugging and performance profiling, which are part of the workflow process, and also includes specific command-line instructions, which relate to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Test in Rust engine",
+      "level": 1,
+      "char_count": 39,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "3. Test in Rust engine",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing command and its parameters, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing command and its parameters, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "3. Test in Rust engine",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for testing, which relates to the workflow and process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for testing, which relates to the workflow and process of the project.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "3. Test in Rust engine",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for testing in the Rust engine, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for testing in the Rust engine, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. Iterate on Rust code",
+      "level": 1,
+      "char_count": 139,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "4. Iterate on Rust code",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a workflow process for building and checking Rust code, and also touches on coding style by implying the use of specific tools and commands for development.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a workflow process for building and checking Rust code, and also touches on coding style by implying the use of specific tools and commands for development.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "4. Iterate on Rust code",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and workflows for checking, building, and running Rust code in the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and workflows for checking, building, and running Rust code in the project.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "4. Iterate on Rust code",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on how to iterate on Rust code, which includes coding style (cargo check) and workflow process (incremental build and running the engine).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on how to iterate on Rust code, which includes coding style (cargo check) and workflow process (incremental build and running the engine).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "5. Code quality",
+      "level": 1,
+      "char_count": 99,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "5. Code quality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses code quality checks and formatting tools for TypeScript and Rust, indicating both coding style and workflow process concerns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses code quality checks and formatting tools for TypeScript and Rust, indicating both coding style and workflow process concerns.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "5. Code quality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on commands for linting, type checking, and formatting, which are directly related to code style and quality conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on commands for linting, type checking, and formatting, which are directly related to code style and quality conventions.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "5. Code quality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes linting and typechecking commands for TypeScript and Rust, which are coding style tools and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes linting and typechecking commands for TypeScript and Rust, which are coding style tools and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key File Locations",
+      "level": 3,
+      "char_count": 442,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Key File Locations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key file locations within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key file locations within the project.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Key File Locations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the directory locations of key file types, which directly relates to project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines the directory locations of key file types, which directly relates to project directory layout.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Key File Locations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a directory layout of key files in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a directory layout of key files in the project.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Most Critical Rule",
+      "level": 2,
+      "char_count": 2790,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Most Critical Rule",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section primarily outlines coding conventions, testing requirements, and architectural principles, with some workflow process guidelines, making it a mix of coding style, workflow process, and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section primarily outlines coding conventions, testing requirements, and architectural principles, with some workflow process guidelines, making it a mix of coding style, workflow process, and architecture categories.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Most Critical Rule",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section predominantly outlines coding conventions (coding_style), workflow practices (workflow_process), and architectural design principles (architecture) for maintaining the project's integrity and quality.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section predominantly outlines coding conventions (coding_style), workflow practices (workflow_process), and architectural design principles (architecture) for maintaining the project's integrity and quality.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Most Critical Rule",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines, workflow processes, and architectural rules for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines, workflow processes, and architectural rules for the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Scenes",
+      "level": 3,
+      "char_count": 81,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Running Scenes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to start the development server, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to start the development server, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Running Scenes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to start development mode, which relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to start development mode, which relates to workflow and process.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Running Scenes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for starting a development server, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for starting a development server, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Scenes located in: src/game/scenes/*.tsx",
+      "level": 1,
+      "char_count": 39,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scenes located in: src/game/scenes/*.tsx",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location of specific files within the project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location of specific files within the project directory layout.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scenes located in: src/game/scenes/*.tsx",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section specifies a directory location for specific files (scenes), which pertains to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section specifies a directory location for specific files (scenes), which pertains to how the project is organized.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scenes located in: src/game/scenes/*.tsx",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location of scenes in the project directory structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location of scenes in the project directory structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Basic run",
+      "level": 1,
+      "char_count": 36,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic run",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a basic command to run the application, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a basic command to run the application, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic run",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running a specific part of the project, which relates to workflow and execution process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running a specific part of the project, which relates to workflow and execution process.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic run",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to run the project, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to run the project, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "With debug mode (colliders, FPS, grid)",
+      "level": 1,
+      "char_count": 44,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "With debug mode (colliders, FPS, grid)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a command for running the application in debug mode, which relates to workflow process, and also implies a specific project structure by referencing a scene and engine.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a command for running the application in debug mode, which relates to workflow process, and also implies a specific project structure by referencing a scene and engine.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "With debug mode (colliders, FPS, grid)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for running the application in debug mode, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for running the application in debug mode, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "With debug mode (colliders, FPS, grid)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command line instruction for running a debug mode, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command line instruction for running a debug mode, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Custom window size",
+      "level": 1,
+      "char_count": 63,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom window size",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes a custom command for running the application with specific window size parameters, which relates to the project's structure and configuration.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes a custom command for running the application with specific window size parameters, which relates to the project's structure and configuration.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom window size",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for running the application with custom settings.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for running the application with custom settings.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom window size",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a specific command line instruction for running a program with custom window size, which falls under coding style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a specific command line instruction for running a program with custom window size, which falls under coding style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Debugging Tools",
+      "level": 3,
+      "char_count": 1007,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Debugging Tools",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section is primarily about debugging tools and workflows, but also touches on project structure by mentioning specific files and directories, such as the TypeScript editor and Rust engine debug mode.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section is primarily about debugging tools and workflows, but also touches on project structure by mentioning specific files and directories, such as the TypeScript editor and Rust engine debug mode.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Debugging Tools",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes tools and commands for debugging, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes tools and commands for debugging, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Debugging Tools",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding conventions for logging and keyboard shortcuts, as well as debugging workflows and tools.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding conventions for logging and keyboard shortcuts, as well as debugging workflows and tools.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Basic screenshot (saves to rust/engine/screenshots/<scene>.jpg)",
+      "level": 1,
+      "char_count": 40,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic screenshot (saves to rust/engine/screenshots/<scene>.jpg)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command to capture a screenshot, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command to capture a screenshot, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic screenshot (saves to rust/engine/screenshots/<scene>.jpg)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for generating a screenshot, which relates to project workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for generating a screenshot, which relates to project workflow processes.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Basic screenshot (saves to rust/engine/screenshots/<scene>.jpg)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for taking a screenshot, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for taking a screenshot, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Custom path and quality",
+      "level": 1,
+      "char_count": 142,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom path and quality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes command-line flags and parameters for a specific build or run configuration, which relates to coding style and execution conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes command-line flags and parameters for a specific build or run configuration, which relates to coding style and execution conventions.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom path and quality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for running the application with custom screenshot settings.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for running the application with custom screenshot settings.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Custom path and quality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command line argument example, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command line argument example, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Debugging Workflows",
+      "level": 3,
+      "char_count": 72,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Common Debugging Workflows",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific debugging workflow, which falls under the workflow_process category as it relates to testing requirements and procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific debugging workflow, which falls under the workflow_process category as it relates to testing requirements and procedures.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Common Debugging Workflows",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific command-line workflow for debugging a particular aspect of the project (physics), which relates to the workflow processes used in the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific command-line workflow for debugging a particular aspect of the project (physics), which relates to the workflow processes used in the project.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Common Debugging Workflows",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a debugging workflow process using a specific command.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a debugging workflow process using a specific command.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Press F2 for colliders, F3 for orbit cam, F1 for stats",
+      "level": 1,
+      "char_count": 96,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Press F2 for colliders, F3 for orbit cam, F1 for stats",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides instructions for running the application in debug mode, which relates to the workflow process of testing and debugging.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides instructions for running the application in debug mode, which relates to the workflow process of testing and debugging.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Press F2 for colliders, F3 for orbit cam, F1 for stats",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific debugging workflow using commands and environment variables.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific debugging workflow using commands and environment variables.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Press F2 for colliders, F3 for orbit cam, F1 for stats",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a debug script, which relates to coding style, and also describes a workflow process for debugging.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a debug script, which relates to coding style, and also describes a workflow process for debugging.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Scripts: rust/game/scripts/tests/*.lua",
+      "level": 1,
+      "char_count": 249,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scripts: rust/game/scripts/tests/*.lua",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes specific commands and scripts for testing, debugging, and profiling, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes specific commands and scripts for testing, debugging, and profiling, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scripts: rust/game/scripts/tests/*.lua",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific commands and scripts for debugging and profiling, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific commands and scripts for debugging and profiling, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Scripts: rust/game/scripts/tests/*.lua",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions for debugging and performance profiling, which are part of the workflow process, and also includes specific command-line instructions, which relate to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides instructions for debugging and performance profiling, which are part of the workflow process, and also includes specific command-line instructions, which relate to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Test in Rust engine",
+      "level": 1,
+      "char_count": 39,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "3. Test in Rust engine",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing command and its parameters, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing command and its parameters, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "3. Test in Rust engine",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for testing, which relates to the workflow and process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for testing, which relates to the workflow and process of the project.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "3. Test in Rust engine",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for testing in the Rust engine, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for testing in the Rust engine, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. Iterate on Rust code",
+      "level": 1,
+      "char_count": 139,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "4. Iterate on Rust code",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a workflow process for building and checking Rust code, and also touches on coding style by implying the use of specific tools and commands for development.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a workflow process for building and checking Rust code, and also touches on coding style by implying the use of specific tools and commands for development.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "4. Iterate on Rust code",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and workflows for checking, building, and running Rust code in the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and workflows for checking, building, and running Rust code in the project.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "4. Iterate on Rust code",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on how to iterate on Rust code, which includes coding style (cargo check) and workflow process (incremental build and running the engine).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on how to iterate on Rust code, which includes coding style (cargo check) and workflow process (incremental build and running the engine).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "5. Code quality",
+      "level": 1,
+      "char_count": 99,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "5. Code quality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses code quality checks and formatting tools for TypeScript and Rust, indicating both coding style and workflow process concerns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses code quality checks and formatting tools for TypeScript and Rust, indicating both coding style and workflow process concerns.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "5. Code quality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on commands for linting, type checking, and formatting, which are directly related to code style and quality conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on commands for linting, type checking, and formatting, which are directly related to code style and quality conventions.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "5. Code quality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes linting and typechecking commands for TypeScript and Rust, which are coding style tools and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes linting and typechecking commands for TypeScript and Rust, which are coding style tools and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key File Locations",
+      "level": 3,
+      "char_count": 442,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Key File Locations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key file locations within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key file locations within the project.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Key File Locations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the directory locations of key file types, which directly relates to project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines the directory locations of key file types, which directly relates to project directory layout.\"}"
+        },
+        {
+          "repo": "jonit-dev/vibe-coder-3d",
+          "section_heading": "Key File Locations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a directory layout of key files in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a directory layout of key files in the project.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.25,
+    "project_structure": 0.125,
+    "workflow_process": 0.6875,
+    "architecture": 0.0625,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.5894384529564894,
+    "project_structure": 0.0894384529564894,
+    "workflow_process": 0.8540349572331721,
+    "architecture": 0.5187802156935664,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

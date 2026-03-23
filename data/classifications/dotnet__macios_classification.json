@@ -1,0 +1,2466 @@
+{
+  "repo": "dotnet__macios",
+  "full_name": "dotnet/macios",
+  "n_sections": 29,
+  "n_chars": 8950,
+  "sections": [
+    {
+      "heading": "Instructions for AIs",
+      "level": 1,
+      "char_count": 112,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Instructions for AIs",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section heading 'Instructions for AIs' and content suggest it provides directives for AI agents, such as Claude, on how to interact with the repository.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section heading 'Instructions for AIs' and content suggest it provides directives for AI agents, such as Claude, on how to interact with the repository.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Instructions for AIs",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "Mentions repository content scope (project_structure) and targets a specific .NET version (evolution_context).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"Mentions repository content scope (project_structure) and targets a specific .NET version (evolution_context).\" }"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Instructions for AIs",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the main branch and the target platform, which relates to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the main branch and the target platform, which relates to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Comment Handling",
+      "level": 2,
+      "char_count": 109,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Comment Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a rule for processing issues and pull requests, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a rule for processing issues and pull requests, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Comment Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific rule for processing issues and pull requests, which relates to workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific rule for processing issues and pull requests, which relates to workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Comment Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a rule for handling comments in the context of issues and pull requests, which is related to workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a rule for handling comments in the context of issues and pull requests, which is related to workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repository Overview",
+      "level": 2,
+      "char_count": 264,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Repository Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides a high-level overview of the repository's purpose and content, which is most relevant to the project structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides a high-level overview of the repository's purpose and content, which is most relevant to the project structure category.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Repository Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level overview of what the repository contains, which relates to how the project is structured in terms of its main components and platforms supported.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level overview of what the repository contains, which relates to how the project is structured in terms of its main components and platforms supported.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Repository Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides an overview of the project's structure by listing the supported platforms and their respective applications.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides an overview of the project's structure by listing the supported platforms and their respective applications.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Directories",
+      "level": 3,
+      "char_count": 312,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Key Directories",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout of the repository, listing key directories and their purposes.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout of the repository, listing key directories and their purposes.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Key Directories",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key directories and their purposes, describing the project's layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key directories and their purposes, describing the project's layout.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Key Directories",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project, which falls under the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project, which falls under the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build System",
+      "level": 2,
+      "char_count": 291,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Build System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build system and key commands, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build system and key commands, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Build System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on the build system's commands and processes, which are part of the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on the build system's commands and processes, which are part of the workflow.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Build System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the build system used in the project and key commands for building and installing, which falls under project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the build system used in the project and key commands for building and installing, which falls under project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Platform-Specific Building",
+      "level": 3,
+      "char_count": 321,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform-Specific Building",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build system's support for multiple platforms and the script used to select platforms, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build system's support for multiple platforms and the script used to select platforms, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform-Specific Building",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Describes platform support within the project (project_structure) and build process workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Describes platform support within the project (project_structure) and build process workflow (workflow_process).\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform-Specific Building",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's support for multiple platforms and the use of the 'configure' script to select platforms before building, which falls under project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's support for multiple platforms and the use of the 'configure' script to select platforms before building, which falls under project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "bgen (Binding Generator)",
+      "level": 3,
+      "char_count": 238,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "bgen (Binding Generator)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific tool and its functionality within the project, relating to both the project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes a specific tool and its functionality within the project, relating to both the project structure and architecture.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "bgen (Binding Generator)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the role and functionality of a specific tool (bgen) in generating bindings, which relates to the system's architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the role and functionality of a specific tool (bgen) in generating bindings, which relates to the system's architectural design.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "bgen (Binding Generator)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of a tool in the project structure and its role in the architecture, generating C# bindings from Objective-C APIs.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of a tool in the project structure and its role in the architecture, generating C# bindings from Objective-C APIs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Binding Patterns",
+      "level": 3,
+      "char_count": 366,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Binding Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes common binding patterns with code examples, focusing on naming conventions and formatting, as well as module roles and dependencies in the context of platform-specific bindings.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes common binding patterns with code examples, focusing on naming conventions and formatting, as well as module roles and dependencies in the context of platform-specific bindings.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Binding Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates coding conventions (e.g., attribute usage, naming) and architectural design (e.g., binding patterns, interface structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding conventions (e.g., attribute usage, naming) and architectural design (e.g., binding patterns, interface structure).\" }"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Binding Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides examples of coding style for binding patterns and describes the architecture of class binding in the context of a specific programming language.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides examples of coding style for binding patterns and describes the architecture of class binding in the context of a specific programming language.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Platform Attributes",
+      "level": 3,
+      "char_count": 412,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform Attributes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes platform attributes which relate to project structure by defining directory or module organization and architecture by specifying module roles and dependencies for different platforms.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes platform attributes which relate to project structure by defining directory or module organization and architecture by specifying module roles and dependencies for different platforms.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform Attributes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes platform-specific attributes that influence how the project is structured across different platforms.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes platform-specific attributes that influence how the project is structured across different platforms.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform Attributes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on how to structure code for platform availability, which falls under project_structure, and also includes coding conventions for specifying platform attributes, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on how to structure code for platform availability, which falls under project_structure, and also includes coding conventions for specifying platform attributes, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Types",
+      "level": 3,
+      "char_count": 236,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes different types of tests, which is related to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes different types of tests, which is related to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines types of tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines types of tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes different types of tests, which falls under coding_style, and also outlines testing requirements, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes different types of tests, which falls under coding_style, and also outlines testing requirements, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Execution",
+      "level": 3,
+      "char_count": 176,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Execution",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the process of test execution, including the environments and configurations used, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes the process of test execution, including the environments and configurations used, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Execution",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on how tests are executed, which relates to the workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on how tests are executed, which relates to the workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Execution",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes test execution processes and platform-specific test project generation, which relates to workflow_process and architecture categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes test execution processes and platform-specific test project generation, which relates to workflow_process and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Tests",
+      "level": 3,
+      "char_count": 71,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Running Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process of running tests, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process of running tests, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Running Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for executing tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for executing tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Running Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Xcode Requirements",
+      "level": 3,
+      "char_count": 186,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Xcode Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the requirements for setting up the development environment, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses the requirements for setting up the development environment, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Xcode Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific tooling requirements for the project environment, which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific tooling requirements for the project environment, which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Xcode Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the required development environment (Xcode) and its versions, which is part of project structure, and also mentions the need for Xcode Command Line Tools, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses the required development environment (Xcode) and its versions, which is part of project structure, and also mentions the need for Xcode Command Line Tools, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Framework Dependencies",
+      "level": 3,
+      "char_count": 178,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Framework Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses framework dependencies and provides a code example, which relates to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses framework dependencies and provides a code example, which relates to both architecture and coding style.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Framework Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses framework dependencies and how they are handled in the code structure, which relates to architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses framework dependencies and how they are handled in the code structure, which relates to architectural design.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Framework Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes how to reference Apple frameworks in code, which falls under coding_style, and also provides information about project structure by explaining where framework linking is handled.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes how to reference Apple frameworks in code, which falls under coding_style, and also provides information about project structure by explaining where framework linking is handled.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Memory Management",
+      "level": 3,
+      "char_count": 105,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Memory Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses proper declarations and resource management, which relates to coding style, and also touches on architecture by mentioning Objective-C methods and IDisposable resources.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses proper declarations and resource management, which relates to coding style, and also touches on architecture by mentioning Objective-C methods and IDisposable resources.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Memory Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses specific coding practices (coding_style) related to memory management through `using` statements and proper declarations, which also implies architectural considerations (architecture) for interoperability between .NET and Objective-C.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses specific coding practices (coding_style) related to memory management through `using` statements and proper declarations, which also implies architectural considerations (architecture) for interoperability between .NET and Objective-C.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Memory Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses proper Objective-C method declarations and resource management, which falls under coding_style and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses proper Objective-C method declarations and resource management, which falls under coding_style and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Custom MSBuild Tasks",
+      "level": 3,
+      "char_count": 90,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Custom MSBuild Tasks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the location and content of custom MSBuild tasks, which relates to project structure and also touches on coding style due to the mention of specific tasks and directories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the location and content of custom MSBuild tasks, which relates to project structure and also touches on coding style due to the mention of specific tasks and directories.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Custom MSBuild Tasks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location and purpose of specific files/directories within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location and purpose of specific files/directories within the project.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Custom MSBuild Tasks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of custom MSBuild tasks in the project directory structure and the role of a specific task, which falls under project structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of custom MSBuild tasks in the project directory structure and the role of a specific task, which falls under project structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Templates",
+      "level": 3,
+      "char_count": 234,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Project Templates",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the common directory layout and key files for Apple platform apps, which falls under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the common directory layout and key files for Apple platform apps, which falls under project structure.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Project Templates",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a common directory structure and key project file (`.csproj`) content for Apple platform apps.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines a common directory structure and key project file (`.csproj`) content for Apple platform apps.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Project Templates",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the common project structure for Apple platform apps, including coding style for project files.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the common project structure for Apple platform apps, including coding style for project files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Making Changes",
+      "level": 3,
+      "char_count": 181,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Making Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the steps to modify, rebuild, test, and verify changes, which falls under the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the steps to modify, rebuild, test, and verify changes, which falls under the workflow process category.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Making Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for modifying, rebuilding, testing, and verifying changes, which aligns with workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for modifying, rebuilding, testing, and verifying changes, which aligns with workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Making Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the process for making changes, including where to modify bindings and how to test changes, which falls under workflow_process, and also mentions the specific directory for modifications, which falls under project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the process for making changes, including where to modify bindings and how to test changes, which falls under workflow_process, and also mentions the specific directory for modifications, which falls under project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 3,
+      "char_count": 207,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions, code formatting, and style consistency, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions, code formatting, and style consistency, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, code style definition (.editorconfig), and specific formatting guidelines for binding definitions and attributes.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, code style definition (.editorconfig), and specific formatting guidelines for binding definitions and attributes.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines such as naming conventions, platform availability attributes, and adherence to .editorconfig.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style guidelines such as naming conventions, platform availability attributes, and adherence to .editorconfig.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Nullable Reference Types",
+      "level": 2,
+      "char_count": 1486,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Nullable Reference Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses coding conventions and best practices for handling nullable reference types in C# code.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses coding conventions and best practices for handling nullable reference types in C# code.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Nullable Reference Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific C# coding conventions and practices for handling nullable reference types.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific C# coding conventions and practices for handling nullable reference types.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Nullable Reference Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on nullable reference types in C# code, which falls under coding style, and discusses the design of MSBuild task classes, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on nullable reference types in C# code, which falls under coding style, and discusses the design of MSBuild task classes, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Method Binding",
+      "level": 3,
+      "char_count": 352,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Method Binding",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to both coding_style and architecture as it demonstrates a specific coding convention for method binding in C# and also shows how different components interact with each other through exported methods.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to both coding_style and architecture as it demonstrates a specific coding convention for method binding in C# and also shows how different components interact with each other through exported methods.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Method Binding",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on defining the interface and binding of methods between different programming languages (C# and Objective-C), which relates to architectural design decisions regarding module interactions and dependencies.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on defining the interface and binding of methods between different programming languages (C# and Objective-C), which relates to architectural design decisions regarding module interactions and dependencies.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Method Binding",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides examples of method binding in C#, which is a coding style, and also demonstrates the architecture of the code by showing how Objective-C methods are translated to C#.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides examples of method binding in C#, which is a coding style, and also demonstrates the architecture of the code by showing how Objective-C methods are translated to C#.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Property Binding",
+      "level": 3,
+      "char_count": 232,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Property Binding",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to both coding_style and architecture as it demonstrates a specific coding pattern for property binding and also implies a design choice in the architecture of the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to both coding_style and architecture as it demonstrates a specific coding pattern for property binding and also implies a design choice in the architecture of the project.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Property Binding",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding conve",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding conventions for property binding (coding_style) and illustrates how components interact with Objective-C (architecture).\""
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Property Binding",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides examples of property binding in C#, which is a coding style, and also demonstrates how to interact with Objective-C code, which is related to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides examples of property binding in C#, which is a coding style, and also demonstrates how to interact with Objective-C code, which is related to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Delegate/Protocol Binding",
+      "level": 3,
+      "char_count": 159,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Delegate/Protocol Binding",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to both coding_style due to the use of specific syntax and annotations, and architecture as it describes the structure and design of a delegate/protocol binding in the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to both coding_style due to the use of specific syntax and annotations, and architecture as it describes the structure and design of a delegate/protocol binding in the codebase.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Delegate/Protocol Binding",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates coding style through attribute usage and defines an interface, implying architectural design for inter-module communication.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding style through attribute usage and defines an interface, implying architectural design for inter-module communication.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Delegate/Protocol Binding",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides a code snippet demonstrating coding style for delegate/protocol binding in a .NET/macOS context, and also implies architectural design patterns for interfacing with Objective-C APIs.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides a code snippet demonstrating coding style for delegate/protocol binding in a .NET/macOS context, and also implies architectural design patterns for interfacing with Objective-C APIs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling",
+      "level": 3,
+      "char_count": 227,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Error Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses error handling in code, which relates to coding style, and also touches on method design and export syntax, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses error handling in code, which relates to coding style, and also touches on method design and export syntax, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Error Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on code snippets demonstrating specific error handling patterns in C#, which relates to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on code snippets demonstrating specific error handling patterns in C#, which relates to coding conventions and style.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Error Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section provides coding style guidelines for error handling in C#, and also describes the architecture for handling errors in methods.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section provides coding style guidelines for error handling in C#, and also describes the architecture for handling errors in methods.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Branch Strategy",
+      "level": 3,
+      "char_count": 190,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Branch Strategy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the organization of repository branches, which relates to project structure, and also implies a workflow process for managing different development streams and releases.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the organization of repository branches, which relates to project structure, and also implies a workflow process for managing different development streams and releases.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Branch Strategy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the repository's branching strategy, which is a key aspect of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the repository's branching strategy, which is a key aspect of the workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Branch Strategy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the branch structure of the project and the purpose of each branch, which falls under project_structure; it also outlines the workflow process for managing different versions and platform-specific updates.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the branch structure of the project and the purpose of each branch, which falls under project_structure; it also outlines the workflow process for managing different versions and platform-specific updates.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Version Management",
+      "level": 3,
+      "char_count": 142,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Version Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses version management, which relates to project structure through the organization of versions, and evolution context through the tracking of changes and updates over time.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section discusses version management, which relates to project structure through the organization of versions, and evolution context through the tracking of changes and updates over time.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Version Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on versioning strategies and practices, which are part of the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on versioning strategies and practices, which are part of the workflow and development process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Version Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes where NuGet versions are managed and how platform API versions are tracked, which relates to project structure, and also discusses commit distance for pre-release versioning, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes where NuGet versions are managed and how platform API versions are tracked, which relates to project structure, and also discusses commit distance for pre-release versioning, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Issues",
+      "level": 3,
+      "char_count": 282,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Issues",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily deals with troubleshooting and resolving common issues related to building and testing, which falls under workflow_process, and also touches on project-specific tools and configurations, relating to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily deals with troubleshooting and resolving common issues related to building and testing, which falls under workflow_process, and also touches on project-specific tools and configurations, relating to project_structure.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Issues",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on troubleshooting steps and tools for common development issues, which relates to workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on troubleshooting steps and tools for common development issues, which relates to workflow and development process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Issues",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides troubleshooting steps for build, binding, runtime, and linking issues, which are part of the workflow process and architecture categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides troubleshooting steps for build, binding, runtime, and linking issues, which are part of the workflow process and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Debugging",
+      "level": 3,
+      "char_count": 159,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Debugging",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses testing and debugging procedures, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses testing and debugging procedures, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Debugging",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and tools for testing and logging, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and tools for testing and logging, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Debugging",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for testing and debugging workflow, and also suggests a specific coding style for verbose logging.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides guidelines for testing and debugging workflow, and also suggests a specific coding style for verbose logging.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Formatting",
+      "level": 2,
+      "char_count": 717,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses code formatting conventions, such as the use of tabs, spacing, and specific syntax styles, which falls under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses code formatting conventions, such as the use of tabs, spacing, and specific syntax styles, which falls under the coding_style category.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on code formatting rules, naming conventions, and style guidelines, which are core aspects of coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on code formatting rules, naming conventions, and style guidelines, which are core aspects of coding_style.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for code formatting, including use of tabs, preserving existing formatting, and specific rules for parentheses, empty strings, and arrays.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for code formatting, including use of tabs, preserving existing formatting, and specific rules for parentheses, empty strings, and arrays.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Instructions for AIs",
+      "level": 1,
+      "char_count": 112,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Instructions for AIs",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section heading 'Instructions for AIs' and content suggest it provides directives for AI agents, such as Claude, on how to interact with the repository.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section heading 'Instructions for AIs' and content suggest it provides directives for AI agents, such as Claude, on how to interact with the repository.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Instructions for AIs",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "Mentions repository content scope (project_structure) and targets a specific .NET version (evolution_context).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"Mentions repository content scope (project_structure) and targets a specific .NET version (evolution_context).\" }"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Instructions for AIs",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the main branch and the target platform, which relates to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the main branch and the target platform, which relates to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Comment Handling",
+      "level": 2,
+      "char_count": 109,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Comment Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a rule for processing issues and pull requests, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a rule for processing issues and pull requests, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Comment Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific rule for processing issues and pull requests, which relates to workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific rule for processing issues and pull requests, which relates to workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Comment Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a rule for handling comments in the context of issues and pull requests, which is related to workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a rule for handling comments in the context of issues and pull requests, which is related to workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Repository Overview",
+      "level": 2,
+      "char_count": 264,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Repository Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides a high-level overview of the repository's purpose and content, which is most relevant to the project structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides a high-level overview of the repository's purpose and content, which is most relevant to the project structure category.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Repository Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level overview of what the repository contains, which relates to how the project is structured in terms of its main components and platforms supported.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level overview of what the repository contains, which relates to how the project is structured in terms of its main components and platforms supported.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Repository Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides an overview of the project's structure by listing the supported platforms and their respective applications.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides an overview of the project's structure by listing the supported platforms and their respective applications.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Directories",
+      "level": 3,
+      "char_count": 312,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Key Directories",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout of the repository, listing key directories and their purposes.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout of the repository, listing key directories and their purposes.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Key Directories",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key directories and their purposes, describing the project's layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key directories and their purposes, describing the project's layout.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Key Directories",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project, which falls under the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project, which falls under the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build System",
+      "level": 2,
+      "char_count": 291,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Build System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build system and key commands, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build system and key commands, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Build System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on the build system's commands and processes, which are part of the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on the build system's commands and processes, which are part of the workflow.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Build System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the build system used in the project and key commands for building and installing, which falls under project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the build system used in the project and key commands for building and installing, which falls under project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Platform-Specific Building",
+      "level": 3,
+      "char_count": 321,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform-Specific Building",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build system's support for multiple platforms and the script used to select platforms, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build system's support for multiple platforms and the script used to select platforms, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform-Specific Building",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Describes platform support within the project (project_structure) and build process workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Describes platform support within the project (project_structure) and build process workflow (workflow_process).\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform-Specific Building",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's support for multiple platforms and the use of the 'configure' script to select platforms before building, which falls under project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's support for multiple platforms and the use of the 'configure' script to select platforms before building, which falls under project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "bgen (Binding Generator)",
+      "level": 3,
+      "char_count": 238,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "bgen (Binding Generator)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific tool and its functionality within the project, relating to both the project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes a specific tool and its functionality within the project, relating to both the project structure and architecture.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "bgen (Binding Generator)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the role and functionality of a specific tool (bgen) in generating bindings, which relates to the system's architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the role and functionality of a specific tool (bgen) in generating bindings, which relates to the system's architectural design.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "bgen (Binding Generator)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of a tool in the project structure and its role in the architecture, generating C# bindings from Objective-C APIs.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of a tool in the project structure and its role in the architecture, generating C# bindings from Objective-C APIs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Binding Patterns",
+      "level": 3,
+      "char_count": 366,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Binding Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes common binding patterns with code examples, focusing on naming conventions and formatting, as well as module roles and dependencies in the context of platform-specific bindings.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes common binding patterns with code examples, focusing on naming conventions and formatting, as well as module roles and dependencies in the context of platform-specific bindings.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Binding Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates coding conventions (e.g., attribute usage, naming) and architectural design (e.g., binding patterns, interface structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding conventions (e.g., attribute usage, naming) and architectural design (e.g., binding patterns, interface structure).\" }"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Binding Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides examples of coding style for binding patterns and describes the architecture of class binding in the context of a specific programming language.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides examples of coding style for binding patterns and describes the architecture of class binding in the context of a specific programming language.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Platform Attributes",
+      "level": 3,
+      "char_count": 412,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform Attributes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes platform attributes which relate to project structure by defining directory or module organization and architecture by specifying module roles and dependencies for different platforms.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes platform attributes which relate to project structure by defining directory or module organization and architecture by specifying module roles and dependencies for different platforms.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform Attributes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes platform-specific attributes that influence how the project is structured across different platforms.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes platform-specific attributes that influence how the project is structured across different platforms.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Platform Attributes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on how to structure code for platform availability, which falls under project_structure, and also includes coding conventions for specifying platform attributes, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on how to structure code for platform availability, which falls under project_structure, and also includes coding conventions for specifying platform attributes, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Types",
+      "level": 3,
+      "char_count": 236,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes different types of tests, which is related to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes different types of tests, which is related to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines types of tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines types of tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes different types of tests, which falls under coding_style, and also outlines testing requirements, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes different types of tests, which falls under coding_style, and also outlines testing requirements, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Execution",
+      "level": 3,
+      "char_count": 176,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Execution",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the process of test execution, including the environments and configurations used, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes the process of test execution, including the environments and configurations used, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Execution",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on how tests are executed, which relates to the workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on how tests are executed, which relates to the workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Test Execution",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes test execution processes and platform-specific test project generation, which relates to workflow_process and architecture categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes test execution processes and platform-specific test project generation, which relates to workflow_process and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Tests",
+      "level": 3,
+      "char_count": 71,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Running Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process of running tests, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process of running tests, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Running Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for executing tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for executing tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Running Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Xcode Requirements",
+      "level": 3,
+      "char_count": 186,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Xcode Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the requirements for setting up the development environment, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses the requirements for setting up the development environment, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Xcode Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific tooling requirements for the project environment, which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific tooling requirements for the project environment, which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Xcode Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the required development environment (Xcode) and its versions, which is part of project structure, and also mentions the need for Xcode Command Line Tools, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses the required development environment (Xcode) and its versions, which is part of project structure, and also mentions the need for Xcode Command Line Tools, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Framework Dependencies",
+      "level": 3,
+      "char_count": 178,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Framework Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses framework dependencies and provides a code example, which relates to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses framework dependencies and provides a code example, which relates to both architecture and coding style.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Framework Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses framework dependencies and how they are handled in the code structure, which relates to architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses framework dependencies and how they are handled in the code structure, which relates to architectural design.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Framework Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes how to reference Apple frameworks in code, which falls under coding_style, and also provides information about project structure by explaining where framework linking is handled.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes how to reference Apple frameworks in code, which falls under coding_style, and also provides information about project structure by explaining where framework linking is handled.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Memory Management",
+      "level": 3,
+      "char_count": 105,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Memory Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses proper declarations and resource management, which relates to coding style, and also touches on architecture by mentioning Objective-C methods and IDisposable resources.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses proper declarations and resource management, which relates to coding style, and also touches on architecture by mentioning Objective-C methods and IDisposable resources.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Memory Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses specific coding practices (coding_style) related to memory management through `using` statements and proper declarations, which also implies architectural considerations (architecture) for interoperability between .NET and Objective-C.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses specific coding practices (coding_style) related to memory management through `using` statements and proper declarations, which also implies architectural considerations (architecture) for interoperability between .NET and Objective-C.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Memory Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses proper Objective-C method declarations and resource management, which falls under coding_style and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses proper Objective-C method declarations and resource management, which falls under coding_style and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Custom MSBuild Tasks",
+      "level": 3,
+      "char_count": 90,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Custom MSBuild Tasks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the location and content of custom MSBuild tasks, which relates to project structure and also touches on coding style due to the mention of specific tasks and directories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the location and content of custom MSBuild tasks, which relates to project structure and also touches on coding style due to the mention of specific tasks and directories.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Custom MSBuild Tasks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location and purpose of specific files/directories within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location and purpose of specific files/directories within the project.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Custom MSBuild Tasks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of custom MSBuild tasks in the project directory structure and the role of a specific task, which falls under project structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of custom MSBuild tasks in the project directory structure and the role of a specific task, which falls under project structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Templates",
+      "level": 3,
+      "char_count": 234,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Project Templates",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the common directory layout and key files for Apple platform apps, which falls under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the common directory layout and key files for Apple platform apps, which falls under project structure.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Project Templates",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a common directory structure and key project file (`.csproj`) content for Apple platform apps.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines a common directory structure and key project file (`.csproj`) content for Apple platform apps.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Project Templates",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the common project structure for Apple platform apps, including coding style for project files.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the common project structure for Apple platform apps, including coding style for project files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Making Changes",
+      "level": 3,
+      "char_count": 181,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Making Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the steps to modify, rebuild, test, and verify changes, which falls under the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the steps to modify, rebuild, test, and verify changes, which falls under the workflow process category.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Making Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for modifying, rebuilding, testing, and verifying changes, which aligns with workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for modifying, rebuilding, testing, and verifying changes, which aligns with workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Making Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the process for making changes, including where to modify bindings and how to test changes, which falls under workflow_process, and also mentions the specific directory for modifications, which falls under project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the process for making changes, including where to modify bindings and how to test changes, which falls under workflow_process, and also mentions the specific directory for modifications, which falls under project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 3,
+      "char_count": 207,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions, code formatting, and style consistency, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions, code formatting, and style consistency, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, code style definition (.editorconfig), and specific formatting guidelines for binding definitions and attributes.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, code style definition (.editorconfig), and specific formatting guidelines for binding definitions and attributes.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines such as naming conventions, platform availability attributes, and adherence to .editorconfig.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style guidelines such as naming conventions, platform availability attributes, and adherence to .editorconfig.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Nullable Reference Types",
+      "level": 2,
+      "char_count": 1486,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Nullable Reference Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses coding conventions and best practices for handling nullable reference types in C# code.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses coding conventions and best practices for handling nullable reference types in C# code.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Nullable Reference Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific C# coding conventions and practices for handling nullable reference types.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific C# coding conventions and practices for handling nullable reference types.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Nullable Reference Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on nullable reference types in C# code, which falls under coding style, and discusses the design of MSBuild task classes, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on nullable reference types in C# code, which falls under coding style, and discusses the design of MSBuild task classes, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Method Binding",
+      "level": 3,
+      "char_count": 352,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Method Binding",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to both coding_style and architecture as it demonstrates a specific coding convention for method binding in C# and also shows how different components interact with each other through exported methods.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to both coding_style and architecture as it demonstrates a specific coding convention for method binding in C# and also shows how different components interact with each other through exported methods.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Method Binding",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on defining the interface and binding of methods between different programming languages (C# and Objective-C), which relates to architectural design decisions regarding module interactions and dependencies.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on defining the interface and binding of methods between different programming languages (C# and Objective-C), which relates to architectural design decisions regarding module interactions and dependencies.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Method Binding",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides examples of method binding in C#, which is a coding style, and also demonstrates the architecture of the code by showing how Objective-C methods are translated to C#.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides examples of method binding in C#, which is a coding style, and also demonstrates the architecture of the code by showing how Objective-C methods are translated to C#.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Property Binding",
+      "level": 3,
+      "char_count": 232,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Property Binding",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to both coding_style and architecture as it demonstrates a specific coding pattern for property binding and also implies a design choice in the architecture of the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to both coding_style and architecture as it demonstrates a specific coding pattern for property binding and also implies a design choice in the architecture of the project.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Property Binding",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding conve",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding conventions for property binding (coding_style) and illustrates how components interact with Objective-C (architecture).\""
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Property Binding",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides examples of property binding in C#, which is a coding style, and also demonstrates how to interact with Objective-C code, which is related to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides examples of property binding in C#, which is a coding style, and also demonstrates how to interact with Objective-C code, which is related to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Delegate/Protocol Binding",
+      "level": 3,
+      "char_count": 159,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Delegate/Protocol Binding",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to both coding_style due to the use of specific syntax and annotations, and architecture as it describes the structure and design of a delegate/protocol binding in the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to both coding_style due to the use of specific syntax and annotations, and architecture as it describes the structure and design of a delegate/protocol binding in the codebase.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Delegate/Protocol Binding",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates coding style through attribute usage and defines an interface, implying architectural design for inter-module communication.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding style through attribute usage and defines an interface, implying architectural design for inter-module communication.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Delegate/Protocol Binding",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides a code snippet demonstrating coding style for delegate/protocol binding in a .NET/macOS context, and also implies architectural design patterns for interfacing with Objective-C APIs.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides a code snippet demonstrating coding style for delegate/protocol binding in a .NET/macOS context, and also implies architectural design patterns for interfacing with Objective-C APIs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling",
+      "level": 3,
+      "char_count": 227,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Error Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses error handling in code, which relates to coding style, and also touches on method design and export syntax, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses error handling in code, which relates to coding style, and also touches on method design and export syntax, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Error Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on code snippets demonstrating specific error handling patterns in C#, which relates to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on code snippets demonstrating specific error handling patterns in C#, which relates to coding conventions and style.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Error Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section provides coding style guidelines for error handling in C#, and also describes the architecture for handling errors in methods.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section provides coding style guidelines for error handling in C#, and also describes the architecture for handling errors in methods.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Branch Strategy",
+      "level": 3,
+      "char_count": 190,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Branch Strategy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the organization of repository branches, which relates to project structure, and also implies a workflow process for managing different development streams and releases.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the organization of repository branches, which relates to project structure, and also implies a workflow process for managing different development streams and releases.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Branch Strategy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the repository's branching strategy, which is a key aspect of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the repository's branching strategy, which is a key aspect of the workflow process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Branch Strategy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the branch structure of the project and the purpose of each branch, which falls under project_structure; it also outlines the workflow process for managing different versions and platform-specific updates.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the branch structure of the project and the purpose of each branch, which falls under project_structure; it also outlines the workflow process for managing different versions and platform-specific updates.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Version Management",
+      "level": 3,
+      "char_count": 142,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Version Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses version management, which relates to project structure through the organization of versions, and evolution context through the tracking of changes and updates over time.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section discusses version management, which relates to project structure through the organization of versions, and evolution context through the tracking of changes and updates over time.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Version Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on versioning strategies and practices, which are part of the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on versioning strategies and practices, which are part of the workflow and development process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Version Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes where NuGet versions are managed and how platform API versions are tracked, which relates to project structure, and also discusses commit distance for pre-release versioning, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes where NuGet versions are managed and how platform API versions are tracked, which relates to project structure, and also discusses commit distance for pre-release versioning, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Issues",
+      "level": 3,
+      "char_count": 282,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Issues",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily deals with troubleshooting and resolving common issues related to building and testing, which falls under workflow_process, and also touches on project-specific tools and configurations, relating to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily deals with troubleshooting and resolving common issues related to building and testing, which falls under workflow_process, and also touches on project-specific tools and configurations, relating to project_structure.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Issues",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on troubleshooting steps and tools for common development issues, which relates to workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on troubleshooting steps and tools for common development issues, which relates to workflow and development process.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Common Issues",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides troubleshooting steps for build, binding, runtime, and linking issues, which are part of the workflow process and architecture categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides troubleshooting steps for build, binding, runtime, and linking issues, which are part of the workflow process and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Debugging",
+      "level": 3,
+      "char_count": 159,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Debugging",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses testing and debugging procedures, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses testing and debugging procedures, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Debugging",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and tools for testing and logging, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and tools for testing and logging, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Debugging",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for testing and debugging workflow, and also suggests a specific coding style for verbose logging.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides guidelines for testing and debugging workflow, and also suggests a specific coding style for verbose logging.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Formatting",
+      "level": 2,
+      "char_count": 717,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses code formatting conventions, such as the use of tabs, spacing, and specific syntax styles, which falls under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses code formatting conventions, such as the use of tabs, spacing, and specific syntax styles, which falls under the coding_style category.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on code formatting rules, naming conventions, and style guidelines, which are core aspects of coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on code formatting rules, naming conventions, and style guidelines, which are core aspects of coding_style.\"}"
+        },
+        {
+          "repo": "dotnet/macios",
+          "section_heading": "Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for code formatting, including use of tabs, preserving existing formatting, and specific rules for parentheses, empty strings, and arrays.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for code formatting, including use of tabs, preserving existing formatting, and specific rules for parentheses, empty strings, and arrays.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.3448275862068966,
+    "project_structure": 0.41379310344827586,
+    "workflow_process": 0.3793103448275862,
+    "architecture": 0.27586206896551724,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.5014312383322962,
+    "project_structure": 0.3474797759800871,
+    "workflow_process": 0.2685749844430616,
+    "architecture": 0.2311138767890479,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "repo": "sebastien__monitoring",
+  "full_name": "sebastien/monitoring",
+  "n_sections": 6,
+  "n_chars": 11183,
+  "sections": [
+    {
+      "heading": "(preamble)",
+      "level": 0,
+      "char_count": 21,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "(preamble)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section contains a shebang line indicating the interpreter to use, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section contains a shebang line indicating the interpreter to use, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "(preamble)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section contains a shebang line, which is related to coding style by specifying the interpreter.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section contains a shebang line, which is related to coding style by specifying the interpreter.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "(preamble)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section contains a shebang line, which is a coding style convention for executable scripts.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section contains a shebang line, which is a coding style convention for executable scripts.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "-----------------------------------------------------------------------------",
+      "level": 1,
+      "char_count": 378,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "-----------------------------------------------------------------------------",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "This section introduces agents and their configurations, which relates to agent_rules, and also describes their modular and configurable design, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"This section introduces agents and their configurations, which relates to agent_rules, and also describes their modular and configurable design, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "-----------------------------------------------------------------------------",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the modular design and roles of agents, indicating architectural overview.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the modular design and roles of agents, indicating architectural overview.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "-----------------------------------------------------------------------------",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the roles of agents in the system and their configurations, which falls under architecture and agent_rules categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the roles of agents in the system and their configurations, which falls under architecture and agent_rules categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "- Supports custom scripts and agents for resource management",
+      "level": 1,
+      "char_count": 109,
+      "voted_categories": [
+        "architecture",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and agents for resource management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section discusses custom scripts and agents for resource management, indicating both architectural design and AI agent-specific directives.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section discusses custom scripts and agents for resource management, indicating both architectural design and AI agent-specific directives.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and agents for resource management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"Mentions custom scripts/agents (archit",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"Mentions custom scripts/agents (architecture) with a reference guiding their creation (agent_rules).\""
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and agents for resource management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section discusses custom scripts and agents for resource management, which relates to architecture and agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section discusses custom scripts and agents for resource management, which relates to architecture and agent rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "- Supports dynamic policy-based configurations",
+      "level": 1,
+      "char_count": 53,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic policy-based configurations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section mentions dynamic policy-based configurations, which relates to the design and structure of the system, indicating a focus on architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section mentions dynamic policy-based configurations, which relates to the design and structure of the system, indicating a focus on architecture.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic policy-based configurations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes a system capability (dynamic policy-based configurations) referencing an external implementation, implying architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes a system capability (dynamic policy-based configurations) referencing an external implementation, implying architectural design.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic policy-based configurations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses a dynamic policy-based configuration, which is an architectural design pattern.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses a dynamic policy-based configuration, which is an architectural design pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "- Supports custom scripts and plugins for extended functionality",
+      "level": 1,
+      "char_count": 72,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and plugins for extended functionality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the system's support for custom scripts and plugins, which relates to its architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the system's support for custom scripts and plugins, which relates to its architecture and project structure.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and plugins for extended functionality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes extending functionality through custom scripts and plugins, which relates to system design and component boundaries.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes extending functionality through custom scripts and plugins, which relates to system design and component boundaries.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and plugins for extended functionality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section discusses the project's support for custom scripts and plugins, which relates to its structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section discusses the project's support for custom scripts and plugins, which relates to its structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "- Supports dynamic configuration and auto-discovery",
+      "level": 1,
+      "char_count": 89,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic configuration and auto-discovery",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the system's capability for dynamic configuration and auto-discovery, which relates to its architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the system's capability for dynamic configuration and auto-discovery, which relates to its architectural design.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic configuration and auto-discovery",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes a functional capability (dynamic configuration and auto-discovery) related to system design, which aligns with architectural aspects.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes a functional capability (dynamic configuration and auto-discovery) related to system design, which aligns with architectural aspects.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic configuration and auto-discovery",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses a feature related to the design and functionality of the system, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses a feature related to the design and functionality of the system, which aligns with the architecture category.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "(preamble)",
+      "level": 0,
+      "char_count": 21,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "(preamble)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section contains a shebang line indicating the interpreter to use, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section contains a shebang line indicating the interpreter to use, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "(preamble)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section contains a shebang line, which is related to coding style by specifying the interpreter.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section contains a shebang line, which is related to coding style by specifying the interpreter.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "(preamble)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section contains a shebang line, which is a coding style convention for executable scripts.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section contains a shebang line, which is a coding style convention for executable scripts.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "-----------------------------------------------------------------------------",
+      "level": 1,
+      "char_count": 378,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "-----------------------------------------------------------------------------",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "This section introduces agents and their configurations, which relates to agent_rules, and also describes their modular and configurable design, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"This section introduces agents and their configurations, which relates to agent_rules, and also describes their modular and configurable design, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "-----------------------------------------------------------------------------",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the modular design and roles of agents, indicating architectural overview.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the modular design and roles of agents, indicating architectural overview.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "-----------------------------------------------------------------------------",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the roles of agents in the system and their configurations, which falls under architecture and agent_rules categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the roles of agents in the system and their configurations, which falls under architecture and agent_rules categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "- Supports custom scripts and agents for resource management",
+      "level": 1,
+      "char_count": 109,
+      "voted_categories": [
+        "architecture",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and agents for resource management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section discusses custom scripts and agents for resource management, indicating both architectural design and AI agent-specific directives.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section discusses custom scripts and agents for resource management, indicating both architectural design and AI agent-specific directives.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and agents for resource management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"Mentions custom scripts/agents (archit",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"Mentions custom scripts/agents (architecture) with a reference guiding their creation (agent_rules).\""
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and agents for resource management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section discusses custom scripts and agents for resource management, which relates to architecture and agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section discusses custom scripts and agents for resource management, which relates to architecture and agent rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "- Supports dynamic policy-based configurations",
+      "level": 1,
+      "char_count": 53,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic policy-based configurations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section mentions dynamic policy-based configurations, which relates to the design and structure of the system, indicating a focus on architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section mentions dynamic policy-based configurations, which relates to the design and structure of the system, indicating a focus on architecture.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic policy-based configurations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes a system capability (dynamic policy-based configurations) referencing an external implementation, implying architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes a system capability (dynamic policy-based configurations) referencing an external implementation, implying architectural design.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic policy-based configurations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses a dynamic policy-based configuration, which is an architectural design pattern.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses a dynamic policy-based configuration, which is an architectural design pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "- Supports custom scripts and plugins for extended functionality",
+      "level": 1,
+      "char_count": 72,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and plugins for extended functionality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the system's support for custom scripts and plugins, which relates to its architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the system's support for custom scripts and plugins, which relates to its architecture and project structure.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and plugins for extended functionality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes extending functionality through custom scripts and plugins, which relates to system design and component boundaries.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes extending functionality through custom scripts and plugins, which relates to system design and component boundaries.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports custom scripts and plugins for extended functionality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section discusses the project's support for custom scripts and plugins, which relates to its structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section discusses the project's support for custom scripts and plugins, which relates to its structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "- Supports dynamic configuration and auto-discovery",
+      "level": 1,
+      "char_count": 89,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic configuration and auto-discovery",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the system's capability for dynamic configuration and auto-discovery, which relates to its architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the system's capability for dynamic configuration and auto-discovery, which relates to its architectural design.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic configuration and auto-discovery",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes a functional capability (dynamic configuration and auto-discovery) related to system design, which aligns with architectural aspects.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes a functional capability (dynamic configuration and auto-discovery) related to system design, which aligns with architectural aspects.\"}"
+        },
+        {
+          "repo": "sebastien/monitoring",
+          "section_heading": "- Supports dynamic configuration and auto-discovery",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses a feature related to the design and functionality of the system, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses a feature related to the design and functionality of the system, which aligns with the architecture category.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": false,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.16666666666666666,
+    "project_structure": 0.16666666666666666,
+    "workflow_process": 0.0,
+    "architecture": 0.8333333333333334,
+    "evolution_context": 0.0,
+    "agent_rules": 0.3333333333333333
+  },
+  "category_char_fraction": {
+    "coding_style": 0.029085872576177285,
+    "project_structure": 0.0997229916897507,
+    "workflow_process": 0.0,
+    "architecture": 0.9709141274238227,
+    "evolution_context": 0.0,
+    "agent_rules": 0.6745152354570637
+  }
+}

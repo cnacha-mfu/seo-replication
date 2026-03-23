@@ -1,0 +1,1924 @@
+{
+  "repo": "nanobrowser__nanobrowser",
+  "full_name": "nanobrowser/nanobrowser",
+  "n_sections": 22,
+  "n_chars": 11068,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 130,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section is about providing guidance to AI coding assistants, which falls under agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section is about providing guidance to AI coding assistants, which falls under agent rules.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses AI coding assistants with guidance, aligning with agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses AI coding assistants with guidance, aligning with agent-specific directives.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to AI coding assistants, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to AI coding assistants, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 244,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides a high-level description of the project, including its purpose and positioning, which relates to project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides a high-level description of the project, including its purpose and positioning, which relates to project structure and evolution context.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "The section provides historical and contextual information about the project's phase and background.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"The section provides historical and contextual information about the project's phase and background.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides an overview of the project, describing its purpose and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides an overview of the project, describing its purpose and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Commands",
+      "level": 2,
+      "char_count": 651,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development commands and workflows, but also touches on coding style tools like ESLint and Prettier.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes development commands and workflows, but also touches on coding style tools like ESLint and Prettier.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines development workflow commands (workflow_process) and specifies tools for linting and formatting (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines development workflow commands (workflow_process) and specifies tools for linting and formatting (coding_style).\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on using a package manager and commands for code formatting, linting, and testing, which fall under coding_style, and also outlines the workflow process for development and testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on using a package manager and commands for code formatting, linting, and testing, which fall under coding_style, and also outlines the workflow process for development and testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workspace Tips",
+      "level": 3,
+      "char_count": 965,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Tips",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section provides tips for managing and optimizing workspace tasks, including build, lint, and clean commands, which relates to workflow processes, and also touches on package and directory management, which pertains to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section provides tips for managing and optimizing workspace tasks, including build, lint, and clean commands, which relates to workflow processes, and also touches on package and directory management, which pertains to project structure.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Tips",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on workflow efficiency tips, command patterns, and specific task execution within the project, which relates to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on workflow efficiency tips, command patterns, and specific task execution within the project, which relates to the workflow process.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Tips",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on using specific commands for building, linting, and cleaning, which relates to coding style and project structure, while also outlining workflow processes for efficient development.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on using specific commands for building, linting, and cleaning, which relates to coding style and project structure, while also outlining workflow processes for efficient development.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture",
+      "level": 2,
+      "char_count": 87,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the repository layout and build orchestration, which relates to project structure, and also mentions the monorepo architecture, which pertains to the system's design and component boundaries.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the repository layout and build orchestration, which relates to project structure, and also mentions the monorepo architecture, which pertains to the system's design and component boundaries.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Mentions monorepo (project struc",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Mentions monorepo (project structure) and build orchestration tools (architecture).\""
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's structure as a monorepo and its architecture by mentioning the use of Turbo and pnpm workspaces for build orchestration.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's structure as a monorepo and its architecture by mentioning the use of Turbo and pnpm workspaces for build orchestration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workspace Structure",
+      "level": 3,
+      "char_count": 866,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the nanobrowser repository, making project_structure the dominant category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key components of the nanobrowser repository, making project_structure the dominant category.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key components of the project, which is the core of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key components of the project, which is the core of project structure.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Multi-Agent System",
+      "level": 3,
+      "char_count": 293,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Multi-Agent System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the module roles and dependencies of the AI system, as well as the agent strategy and logic, which are key aspects of architecture and agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the module roles and dependencies of the AI system, as well as the agent strategy and logic, which are key aspects of architecture and agent rules.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Multi-Agent System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Describes module roles (architecture) and specifies where agent logic lives (project_structure)",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes module roles (architecture) and specifies where agent logic lives (project_structure)\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Multi-Agent System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the roles and responsibilities of specialized agents in the core AI system, and where their logic is located in the project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the roles and responsibilities of specialized agents in the core AI system, and where their logic is located in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build System",
+      "level": 3,
+      "char_count": 272,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Build System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the build system tools and configurations, which relates to project structure, and also mentions code quality tools like ESLint and Prettier, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the build system tools and configurations, which relates to project structure, and also mentions code quality tools like ESLint and Prettier, which falls under coding style.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Build System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses both the structure of the build system across workspaces (project_structure) and code quality tools (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses both the structure of the build system across workspaces (project_structure) and code quality tools (coding_style).\" }"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Build System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the use of specific tools for coding style and project structure, such as Turbo, Vite, TypeScript, ESLint, and Prettier, as well as the configuration files for each workspace.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the use of specific tools for coding style and project structure, such as Turbo, Vite, TypeScript, ESLint, and Prettier, as well as the configuration files for each workspace.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Technologies",
+      "level": 3,
+      "char_count": 239,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Technologies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines key technologies used in the project, which relates to both project structure and architecture as it describes the building blocks and dependencies of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines key technologies used in the project, which relates to both project structure and architecture as it describes the building blocks and dependencies of the project.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Technologies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key technologies, which relates to project structure by outlining the foundational components and tools used in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key technologies, which relates to project structure by outlining the foundational components and tools used in the project.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Technologies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists the key technologies used in the project, which informs the project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section lists the key technologies used in the project, which informs the project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Notes",
+      "level": 2,
+      "char_count": 473,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes the development setup, build process, and key implementation details of the project, spanning directory layout, development mode, and component interactions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes the development setup, build process, and key implementation details of the project, spanning directory layout, development mode, and component interactions.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section ",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses directory structures (project_structure), development and build processes (workflow_process), and architectural design choices (architecture).\""
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's structure, build process, and architecture, including file locations, build flags, and multi-agent coordination.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the project's structure, build process, and architecture, including file locations, build flags, and multi-agent coordination.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Unit Tests",
+      "level": 2,
+      "char_count": 262,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Unit Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the setup and execution of unit tests, which falls under workflow_process, and also mentions the location and naming of test files, relating to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the setup and execution of unit tests, which falls under workflow_process, and also mentions the location and naming of test files, relating to project_structure.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Unit Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing framework, test location/naming conventions, and commands to run tests, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing framework, test location/naming conventions, and commands to run tests, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Unit Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the unit testing framework, naming conventions, and execution commands, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes the unit testing framework, naming conventions, and execution commands, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Extension",
+      "level": 2,
+      "char_count": 151,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Testing Extension",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to load and test the extension, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps to load and test the extension, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Testing Extension",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific procedural step (testing an extension) within the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific procedural step (testing an extension) within the development workflow.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Testing Extension",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for testing an extension, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for testing an extension, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Naming Convention",
+      "level": 3,
+      "char_count": 1056,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Naming Convention",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Naming Convention",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions with specific patterns, prefixes, and suffixes, which directly relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions with specific patterns, prefixes, and suffixes, which directly relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Naming Convention",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides detailed naming conventions for different components and states, which is a coding style guideline.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides detailed naming conventions for different components and states, which is a coding style guideline.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Usage",
+      "level": 3,
+      "char_count": 160,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Usage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides an example of how to use the i18n extension in TypeScript, demonstrating coding style and conventions for importing and using the translation function.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides an example of how to use the i18n extension in TypeScript, demonstrating coding style and conventions for importing and using the translation function.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Usage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section demonstrates code formatting and import conventions for internationalization (i18n) in TypeScript.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section demonstrates code formatting and import conventions for internationalization (i18n) in TypeScript.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Usage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily demonstrates coding style for importing and using a translation function",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily demonstrates coding style for importing and using a translation function\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Placeholders",
+      "level": 3,
+      "char_count": 524,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Placeholders",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions, formatting, and guidelines for using placeholders in Chrome i18n format, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions, formatting, and guidelines for using placeholders in Chrome i18n format, which falls under coding style.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Placeholders",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on formatting and conventions for placeholders in i18n, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on formatting and conventions for placeholders in i18n, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Placeholders",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for naming conventions and formatting related to i18n placeholders.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for naming conventions and formatting related to i18n placeholders.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Generation",
+      "level": 3,
+      "char_count": 285,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Generation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the generation process and file locations, which relates to both workflow and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the generation process and file locations, which relates to both workflow and project structure.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Generation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific directories/files (project_structure) and a script's execution within build scripts (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes specific directories/files (project_structure) and a script's execution within build scripts (workflow_process).\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Generation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the location of generated files and the process for generating them, which falls under project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the location of generated files and the process for generating them, which falls under project structure and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Principles",
+      "level": 3,
+      "char_count": 420,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines coding principles that pertain to both coding style and software architecture, emphasizing simplicity, modularity, testability, and type safety.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines coding principles that pertain to both coding style and software architecture, emphasizing simplicity, modularity, testability, and type safety.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines coding practices (coding_style) and structural design principles (architecture) for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines coding practices (coding_style) and structural design principles (architecture) for the project.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on coding style and architecture, including modular design, testability, and type safety.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on coding style and architecture, including modular design, testability, and type safety.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Organization",
+      "level": 3,
+      "char_count": 254,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Code Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses code organization principles, including naming conventions and design patterns, which relate to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses code organization principles, including naming conventions and design patterns, which relate to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Code Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses code structure (coding_style) and design principles (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses code structure (coding_style) and design principles (architecture).\" }"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Code Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on coding style and architecture, including reusable logic, dependency injection, function size, composition over inheritance, and self-documenting code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on coding style and architecture, including reusable logic, dependency injection, function size, composition over inheritance, and self-documenting code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Style & Naming",
+      "level": 3,
+      "char_count": 394,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Style & Naming",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, formatting, and linting rules, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, formatting, and linting rules, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Style & Naming",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, formatting tools (Prettier), and specific linting rules (ESLint), all of which are directly related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, formatting tools (Prettier), and specific linting rules (ESLint), all of which are directly related to coding style.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Style & Naming",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses formatting, linting, and naming conventions for the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses formatting, linting, and naming conventions for the codebase.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quality Assurance",
+      "level": 3,
+      "char_count": 229,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Quality Assurance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses code style consistency and testing requirements, which relate to coding style and workflow processes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses code style consistency and testing requirements, which relate to coding style and workflow processes.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Quality Assurance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section combines code style consistency checks with pre-commit testing workflows.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section combines code style consistency checks with pre-commit testing workflows.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Quality Assurance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on using specific tools for code style and type checking, which aligns with the coding_style category, and also outlines testing requirements and guidelines, which fits the workflow_process category.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on using specific tools for code style and type checking, which aligns with the coding_style category, and also outlines testing requirements and guidelines, which fits the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security Guidelines",
+      "level": 3,
+      "char_count": 989,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Security Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily focuses on coding practices related to security, which falls under coding_style, and also touches on workflow_process by implying guidelines for development and testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily focuses on coding practices related to security, which falls under coding_style, and also touches on workflow_process by implying guidelines for development and testing.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Security Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines coding practices for security (coding_style) but also implies workflow checks for adherence (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines coding practices for security (coding_style) but also implies workflow checks for adherence (workflow_process).\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Security Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines for secure coding practices, workflow processes related to security, and architectural considerations for handling sensitive data and permissions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines for secure coding practices, workflow processes related to security, and architectural considerations for handling sensitive data and permissions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important Reminders",
+      "level": 2,
+      "char_count": 1563,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Important Reminders",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section contains reminders about package management, Node.js version, coding conventions, project layout, and workflow guidelines, which predominantly fall under coding style, project structure, and workflow process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"This section contains reminders about package management, Node.js version, coding conventions, project layout, and workflow guidelines, which predominantly fall under coding style, project structure, and workflow process categories.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Important Reminders",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section ",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section contains reminders on package manager and Node.js version (coding_style), directory and file handling (project_structure), and workflow rules like commit and change policies (workflow_process).\""
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Important Reminders",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on coding style (package manager, Node.js version, engine-strict), project structure (directory layout, key files), and workflow process (task dependencies, build process, change policy).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on coding style (package manager, Node.js version, engine-strict), project structure (directory layout, key files), and workflow process (task dependencies, build process, change policy).\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 130,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section is about providing guidance to AI coding assistants, which falls under agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section is about providing guidance to AI coding assistants, which falls under agent rules.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses AI coding assistants with guidance, aligning with agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses AI coding assistants with guidance, aligning with agent-specific directives.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to AI coding assistants, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to AI coding assistants, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 244,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides a high-level description of the project, including its purpose and positioning, which relates to project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides a high-level description of the project, including its purpose and positioning, which relates to project structure and evolution context.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "The section provides historical and contextual information about the project's phase and background.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"The section provides historical and contextual information about the project's phase and background.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides an overview of the project, describing its purpose and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides an overview of the project, describing its purpose and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Commands",
+      "level": 2,
+      "char_count": 651,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development commands and workflows, but also touches on coding style tools like ESLint and Prettier.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes development commands and workflows, but also touches on coding style tools like ESLint and Prettier.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines development workflow commands (workflow_process) and specifies tools for linting and formatting (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines development workflow commands (workflow_process) and specifies tools for linting and formatting (coding_style).\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on using a package manager and commands for code formatting, linting, and testing, which fall under coding_style, and also outlines the workflow process for development and testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on using a package manager and commands for code formatting, linting, and testing, which fall under coding_style, and also outlines the workflow process for development and testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workspace Tips",
+      "level": 3,
+      "char_count": 965,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Tips",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section provides tips for managing and optimizing workspace tasks, including build, lint, and clean commands, which relates to workflow processes, and also touches on package and directory management, which pertains to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section provides tips for managing and optimizing workspace tasks, including build, lint, and clean commands, which relates to workflow processes, and also touches on package and directory management, which pertains to project structure.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Tips",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on workflow efficiency tips, command patterns, and specific task execution within the project, which relates to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on workflow efficiency tips, command patterns, and specific task execution within the project, which relates to the workflow process.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Tips",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on using specific commands for building, linting, and cleaning, which relates to coding style and project structure, while also outlining workflow processes for efficient development.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on using specific commands for building, linting, and cleaning, which relates to coding style and project structure, while also outlining workflow processes for efficient development.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture",
+      "level": 2,
+      "char_count": 87,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the repository layout and build orchestration, which relates to project structure, and also mentions the monorepo architecture, which pertains to the system's design and component boundaries.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the repository layout and build orchestration, which relates to project structure, and also mentions the monorepo architecture, which pertains to the system's design and component boundaries.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Mentions monorepo (project struc",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Mentions monorepo (project structure) and build orchestration tools (architecture).\""
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's structure as a monorepo and its architecture by mentioning the use of Turbo and pnpm workspaces for build orchestration.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's structure as a monorepo and its architecture by mentioning the use of Turbo and pnpm workspaces for build orchestration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workspace Structure",
+      "level": 3,
+      "char_count": 866,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the nanobrowser repository, making project_structure the dominant category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key components of the nanobrowser repository, making project_structure the dominant category.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key components of the project, which is the core of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key components of the project, which is the core of project structure.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Workspace Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Multi-Agent System",
+      "level": 3,
+      "char_count": 293,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Multi-Agent System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the module roles and dependencies of the AI system, as well as the agent strategy and logic, which are key aspects of architecture and agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the module roles and dependencies of the AI system, as well as the agent strategy and logic, which are key aspects of architecture and agent rules.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Multi-Agent System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Describes module roles (architecture) and specifies where agent logic lives (project_structure)",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes module roles (architecture) and specifies where agent logic lives (project_structure)\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Multi-Agent System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the roles and responsibilities of specialized agents in the core AI system, and where their logic is located in the project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the roles and responsibilities of specialized agents in the core AI system, and where their logic is located in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build System",
+      "level": 3,
+      "char_count": 272,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Build System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the build system tools and configurations, which relates to project structure, and also mentions code quality tools like ESLint and Prettier, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the build system tools and configurations, which relates to project structure, and also mentions code quality tools like ESLint and Prettier, which falls under coding style.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Build System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses both the structure of the build system across workspaces (project_structure) and code quality tools (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses both the structure of the build system across workspaces (project_structure) and code quality tools (coding_style).\" }"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Build System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the use of specific tools for coding style and project structure, such as Turbo, Vite, TypeScript, ESLint, and Prettier, as well as the configuration files for each workspace.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the use of specific tools for coding style and project structure, such as Turbo, Vite, TypeScript, ESLint, and Prettier, as well as the configuration files for each workspace.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Technologies",
+      "level": 3,
+      "char_count": 239,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Technologies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines key technologies used in the project, which relates to both project structure and architecture as it describes the building blocks and dependencies of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines key technologies used in the project, which relates to both project structure and architecture as it describes the building blocks and dependencies of the project.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Technologies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key technologies, which relates to project structure by outlining the foundational components and tools used in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key technologies, which relates to project structure by outlining the foundational components and tools used in the project.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Technologies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists the key technologies used in the project, which informs the project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section lists the key technologies used in the project, which informs the project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Notes",
+      "level": 2,
+      "char_count": 473,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes the development setup, build process, and key implementation details of the project, spanning directory layout, development mode, and component interactions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes the development setup, build process, and key implementation details of the project, spanning directory layout, development mode, and component interactions.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section ",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses directory structures (project_structure), development and build processes (workflow_process), and architectural design choices (architecture).\""
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's structure, build process, and architecture, including file locations, build flags, and multi-agent coordination.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the project's structure, build process, and architecture, including file locations, build flags, and multi-agent coordination.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Unit Tests",
+      "level": 2,
+      "char_count": 262,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Unit Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the setup and execution of unit tests, which falls under workflow_process, and also mentions the location and naming of test files, relating to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the setup and execution of unit tests, which falls under workflow_process, and also mentions the location and naming of test files, relating to project_structure.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Unit Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing framework, test location/naming conventions, and commands to run tests, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing framework, test location/naming conventions, and commands to run tests, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Unit Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the unit testing framework, naming conventions, and execution commands, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes the unit testing framework, naming conventions, and execution commands, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Extension",
+      "level": 2,
+      "char_count": 151,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Testing Extension",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to load and test the extension, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps to load and test the extension, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Testing Extension",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific procedural step (testing an extension) within the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific procedural step (testing an extension) within the development workflow.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Testing Extension",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for testing an extension, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for testing an extension, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Naming Convention",
+      "level": 3,
+      "char_count": 1056,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Naming Convention",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Naming Convention",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions with specific patterns, prefixes, and suffixes, which directly relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions with specific patterns, prefixes, and suffixes, which directly relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Key Naming Convention",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides detailed naming conventions for different components and states, which is a coding style guideline.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides detailed naming conventions for different components and states, which is a coding style guideline.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Usage",
+      "level": 3,
+      "char_count": 160,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Usage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides an example of how to use the i18n extension in TypeScript, demonstrating coding style and conventions for importing and using the translation function.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides an example of how to use the i18n extension in TypeScript, demonstrating coding style and conventions for importing and using the translation function.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Usage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section demonstrates code formatting and import conventions for internationalization (i18n) in TypeScript.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section demonstrates code formatting and import conventions for internationalization (i18n) in TypeScript.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Usage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily demonstrates coding style for importing and using a translation function",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily demonstrates coding style for importing and using a translation function\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Placeholders",
+      "level": 3,
+      "char_count": 524,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Placeholders",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions, formatting, and guidelines for using placeholders in Chrome i18n format, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions, formatting, and guidelines for using placeholders in Chrome i18n format, which falls under coding style.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Placeholders",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on formatting and conventions for placeholders in i18n, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on formatting and conventions for placeholders in i18n, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Placeholders",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for naming conventions and formatting related to i18n placeholders.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for naming conventions and formatting related to i18n placeholders.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Generation",
+      "level": 3,
+      "char_count": 285,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Generation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the generation process and file locations, which relates to both workflow and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the generation process and file locations, which relates to both workflow and project structure.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Generation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific directories/files (project_structure) and a script's execution within build scripts (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes specific directories/files (project_structure) and a script's execution within build scripts (workflow_process).\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Generation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the location of generated files and the process for generating them, which falls under project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the location of generated files and the process for generating them, which falls under project structure and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Principles",
+      "level": 3,
+      "char_count": 420,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines coding principles that pertain to both coding style and software architecture, emphasizing simplicity, modularity, testability, and type safety.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines coding principles that pertain to both coding style and software architecture, emphasizing simplicity, modularity, testability, and type safety.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines coding practices (coding_style) and structural design principles (architecture) for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines coding practices (coding_style) and structural design principles (architecture) for the project.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Development Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on coding style and architecture, including modular design, testability, and type safety.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on coding style and architecture, including modular design, testability, and type safety.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Organization",
+      "level": 3,
+      "char_count": 254,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Code Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses code organization principles, including naming conventions and design patterns, which relate to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses code organization principles, including naming conventions and design patterns, which relate to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Code Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses code structure (coding_style) and design principles (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses code structure (coding_style) and design principles (architecture).\" }"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Code Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on coding style and architecture, including reusable logic, dependency injection, function size, composition over inheritance, and self-documenting code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on coding style and architecture, including reusable logic, dependency injection, function size, composition over inheritance, and self-documenting code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Style & Naming",
+      "level": 3,
+      "char_count": 394,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Style & Naming",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, formatting, and linting rules, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, formatting, and linting rules, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Style & Naming",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, formatting tools (Prettier), and specific linting rules (ESLint), all of which are directly related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, formatting tools (Prettier), and specific linting rules (ESLint), all of which are directly related to coding style.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Style & Naming",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses formatting, linting, and naming conventions for the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses formatting, linting, and naming conventions for the codebase.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quality Assurance",
+      "level": 3,
+      "char_count": 229,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Quality Assurance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses code style consistency and testing requirements, which relate to coding style and workflow processes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses code style consistency and testing requirements, which relate to coding style and workflow processes.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Quality Assurance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section combines code style consistency checks with pre-commit testing workflows.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section combines code style consistency checks with pre-commit testing workflows.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Quality Assurance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on using specific tools for code style and type checking, which aligns with the coding_style category, and also outlines testing requirements and guidelines, which fits the workflow_process category.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on using specific tools for code style and type checking, which aligns with the coding_style category, and also outlines testing requirements and guidelines, which fits the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security Guidelines",
+      "level": 3,
+      "char_count": 989,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Security Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily focuses on coding practices related to security, which falls under coding_style, and also touches on workflow_process by implying guidelines for development and testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily focuses on coding practices related to security, which falls under coding_style, and also touches on workflow_process by implying guidelines for development and testing.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Security Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines coding practices for security (coding_style) but also implies workflow checks for adherence (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines coding practices for security (coding_style) but also implies workflow checks for adherence (workflow_process).\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Security Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines for secure coding practices, workflow processes related to security, and architectural considerations for handling sensitive data and permissions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines for secure coding practices, workflow processes related to security, and architectural considerations for handling sensitive data and permissions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important Reminders",
+      "level": 2,
+      "char_count": 1563,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Important Reminders",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section contains reminders about package management, Node.js version, coding conventions, project layout, and workflow guidelines, which predominantly fall under coding style, project structure, and workflow process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"This section contains reminders about package management, Node.js version, coding conventions, project layout, and workflow guidelines, which predominantly fall under coding style, project structure, and workflow process categories.\"}"
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Important Reminders",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section ",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section contains reminders on package manager and Node.js version (coding_style), directory and file handling (project_structure), and workflow rules like commit and change policies (workflow_process).\""
+        },
+        {
+          "repo": "nanobrowser/nanobrowser",
+          "section_heading": "Important Reminders",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on coding style (package manager, Node.js version, engine-strict), project structure (directory layout, key files), and workflow process (task dependencies, build process, change policy).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on coding style (package manager, Node.js version, engine-strict), project structure (directory layout, key files), and workflow process (task dependencies, build process, change policy).\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.5,
+    "project_structure": 0.45454545454545453,
+    "workflow_process": 0.4090909090909091,
+    "architecture": 0.2727272727272727,
+    "evolution_context": 0.045454545454545456,
+    "agent_rules": 0.045454545454545456
+  },
+  "category_char_fraction": {
+    "coding_style": 0.6197772913295898,
+    "project_structure": 0.503188350623394,
+    "workflow_process": 0.5299324260017132,
+    "architecture": 0.16807842390787095,
+    "evolution_context": 0.023222613495764727,
+    "agent_rules": 0.01237270391167793
+  }
+}

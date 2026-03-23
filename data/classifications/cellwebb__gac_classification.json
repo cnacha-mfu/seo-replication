@@ -1,0 +1,1146 @@
+{
+  "repo": "cellwebb__gac",
+  "full_name": "cellwebb/gac",
+  "n_sections": 13,
+  "n_chars": 6038,
+  "sections": [
+    {
+      "heading": "Repository Guidelines",
+      "level": 1,
+      "char_count": 81,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Repository Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance for AI coding agents, indicating it primarily belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance for AI coding agents, indicating it primarily belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Repository Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidelines for AI coding agents, which pertains to agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidelines for AI coding agents, which pertains to agent-specific directives.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Repository Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidelines for AI coding agents, which falls under workflow_process, and it also includes AI-specific directives, which falls under agent_rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section provides guidelines for AI coding agents, which falls under workflow_process, and it also includes AI-specific directives, which falls under agent_rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83d\udea8 CRITICAL: AI AGENT COMMAND REQUIREMENTS",
+      "level": 2,
+      "char_count": 91,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "\ud83d\udea8 CRITICAL: AI AGENT COMMAND REQUIREMENTS",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines specific directives for AI agent commands, but also touches on coding style by specifying a prefix for Python-related commands.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"coding_style\"], \"reasoning\": \"This section primarily outlines specific directives for AI agent commands, but also touches on coding style by specifying a prefix for Python-related commands.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "\ud83d\udea8 CRITICAL: AI AGENT COMMAND REQUIREMENTS",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section specifies a command prefix requirement for AI agent interactions, which is an AI-specific directive.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section specifies a command prefix requirement for AI agent interactions, which is an AI-specific directive.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "\ud83d\udea8 CRITICAL: AI AGENT COMMAND REQUIREMENTS",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides a specific workflow process for AI agent command requirements and also includes an agent-specific directive.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section provides a specific workflow process for AI agent command requirements and also includes an agent-specific directive.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CORRECT (Always use these)",
+      "level": 3,
+      "char_count": 493,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "CORRECT (Always use these)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific commands and tools to use for running scripts, tests, and other development tasks, indicating both coding style and workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines specific commands and tools to use for running scripts, tests, and other development tasks, indicating both coding style and workflow process guidelines.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "CORRECT (Always use these)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section enforces a specific command prefix convention for consistency, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section enforces a specific command prefix convention for consistency, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "CORRECT (Always use these)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for using specific command line tools and outlines a workflow process for running scripts and tests.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for using specific command line tools and outlines a workflow process for running scripts and tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "FORBIDDEN (Never use these)",
+      "level": 3,
+      "char_count": 476,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "FORBIDDEN (Never use these)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section primarily discusses forbidden tools and enforces a specific workflow for AI agents, touching on coding style by implying a specific set of allowed tools.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section primarily discusses forbidden tools and enforces a specific workflow for AI agents, touching on coding style by implying a specific set of allowed tools.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "FORBIDDEN (Never use these)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines forbidden tools and a mandatory workflow (`uv run`) with a specific AI agent directive, impacting both workflow and agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines forbidden tools and a mandatory workflow (`uv run`) with a specific AI agent directive, impacting both workflow and agent rules.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "FORBIDDEN (Never use these)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section forbids certain Python tools and emphasizes the use of 'uv run' for environment isolation, consistent dependency resolution, and reliable tool execution, which pertains to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section forbids certain Python tools and emphasizes the use of 'uv run' for environment isolation, consistent dependency resolution, and reliable tool execution, which pertains to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Subagent Guidance",
+      "level": 3,
+      "char_count": 573,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Subagent Guidance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides specific guidance on how to interact with subagents, including the use of a specific prefix for Python commands, which falls under AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides specific guidance on how to interact with subagents, including the use of a specific prefix for Python commands, which falls under AI-specific directives.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Subagent Guidance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section focuses on specific directives for interacting with subagents, which is directly related to agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section focuses on specific directives for interacting with subagents, which is directly related to agent rules.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Subagent Guidance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules",
+            "coding_style"
+          ],
+          "reasoning": "The section provides specific rules for AI agents to follow when executing Python commands, and also specifies a coding style for invoking Python commands.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"coding_style\"], \"reasoning\": \"The section provides specific rules for AI agents to follow when executing Python commands, and also specifies a coding style for invoking Python commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 965,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is dominated by a description of the directory layout and key files in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is dominated by a description of the directory layout and key files in the project.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project, which aligns with the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project, which aligns with the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Setup",
+      "level": 3,
+      "char_count": 49,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Environment Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes setting up the environment for the project, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes setting up the environment for the project, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Environment Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for setting up the development environment, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for setting up the development environment, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Environment Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command for setting up a virtual environment and installing project dependencies, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a command for setting up a virtual environment and installing project dependencies, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 208,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing requirements and commands, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing requirements and commands, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and processes for running different types of tests, which relates to testing requirements within the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and processes for running different types of tests, which relates to testing requirements within the workflow.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing commands and requirements, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes testing commands and requirements, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Quality",
+      "level": 3,
+      "char_count": 175,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Code Quality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses code quality, linting, and formatting, which falls under coding_style, and also mentions make commands, which relates to workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses code quality, linting, and formatting, which falls under coding_style, and also mentions make commands, which relates to workflow_process.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Code Quality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on commands for checking and enforcing code quality and formatting, which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on commands for checking and enforcing code quality and formatting, which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Code Quality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes commands for linting and formatting code, which are coding style practices, and also outlines workflow processes for maintaining code quality.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes commands for linting and formatting code, which are coding style practices, and also outlines workflow processes for maintaining code quality.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Guidelines",
+      "level": 2,
+      "char_count": 626,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Development Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily outlines coding standards and development requirements, but also touches on workflow processes through CLI features.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily outlines coding standards and development requirements, but also touches on workflow processes through CLI features.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Development Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section covers coding standards (coding_style) and CLI features for development workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section covers coding standards (coding_style) and CLI features for development workflow (workflow_process).\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Development Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines coding standards, required tools, and CLI features, which fall under coding_style, project_structure, and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines coding standards, required tools, and CLI features, which fall under coding_style, project_structure, and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Structure",
+      "level": 2,
+      "char_count": 395,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the testing structure, including types of tests and how to generate coverage reports, which relates to workflow processes, and also touches on project structure by implying a specific organization of tests.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the testing structure, including types of tests and how to generate coverage reports, which relates to workflow processes, and also touches on project structure by implying a specific organization of tests.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing types and commands for testing and coverage, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing types and commands for testing and coverage, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing types and conventions, which falls under coding_style, and also outlines testing requirements and a command for generating coverage reports, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes testing types and conventions, which falls under coding_style, and also outlines testing requirements and a command for generating coverage reports, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit & PR Guidelines",
+      "level": 2,
+      "char_count": 435,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Commit & PR Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines commit and PR guidelines, which falls under workflow_process, and also touches on coding_style with formatting and linting requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines commit and PR guidelines, which falls under workflow_process, and also touches on coding_style with formatting and linting requirements.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Commit & PR Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific guidelines for commits and PRs, including formatting, checklists, and required checks, which directly relate to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific guidelines for commits and PRs, including formatting, checklists, and required checks, which directly relate to workflow processes.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Commit & PR Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for commit and PR workflow, and also includes coding style rules for formatting and linting.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides guidelines for commit and PR workflow, and also includes coding style rules for formatting and linting.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Critical Dependencies",
+      "level": 2,
+      "char_count": 1086,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Critical Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses critical dependencies and the use of UV for dependency management, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses critical dependencies and the use of UV for dependency management, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Critical Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section discusses dependency management (project_structure), enforces a specific tooling workflow (workflow_process), and touches on the project's multi-provider architecture (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses dependency management (project_structure), enforces a specific tooling workflow (workflow_process), and touches on the project's multi-provider architecture (architecture).\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Critical Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section lists critical dependencies, which is part of project structure, discusses the use of UV for consistent dependency resolution across environments, which is a workflow process, and mentions the multi-provider architecture, which is related to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section lists critical dependencies, which is part of project structure, discusses the use of UV for consistent dependency resolution across environments, which is a workflow process, and mentions the multi-provider architecture, which is related to architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Repository Guidelines",
+      "level": 1,
+      "char_count": 81,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Repository Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance for AI coding agents, indicating it primarily belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance for AI coding agents, indicating it primarily belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Repository Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidelines for AI coding agents, which pertains to agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidelines for AI coding agents, which pertains to agent-specific directives.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Repository Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidelines for AI coding agents, which falls under workflow_process, and it also includes AI-specific directives, which falls under agent_rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section provides guidelines for AI coding agents, which falls under workflow_process, and it also includes AI-specific directives, which falls under agent_rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83d\udea8 CRITICAL: AI AGENT COMMAND REQUIREMENTS",
+      "level": 2,
+      "char_count": 91,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "\ud83d\udea8 CRITICAL: AI AGENT COMMAND REQUIREMENTS",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines specific directives for AI agent commands, but also touches on coding style by specifying a prefix for Python-related commands.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"coding_style\"], \"reasoning\": \"This section primarily outlines specific directives for AI agent commands, but also touches on coding style by specifying a prefix for Python-related commands.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "\ud83d\udea8 CRITICAL: AI AGENT COMMAND REQUIREMENTS",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section specifies a command prefix requirement for AI agent interactions, which is an AI-specific directive.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section specifies a command prefix requirement for AI agent interactions, which is an AI-specific directive.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "\ud83d\udea8 CRITICAL: AI AGENT COMMAND REQUIREMENTS",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides a specific workflow process for AI agent command requirements and also includes an agent-specific directive.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section provides a specific workflow process for AI agent command requirements and also includes an agent-specific directive.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CORRECT (Always use these)",
+      "level": 3,
+      "char_count": 493,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "CORRECT (Always use these)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific commands and tools to use for running scripts, tests, and other development tasks, indicating both coding style and workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines specific commands and tools to use for running scripts, tests, and other development tasks, indicating both coding style and workflow process guidelines.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "CORRECT (Always use these)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section enforces a specific command prefix convention for consistency, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section enforces a specific command prefix convention for consistency, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "CORRECT (Always use these)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for using specific command line tools and outlines a workflow process for running scripts and tests.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for using specific command line tools and outlines a workflow process for running scripts and tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "FORBIDDEN (Never use these)",
+      "level": 3,
+      "char_count": 476,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "FORBIDDEN (Never use these)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section primarily discusses forbidden tools and enforces a specific workflow for AI agents, touching on coding style by implying a specific set of allowed tools.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section primarily discusses forbidden tools and enforces a specific workflow for AI agents, touching on coding style by implying a specific set of allowed tools.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "FORBIDDEN (Never use these)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines forbidden tools and a mandatory workflow (`uv run`) with a specific AI agent directive, impacting both workflow and agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines forbidden tools and a mandatory workflow (`uv run`) with a specific AI agent directive, impacting both workflow and agent rules.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "FORBIDDEN (Never use these)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section forbids certain Python tools and emphasizes the use of 'uv run' for environment isolation, consistent dependency resolution, and reliable tool execution, which pertains to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section forbids certain Python tools and emphasizes the use of 'uv run' for environment isolation, consistent dependency resolution, and reliable tool execution, which pertains to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Subagent Guidance",
+      "level": 3,
+      "char_count": 573,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Subagent Guidance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides specific guidance on how to interact with subagents, including the use of a specific prefix for Python commands, which falls under AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides specific guidance on how to interact with subagents, including the use of a specific prefix for Python commands, which falls under AI-specific directives.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Subagent Guidance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section focuses on specific directives for interacting with subagents, which is directly related to agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section focuses on specific directives for interacting with subagents, which is directly related to agent rules.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Subagent Guidance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules",
+            "coding_style"
+          ],
+          "reasoning": "The section provides specific rules for AI agents to follow when executing Python commands, and also specifies a coding style for invoking Python commands.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"coding_style\"], \"reasoning\": \"The section provides specific rules for AI agents to follow when executing Python commands, and also specifies a coding style for invoking Python commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 965,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is dominated by a description of the directory layout and key files in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is dominated by a description of the directory layout and key files in the project.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project, which aligns with the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project, which aligns with the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Setup",
+      "level": 3,
+      "char_count": 49,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Environment Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes setting up the environment for the project, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes setting up the environment for the project, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Environment Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for setting up the development environment, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for setting up the development environment, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Environment Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command for setting up a virtual environment and installing project dependencies, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a command for setting up a virtual environment and installing project dependencies, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 208,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing requirements and commands, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing requirements and commands, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and processes for running different types of tests, which relates to testing requirements within the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and processes for running different types of tests, which relates to testing requirements within the workflow.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing commands and requirements, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes testing commands and requirements, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Quality",
+      "level": 3,
+      "char_count": 175,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Code Quality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses code quality, linting, and formatting, which falls under coding_style, and also mentions make commands, which relates to workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses code quality, linting, and formatting, which falls under coding_style, and also mentions make commands, which relates to workflow_process.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Code Quality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on commands for checking and enforcing code quality and formatting, which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on commands for checking and enforcing code quality and formatting, which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Code Quality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes commands for linting and formatting code, which are coding style practices, and also outlines workflow processes for maintaining code quality.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes commands for linting and formatting code, which are coding style practices, and also outlines workflow processes for maintaining code quality.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Guidelines",
+      "level": 2,
+      "char_count": 626,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Development Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily outlines coding standards and development requirements, but also touches on workflow processes through CLI features.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily outlines coding standards and development requirements, but also touches on workflow processes through CLI features.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Development Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section covers coding standards (coding_style) and CLI features for development workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section covers coding standards (coding_style) and CLI features for development workflow (workflow_process).\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Development Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines coding standards, required tools, and CLI features, which fall under coding_style, project_structure, and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines coding standards, required tools, and CLI features, which fall under coding_style, project_structure, and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Structure",
+      "level": 2,
+      "char_count": 395,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the testing structure, including types of tests and how to generate coverage reports, which relates to workflow processes, and also touches on project structure by implying a specific organization of tests.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the testing structure, including types of tests and how to generate coverage reports, which relates to workflow processes, and also touches on project structure by implying a specific organization of tests.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing types and commands for testing and coverage, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing types and commands for testing and coverage, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Testing Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing types and conventions, which falls under coding_style, and also outlines testing requirements and a command for generating coverage reports, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes testing types and conventions, which falls under coding_style, and also outlines testing requirements and a command for generating coverage reports, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit & PR Guidelines",
+      "level": 2,
+      "char_count": 435,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Commit & PR Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines commit and PR guidelines, which falls under workflow_process, and also touches on coding_style with formatting and linting requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines commit and PR guidelines, which falls under workflow_process, and also touches on coding_style with formatting and linting requirements.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Commit & PR Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific guidelines for commits and PRs, including formatting, checklists, and required checks, which directly relate to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific guidelines for commits and PRs, including formatting, checklists, and required checks, which directly relate to workflow processes.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Commit & PR Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for commit and PR workflow, and also includes coding style rules for formatting and linting.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides guidelines for commit and PR workflow, and also includes coding style rules for formatting and linting.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Critical Dependencies",
+      "level": 2,
+      "char_count": 1086,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Critical Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses critical dependencies and the use of UV for dependency management, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses critical dependencies and the use of UV for dependency management, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Critical Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section discusses dependency management (project_structure), enforces a specific tooling workflow (workflow_process), and touches on the project's multi-provider architecture (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses dependency management (project_structure), enforces a specific tooling workflow (workflow_process), and touches on the project's multi-provider architecture (architecture).\"}"
+        },
+        {
+          "repo": "cellwebb/gac",
+          "section_heading": "Critical Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section lists critical dependencies, which is part of project structure, discusses the use of UV for consistent dependency resolution across environments, which is a workflow process, and mentions the multi-provider architecture, which is related to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section lists critical dependencies, which is part of project structure, discusses the use of UV for consistent dependency resolution across environments, which is a workflow process, and mentions the multi-provider architecture, which is related to architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.38461538461538464,
+    "project_structure": 0.23076923076923078,
+    "workflow_process": 0.6923076923076923,
+    "architecture": 0.07692307692307693,
+    "evolution_context": 0.0,
+    "agent_rules": 0.3076923076923077
+  },
+  "category_char_fraction": {
+    "coding_style": 0.3900583760834955,
+    "project_structure": 0.3714841676985671,
+    "workflow_process": 0.6975057491597382,
+    "architecture": 0.1921103838669733,
+    "evolution_context": 0.0,
+    "agent_rules": 0.21599150893330973
+  }
+}

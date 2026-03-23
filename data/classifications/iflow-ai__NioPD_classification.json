@@ -1,0 +1,1536 @@
+{
+  "repo": "iflow-ai__NioPD",
+  "full_name": "iflow-ai/NioPD",
+  "n_sections": 18,
+  "n_chars": 6489,
+  "sections": [
+    {
+      "heading": "AGENTS.md for the NioPD System",
+      "level": 1,
+      "char_count": 76,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "AGENTS.md for the NioPD System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about providing guidance for AI agents, which falls under agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about providing guidance for AI agents, which falls under agent-specific directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "AGENTS.md for the NioPD System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses AI agents with guidance, aligning with agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses AI agents with guidance, aligning with agent-specific directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "AGENTS.md for the NioPD System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance for AI agents, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance for AI agents, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. System Overview",
+      "level": 2,
+      "char_count": 402,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "1. System Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the overall system design and data storage, which relates to project structure, and also touches on the system's architecture by mentioning the AI's behavior and command-driven nature.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the overall system design and data storage, which relates to project structure, and also touches on the system's architecture by mentioning the AI's behavior and command-driven nature.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "1. System Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes system design (archite",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes system design (architecture) and file storage location (project_structure).\""
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "1. System Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the system's purpose and its file-based, command-driven architecture, as well as the location of data storage, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the system's purpose and its file-based, command-driven architecture, as well as the location of data storage, which relates to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Core Philosophy: Agent-Driven Synthesis",
+      "level": 2,
+      "char_count": 416,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "2. Core Philosophy: Agent-Driven Synthesis",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "This section describes the core philosophy of NioPD, focusing on agent-driven synthesis, which relates to agent rules, and also touches on the system's architecture by mentioning the role of agents in transforming documents.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"This section describes the core philosophy of NioPD, focusing on agent-driven synthesis, which relates to agent rules, and also touches on the system's architecture by mentioning the role of agents in transforming documents.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "2. Core Philosophy: Agent-Driven Synthesis",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"agent_rules\", \"project_structure\"], \"reasoning\": \"The section explains the agent's ",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"project_structure\"], \"reasoning\": \"The section explains the agent's role (agent_rules) and references specific directories (project_structure).\""
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "2. Core Philosophy: Agent-Driven Synthesis",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the role of specialized agents in the system architecture and outlines their primary responsibilities, which can be considered as agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the role of specialized agents in the system architecture and outlines their primary responsibilities, which can be considered as agent rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `competitor-analyzer`",
+      "level": 3,
+      "char_count": 318,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `competitor-analyzer`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes a module's purpose, input, and output, indicating its role and dependencies, while also specifying AI-specific directives for the competitor-analyzer subagent.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes a module's purpose, input, and output, indicating its role and dependencies, while also specifying AI-specific directives for the competitor-analyzer subagent.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `competitor-analyzer`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a module's (competitor-analyzer) purpose, input, and output, outlining its role within the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a module's (competitor-analyzer) purpose, input, and output, outlining its role within the system's architecture.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `competitor-analyzer`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a specific module, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the purpose, input, and output of a specific module, which falls under the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `data-analyst`",
+      "level": 3,
+      "char_count": 290,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `data-analyst`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific AI agent, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific AI agent, which falls under the agent_rules category.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `data-analyst`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "Describes a module's (subagent) purpose, inputs, and outputs, implying architectural design and agent-specific rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"Describes a module's (subagent) purpose, inputs, and outputs, implying architectural design and agent-specific rules.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `data-analyst`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a specific subagent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of a specific subagent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `feedback-synthesizer`",
+      "level": 3,
+      "char_count": 252,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `feedback-synthesizer`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose and functionality of a specific module, `feedback-synthesizer`, which relates to architecture, and also implies AI-specific processing, which falls under agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the purpose and functionality of a specific module, `feedback-synthesizer`, which relates to architecture, and also implies AI-specific processing, which falls under agent rules.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `feedback-synthesizer`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a module's purpose, input, and output, outlining its role within the system's design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a module's purpose, input, and output, outlining its role within the system's design.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `feedback-synthesizer`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and functionality of a specific module, `feedback-synthesizer`, within the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the purpose and functionality of a specific module, `feedback-synthesizer`, within the project's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `interview-summarizer`",
+      "level": 3,
+      "char_count": 308,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `interview-summarizer`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific module, which aligns with the architecture category's focus on module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific module, which aligns with the architecture category's focus on module roles and dependencies.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `interview-summarizer`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a module's (interview-summarizer) purpose, input, and output, outlining its role within the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a module's (interview-summarizer) purpose, input, and output, outlining its role within the system.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `interview-summarizer`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and functionality of a specific module, `interview-summarizer`, within the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the purpose and functionality of a specific module, `interview-summarizer`, within the project's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `kpi-tracker`",
+      "level": 3,
+      "char_count": 214,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `kpi-tracker`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific module, indicating its role and functionality within the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific module, indicating its role and functionality within the project's architecture.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `kpi-tracker`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a module's (kpi-tracker) purpose, input, and output, outlining its role within the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a module's (kpi-tracker) purpose, input, and output, outlining its role within the system's architecture.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `kpi-tracker`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and functionality of a specific module, `kpi-tracker`, within the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the purpose and functionality of a specific module, `kpi-tracker`, within the project's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `market-researcher`",
+      "level": 3,
+      "char_count": 276,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `market-researcher`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific AI agent, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific AI agent, which falls under the agent_rules category.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `market-researcher`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section defines the purpose, input, and output of a specific AI agent ('market-researcher'), which directly relates to AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section defines the purpose, input, and output of a specific AI agent ('market-researcher'), which directly relates to AI-specific directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `market-researcher`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a specific subagent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of a specific subagent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `persona-generator`",
+      "level": 3,
+      "char_count": 293,
+      "voted_categories": [
+        "architecture",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `persona-generator`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific agent, indicating its role and dependencies within the system, which relates to architecture, and also provides directives for the agent's operation, which falls under agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific agent, indicating its role and dependencies within the system, which relates to architecture, and also provides directives for the agent's operation, which falls under agent rules.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `persona-generator`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "Describes a module's (persona-generator) role and dependencies (input/output), aligning with architecture, and specifies AI agent behavior, fitting agent_rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"Describes a module's (persona-generator) role and dependencies (input/output), aligning with architecture, and specifies AI agent behavior, fitting agent_rules.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `persona-generator`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a specific agent, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of a specific agent, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `presentation-builder`",
+      "level": 3,
+      "char_count": 256,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `presentation-builder`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific module or tool within the project, outlining its purpose, input, and output, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes a specific module or tool within the project, outlining its purpose, input, and output, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `presentation-builder`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "Describes a module's purpose and input/output (architecture), within the context of a workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"Describes a module's purpose and input/output (architecture), within the context of a workflow (workflow_process).\"}\n\n**Rationale Breakdown:**\n\n- **Architecture (\"architecture\")**: The section outlines the **purpose**, **input**, and **output** of a specific module (`presentation-builder`). This aligns with defining module roles and dependencies, which is a key aspect of architecture.\n  \n- **Workflow Process (\"workflow_process\")**: The context in which `presentation-builder` operates (initiative file, PRD file, generating a project status report) implies its integration into the project's workflow, particularly in how project updates are generated for stakeholders, touching on aspects of how work is processed and presented. \n\n**Why not other categories?**\n\n- **Coding Style, Project Structure, Evolution Context, Agent Rules**: The content does not discuss naming conventions, directory layouts, project phases, technical debt, or AI-specific directives, making these categories less relevant."
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `presentation-builder`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a specific component, indicating architecture, and also outlines a task for an AI agent, indicating agent_rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of a specific component, indicating architecture, and also outlines a task for an AI agent, indicating agent_rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `roadmap-generator`",
+      "level": 3,
+      "char_count": 226,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `roadmap-generator`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific tool and its input/output within the project, relating to both project structure and architectural components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes a specific tool and its input/output within the project, relating to both project structure and architectural components.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `roadmap-generator`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific tool's purpose, input (directory), and output, relating to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a specific tool's purpose, input (directory), and output, relating to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `roadmap-generator`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and input/output of a specific component (`roadmap-generator`) within the project, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the purpose and input/output of a specific component (`roadmap-generator`) within the project, which relates to both project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `faq-generator`",
+      "level": 3,
+      "char_count": 360,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `faq-generator`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific AI tool, the `faq-generator`, which falls under AI-specific directives and tool use constraints.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific AI tool, the `faq-generator`, which falls under AI-specific directives and tool use constraints.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `faq-generator`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a module's (subagent's) purpose, input, and output, outlining its role within the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a module's (subagent's) purpose, input, and output, outlining its role within the system.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `faq-generator`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose and functionality of a specific module (faq-generator), and outlines its input and output, which falls under architecture; it also details the AI-specific task of generating FAQ documents, which falls under agent_rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section describes the purpose and functionality of a specific module (faq-generator), and outlines its input and output, which falls under architecture; it also details the AI-specific task of generating FAQ documents, which falls under agent_rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `story-writer`",
+      "level": 3,
+      "char_count": 397,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `story-writer`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section primarily describes the purpose, input, and output of a specific AI agent, the `story-writer`, which falls under agent rules and directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section primarily describes the purpose, input, and output of a specific AI agent, the `story-writer`, which falls under agent rules and directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `story-writer`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines a specific AI agent's (story-writer) purpose, input, and output, which are AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section outlines a specific AI agent's (story-writer) purpose, input, and output, which are AI-specific directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `story-writer`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a subagent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of a subagent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `Nio`",
+      "level": 3,
+      "char_count": 472,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `Nio`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of the Nio agent, which falls under AI-specific directives and tool use constraints.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes the purpose, input, and output of the Nio agent, which falls under AI-specific directives and tool use constraints.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `Nio`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the role, input, and output of a specific AI agent ('Nio'), which directly relates to agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the role, input, and output of a specific AI agent ('Nio'), which directly relates to agent-specific directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `Nio`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. The Command Workflow",
+      "level": 2,
+      "char_count": 540,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "4. The Command Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the command workflow and its corresponding directory structure and files, dominating the content with workflow processes and project structure details.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the command workflow and its corresponding directory structure and files, dominating the content with workflow processes and project structure details.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "4. The Command Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"Describes a workflow process",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"Describes a workflow process (command execution steps) and references a specific project structure (directory layout for command files).\""
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "4. The Command Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the location of command definition files and outlines the workflow process for executing commands.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the location of command definition files and outlines the workflow process for executing commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "How to Extend NioPD",
+      "level": 3,
+      "char_count": 294,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "How to Extend NioPD",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes how to extend NioPD by adding new commands, agents, and templates, which relates to both the project's directory layout and module roles.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes how to extend NioPD by adding new commands, agents, and templates, which relates to both the project's directory layout and module roles.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "How to Extend NioPD",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes specific directory locations for adding new components (project_structure) and guidelines for defining new agents (agent_rules).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"agent_rules\"], \"reasoning\": \"The section describes specific directory locations for adding new components (project_structure) and guidelines for defining new agents (agent_rules).\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "How to Extend NioPD",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on where to add new files (project_structure) and how to create new commands, agents, and templates (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on where to add new files (project_structure) and how to create new commands, agents, and templates (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 540,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses testing requirements and procedures, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses testing requirements and procedures, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing procedures, prerequisites, and post-test actions, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing procedures, prerequisites, and post-test actions, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes testing workflow and project structure details, including file creation, verification, and cleanup in specific directories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes testing workflow and project structure details, including file creation, verification, and cleanup in specific directories.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "AGENTS.md for the NioPD System",
+      "level": 1,
+      "char_count": 76,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "AGENTS.md for the NioPD System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about providing guidance for AI agents, which falls under agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about providing guidance for AI agents, which falls under agent-specific directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "AGENTS.md for the NioPD System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses AI agents with guidance, aligning with agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses AI agents with guidance, aligning with agent-specific directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "AGENTS.md for the NioPD System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance for AI agents, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance for AI agents, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. System Overview",
+      "level": 2,
+      "char_count": 402,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "1. System Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the overall system design and data storage, which relates to project structure, and also touches on the system's architecture by mentioning the AI's behavior and command-driven nature.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the overall system design and data storage, which relates to project structure, and also touches on the system's architecture by mentioning the AI's behavior and command-driven nature.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "1. System Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes system design (archite",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes system design (architecture) and file storage location (project_structure).\""
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "1. System Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the system's purpose and its file-based, command-driven architecture, as well as the location of data storage, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the system's purpose and its file-based, command-driven architecture, as well as the location of data storage, which relates to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Core Philosophy: Agent-Driven Synthesis",
+      "level": 2,
+      "char_count": 416,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "2. Core Philosophy: Agent-Driven Synthesis",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "This section describes the core philosophy of NioPD, focusing on agent-driven synthesis, which relates to agent rules, and also touches on the system's architecture by mentioning the role of agents in transforming documents.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"This section describes the core philosophy of NioPD, focusing on agent-driven synthesis, which relates to agent rules, and also touches on the system's architecture by mentioning the role of agents in transforming documents.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "2. Core Philosophy: Agent-Driven Synthesis",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"agent_rules\", \"project_structure\"], \"reasoning\": \"The section explains the agent's ",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"project_structure\"], \"reasoning\": \"The section explains the agent's role (agent_rules) and references specific directories (project_structure).\""
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "2. Core Philosophy: Agent-Driven Synthesis",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the role of specialized agents in the system architecture and outlines their primary responsibilities, which can be considered as agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the role of specialized agents in the system architecture and outlines their primary responsibilities, which can be considered as agent rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `competitor-analyzer`",
+      "level": 3,
+      "char_count": 318,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `competitor-analyzer`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes a module's purpose, input, and output, indicating its role and dependencies, while also specifying AI-specific directives for the competitor-analyzer subagent.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes a module's purpose, input, and output, indicating its role and dependencies, while also specifying AI-specific directives for the competitor-analyzer subagent.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `competitor-analyzer`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a module's (competitor-analyzer) purpose, input, and output, outlining its role within the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a module's (competitor-analyzer) purpose, input, and output, outlining its role within the system's architecture.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `competitor-analyzer`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a specific module, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the purpose, input, and output of a specific module, which falls under the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `data-analyst`",
+      "level": 3,
+      "char_count": 290,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `data-analyst`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific AI agent, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific AI agent, which falls under the agent_rules category.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `data-analyst`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "Describes a module's (subagent) purpose, inputs, and outputs, implying architectural design and agent-specific rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"Describes a module's (subagent) purpose, inputs, and outputs, implying architectural design and agent-specific rules.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `data-analyst`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a specific subagent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of a specific subagent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `feedback-synthesizer`",
+      "level": 3,
+      "char_count": 252,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `feedback-synthesizer`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose and functionality of a specific module, `feedback-synthesizer`, which relates to architecture, and also implies AI-specific processing, which falls under agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the purpose and functionality of a specific module, `feedback-synthesizer`, which relates to architecture, and also implies AI-specific processing, which falls under agent rules.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `feedback-synthesizer`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a module's purpose, input, and output, outlining its role within the system's design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a module's purpose, input, and output, outlining its role within the system's design.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `feedback-synthesizer`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and functionality of a specific module, `feedback-synthesizer`, within the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the purpose and functionality of a specific module, `feedback-synthesizer`, within the project's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `interview-summarizer`",
+      "level": 3,
+      "char_count": 308,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `interview-summarizer`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific module, which aligns with the architecture category's focus on module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific module, which aligns with the architecture category's focus on module roles and dependencies.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `interview-summarizer`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a module's (interview-summarizer) purpose, input, and output, outlining its role within the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a module's (interview-summarizer) purpose, input, and output, outlining its role within the system.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `interview-summarizer`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and functionality of a specific module, `interview-summarizer`, within the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the purpose and functionality of a specific module, `interview-summarizer`, within the project's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `kpi-tracker`",
+      "level": 3,
+      "char_count": 214,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `kpi-tracker`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific module, indicating its role and functionality within the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific module, indicating its role and functionality within the project's architecture.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `kpi-tracker`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a module's (kpi-tracker) purpose, input, and output, outlining its role within the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a module's (kpi-tracker) purpose, input, and output, outlining its role within the system's architecture.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `kpi-tracker`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and functionality of a specific module, `kpi-tracker`, within the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the purpose and functionality of a specific module, `kpi-tracker`, within the project's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `market-researcher`",
+      "level": 3,
+      "char_count": 276,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `market-researcher`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific AI agent, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific AI agent, which falls under the agent_rules category.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `market-researcher`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section defines the purpose, input, and output of a specific AI agent ('market-researcher'), which directly relates to AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section defines the purpose, input, and output of a specific AI agent ('market-researcher'), which directly relates to AI-specific directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `market-researcher`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a specific subagent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of a specific subagent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `persona-generator`",
+      "level": 3,
+      "char_count": 293,
+      "voted_categories": [
+        "architecture",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `persona-generator`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific agent, indicating its role and dependencies within the system, which relates to architecture, and also provides directives for the agent's operation, which falls under agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific agent, indicating its role and dependencies within the system, which relates to architecture, and also provides directives for the agent's operation, which falls under agent rules.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `persona-generator`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "Describes a module's (persona-generator) role and dependencies (input/output), aligning with architecture, and specifies AI agent behavior, fitting agent_rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"Describes a module's (persona-generator) role and dependencies (input/output), aligning with architecture, and specifies AI agent behavior, fitting agent_rules.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `persona-generator`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a specific agent, which falls under the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of a specific agent, which falls under the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `presentation-builder`",
+      "level": 3,
+      "char_count": 256,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `presentation-builder`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific module or tool within the project, outlining its purpose, input, and output, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes a specific module or tool within the project, outlining its purpose, input, and output, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `presentation-builder`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "Describes a module's purpose and input/output (architecture), within the context of a workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"Describes a module's purpose and input/output (architecture), within the context of a workflow (workflow_process).\"}\n\n**Rationale Breakdown:**\n\n- **Architecture (\"architecture\")**: The section outlines the **purpose**, **input**, and **output** of a specific module (`presentation-builder`). This aligns with defining module roles and dependencies, which is a key aspect of architecture.\n  \n- **Workflow Process (\"workflow_process\")**: The context in which `presentation-builder` operates (initiative file, PRD file, generating a project status report) implies its integration into the project's workflow, particularly in how project updates are generated for stakeholders, touching on aspects of how work is processed and presented. \n\n**Why not other categories?**\n\n- **Coding Style, Project Structure, Evolution Context, Agent Rules**: The content does not discuss naming conventions, directory layouts, project phases, technical debt, or AI-specific directives, making these categories less relevant."
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `presentation-builder`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a specific component, indicating architecture, and also outlines a task for an AI agent, indicating agent_rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of a specific component, indicating architecture, and also outlines a task for an AI agent, indicating agent_rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `roadmap-generator`",
+      "level": 3,
+      "char_count": 226,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `roadmap-generator`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific tool and its input/output within the project, relating to both project structure and architectural components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes a specific tool and its input/output within the project, relating to both project structure and architectural components.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `roadmap-generator`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific tool's purpose, input (directory), and output, relating to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a specific tool's purpose, input (directory), and output, relating to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `roadmap-generator`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and input/output of a specific component (`roadmap-generator`) within the project, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the purpose and input/output of a specific component (`roadmap-generator`) within the project, which relates to both project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `faq-generator`",
+      "level": 3,
+      "char_count": 360,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `faq-generator`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of a specific AI tool, the `faq-generator`, which falls under AI-specific directives and tool use constraints.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes the purpose, input, and output of a specific AI tool, the `faq-generator`, which falls under AI-specific directives and tool use constraints.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `faq-generator`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a module's (subagent's) purpose, input, and output, outlining its role within the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a module's (subagent's) purpose, input, and output, outlining its role within the system.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `faq-generator`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose and functionality of a specific module (faq-generator), and outlines its input and output, which falls under architecture; it also details the AI-specific task of generating FAQ documents, which falls under agent_rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section describes the purpose and functionality of a specific module (faq-generator), and outlines its input and output, which falls under architecture; it also details the AI-specific task of generating FAQ documents, which falls under agent_rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `story-writer`",
+      "level": 3,
+      "char_count": 397,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `story-writer`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section primarily describes the purpose, input, and output of a specific AI agent, the `story-writer`, which falls under agent rules and directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section primarily describes the purpose, input, and output of a specific AI agent, the `story-writer`, which falls under agent rules and directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `story-writer`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines a specific AI agent's (story-writer) purpose, input, and output, which are AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section outlines a specific AI agent's (story-writer) purpose, input, and output, which are AI-specific directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `story-writer`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of a subagent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of a subagent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\ud83e\udd16 `Nio`",
+      "level": 3,
+      "char_count": 472,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `Nio`",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the purpose, input, and output of the Nio agent, which falls under AI-specific directives and tool use constraints.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes the purpose, input, and output of the Nio agent, which falls under AI-specific directives and tool use constraints.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `Nio`",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the role, input, and output of a specific AI agent ('Nio'), which directly relates to agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the role, input, and output of a specific AI agent ('Nio'), which directly relates to agent-specific directives.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "\ud83e\udd16 `Nio`",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the purpose, input, and output of an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section describes the purpose, input, and output of an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. The Command Workflow",
+      "level": 2,
+      "char_count": 540,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "4. The Command Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the command workflow and its corresponding directory structure and files, dominating the content with workflow processes and project structure details.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the command workflow and its corresponding directory structure and files, dominating the content with workflow processes and project structure details.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "4. The Command Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"Describes a workflow process",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"Describes a workflow process (command execution steps) and references a specific project structure (directory layout for command files).\""
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "4. The Command Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the location of command definition files and outlines the workflow process for executing commands.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the location of command definition files and outlines the workflow process for executing commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "How to Extend NioPD",
+      "level": 3,
+      "char_count": 294,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "How to Extend NioPD",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes how to extend NioPD by adding new commands, agents, and templates, which relates to both the project's directory layout and module roles.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes how to extend NioPD by adding new commands, agents, and templates, which relates to both the project's directory layout and module roles.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "How to Extend NioPD",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes specific directory locations for adding new components (project_structure) and guidelines for defining new agents (agent_rules).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"agent_rules\"], \"reasoning\": \"The section describes specific directory locations for adding new components (project_structure) and guidelines for defining new agents (agent_rules).\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "How to Extend NioPD",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on where to add new files (project_structure) and how to create new commands, agents, and templates (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on where to add new files (project_structure) and how to create new commands, agents, and templates (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 540,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses testing requirements and procedures, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses testing requirements and procedures, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing procedures, prerequisites, and post-test actions, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing procedures, prerequisites, and post-test actions, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "iflow-ai/NioPD",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes testing workflow and project structure details, including file creation, verification, and cleanup in specific directories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes testing workflow and project structure details, including file creation, verification, and cleanup in specific directories.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": false,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.2222222222222222,
+    "workflow_process": 0.1111111111111111,
+    "architecture": 0.5555555555555556,
+    "evolution_context": 0.0,
+    "agent_rules": 0.4444444444444444
+  },
+  "category_char_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.24654300168634063,
+    "workflow_process": 0.1821247892074199,
+    "architecture": 0.5134907251264755,
+    "evolution_context": 0.0,
+    "agent_rules": 0.4350758853288364
+  }
+}

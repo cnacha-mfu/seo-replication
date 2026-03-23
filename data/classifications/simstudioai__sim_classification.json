@@ -1,0 +1,2430 @@
+{
+  "repo": "simstudioai__sim",
+  "full_name": "simstudioai/sim",
+  "n_sections": 28,
+  "n_chars": 12559,
+  "sections": [
+    {
+      "heading": "Sim Development Guidelines",
+      "level": 1,
+      "char_count": 120,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Sim Development Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section emphasizes following best practices for code, which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section emphasizes following best practices for code, which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Sim Development Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section emphasizes code quality attributes (accurate, readable, clean, efficient) which align with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section emphasizes code quality attributes (accurate, readable, clean, efficient) which align with coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Sim Development Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section emphasizes best practices for writing code, which falls under coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section emphasizes best practices for writing code, which falls under coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Global Standards",
+      "level": 2,
+      "char_count": 364,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific guidelines for logging, commenting, styling, and package management, which are all related to coding conventions and best practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific guidelines for logging, commenting, styling, and package management, which are all related to coding conventions and best practices.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions for logging, comments, styling, and package manager usage, all of which pertain to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions for logging, comments, styling, and package manager usage, all of which pertain to coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on coding style, such as logging, comments, and styling, as well as specifying the package manager to use, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on coding style, such as logging, comments, and styling, as well as specifying the package manager to use, which relates to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Principles",
+      "level": 3,
+      "char_count": 309,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Core Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines fundamental principles guiding the code's structure and organization, touching on both coding style and architectural design patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines fundamental principles guiding the code's structure and organization, touching on both coding style and architectural design patterns.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Core Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines design patterns (architecture) and specific coding practices like TypeScript interfaces (coding_style).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design patterns (architecture) and specific coding practices like TypeScript interfaces (coding_style).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Core Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines coding style guidelines and architectural principles for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines coding style guidelines and architectural principles for the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Root Structure",
+      "level": 3,
+      "char_count": 479,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Root Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the repository, which is the primary focus of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the repository, which is the primary focus of the project_structure category.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Root Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Root Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming Conventions",
+      "level": 3,
+      "char_count": 260,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions for various code elements, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions for various code elements, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for various code elements, which directly relates to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for various code elements, which directly relates to coding style.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for naming conventions in the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for naming conventions in the codebase.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Imports",
+      "level": 2,
+      "char_count": 362,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Imports",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses import conventions and formatting, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses import conventions and formatting, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Imports",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on import conventions and formatting, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on import conventions and formatting, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Imports",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on importing modules, which is a coding style topic.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on importing modules, which is a coding style topic.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Import Order",
+      "level": 3,
+      "char_count": 239,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Import Order",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines the rules for organizing import statements in the code, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines the rules for organizing import statements in the code, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Import Order",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a specific rule for organizing import statements, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines a specific rule for organizing import statements, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Import Order",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides guidelines on import order and naming conventions, which falls under coding_style, and also describes the directory layout for different types of imports, which falls under project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides guidelines on import order and naming conventions, which falls under coding_style, and also describes the directory layout for different types of imports, which falls under project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "TypeScript",
+      "level": 2,
+      "char_count": 204,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "TypeScript",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific TypeScript coding conventions and best practices for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific TypeScript coding conventions and best practices for the project.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "TypeScript",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific TypeScript coding conventions and type usage guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific TypeScript coding conventions and type usage guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "TypeScript",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for TypeScript coding style, including type usage, component interface definition, constant object/array declaration, and explicit ref types.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for TypeScript coding style, including type usage, component interface definition, constant object/array declaration, and explicit ref types.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Components",
+      "level": 2,
+      "char_count": 507,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding conventions and component structure, which relates to coding style, and also describes component roles and boundaries, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding conventions and component structure, which relates to coding style, and also describes component roles and boundaries, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section defines coding convention",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section defines coding conventions (e.g., import order, component structure) and architectural elements (e.g., component roles, props interface).\""
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for components and describes their architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for components and describes their architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Hooks",
+      "level": 2,
+      "char_count": 369,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to coding_style due to the code snippet and architecture because it describes a specific module or component implementation.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to coding_style due to the code snippet and architecture because it describes a specific module or component implementation.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section showcases a specific codi",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section showcases a specific coding pattern (hook implementation) and implies architectural design (data fetching and state management within a reusable UI component).\""
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section provides a TypeScript code snippet for a hook function, which is relevant to coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section provides a TypeScript code snippet for a hook function, which is relevant to coding style and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Zustand Stores",
+      "level": 2,
+      "char_count": 587,
+      "voted_categories": [
+        "project_structure",
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Zustand Stores",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the organization and implementation of Zustand stores, including directory location, file structure, and coding conventions for store creation and middleware usage.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"coding_style\"], \"reasoning\": \"This section describes the organization and implementation of Zustand stores, including directory location, file structure, and coding conventions for store creation and middleware usage.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Zustand Stores",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes where stores live (project_structure), coding practices for store setup (coding_style), and architectural design using Zustand (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"architecture\"], \"reasoning\": \"The section describes where stores live (project_structure), coding practices for store setup (coding_style), and architectural design using Zustand (architecture).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Zustand Stores",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides coding style guidelines for Zustand stores and specifies the project structure for storing these files.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides coding style guidelines for Zustand stores and specifies the project structure for storing these files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "React Query",
+      "level": 2,
+      "char_count": 171,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "React Query",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the location of React Query hooks and enforces a specific coding practice for data fetching and mutations, relating to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the location of React Query hooks and enforces a specific coding practice for data fetching and mutations, relating to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "React Query",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Specifies a directory location (project_structure) and enforces a specific technology pattern for data handling (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Specifies a directory location (project_structure) and enforces a specific technology pattern for data handling (architecture).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "React Query",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of React Query hooks in the project structure and enforces a coding style rule for data fetching and mutations.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location of React Query hooks in the project structure and enforces a coding style rule for data fetching and mutations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Query Key Factory",
+      "level": 3,
+      "char_count": 471,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Key Factory",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific coding pattern and module design for key factory implementation, which relates to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes a specific coding pattern and module design for key factory implementation, which relates to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Key Factory",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section specifies a coding c",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section specifies a coding convention (hierarchical key factory) and implies a project structure requirement (every file must have this setup).\""
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Key Factory",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides a coding style for hierarchical key factories and describes an architectural pattern for organizing keys in a file.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides a coding style for hierarchical key factories and describes an architectural pattern for organizing keys in a file.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Query Hooks",
+      "level": 3,
+      "char_count": 555,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses specific coding conventions and guidelines for implementing query hooks, which relates to coding style, and also touches on the architecture of the query system by defining how queries should be structured and handled.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses specific coding conventions and guidelines for implementing query hooks, which relates to coding style, and also touches on the architecture of the query system by defining how queries should be structured and handled.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific coding conventions (coding_style) for implementing query hooks, while also implying architectural design decisions on data handling and query behavior (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific coding conventions (coding_style) for implementing query hooks, while also implying architectural design decisions on data handling and query behavior (architecture).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for query hooks and describes the architecture of the query function.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for query hooks and describes the architecture of the query function.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Mutation Hooks",
+      "level": 3,
+      "char_count": 1160,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Mutation Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section provides guidelines and code examples for implementing mutation hooks, which relates to coding style, and also discusses module interactions and dependencies, pertaining to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section provides guidelines and code examples for implementing mutation hooks, which relates to coding style, and also discusses module interactions and dependencies, pertaining to architecture.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Mutation Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific cod",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific coding guidelines (coding_style) for handling mutations and also outlines a process for cache reconciliation and query handling (workflow_process).\""
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Mutation Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for mutation hooks and describes the architecture of a specific mutation function.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for mutation hooks and describes the architecture of a specific mutation function.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Styling",
+      "level": 2,
+      "char_count": 179,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Styling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and styling rules for the code, specifically regarding the use of Tailwind and conditional classes.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and styling rules for the code, specifically regarding the use of Tailwind and conditional classes.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Styling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on styling rules and utility usage, which pertains to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on styling rules and utility usage, which pertains to coding style conventions.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Styling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using Tailwind and conditional classes, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using Tailwind and conditional classes, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "EMCN Components",
+      "level": 2,
+      "char_count": 104,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "EMCN Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses import conventions and component usage, which relates to both coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses import conventions and component usage, which relates to both coding style and project structure.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "EMCN Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "Specifies import rules (coding_style) and component location (project_structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"Specifies import rules (coding_style) and component location (project_structure).\" }"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "EMCN Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on importing components, which falls under coding_style, and also specifies the location of these components in the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on importing components, which falls under coding_style, and also specifies the location of these components in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 111,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses testing requirements and conventions, which relates to workflow_process, and also mentions specific file naming conventions, which pertains to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses testing requirements and conventions, which relates to workflow_process, and also mentions specific file naming conventions, which pertains to coding_style.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies testing requirements and tools, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies testing requirements and tools, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on testing requirements and naming conventions for test files.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on testing requirements and naming conventions for test files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Global Mocks (vitest.setup.ts)",
+      "level": 3,
+      "char_count": 168,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Mocks (vitest.setup.ts)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a testing setup and provides guidelines for mocking dependencies, which relates to both workflow process and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a testing setup and provides guidelines for mocking dependencies, which relates to both workflow process and project structure.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Mocks (vitest.setup.ts)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses mocking behavior, which relates to coding practices and style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses mocking behavior, which relates to coding practices and style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Mocks (vitest.setup.ts)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on how to handle mocking in the codebase, which relates to coding style, and also mentions specific modules and their roles, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on how to handle mocking in the codebase, which relates to coding style, and also mentions specific modules and their roles, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Standard Test Pattern",
+      "level": 3,
+      "char_count": 588,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Standard Test Pattern",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section contains a test pattern written in TypeScript, indicating coding style, and also relates to testing requirements, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section contains a test pattern written in TypeScript, indicating coding style, and also relates to testing requirements, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Standard Test Pattern",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a testing setup and pattern, which relates to workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a testing setup and pattern, which relates to workflow and development process.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Standard Test Pattern",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section demonstrates coding style with import order, mocking, and testing conventions, and also showcases workflow process with testing requirements and test setup.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section demonstrates coding style with import order, mocking, and testing conventions, and also showcases workflow process with testing requirements and test setup.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance Rules",
+      "level": 3,
+      "char_count": 641,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Performance Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific rules for coding and testing practices, including mocking dependencies and using fake timers, which relates to both coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines specific rules for coding and testing practices, including mocking dependencies and using fake timers, which relates to both coding style and workflow process.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Performance Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific coding practices (coding_style) for testing and mocking, which also impacts the workflow of testing and development (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines specific coding practices (coding_style) for testing and mocking, which also impacts the workflow of testing and development (workflow_process).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Performance Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for testing and workflow process rules for mocking dependencies and using testing environments.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for testing and workflow process rules for mocking dependencies and using testing environments.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Utils Rules",
+      "level": 2,
+      "char_count": 166,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Utils Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific rules for creating and organizing utility files, which pertains to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific rules for creating and organizing utility files, which pertains to coding conventions and style.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Utils Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific rules for creating utility files, which relates to code organization and style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific rules for creating utility files, which relates to code organization and style conventions.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Utils Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on naming conventions and file organization, which fall under coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on naming conventions and file organization, which fall under coding_style and project_structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding Integrations",
+      "level": 2,
+      "char_count": 129,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Adding Integrations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the process of adding new integrations and outlines the required components, which relates to both workflow and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the process of adding new integrations and outlines the required components, which relates to both workflow and project structure.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Adding Integrations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a specific structural process for adding integrations within the project, implying a guideline on where and how integrations are implemented.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines a specific structural process for adding integrations within the project, implying a guideline on where and how integrations are implemented.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Adding Integrations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on adding integrations, which involves coding style for adding tools and block icons, and project structure for organizing the integrations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on adding integrations, which involves coding style for adding tools and block icons, and project structure for organizing the integrations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. Tools (`tools/{service}/`)",
+      "level": 3,
+      "char_count": 593,
+      "voted_categories": [
+        "project_structure",
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "1. Tools (`tools/{service}/`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the directory layout and file structure of the tools directory, as well as the coding conventions for implementing tools in TypeScript.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the directory layout and file structure of the tools directory, as well as the coding conventions for implementing tools in TypeScript.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "1. Tools (`tools/{service}/`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes directory layout and file structure (project_structure) alongside module roles and implementation details (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes directory layout and file structure (project_structure) alongside module roles and implementation details (architecture).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "1. Tools (`tools/{service}/`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure of tool files, naming conventions, and the implementation of a tool, which falls under coding_style, project_structure, and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure of tool files, naming conventions, and the implementation of a tool, which falls under coding_style, project_structure, and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Block (`blocks/blocks/{service}.ts`)",
+      "level": 3,
+      "char_count": 2242,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "2. Block (`blocks/blocks/{service}.ts`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific code block configuration, including its structure, dependencies, and usage guidelines, which relates to coding style, project structure, and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section describes a specific code block configuration, including its structure, dependencies, and usage guidelines, which relates to coding style, project structure, and architecture.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "2. Block (`blocks/blocks/{service}.ts`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section defines a specific block configuration with coding conventions (coding_style), references a registry file implying project structure (project_structure), and outlines module dependencies and design patterns (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section defines a specific block configuration with coding conventions (coding_style), references a registry file implying project structure (project_structure), and outlines module dependencies and design patterns (architecture).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "2. Block (`blocks/blocks/{service}.ts`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides code snippets and configuration details for a specific block in the project, including naming conventions, file structure, and module roles, which fall under coding_style, project_structure, and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section provides code snippets and configuration details for a specific block in the project, including naming conventions, file structure, and module roles, which fall under coding_style, project_structure, and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Icon (`components/icons.tsx`)",
+      "level": 3,
+      "char_count": 140,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "3. Icon (`components/icons.tsx`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section belongs to coding_style due to the code snippet and project_structure because it mentions a specific file location.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section belongs to coding_style due to the code snippet and project_structure because it mentions a specific file location.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "3. Icon (`components/icons.tsx`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a specific component's location and its implementation details, fitting best with how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a specific component's location and its implementation details, fitting best with how the project is structured.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "3. Icon (`components/icons.tsx`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides a code snippet for an icon component, which falls under coding_style, and also indicates the location of the component in the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides a code snippet for an icon component, which falls under coding_style, and also indicates the location of the component in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. Trigger (`triggers/{service}/`) - Optional",
+      "level": 3,
+      "char_count": 178,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "4. Trigger (`triggers/{service}/`) - Optional",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files for trigger handling in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files for trigger handling in the project.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "4. Trigger (`triggers/{service}/`) - Optional",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes directory layout and key files for triggers.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes directory layout and key files for triggers.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "4. Trigger (`triggers/{service}/`) - Optional",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout for triggers and the role of each file, which falls under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout for triggers and the role of each file, which falls under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Integration Checklist",
+      "level": 3,
+      "char_count": 448,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Integration Checklist",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section outlines a step-by-step process for integrating a new service, which relates to workflow_process, and also describes specific file locations and registrations, which pertains to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section outlines a step-by-step process for integrating a new service, which relates to workflow_process, and also describes specific file locations and registrations, which pertains to project_structure.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Integration Checklist",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines a step-",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process (workflow_process) for integrating a service, specifying where files should be created (project_structure).\""
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Integration Checklist",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a checklist for integrating a new service, which involves creating specific files and directories (project_structure) and following a specific process for registering tools and blocks (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides a checklist for integrating a new service, which involves creating specific files and directories (project_structure) and following a specific process for registering tools and blocks (workflow_process).\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Sim Development Guidelines",
+      "level": 1,
+      "char_count": 120,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Sim Development Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section emphasizes following best practices for code, which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section emphasizes following best practices for code, which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Sim Development Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section emphasizes code quality attributes (accurate, readable, clean, efficient) which align with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section emphasizes code quality attributes (accurate, readable, clean, efficient) which align with coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Sim Development Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section emphasizes best practices for writing code, which falls under coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section emphasizes best practices for writing code, which falls under coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Global Standards",
+      "level": 2,
+      "char_count": 364,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific guidelines for logging, commenting, styling, and package management, which are all related to coding conventions and best practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific guidelines for logging, commenting, styling, and package management, which are all related to coding conventions and best practices.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions for logging, comments, styling, and package manager usage, all of which pertain to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions for logging, comments, styling, and package manager usage, all of which pertain to coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on coding style, such as logging, comments, and styling, as well as specifying the package manager to use, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on coding style, such as logging, comments, and styling, as well as specifying the package manager to use, which relates to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Principles",
+      "level": 3,
+      "char_count": 309,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Core Principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines fundamental principles guiding the code's structure and organization, touching on both coding style and architectural design patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines fundamental principles guiding the code's structure and organization, touching on both coding style and architectural design patterns.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Core Principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines design patterns (architecture) and specific coding practices like TypeScript interfaces (coding_style).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design patterns (architecture) and specific coding practices like TypeScript interfaces (coding_style).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Core Principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines coding style guidelines and architectural principles for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines coding style guidelines and architectural principles for the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Root Structure",
+      "level": 3,
+      "char_count": 479,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Root Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the repository, which is the primary focus of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the repository, which is the primary focus of the project_structure category.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Root Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Root Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming Conventions",
+      "level": 3,
+      "char_count": 260,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions for various code elements, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions for various code elements, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for various code elements, which directly relates to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for various code elements, which directly relates to coding style.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for naming conventions in the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for naming conventions in the codebase.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Imports",
+      "level": 2,
+      "char_count": 362,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Imports",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses import conventions and formatting, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses import conventions and formatting, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Imports",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on import conventions and formatting, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on import conventions and formatting, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Imports",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on importing modules, which is a coding style topic.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on importing modules, which is a coding style topic.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Import Order",
+      "level": 3,
+      "char_count": 239,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Import Order",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines the rules for organizing import statements in the code, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines the rules for organizing import statements in the code, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Import Order",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a specific rule for organizing import statements, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines a specific rule for organizing import statements, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Import Order",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides guidelines on import order and naming conventions, which falls under coding_style, and also describes the directory layout for different types of imports, which falls under project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides guidelines on import order and naming conventions, which falls under coding_style, and also describes the directory layout for different types of imports, which falls under project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "TypeScript",
+      "level": 2,
+      "char_count": 204,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "TypeScript",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific TypeScript coding conventions and best practices for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific TypeScript coding conventions and best practices for the project.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "TypeScript",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific TypeScript coding conventions and type usage guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific TypeScript coding conventions and type usage guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "TypeScript",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for TypeScript coding style, including type usage, component interface definition, constant object/array declaration, and explicit ref types.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for TypeScript coding style, including type usage, component interface definition, constant object/array declaration, and explicit ref types.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Components",
+      "level": 2,
+      "char_count": 507,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding conventions and component structure, which relates to coding style, and also describes component roles and boundaries, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding conventions and component structure, which relates to coding style, and also describes component roles and boundaries, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section defines coding convention",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section defines coding conventions (e.g., import order, component structure) and architectural elements (e.g., component roles, props interface).\""
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for components and describes their architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for components and describes their architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Hooks",
+      "level": 2,
+      "char_count": 369,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to coding_style due to the code snippet and architecture because it describes a specific module or component implementation.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to coding_style due to the code snippet and architecture because it describes a specific module or component implementation.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section showcases a specific codi",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section showcases a specific coding pattern (hook implementation) and implies architectural design (data fetching and state management within a reusable UI component).\""
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section provides a TypeScript code snippet for a hook function, which is relevant to coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section provides a TypeScript code snippet for a hook function, which is relevant to coding style and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Zustand Stores",
+      "level": 2,
+      "char_count": 587,
+      "voted_categories": [
+        "project_structure",
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Zustand Stores",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the organization and implementation of Zustand stores, including directory location, file structure, and coding conventions for store creation and middleware usage.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"coding_style\"], \"reasoning\": \"This section describes the organization and implementation of Zustand stores, including directory location, file structure, and coding conventions for store creation and middleware usage.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Zustand Stores",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes where stores live (project_structure), coding practices for store setup (coding_style), and architectural design using Zustand (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"architecture\"], \"reasoning\": \"The section describes where stores live (project_structure), coding practices for store setup (coding_style), and architectural design using Zustand (architecture).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Zustand Stores",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides coding style guidelines for Zustand stores and specifies the project structure for storing these files.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides coding style guidelines for Zustand stores and specifies the project structure for storing these files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "React Query",
+      "level": 2,
+      "char_count": 171,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "React Query",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the location of React Query hooks and enforces a specific coding practice for data fetching and mutations, relating to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the location of React Query hooks and enforces a specific coding practice for data fetching and mutations, relating to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "React Query",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Specifies a directory location (project_structure) and enforces a specific technology pattern for data handling (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Specifies a directory location (project_structure) and enforces a specific technology pattern for data handling (architecture).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "React Query",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of React Query hooks in the project structure and enforces a coding style rule for data fetching and mutations.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location of React Query hooks in the project structure and enforces a coding style rule for data fetching and mutations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Query Key Factory",
+      "level": 3,
+      "char_count": 471,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Key Factory",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific coding pattern and module design for key factory implementation, which relates to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes a specific coding pattern and module design for key factory implementation, which relates to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Key Factory",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section specifies a coding c",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section specifies a coding convention (hierarchical key factory) and implies a project structure requirement (every file must have this setup).\""
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Key Factory",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides a coding style for hierarchical key factories and describes an architectural pattern for organizing keys in a file.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides a coding style for hierarchical key factories and describes an architectural pattern for organizing keys in a file.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Query Hooks",
+      "level": 3,
+      "char_count": 555,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses specific coding conventions and guidelines for implementing query hooks, which relates to coding style, and also touches on the architecture of the query system by defining how queries should be structured and handled.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses specific coding conventions and guidelines for implementing query hooks, which relates to coding style, and also touches on the architecture of the query system by defining how queries should be structured and handled.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific coding conventions (coding_style) for implementing query hooks, while also implying architectural design decisions on data handling and query behavior (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific coding conventions (coding_style) for implementing query hooks, while also implying architectural design decisions on data handling and query behavior (architecture).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Query Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for query hooks and describes the architecture of the query function.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for query hooks and describes the architecture of the query function.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Mutation Hooks",
+      "level": 3,
+      "char_count": 1160,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Mutation Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section provides guidelines and code examples for implementing mutation hooks, which relates to coding style, and also discusses module interactions and dependencies, pertaining to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section provides guidelines and code examples for implementing mutation hooks, which relates to coding style, and also discusses module interactions and dependencies, pertaining to architecture.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Mutation Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific cod",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific coding guidelines (coding_style) for handling mutations and also outlines a process for cache reconciliation and query handling (workflow_process).\""
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Mutation Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for mutation hooks and describes the architecture of a specific mutation function.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for mutation hooks and describes the architecture of a specific mutation function.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Styling",
+      "level": 2,
+      "char_count": 179,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Styling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and styling rules for the code, specifically regarding the use of Tailwind and conditional classes.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and styling rules for the code, specifically regarding the use of Tailwind and conditional classes.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Styling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on styling rules and utility usage, which pertains to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on styling rules and utility usage, which pertains to coding style conventions.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Styling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using Tailwind and conditional classes, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using Tailwind and conditional classes, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "EMCN Components",
+      "level": 2,
+      "char_count": 104,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "EMCN Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses import conventions and component usage, which relates to both coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses import conventions and component usage, which relates to both coding style and project structure.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "EMCN Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "Specifies import rules (coding_style) and component location (project_structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"Specifies import rules (coding_style) and component location (project_structure).\" }"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "EMCN Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on importing components, which falls under coding_style, and also specifies the location of these components in the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on importing components, which falls under coding_style, and also specifies the location of these components in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 111,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses testing requirements and conventions, which relates to workflow_process, and also mentions specific file naming conventions, which pertains to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses testing requirements and conventions, which relates to workflow_process, and also mentions specific file naming conventions, which pertains to coding_style.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies testing requirements and tools, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies testing requirements and tools, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on testing requirements and naming conventions for test files.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on testing requirements and naming conventions for test files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Global Mocks (vitest.setup.ts)",
+      "level": 3,
+      "char_count": 168,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Mocks (vitest.setup.ts)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a testing setup and provides guidelines for mocking dependencies, which relates to both workflow process and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a testing setup and provides guidelines for mocking dependencies, which relates to both workflow process and project structure.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Mocks (vitest.setup.ts)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses mocking behavior, which relates to coding practices and style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses mocking behavior, which relates to coding practices and style guidelines.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Global Mocks (vitest.setup.ts)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on how to handle mocking in the codebase, which relates to coding style, and also mentions specific modules and their roles, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on how to handle mocking in the codebase, which relates to coding style, and also mentions specific modules and their roles, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Standard Test Pattern",
+      "level": 3,
+      "char_count": 588,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Standard Test Pattern",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section contains a test pattern written in TypeScript, indicating coding style, and also relates to testing requirements, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section contains a test pattern written in TypeScript, indicating coding style, and also relates to testing requirements, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Standard Test Pattern",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a testing setup and pattern, which relates to workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a testing setup and pattern, which relates to workflow and development process.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Standard Test Pattern",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section demonstrates coding style with import order, mocking, and testing conventions, and also showcases workflow process with testing requirements and test setup.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section demonstrates coding style with import order, mocking, and testing conventions, and also showcases workflow process with testing requirements and test setup.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance Rules",
+      "level": 3,
+      "char_count": 641,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Performance Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific rules for coding and testing practices, including mocking dependencies and using fake timers, which relates to both coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines specific rules for coding and testing practices, including mocking dependencies and using fake timers, which relates to both coding style and workflow process.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Performance Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific coding practices (coding_style) for testing and mocking, which also impacts the workflow of testing and development (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines specific coding practices (coding_style) for testing and mocking, which also impacts the workflow of testing and development (workflow_process).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Performance Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for testing and workflow process rules for mocking dependencies and using testing environments.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for testing and workflow process rules for mocking dependencies and using testing environments.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Utils Rules",
+      "level": 2,
+      "char_count": 166,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Utils Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific rules for creating and organizing utility files, which pertains to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific rules for creating and organizing utility files, which pertains to coding conventions and style.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Utils Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific rules for creating utility files, which relates to code organization and style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific rules for creating utility files, which relates to code organization and style conventions.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Utils Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on naming conventions and file organization, which fall under coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on naming conventions and file organization, which fall under coding_style and project_structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding Integrations",
+      "level": 2,
+      "char_count": 129,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Adding Integrations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the process of adding new integrations and outlines the required components, which relates to both workflow and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the process of adding new integrations and outlines the required components, which relates to both workflow and project structure.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Adding Integrations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a specific structural process for adding integrations within the project, implying a guideline on where and how integrations are implemented.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines a specific structural process for adding integrations within the project, implying a guideline on where and how integrations are implemented.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Adding Integrations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on adding integrations, which involves coding style for adding tools and block icons, and project structure for organizing the integrations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on adding integrations, which involves coding style for adding tools and block icons, and project structure for organizing the integrations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. Tools (`tools/{service}/`)",
+      "level": 3,
+      "char_count": 593,
+      "voted_categories": [
+        "project_structure",
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "1. Tools (`tools/{service}/`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the directory layout and file structure of the tools directory, as well as the coding conventions for implementing tools in TypeScript.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the directory layout and file structure of the tools directory, as well as the coding conventions for implementing tools in TypeScript.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "1. Tools (`tools/{service}/`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes directory layout and file structure (project_structure) alongside module roles and implementation details (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes directory layout and file structure (project_structure) alongside module roles and implementation details (architecture).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "1. Tools (`tools/{service}/`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure of tool files, naming conventions, and the implementation of a tool, which falls under coding_style, project_structure, and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure of tool files, naming conventions, and the implementation of a tool, which falls under coding_style, project_structure, and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Block (`blocks/blocks/{service}.ts`)",
+      "level": 3,
+      "char_count": 2242,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "2. Block (`blocks/blocks/{service}.ts`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific code block configuration, including its structure, dependencies, and usage guidelines, which relates to coding style, project structure, and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section describes a specific code block configuration, including its structure, dependencies, and usage guidelines, which relates to coding style, project structure, and architecture.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "2. Block (`blocks/blocks/{service}.ts`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section defines a specific block configuration with coding conventions (coding_style), references a registry file implying project structure (project_structure), and outlines module dependencies and design patterns (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section defines a specific block configuration with coding conventions (coding_style), references a registry file implying project structure (project_structure), and outlines module dependencies and design patterns (architecture).\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "2. Block (`blocks/blocks/{service}.ts`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides code snippets and configuration details for a specific block in the project, including naming conventions, file structure, and module roles, which fall under coding_style, project_structure, and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section provides code snippets and configuration details for a specific block in the project, including naming conventions, file structure, and module roles, which fall under coding_style, project_structure, and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Icon (`components/icons.tsx`)",
+      "level": 3,
+      "char_count": 140,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "3. Icon (`components/icons.tsx`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section belongs to coding_style due to the code snippet and project_structure because it mentions a specific file location.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section belongs to coding_style due to the code snippet and project_structure because it mentions a specific file location.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "3. Icon (`components/icons.tsx`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a specific component's location and its implementation details, fitting best with how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a specific component's location and its implementation details, fitting best with how the project is structured.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "3. Icon (`components/icons.tsx`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides a code snippet for an icon component, which falls under coding_style, and also indicates the location of the component in the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides a code snippet for an icon component, which falls under coding_style, and also indicates the location of the component in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. Trigger (`triggers/{service}/`) - Optional",
+      "level": 3,
+      "char_count": 178,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "4. Trigger (`triggers/{service}/`) - Optional",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files for trigger handling in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files for trigger handling in the project.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "4. Trigger (`triggers/{service}/`) - Optional",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes directory layout and key files for triggers.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes directory layout and key files for triggers.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "4. Trigger (`triggers/{service}/`) - Optional",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout for triggers and the role of each file, which falls under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout for triggers and the role of each file, which falls under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Integration Checklist",
+      "level": 3,
+      "char_count": 448,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Integration Checklist",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section outlines a step-by-step process for integrating a new service, which relates to workflow_process, and also describes specific file locations and registrations, which pertains to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section outlines a step-by-step process for integrating a new service, which relates to workflow_process, and also describes specific file locations and registrations, which pertains to project_structure.\"}"
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Integration Checklist",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines a step-",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process (workflow_process) for integrating a service, specifying where files should be created (project_structure).\""
+        },
+        {
+          "repo": "simstudioai/sim",
+          "section_heading": "Integration Checklist",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a checklist for integrating a new service, which involves creating specific files and directories (project_structure) and following a specific process for registering tools and blocks (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides a checklist for integrating a new service, which involves creating specific files and directories (project_structure) and following a specific process for registering tools and blocks (workflow_process).\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.8571428571428571,
+    "project_structure": 0.35714285714285715,
+    "workflow_process": 0.14285714285714285,
+    "architecture": 0.32142857142857145,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.8958122255994596,
+    "project_structure": 0.42814927389395474,
+    "workflow_process": 0.15096251266464034,
+    "architecture": 0.5735393448159406,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

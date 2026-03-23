@@ -1,0 +1,3586 @@
+{
+  "repo": "ada-url__ada",
+  "full_name": "ada-url/ada",
+  "n_sections": 43,
+  "n_chars": 9175,
+  "sections": [
+    {
+      "heading": "Ada Development Guide for Claude",
+      "level": 1,
+      "char_count": 112,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Ada Development Guide for Claude",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section is classified under workflow_process due to its focus on building, testing, and benchmarking, and also under project_structure as it implies the existence of specific key files and directories related to CMake.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section is classified under workflow_process due to its focus on building, testing, and benchmarking, and also under project_structure as it implies the existence of specific key files and directories related to CMake.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Ada Development Guide for Claude",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on instructions for building, testing, and benchmarking, which are workflow-related processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on instructions for building, testing, and benchmarking, which are workflow-related processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Ada Development Guide for Claude",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses building, testing, and benchmarking using CMake, which involves coding style, project structure, and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses building, testing, and benchmarking using CMake, which involves coding style, project structure, and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build library only (no tests, no benchmarks)",
+      "level": 1,
+      "char_count": 37,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build library only (no tests, no benchmarks)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific build process using cmake, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific build process using cmake, which falls under workflow_process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build library only (no tests, no benchmarks)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command and process, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command and process, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build library only (no tests, no benchmarks)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a build process, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a build process, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build with tests (development checks ENABLED)",
+      "level": 1,
+      "char_count": 97,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with tests (development checks ENABLED)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build and test process, which falls under workflow_process due to its focus on testing requirements and build commands.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the build and test process, which falls under workflow_process due to its focus on testing requirements and build commands.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with tests (development checks ENABLED)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build and testing command sequence, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build and testing command sequence, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with tests (development checks ENABLED)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command line instruction for building and testing, which involves coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command line instruction for building and testing, which involves coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build with benchmarks (development checks DISABLED for accurate performance)",
+      "level": 1,
+      "char_count": 174,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with benchmarks (development checks DISABLED for accurate performance)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a build process with specific flags and commands, which relates to workflow_process, and also touches on coding_style due to the mention of build types and specific compiler flags.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a build process with specific flags and commands, which relates to workflow_process, and also touches on coding_style due to the mention of build types and specific compiler flags.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with benchmarks (development checks DISABLED for accurate performance)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build and execution workflow for running benchmarks, which relates to the development and testing process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build and execution workflow for running benchmarks, which relates to the development and testing process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with benchmarks (development checks DISABLED for accurate performance)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command line instruction for building the project with specific flags, which falls under coding_style, and also describes a workflow process for running benchmarks.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command line instruction for building the project with specific flags, which falls under coding_style, and also describes a workflow process for running benchmarks.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "FASTER BUILDS: Use Ninja instead of Make",
+      "level": 1,
+      "char_count": 200,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "FASTER BUILDS: Use Ninja instead of Make",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses build configuration and tools, which relates to workflow process, and also touches on project structure by mentioning build directories and flags.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses build configuration and tools, which relates to workflow process, and also touches on project structure by mentioning build directories and flags.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "FASTER BUILDS: Use Ninja instead of Make",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for building the project with Ninja, impacting the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides specific commands for building the project with Ninja, impacting the workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "FASTER BUILDS: Use Ninja instead of Make",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific coding instructions for using Ninja instead of Make, and also outlines a workflow process for building the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific coding instructions for using Ninja instead of Make, and also outlines a workflow process for building the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Requirements",
+      "level": 2,
+      "char_count": 192,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section outlines the dependencies and tools required for the project, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section outlines the dependencies and tools required for the project, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists build and development environment requirements, which relates to how the project is set up and structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists build and development environment requirements, which relates to how the project is set up and structured.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section outlines the required tools and dependencies for the project, which falls under coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section outlines the required tools and dependencies for the project, which falls under coding_style and project_structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Basic Build (Library Only)",
+      "level": 3,
+      "char_count": 149,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Basic Build (Library Only)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific build process using cmake, which falls under workflow_process due to its focus on a development task.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific build process using cmake, which falls under workflow_process due to its focus on a development task.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Basic Build (Library Only)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process using commands, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process using commands, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Basic Build (Library Only)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for building a minimal library, which involves project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for building a minimal library, which involves project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build with Tests",
+      "level": 3,
+      "char_count": 352,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the build process with tests enabled and mentions development checks, which relates to workflow and coding practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes the build process with tests enabled and mentions development checks, which relates to workflow and coding practices.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process with testing enabled, which relates to workflow and development practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process with testing enabled, which relates to workflow and development practices.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides instructions for building with tests, which involves coding style (use of assertions) and workflow process (build commands and development checks).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides instructions for building with tests, which involves coding style (use of assertions) and workflow process (build commands and development checks).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build with Benchmarks",
+      "level": 3,
+      "char_count": 356,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Benchmarks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a specific build process with benchmarks and mentions coding considerations like build types and assertions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a specific build process with benchmarks and mentions coding considerations like build types and assertions.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Benchmarks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific build process with critical constraints for benchmarking, which relates to workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific build process with critical constraints for benchmarking, which relates to workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Benchmarks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on building benchmarks with specific coding style (Release mode) and workflow process (cmake commands).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on building benchmarks with specific coding style (Release mode) and workflow process (cmake commands).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using Local Packages",
+      "level": 3,
+      "char_count": 180,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Using Local Packages",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a build process using cmake and specifies options for testing and package usage, which relates to workflow and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a build process using cmake and specifies options for testing and package usage, which relates to workflow and project structure.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Using Local Packages",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process command for handling local dependencies, which relates to workflow and build workflow guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process command for handling local dependencies, which relates to workflow and build workflow guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Using Local Packages",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on using local packages, which involves coding style (command line arguments) and project structure (dependencies).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on using local packages, which involves coding style (command line arguments) and project structure (dependencies).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CMake Build Options",
+      "level": 2,
+      "char_count": 501,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CMake Build Options",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build options for the project, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes build options for the project, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CMake Build Options",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes build configuration options, which relates to how the project is structured and built.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes build configuration options, which relates to how the project is structured and built.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CMake Build Options",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes build options that affect the code style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes build options that affect the code style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Tests",
+      "level": 2,
+      "char_count": 48,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing requirements, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing requirements, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific step in the testing workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific step in the testing workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing requirement, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing requirement, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run all tests",
+      "level": 1,
+      "char_count": 42,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run all tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run all tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run all tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run specific test executable",
+      "level": 1,
+      "char_count": 25,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run specific test executable",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section appears to be describing the location or execution of a specific test executable within the project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section appears to be describing the location or execution of a specific test executable within the project directory layout.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run specific test executable",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section points to a specific directory path, implying guidance on where to find or place certain project elements.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section points to a specific directory path, implying guidance on where to find or place certain project elements.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run specific test executable",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific test executable, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific test executable, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests with verbose output",
+      "level": 1,
+      "char_count": 36,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests with verbose output",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing procedure, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing procedure, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests with verbose output",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command with a flag, implying a workflow or process guideline for testing.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command with a flag, implying a workflow or process guideline for testing.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests with verbose output",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Checks in Tests",
+      "level": 3,
+      "char_count": 325,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the development testing process and the coding practice of using assertions for bug catching, which relates to both workflow and coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes the development testing process and the coding practice of using assertions for bug catching, which relates to both workflow and coding style.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a development workflow practice (development checks in tests) that influences how developers work on the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a development workflow practice (development checks in tests) that influences how developers work on the project.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses coding style in the context of testing and outlines a recommended workflow process for development.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses coding style in the context of testing and outlines a recommended workflow process for development.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Benchmarks",
+      "level": 2,
+      "char_count": 51,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Benchmarks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the workflow process, namely running benchmarks after building with a particular flag.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the workflow process, namely running benchmarks after building with a particular flag.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Benchmarks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific step in the workflow (building and running benchmarks with a particular flag).",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific step in the workflow (building and running benchmarks with a particular flag).\" }"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Benchmarks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for running benchmarks.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for running benchmarks.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Main benchmark comparing against competitors",
+      "level": 1,
+      "char_count": 28,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Main benchmark comparing against competitors",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section appears to be describing the location of benchmark data within the project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section appears to be describing the location of benchmark data within the project directory layout.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Main benchmark comparing against competitors",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section points to a specific directory location, implying a description of where benchmark data lives within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section points to a specific directory location, implying a description of where benchmark data lives within the project.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Main benchmark comparing against competitors",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a directory path, indicating project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a directory path, indicating project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Specific benchmarks",
+      "level": 1,
+      "char_count": 252,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Specific benchmarks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files for benchmarks in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files for benchmarks in the project.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Specific benchmarks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific directories and files within the project, indicating where certain types of benchmarks live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific directories and files within the project, indicating where certain types of benchmarks live.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Specific benchmarks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists specific benchmark files and their locations within the project directory structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists specific benchmark files and their locations within the project directory structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Checks in Benchmarks",
+      "level": 3,
+      "char_count": 90,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Benchmarks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses a specific development guideline related to building benchmarks in Release mode, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section discusses a specific development guideline related to building benchmarks in Release mode, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Benchmarks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific rule for building benchmarks, which relates to the workflow and process of development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific rule for building benchmarks, which relates to the workflow and process of development.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Benchmarks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a workflow process instruction to disable development checks for benchmarks, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a workflow process instruction to disable development checks for benchmarks, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CORRECT: Benchmarks with development checks disabled",
+      "level": 1,
+      "char_count": 110,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CORRECT: Benchmarks with development checks disabled",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific build and execution process for benchmarks, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific build and execution process for benchmarks, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CORRECT: Benchmarks with development checks disabled",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific build and execution workflow for benchmarks, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific build and execution workflow for benchmarks, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CORRECT: Benchmarks with development checks disabled",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for building and running benchmarks, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific commands for building and running benchmarks, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "WRONG: Don't benchmark with development checks enabled",
+      "level": 1,
+      "char_count": 323,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "WRONG: Don't benchmark with development checks enabled",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses build configurations and performance measurements, which relates to workflow processes, and also touches on coding style by mentioning specific macros and build types.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses build configurations and performance measurements, which relates to workflow processes, and also touches on coding style by mentioning specific macros and build types.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "WRONG: Don't benchmark with development checks enabled",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on a specific workflow step (benchmarking) with configuration advice to ensure accurate measurements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines on a specific workflow step (benchmarking) with configuration advice to ensure accurate measurements.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "WRONG: Don't benchmark with development checks enabled",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses coding style in terms of build flags and development checks, and workflow process regarding performance measurements and build configurations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses coding style in terms of build flags and development checks, and workflow process regarding performance measurements and build configurations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Create build directory for tests",
+      "level": 1,
+      "char_count": 55,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create build directory for tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the build process for testing, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the build process for testing, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create build directory for tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process for enabling and running tests, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process for enabling and running tests, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create build directory for tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command sequence for building tests, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command sequence for building tests, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests to verify correctness",
+      "level": 1,
+      "char_count": 42,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests to verify correctness",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section is classified as workflow_process because it describes a testing requirement, which is a key aspect of the workflow process in software development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section is classified as workflow_process because it describes a testing requirement, which is a key aspect of the workflow process in software development.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests to verify correctness",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to the workflow and testing requirements within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to the workflow and testing requirements within the project.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests to verify correctness",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a test command, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a test command, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Or run specific test",
+      "level": 1,
+      "char_count": 29,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Or run specific test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run specific tests, which falls under testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run specific tests, which falls under testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Or run specific test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific way to run tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific way to run tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Or run specific test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific test command, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific test command, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Create separate benchmark build",
+      "level": 1,
+      "char_count": 97,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create separate benchmark build",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific build process using cmake, which falls under workflow_process due to its relation to testing and building requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific build process using cmake, which falls under workflow_process due to its relation to testing and building requirements.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create separate benchmark build",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process command, which relates to workflow and build processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process command, which relates to workflow and build processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create separate benchmark build",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a specific command line instruction for building a release version of the project with benchmarks enabled, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a specific command line instruction for building a release version of the project with benchmarks enabled, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run benchmarks",
+      "level": 1,
+      "char_count": 36,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run benchmarks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section appears to be related to testing requirements, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section appears to be related to testing requirements, which falls under workflow_process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run benchmarks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section appears to provide a command or instruction for running benchmarks, which relates to the workflow or process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section appears to provide a command or instruction for running benchmarks, which relates to the workflow or process of the project.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run benchmarks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the location of benchmark data in the project structure and implies a workflow process for running benchmarks.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the location of benchmark data in the project structure and implies a workflow process for running benchmarks.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Remove build directory and start fresh",
+      "level": 1,
+      "char_count": 68,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Remove build directory and start fresh",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the build process, indicating a workflow or process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the build process, indicating a workflow or process guideline.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Remove build directory and start fresh",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific sequence of commands for rebuilding the project, which relates to the workflow and build process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific sequence of commands for rebuilding the project, which relates to the workflow and build process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Remove build directory and start fresh",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for building the project.",
+          "raw_response": "{\n  \"categories\": [\"workflow_process\"],\n  \"reasoning\": \"The section describes a specific workflow process for building the project.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "What are Development Checks?",
+      "level": 3,
+      "char_count": 183,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "What are Development Checks?",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses compile-time assertions and validation, which relates to coding style, and also touches on internal invariants and function preconditions, indicating a connection to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses compile-time assertions and validation, which relates to coding style, and also touches on internal invariants and function preconditions, indicating a connection to architecture.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "What are Development Checks?",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Development checks relate to validation processes during development, aligning with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Development checks relate to validation processes during development, aligning with workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "What are Development Checks?",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding practices for implementing compile-time assertions and validations, which are part of coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding practices for implementing compile-time assertions and validations, which are part of coding style and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When are they Enabled?",
+      "level": 3,
+      "char_count": 252,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "When are they Enabled?",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the conditions under which certain features are enabled or disabled, which relates to the workflow and build process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the conditions under which certain features are enabled or disabled, which relates to the workflow and build process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "When are they Enabled?",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes conditions for enabling/disabling a feature, which relates to build and testing workflows.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes conditions for enabling/disabling a feature, which relates to build and testing workflows.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "When are they Enabled?",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses coding style related to build types and testing, as well as workflow processes for enabling and disabling certain features.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses coding style related to build types and testing, as well as workflow processes for enabling and disabling certain features.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Force enable development checks (even in Release)",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force enable development checks (even in Release)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section pertains to coding style by mentioning development checks and workflow process by referencing a build command with specific flags.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section pertains to coding style by mentioning development checks and workflow process by referencing a build command with specific flags.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force enable development checks (even in Release)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow step for enabling development checks, which relates to the project's workflow and build process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow step for enabling development checks, which relates to the project's workflow and build process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force enable development checks (even in Release)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command line instruction for enabling development checks, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a command line instruction for enabling development checks, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Force disable development checks (even in Debug)",
+      "level": 1,
+      "char_count": 29,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force disable development checks (even in Debug)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a specific build configuration and flag, relating to both workflow process and coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a specific build configuration and flag, relating to both workflow process and coding style.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force disable development checks (even in Debug)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow step for building the project with debugging checks disabled.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow step for building the project with debugging checks disabled.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force disable development checks (even in Debug)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command line instruction for building a project with a specific coding style flag.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command line instruction for building a project with a specific coding style flag.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Clang-Tidy",
+      "level": 2,
+      "char_count": 69,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Clang-Tidy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the use of a static analysis tool, which is related to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the use of a static analysis tool, which is related to coding style and conventions.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Clang-Tidy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific tool's usage within the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific tool's usage within the development workflow.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Clang-Tidy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the use of Clang-tidy for static analysis, which falls under coding_style, and also mentions how to run it, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses the use of Clang-tidy for static analysis, which falls under coding_style, and also mentions how to run it, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "During Build (Recommended)",
+      "level": 3,
+      "char_count": 440,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "During Build (Recommended)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses running clang-tidy during compilation, which relates to coding style, and also provides a build command, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses running clang-tidy during compilation, which relates to coding style, and also provides a build command, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "During Build (Recommended)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses code style enforcement via clang-tidy (coding_style) as part of the build process (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses code style enforcement via clang-tidy (coding_style) as part of the build process (workflow_process).\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "During Build (Recommended)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for running clang-tidy during compilation, which is a coding style tool, and also outlines a workflow process for building the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for running clang-tidy during compilation, which is a coding style tool, and also outlines a workflow process for building the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Standalone with compile_commands.json",
+      "level": 3,
+      "char_count": 399,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Standalone with compile_commands.json",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a workflow process for generating a compilation database and running clang-tidy, which also implies adherence to a specific coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a workflow process for generating a compilation database and running clang-tidy, which also implies adherence to a specific coding style.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Standalone with compile_commands.json",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build and linting process using cmake and clang-tidy, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build and linting process using cmake and clang-tidy, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Standalone with compile_commands.json",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on generating a compilation database and running clang-tidy for specific files, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on generating a compilation database and running clang-tidy for specific files, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Clang-Tidy Configuration",
+      "level": 3,
+      "char_count": 246,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Clang-Tidy Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the configuration of Clang-Tidy, a code style and linting tool, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses the configuration of Clang-Tidy, a code style and linting tool, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Clang-Tidy Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on configuring code analysis checks and warning policies, which relates to coding style enforcement.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on configuring code analysis checks and warning policies, which relates to coding style enforcement.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Clang-Tidy Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the configuration of Clang-Tidy, a tool for enforcing coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the configuration of Clang-Tidy, a tool for enforcing coding style and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Windows",
+      "level": 3,
+      "char_count": 177,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Windows",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build and test configuration, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build and test configuration, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Windows",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific build and testing command sequence, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific build and testing command sequence, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Windows",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for building and testing the project, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific commands for building and testing the project, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "macOS/Linux",
+      "level": 3,
+      "char_count": 43,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "macOS/Linux",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses standard commands and their usage, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section discusses standard commands and their usage, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "macOS/Linux",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [],
+          "reasoning": "The section only confirms that standard commands work as documented, without providing any new information that fits into the specified categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section only confirms that standard commands work as documented, without providing any new information that fits into the specified categories.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "macOS/Linux",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses standard commands, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses standard commands, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Benchmarks are unexpectedly slow",
+      "level": 3,
+      "char_count": 178,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Benchmarks are unexpectedly slow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses build configurations and modes, which relates to workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses build configurations and modes, which relates to workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Benchmarks are unexpectedly slow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on a specific build workflow solution, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on a specific build workflow solution, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Benchmarks are unexpectedly slow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses build modes and provides a command to change the build type, which is related to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses build modes and provides a command to change the build type, which is related to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tests are failing with assertion errors",
+      "level": 3,
+      "char_count": 120,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Tests are failing with assertion errors",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses testing requirements and troubleshooting, which relates to workflow_process, and also touches on addressing bugs and technical issues, which pertains to evolution_context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses testing requirements and troubleshooting, which relates to workflow_process, and also touches on addressing bugs and technical issues, which pertains to evolution_context.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Tests are failing with assertion errors",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on addressing test failures, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on addressing test failures, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Tests are failing with assertion errors",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing requirement and provides instructions for addressing failed tests, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing requirement and provides instructions for addressing failed tests, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Can't find benchmark executable",
+      "level": 3,
+      "char_count": 190,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Can't find benchmark executable",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section provides a solution to a specific build issue, which relates to workflow process, and also touches on project structure by mentioning the build directory and executable location.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section provides a solution to a specific build issue, which relates to workflow process, and also touches on project structure by mentioning the build directory and executable location.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Can't find benchmark executable",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a specific build process solution involving commands and configuration, which relates to workflow and build processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a specific build process solution involving commands and configuration, which relates to workflow and build processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Can't find benchmark executable",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific project structure (benchmarks) and provides a workflow process to build them.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a specific project structure (benchmarks) and provides a workflow process to build them.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Additional Resources",
+      "level": 2,
+      "char_count": 219,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Additional Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files in the repository.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Additional Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key directories and files with their purposes, describing how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key directories and files with their purposes, describing how the project is organized.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Additional Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key files and directories in the project, describing where things live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key files and directories in the project, describing where things live.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Summary",
+      "level": 2,
+      "char_count": 457,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Summary",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and configurations for different development tasks, indicating workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and configurations for different development tasks, indicating workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Summary",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and configurations for different development tasks (library, testing, benchmarking, development), which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and configurations for different development tasks (library, testing, benchmarking, development), which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Summary",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides commands for building, testing, benchmarking, and development, which involves coding style, project structure, and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"This section provides commands for building, testing, benchmarking, and development, which involves coding style, project structure, and workflow process.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Ada Development Guide for Claude",
+      "level": 1,
+      "char_count": 112,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Ada Development Guide for Claude",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section is classified under workflow_process due to its focus on building, testing, and benchmarking, and also under project_structure as it implies the existence of specific key files and directories related to CMake.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section is classified under workflow_process due to its focus on building, testing, and benchmarking, and also under project_structure as it implies the existence of specific key files and directories related to CMake.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Ada Development Guide for Claude",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on instructions for building, testing, and benchmarking, which are workflow-related processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on instructions for building, testing, and benchmarking, which are workflow-related processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Ada Development Guide for Claude",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses building, testing, and benchmarking using CMake, which involves coding style, project structure, and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses building, testing, and benchmarking using CMake, which involves coding style, project structure, and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build library only (no tests, no benchmarks)",
+      "level": 1,
+      "char_count": 37,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build library only (no tests, no benchmarks)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific build process using cmake, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific build process using cmake, which falls under workflow_process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build library only (no tests, no benchmarks)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command and process, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command and process, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build library only (no tests, no benchmarks)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a build process, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a build process, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build with tests (development checks ENABLED)",
+      "level": 1,
+      "char_count": 97,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with tests (development checks ENABLED)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build and test process, which falls under workflow_process due to its focus on testing requirements and build commands.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the build and test process, which falls under workflow_process due to its focus on testing requirements and build commands.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with tests (development checks ENABLED)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build and testing command sequence, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build and testing command sequence, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with tests (development checks ENABLED)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command line instruction for building and testing, which involves coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command line instruction for building and testing, which involves coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build with benchmarks (development checks DISABLED for accurate performance)",
+      "level": 1,
+      "char_count": 174,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with benchmarks (development checks DISABLED for accurate performance)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a build process with specific flags and commands, which relates to workflow_process, and also touches on coding_style due to the mention of build types and specific compiler flags.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a build process with specific flags and commands, which relates to workflow_process, and also touches on coding_style due to the mention of build types and specific compiler flags.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with benchmarks (development checks DISABLED for accurate performance)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build and execution workflow for running benchmarks, which relates to the development and testing process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build and execution workflow for running benchmarks, which relates to the development and testing process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with benchmarks (development checks DISABLED for accurate performance)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command line instruction for building the project with specific flags, which falls under coding_style, and also describes a workflow process for running benchmarks.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command line instruction for building the project with specific flags, which falls under coding_style, and also describes a workflow process for running benchmarks.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "FASTER BUILDS: Use Ninja instead of Make",
+      "level": 1,
+      "char_count": 200,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "FASTER BUILDS: Use Ninja instead of Make",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses build configuration and tools, which relates to workflow process, and also touches on project structure by mentioning build directories and flags.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses build configuration and tools, which relates to workflow process, and also touches on project structure by mentioning build directories and flags.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "FASTER BUILDS: Use Ninja instead of Make",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for building the project with Ninja, impacting the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides specific commands for building the project with Ninja, impacting the workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "FASTER BUILDS: Use Ninja instead of Make",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific coding instructions for using Ninja instead of Make, and also outlines a workflow process for building the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific coding instructions for using Ninja instead of Make, and also outlines a workflow process for building the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Requirements",
+      "level": 2,
+      "char_count": 192,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section outlines the dependencies and tools required for the project, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section outlines the dependencies and tools required for the project, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists build and development environment requirements, which relates to how the project is set up and structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists build and development environment requirements, which relates to how the project is set up and structured.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section outlines the required tools and dependencies for the project, which falls under coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section outlines the required tools and dependencies for the project, which falls under coding_style and project_structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Basic Build (Library Only)",
+      "level": 3,
+      "char_count": 149,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Basic Build (Library Only)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific build process using cmake, which falls under workflow_process due to its focus on a development task.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific build process using cmake, which falls under workflow_process due to its focus on a development task.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Basic Build (Library Only)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process using commands, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process using commands, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Basic Build (Library Only)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for building a minimal library, which involves project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for building a minimal library, which involves project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build with Tests",
+      "level": 3,
+      "char_count": 352,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the build process with tests enabled and mentions development checks, which relates to workflow and coding practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes the build process with tests enabled and mentions development checks, which relates to workflow and coding practices.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process with testing enabled, which relates to workflow and development practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process with testing enabled, which relates to workflow and development practices.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides instructions for building with tests, which involves coding style (use of assertions) and workflow process (build commands and development checks).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides instructions for building with tests, which involves coding style (use of assertions) and workflow process (build commands and development checks).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build with Benchmarks",
+      "level": 3,
+      "char_count": 356,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Benchmarks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a specific build process with benchmarks and mentions coding considerations like build types and assertions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a specific build process with benchmarks and mentions coding considerations like build types and assertions.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Benchmarks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific build process with critical constraints for benchmarking, which relates to workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific build process with critical constraints for benchmarking, which relates to workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Build with Benchmarks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on building benchmarks with specific coding style (Release mode) and workflow process (cmake commands).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on building benchmarks with specific coding style (Release mode) and workflow process (cmake commands).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using Local Packages",
+      "level": 3,
+      "char_count": 180,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Using Local Packages",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a build process using cmake and specifies options for testing and package usage, which relates to workflow and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a build process using cmake and specifies options for testing and package usage, which relates to workflow and project structure.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Using Local Packages",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process command for handling local dependencies, which relates to workflow and build workflow guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process command for handling local dependencies, which relates to workflow and build workflow guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Using Local Packages",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on using local packages, which involves coding style (command line arguments) and project structure (dependencies).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on using local packages, which involves coding style (command line arguments) and project structure (dependencies).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CMake Build Options",
+      "level": 2,
+      "char_count": 501,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CMake Build Options",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build options for the project, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes build options for the project, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CMake Build Options",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes build configuration options, which relates to how the project is structured and built.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes build configuration options, which relates to how the project is structured and built.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CMake Build Options",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes build options that affect the code style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes build options that affect the code style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Tests",
+      "level": 2,
+      "char_count": 48,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing requirements, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing requirements, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific step in the testing workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific step in the testing workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing requirement, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing requirement, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run all tests",
+      "level": 1,
+      "char_count": 42,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run all tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run all tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run all tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run specific test executable",
+      "level": 1,
+      "char_count": 25,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run specific test executable",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section appears to be describing the location or execution of a specific test executable within the project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section appears to be describing the location or execution of a specific test executable within the project directory layout.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run specific test executable",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section points to a specific directory path, implying guidance on where to find or place certain project elements.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section points to a specific directory path, implying guidance on where to find or place certain project elements.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run specific test executable",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific test executable, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific test executable, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests with verbose output",
+      "level": 1,
+      "char_count": 36,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests with verbose output",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing procedure, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing procedure, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests with verbose output",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command with a flag, implying a workflow or process guideline for testing.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command with a flag, implying a workflow or process guideline for testing.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests with verbose output",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Checks in Tests",
+      "level": 3,
+      "char_count": 325,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the development testing process and the coding practice of using assertions for bug catching, which relates to both workflow and coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes the development testing process and the coding practice of using assertions for bug catching, which relates to both workflow and coding style.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a development workflow practice (development checks in tests) that influences how developers work on the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a development workflow practice (development checks in tests) that influences how developers work on the project.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses coding style in the context of testing and outlines a recommended workflow process for development.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses coding style in the context of testing and outlines a recommended workflow process for development.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Benchmarks",
+      "level": 2,
+      "char_count": 51,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Benchmarks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the workflow process, namely running benchmarks after building with a particular flag.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the workflow process, namely running benchmarks after building with a particular flag.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Benchmarks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific step in the workflow (building and running benchmarks with a particular flag).",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific step in the workflow (building and running benchmarks with a particular flag).\" }"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Benchmarks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for running benchmarks.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for running benchmarks.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Main benchmark comparing against competitors",
+      "level": 1,
+      "char_count": 28,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Main benchmark comparing against competitors",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section appears to be describing the location of benchmark data within the project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section appears to be describing the location of benchmark data within the project directory layout.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Main benchmark comparing against competitors",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section points to a specific directory location, implying a description of where benchmark data lives within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section points to a specific directory location, implying a description of where benchmark data lives within the project.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Main benchmark comparing against competitors",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a directory path, indicating project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a directory path, indicating project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Specific benchmarks",
+      "level": 1,
+      "char_count": 252,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Specific benchmarks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files for benchmarks in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files for benchmarks in the project.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Specific benchmarks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific directories and files within the project, indicating where certain types of benchmarks live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific directories and files within the project, indicating where certain types of benchmarks live.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Specific benchmarks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists specific benchmark files and their locations within the project directory structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists specific benchmark files and their locations within the project directory structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Checks in Benchmarks",
+      "level": 3,
+      "char_count": 90,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Benchmarks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses a specific development guideline related to building benchmarks in Release mode, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section discusses a specific development guideline related to building benchmarks in Release mode, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Benchmarks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific rule for building benchmarks, which relates to the workflow and process of development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific rule for building benchmarks, which relates to the workflow and process of development.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Development Checks in Benchmarks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a workflow process instruction to disable development checks for benchmarks, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a workflow process instruction to disable development checks for benchmarks, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CORRECT: Benchmarks with development checks disabled",
+      "level": 1,
+      "char_count": 110,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CORRECT: Benchmarks with development checks disabled",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific build and execution process for benchmarks, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific build and execution process for benchmarks, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CORRECT: Benchmarks with development checks disabled",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific build and execution workflow for benchmarks, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific build and execution workflow for benchmarks, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "CORRECT: Benchmarks with development checks disabled",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for building and running benchmarks, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific commands for building and running benchmarks, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "WRONG: Don't benchmark with development checks enabled",
+      "level": 1,
+      "char_count": 323,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "WRONG: Don't benchmark with development checks enabled",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses build configurations and performance measurements, which relates to workflow processes, and also touches on coding style by mentioning specific macros and build types.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses build configurations and performance measurements, which relates to workflow processes, and also touches on coding style by mentioning specific macros and build types.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "WRONG: Don't benchmark with development checks enabled",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on a specific workflow step (benchmarking) with configuration advice to ensure accurate measurements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines on a specific workflow step (benchmarking) with configuration advice to ensure accurate measurements.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "WRONG: Don't benchmark with development checks enabled",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses coding style in terms of build flags and development checks, and workflow process regarding performance measurements and build configurations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses coding style in terms of build flags and development checks, and workflow process regarding performance measurements and build configurations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Create build directory for tests",
+      "level": 1,
+      "char_count": 55,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create build directory for tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the build process for testing, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the build process for testing, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create build directory for tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process for enabling and running tests, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process for enabling and running tests, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create build directory for tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command sequence for building tests, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command sequence for building tests, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests to verify correctness",
+      "level": 1,
+      "char_count": 42,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests to verify correctness",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section is classified as workflow_process because it describes a testing requirement, which is a key aspect of the workflow process in software development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section is classified as workflow_process because it describes a testing requirement, which is a key aspect of the workflow process in software development.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests to verify correctness",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to the workflow and testing requirements within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to the workflow and testing requirements within the project.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run tests to verify correctness",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a test command, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a test command, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Or run specific test",
+      "level": 1,
+      "char_count": 29,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Or run specific test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run specific tests, which falls under testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run specific tests, which falls under testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Or run specific test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific way to run tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific way to run tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Or run specific test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific test command, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific test command, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Create separate benchmark build",
+      "level": 1,
+      "char_count": 97,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create separate benchmark build",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific build process using cmake, which falls under workflow_process due to its relation to testing and building requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific build process using cmake, which falls under workflow_process due to its relation to testing and building requirements.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create separate benchmark build",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process command, which relates to workflow and build processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process command, which relates to workflow and build processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Create separate benchmark build",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a specific command line instruction for building a release version of the project with benchmarks enabled, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a specific command line instruction for building a release version of the project with benchmarks enabled, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run benchmarks",
+      "level": 1,
+      "char_count": 36,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run benchmarks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section appears to be related to testing requirements, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section appears to be related to testing requirements, which falls under workflow_process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run benchmarks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section appears to provide a command or instruction for running benchmarks, which relates to the workflow or process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section appears to provide a command or instruction for running benchmarks, which relates to the workflow or process of the project.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Run benchmarks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the location of benchmark data in the project structure and implies a workflow process for running benchmarks.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the location of benchmark data in the project structure and implies a workflow process for running benchmarks.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Remove build directory and start fresh",
+      "level": 1,
+      "char_count": 68,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Remove build directory and start fresh",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the build process, indicating a workflow or process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the build process, indicating a workflow or process guideline.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Remove build directory and start fresh",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific sequence of commands for rebuilding the project, which relates to the workflow and build process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific sequence of commands for rebuilding the project, which relates to the workflow and build process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Remove build directory and start fresh",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for building the project.",
+          "raw_response": "{\n  \"categories\": [\"workflow_process\"],\n  \"reasoning\": \"The section describes a specific workflow process for building the project.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "What are Development Checks?",
+      "level": 3,
+      "char_count": 183,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "What are Development Checks?",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses compile-time assertions and validation, which relates to coding style, and also touches on internal invariants and function preconditions, indicating a connection to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses compile-time assertions and validation, which relates to coding style, and also touches on internal invariants and function preconditions, indicating a connection to architecture.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "What are Development Checks?",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Development checks relate to validation processes during development, aligning with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Development checks relate to validation processes during development, aligning with workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "What are Development Checks?",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding practices for implementing compile-time assertions and validations, which are part of coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding practices for implementing compile-time assertions and validations, which are part of coding style and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When are they Enabled?",
+      "level": 3,
+      "char_count": 252,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "When are they Enabled?",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the conditions under which certain features are enabled or disabled, which relates to the workflow and build process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the conditions under which certain features are enabled or disabled, which relates to the workflow and build process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "When are they Enabled?",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes conditions for enabling/disabling a feature, which relates to build and testing workflows.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes conditions for enabling/disabling a feature, which relates to build and testing workflows.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "When are they Enabled?",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses coding style related to build types and testing, as well as workflow processes for enabling and disabling certain features.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses coding style related to build types and testing, as well as workflow processes for enabling and disabling certain features.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Force enable development checks (even in Release)",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force enable development checks (even in Release)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section pertains to coding style by mentioning development checks and workflow process by referencing a build command with specific flags.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section pertains to coding style by mentioning development checks and workflow process by referencing a build command with specific flags.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force enable development checks (even in Release)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow step for enabling development checks, which relates to the project's workflow and build process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow step for enabling development checks, which relates to the project's workflow and build process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force enable development checks (even in Release)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command line instruction for enabling development checks, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a command line instruction for enabling development checks, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Force disable development checks (even in Debug)",
+      "level": 1,
+      "char_count": 29,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force disable development checks (even in Debug)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a specific build configuration and flag, relating to both workflow process and coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a specific build configuration and flag, relating to both workflow process and coding style.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force disable development checks (even in Debug)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow step for building the project with debugging checks disabled.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow step for building the project with debugging checks disabled.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Force disable development checks (even in Debug)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command line instruction for building a project with a specific coding style flag.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command line instruction for building a project with a specific coding style flag.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Clang-Tidy",
+      "level": 2,
+      "char_count": 69,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Clang-Tidy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the use of a static analysis tool, which is related to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the use of a static analysis tool, which is related to coding style and conventions.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Clang-Tidy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific tool's usage within the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific tool's usage within the development workflow.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Running Clang-Tidy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the use of Clang-tidy for static analysis, which falls under coding_style, and also mentions how to run it, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses the use of Clang-tidy for static analysis, which falls under coding_style, and also mentions how to run it, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "During Build (Recommended)",
+      "level": 3,
+      "char_count": 440,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "During Build (Recommended)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses running clang-tidy during compilation, which relates to coding style, and also provides a build command, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses running clang-tidy during compilation, which relates to coding style, and also provides a build command, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "During Build (Recommended)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses code style enforcement via clang-tidy (coding_style) as part of the build process (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses code style enforcement via clang-tidy (coding_style) as part of the build process (workflow_process).\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "During Build (Recommended)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for running clang-tidy during compilation, which is a coding style tool, and also outlines a workflow process for building the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for running clang-tidy during compilation, which is a coding style tool, and also outlines a workflow process for building the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Standalone with compile_commands.json",
+      "level": 3,
+      "char_count": 399,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Standalone with compile_commands.json",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a workflow process for generating a compilation database and running clang-tidy, which also implies adherence to a specific coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a workflow process for generating a compilation database and running clang-tidy, which also implies adherence to a specific coding style.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Standalone with compile_commands.json",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build and linting process using cmake and clang-tidy, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build and linting process using cmake and clang-tidy, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Standalone with compile_commands.json",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on generating a compilation database and running clang-tidy for specific files, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on generating a compilation database and running clang-tidy for specific files, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Clang-Tidy Configuration",
+      "level": 3,
+      "char_count": 246,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Clang-Tidy Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the configuration of Clang-Tidy, a code style and linting tool, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses the configuration of Clang-Tidy, a code style and linting tool, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Clang-Tidy Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on configuring code analysis checks and warning policies, which relates to coding style enforcement.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on configuring code analysis checks and warning policies, which relates to coding style enforcement.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Clang-Tidy Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the configuration of Clang-Tidy, a tool for enforcing coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the configuration of Clang-Tidy, a tool for enforcing coding style and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Windows",
+      "level": 3,
+      "char_count": 177,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Windows",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build and test configuration, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build and test configuration, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Windows",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific build and testing command sequence, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific build and testing command sequence, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Windows",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for building and testing the project, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides specific commands for building and testing the project, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "macOS/Linux",
+      "level": 3,
+      "char_count": 43,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "macOS/Linux",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses standard commands and their usage, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section discusses standard commands and their usage, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "macOS/Linux",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [],
+          "reasoning": "The section only confirms that standard commands work as documented, without providing any new information that fits into the specified categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section only confirms that standard commands work as documented, without providing any new information that fits into the specified categories.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "macOS/Linux",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses standard commands, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses standard commands, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Benchmarks are unexpectedly slow",
+      "level": 3,
+      "char_count": 178,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Benchmarks are unexpectedly slow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses build configurations and modes, which relates to workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses build configurations and modes, which relates to workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Benchmarks are unexpectedly slow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on a specific build workflow solution, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on a specific build workflow solution, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Benchmarks are unexpectedly slow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses build modes and provides a command to change the build type, which is related to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses build modes and provides a command to change the build type, which is related to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tests are failing with assertion errors",
+      "level": 3,
+      "char_count": 120,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Tests are failing with assertion errors",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses testing requirements and troubleshooting, which relates to workflow_process, and also touches on addressing bugs and technical issues, which pertains to evolution_context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses testing requirements and troubleshooting, which relates to workflow_process, and also touches on addressing bugs and technical issues, which pertains to evolution_context.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Tests are failing with assertion errors",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on addressing test failures, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on addressing test failures, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Tests are failing with assertion errors",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing requirement and provides instructions for addressing failed tests, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing requirement and provides instructions for addressing failed tests, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Can't find benchmark executable",
+      "level": 3,
+      "char_count": 190,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Can't find benchmark executable",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section provides a solution to a specific build issue, which relates to workflow process, and also touches on project structure by mentioning the build directory and executable location.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section provides a solution to a specific build issue, which relates to workflow process, and also touches on project structure by mentioning the build directory and executable location.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Can't find benchmark executable",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a specific build process solution involving commands and configuration, which relates to workflow and build processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a specific build process solution involving commands and configuration, which relates to workflow and build processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Can't find benchmark executable",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific project structure (benchmarks) and provides a workflow process to build them.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a specific project structure (benchmarks) and provides a workflow process to build them.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Additional Resources",
+      "level": 2,
+      "char_count": 219,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Additional Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files in the repository.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Additional Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key directories and files with their purposes, describing how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key directories and files with their purposes, describing how the project is organized.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Additional Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key files and directories in the project, describing where things live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key files and directories in the project, describing where things live.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Summary",
+      "level": 2,
+      "char_count": 457,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Summary",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and configurations for different development tasks, indicating workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and configurations for different development tasks, indicating workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Summary",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and configurations for different development tasks (library, testing, benchmarking, development), which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and configurations for different development tasks (library, testing, benchmarking, development), which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "ada-url/ada",
+          "section_heading": "Summary",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides commands for building, testing, benchmarking, and development, which involves coding style, project structure, and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"This section provides commands for building, testing, benchmarking, and development, which involves coding style, project structure, and workflow process.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.27906976744186046,
+    "project_structure": 0.20930232558139536,
+    "workflow_process": 0.7906976744186046,
+    "architecture": 0.023255813953488372,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.4165957446808511,
+    "project_structure": 0.24099290780141844,
+    "workflow_process": 0.7604255319148936,
+    "architecture": 0.02595744680851064,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

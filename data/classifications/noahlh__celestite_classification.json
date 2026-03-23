@@ -1,0 +1,966 @@
+{
+  "repo": "noahlh__celestite",
+  "full_name": "noahlh/celestite",
+  "n_sections": 11,
+  "n_chars": 3136,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 235,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides a high-level description of the project's purpose and functionality, which relates to project structure, and also touches on the technical architecture of the library.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides a high-level description of the project's purpose and functionality, which relates to project structure, and also touches on the technical architecture of the library.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project's purpose and technology stack, which informs how the project is structured and its key components.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project's purpose and technology stack, which informs how the project is structured and its key components.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the role and functionality of the project, as well as its key components and dependencies, which aligns with the project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the role and functionality of the project, as well as its key components and dependencies, which aligns with the project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Install Dependencies",
+      "level": 3,
+      "char_count": 93,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Install Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes installing dependencies, which relates to project setup and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes installing dependencies, which relates to project setup and workflow processes.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Install Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for installing dependencies, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for installing dependencies, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Install Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides a command for installing dependencies, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides a command for installing dependencies, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run Tests",
+      "level": 3,
+      "char_count": 130,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Run Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run tests, which falls under testing requirements and is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run tests, which falls under testing requirements and is a part of the workflow process.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Run Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides commands for running tests, which is part of the testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides commands for running tests, which is part of the testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Run Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the commands to run tests, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the commands to run tests, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "From svelte-scripts directory with proper env vars:",
+      "level": 1,
+      "char_count": 79,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "From svelte-scripts directory with proper env vars:",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a build process with specific directory paths, relating to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a build process with specific directory paths, relating to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "From svelte-scripts directory with proper env vars:",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command with environment variables, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command with environment variables, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "From svelte-scripts directory with proper env vars:",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a specific command for building a component, which relates to coding style, and specifies directory paths, which relates to project structure.",
+          "raw_response": "{\n  \"categories\": [\"coding_style\", \"project_structure\"],\n  \"reasoning\": \"The section provides a specific command for building a component, which relates to coding style, and specifies directory paths, which relates to project structure.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Development",
+      "level": 3,
+      "char_count": 133,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the development process and project setup, including testing and server startup requirements, which relates to workflow_process, and also mentions the project being a Crystal library, touching on project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the development process and project setup, including testing and server startup requirements, which relates to workflow_process, and also mentions the project being a Crystal library, touching on project_structure.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Describes testing setup and a specific requirement (startup time) for development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Describes testing setup and a specific requirement (startup time) for development workflow.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's structure as a library and provides a workflow process requirement for testing.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's structure as a library and provides a workflow process requirement for testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Crystal Side (`src/celestite/`)",
+      "level": 3,
+      "char_count": 588,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Crystal Side (`src/celestite/`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the Crystal side of the repository, as well as the roles and dependencies of specific modules, making it relevant to both project structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key files in the Crystal side of the repository, as well as the roles and dependencies of specific modules, making it relevant to both project structure and architecture categories.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Crystal Side (`src/celestite/`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists directory contents with brief functional descriptions, indicating both project layout (project_structure) and component roles/dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists directory contents with brief functional descriptions, indicating both project layout (project_structure) and component roles/dependencies (architecture).\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Crystal Side (`src/celestite/`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the 'src/celestite/' directory, as well as the roles and dependencies of the modules within the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key files in the 'src/celestite/' directory, as well as the roles and dependencies of the modules within the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Bun/Vite Side (`src/svelte-scripts/`)",
+      "level": 3,
+      "char_count": 371,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Bun/Vite Side (`src/svelte-scripts/`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the `src/svelte-scripts/` directory, as well as the build targets and environment variables used in the Makefile, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory layout and key files in the `src/svelte-scripts/` directory, as well as the build targets and environment variables used in the Makefile, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Bun/Vite Side (`src/svelte-scripts/`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes specific key files and their roles within a particular directory (`src/svelte-scripts/`), focusing on project layout and key components.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes specific key files and their roles within a particular directory (`src/svelte-scripts/`), focusing on project layout and key components.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Bun/Vite Side (`src/svelte-scripts/`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout and key files (project_structure), as well as the process for launching the render server (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout and key files (project_structure), as well as the process for launching the render server (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Request Flow",
+      "level": 3,
+      "char_count": 364,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Request Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the request flow and interactions between components, which relates to architecture, and also outlines the steps involved in the rendering process, touching on workflow and development/production environments.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section describes the request flow and interactions between components, which relates to architecture, and also outlines the steps involved in the rendering process, touching on workflow and development/production environments.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Request Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"Describes a specific technical pr",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"Describes a specific technical process (workflow_process) involving interactions between different system components (architecture).\""
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Request Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the flow of a request, detailing the roles of different components and modules in the system, as well as their interactions, which falls under the 'architecture' category; it also provides information on where things live and how they are structured, which falls under the 'project_structure' category.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the flow of a request, detailing the roles of different components and modules in the system, as well as their interactions, which falls under the 'architecture' category; it also provides information on where things live and how they are structured, which falls under the 'project_structure' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Configuration Options",
+      "level": 3,
+      "char_count": 467,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Key Configuration Options",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key configuration options for the Celestite project, including directory paths and engine settings, which relate to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key configuration options for the Celestite project, including directory paths and engine settings, which relate to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Key Configuration Options",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines key directories and configuration for the project's setup, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines key directories and configuration for the project's setup, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Key Configuration Options",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides configuration options for the project structure and coding style, such as directory paths and boolean flags for specific features.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides configuration options for the project structure and coding style, such as directory paths and boolean flags for specific features.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Notes",
+      "level": 2,
+      "char_count": 204,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Testing Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing requirements and procedures, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing requirements and procedures, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Testing Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Describes testing implementation details and process (test setup, waiting for specific conditions), aligning with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Describes testing implementation details and process (test setup, waiting for specific conditions), aligning with workflow processes.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Testing Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the process for running tests and the architecture of the testing setup.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the process for running tests and the architecture of the testing setup.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 235,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides a high-level description of the project's purpose and functionality, which relates to project structure, and also touches on the technical architecture of the library.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides a high-level description of the project's purpose and functionality, which relates to project structure, and also touches on the technical architecture of the library.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project's purpose and technology stack, which informs how the project is structured and its key components.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project's purpose and technology stack, which informs how the project is structured and its key components.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the role and functionality of the project, as well as its key components and dependencies, which aligns with the project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the role and functionality of the project, as well as its key components and dependencies, which aligns with the project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Install Dependencies",
+      "level": 3,
+      "char_count": 93,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Install Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes installing dependencies, which relates to project setup and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes installing dependencies, which relates to project setup and workflow processes.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Install Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for installing dependencies, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for installing dependencies, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Install Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides a command for installing dependencies, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides a command for installing dependencies, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run Tests",
+      "level": 3,
+      "char_count": 130,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Run Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run tests, which falls under testing requirements and is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run tests, which falls under testing requirements and is a part of the workflow process.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Run Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides commands for running tests, which is part of the testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides commands for running tests, which is part of the testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Run Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the commands to run tests, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the commands to run tests, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "From svelte-scripts directory with proper env vars:",
+      "level": 1,
+      "char_count": 79,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "From svelte-scripts directory with proper env vars:",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a build process with specific directory paths, relating to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a build process with specific directory paths, relating to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "From svelte-scripts directory with proper env vars:",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command with environment variables, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command with environment variables, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "From svelte-scripts directory with proper env vars:",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a specific command for building a component, which relates to coding style, and specifies directory paths, which relates to project structure.",
+          "raw_response": "{\n  \"categories\": [\"coding_style\", \"project_structure\"],\n  \"reasoning\": \"The section provides a specific command for building a component, which relates to coding style, and specifies directory paths, which relates to project structure.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Development",
+      "level": 3,
+      "char_count": 133,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the development process and project setup, including testing and server startup requirements, which relates to workflow_process, and also mentions the project being a Crystal library, touching on project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the development process and project setup, including testing and server startup requirements, which relates to workflow_process, and also mentions the project being a Crystal library, touching on project_structure.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Describes testing setup and a specific requirement (startup time) for development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Describes testing setup and a specific requirement (startup time) for development workflow.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's structure as a library and provides a workflow process requirement for testing.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's structure as a library and provides a workflow process requirement for testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Crystal Side (`src/celestite/`)",
+      "level": 3,
+      "char_count": 588,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Crystal Side (`src/celestite/`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the Crystal side of the repository, as well as the roles and dependencies of specific modules, making it relevant to both project structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key files in the Crystal side of the repository, as well as the roles and dependencies of specific modules, making it relevant to both project structure and architecture categories.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Crystal Side (`src/celestite/`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists directory contents with brief functional descriptions, indicating both project layout (project_structure) and component roles/dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists directory contents with brief functional descriptions, indicating both project layout (project_structure) and component roles/dependencies (architecture).\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Crystal Side (`src/celestite/`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the 'src/celestite/' directory, as well as the roles and dependencies of the modules within the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key files in the 'src/celestite/' directory, as well as the roles and dependencies of the modules within the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Bun/Vite Side (`src/svelte-scripts/`)",
+      "level": 3,
+      "char_count": 371,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Bun/Vite Side (`src/svelte-scripts/`)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the `src/svelte-scripts/` directory, as well as the build targets and environment variables used in the Makefile, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory layout and key files in the `src/svelte-scripts/` directory, as well as the build targets and environment variables used in the Makefile, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Bun/Vite Side (`src/svelte-scripts/`)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes specific key files and their roles within a particular directory (`src/svelte-scripts/`), focusing on project layout and key components.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes specific key files and their roles within a particular directory (`src/svelte-scripts/`), focusing on project layout and key components.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Bun/Vite Side (`src/svelte-scripts/`)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout and key files (project_structure), as well as the process for launching the render server (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout and key files (project_structure), as well as the process for launching the render server (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Request Flow",
+      "level": 3,
+      "char_count": 364,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Request Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the request flow and interactions between components, which relates to architecture, and also outlines the steps involved in the rendering process, touching on workflow and development/production environments.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section describes the request flow and interactions between components, which relates to architecture, and also outlines the steps involved in the rendering process, touching on workflow and development/production environments.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Request Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"Describes a specific technical pr",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"Describes a specific technical process (workflow_process) involving interactions between different system components (architecture).\""
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Request Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the flow of a request, detailing the roles of different components and modules in the system, as well as their interactions, which falls under the 'architecture' category; it also provides information on where things live and how they are structured, which falls under the 'project_structure' category.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the flow of a request, detailing the roles of different components and modules in the system, as well as their interactions, which falls under the 'architecture' category; it also provides information on where things live and how they are structured, which falls under the 'project_structure' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Configuration Options",
+      "level": 3,
+      "char_count": 467,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Key Configuration Options",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key configuration options for the Celestite project, including directory paths and engine settings, which relate to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key configuration options for the Celestite project, including directory paths and engine settings, which relate to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Key Configuration Options",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines key directories and configuration for the project's setup, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines key directories and configuration for the project's setup, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Key Configuration Options",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides configuration options for the project structure and coding style, such as directory paths and boolean flags for specific features.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides configuration options for the project structure and coding style, such as directory paths and boolean flags for specific features.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Notes",
+      "level": 2,
+      "char_count": 204,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Testing Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing requirements and procedures, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing requirements and procedures, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Testing Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Describes testing implementation details and process (test setup, waiting for specific conditions), aligning with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Describes testing implementation details and process (test setup, waiting for specific conditions), aligning with workflow processes.\"}"
+        },
+        {
+          "repo": "noahlh/celestite",
+          "section_heading": "Testing Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the process for running tests and the architecture of the testing setup.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the process for running tests and the architecture of the testing setup.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": false,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.6363636363636364,
+    "workflow_process": 0.6363636363636364,
+    "architecture": 0.2727272727272727,
+    "evolution_context": 0.0,
+    "agent_rules": 0.09090909090909091
+  },
+  "category_char_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.7107736804049168,
+    "workflow_process": 0.4967462039045553,
+    "architecture": 0.42913955169920465,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0368763557483731
+  }
+}

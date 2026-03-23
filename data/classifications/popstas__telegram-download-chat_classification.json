@@ -1,0 +1,1604 @@
+{
+  "repo": "popstas__telegram-download-chat",
+  "full_name": "popstas/telegram-download-chat",
+  "n_sections": 19,
+  "n_chars": 3757,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 258,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides a high-level description of the project's purpose and functionality, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides a high-level description of the project's purpose and functionality, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project, which aligns with project structure as it outlines the project's purpose and key components.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project, which aligns with project structure as it outlines the project's purpose and key components.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides an overview of the project's functionality and interfaces, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides an overview of the project's functionality and interfaces, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Components",
+      "level": 3,
+      "char_count": 600,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Key Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the key components of the project, including their locations in the directory structure and their roles, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the key components of the project, including their locations in the directory structure and their roles, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Key Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Lists key components with their locations (project_structure) and describes their roles and dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Lists key components with their locations (project_structure) and describes their roles and dependencies (architecture).\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Key Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the key components of the project, which includes directory layout and module descriptions, as well as the roles and dependencies of these components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the key components of the project, which includes directory layout and module descriptions, as well as the roles and dependencies of these components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture",
+      "level": 3,
+      "char_count": 369,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the modular design and component boundaries of the application, which is a key aspect of the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the modular design and component boundaries of the application, which is a key aspect of the architecture category.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explicitly describes the modular design and roles of different layers in the application, which is a direct characteristic of the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes the modular design and roles of different layers in the application, which is a direct characteristic of the architecture category.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the application's modular design, including its layers and their roles, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the application's modular design, including its layers and their roles, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Commands",
+      "level": 2,
+      "char_count": 32,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section provides information about the virtual environment, which relates to project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section provides information about the virtual environment, which relates to project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a virtual environment usage, which relates to coding and development environment style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a virtual environment usage, which relates to coding and development environment style.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides instructions on using a virtual environment, which falls under coding_style, and also outlines a development command, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides instructions on using a virtual environment, which falls under coding_style, and also outlines a development command, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Install in development mode with all dependencies",
+      "level": 1,
+      "char_count": 27,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Install in development mode with all dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the development workflow, specifically installing dependencies in development mode.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the development workflow, specifically installing dependencies in development mode.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Install in development mode with all dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for installing the project in development mode, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for installing the project in development mode, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Install in development mode with all dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command for installing the project in development mode with all dependencies, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a command for installing the project in development mode with all dependencies, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Or install from requirements",
+      "level": 1,
+      "char_count": 35,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Or install from requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes how to install project dependencies, which relates to the project's structure and setup.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes how to install project dependencies, which relates to the project's structure and setup.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Or install from requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides installation instructions via a project file (requirements.txt), which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides installation instructions via a project file (requirements.txt), which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Or install from requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes how to install project dependencies, which is related to the project's structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes how to install project dependencies, which is related to the project's structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run specific test",
+      "level": 1,
+      "char_count": 71,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Run specific test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run a specific test, which falls under testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run a specific test, which falls under testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Run specific test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command to run a specific test, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command to run a specific test, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Run specific test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running a specific test, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running a specific test, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build PyInstaller executables",
+      "level": 1,
+      "char_count": 65,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Build PyInstaller executables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of building executables, which falls under workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of building executables, which falls under workflow and development procedures.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Build PyInstaller executables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific build scripts for different operating systems, which relates to the workflow and build process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific build scripts for different operating systems, which relates to the workflow and build process of the project.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Build PyInstaller executables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions for building executables, which involves coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions for building executables, which involves coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CLI mode",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLI mode",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to use the tool from the command line, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to use the tool from the command line, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLI mode",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command-line interface (CLI) usage, which relates to workflow process as it outlines how to execute a specific task within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command-line interface (CLI) usage, which relates to workflow process as it outlines how to execute a specific task within the project.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLI mode",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command line interface (CLI) usage example, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a command line interface (CLI) usage example, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "GUI mode",
+      "level": 1,
+      "char_count": 36,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "GUI mode",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes a specific mode of operation for the AI agent, namely GUI mode, which falls under agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes a specific mode of operation for the AI agent, namely GUI mode, which falls under agent rules.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "GUI mode",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to run the application in GUI mode, which relates to workflow or how the project is executed.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to run the application in GUI mode, which relates to workflow or how the project is executed.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "GUI mode",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command line instruction for running the GUI mode, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command line instruction for running the GUI mode, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "or",
+      "level": 1,
+      "char_count": 26,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "or",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [],
+          "reasoning": "The section contains only a heading with no descriptive content, appearing to be a title or separator rather than a section with meaningful instructions or information.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section contains only a heading with no descriptive content, appearing to be a title or separator rather than a section with meaningful instructions or information.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "or",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section appears to highlight a key component (GUI) of the project, implying its placement or existence within the project's structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section appears to highlight a key component (GUI) of the project, implying its placement or existence within the project's structure.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "or",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a component of the project, which falls under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a component of the project, which falls under project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "From source",
+      "level": 1,
+      "char_count": 45,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "From source",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides a code snippet with a command to launch a GUI, indicating a focus on coding style and execution.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides a code snippet with a command to launch a GUI, indicating a focus on coding style and execution.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "From source",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to launch the application, which relates to workflow or execution process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to launch the application, which relates to workflow or execution process.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "From source",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a code snippet demonstrating the command to launch the GUI, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a code snippet demonstrating the command to launch the GUI, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration",
+      "level": 2,
+      "char_count": 214,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the configuration file's location and setup, which relates to project structure, and also touches on the workflow process by mentioning the GUI editing interface and requirements for Telegram API credentials.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the configuration file's location and setup, which relates to project structure, and also touches on the workflow process by mentioning the GUI editing interface and requirements for Telegram API credentials.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section primarily discusses the location and handling of configuration files, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section primarily discusses the location and handling of configuration files, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of the configuration file and the format of the configuration, which falls under project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location of the configuration file and the format of the configuration, which falls under project structure and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Message Processing",
+      "level": 3,
+      "char_count": 246,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Message Processing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the module's role in message processing and its dependencies, as well as its workflow and output formats.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section describes the module's role in message processing and its dependencies, as well as its workflow and output formats.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Message Processing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the functional components and data handling of the message processing system, indicating module roles and design choices.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the functional components and data handling of the message processing system, indicating module roles and design choices.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Message Processing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the design and functionality of the message processing component, as well as the coding style for downloading messages via Telethon's iter_messages() function.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the design and functionality of the message processing component, as well as the coding style for downloading messages via Telethon's iter_messages() function.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Authentication",
+      "level": 3,
+      "char_count": 123,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Authentication",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the authentication mechanism and its implementation, which relates to the system's architecture and also involves AI-specific directives for handling authentication flows.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the authentication mechanism and its implementation, which relates to the system's architecture and also involves AI-specific directives for handling authentication flows.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Authentication",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the system's authentication mechanism, which relates to the overall design and component interactions (GUI, CLI, Telethon), falling under architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the system's authentication mechanism, which relates to the overall design and component interactions (GUI, CLI, Telethon), falling under architecture.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Authentication",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the use of Telethon sessions for persistent login, indicating project structure and architecture decisions",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the use of Telethon sessions for persistent login, indicating project structure and architecture decisions\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Filtering & Splitting",
+      "level": 3,
+      "char_count": 293,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Filtering & Splitting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes command-line flags for filtering and splitting data, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes command-line flags for filtering and splitting data, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Filtering & Splitting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes functional parameters for data extraction and filtering, which relates to the design and component behavior of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes functional parameters for data extraction and filtering, which relates to the design and component behavior of the system.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Filtering & Splitting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes command line arguments for a program, which relates to coding style, and also outlines the functionality of different components, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes command line arguments for a program, which relates to coding style, and also outlines the functionality of different components, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "PyInstaller Integration",
+      "level": 3,
+      "char_count": 126,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "PyInstaller Integration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses custom hooks and build scripts, indicating project structure, and also touches on implementation details like GUI auto-launch, relating to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section discusses custom hooks and build scripts, indicating project structure, and also touches on implementation details like GUI auto-launch, relating to coding style.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "PyInstaller Integration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses directory structure (_pyinstaller/) and build processes, which relate to both project organization and workflow.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses directory structure (_pyinstaller/) and build processes, which relate to both project organization and workflow.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "PyInstaller Integration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of custom hooks and build scripts, which relates to project structure, and also discusses the GUI auto-launch behavior, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of custom hooks and build scripts, which relates to project structure, and also discusses the GUI auto-launch behavior, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "MCP Server",
+      "level": 3,
+      "char_count": 220,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "MCP Server",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the architecture of the MCP Server component and its placement within the project, outlining its tools, functionality, and execution method.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the architecture of the MCP Server component and its placement within the project, outlining its tools, functionality, and execution method.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "MCP Server",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Describes a module's functionality and dependencies (architecture) and how to run it within the project (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes a module's functionality and dependencies (architecture) and how to run it within the project (project_structure).\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "MCP Server",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the role and functionality of the MCP Server, its supported transports, and how to run it, which falls under architecture and project structure categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the role and functionality of the MCP Server, its supported transports, and how to run it, which falls under architecture and project structure categories.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 258,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides a high-level description of the project's purpose and functionality, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides a high-level description of the project's purpose and functionality, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project, which aligns with project structure as it outlines the project's purpose and key components.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project, which aligns with project structure as it outlines the project's purpose and key components.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides an overview of the project's functionality and interfaces, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section provides an overview of the project's functionality and interfaces, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Components",
+      "level": 3,
+      "char_count": 600,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Key Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the key components of the project, including their locations in the directory structure and their roles, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the key components of the project, including their locations in the directory structure and their roles, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Key Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Lists key components with their locations (project_structure) and describes their roles and dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Lists key components with their locations (project_structure) and describes their roles and dependencies (architecture).\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Key Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the key components of the project, which includes directory layout and module descriptions, as well as the roles and dependencies of these components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the key components of the project, which includes directory layout and module descriptions, as well as the roles and dependencies of these components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture",
+      "level": 3,
+      "char_count": 369,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the modular design and component boundaries of the application, which is a key aspect of the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the modular design and component boundaries of the application, which is a key aspect of the architecture category.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explicitly describes the modular design and roles of different layers in the application, which is a direct characteristic of the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes the modular design and roles of different layers in the application, which is a direct characteristic of the architecture category.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the application's modular design, including its layers and their roles, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the application's modular design, including its layers and their roles, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Commands",
+      "level": 2,
+      "char_count": 32,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section provides information about the virtual environment, which relates to project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section provides information about the virtual environment, which relates to project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a virtual environment usage, which relates to coding and development environment style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a virtual environment usage, which relates to coding and development environment style.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides instructions on using a virtual environment, which falls under coding_style, and also outlines a development command, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides instructions on using a virtual environment, which falls under coding_style, and also outlines a development command, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Install in development mode with all dependencies",
+      "level": 1,
+      "char_count": 27,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Install in development mode with all dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the development workflow, specifically installing dependencies in development mode.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the development workflow, specifically installing dependencies in development mode.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Install in development mode with all dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for installing the project in development mode, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for installing the project in development mode, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Install in development mode with all dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command for installing the project in development mode with all dependencies, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a command for installing the project in development mode with all dependencies, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Or install from requirements",
+      "level": 1,
+      "char_count": 35,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Or install from requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes how to install project dependencies, which relates to the project's structure and setup.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes how to install project dependencies, which relates to the project's structure and setup.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Or install from requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides installation instructions via a project file (requirements.txt), which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides installation instructions via a project file (requirements.txt), which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Or install from requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes how to install project dependencies, which is related to the project's structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes how to install project dependencies, which is related to the project's structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run specific test",
+      "level": 1,
+      "char_count": 71,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Run specific test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run a specific test, which falls under testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run a specific test, which falls under testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Run specific test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command to run a specific test, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command to run a specific test, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Run specific test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running a specific test, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running a specific test, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build PyInstaller executables",
+      "level": 1,
+      "char_count": 65,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Build PyInstaller executables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of building executables, which falls under workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of building executables, which falls under workflow and development procedures.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Build PyInstaller executables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific build scripts for different operating systems, which relates to the workflow and build process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific build scripts for different operating systems, which relates to the workflow and build process of the project.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Build PyInstaller executables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions for building executables, which involves coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions for building executables, which involves coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CLI mode",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLI mode",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to use the tool from the command line, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to use the tool from the command line, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLI mode",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command-line interface (CLI) usage, which relates to workflow process as it outlines how to execute a specific task within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command-line interface (CLI) usage, which relates to workflow process as it outlines how to execute a specific task within the project.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "CLI mode",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command line interface (CLI) usage example, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a command line interface (CLI) usage example, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "GUI mode",
+      "level": 1,
+      "char_count": 36,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "GUI mode",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes a specific mode of operation for the AI agent, namely GUI mode, which falls under agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes a specific mode of operation for the AI agent, namely GUI mode, which falls under agent rules.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "GUI mode",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to run the application in GUI mode, which relates to workflow or how the project is executed.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to run the application in GUI mode, which relates to workflow or how the project is executed.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "GUI mode",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command line instruction for running the GUI mode, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command line instruction for running the GUI mode, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "or",
+      "level": 1,
+      "char_count": 26,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "or",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [],
+          "reasoning": "The section contains only a heading with no descriptive content, appearing to be a title or separator rather than a section with meaningful instructions or information.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section contains only a heading with no descriptive content, appearing to be a title or separator rather than a section with meaningful instructions or information.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "or",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section appears to highlight a key component (GUI) of the project, implying its placement or existence within the project's structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section appears to highlight a key component (GUI) of the project, implying its placement or existence within the project's structure.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "or",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a component of the project, which falls under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a component of the project, which falls under project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "From source",
+      "level": 1,
+      "char_count": 45,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "From source",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides a code snippet with a command to launch a GUI, indicating a focus on coding style and execution.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides a code snippet with a command to launch a GUI, indicating a focus on coding style and execution.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "From source",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to launch the application, which relates to workflow or execution process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to launch the application, which relates to workflow or execution process.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "From source",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a code snippet demonstrating the command to launch the GUI, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a code snippet demonstrating the command to launch the GUI, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration",
+      "level": 2,
+      "char_count": 214,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the configuration file's location and setup, which relates to project structure, and also touches on the workflow process by mentioning the GUI editing interface and requirements for Telegram API credentials.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the configuration file's location and setup, which relates to project structure, and also touches on the workflow process by mentioning the GUI editing interface and requirements for Telegram API credentials.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section primarily discusses the location and handling of configuration files, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section primarily discusses the location and handling of configuration files, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of the configuration file and the format of the configuration, which falls under project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location of the configuration file and the format of the configuration, which falls under project structure and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Message Processing",
+      "level": 3,
+      "char_count": 246,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Message Processing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the module's role in message processing and its dependencies, as well as its workflow and output formats.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section describes the module's role in message processing and its dependencies, as well as its workflow and output formats.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Message Processing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the functional components and data handling of the message processing system, indicating module roles and design choices.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the functional components and data handling of the message processing system, indicating module roles and design choices.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Message Processing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the design and functionality of the message processing component, as well as the coding style for downloading messages via Telethon's iter_messages() function.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the design and functionality of the message processing component, as well as the coding style for downloading messages via Telethon's iter_messages() function.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Authentication",
+      "level": 3,
+      "char_count": 123,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Authentication",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the authentication mechanism and its implementation, which relates to the system's architecture and also involves AI-specific directives for handling authentication flows.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the authentication mechanism and its implementation, which relates to the system's architecture and also involves AI-specific directives for handling authentication flows.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Authentication",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the system's authentication mechanism, which relates to the overall design and component interactions (GUI, CLI, Telethon), falling under architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the system's authentication mechanism, which relates to the overall design and component interactions (GUI, CLI, Telethon), falling under architecture.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Authentication",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the use of Telethon sessions for persistent login, indicating project structure and architecture decisions",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the use of Telethon sessions for persistent login, indicating project structure and architecture decisions\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Filtering & Splitting",
+      "level": 3,
+      "char_count": 293,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Filtering & Splitting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes command-line flags for filtering and splitting data, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes command-line flags for filtering and splitting data, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Filtering & Splitting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes functional parameters for data extraction and filtering, which relates to the design and component behavior of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes functional parameters for data extraction and filtering, which relates to the design and component behavior of the system.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "Filtering & Splitting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes command line arguments for a program, which relates to coding style, and also outlines the functionality of different components, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes command line arguments for a program, which relates to coding style, and also outlines the functionality of different components, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "PyInstaller Integration",
+      "level": 3,
+      "char_count": 126,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "PyInstaller Integration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses custom hooks and build scripts, indicating project structure, and also touches on implementation details like GUI auto-launch, relating to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section discusses custom hooks and build scripts, indicating project structure, and also touches on implementation details like GUI auto-launch, relating to coding style.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "PyInstaller Integration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses directory structure (_pyinstaller/) and build processes, which relate to both project organization and workflow.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses directory structure (_pyinstaller/) and build processes, which relate to both project organization and workflow.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "PyInstaller Integration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of custom hooks and build scripts, which relates to project structure, and also discusses the GUI auto-launch behavior, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of custom hooks and build scripts, which relates to project structure, and also discusses the GUI auto-launch behavior, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "MCP Server",
+      "level": 3,
+      "char_count": 220,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "MCP Server",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the architecture of the MCP Server component and its placement within the project, outlining its tools, functionality, and execution method.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the architecture of the MCP Server component and its placement within the project, outlining its tools, functionality, and execution method.\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "MCP Server",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Describes a module's functionality and dependencies (architecture) and how to run it within the project (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes a module's functionality and dependencies (architecture) and how to run it within the project (project_structure).\"}"
+        },
+        {
+          "repo": "popstas/telegram-download-chat",
+          "section_heading": "MCP Server",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the role and functionality of the MCP Server, its supported transports, and how to run it, which falls under architecture and project structure categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the role and functionality of the MCP Server, its supported transports, and how to run it, which falls under architecture and project structure categories.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.10526315789473684,
+    "project_structure": 0.3684210526315789,
+    "workflow_process": 0.2631578947368421,
+    "architecture": 0.3684210526315789,
+    "evolution_context": 0.0,
+    "agent_rules": 0.05263157894736842
+  },
+  "category_char_fraction": {
+    "coding_style": 0.02628883578012974,
+    "project_structure": 0.504950495049505,
+    "workflow_process": 0.08193922840559918,
+    "architecture": 0.7200409696142028,
+    "evolution_context": 0.0,
+    "agent_rules": 0.03482417207237965
+  }
+}

@@ -1,0 +1,702 @@
+{
+  "repo": "byteowlz__eaRS",
+  "full_name": "byteowlz/eaRS",
+  "n_sections": 8,
+  "n_chars": 3194,
+  "sections": [
+    {
+      "heading": "Issue Tracking with trx",
+      "level": 2,
+      "char_count": 130,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Tracking with trx",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes a project rule related to issue tracking, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes a project rule related to issue tracking, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Tracking with trx",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section dictates a specific tool and methodology for issue tracking, which is a workflow process directive.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section dictates a specific tool and methodology for issue tracking, which is a workflow process directive.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Tracking with trx",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific workflow process for issue tracking using the trx tool.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific workflow process for issue tracking using the trx tool.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Why trx?",
+      "level": 3,
+      "char_count": 266,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Why trx?",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section explains the design choices and features of the trx system, which relates to architecture, and also mentions agent-optimized features, which pertains to agent_rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section explains the design choices and features of the trx system, which relates to architecture, and also mentions agent-optimized features, which pertains to agent_rules.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Why trx?",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Explains the rationale for a specific technical choice (architecture) and mentions a directory (.trx/) implication (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Explains the rationale for a specific technical choice (architecture) and mentions a directory (.trx/) implication (project_structure).\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Why trx?",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the choice of a tool (trx) for managing dependencies and relationships between issues, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the choice of a tool (trx) for managing dependencies and relationships between issues, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quick Start",
+      "level": 3,
+      "char_count": 604,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Quick Start",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides command-line instructions for managing issues and dependencies, which is related to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides command-line instructions for managing issues and dependencies, which is related to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Quick Start",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and workflows for managing issues, dependencies, and task statuses, which directly relates to the team's workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and workflows for managing issues, dependencies, and task statuses, which directly relates to the team's workflow and process.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Quick Start",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on how to manage tasks and dependencies, which aligns with workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions on how to manage tasks and dependencies, which aligns with workflow and process guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Issue Types",
+      "level": 3,
+      "char_count": 193,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section defines the types of issues used in the project's workflow, which is related to the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section defines the types of issues used in the project's workflow, which is related to the workflow process category.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Defines categorization of work items (issues) which influences project management and task handling.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Defines categorization of work items (issues) which influences project management and task handling.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes different types of issues, which are part of the workflow process for managing tasks and development activities.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes different types of issues, which are part of the workflow process for managing tasks and development activities.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Priorities",
+      "level": 3,
+      "char_count": 204,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Priorities",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines priority levels for issues or tasks, which is related to workflow and project management processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines priority levels for issues or tasks, which is related to workflow and project management processes.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Priorities",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines priority levels for tasks, which guides the workflow and task management process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines priority levels for tasks, which guides the workflow and task management process.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Priorities",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines priority levels for workflow processes such as bug fixing and feature development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines priority levels for workflow processes such as bug fixing and feature development.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workflow for AI Agents",
+      "level": 3,
+      "char_count": 491,
+      "voted_categories": [
+        "workflow_process",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Workflow for AI Agents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines the step-by-step workflow for AI agents, including specific commands and guidelines, which primarily relates to workflow_process and also includes agent_rules due to its focus on AI agent tasks.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section outlines the step-by-step workflow for AI agents, including specific commands and guidelines, which primarily relates to workflow_process and also includes agent_rules due to its focus on AI agent tasks.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Workflow for AI Agents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines a step-by-step workflow process for AI agents to manage tasks, incorporating specific tool commands (`trx`), which also implies agent-specific directives.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines a step-by-step workflow process for AI agents to manage tasks, incorporating specific tool commands (`trx`), which also implies agent-specific directives.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Workflow for AI Agents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the step-by-step process for AI agents to follow when working on tasks, including issue management, task claiming, implementation, and completion.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the step-by-step process for AI agents to follow when working on tasks, including issue management, task claiming, implementation, and completion.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Managing AI-Generated Planning Documents",
+      "level": 3,
+      "char_count": 635,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Managing AI-Generated Planning Documents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses the organization of AI-generated files within a project, suggesting a dedicated directory and providing guidance on repository management, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses the organization of AI-generated files within a project, suggesting a dedicated directory and providing guidance on repository management, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Managing AI-Generated Planning Documents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on organizing and storing AI-generated documents within the project directory, emphasizing repository cleanliness and file placement.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on organizing and storing AI-generated documents within the project directory, emphasizing repository cleanliness and file placement.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Managing AI-Generated Planning Documents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses the project structure by suggesting a dedicated directory for AI-generated planning documents and provides a workflow process recommendation for managing these files.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses the project structure by suggesting a dedicated directory for AI-generated planning documents and provides a workflow process recommendation for managing these files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important Rules",
+      "level": 3,
+      "char_count": 421,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Important Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section outlines rules for task tracking, issue management, and repository organization, which primarily relates to workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section outlines rules for task tracking, issue management, and repository organization, which primarily relates to workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Important Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines task tracking rules (workflow_process) and specifies directory usage for planning docs (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines task tracking rules (workflow_process) and specifies directory usage for planning docs (project_structure).\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Important Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific workflow processes and project structure guidelines for task tracking and document organization.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific workflow processes and project structure guidelines for task tracking and document organization.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Issue Tracking with trx",
+      "level": 2,
+      "char_count": 130,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Tracking with trx",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes a project rule related to issue tracking, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes a project rule related to issue tracking, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Tracking with trx",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section dictates a specific tool and methodology for issue tracking, which is a workflow process directive.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section dictates a specific tool and methodology for issue tracking, which is a workflow process directive.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Tracking with trx",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific workflow process for issue tracking using the trx tool.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific workflow process for issue tracking using the trx tool.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Why trx?",
+      "level": 3,
+      "char_count": 266,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Why trx?",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section explains the design choices and features of the trx system, which relates to architecture, and also mentions agent-optimized features, which pertains to agent_rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section explains the design choices and features of the trx system, which relates to architecture, and also mentions agent-optimized features, which pertains to agent_rules.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Why trx?",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Explains the rationale for a specific technical choice (architecture) and mentions a directory (.trx/) implication (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Explains the rationale for a specific technical choice (architecture) and mentions a directory (.trx/) implication (project_structure).\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Why trx?",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the choice of a tool (trx) for managing dependencies and relationships between issues, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the choice of a tool (trx) for managing dependencies and relationships between issues, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quick Start",
+      "level": 3,
+      "char_count": 604,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Quick Start",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides command-line instructions for managing issues and dependencies, which is related to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides command-line instructions for managing issues and dependencies, which is related to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Quick Start",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and workflows for managing issues, dependencies, and task statuses, which directly relates to the team's workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and workflows for managing issues, dependencies, and task statuses, which directly relates to the team's workflow and process.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Quick Start",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on how to manage tasks and dependencies, which aligns with workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions on how to manage tasks and dependencies, which aligns with workflow and process guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Issue Types",
+      "level": 3,
+      "char_count": 193,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section defines the types of issues used in the project's workflow, which is related to the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section defines the types of issues used in the project's workflow, which is related to the workflow process category.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Defines categorization of work items (issues) which influences project management and task handling.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Defines categorization of work items (issues) which influences project management and task handling.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Issue Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes different types of issues, which are part of the workflow process for managing tasks and development activities.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes different types of issues, which are part of the workflow process for managing tasks and development activities.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Priorities",
+      "level": 3,
+      "char_count": 204,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Priorities",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines priority levels for issues or tasks, which is related to workflow and project management processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines priority levels for issues or tasks, which is related to workflow and project management processes.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Priorities",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines priority levels for tasks, which guides the workflow and task management process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines priority levels for tasks, which guides the workflow and task management process.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Priorities",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines priority levels for workflow processes such as bug fixing and feature development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines priority levels for workflow processes such as bug fixing and feature development.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workflow for AI Agents",
+      "level": 3,
+      "char_count": 491,
+      "voted_categories": [
+        "workflow_process",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Workflow for AI Agents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines the step-by-step workflow for AI agents, including specific commands and guidelines, which primarily relates to workflow_process and also includes agent_rules due to its focus on AI agent tasks.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section outlines the step-by-step workflow for AI agents, including specific commands and guidelines, which primarily relates to workflow_process and also includes agent_rules due to its focus on AI agent tasks.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Workflow for AI Agents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines a step-by-step workflow process for AI agents to manage tasks, incorporating specific tool commands (`trx`), which also implies agent-specific directives.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines a step-by-step workflow process for AI agents to manage tasks, incorporating specific tool commands (`trx`), which also implies agent-specific directives.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Workflow for AI Agents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the step-by-step process for AI agents to follow when working on tasks, including issue management, task claiming, implementation, and completion.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the step-by-step process for AI agents to follow when working on tasks, including issue management, task claiming, implementation, and completion.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Managing AI-Generated Planning Documents",
+      "level": 3,
+      "char_count": 635,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Managing AI-Generated Planning Documents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses the organization of AI-generated files within a project, suggesting a dedicated directory and providing guidance on repository management, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses the organization of AI-generated files within a project, suggesting a dedicated directory and providing guidance on repository management, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Managing AI-Generated Planning Documents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on organizing and storing AI-generated documents within the project directory, emphasizing repository cleanliness and file placement.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on organizing and storing AI-generated documents within the project directory, emphasizing repository cleanliness and file placement.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Managing AI-Generated Planning Documents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses the project structure by suggesting a dedicated directory for AI-generated planning documents and provides a workflow process recommendation for managing these files.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses the project structure by suggesting a dedicated directory for AI-generated planning documents and provides a workflow process recommendation for managing these files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important Rules",
+      "level": 3,
+      "char_count": 421,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Important Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section outlines rules for task tracking, issue management, and repository organization, which primarily relates to workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section outlines rules for task tracking, issue management, and repository organization, which primarily relates to workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Important Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines task tracking rules (workflow_process) and specifies directory usage for planning docs (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines task tracking rules (workflow_process) and specifies directory usage for planning docs (project_structure).\"}"
+        },
+        {
+          "repo": "byteowlz/eaRS",
+          "section_heading": "Important Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific workflow processes and project structure guidelines for task tracking and document organization.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific workflow processes and project structure guidelines for task tracking and document organization.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": false,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.375,
+    "workflow_process": 0.875,
+    "architecture": 0.125,
+    "evolution_context": 0.0,
+    "agent_rules": 0.125
+  },
+  "category_char_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.44904891304347827,
+    "workflow_process": 0.9096467391304348,
+    "architecture": 0.09035326086956522,
+    "evolution_context": 0.0,
+    "agent_rules": 0.16677989130434784
+  }
+}

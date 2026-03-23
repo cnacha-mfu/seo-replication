@@ -1,0 +1,1662 @@
+{
+  "repo": "dermatologist__fhiry",
+  "full_name": "dermatologist/fhiry",
+  "n_sections": 19,
+  "n_chars": 5710,
+  "sections": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 297,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides a high-level description of the project's purpose and functionality, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides a high-level description of the project's purpose and functionality, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project's purpose and functionality, which relates to understanding where the project stands in terms of its overall structure and goals.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project's purpose and functionality, which relates to understanding where the project stands in terms of its overall structure and goals.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and functionality of the FHIRy project, which relates to its structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the purpose and functionality of the FHIRy project, which relates to its structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Environment Setup",
+      "level": 2,
+      "char_count": 266,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Development Environment Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the development environment setup, including Python version and package manager, which relates to both project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the development environment setup, including Python version and package manager, which relates to both project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Development Environment Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on setting up the environment for the project, which relates to how the project is structured and prepared for development.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on setting up the environment for the project, which relates to how the project is structured and prepared for development.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Development Environment Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses Python version requirements and dependency management, which falls under coding_style, and also mentions the use of a specific package manager, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses Python version requirements and dependency management, which falls under coding_style, and also mentions the use of a specific package manager, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 582,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Python Style",
+      "level": 3,
+      "char_count": 322,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Python Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on Python formatting and style conventions, such as formatter, line length, type hints, and docstrings, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on Python formatting and style conventions, such as formatter, line length, type hints, and docstrings, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Python Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific Python formatting and style rules, which directly relate to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific Python formatting and style rules, which directly relate to coding style guidelines.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Python Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding style guidelines, including formatter, line length, type hints, docstrings, and import organization.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding style guidelines, including formatter, line length, type hints, docstrings, and import organization.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type Checking",
+      "level": 3,
+      "char_count": 221,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Type Checking",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on rules for type hints and annotations, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on rules for type hints and annotations, which is a coding style convention.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Type Checking",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on type hinting and annotation rules, which pertain to code style and formatting conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on type hinting and annotation rules, which pertain to code style and formatting conventions.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Type Checking",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for type checking, which is a coding style concern.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for type checking, which is a coding style concern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Framework",
+      "level": 3,
+      "char_count": 214,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Framework",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the test framework and its location, which relates to project structure, and also touches on testing requirements, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the test framework and its location, which relates to project structure, and also touches on testing requirements, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Framework",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing framework, location, and resources, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing framework, location, and resources, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Framework",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the test framework used in the project, its coverage, and the location of tests, which are workflow processes and project structure details.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the test framework used in the project, its coverage, and the location of tests, which are workflow processes and project structure details.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Tests",
+      "level": 3,
+      "char_count": 216,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Running Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing requirements and commands, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing requirements and commands, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Running Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides commands for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides commands for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Running Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on running tests, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions on running tests, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Conventions",
+      "level": 3,
+      "char_count": 162,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes naming conventions and formatting for test files and functions, which falls under coding_style, and also touches on testing requirements, which relates to workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily describes naming conventions and formatting for test files and functions, which falls under coding_style, and also touches on testing requirements, which relates to workflow_process.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section covers naming conventions (coding_style) and testing requirements (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section covers naming conventions (coding_style) and testing requirements (workflow_process).\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides naming conventions for test files and functions, and also outlines a workflow process for maintaining high test coverage.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides naming conventions for test files and functions, and also outlines a workflow process for maintaining high test coverage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "FHIR Resources",
+      "level": 3,
+      "char_count": 229,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "FHIR Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key components and data formats used in the project, indicating its focus on architectural design and module roles.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key components and data formats used in the project, indicating its focus on architectural design and module roles.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "FHIR Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes key components and data formats (FHIR Resources, Bundles, NDJSON) central to the system's design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes key components and data formats (FHIR Resources, Bundles, NDJSON) central to the system's design.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "FHIR Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure of the project by explaining the use of FHIR resources and bundles, and also provides architectural information by mentioning the use of NDJSON format for bulk data export.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure of the project by explaining the use of FHIR resources and bundles, and also provides architectural information by mentioning the use of NDJSON format for bulk data export.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key FHIR Concepts",
+      "level": 3,
+      "char_count": 274,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key FHIR Concepts",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section explains key concepts and structures of FHIR, which relates to the overall design and architecture of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section explains key concepts and structures of FHIR, which relates to the overall design and architecture of the system.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key FHIR Concepts",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explains core architectural elements of the project, specifically how FHIR concepts are integrated and processed.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explains core architectural elements of the project, specifically how FHIR concepts are integrated and processed.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key FHIR Concepts",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure and types of resources in FHIR, which relates to the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the structure and types of resources in FHIR, which relates to the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Data Processing",
+      "level": 3,
+      "char_count": 259,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Data Processing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes data processing steps and handling of specific data formats, which relates to architecture, and also implies a workflow or process for managing data, fitting into workflow_process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section describes data processing steps and handling of specific data formats, which relates to architecture, and also implies a workflow or process for managing data, fitting into workflow_process.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Data Processing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific data transformation and handling logic, indicating design decisions on how the system processes data, which relates to architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines specific data transformation and handling logic, indicating design decisions on how the system processes data, which relates to architectural design.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Data Processing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes data processing methods, which can be considered as coding style, and also outlines the architecture for handling FHIR structures and references between resources.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes data processing methods, which can be considered as coding style, and also outlines the architecture for handling FHIR structures and references between resources.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Dependencies",
+      "level": 3,
+      "char_count": 347,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Core Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists core dependencies, which relates to project structure by identifying key components, and also touches on architecture by implying module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section lists core dependencies, which relates to project structure by identifying key components, and also touches on architecture by implying module roles and dependencies.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Core Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key dependencies (project_structure) with brief descriptions implying their roles in the system (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key dependencies (project_structure) with brief descriptions implying their roles in the system (architecture).\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Core Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section lists core dependencies, which is part of project structure, and also implies coding style by specifying the libraries used for specific tasks.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section lists core dependencies, which is part of project structure, and also implies coding style by specifying the libraries used for specific tasks.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Optional Dependencies",
+      "level": 3,
+      "char_count": 64,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Optional Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes optional dependencies, which relates to project structure and also implies architectural considerations about module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes optional dependencies, which relates to project structure and also implies architectural considerations about module roles and dependencies.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Optional Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists optional dependencies, which relates to how the project is structured in terms of external libraries and modules.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists optional dependencies, which relates to how the project is structured in terms of external libraries and modules.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Optional Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes optional dependencies, which relates to project structure, and also mentions specific libraries, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes optional dependencies, which relates to project structure, and also mentions specific libraries, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding Dependencies",
+      "level": 3,
+      "char_count": 137,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses managing project dependencies, which relates to project structure, and also touches on code style tools like deptry, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section discusses managing project dependencies, which relates to project structure, and also touches on code style tools like deptry, which falls under coding style.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes modifying project dependencies (project_structure) and the process to update and check them (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes modifying project dependencies (project_structure) and the process to update and check them (workflow_process).\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on how to add dependencies, which involves modifying the project structure and following a specific coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on how to add dependencies, which involves modifying the project structure and following a specific coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New FHIR Resource Processor",
+      "level": 3,
+      "char_count": 250,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding a New FHIR Resource Processor",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines steps for adding new functionality, which relates to workflow process, and also mentions following existing patterns and adding type hints, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section outlines steps for adding new functionality, which relates to workflow process, and also mentions following existing patterns and adding type hints, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding a New FHIR Resource Processor",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section combines guidelines o",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section combines guidelines on coding practices (type hints, following patterns) with workflow steps (writing tests, updating documentation).\""
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding a New FHIR Resource Processor",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines (type hints), architecture instructions (module placement, resource flattening), and workflow process details (writing tests, updating documentation).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines (type hints), architecture instructions (module placement, resource flattening), and workflow process details (writing tests, updating documentation).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Modifying DataFrame Output",
+      "level": 3,
+      "char_count": 170,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Modifying DataFrame Output",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses modifying code and testing, which relates to workflow_process, and also mentions specific file locations, which pertains to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses modifying code and testing, which relates to workflow_process, and also mentions specific file locations, which pertains to project_structure.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Modifying DataFrame Output",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing and verification steps for code changes, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing and verification steps for code changes, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Modifying DataFrame Output",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on where to make code changes (coding_style) and suggests testing with various resource types (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on where to make code changes (coding_style) and suggests testing with various resource types (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding CLI Commands",
+      "level": 3,
+      "char_count": 109,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding CLI Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section belongs to coding_style due to the mention of specific code implementation details and to project_structure because it references specific file locations within the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section belongs to coding_style due to the mention of specific code implementation details and to project_structure because it references specific file locations within the project.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding CLI Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section pertains to coding practices (Click decorators, file locations) and testing workflow (adding tests), with both aspects being equally dominant.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section pertains to coding practices (Click decorators, file locations) and testing workflow (adding tests), with both aspects being equally dominant.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding CLI Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines, specifies project structure, and outlines workflow processes for adding CLI commands.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines, specifies project structure, and outlines workflow processes for adding CLI commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Files to Check Before Changes",
+      "level": 2,
+      "char_count": 278,
+      "voted_categories": [
+        "project_structure",
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key Files to Check Before Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes key files in the project, including those related to dependencies, formatting, and contribution guidelines, which span multiple categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes key files in the project, including those related to dependencies, formatting, and contribution guidelines, which span multiple categories.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key Files to Check Before Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "Lists key project files related to structure (project_structure), development workflow (workflow_process), and code quality (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"Lists key project files related to structure (project_structure), development workflow (workflow_process), and code quality (coding_style).\" }"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key Files to Check Before Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes key files in the project structure, coding style tools, and workflow processes such as build and test commands.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes key files in the project structure, coding style tools, and workflow processes such as build and test commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tips for AI Coding Agents",
+      "level": 2,
+      "char_count": 629,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Tips for AI Coding Agents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section provides guidelines for coding practices, testing, and maintaining the codebase, which relates to coding style, workflow process, and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section provides guidelines for coding practices, testing, and maintaining the codebase, which relates to coding style, workflow process, and architecture.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Tips for AI Coding Agents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section combines guidelines on development workflow (testing, branching, dependencies) with coding practices (type hints, patterns, documentation).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section combines guidelines on development workflow (testing, branching, dependencies) with coding practices (type hints, patterns, documentation).\" }"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Tips for AI Coding Agents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines, workflow processes, and architectural considerations for AI coding agents.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines, workflow processes, and architectural considerations for AI coding agents.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 297,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides a high-level description of the project's purpose and functionality, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides a high-level description of the project's purpose and functionality, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project's purpose and functionality, which relates to understanding where the project stands in terms of its overall structure and goals.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project's purpose and functionality, which relates to understanding where the project stands in terms of its overall structure and goals.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and functionality of the FHIRy project, which relates to its structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the purpose and functionality of the FHIRy project, which relates to its structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Environment Setup",
+      "level": 2,
+      "char_count": 266,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Development Environment Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the development environment setup, including Python version and package manager, which relates to both project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the development environment setup, including Python version and package manager, which relates to both project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Development Environment Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on setting up the environment for the project, which relates to how the project is structured and prepared for development.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on setting up the environment for the project, which relates to how the project is structured and prepared for development.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Development Environment Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses Python version requirements and dependency management, which falls under coding_style, and also mentions the use of a specific package manager, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses Python version requirements and dependency management, which falls under coding_style, and also mentions the use of a specific package manager, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 582,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Python Style",
+      "level": 3,
+      "char_count": 322,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Python Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on Python formatting and style conventions, such as formatter, line length, type hints, and docstrings, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on Python formatting and style conventions, such as formatter, line length, type hints, and docstrings, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Python Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific Python formatting and style rules, which directly relate to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific Python formatting and style rules, which directly relate to coding style guidelines.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Python Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding style guidelines, including formatter, line length, type hints, docstrings, and import organization.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding style guidelines, including formatter, line length, type hints, docstrings, and import organization.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type Checking",
+      "level": 3,
+      "char_count": 221,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Type Checking",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on rules for type hints and annotations, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on rules for type hints and annotations, which is a coding style convention.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Type Checking",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on type hinting and annotation rules, which pertain to code style and formatting conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on type hinting and annotation rules, which pertain to code style and formatting conventions.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Type Checking",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for type checking, which is a coding style concern.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for type checking, which is a coding style concern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Framework",
+      "level": 3,
+      "char_count": 214,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Framework",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the test framework and its location, which relates to project structure, and also touches on testing requirements, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the test framework and its location, which relates to project structure, and also touches on testing requirements, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Framework",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing framework, location, and resources, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing framework, location, and resources, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Framework",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the test framework used in the project, its coverage, and the location of tests, which are workflow processes and project structure details.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the test framework used in the project, its coverage, and the location of tests, which are workflow processes and project structure details.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Tests",
+      "level": 3,
+      "char_count": 216,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Running Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing requirements and commands, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing requirements and commands, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Running Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides commands for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides commands for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Running Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on running tests, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions on running tests, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Conventions",
+      "level": 3,
+      "char_count": 162,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes naming conventions and formatting for test files and functions, which falls under coding_style, and also touches on testing requirements, which relates to workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily describes naming conventions and formatting for test files and functions, which falls under coding_style, and also touches on testing requirements, which relates to workflow_process.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section covers naming conventions (coding_style) and testing requirements (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section covers naming conventions (coding_style) and testing requirements (workflow_process).\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Test Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides naming conventions for test files and functions, and also outlines a workflow process for maintaining high test coverage.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides naming conventions for test files and functions, and also outlines a workflow process for maintaining high test coverage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "FHIR Resources",
+      "level": 3,
+      "char_count": 229,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "FHIR Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key components and data formats used in the project, indicating its focus on architectural design and module roles.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key components and data formats used in the project, indicating its focus on architectural design and module roles.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "FHIR Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes key components and data formats (FHIR Resources, Bundles, NDJSON) central to the system's design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes key components and data formats (FHIR Resources, Bundles, NDJSON) central to the system's design.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "FHIR Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure of the project by explaining the use of FHIR resources and bundles, and also provides architectural information by mentioning the use of NDJSON format for bulk data export.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure of the project by explaining the use of FHIR resources and bundles, and also provides architectural information by mentioning the use of NDJSON format for bulk data export.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key FHIR Concepts",
+      "level": 3,
+      "char_count": 274,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key FHIR Concepts",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section explains key concepts and structures of FHIR, which relates to the overall design and architecture of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section explains key concepts and structures of FHIR, which relates to the overall design and architecture of the system.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key FHIR Concepts",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explains core architectural elements of the project, specifically how FHIR concepts are integrated and processed.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explains core architectural elements of the project, specifically how FHIR concepts are integrated and processed.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key FHIR Concepts",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure and types of resources in FHIR, which relates to the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the structure and types of resources in FHIR, which relates to the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Data Processing",
+      "level": 3,
+      "char_count": 259,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Data Processing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes data processing steps and handling of specific data formats, which relates to architecture, and also implies a workflow or process for managing data, fitting into workflow_process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section describes data processing steps and handling of specific data formats, which relates to architecture, and also implies a workflow or process for managing data, fitting into workflow_process.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Data Processing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific data transformation and handling logic, indicating design decisions on how the system processes data, which relates to architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines specific data transformation and handling logic, indicating design decisions on how the system processes data, which relates to architectural design.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Data Processing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes data processing methods, which can be considered as coding style, and also outlines the architecture for handling FHIR structures and references between resources.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes data processing methods, which can be considered as coding style, and also outlines the architecture for handling FHIR structures and references between resources.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Dependencies",
+      "level": 3,
+      "char_count": 347,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Core Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists core dependencies, which relates to project structure by identifying key components, and also touches on architecture by implying module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section lists core dependencies, which relates to project structure by identifying key components, and also touches on architecture by implying module roles and dependencies.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Core Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key dependencies (project_structure) with brief descriptions implying their roles in the system (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key dependencies (project_structure) with brief descriptions implying their roles in the system (architecture).\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Core Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section lists core dependencies, which is part of project structure, and also implies coding style by specifying the libraries used for specific tasks.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section lists core dependencies, which is part of project structure, and also implies coding style by specifying the libraries used for specific tasks.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Optional Dependencies",
+      "level": 3,
+      "char_count": 64,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Optional Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes optional dependencies, which relates to project structure and also implies architectural considerations about module roles and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes optional dependencies, which relates to project structure and also implies architectural considerations about module roles and dependencies.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Optional Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists optional dependencies, which relates to how the project is structured in terms of external libraries and modules.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists optional dependencies, which relates to how the project is structured in terms of external libraries and modules.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Optional Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes optional dependencies, which relates to project structure, and also mentions specific libraries, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes optional dependencies, which relates to project structure, and also mentions specific libraries, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding Dependencies",
+      "level": 3,
+      "char_count": 137,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses managing project dependencies, which relates to project structure, and also touches on code style tools like deptry, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section discusses managing project dependencies, which relates to project structure, and also touches on code style tools like deptry, which falls under coding style.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes modifying project dependencies (project_structure) and the process to update and check them (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes modifying project dependencies (project_structure) and the process to update and check them (workflow_process).\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on how to add dependencies, which involves modifying the project structure and following a specific coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on how to add dependencies, which involves modifying the project structure and following a specific coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New FHIR Resource Processor",
+      "level": 3,
+      "char_count": 250,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding a New FHIR Resource Processor",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines steps for adding new functionality, which relates to workflow process, and also mentions following existing patterns and adding type hints, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section outlines steps for adding new functionality, which relates to workflow process, and also mentions following existing patterns and adding type hints, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding a New FHIR Resource Processor",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section combines guidelines o",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section combines guidelines on coding practices (type hints, following patterns) with workflow steps (writing tests, updating documentation).\""
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding a New FHIR Resource Processor",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines (type hints), architecture instructions (module placement, resource flattening), and workflow process details (writing tests, updating documentation).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines (type hints), architecture instructions (module placement, resource flattening), and workflow process details (writing tests, updating documentation).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Modifying DataFrame Output",
+      "level": 3,
+      "char_count": 170,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Modifying DataFrame Output",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses modifying code and testing, which relates to workflow_process, and also mentions specific file locations, which pertains to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses modifying code and testing, which relates to workflow_process, and also mentions specific file locations, which pertains to project_structure.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Modifying DataFrame Output",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing and verification steps for code changes, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing and verification steps for code changes, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Modifying DataFrame Output",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on where to make code changes (coding_style) and suggests testing with various resource types (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on where to make code changes (coding_style) and suggests testing with various resource types (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding CLI Commands",
+      "level": 3,
+      "char_count": 109,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding CLI Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section belongs to coding_style due to the mention of specific code implementation details and to project_structure because it references specific file locations within the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section belongs to coding_style due to the mention of specific code implementation details and to project_structure because it references specific file locations within the project.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding CLI Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section pertains to coding practices (Click decorators, file locations) and testing workflow (adding tests), with both aspects being equally dominant.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section pertains to coding practices (Click decorators, file locations) and testing workflow (adding tests), with both aspects being equally dominant.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Adding CLI Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines, specifies project structure, and outlines workflow processes for adding CLI commands.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines, specifies project structure, and outlines workflow processes for adding CLI commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Files to Check Before Changes",
+      "level": 2,
+      "char_count": 278,
+      "voted_categories": [
+        "project_structure",
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key Files to Check Before Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes key files in the project, including those related to dependencies, formatting, and contribution guidelines, which span multiple categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes key files in the project, including those related to dependencies, formatting, and contribution guidelines, which span multiple categories.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key Files to Check Before Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "Lists key project files related to structure (project_structure), development workflow (workflow_process), and code quality (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"Lists key project files related to structure (project_structure), development workflow (workflow_process), and code quality (coding_style).\" }"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Key Files to Check Before Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes key files in the project structure, coding style tools, and workflow processes such as build and test commands.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes key files in the project structure, coding style tools, and workflow processes such as build and test commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tips for AI Coding Agents",
+      "level": 2,
+      "char_count": 629,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Tips for AI Coding Agents",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section provides guidelines for coding practices, testing, and maintaining the codebase, which relates to coding style, workflow process, and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"This section provides guidelines for coding practices, testing, and maintaining the codebase, which relates to coding style, workflow process, and architecture.\"}"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Tips for AI Coding Agents",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section combines guidelines on development workflow (testing, branching, dependencies) with coding practices (type hints, patterns, documentation).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section combines guidelines on development workflow (testing, branching, dependencies) with coding practices (type hints, patterns, documentation).\" }"
+        },
+        {
+          "repo": "dermatologist/fhiry",
+          "section_heading": "Tips for AI Coding Agents",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines, workflow processes, and architectural considerations for AI coding agents.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines, workflow processes, and architectural considerations for AI coding agents.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.47368421052631576,
+    "project_structure": 0.47368421052631576,
+    "workflow_process": 0.42105263157894735,
+    "architecture": 0.3157894736842105,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.47234381217668125,
+    "project_structure": 0.4564265817747712,
+    "workflow_process": 0.40350179068842024,
+    "architecture": 0.40489454834858735,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

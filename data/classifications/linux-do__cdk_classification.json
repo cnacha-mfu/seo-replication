@@ -1,0 +1,304 @@
+{
+  "repo": "linux-do__cdk",
+  "full_name": "linux-do/cdk",
+  "n_sections": 3,
+  "n_chars": 756,
+  "sections": [
+    {
+      "heading": "\u57fa\u7840\u89c4\u8303",
+      "level": 2,
+      "char_count": 287,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u57fa\u7840\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily outlines coding conventions and best practices, but also touches on workflow aspects such as considering maintainability and performance when writing code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily outlines coding conventions and best practices, but also touches on workflow aspects such as considering maintainability and performance when writing code.\"}"
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u57fa\u7840\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines coding conventions (coding_style) but also touches on development practices and code review guidelines (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines coding conventions (coding_style) but also touches on development practices and code review guidelines (workflow_process).\"}"
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u57fa\u7840\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines and project-wide standards.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section primarily discusses coding style guidelines and project-wide standards.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u540e\u7aef\u89c4\u8303",
+      "level": 2,
+      "char_count": 284,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u540e\u7aef\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding standards, project layout, and architectural decisions for the backend development of the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section discusses coding standards, project layout, and architectural decisions for the backend development of the project.\"}"
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u540e\u7aef\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section covers Go coding standards (coding_style), backend tech stack and database choice (project_structure), and database design rules (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section covers Go coding standards (coding_style), backend tech stack and database choice (project_structure), and database design rules (architecture).\"}"
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u540e\u7aef\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes coding style guidelines for Go language and database usage, as well as API response format, which falls under coding_style; it also outlines architectural decisions such as the use of MySQL and Redis, and database design constraints, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes coding style guidelines for Go language and database usage, as well as API response format, which falls under coding_style; it also outlines architectural decisions such as the use of MySQL and Redis, and database design constraints, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u524d\u7aef\u89c4\u8303",
+      "level": 2,
+      "char_count": 154,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u524d\u7aef\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding conventions and directory layout for the frontend code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses coding conventions and directory layout for the frontend code.\"}"
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u524d\u7aef\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section covers TypeScript ty",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section covers TypeScript typing rules (coding_style) and component directory organization (project_structure).\""
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u524d\u7aef\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides coding style guidelines for TypeScript and specifies the directory layout for different types of components.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides coding style guidelines for TypeScript and specifies the directory layout for different types of components.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "\u57fa\u7840\u89c4\u8303",
+      "level": 2,
+      "char_count": 287,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u57fa\u7840\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily outlines coding conventions and best practices, but also touches on workflow aspects such as considering maintainability and performance when writing code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily outlines coding conventions and best practices, but also touches on workflow aspects such as considering maintainability and performance when writing code.\"}"
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u57fa\u7840\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines coding conventions (coding_style) but also touches on development practices and code review guidelines (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines coding conventions (coding_style) but also touches on development practices and code review guidelines (workflow_process).\"}"
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u57fa\u7840\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines and project-wide standards.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section primarily discusses coding style guidelines and project-wide standards.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u540e\u7aef\u89c4\u8303",
+      "level": 2,
+      "char_count": 284,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u540e\u7aef\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding standards, project layout, and architectural decisions for the backend development of the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section discusses coding standards, project layout, and architectural decisions for the backend development of the project.\"}"
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u540e\u7aef\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section covers Go coding standards (coding_style), backend tech stack and database choice (project_structure), and database design rules (architecture).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section covers Go coding standards (coding_style), backend tech stack and database choice (project_structure), and database design rules (architecture).\"}"
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u540e\u7aef\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes coding style guidelines for Go language and database usage, as well as API response format, which falls under coding_style; it also outlines architectural decisions such as the use of MySQL and Redis, and database design constraints, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes coding style guidelines for Go language and database usage, as well as API response format, which falls under coding_style; it also outlines architectural decisions such as the use of MySQL and Redis, and database design constraints, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u524d\u7aef\u89c4\u8303",
+      "level": 2,
+      "char_count": 154,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u524d\u7aef\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding conventions and directory layout for the frontend code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses coding conventions and directory layout for the frontend code.\"}"
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u524d\u7aef\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section covers TypeScript ty",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section covers TypeScript typing rules (coding_style) and component directory organization (project_structure).\""
+        },
+        {
+          "repo": "linux-do/cdk",
+          "section_heading": "\u524d\u7aef\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides coding style guidelines for TypeScript and specifies the directory layout for different types of components.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides coding style guidelines for TypeScript and specifies the directory layout for different types of components.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 1.0,
+    "project_structure": 0.6666666666666666,
+    "workflow_process": 0.3333333333333333,
+    "architecture": 0.3333333333333333,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 1.0,
+    "project_structure": 0.6041379310344828,
+    "workflow_process": 0.39586206896551723,
+    "architecture": 0.3917241379310345,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

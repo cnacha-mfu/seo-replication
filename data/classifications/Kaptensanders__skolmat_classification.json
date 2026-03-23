@@ -1,0 +1,876 @@
+{
+  "repo": "Kaptensanders__skolmat",
+  "full_name": "Kaptensanders/skolmat",
+  "n_sections": 10,
+  "n_chars": 2615,
+  "sections": [
+    {
+      "heading": "(preamble)",
+      "level": 0,
+      "char_count": 77,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "(preamble)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "The section serves as an introduction to the repository's guidelines and pointers, indicating its relevance to project structure, and also mentions 'guardrails' which implies rules for the AI agent.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"agent_rules\"], \"reasoning\": \"The section serves as an introduction to the repository's guidelines and pointers, indicating its relevance to project structure, and also mentions 'guardrails' which implies rules for the AI agent.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "(preamble)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the file's purpose as guardrails and pointers for Codex (AI agent) work, directly relating to agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the file's purpose as guardrails and pointers for Codex (AI agent) work, directly relating to agent-specific directives.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "(preamble)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section establishes the purpose of the file as a set of guidelines for AI work in the repository.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section establishes the purpose of the file as a set of guidelines for AI work in the repository.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project overview",
+      "level": 2,
+      "char_count": 87,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes key files and directory layout, which is primarily related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes key files and directory layout, which is primarily related to project structure.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key files and their locations, indicating project directory layout and important documents.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key files and their locations, indicating project directory layout and important documents.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key files and their roles in the project, which aligns with the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key files and their roles in the project, which aligns with the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Ongoing tasks",
+      "level": 2,
+      "char_count": 25,
+      "voted_categories": [
+        "evolution_context",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Ongoing tasks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "The section lists ongoing tasks, which relates to the project's current phase and technical debt.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"The section lists ongoing tasks, which relates to the project's current phase and technical debt.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Ongoing tasks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Lists tasks and TODOs, implying ongoing work tracking, which relates to workflow management.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Lists tasks and TODOs, implying ongoing work tracking, which relates to workflow management.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Ongoing tasks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "evolution_context",
+            "workflow_process"
+          ],
+          "reasoning": "This section lists ongoing tasks and TODO items, which relates to the project's evolution context and workflow process.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"workflow_process\"], \"reasoning\": \"This section lists ongoing tasks and TODO items, which relates to the project's evolution context and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture",
+      "level": 2,
+      "char_count": 24,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section is explicitly titled 'Architecture' and points to an architecture documentation file.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section is explicitly titled 'Architecture' and points to an architecture documentation file.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section points to a specific file location, implying it's about where architecture documentation lives, rather than the architecture itself.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section points to a specific file location, implying it's about where architecture documentation lives, rather than the architecture itself.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section heading and content explicitly refer to the architecture of the project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section heading and content explicitly refer to the architecture of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Design contracts (immutable)",
+      "level": 2,
+      "char_count": 149,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Design contracts (immutable)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section lists design contracts which are related to module roles, dependencies, and component boundaries, indicating architecture content.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section lists design contracts which are related to module roles, dependencies, and component boundaries, indicating architecture content.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Design contracts (immutable)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Lists specific design contracts, implying modular component boundaries and interface definitions, which are architectural concerns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Lists specific design contracts, implying modular component boundaries and interface definitions, which are architectural concerns.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Design contracts (immutable)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section lists design contracts, which are likely to describe module roles and component boundaries, both of which fall under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section lists design contracts, which are likely to describe module roles and component boundaries, both of which fall under the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Context for Codex",
+      "level": 2,
+      "char_count": 86,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Context for Codex",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section outlines key files and directories, indicating project structure, and also points to decision and context documents, which inform about the project's evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section outlines key files and directories, indicating project structure, and also points to decision and context documents, which inform about the project's evolution context.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Context for Codex",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific file locations and types, indicating how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific file locations and types, indicating how the project is organized.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Context for Codex",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section lists key files and directories, indicating project structure, and also mentions a decisions document, suggesting evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section lists key files and directories, indicating project structure, and also mentions a decisions document, suggesting evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Legacy references",
+      "level": 2,
+      "char_count": 210,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Legacy references",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section is classified under project_structure because it mentions specific file locations, and under evolution_context because it discusses legacy references and backups, indicating historical context and potential technical debt.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section is classified under project_structure because it mentions specific file locations, and under evolution_context because it discusses legacy references and backups, indicating historical context and potential technical debt.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Legacy references",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific file locations within the repository, indicating how legacy content is organized within the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific file locations within the repository, indicating how legacy content is organized within the project structure.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Legacy references",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section lists legacy files and their locations, indicating project structure, and also provides context on the project's evolution and history.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section lists legacy files and their locations, indicating project structure, and also provides context on the project's evolution and history.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project file structure (in-file)",
+      "level": 2,
+      "char_count": 284,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project file structure (in-file)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project file structure (in-file)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the directory layout and describes key components' locations within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the directory layout and describes key components' locations within the project.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project file structure (in-file)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Devcontainer model (in-file)",
+      "level": 2,
+      "char_count": 318,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Devcontainer model (in-file)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the repository's development container setup and configuration, which relates to project structure, and also touches on workflow process through post-create runs and setup commands.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the repository's development container setup and configuration, which relates to project structure, and also touches on workflow process through post-create runs and setup commands.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Devcontainer model (in-file)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Describes a specific project setup file (.devcontainer) and its configuration, implying both how the project is structured (project_structure) and how development workflow is facilitated (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Describes a specific project setup file (.devcontainer) and its configuration, implying both how the project is structured (project_structure) and how development workflow is facilitated (workflow_process).\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Devcontainer model (in-file)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's development environment setup and configuration, which falls under project_structure, and the post-create process, which is a workflow_process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's development environment setup and configuration, which falls under project_structure, and the post-create process, which is a workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Generic guardrails (in-file)",
+      "level": 2,
+      "char_count": 1044,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Generic guardrails (in-file)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines guidelines for coding, testing, and refactoring, which primarily relates to workflow processes, but also touches on coding style and architectural considerations.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines guidelines for coding, testing, and refactoring, which primarily relates to workflow processes, but also touches on coding style and architectural considerations.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Generic guardrails (in-file)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines rules for code modification, testing, and documentation practices, which relate to workflow processes; architectural refactoring constraints, touching on architecture; and specific coding practices like character encoding, aligning with coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines rules for code modification, testing, and documentation practices, which relate to workflow processes; architectural refactoring constraints, touching on architecture; and specific coding practices like character encoding, aligning with coding style.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Generic guardrails (in-file)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on code modification, refactoring, testing, and documentation, which fall under workflow process and coding style, and also discusses design contracts and architecture, which relate to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on code modification, refactoring, testing, and documentation, which fall under workflow process and coding style, and also discusses design contracts and architecture, which relate to architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "(preamble)",
+      "level": 0,
+      "char_count": 77,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "(preamble)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "agent_rules"
+          ],
+          "reasoning": "The section serves as an introduction to the repository's guidelines and pointers, indicating its relevance to project structure, and also mentions 'guardrails' which implies rules for the AI agent.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"agent_rules\"], \"reasoning\": \"The section serves as an introduction to the repository's guidelines and pointers, indicating its relevance to project structure, and also mentions 'guardrails' which implies rules for the AI agent.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "(preamble)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the file's purpose as guardrails and pointers for Codex (AI agent) work, directly relating to agent-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the file's purpose as guardrails and pointers for Codex (AI agent) work, directly relating to agent-specific directives.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "(preamble)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section establishes the purpose of the file as a set of guidelines for AI work in the repository.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section establishes the purpose of the file as a set of guidelines for AI work in the repository.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project overview",
+      "level": 2,
+      "char_count": 87,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes key files and directory layout, which is primarily related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes key files and directory layout, which is primarily related to project structure.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key files and their locations, indicating project directory layout and important documents.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key files and their locations, indicating project directory layout and important documents.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key files and their roles in the project, which aligns with the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key files and their roles in the project, which aligns with the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Ongoing tasks",
+      "level": 2,
+      "char_count": 25,
+      "voted_categories": [
+        "evolution_context",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Ongoing tasks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "The section lists ongoing tasks, which relates to the project's current phase and technical debt.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"The section lists ongoing tasks, which relates to the project's current phase and technical debt.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Ongoing tasks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Lists tasks and TODOs, implying ongoing work tracking, which relates to workflow management.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Lists tasks and TODOs, implying ongoing work tracking, which relates to workflow management.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Ongoing tasks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "evolution_context",
+            "workflow_process"
+          ],
+          "reasoning": "This section lists ongoing tasks and TODO items, which relates to the project's evolution context and workflow process.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"workflow_process\"], \"reasoning\": \"This section lists ongoing tasks and TODO items, which relates to the project's evolution context and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture",
+      "level": 2,
+      "char_count": 24,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section is explicitly titled 'Architecture' and points to an architecture documentation file.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section is explicitly titled 'Architecture' and points to an architecture documentation file.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section points to a specific file location, implying it's about where architecture documentation lives, rather than the architecture itself.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section points to a specific file location, implying it's about where architecture documentation lives, rather than the architecture itself.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section heading and content explicitly refer to the architecture of the project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section heading and content explicitly refer to the architecture of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Design contracts (immutable)",
+      "level": 2,
+      "char_count": 149,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Design contracts (immutable)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section lists design contracts which are related to module roles, dependencies, and component boundaries, indicating architecture content.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section lists design contracts which are related to module roles, dependencies, and component boundaries, indicating architecture content.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Design contracts (immutable)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Lists specific design contracts, implying modular component boundaries and interface definitions, which are architectural concerns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Lists specific design contracts, implying modular component boundaries and interface definitions, which are architectural concerns.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Design contracts (immutable)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section lists design contracts, which are likely to describe module roles and component boundaries, both of which fall under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section lists design contracts, which are likely to describe module roles and component boundaries, both of which fall under the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Context for Codex",
+      "level": 2,
+      "char_count": 86,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Context for Codex",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section outlines key files and directories, indicating project structure, and also points to decision and context documents, which inform about the project's evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section outlines key files and directories, indicating project structure, and also points to decision and context documents, which inform about the project's evolution context.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Context for Codex",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific file locations and types, indicating how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific file locations and types, indicating how the project is organized.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Context for Codex",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section lists key files and directories, indicating project structure, and also mentions a decisions document, suggesting evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section lists key files and directories, indicating project structure, and also mentions a decisions document, suggesting evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Legacy references",
+      "level": 2,
+      "char_count": 210,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Legacy references",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section is classified under project_structure because it mentions specific file locations, and under evolution_context because it discusses legacy references and backups, indicating historical context and potential technical debt.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section is classified under project_structure because it mentions specific file locations, and under evolution_context because it discusses legacy references and backups, indicating historical context and potential technical debt.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Legacy references",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific file locations within the repository, indicating how legacy content is organized within the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific file locations within the repository, indicating how legacy content is organized within the project structure.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Legacy references",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section lists legacy files and their locations, indicating project structure, and also provides context on the project's evolution and history.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section lists legacy files and their locations, indicating project structure, and also provides context on the project's evolution and history.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project file structure (in-file)",
+      "level": 2,
+      "char_count": 284,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project file structure (in-file)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project file structure (in-file)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the directory layout and describes key components' locations within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the directory layout and describes key components' locations within the project.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Project file structure (in-file)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Devcontainer model (in-file)",
+      "level": 2,
+      "char_count": 318,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Devcontainer model (in-file)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the repository's development container setup and configuration, which relates to project structure, and also touches on workflow process through post-create runs and setup commands.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the repository's development container setup and configuration, which relates to project structure, and also touches on workflow process through post-create runs and setup commands.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Devcontainer model (in-file)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Describes a specific project setup file (.devcontainer) and its configuration, implying both how the project is structured (project_structure) and how development workflow is facilitated (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Describes a specific project setup file (.devcontainer) and its configuration, implying both how the project is structured (project_structure) and how development workflow is facilitated (workflow_process).\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Devcontainer model (in-file)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's development environment setup and configuration, which falls under project_structure, and the post-create process, which is a workflow_process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's development environment setup and configuration, which falls under project_structure, and the post-create process, which is a workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Generic guardrails (in-file)",
+      "level": 2,
+      "char_count": 1044,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Generic guardrails (in-file)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines guidelines for coding, testing, and refactoring, which primarily relates to workflow processes, but also touches on coding style and architectural considerations.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines guidelines for coding, testing, and refactoring, which primarily relates to workflow processes, but also touches on coding style and architectural considerations.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Generic guardrails (in-file)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines rules for code modification, testing, and documentation practices, which relate to workflow processes; architectural refactoring constraints, touching on architecture; and specific coding practices like character encoding, aligning with coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines rules for code modification, testing, and documentation practices, which relate to workflow processes; architectural refactoring constraints, touching on architecture; and specific coding practices like character encoding, aligning with coding style.\"}"
+        },
+        {
+          "repo": "Kaptensanders/skolmat",
+          "section_heading": "Generic guardrails (in-file)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on code modification, refactoring, testing, and documentation, which fall under workflow process and coding style, and also discusses design contracts and architecture, which relate to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on code modification, refactoring, testing, and documentation, which fall under workflow process and coding style, and also discusses design contracts and architecture, which relate to architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.1,
+    "project_structure": 0.5,
+    "workflow_process": 0.3,
+    "architecture": 0.3,
+    "evolution_context": 0.3,
+    "agent_rules": 0.1
+  },
+  "category_char_fraction": {
+    "coding_style": 0.453125,
+    "project_structure": 0.4275173611111111,
+    "workflow_process": 0.6019965277777778,
+    "architecture": 0.5282118055555556,
+    "evolution_context": 0.13932291666666666,
+    "agent_rules": 0.03342013888888889
+  }
+}

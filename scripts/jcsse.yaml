@@ -1,0 +1,86 @@
+# JCSSE 2026 — Content Classification Configuration
+# "What Do Human Agent Manifests Miss? An Empirical Content Analysis of CLAUDE.md Files"
+
+taxonomy:
+  categories:
+    coding_style:
+      id: 1
+      label: "Coding Style"
+      description: "Naming conventions, formatting, language idioms, import order, linting rules, code formatting tools"
+      examples:
+        - "Use camelCase for variables"
+        - "Run eslint before commit"
+        - "Max line length 100"
+
+    project_structure:
+      id: 2
+      label: "Project Structure"
+      description: "Directory layout, key files, module descriptions, where things live in the codebase"
+      examples:
+        - "Source files are in src/"
+        - "Tests go in __tests__ directory"
+        - "Configuration files at project root"
+
+    workflow_process:
+      id: 3
+      label: "Workflow & Process"
+      description: "Commit message format, PR rules, testing requirements, CI/CD procedures, code review guidelines, branching strategy"
+      examples:
+        - "Run tests before commit"
+        - "Use conventional commits"
+        - "Create PR for every change"
+
+    architecture:
+      id: 4
+      label: "Architecture"
+      description: "Module roles, component dependencies, design patterns, architectural decisions, interface contracts, system boundaries"
+      examples:
+        - "Frontend and backend are decoupled via REST API"
+        - "Use repository pattern for data access"
+        - "Avoid circular dependencies between modules"
+
+    evolution_context:
+      id: 5
+      label: "Evolution Context"
+      description: "Project phase, complexity trends, technical debt, churn trajectory, historical context, Lehman's laws compliance, refactoring plans, growth patterns"
+      examples:
+        - "This project is in maintenance phase"
+        - "We are actively reducing technical debt"
+        - "The codebase has grown significantly and needs refactoring"
+
+    agent_rules:
+      id: 6
+      label: "Agent-Specific Rules"
+      description: "Claude plan mode instructions, subagent strategy, tool use constraints, AI agent-specific directives, MCP tool guidance"
+      examples:
+        - "Enter plan mode for any non-trivial task"
+        - "Use subagents for parallel analysis"
+        - "Do not use the bash tool for file reads"
+
+models:
+  - key_env: "NVIDIA_API_KEY"
+    model: "meta/llama-3.3-70b-instruct"
+    org: "Meta"
+  - key_env: "NVIDIA_API_KEY_2"
+    model: "nvidia/llama-3.3-nemotron-super-49b-v1"
+    org: "NVIDIA"
+  - key_env: "NVIDIA_API_KEY_3"
+    model: "mistralai/mixtral-8x22b-instruct-v0.1"
+    org: "Mistral AI"
+
+nim_base_url: "https://integrate.api.nvidia.com/v1"
+temperature: 0.0
+max_tokens: 512
+
+data:
+  # Use expanded corpus if available, otherwise fall back to original 23
+  phase1_repos: "experiments/jcsse2026/results/expanded_corpus.json"
+  phase1_repos_fallback: "experiments/paper1_ontology_manifests/results/real/phase1_repos.json"
+  phase2_population: "experiments/paper1_ontology_manifests/results/real/phase2_population"
+  output_dir: "experiments/jcsse2026/results"
+
+corpus_expansion:
+  target_size: 80
+  min_stars: 30
+  min_history_months: 6
+  min_manifest_chars: 200

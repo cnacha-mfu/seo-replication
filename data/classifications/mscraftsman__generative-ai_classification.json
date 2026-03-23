@@ -1,0 +1,1050 @@
+{
+  "repo": "mscraftsman__generative-ai",
+  "full_name": "mscraftsman/generative-ai",
+  "n_sections": 12,
+  "n_chars": 2972,
+  "sections": [
+    {
+      "heading": "Project Overview",
+      "level": 1,
+      "char_count": 734,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project, describing its purpose, repository structure, and key components, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project, describing its purpose, repository structure, and key components, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the project's purpose and its structural composition (project_structure), as well as the roles and functionalities of its modules (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the project's purpose and its structural composition (project_structure), as well as the roles and functionalities of its modules (architecture).\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall structure of the project and the roles of its different components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall structure of the project and the roles of its different components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building and Running",
+      "level": 1,
+      "char_count": 89,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building and Running",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build process and tools used, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build process and tools used, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building and Running",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the build and run process using specific commands, which relates to workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the build and run process using specific commands, which relates to workflow and development process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building and Running",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project's build system and programming language, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the project's build system and programming language, which relates to both project structure and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building the project",
+      "level": 2,
+      "char_count": 136,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building the project",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a key step in the project workflow, specifically building the project, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a key step in the project workflow, specifically building the project, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building the project",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command to build the project, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command to build the project, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building the project",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the command to build the entire solution, which is related to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the command to build the entire solution, which is related to project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running tests",
+      "level": 2,
+      "char_count": 94,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Running tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of running tests, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of running tests, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Running tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific step in the development workflow (running tests), which aligns with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific step in the development workflow (running tests), which aligns with workflow processes.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Running tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the commands to run tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the commands to run tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "To run tests for the main SDK",
+      "level": 1,
+      "char_count": 116,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the main SDK",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing process, which falls under workflow_process due to its relation to testing requirements and CI/CD guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing process, which falls under workflow_process due to its relation to testing requirements and CI/CD guidelines.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the main SDK",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the main SDK",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a test command, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a test command, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "To run tests for the Google API Client Library version",
+      "level": 1,
+      "char_count": 248,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the Google API Client Library version",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of running tests, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of running tests, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the Google API Client Library version",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command and prerequisite for running tests, which relates to the workflow and testing process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command and prerequisite for running tests, which relates to the workflow and testing process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the Google API Client Library version",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\n  \"categories\": [\"workflow_process\"],\n  \"reasoning\": \"The section provides a command for running tests, which is part of the testing requirements and workflow process.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Packaging the project",
+      "level": 2,
+      "char_count": 82,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Packaging the project",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the project's packaging process, which relates to both the overall project structure and the workflow process of building and distributing the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses the project's packaging process, which relates to both the overall project structure and the workflow process of building and distributing the project.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Packaging the project",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes how the project is packaged, which relates to how the project is organized and distributed, falling under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes how the project is packaged, which relates to how the project is organized and distributed, falling under project structure.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Packaging the project",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes how the project is structured for packaging and includes specific commands, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes how the project is structured for packaging and includes specific commands, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pack for .NET",
+      "level": 1,
+      "char_count": 82,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command for packaging a .NET project, which relates to both the project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a specific command for packaging a .NET project, which relates to both the project structure and workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging a .NET project, which relates to the build workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging a .NET project, which relates to the build workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a specific command for packaging a .NET project, which falls under coding_style, and also indicates the project structure by specifying the project file path.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a specific command for packaging a .NET project, which falls under coding_style, and also indicates the project structure by specifying the project file path.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pack for ASP.NET Core",
+      "level": 1,
+      "char_count": 90,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for ASP.NET Core",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command for packaging a project, which relates to both the directory layout and key files of the project structure, as well as the workflow process of building and packaging the application.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a specific command for packaging a project, which relates to both the directory layout and key files of the project structure, as well as the workflow process of building and packaging the application.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for ASP.NET Core",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging the project, which relates to the build workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging the project, which relates to the build workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for ASP.NET Core",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a specific command for packaging an ASP.NET Core project, which falls under coding_style, and also indicates the project structure by specifying the project file path.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a specific command for packaging an ASP.NET Core project, which falls under coding_style, and also indicates the project structure by specifying the project file path.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pack for .NET using Google Cloud Client Library",
+      "level": 1,
+      "char_count": 96,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET using Google Cloud Client Library",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command for packaging a .NET project, which falls under workflow and build processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command for packaging a .NET project, which falls under workflow and build processes.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET using Google Cloud Client Library",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging a .NET project, which relates to build workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging a .NET project, which relates to build workflow processes.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET using Google Cloud Client Library",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a specific coding command for packaging a .NET project and references the project's structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a specific coding command for packaging a .NET project and references the project's structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pack for Microsoft.Extension.AI and Microsoft Semantic Kernel",
+      "level": 1,
+      "char_count": 106,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for Microsoft.Extension.AI and Microsoft Semantic Kernel",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a build and packaging process using dotnet pack, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a build and packaging process using dotnet pack, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for Microsoft.Extension.AI and Microsoft Semantic Kernel",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging, which relates to the build workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging, which relates to the build workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for Microsoft.Extension.AI and Microsoft Semantic Kernel",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command for packaging a specific project, indicating project structure, and follows a specific coding style for the command.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides a command for packaging a specific project, indicating project structure, and follows a specific coding style for the command.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Conventions",
+      "level": 1,
+      "char_count": 696,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Development Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding standards, testing and CI/CD processes, and project organization, including dependencies and versioning.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses coding standards, testing and CI/CD processes, and project organization, including dependencies and versioning.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Development Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily covers coding standards (coding_style) and CI/CD processes (workflow_process), with other aspects (testing, versioning, dependencies) being secondary or supportive to these main themes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily covers coding standards (coding_style) and CI/CD processes (workflow_process), with other aspects (testing, versioning, dependencies) being secondary or supportive to these main themes.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Development Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style, testing, CI/CD, and dependencies, which fall under coding_style, workflow_process, and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses coding style, testing, CI/CD, and dependencies, which fall under coding_style, workflow_process, and architecture categories.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Overview",
+      "level": 1,
+      "char_count": 734,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project, describing its purpose, repository structure, and key components, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project, describing its purpose, repository structure, and key components, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the project's purpose and its structural composition (project_structure), as well as the roles and functionalities of its modules (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the project's purpose and its structural composition (project_structure), as well as the roles and functionalities of its modules (architecture).\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall structure of the project and the roles of its different components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall structure of the project and the roles of its different components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building and Running",
+      "level": 1,
+      "char_count": 89,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building and Running",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build process and tools used, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build process and tools used, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building and Running",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the build and run process using specific commands, which relates to workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the build and run process using specific commands, which relates to workflow and development process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building and Running",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project's build system and programming language, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the project's build system and programming language, which relates to both project structure and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building the project",
+      "level": 2,
+      "char_count": 136,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building the project",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a key step in the project workflow, specifically building the project, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a key step in the project workflow, specifically building the project, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building the project",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command to build the project, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command to build the project, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Building the project",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the command to build the entire solution, which is related to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the command to build the entire solution, which is related to project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running tests",
+      "level": 2,
+      "char_count": 94,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Running tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of running tests, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of running tests, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Running tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific step in the development workflow (running tests), which aligns with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific step in the development workflow (running tests), which aligns with workflow processes.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Running tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the commands to run tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the commands to run tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "To run tests for the main SDK",
+      "level": 1,
+      "char_count": 116,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the main SDK",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing process, which falls under workflow_process due to its relation to testing requirements and CI/CD guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing process, which falls under workflow_process due to its relation to testing requirements and CI/CD guidelines.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the main SDK",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the main SDK",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a test command, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a test command, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "To run tests for the Google API Client Library version",
+      "level": 1,
+      "char_count": 248,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the Google API Client Library version",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of running tests, which falls under workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of running tests, which falls under workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the Google API Client Library version",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command and prerequisite for running tests, which relates to the workflow and testing process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command and prerequisite for running tests, which relates to the workflow and testing process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "To run tests for the Google API Client Library version",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\n  \"categories\": [\"workflow_process\"],\n  \"reasoning\": \"The section provides a command for running tests, which is part of the testing requirements and workflow process.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Packaging the project",
+      "level": 2,
+      "char_count": 82,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Packaging the project",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the project's packaging process, which relates to both the overall project structure and the workflow process of building and distributing the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses the project's packaging process, which relates to both the overall project structure and the workflow process of building and distributing the project.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Packaging the project",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes how the project is packaged, which relates to how the project is organized and distributed, falling under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes how the project is packaged, which relates to how the project is organized and distributed, falling under project structure.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Packaging the project",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes how the project is structured for packaging and includes specific commands, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes how the project is structured for packaging and includes specific commands, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pack for .NET",
+      "level": 1,
+      "char_count": 82,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command for packaging a .NET project, which relates to both the project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a specific command for packaging a .NET project, which relates to both the project structure and workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging a .NET project, which relates to the build workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging a .NET project, which relates to the build workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a specific command for packaging a .NET project, which falls under coding_style, and also indicates the project structure by specifying the project file path.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a specific command for packaging a .NET project, which falls under coding_style, and also indicates the project structure by specifying the project file path.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pack for ASP.NET Core",
+      "level": 1,
+      "char_count": 90,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for ASP.NET Core",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command for packaging a project, which relates to both the directory layout and key files of the project structure, as well as the workflow process of building and packaging the application.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a specific command for packaging a project, which relates to both the directory layout and key files of the project structure, as well as the workflow process of building and packaging the application.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for ASP.NET Core",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging the project, which relates to the build workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging the project, which relates to the build workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for ASP.NET Core",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a specific command for packaging an ASP.NET Core project, which falls under coding_style, and also indicates the project structure by specifying the project file path.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a specific command for packaging an ASP.NET Core project, which falls under coding_style, and also indicates the project structure by specifying the project file path.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pack for .NET using Google Cloud Client Library",
+      "level": 1,
+      "char_count": 96,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET using Google Cloud Client Library",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command for packaging a .NET project, which falls under workflow and build processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command for packaging a .NET project, which falls under workflow and build processes.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET using Google Cloud Client Library",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging a .NET project, which relates to build workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging a .NET project, which relates to build workflow processes.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for .NET using Google Cloud Client Library",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a specific coding command for packaging a .NET project and references the project's structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a specific coding command for packaging a .NET project and references the project's structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pack for Microsoft.Extension.AI and Microsoft Semantic Kernel",
+      "level": 1,
+      "char_count": 106,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for Microsoft.Extension.AI and Microsoft Semantic Kernel",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a build and packaging process using dotnet pack, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes a build and packaging process using dotnet pack, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for Microsoft.Extension.AI and Microsoft Semantic Kernel",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging, which relates to the build workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging, which relates to the build workflow process.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Pack for Microsoft.Extension.AI and Microsoft Semantic Kernel",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command for packaging a specific project, indicating project structure, and follows a specific coding style for the command.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides a command for packaging a specific project, indicating project structure, and follows a specific coding style for the command.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Conventions",
+      "level": 1,
+      "char_count": 696,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Development Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding standards, testing and CI/CD processes, and project organization, including dependencies and versioning.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses coding standards, testing and CI/CD processes, and project organization, including dependencies and versioning.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Development Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily covers coding standards (coding_style) and CI/CD processes (workflow_process), with other aspects (testing, versioning, dependencies) being secondary or supportive to these main themes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily covers coding standards (coding_style) and CI/CD processes (workflow_process), with other aspects (testing, versioning, dependencies) being secondary or supportive to these main themes.\"}"
+        },
+        {
+          "repo": "mscraftsman/generative-ai",
+          "section_heading": "Development Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style, testing, CI/CD, and dependencies, which fall under coding_style, workflow_process, and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses coding style, testing, CI/CD, and dependencies, which fall under coding_style, workflow_process, and architecture categories.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.08333333333333333,
+    "project_structure": 0.5833333333333334,
+    "workflow_process": 0.8333333333333334,
+    "architecture": 0.08333333333333333,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.2709225379525107,
+    "project_structure": 0.5134293499416115,
+    "workflow_process": 0.682366679641884,
+    "architecture": 0.2857142857142857,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "repo": "lambrospetrou__durable-utils",
+  "full_name": "lambrospetrou/durable-utils",
+  "n_sections": 3,
+  "n_chars": 1105,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 203,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the purpose and content of the repository, which relates to the project's overall structure and organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the purpose and content of the repository, which relates to the project's overall structure and organization.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Briefly describes the package's purpose and scope, implying what the project is about, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Briefly describes the package's purpose and scope, implying what the project is about, which relates to project structure.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and scope of the package, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the purpose and scope of the package, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build & Test Commands",
+      "level": 2,
+      "char_count": 246,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Build & Test Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes the commands used for building, testing, and releasing the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes the commands used for building, testing, and releasing the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Build & Test Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific commands for building, testing, and releasing the project, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists specific commands for building, testing, and releasing the project, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Build & Test Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides commands for formatting code and building the project, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides commands for formatting code and building the project, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style Guidelines",
+      "level": 2,
+      "char_count": 589,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Code Style Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, formatting, and code style tools, which are all aspects of coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, formatting, and code style tools, which are all aspects of coding style guidelines.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Code Style Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section predominantly outlines specific coding conventions and formatting rules.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section predominantly outlines specific coding conventions and formatting rules.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Code Style Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines, including naming conventions, formatting, and linting, but also touches on project structure by suggesting each exported utility should have its own file.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section primarily discusses coding style guidelines, including naming conventions, formatting, and linting, but also touches on project structure by suggesting each exported utility should have its own file.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 203,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the purpose and content of the repository, which relates to the project's overall structure and organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the purpose and content of the repository, which relates to the project's overall structure and organization.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Briefly describes the package's purpose and scope, implying what the project is about, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Briefly describes the package's purpose and scope, implying what the project is about, which relates to project structure.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and scope of the package, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the purpose and scope of the package, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build & Test Commands",
+      "level": 2,
+      "char_count": 246,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Build & Test Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes the commands used for building, testing, and releasing the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes the commands used for building, testing, and releasing the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Build & Test Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific commands for building, testing, and releasing the project, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists specific commands for building, testing, and releasing the project, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Build & Test Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides commands for formatting code and building the project, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides commands for formatting code and building the project, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style Guidelines",
+      "level": 2,
+      "char_count": 589,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Code Style Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, formatting, and code style tools, which are all aspects of coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, formatting, and code style tools, which are all aspects of coding style guidelines.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Code Style Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section predominantly outlines specific coding conventions and formatting rules.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section predominantly outlines specific coding conventions and formatting rules.\"}"
+        },
+        {
+          "repo": "lambrospetrou/durable-utils",
+          "section_heading": "Code Style Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines, including naming conventions, formatting, and linting, but also touches on project structure by suggesting each exported utility should have its own file.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section primarily discusses coding style guidelines, including naming conventions, formatting, and linting, but also touches on project structure by suggesting each exported utility should have its own file.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.3333333333333333,
+    "project_structure": 0.3333333333333333,
+    "workflow_process": 0.3333333333333333,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.5674373795761078,
+    "project_structure": 0.1955684007707129,
+    "workflow_process": 0.23699421965317918,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

@@ -1,0 +1,2668 @@
+{
+  "repo": "chef__chef-vault",
+  "full_name": "chef/chef-vault",
+  "n_sections": 31,
+  "n_chars": 13454,
+  "sections": [
+    {
+      "heading": "Project Purpose",
+      "level": 3,
+      "char_count": 235,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Project Purpose",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the purpose and functionality of the chef-vault project, which relates to its overall structure and architectural role in the Chef ecosystem.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the purpose and functionality of the chef-vault project, which relates to its overall structure and architectural role in the Chef ecosystem.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Project Purpose",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the project's purpose and its role within the Chef ecosystem, which relates to understanding where the project fits in the broader system architecture, akin to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the project's purpose and its role within the Chef ecosystem, which relates to understanding where the project fits in the broader system architecture, akin to project structure.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Project Purpose",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the role and functionality of the chef-vault module, which is related to the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the role and functionality of the chef-vault module, which is related to the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Folder Structure Diagram",
+      "level": 3,
+      "char_count": 1619,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Folder Structure Diagram",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a detailed diagram of the repository's directory layout and key files, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a detailed diagram of the repository's directory layout and key files, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Folder Structure Diagram",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Folder Structure Diagram",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Technologies Used",
+      "level": 3,
+      "char_count": 213,
+      "voted_categories": [
+        "project_structure",
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Technologies Used",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section lists the technologies used in the project, including languages, frameworks, build tools, linting tools, and CI/CD tools, which relates to project structure, coding style, and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"This section lists the technologies used in the project, including languages, frameworks, build tools, linting tools, and CI/CD tools, which relates to project structure, coding style, and workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Technologies Used",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "Lists technologies used, implying project structure (languages/frameworks), workflow tools (build/automation, CI/CD), and coding style enforcers (linting).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"Lists technologies used, implying project structure (languages/frameworks), workflow tools (build/automation, CI/CD), and coding style enforcers (linting).\" }"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Technologies Used",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section lists the languages, frameworks, and tools used in the project, which relates to coding style, project structure, and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"This section lists the languages, frameworks, and tools used in the project, which relates to coding style, project structure, and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File Modification Guidelines",
+      "level": 3,
+      "char_count": 421,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "File Modification Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines guidelines for modifying files in the repository, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section outlines guidelines for modifying files in the repository, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "File Modification Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines directory/file modification rules, relating to project structure (project_structure) and development workflow guidelines (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines directory/file modification rules, relating to project structure (project_structure) and development workflow guidelines (workflow_process).\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "File Modification Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the structure of the project by listing directories and files, and also provides guidelines for modifying files, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines the structure of the project by listing directories and files, and also provides guidelines for modifying files, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Generation Patterns",
+      "level": 3,
+      "char_count": 135,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Code Generation Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses code generation patterns and file modification guidelines, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses code generation patterns and file modification guidelines, which relates to coding style and project structure.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Code Generation Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific directories and generated files that should not be modified, relating to project structure guidelines.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific directories and generated files that should not be modified, relating to project structure guidelines.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Code Generation Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on which files to avoid modifying, indicating project structure, and also outlines workflow processes related to code generation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on which files to avoid modifying, indicating project structure, and also outlines workflow processes related to code generation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Jira Integration (atlassian-mcp-server)",
+      "level": 3,
+      "char_count": 167,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Jira Integration (atlassian-mcp-server)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific workflow process related to Jira integration and also implies architectural dependencies on the atlassian-mcp-server MCP server.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes a specific workflow process related to Jira integration and also implies architectural dependencies on the atlassian-mcp-server MCP server.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Jira Integration (atlassian-mcp-server)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific step in the development workflow involving external tool integration and task analysis before coding.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific step in the development workflow involving external tool integration and task analysis before coding.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Jira Integration (atlassian-mcp-server)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a process for integrating Jira with the project, including reading the story, analyzing requirements, and planning implementation before coding.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a process for integrating Jira with the project, including reading the story, analyzing requirements, and planning implementation before coding.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "**Phase 1: Initial Setup & Analysis**",
+      "level": 4,
+      "char_count": 258,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 1: Initial Setup & Analysis**",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section outlines the initial setup and analysis phase of a project, including planning and approval gates, which relates to workflow processes and project evolution context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section outlines the initial setup and analysis phase of a project, including planning and approval gates, which relates to workflow processes and project evolution context.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 1: Initial Setup & Analysis**",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a workflow phase with specific tasks (workflow_process) that include analyzing repository structure (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a workflow phase with specific tasks (workflow_process) that include analyzing repository structure (project_structure).\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 1: Initial Setup & Analysis**",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section involves analyzing repository structure and dependencies, planning implementation, and includes an approval gate, which are aspects of project structure, architecture, and workflow process respectively.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section involves analyzing repository structure and dependencies, planning implementation, and includes an approval gate, which are aspects of project structure, architecture, and workflow process respectively.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "**Phase 2: Implementation Phase**",
+      "level": 4,
+      "char_count": 171,
+      "voted_categories": [
+        "workflow_process",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 2: Implementation Phase**",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes a phase in the project's workflow and mentions an implementation phase, indicating a project phase and progression.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section describes a phase in the project's workflow and mentions an implementation phase, indicating a project phase and progression.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 2: Implementation Phase**",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific step in the development workflow with a prompt and approval gate, indicating process control.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific step in the development workflow with a prompt and approval gate, indicating process control.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 2: Implementation Phase**",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section describes the implementation phase, which is part of the project's evolution context, and includes a workflow process for confirming completion before moving to testing.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section describes the implementation phase, which is part of the project's evolution context, and includes a workflow process for confirming completion before moving to testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "**Phase 3: Testing Phase**",
+      "level": 4,
+      "char_count": 246,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 3: Testing Phase**",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and approval gates, which are key components of a project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and approval gates, which are key components of a project's workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 3: Testing Phase**",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing requirements, approval gates, and PR creation steps, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing requirements, approval gates, and PR creation steps, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 3: Testing Phase**",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines testing requirements and tools, which falls under workflow_process, and also implies the architecture of the project by mentioning unit tests and coverage, which is a design aspect.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines testing requirements and tools, which falls under workflow_process, and also implies the architecture of the project by mentioning unit tests and coverage, which is a design aspect.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "**Phase 4: Pull Request Creation**",
+      "level": 4,
+      "char_count": 167,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 4: Pull Request Creation**",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the steps and guidelines for creating a pull request, which falls under workflow and process management.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the steps and guidelines for creating a pull request, which falls under workflow and process management.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 4: Pull Request Creation**",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and tools for creating a Pull Request, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and tools for creating a Pull Request, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 4: Pull Request Creation**",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for creating pull requests, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for creating pull requests, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Testing Requirements (Critical)",
+      "level": 2,
+      "char_count": 635,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "3. Testing Requirements (Critical)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the testing requirements and guidelines for code changes, which is a key aspect of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the testing requirements and guidelines for code changes, which is a key aspect of the workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "3. Testing Requirements (Critical)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing requirements and procedures that must be followed as part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing requirements and procedures that must be followed as part of the development workflow.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "3. Testing Requirements (Critical)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines coding style for testing and establishes workflow process requirements for code changes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines coding style for testing and establishes workflow process requirements for code changes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Example RSpec Test Structure",
+      "level": 4,
+      "char_count": 124,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example RSpec Test Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides an example of how to structure RSpec tests for the ChefVault project, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides an example of how to structure RSpec tests for the ChefVault project, which relates to coding style and project structure.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example RSpec Test Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section illustrates a testing example, which relates to workflow processes such as testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section illustrates a testing example, which relates to workflow processes such as testing requirements.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example RSpec Test Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides an example of coding style for RSpec tests and demonstrates a part of the workflow process for testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides an example of coding style for RSpec tests and demonstrates a part of the workflow process for testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Example Cucumber Feature",
+      "level": 4,
+      "char_count": 183,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example Cucumber Feature",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a test scenario using Cucumber, which is related to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a test scenario using Cucumber, which is related to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example Cucumber Feature",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing scenario using Cucumber, which relates to testing requirements within workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing scenario using Cucumber, which relates to testing requirements within workflow processes.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example Cucumber Feature",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a scenario for creating a new vault, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a scenario for creating a new vault, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. Pull Request Creation Process",
+      "level": 2,
+      "char_count": 716,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "4. Pull Request Creation Process",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the pull request creation process, including branch naming, commit formatting, and PR submission guidelines, which falls under workflow_process, with some aspects also related to coding_style due to the specification of commit messages and formatting.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the pull request creation process, including branch naming, commit formatting, and PR submission guidelines, which falls under workflow_process, with some aspects also related to coding_style due to the specification of commit messages and formatting.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "4. Pull Request Creation Process",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the step-by-step process for creating a pull request, including branch naming, commit commands, and PR description requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the step-by-step process for creating a pull request, including branch naming, commit commands, and PR description requirements.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "4. Pull Request Creation Process",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for creating pull requests, including branch naming conventions, commands, and PR description format.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for creating pull requests, including branch naming conventions, commands, and PR description format.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "5. DCO (Developer Certificate of Origin) Compliance",
+      "level": 2,
+      "char_count": 259,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "5. DCO (Developer Certificate of Origin) Compliance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses commit format and signing off commits, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses commit format and signing off commits, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "5. DCO (Developer Certificate of Origin) Compliance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on commit signing rules and their enforcement in the build process, which relates to workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on commit signing rules and their enforcement in the build process, which relates to workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "5. DCO (Developer Certificate of Origin) Compliance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commit format and PR rules, which are part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes commit format and PR rules, which are part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "6. Build System Integration Analysis",
+      "level": 2,
+      "char_count": 684,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "6. Build System Integration Analysis",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the build system integration and automation processes, including tool configurations and commands, which relates to workflow_process, and also touches on project structure by mentioning specific files and directories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the build system integration and automation processes, including tool configurations and commands, which relates to workflow_process, and also touches on project structure by mentioning specific files and directories.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "6. Build System Integration Analysis",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section details specific build system integrations, automation tasks, and testing commands, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section details specific build system integrations, automation tasks, and testing commands, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "6. Build System Integration Analysis",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes build system integration, including automation, testing, and dependency installation, which are part of the workflow process, and also mentions coding style tools like SimpleCov and RSpec for coverage.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes build system integration, including automation, testing, and dependency installation, which are part of the workflow process, and also mentions coding style tools like SimpleCov and RSpec for coverage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "7. Label Management System",
+      "level": 2,
+      "char_count": 756,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "7. Label Management System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the label management system, which is used to categorize and prioritize issues, and is related to the workflow and process of managing a repository.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the label management system, which is used to categorize and prioritize issues, and is related to the workflow and process of managing a repository.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "7. Label Management System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines label management for issue tracking, which relates to workflow and process management within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines label management for issue tracking, which relates to workflow and process management within the project.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "7. Label Management System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the label management system, which is part of the workflow process for managing issues and pull requests in the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the label management system, which is part of the workflow process for managing issues and pull requests in the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "8. Prompt-Based Execution Protocol",
+      "level": 2,
+      "char_count": 383,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "8. Prompt-Based Execution Protocol",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines a step-by-step protocol for execution, including user approval and feedback, which relates to both workflow processes and agent rules for interaction.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section outlines a step-by-step protocol for execution, including user approval and feedback, which relates to both workflow processes and agent rules for interaction.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "8. Prompt-Based Execution Protocol",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step protocol for interactive execution, including user approval and feedback, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step protocol for interactive execution, including user approval and feedback, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "8. Prompt-Based Execution Protocol",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a protocol for executing tasks, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a protocol for executing tasks, which falls under workflow process guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "9. Repository-Specific Guidelines",
+      "level": 2,
+      "char_count": 407,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "9. Repository-Specific Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines guidelines for building, dependencies, and development environment, which relates to workflow process, project structure, and coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\", \"coding_style\"], \"reasoning\": \"This section outlines guidelines for building, dependencies, and development environment, which relates to workflow process, project structure, and coding style.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "9. Repository-Specific Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines directory restrictions (project_structure), build and dependency management processes (workflow_process), and implicit coding standards through prohibited file edits (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines directory restrictions (project_structure), build and dependency management processes (workflow_process), and implicit coding standards through prohibited file edits (coding_style).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **project_structure**: Mention of specific directories (`dev/`, `coverage/`, `vendor/`, `tmp/`) and their handling.\n- **workflow_process**: Discussion of build tools (Rake, Bundler, Expeditor), integration with external tools (SonarQube), and development environment setups.\n- **coding_style**: Implicit through the prohibition of editing certain files, implying a standard for generated content handling."
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "9. Repository-Specific Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on build tools, dependency management, development environment setup, and integration with other platforms, which fall under project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on build tools, dependency management, development environment setup, and integration with other platforms, which fall under project structure and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "10. Code Quality & Standards",
+      "level": 2,
+      "char_count": 482,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "10. Code Quality & Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses code style, conventions, and security, which falls under coding_style, and also touches on review processes, which relates to workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses code style, conventions, and security, which falls under coding_style, and also touches on review processes, which relates to workflow_process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "10. Code Quality & Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines coding standards (coding_style) but also touches on review process (workflow_process) with CODEOWNERS specification.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines coding standards (coding_style) but also touches on review process (workflow_process) with CODEOWNERS specification.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "10. Code Quality & Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines and security rules, which can be considered as agent rules for an AI agent.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section primarily discusses coding style guidelines and security rules, which can be considered as agent rules for an AI agent.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "11. Security and Compliance Requirements",
+      "level": 2,
+      "char_count": 222,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "11. Security and Compliance Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses coding practices like license headers and dependency monitoring, as well as workflow processes like scanning and authentication.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses coding practices like license headers and dependency monitoring, as well as workflow processes like scanning and authentication.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "11. Security and Compliance Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific tools (SonarQube, RuboCop) and practices (CVE monitoring, license headers) that guide development workflow and coding standards.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines specific tools (SonarQube, RuboCop) and practices (CVE monitoring, license headers) that guide development workflow and coding standards.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "11. Security and Compliance Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section covers coding style (license headers), workflow process (CVE awareness, scanning), and architecture (FIPS compliance, authentication).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section covers coding style (license headers), workflow process (CVE awareness, scanning), and architecture (FIPS compliance, authentication).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "12. Build & Development Environment",
+      "level": 2,
+      "char_count": 342,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "12. Build & Development Environment",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the build and development environment, including setup, build commands, and troubleshooting, which relates to workflow processes, and also touches on the project structure by mentioning specific directories and files.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the build and development environment, including setup, build commands, and troubleshooting, which relates to workflow processes, and also touches on the project structure by mentioning specific directories and files.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "12. Build & Development Environment",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the setup and build processes (workflow_process) within specific development environment configurations (project_structure).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the setup and build processes (workflow_process) within specific development environment configurations (project_structure).\"}\n\n**Rationale Breakdown (for clarity, not part of the required response format):**\n\n- **project_structure**: The mention of using Docker (`dev/`) for isolated environments and referencing `dev/readme.md` implies guidance on how the project's development environment is structured and where certain resources live.\n- **workflow_process**: The steps for setup (`bundle install`, using Habitat for packaging), build commands (`rake` variations), and troubleshooting guidelines directly relate to the workflow and processes followed during development and build phases."
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "12. Build & Development Environment",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on setting up the development environment, building the project, and troubleshooting, which involve coding style, project structure, and workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on setting up the development environment, building the project, and troubleshooting, which involve coding style, project structure, and workflow process guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "13. Integration & Dependencies",
+      "level": 2,
+      "char_count": 161,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "13. Integration & Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the ecosystem, external services, and API dependencies of the Chef Vault project, indicating its architectural design and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the ecosystem, external services, and API dependencies of the Chef Vault project, indicating its architectural design and project structure.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "13. Integration & Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Lists dependencies and integrations, which relate to module roles and dependencies, a key aspect of architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Lists dependencies and integrations, which relate to module roles and dependencies, a key aspect of architecture.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "13. Integration & Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the ecosystem, external services, and API, which are related to module roles, dependencies, and where things live in the project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the ecosystem, external services, and API, which are related to module roles, dependencies, and where things live in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "14. Release & CI/CD Awareness",
+      "level": 2,
+      "char_count": 212,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "14. Release & CI/CD Awareness",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses release and CI/CD processes, including pipelines, automated release, and notifications.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses release and CI/CD processes, including pipelines, automated release, and notifications.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "14. Release & CI/CD Awareness",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on CI/CD pipelines, release automation, and notification channels, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on CI/CD pipelines, release automation, and notification channels, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "14. Release & CI/CD Awareness",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the workflow process for release and CI/CD, but also provides information on project structure regarding the use of specific channels and branches.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the workflow process for release and CI/CD, but also provides information on project structure regarding the use of specific channels and branches.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "15. Code Ownership & Review Process",
+      "level": 2,
+      "char_count": 240,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "15. Code Ownership & Review Process",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the code review process and ownership, which falls under workflow guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes the code review process and ownership, which falls under workflow guidelines.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "15. Code Ownership & Review Process",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific review process requirements and ownership roles, which directly relates to workflow and collaboration practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific review process requirements and ownership roles, which directly relates to workflow and collaboration practices.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "15. Code Ownership & Review Process",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the ownership and review process for the project's files, which falls under project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the ownership and review process for the project's files, which falls under project structure and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "16. Important Development Notes",
+      "level": 2,
+      "char_count": 502,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "16. Important Development Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines development workflow guidelines and troubleshooting steps, while also touching on coding style aspects such as specific commands for testing and code analysis.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines development workflow guidelines and troubleshooting steps, while also touching on coding style aspects such as specific commands for testing and code analysis.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "16. Important Development Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section primarily outlines de",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section primarily outlines development workflow guidelines (workflow_process) with a subset focusing on code style enforcement (coding_style).\""
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "16. Important Development Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for local development workflow and testing requirements, as well as coding style rules regarding which files to avoid modifying.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides guidelines for local development workflow and testing requirements, as well as coding style rules regarding which files to avoid modifying.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "17. Example Workflow Execution",
+      "level": 2,
+      "char_count": 797,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "17. Example Workflow Execution",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes a step-by-step workflow execution example, including user and copilot interactions, which relates to workflow_process, and also involves AI-specific directives and tool use constraints, which falls under agent_rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section describes a step-by-step workflow execution example, including user and copilot interactions, which relates to workflow_process, and also involves AI-specific directives and tool use constraints, which falls under agent_rules.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "17. Example Workflow Execution",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines step-by-step workflows for different types of changes (feature, bug, docs), emphasizing process stages and user-agent interactions.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines step-by-step workflows for different types of changes (feature, bug, docs), emphasizing process stages and user-agent interactions.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "17. Example Workflow Execution",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the step-by-step process for implementing features, fixing bugs, and making documentation changes, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the step-by-step process for implementing features, fixing bugs, and making documentation changes, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Ruby",
+      "level": 3,
+      "char_count": 357,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Ruby",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses Ruby-specific coding style and testing workflows, including tool usage and testing requirements.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses Ruby-specific coding style and testing workflows, including tool usage and testing requirements.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Ruby",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section covers Ruby-specific tooling and testing practices (coding_style) as well as execution commands and guidelines for testing and coverage (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section covers Ruby-specific tooling and testing practices (coding_style) as well as execution commands and guidelines for testing and coverage (workflow_process).\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Ruby",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on using tools for code style, testing, and coverage, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on using tools for code style, testing, and coverage, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Go, Node.js, Python, Java",
+      "level": 3,
+      "char_count": 33,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Go, Node.js, Python, Java",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section mentions specific programming languages not used in the repository, which relates to the project's structure and technology choices.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section mentions specific programming languages not used in the repository, which relates to the project's structure and technology choices.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Go, Node.js, Python, Java",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section indicates languages not used in the repository, implying a note on the project's technological scope, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section indicates languages not used in the repository, implying a note on the project's technological scope, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Go, Node.js, Python, Java",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the programming languages not used in the repository, which is related to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the programming languages not used in the repository, which is related to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "19. Advanced Configuration Management",
+      "level": 2,
+      "char_count": 394,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "19. Advanced Configuration Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses configuration files, environment variables, and secrets management, which relates to project structure, and also touches on workflow processes like secret management and integration with other tools.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses configuration files, environment variables, and secrets management, which relates to project structure, and also touches on workflow processes like secret management and integration with other tools.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "19. Advanced Configuration Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Lists specific config files ",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Lists specific config files and directories (project_structure), and provides guidelines on secrets management and environment variables (workflow_process).\""
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "19. Advanced Configuration Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section lists key files and their locations, which falls under project_structure, and also provides guidelines on handling secrets and environment variables, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section lists key files and their locations, which falls under project_structure, and also provides guidelines on handling secrets and environment variables, which relates to coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Validation Checklist",
+      "level": 2,
+      "char_count": 622,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Validation Checklist",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a validation checklist that covers various aspects of the repository, including testing requirements, build system integration, and workflow examples, which primarily relate to workflow process, and also touches on repository structure and labels, relating to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a validation checklist that covers various aspects of the repository, including testing requirements, build system integration, and workflow examples, which primarily relate to workflow process, and also touches on repository structure and labels, relating to project structure.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Validation Checklist",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a checklist of requirements and practices directly related to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a checklist of requirements and practices directly related to the workflow and development process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Validation Checklist",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section covers repository structure, workflow processes, and technology-specific patterns, which align with the project_structure, workflow_process, and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section covers repository structure, workflow processes, and technology-specific patterns, which align with the project_structure, workflow_process, and architecture categories.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Purpose",
+      "level": 3,
+      "char_count": 235,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Project Purpose",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the purpose and functionality of the chef-vault project, which relates to its overall structure and architectural role in the Chef ecosystem.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the purpose and functionality of the chef-vault project, which relates to its overall structure and architectural role in the Chef ecosystem.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Project Purpose",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the project's purpose and its role within the Chef ecosystem, which relates to understanding where the project fits in the broader system architecture, akin to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the project's purpose and its role within the Chef ecosystem, which relates to understanding where the project fits in the broader system architecture, akin to project structure.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Project Purpose",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the role and functionality of the chef-vault module, which is related to the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the role and functionality of the chef-vault module, which is related to the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Folder Structure Diagram",
+      "level": 3,
+      "char_count": 1619,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Folder Structure Diagram",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a detailed diagram of the repository's directory layout and key files, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a detailed diagram of the repository's directory layout and key files, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Folder Structure Diagram",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Folder Structure Diagram",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Technologies Used",
+      "level": 3,
+      "char_count": 213,
+      "voted_categories": [
+        "project_structure",
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Technologies Used",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section lists the technologies used in the project, including languages, frameworks, build tools, linting tools, and CI/CD tools, which relates to project structure, coding style, and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"This section lists the technologies used in the project, including languages, frameworks, build tools, linting tools, and CI/CD tools, which relates to project structure, coding style, and workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Technologies Used",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "Lists technologies used, implying project structure (languages/frameworks), workflow tools (build/automation, CI/CD), and coding style enforcers (linting).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"Lists technologies used, implying project structure (languages/frameworks), workflow tools (build/automation, CI/CD), and coding style enforcers (linting).\" }"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Technologies Used",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section lists the languages, frameworks, and tools used in the project, which relates to coding style, project structure, and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"This section lists the languages, frameworks, and tools used in the project, which relates to coding style, project structure, and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File Modification Guidelines",
+      "level": 3,
+      "char_count": 421,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "File Modification Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines guidelines for modifying files in the repository, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section outlines guidelines for modifying files in the repository, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "File Modification Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines directory/file modification rules, relating to project structure (project_structure) and development workflow guidelines (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines directory/file modification rules, relating to project structure (project_structure) and development workflow guidelines (workflow_process).\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "File Modification Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the structure of the project by listing directories and files, and also provides guidelines for modifying files, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines the structure of the project by listing directories and files, and also provides guidelines for modifying files, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Generation Patterns",
+      "level": 3,
+      "char_count": 135,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Code Generation Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses code generation patterns and file modification guidelines, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses code generation patterns and file modification guidelines, which relates to coding style and project structure.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Code Generation Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific directories and generated files that should not be modified, relating to project structure guidelines.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific directories and generated files that should not be modified, relating to project structure guidelines.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Code Generation Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on which files to avoid modifying, indicating project structure, and also outlines workflow processes related to code generation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on which files to avoid modifying, indicating project structure, and also outlines workflow processes related to code generation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Jira Integration (atlassian-mcp-server)",
+      "level": 3,
+      "char_count": 167,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Jira Integration (atlassian-mcp-server)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific workflow process related to Jira integration and also implies architectural dependencies on the atlassian-mcp-server MCP server.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes a specific workflow process related to Jira integration and also implies architectural dependencies on the atlassian-mcp-server MCP server.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Jira Integration (atlassian-mcp-server)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific step in the development workflow involving external tool integration and task analysis before coding.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific step in the development workflow involving external tool integration and task analysis before coding.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Jira Integration (atlassian-mcp-server)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a process for integrating Jira with the project, including reading the story, analyzing requirements, and planning implementation before coding.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a process for integrating Jira with the project, including reading the story, analyzing requirements, and planning implementation before coding.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "**Phase 1: Initial Setup & Analysis**",
+      "level": 4,
+      "char_count": 258,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 1: Initial Setup & Analysis**",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section outlines the initial setup and analysis phase of a project, including planning and approval gates, which relates to workflow processes and project evolution context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section outlines the initial setup and analysis phase of a project, including planning and approval gates, which relates to workflow processes and project evolution context.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 1: Initial Setup & Analysis**",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a workflow phase with specific tasks (workflow_process) that include analyzing repository structure (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a workflow phase with specific tasks (workflow_process) that include analyzing repository structure (project_structure).\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 1: Initial Setup & Analysis**",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section involves analyzing repository structure and dependencies, planning implementation, and includes an approval gate, which are aspects of project structure, architecture, and workflow process respectively.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section involves analyzing repository structure and dependencies, planning implementation, and includes an approval gate, which are aspects of project structure, architecture, and workflow process respectively.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "**Phase 2: Implementation Phase**",
+      "level": 4,
+      "char_count": 171,
+      "voted_categories": [
+        "workflow_process",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 2: Implementation Phase**",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes a phase in the project's workflow and mentions an implementation phase, indicating a project phase and progression.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section describes a phase in the project's workflow and mentions an implementation phase, indicating a project phase and progression.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 2: Implementation Phase**",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific step in the development workflow with a prompt and approval gate, indicating process control.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific step in the development workflow with a prompt and approval gate, indicating process control.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 2: Implementation Phase**",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section describes the implementation phase, which is part of the project's evolution context, and includes a workflow process for confirming completion before moving to testing.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section describes the implementation phase, which is part of the project's evolution context, and includes a workflow process for confirming completion before moving to testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "**Phase 3: Testing Phase**",
+      "level": 4,
+      "char_count": 246,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 3: Testing Phase**",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and approval gates, which are key components of a project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and approval gates, which are key components of a project's workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 3: Testing Phase**",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing requirements, approval gates, and PR creation steps, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing requirements, approval gates, and PR creation steps, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 3: Testing Phase**",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines testing requirements and tools, which falls under workflow_process, and also implies the architecture of the project by mentioning unit tests and coverage, which is a design aspect.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines testing requirements and tools, which falls under workflow_process, and also implies the architecture of the project by mentioning unit tests and coverage, which is a design aspect.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "**Phase 4: Pull Request Creation**",
+      "level": 4,
+      "char_count": 167,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 4: Pull Request Creation**",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the steps and guidelines for creating a pull request, which falls under workflow and process management.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the steps and guidelines for creating a pull request, which falls under workflow and process management.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 4: Pull Request Creation**",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and tools for creating a Pull Request, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and tools for creating a Pull Request, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "**Phase 4: Pull Request Creation**",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for creating pull requests, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for creating pull requests, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Testing Requirements (Critical)",
+      "level": 2,
+      "char_count": 635,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "3. Testing Requirements (Critical)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the testing requirements and guidelines for code changes, which is a key aspect of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the testing requirements and guidelines for code changes, which is a key aspect of the workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "3. Testing Requirements (Critical)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing requirements and procedures that must be followed as part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing requirements and procedures that must be followed as part of the development workflow.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "3. Testing Requirements (Critical)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines coding style for testing and establishes workflow process requirements for code changes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines coding style for testing and establishes workflow process requirements for code changes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Example RSpec Test Structure",
+      "level": 4,
+      "char_count": 124,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example RSpec Test Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides an example of how to structure RSpec tests for the ChefVault project, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides an example of how to structure RSpec tests for the ChefVault project, which relates to coding style and project structure.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example RSpec Test Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section illustrates a testing example, which relates to workflow processes such as testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section illustrates a testing example, which relates to workflow processes such as testing requirements.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example RSpec Test Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides an example of coding style for RSpec tests and demonstrates a part of the workflow process for testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides an example of coding style for RSpec tests and demonstrates a part of the workflow process for testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Example Cucumber Feature",
+      "level": 4,
+      "char_count": 183,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example Cucumber Feature",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a test scenario using Cucumber, which is related to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a test scenario using Cucumber, which is related to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example Cucumber Feature",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing scenario using Cucumber, which relates to testing requirements within workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing scenario using Cucumber, which relates to testing requirements within workflow processes.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Example Cucumber Feature",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a scenario for creating a new vault, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a scenario for creating a new vault, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. Pull Request Creation Process",
+      "level": 2,
+      "char_count": 716,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "4. Pull Request Creation Process",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the pull request creation process, including branch naming, commit formatting, and PR submission guidelines, which falls under workflow_process, with some aspects also related to coding_style due to the specification of commit messages and formatting.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the pull request creation process, including branch naming, commit formatting, and PR submission guidelines, which falls under workflow_process, with some aspects also related to coding_style due to the specification of commit messages and formatting.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "4. Pull Request Creation Process",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the step-by-step process for creating a pull request, including branch naming, commit commands, and PR description requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the step-by-step process for creating a pull request, including branch naming, commit commands, and PR description requirements.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "4. Pull Request Creation Process",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for creating pull requests, including branch naming conventions, commands, and PR description format.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for creating pull requests, including branch naming conventions, commands, and PR description format.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "5. DCO (Developer Certificate of Origin) Compliance",
+      "level": 2,
+      "char_count": 259,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "5. DCO (Developer Certificate of Origin) Compliance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses commit format and signing off commits, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses commit format and signing off commits, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "5. DCO (Developer Certificate of Origin) Compliance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on commit signing rules and their enforcement in the build process, which relates to workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on commit signing rules and their enforcement in the build process, which relates to workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "5. DCO (Developer Certificate of Origin) Compliance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commit format and PR rules, which are part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes commit format and PR rules, which are part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "6. Build System Integration Analysis",
+      "level": 2,
+      "char_count": 684,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "6. Build System Integration Analysis",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the build system integration and automation processes, including tool configurations and commands, which relates to workflow_process, and also touches on project structure by mentioning specific files and directories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the build system integration and automation processes, including tool configurations and commands, which relates to workflow_process, and also touches on project structure by mentioning specific files and directories.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "6. Build System Integration Analysis",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section details specific build system integrations, automation tasks, and testing commands, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section details specific build system integrations, automation tasks, and testing commands, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "6. Build System Integration Analysis",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes build system integration, including automation, testing, and dependency installation, which are part of the workflow process, and also mentions coding style tools like SimpleCov and RSpec for coverage.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes build system integration, including automation, testing, and dependency installation, which are part of the workflow process, and also mentions coding style tools like SimpleCov and RSpec for coverage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "7. Label Management System",
+      "level": 2,
+      "char_count": 756,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "7. Label Management System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the label management system, which is used to categorize and prioritize issues, and is related to the workflow and process of managing a repository.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the label management system, which is used to categorize and prioritize issues, and is related to the workflow and process of managing a repository.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "7. Label Management System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines label management for issue tracking, which relates to workflow and process management within the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines label management for issue tracking, which relates to workflow and process management within the project.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "7. Label Management System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the label management system, which is part of the workflow process for managing issues and pull requests in the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the label management system, which is part of the workflow process for managing issues and pull requests in the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "8. Prompt-Based Execution Protocol",
+      "level": 2,
+      "char_count": 383,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "8. Prompt-Based Execution Protocol",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines a step-by-step protocol for execution, including user approval and feedback, which relates to both workflow processes and agent rules for interaction.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section outlines a step-by-step protocol for execution, including user approval and feedback, which relates to both workflow processes and agent rules for interaction.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "8. Prompt-Based Execution Protocol",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step protocol for interactive execution, including user approval and feedback, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step protocol for interactive execution, including user approval and feedback, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "8. Prompt-Based Execution Protocol",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a protocol for executing tasks, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a protocol for executing tasks, which falls under workflow process guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "9. Repository-Specific Guidelines",
+      "level": 2,
+      "char_count": 407,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "9. Repository-Specific Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines guidelines for building, dependencies, and development environment, which relates to workflow process, project structure, and coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\", \"coding_style\"], \"reasoning\": \"This section outlines guidelines for building, dependencies, and development environment, which relates to workflow process, project structure, and coding style.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "9. Repository-Specific Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines directory restrictions (project_structure), build and dependency management processes (workflow_process), and implicit coding standards through prohibited file edits (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines directory restrictions (project_structure), build and dependency management processes (workflow_process), and implicit coding standards through prohibited file edits (coding_style).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **project_structure**: Mention of specific directories (`dev/`, `coverage/`, `vendor/`, `tmp/`) and their handling.\n- **workflow_process**: Discussion of build tools (Rake, Bundler, Expeditor), integration with external tools (SonarQube), and development environment setups.\n- **coding_style**: Implicit through the prohibition of editing certain files, implying a standard for generated content handling."
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "9. Repository-Specific Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on build tools, dependency management, development environment setup, and integration with other platforms, which fall under project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on build tools, dependency management, development environment setup, and integration with other platforms, which fall under project structure and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "10. Code Quality & Standards",
+      "level": 2,
+      "char_count": 482,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "10. Code Quality & Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses code style, conventions, and security, which falls under coding_style, and also touches on review processes, which relates to workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses code style, conventions, and security, which falls under coding_style, and also touches on review processes, which relates to workflow_process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "10. Code Quality & Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines coding standards (coding_style) but also touches on review process (workflow_process) with CODEOWNERS specification.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines coding standards (coding_style) but also touches on review process (workflow_process) with CODEOWNERS specification.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "10. Code Quality & Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines and security rules, which can be considered as agent rules for an AI agent.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section primarily discusses coding style guidelines and security rules, which can be considered as agent rules for an AI agent.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "11. Security and Compliance Requirements",
+      "level": 2,
+      "char_count": 222,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "11. Security and Compliance Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses coding practices like license headers and dependency monitoring, as well as workflow processes like scanning and authentication.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses coding practices like license headers and dependency monitoring, as well as workflow processes like scanning and authentication.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "11. Security and Compliance Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific tools (SonarQube, RuboCop) and practices (CVE monitoring, license headers) that guide development workflow and coding standards.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines specific tools (SonarQube, RuboCop) and practices (CVE monitoring, license headers) that guide development workflow and coding standards.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "11. Security and Compliance Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section covers coding style (license headers), workflow process (CVE awareness, scanning), and architecture (FIPS compliance, authentication).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section covers coding style (license headers), workflow process (CVE awareness, scanning), and architecture (FIPS compliance, authentication).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "12. Build & Development Environment",
+      "level": 2,
+      "char_count": 342,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "12. Build & Development Environment",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the build and development environment, including setup, build commands, and troubleshooting, which relates to workflow processes, and also touches on the project structure by mentioning specific directories and files.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the build and development environment, including setup, build commands, and troubleshooting, which relates to workflow processes, and also touches on the project structure by mentioning specific directories and files.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "12. Build & Development Environment",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the setup and build processes (workflow_process) within specific development environment configurations (project_structure).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the setup and build processes (workflow_process) within specific development environment configurations (project_structure).\"}\n\n**Rationale Breakdown (for clarity, not part of the required response format):**\n\n- **project_structure**: The mention of using Docker (`dev/`) for isolated environments and referencing `dev/readme.md` implies guidance on how the project's development environment is structured and where certain resources live.\n- **workflow_process**: The steps for setup (`bundle install`, using Habitat for packaging), build commands (`rake` variations), and troubleshooting guidelines directly relate to the workflow and processes followed during development and build phases."
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "12. Build & Development Environment",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on setting up the development environment, building the project, and troubleshooting, which involve coding style, project structure, and workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on setting up the development environment, building the project, and troubleshooting, which involve coding style, project structure, and workflow process guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "13. Integration & Dependencies",
+      "level": 2,
+      "char_count": 161,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "13. Integration & Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the ecosystem, external services, and API dependencies of the Chef Vault project, indicating its architectural design and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the ecosystem, external services, and API dependencies of the Chef Vault project, indicating its architectural design and project structure.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "13. Integration & Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Lists dependencies and integrations, which relate to module roles and dependencies, a key aspect of architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Lists dependencies and integrations, which relate to module roles and dependencies, a key aspect of architecture.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "13. Integration & Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the ecosystem, external services, and API, which are related to module roles, dependencies, and where things live in the project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the ecosystem, external services, and API, which are related to module roles, dependencies, and where things live in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "14. Release & CI/CD Awareness",
+      "level": 2,
+      "char_count": 212,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "14. Release & CI/CD Awareness",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses release and CI/CD processes, including pipelines, automated release, and notifications.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses release and CI/CD processes, including pipelines, automated release, and notifications.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "14. Release & CI/CD Awareness",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on CI/CD pipelines, release automation, and notification channels, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on CI/CD pipelines, release automation, and notification channels, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "14. Release & CI/CD Awareness",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the workflow process for release and CI/CD, but also provides information on project structure regarding the use of specific channels and branches.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the workflow process for release and CI/CD, but also provides information on project structure regarding the use of specific channels and branches.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "15. Code Ownership & Review Process",
+      "level": 2,
+      "char_count": 240,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "15. Code Ownership & Review Process",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the code review process and ownership, which falls under workflow guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes the code review process and ownership, which falls under workflow guidelines.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "15. Code Ownership & Review Process",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific review process requirements and ownership roles, which directly relates to workflow and collaboration practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific review process requirements and ownership roles, which directly relates to workflow and collaboration practices.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "15. Code Ownership & Review Process",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the ownership and review process for the project's files, which falls under project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the ownership and review process for the project's files, which falls under project structure and workflow process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "16. Important Development Notes",
+      "level": 2,
+      "char_count": 502,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "16. Important Development Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines development workflow guidelines and troubleshooting steps, while also touching on coding style aspects such as specific commands for testing and code analysis.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines development workflow guidelines and troubleshooting steps, while also touching on coding style aspects such as specific commands for testing and code analysis.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "16. Important Development Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section primarily outlines de",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section primarily outlines development workflow guidelines (workflow_process) with a subset focusing on code style enforcement (coding_style).\""
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "16. Important Development Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for local development workflow and testing requirements, as well as coding style rules regarding which files to avoid modifying.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides guidelines for local development workflow and testing requirements, as well as coding style rules regarding which files to avoid modifying.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "17. Example Workflow Execution",
+      "level": 2,
+      "char_count": 797,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "17. Example Workflow Execution",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes a step-by-step workflow execution example, including user and copilot interactions, which relates to workflow_process, and also involves AI-specific directives and tool use constraints, which falls under agent_rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section describes a step-by-step workflow execution example, including user and copilot interactions, which relates to workflow_process, and also involves AI-specific directives and tool use constraints, which falls under agent_rules.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "17. Example Workflow Execution",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines step-by-step workflows for different types of changes (feature, bug, docs), emphasizing process stages and user-agent interactions.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines step-by-step workflows for different types of changes (feature, bug, docs), emphasizing process stages and user-agent interactions.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "17. Example Workflow Execution",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the step-by-step process for implementing features, fixing bugs, and making documentation changes, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the step-by-step process for implementing features, fixing bugs, and making documentation changes, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Ruby",
+      "level": 3,
+      "char_count": 357,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Ruby",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses Ruby-specific coding style and testing workflows, including tool usage and testing requirements.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses Ruby-specific coding style and testing workflows, including tool usage and testing requirements.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Ruby",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section covers Ruby-specific tooling and testing practices (coding_style) as well as execution commands and guidelines for testing and coverage (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section covers Ruby-specific tooling and testing practices (coding_style) as well as execution commands and guidelines for testing and coverage (workflow_process).\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Ruby",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on using tools for code style, testing, and coverage, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on using tools for code style, testing, and coverage, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Go, Node.js, Python, Java",
+      "level": 3,
+      "char_count": 33,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Go, Node.js, Python, Java",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section mentions specific programming languages not used in the repository, which relates to the project's structure and technology choices.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section mentions specific programming languages not used in the repository, which relates to the project's structure and technology choices.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Go, Node.js, Python, Java",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section indicates languages not used in the repository, implying a note on the project's technological scope, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section indicates languages not used in the repository, implying a note on the project's technological scope, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Go, Node.js, Python, Java",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the programming languages not used in the repository, which is related to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the programming languages not used in the repository, which is related to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "19. Advanced Configuration Management",
+      "level": 2,
+      "char_count": 394,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "19. Advanced Configuration Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses configuration files, environment variables, and secrets management, which relates to project structure, and also touches on workflow processes like secret management and integration with other tools.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses configuration files, environment variables, and secrets management, which relates to project structure, and also touches on workflow processes like secret management and integration with other tools.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "19. Advanced Configuration Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Lists specific config files ",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Lists specific config files and directories (project_structure), and provides guidelines on secrets management and environment variables (workflow_process).\""
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "19. Advanced Configuration Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section lists key files and their locations, which falls under project_structure, and also provides guidelines on handling secrets and environment variables, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section lists key files and their locations, which falls under project_structure, and also provides guidelines on handling secrets and environment variables, which relates to coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Validation Checklist",
+      "level": 2,
+      "char_count": 622,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Validation Checklist",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a validation checklist that covers various aspects of the repository, including testing requirements, build system integration, and workflow examples, which primarily relate to workflow process, and also touches on repository structure and labels, relating to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a validation checklist that covers various aspects of the repository, including testing requirements, build system integration, and workflow examples, which primarily relate to workflow process, and also touches on repository structure and labels, relating to project structure.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Validation Checklist",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a checklist of requirements and practices directly related to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a checklist of requirements and practices directly related to the workflow and development process.\"}"
+        },
+        {
+          "repo": "chef/chef-vault",
+          "section_heading": "Validation Checklist",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section covers repository structure, workflow processes, and technology-specific patterns, which align with the project_structure, workflow_process, and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section covers repository structure, workflow processes, and technology-specific patterns, which align with the project_structure, workflow_process, and architecture categories.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.22580645161290322,
+    "project_structure": 0.3870967741935484,
+    "workflow_process": 0.8387096774193549,
+    "architecture": 0.06451612903225806,
+    "evolution_context": 0.03225806451612903,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.18998600016470393,
+    "project_structure": 0.3985835460759285,
+    "workflow_process": 0.8202256444041834,
+    "architecture": 0.03261138104257597,
+    "evolution_context": 0.014082187268385078,
+    "agent_rules": 0.0
+  }
+}

@@ -1,0 +1,898 @@
+{
+  "repo": "run-llama__LlamaIndexTS",
+  "full_name": "run-llama/LlamaIndexTS",
+  "n_sections": 10,
+  "n_chars": 4335,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Commands",
+      "level": 2,
+      "char_count": 930,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development commands and workflows, but also touches on coding style aspects such as linting and formatting.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes development commands and workflows, but also touches on coding style aspects such as linting and formatting.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines development ",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines development workflows (workflow_process) and includes commands for linting, type-checking, and formatting (coding_style).\""
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the package manager and build orchestration tool used in the project, as well as various commands for development, testing, and linting, which are part of the project's workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the package manager and build orchestration tool used in the project, as well as various commands for development, testing, and linting, which are part of the project's workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture Overview",
+      "level": 2,
+      "char_count": 191,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Architecture Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the overall organization and design of the LlamaIndexTS repository, including its monorepo structure and runtime environment support.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the overall organization and design of the LlamaIndexTS repository, including its monorepo structure and runtime environment support.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Architecture Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the monorepo structure",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the monorepo structure (project_structure) and framework organization (architecture).\""
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Architecture Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's structure as a monorepo and its runtime environment support, which falls under project_structure, and also outlines the architecture of the framework, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's structure as a monorepo and its runtime environment support, which falls under project_structure, and also outlines the architecture of the framework, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Package Structure",
+      "level": 3,
+      "char_count": 886,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Package Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key packages of the repository, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key packages of the repository, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Package Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key packages of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key packages of the project.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Package Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files (project_structure), as well as module roles and dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files (project_structure), as well as module roles and dependencies (architecture).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Architectural Patterns",
+      "level": 3,
+      "char_count": 555,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Key Architectural Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key architectural patterns, including runtime abstraction, provider pattern, modular design, and data flow, which are all related to the design and structure of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key architectural patterns, including runtime abstraction, provider pattern, modular design, and data flow, which are all related to the design and structure of the system.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Key Architectural Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explicitly describes architectural patterns and design decisions of the project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes architectural patterns and design decisions of the project.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Key Architectural Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes key architectural patterns such as runtime abstraction, provider pattern, modular design, and data flow.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes key architectural patterns such as runtime abstraction, provider pattern, modular design, and data flow.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Components",
+      "level": 3,
+      "char_count": 583,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Core Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the core components of the project, including their locations in the directory structure, which relates to project structure, and also outlines the roles and dependencies of these components, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the core components of the project, including their locations in the directory structure, which relates to project structure, and also outlines the roles and dependencies of these components, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Core Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Lists key components with their roles (architecture) and their directory locations (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Lists key components with their roles (architecture) and their directory locations (project_structure).\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Core Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the key components of the project and their respective locations, as well as their roles and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the key components of the project and their respective locations, as well as their roles and dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Deprecated Components",
+      "level": 3,
+      "char_count": 88,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Deprecated Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses deprecated components, indicating a change in the project's evolution, and also mentions specific directories, relating to project structure.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"This section discusses deprecated components, indicating a change in the project's evolution, and also mentions specific directories, relating to project structure.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Deprecated Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Lists specific deprecated compon",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Lists specific deprecated components (architecture) within the context of their location and implied removal (evolution_context).\""
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Deprecated Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses the deprecated components, which relates to the architecture of the project and its evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section discusses the deprecated components, which relates to the architecture of the project and its evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Structure",
+      "level": 3,
+      "char_count": 189,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Testing Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the organization of tests within the repository and a crucial step in the testing workflow, relating to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the organization of tests within the repository and a crucial step in the testing workflow, relating to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Testing Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Describes where tests live (project_structure) and a prerequisite step for testing (workflow_process)",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Describes where tests live (project_structure) and a prerequisite step for testing (workflow_process)\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Testing Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes where to place tests (project_structure) and the process for running tests (workflow_process).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes where to place tests (project_structure) and the process for running tests (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Multi-Runtime Support",
+      "level": 3,
+      "char_count": 195,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Multi-Runtime Support",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section discusses the codebase's support for multiple runtimes and compatibility considerations, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section discusses the codebase's support for multiple runtimes and compatibility considerations, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Multi-Runtime Support",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Discusses code organization (pro",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Discusses code organization (project_structure) for multi-runtime support and implies design considerations for compatibility (architecture).\""
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Multi-Runtime Support",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the design pattern of conditional exports and separate entry points to support multiple JavaScript runtimes, which is related to architecture, and also discusses the project structure in terms of compatibility across different runtimes.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the design pattern of conditional exports and separate entry points to support multiple JavaScript runtimes, which is related to architecture, and also discusses the project structure in terms of compatibility across different runtimes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Notes",
+      "level": 3,
+      "char_count": 357,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding style tools like lint-staged and project structure aspects such as package organization and build processes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses coding style tools like lint-staged and project structure aspects such as package organization and build processes.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses linting/formatting (coding_style), package organization (project_structure), and build/test workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses linting/formatting (coding_style), package organization (project_structure), and build/test workflow (workflow_process).\" }"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses coding style tools (Husky, lint-staged), project structure (package building with bunchee, core package exports), and workflow process (pre-commit formatting, running `pnpm build` before tests).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses coding style tools (Husky, lint-staged), project structure (package building with bunchee, core package exports), and workflow process (pre-commit formatting, running `pnpm build` before tests).\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Commands",
+      "level": 2,
+      "char_count": 930,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development commands and workflows, but also touches on coding style aspects such as linting and formatting.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes development commands and workflows, but also touches on coding style aspects such as linting and formatting.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines development ",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines development workflows (workflow_process) and includes commands for linting, type-checking, and formatting (coding_style).\""
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the package manager and build orchestration tool used in the project, as well as various commands for development, testing, and linting, which are part of the project's workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the package manager and build orchestration tool used in the project, as well as various commands for development, testing, and linting, which are part of the project's workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture Overview",
+      "level": 2,
+      "char_count": 191,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Architecture Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the overall organization and design of the LlamaIndexTS repository, including its monorepo structure and runtime environment support.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the overall organization and design of the LlamaIndexTS repository, including its monorepo structure and runtime environment support.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Architecture Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the monorepo structure",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the monorepo structure (project_structure) and framework organization (architecture).\""
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Architecture Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's structure as a monorepo and its runtime environment support, which falls under project_structure, and also outlines the architecture of the framework, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's structure as a monorepo and its runtime environment support, which falls under project_structure, and also outlines the architecture of the framework, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Package Structure",
+      "level": 3,
+      "char_count": 886,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Package Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key packages of the repository, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key packages of the repository, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Package Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key packages of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key packages of the project.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Package Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files (project_structure), as well as module roles and dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files (project_structure), as well as module roles and dependencies (architecture).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Architectural Patterns",
+      "level": 3,
+      "char_count": 555,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Key Architectural Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key architectural patterns, including runtime abstraction, provider pattern, modular design, and data flow, which are all related to the design and structure of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key architectural patterns, including runtime abstraction, provider pattern, modular design, and data flow, which are all related to the design and structure of the system.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Key Architectural Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explicitly describes architectural patterns and design decisions of the project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes architectural patterns and design decisions of the project.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Key Architectural Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes key architectural patterns such as runtime abstraction, provider pattern, modular design, and data flow.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes key architectural patterns such as runtime abstraction, provider pattern, modular design, and data flow.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Components",
+      "level": 3,
+      "char_count": 583,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Core Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the core components of the project, including their locations in the directory structure, which relates to project structure, and also outlines the roles and dependencies of these components, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the core components of the project, including their locations in the directory structure, which relates to project structure, and also outlines the roles and dependencies of these components, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Core Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Lists key components with their roles (architecture) and their directory locations (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Lists key components with their roles (architecture) and their directory locations (project_structure).\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Core Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the key components of the project and their respective locations, as well as their roles and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the key components of the project and their respective locations, as well as their roles and dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Deprecated Components",
+      "level": 3,
+      "char_count": 88,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Deprecated Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses deprecated components, indicating a change in the project's evolution, and also mentions specific directories, relating to project structure.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"This section discusses deprecated components, indicating a change in the project's evolution, and also mentions specific directories, relating to project structure.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Deprecated Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Lists specific deprecated compon",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Lists specific deprecated components (architecture) within the context of their location and implied removal (evolution_context).\""
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Deprecated Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses the deprecated components, which relates to the architecture of the project and its evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section discusses the deprecated components, which relates to the architecture of the project and its evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Structure",
+      "level": 3,
+      "char_count": 189,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Testing Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the organization of tests within the repository and a crucial step in the testing workflow, relating to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the organization of tests within the repository and a crucial step in the testing workflow, relating to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Testing Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Describes where tests live (project_structure) and a prerequisite step for testing (workflow_process)",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Describes where tests live (project_structure) and a prerequisite step for testing (workflow_process)\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Testing Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes where to place tests (project_structure) and the process for running tests (workflow_process).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes where to place tests (project_structure) and the process for running tests (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Multi-Runtime Support",
+      "level": 3,
+      "char_count": 195,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Multi-Runtime Support",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section discusses the codebase's support for multiple runtimes and compatibility considerations, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section discusses the codebase's support for multiple runtimes and compatibility considerations, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Multi-Runtime Support",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Discusses code organization (pro",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Discusses code organization (project_structure) for multi-runtime support and implies design considerations for compatibility (architecture).\""
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Multi-Runtime Support",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the design pattern of conditional exports and separate entry points to support multiple JavaScript runtimes, which is related to architecture, and also discusses the project structure in terms of compatibility across different runtimes.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the design pattern of conditional exports and separate entry points to support multiple JavaScript runtimes, which is related to architecture, and also discusses the project structure in terms of compatibility across different runtimes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Notes",
+      "level": 3,
+      "char_count": 357,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses coding style tools like lint-staged and project structure aspects such as package organization and build processes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses coding style tools like lint-staged and project structure aspects such as package organization and build processes.\"}"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses linting/formatting (coding_style), package organization (project_structure), and build/test workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses linting/formatting (coding_style), package organization (project_structure), and build/test workflow (workflow_process).\" }"
+        },
+        {
+          "repo": "run-llama/LlamaIndexTS",
+          "section_heading": "Development Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses coding style tools (Husky, lint-staged), project structure (package building with bunchee, core package exports), and workflow process (pre-commit formatting, running `pnpm build` before tests).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses coding style tools (Husky, lint-staged), project structure (package building with bunchee, core package exports), and workflow process (pre-commit formatting, running `pnpm build` before tests).\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.2,
+    "project_structure": 0.6,
+    "workflow_process": 0.3,
+    "architecture": 0.5,
+    "evolution_context": 0.1,
+    "agent_rules": 0.1
+  },
+  "category_char_fraction": {
+    "coding_style": 0.3157507360157017,
+    "project_structure": 0.5890578999018645,
+    "workflow_process": 0.3621197252208047,
+    "architecture": 0.39548577036310106,
+    "evolution_context": 0.021589793915603533,
+    "agent_rules": 0.025024533856722278
+  }
+}

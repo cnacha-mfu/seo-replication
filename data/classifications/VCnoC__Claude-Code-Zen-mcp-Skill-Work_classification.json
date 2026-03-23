@@ -1,0 +1,122 @@
+{
+  "repo": "VCnoC__Claude-Code-Zen-mcp-Skill-Work",
+  "full_name": "VCnoC/Claude-Code-Zen-mcp-Skill-Work",
+  "n_sections": 1,
+  "n_chars": 28708,
+  "sections": [
+    {
+      "heading": "(no heading)",
+      "level": 1,
+      "char_count": 28708,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "VCnoC/Claude-Code-Zen-mcp-Skill-Work",
+          "section_heading": "(no heading)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "This section primarily deals with AI-specific directives and rules for automation, routing, and decision-making, which falls under agent_rules, and also touches on module roles and dependencies, relating to architecture.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"This section primarily deals with AI-specific directives and rules for automation, routing, and decision-making, which falls under agent_rules, and also touches on module roles and dependencies, relating to architecture.\"}"
+        },
+        {
+          "repo": "VCnoC/Claude-Code-Zen-mcp-Skill-Work",
+          "section_heading": "(no heading)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section defines core concepts, their technical specifications, and constraints (agent_rules) that shape the system's structure and behavior (architecture).",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section defines core concepts, their technical specifications, and constraints (agent_rules) that shape the system's structure and behavior (architecture).\"}"
+        },
+        {
+          "repo": "VCnoC/Claude-Code-Zen-mcp-Skill-Work",
+          "section_heading": "(no heading)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes workflow processes such as automation mode, coverage target, and auto log, which are specific to AI agents.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section describes workflow processes such as automation mode, coverage target, and auto log, which are specific to AI agents.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "(no heading)",
+      "level": 1,
+      "char_count": 28708,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "VCnoC/Claude-Code-Zen-mcp-Skill-Work",
+          "section_heading": "(no heading)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "This section primarily deals with AI-specific directives and rules for automation, routing, and decision-making, which falls under agent_rules, and also touches on module roles and dependencies, relating to architecture.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"This section primarily deals with AI-specific directives and rules for automation, routing, and decision-making, which falls under agent_rules, and also touches on module roles and dependencies, relating to architecture.\"}"
+        },
+        {
+          "repo": "VCnoC/Claude-Code-Zen-mcp-Skill-Work",
+          "section_heading": "(no heading)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section defines core concepts, their technical specifications, and constraints (agent_rules) that shape the system's structure and behavior (architecture).",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section defines core concepts, their technical specifications, and constraints (agent_rules) that shape the system's structure and behavior (architecture).\"}"
+        },
+        {
+          "repo": "VCnoC/Claude-Code-Zen-mcp-Skill-Work",
+          "section_heading": "(no heading)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes workflow processes such as automation mode, coverage target, and auto log, which are specific to AI agents.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section describes workflow processes such as automation mode, coverage target, and auto log, which are specific to AI agents.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": false,
+    "project_structure": false,
+    "workflow_process": false,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.0,
+    "workflow_process": 0.0,
+    "architecture": 1.0,
+    "evolution_context": 0.0,
+    "agent_rules": 1.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.0,
+    "workflow_process": 0.0,
+    "architecture": 1.0,
+    "evolution_context": 0.0,
+    "agent_rules": 1.0
+  }
+}

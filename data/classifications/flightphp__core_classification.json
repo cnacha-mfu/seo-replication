@@ -1,0 +1,384 @@
+{
+  "repo": "flightphp__core",
+  "full_name": "flightphp/core",
+  "n_sections": 4,
+  "n_chars": 1639,
+  "sections": [
+    {
+      "heading": "Overview",
+      "level": 2,
+      "char_count": 163,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides a general introduction to the repository and its requirements, indicating its project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides a general introduction to the repository and its requirements, indicating its project structure and evolution context.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the repository's purpose and core characteristics, which relates to understanding the project's foundational structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the repository's purpose and core characteristics, which relates to understanding the project's foundational structure.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the main library of the project and its dependencies, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the main library of the project and its dependencies, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Guidelines",
+      "level": 2,
+      "char_count": 806,
+      "voted_categories": [
+        "project_structure",
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Project Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines guidelines for the project's overall structure, coding practices, and architectural design principles to maintain simplicity, performance, and extensibility.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines guidelines for the project's overall structure, coding practices, and architectural design principles to maintain simplicity, performance, and extensibility.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Project Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines coding standards (PHP version), project structure (dependency-free core), workflow implications (testing, documentation), and architectural principles (extensibility, simplicity).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines coding standards (PHP version), project structure (dependency-free core), workflow implications (testing, documentation), and architectural principles (extensibility, simplicity).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **coding_style**: PHP version support, avoiding PHP 8+ only features.\n- **project_structure**: Dependency-free core library directive.\n- **workflow_process**: Implicit workflow in requiring documentation and testing for new features.\n- **architecture**: Emphasis on extensibility, simplicity, performance, and plugin/extensions over core bloat."
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Project Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section outlines coding style guidelines, project structure rules, and architectural principles for the FlightPHP framework.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines coding style guidelines, project structure rules, and architectural principles for the FlightPHP framework.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development & Testing",
+      "level": 2,
+      "char_count": 365,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Development & Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development and testing workflows, including commands for running tests, linting, and beautifying code, which relates to both workflow_process and coding_style categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes development and testing workflows, including commands for running tests, linting, and beautifying code, which relates to both workflow_process and coding_style categories.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Development & Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines testing and code linting/beautification commands, which relate to workflow processes, and specifies coding style tools and standards.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines testing and code linting/beautification commands, which relate to workflow processes, and specifies coding style tools and standards.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Development & Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for running tests, linting, and beautifying code, which are related to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for running tests, linting, and beautifying code, which are related to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Standards",
+      "level": 2,
+      "char_count": 181,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Coding Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses coding conventions and standards, such as PSR1 and PHPStan compliance, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses coding conventions and standards, such as PSR1 and PHPStan compliance, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Coding Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions and compliance standards for PHP code.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions and compliance standards for PHP code.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Coding Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding standards, naming conventions, and formatting, which fall under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding standards, naming conventions, and formatting, which fall under the coding_style category.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Overview",
+      "level": 2,
+      "char_count": 163,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides a general introduction to the repository and its requirements, indicating its project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides a general introduction to the repository and its requirements, indicating its project structure and evolution context.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the repository's purpose and core characteristics, which relates to understanding the project's foundational structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the repository's purpose and core characteristics, which relates to understanding the project's foundational structure.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the main library of the project and its dependencies, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the main library of the project and its dependencies, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Guidelines",
+      "level": 2,
+      "char_count": 806,
+      "voted_categories": [
+        "project_structure",
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Project Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines guidelines for the project's overall structure, coding practices, and architectural design principles to maintain simplicity, performance, and extensibility.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines guidelines for the project's overall structure, coding practices, and architectural design principles to maintain simplicity, performance, and extensibility.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Project Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines coding standards (PHP version), project structure (dependency-free core), workflow implications (testing, documentation), and architectural principles (extensibility, simplicity).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines coding standards (PHP version), project structure (dependency-free core), workflow implications (testing, documentation), and architectural principles (extensibility, simplicity).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **coding_style**: PHP version support, avoiding PHP 8+ only features.\n- **project_structure**: Dependency-free core library directive.\n- **workflow_process**: Implicit workflow in requiring documentation and testing for new features.\n- **architecture**: Emphasis on extensibility, simplicity, performance, and plugin/extensions over core bloat."
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Project Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section outlines coding style guidelines, project structure rules, and architectural principles for the FlightPHP framework.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines coding style guidelines, project structure rules, and architectural principles for the FlightPHP framework.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development & Testing",
+      "level": 2,
+      "char_count": 365,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Development & Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development and testing workflows, including commands for running tests, linting, and beautifying code, which relates to both workflow_process and coding_style categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes development and testing workflows, including commands for running tests, linting, and beautifying code, which relates to both workflow_process and coding_style categories.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Development & Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines testing and code linting/beautification commands, which relate to workflow processes, and specifies coding style tools and standards.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines testing and code linting/beautification commands, which relate to workflow processes, and specifies coding style tools and standards.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Development & Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for running tests, linting, and beautifying code, which are related to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for running tests, linting, and beautifying code, which are related to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Standards",
+      "level": 2,
+      "char_count": 181,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Coding Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses coding conventions and standards, such as PSR1 and PHPStan compliance, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses coding conventions and standards, such as PSR1 and PHPStan compliance, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Coding Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions and compliance standards for PHP code.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions and compliance standards for PHP code.\"}"
+        },
+        {
+          "repo": "flightphp/core",
+          "section_heading": "Coding Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding standards, naming conventions, and formatting, which fall under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding standards, naming conventions, and formatting, which fall under the coding_style category.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.75,
+    "project_structure": 0.5,
+    "workflow_process": 0.25,
+    "architecture": 0.25,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.8924092409240925,
+    "project_structure": 0.6396039603960396,
+    "workflow_process": 0.24092409240924093,
+    "architecture": 0.532013201320132,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

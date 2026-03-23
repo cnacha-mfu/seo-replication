@@ -1,0 +1,1272 @@
+{
+  "repo": "TopSwagCode__MinimalWorker",
+  "full_name": "TopSwagCode/MinimalWorker",
+  "n_sections": 15,
+  "n_chars": 3840,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as guidance for Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as guidance for Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build",
+      "level": 1,
+      "char_count": 30,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Build",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the build process, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the build process, which falls under workflow_process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Build",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Build",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a build command, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a build command, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test all frameworks (8.0, 9.0, 10.0)",
+      "level": 1,
+      "char_count": 29,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test all frameworks (8.0, 9.0, 10.0)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing process, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing process, which falls under workflow_process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test all frameworks (8.0, 9.0, 10.0)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing command, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing command, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test all frameworks (8.0, 9.0, 10.0)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing command, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing command, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test specific framework",
+      "level": 1,
+      "char_count": 40,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test specific framework",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test specific framework",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a testing command, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a testing command, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test specific framework",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a test command, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a test command, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run single test",
+      "level": 1,
+      "char_count": 124,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run single test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing command, which falls under workflow processes related to testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing command, which falls under workflow processes related to testing requirements.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run single test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for executing a test, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for executing a test, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run single test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a test command, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a test command, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run samples",
+      "level": 1,
+      "char_count": 57,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run samples",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command to run samples, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides a command to run samples, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run samples",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command to run samples, which relates to the workflow or process of executing the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command to run samples, which relates to the workflow or process of executing the project.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run samples",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command for running samples, which is a coding style and workflow process directive.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a command for running samples, which is a coding style and workflow process directive.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pack NuGet",
+      "level": 1,
+      "char_count": 75,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Pack NuGet",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the build or deployment process using a dotnet command.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the build or deployment process using a dotnet command.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Pack NuGet",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging the project, which relates to the build workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging the project, which relates to the build workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Pack NuGet",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging a project, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging a project, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture",
+      "level": 2,
+      "char_count": 178,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section is classified as architecture because it describes the design and technical components of the MinimalWorker library.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section is classified as architecture because it describes the design and technical components of the MinimalWorker library.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes the architectural de",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes the architectural design of MinimalWorker, mentioning its core technology (Roslyn source generators) and a key architectural decision (AOT compatibility to avoid reflection).\""
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the architecture of the MinimalWorker library, including its use of Roslyn source generators for AOT compatibility.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the architecture of the MinimalWorker library, including its use of Roslyn source generators for AOT compatibility.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Components",
+      "level": 3,
+      "char_count": 940,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Core Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes core components, including extension methods and a source generator, which relates to the overall architecture and project structure of the MinimalWorker repository.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes core components, including extension methods and a source generator, which relates to the overall architecture and project structure of the MinimalWorker repository.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Core Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes core architectural components, their roles, and interactions within the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes core architectural components, their roles, and interactions within the system.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Core Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location and functionality of core components, including extension methods and a source generator, which are part of the project structure and contribute to its architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location and functionality of core components, including extension methods and a source generator, which are part of the project structure and contribute to its architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Worker Scoping Behavior",
+      "level": 3,
+      "char_count": 157,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Worker Scoping Behavior",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the scoping behavior of different worker types, which relates to the design and architecture of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the scoping behavior of different worker types, which relates to the design and architecture of the system.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Worker Scoping Behavior",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes behavioral patterns of worker types, implying design and architectural decisions.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes behavioral patterns of worker types, implying design and architectural decisions.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Worker Scoping Behavior",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the behavior of different types of workers, which relates to module roles and component boundaries in the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the behavior of different types of workers, which relates to module roles and component boundaries in the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Delegate Constraints",
+      "level": 3,
+      "char_count": 187,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Delegate Constraints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines specific constraints on delegate definitions, which pertains to coding style, and also touches on architectural decisions regarding parameter resolution and dependency injection.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines specific constraints on delegate definitions, which pertains to coding style, and also touches on architectural decisions regarding parameter resolution and dependency injection.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Delegate Constraints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section specifies coding conventi",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section specifies coding conventions (return types, parameter handling) and architectural design constraints (dependency injection, token handling).\""
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Delegate Constraints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "This section provides coding style guidelines for delegate constraints and specifies rules for AI-specific directives.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"This section provides coding style guidelines for delegate constraints and specifies rules for AI-specific directives.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Built-in Observability",
+      "level": 3,
+      "char_count": 228,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Built-in Observability",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the observability metrics and instrumentation of the MinimalWorker, which pertains to the system's architecture and design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the observability metrics and instrumentation of the MinimalWorker, which pertains to the system's architecture and design.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Built-in Observability",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes specific metrics and their naming conventions within the system's observability setup, relating to system design and component behavior.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes specific metrics and their naming conventions within the system's observability setup, relating to system design and component behavior.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Built-in Observability",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the architecture of the observability component and provides naming conventions for its elements.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the architecture of the observability component and provides naming conventions for its elements.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Patterns",
+      "level": 2,
+      "char_count": 517,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Testing Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing patterns and provides code examples, which relates to coding style, and also touches on testing requirements, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes testing patterns and provides code examples, which relates to coding style, and also touches on testing requirements, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Testing Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing pattern, which relates to workflow processes, specifically testing requirements within the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing pattern, which relates to workflow processes, specifically testing requirements within the development workflow.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Testing Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a coding style for testing and outlines a workflow process for time-based testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a coding style for testing and outlines a workflow process for time-based testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Timeout and Retry Behavior",
+      "level": 3,
+      "char_count": 422,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Timeout and Retry Behavior",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the design and behavior of timeout and retry mechanisms in the code, which relates to architecture, and also touches on error handling and retry rules, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section describes the design and behavior of timeout and retry mechanisms in the code, which relates to architecture, and also touches on error handling and retry rules, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Timeout and Retry Behavior",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes specific design choices and behaviors of core system components (timeout and retry mechanisms), which relates to the overall system architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes specific design choices and behaviors of core system components (timeout and retry mechanisms), which relates to the overall system architecture.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Timeout and Retry Behavior",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes the behavior of timeout and retry mechanisms, which are part of the workflow process and the system's architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes the behavior of timeout and retry mechanisms, which are part of the workflow process and the system's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Anti-patterns",
+      "level": 2,
+      "char_count": 362,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Common Anti-patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses coding best practices and testing guidelines, which relate to coding style, and also touches on workflow processes like testing and task management.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses coding best practices and testing guidelines, which relate to coding style, and also touches on workflow processes like testing and task management.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Common Anti-patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific coding practices (coding_style) and testing guidelines (workflow_process) to avoid anti-patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines specific coding practices (coding_style) and testing guidelines (workflow_process) to avoid anti-patterns.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Common Anti-patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for different types of workers and testing, as well as workflow process rules for time advancement.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for different types of workers and testing, as well as workflow process rules for time advancement.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as guidance for Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as guidance for Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build",
+      "level": 1,
+      "char_count": 30,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Build",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the build process, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the build process, which falls under workflow_process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Build",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Build",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a build command, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a build command, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test all frameworks (8.0, 9.0, 10.0)",
+      "level": 1,
+      "char_count": 29,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test all frameworks (8.0, 9.0, 10.0)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing process, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing process, which falls under workflow_process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test all frameworks (8.0, 9.0, 10.0)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing command, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing command, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test all frameworks (8.0, 9.0, 10.0)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing command, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing command, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test specific framework",
+      "level": 1,
+      "char_count": 40,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test specific framework",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test specific framework",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a testing command, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a testing command, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Test specific framework",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a test command, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a test command, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run single test",
+      "level": 1,
+      "char_count": 124,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run single test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing command, which falls under workflow processes related to testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing command, which falls under workflow processes related to testing requirements.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run single test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for executing a test, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for executing a test, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run single test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a test command, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a test command, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run samples",
+      "level": 1,
+      "char_count": 57,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run samples",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command to run samples, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides a command to run samples, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run samples",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command to run samples, which relates to the workflow or process of executing the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command to run samples, which relates to the workflow or process of executing the project.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Run samples",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command for running samples, which is a coding style and workflow process directive.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a command for running samples, which is a coding style and workflow process directive.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pack NuGet",
+      "level": 1,
+      "char_count": 75,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Pack NuGet",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the build or deployment process using a dotnet command.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the build or deployment process using a dotnet command.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Pack NuGet",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging the project, which relates to the build workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging the project, which relates to the build workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Pack NuGet",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging a project, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging a project, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture",
+      "level": 2,
+      "char_count": 178,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section is classified as architecture because it describes the design and technical components of the MinimalWorker library.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section is classified as architecture because it describes the design and technical components of the MinimalWorker library.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes the architectural de",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes the architectural design of MinimalWorker, mentioning its core technology (Roslyn source generators) and a key architectural decision (AOT compatibility to avoid reflection).\""
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the architecture of the MinimalWorker library, including its use of Roslyn source generators for AOT compatibility.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the architecture of the MinimalWorker library, including its use of Roslyn source generators for AOT compatibility.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Components",
+      "level": 3,
+      "char_count": 940,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Core Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes core components, including extension methods and a source generator, which relates to the overall architecture and project structure of the MinimalWorker repository.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes core components, including extension methods and a source generator, which relates to the overall architecture and project structure of the MinimalWorker repository.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Core Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes core architectural components, their roles, and interactions within the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes core architectural components, their roles, and interactions within the system.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Core Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location and functionality of core components, including extension methods and a source generator, which are part of the project structure and contribute to its architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location and functionality of core components, including extension methods and a source generator, which are part of the project structure and contribute to its architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Worker Scoping Behavior",
+      "level": 3,
+      "char_count": 157,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Worker Scoping Behavior",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the scoping behavior of different worker types, which relates to the design and architecture of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the scoping behavior of different worker types, which relates to the design and architecture of the system.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Worker Scoping Behavior",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes behavioral patterns of worker types, implying design and architectural decisions.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes behavioral patterns of worker types, implying design and architectural decisions.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Worker Scoping Behavior",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the behavior of different types of workers, which relates to module roles and component boundaries in the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the behavior of different types of workers, which relates to module roles and component boundaries in the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Delegate Constraints",
+      "level": 3,
+      "char_count": 187,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Delegate Constraints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines specific constraints on delegate definitions, which pertains to coding style, and also touches on architectural decisions regarding parameter resolution and dependency injection.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines specific constraints on delegate definitions, which pertains to coding style, and also touches on architectural decisions regarding parameter resolution and dependency injection.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Delegate Constraints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section specifies coding conventi",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section specifies coding conventions (return types, parameter handling) and architectural design constraints (dependency injection, token handling).\""
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Delegate Constraints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "This section provides coding style guidelines for delegate constraints and specifies rules for AI-specific directives.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"This section provides coding style guidelines for delegate constraints and specifies rules for AI-specific directives.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Built-in Observability",
+      "level": 3,
+      "char_count": 228,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Built-in Observability",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the observability metrics and instrumentation of the MinimalWorker, which pertains to the system's architecture and design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the observability metrics and instrumentation of the MinimalWorker, which pertains to the system's architecture and design.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Built-in Observability",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes specific metrics and their naming conventions within the system's observability setup, relating to system design and component behavior.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes specific metrics and their naming conventions within the system's observability setup, relating to system design and component behavior.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Built-in Observability",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the architecture of the observability component and provides naming conventions for its elements.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the architecture of the observability component and provides naming conventions for its elements.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Patterns",
+      "level": 2,
+      "char_count": 517,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Testing Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing patterns and provides code examples, which relates to coding style, and also touches on testing requirements, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes testing patterns and provides code examples, which relates to coding style, and also touches on testing requirements, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Testing Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing pattern, which relates to workflow processes, specifically testing requirements within the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing pattern, which relates to workflow processes, specifically testing requirements within the development workflow.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Testing Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a coding style for testing and outlines a workflow process for time-based testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a coding style for testing and outlines a workflow process for time-based testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Timeout and Retry Behavior",
+      "level": 3,
+      "char_count": 422,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Timeout and Retry Behavior",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the design and behavior of timeout and retry mechanisms in the code, which relates to architecture, and also touches on error handling and retry rules, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section describes the design and behavior of timeout and retry mechanisms in the code, which relates to architecture, and also touches on error handling and retry rules, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Timeout and Retry Behavior",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes specific design choices and behaviors of core system components (timeout and retry mechanisms), which relates to the overall system architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes specific design choices and behaviors of core system components (timeout and retry mechanisms), which relates to the overall system architecture.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Timeout and Retry Behavior",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes the behavior of timeout and retry mechanisms, which are part of the workflow process and the system's architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes the behavior of timeout and retry mechanisms, which are part of the workflow process and the system's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Anti-patterns",
+      "level": 2,
+      "char_count": 362,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Common Anti-patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses coding best practices and testing guidelines, which relate to coding style, and also touches on workflow processes like testing and task management.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses coding best practices and testing guidelines, which relate to coding style, and also touches on workflow processes like testing and task management.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Common Anti-patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific coding practices (coding_style) and testing guidelines (workflow_process) to avoid anti-patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines specific coding practices (coding_style) and testing guidelines (workflow_process) to avoid anti-patterns.\"}"
+        },
+        {
+          "repo": "TopSwagCode/MinimalWorker",
+          "section_heading": "Common Anti-patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for different types of workers and testing, as well as workflow process rules for time advancement.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for different types of workers and testing, as well as workflow process rules for time advancement.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.2,
+    "project_structure": 0.06666666666666667,
+    "workflow_process": 0.6,
+    "architecture": 0.4,
+    "evolution_context": 0.0,
+    "agent_rules": 0.06666666666666667
+  },
+  "category_char_fraction": {
+    "coding_style": 0.3091647331786543,
+    "project_structure": 0.27262180974477956,
+    "workflow_process": 0.4802784222737819,
+    "architecture": 0.6125290023201856,
+    "evolution_context": 0.0,
+    "agent_rules": 0.029582366589327145
+  }
+}

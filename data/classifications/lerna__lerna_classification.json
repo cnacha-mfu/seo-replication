@@ -1,0 +1,2040 @@
+{
+  "repo": "lerna__lerna",
+  "full_name": "lerna/lerna",
+  "n_sections": 24,
+  "n_chars": 6655,
+  "sections": [
+    {
+      "heading": "Guidelines for Claude Code",
+      "level": 1,
+      "char_count": 242,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Guidelines for Claude Code",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the repository's tooling and management setup, indicating its project structure and architectural dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the repository's tooling and management setup, indicating its project structure and architectural dependencies.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Guidelines for Claude Code",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Mentions monorepo management and task runner (project_structure), and implies build/testing workflows (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Mentions monorepo management and task runner (project_structure), and implies build/testing workflows (workflow_process).\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Guidelines for Claude Code",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's structure and the architecture by mentioning the use of Lerna, Nx, and their roles in managing the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's structure and the architecture by mentioning the use of Lerna, Nx, and their roles in managing the repository.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Package Manager",
+      "level": 2,
+      "char_count": 121,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Package Manager",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the package manager used in the project, which relates to project structure, and also implies a coding style by specifying the version and command usage.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the package manager used in the project, which relates to project structure, and also implies a coding style by specifying the version and command usage.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Package Manager",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "Specifies a particular package manager and command usage, which relates to coding and project execution standards.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"Specifies a particular package manager and command usage, which relates to coding and project execution standards.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Package Manager",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section specifies the package manager used in the project, which is part of project structure, and also provides a coding style guideline to use npm commands instead of others.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section specifies the package manager used in the project, which is part of project structure, and also provides a coding style guideline to use npm commands instead of others.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Required checks",
+      "level": 2,
+      "char_count": 962,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Required checks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the testing requirements and commands to be run for ensuring code quality and functionality, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the testing requirements and commands to be run for ensuring code quality and functionality, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Required checks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing and linting commands that must be run and pass as part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing and linting commands that must be run and pass as part of the development workflow.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Required checks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style tools (linting, formatting) and workflow processes (testing requirements, command usage).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style tools (linting, formatting) and workflow processes (testing requirements, command usage).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 53,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is explicitly titled 'Project Structure' and describes the repository's directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is explicitly titled 'Project Structure' and describes the repository's directory layout.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the repository's directory layout, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the repository's directory layout, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the main structure of the monorepo.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the main structure of the monorepo.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`/libs/` - Core Libraries",
+      "level": 3,
+      "char_count": 557,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/libs/` - Core Libraries",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the Lerna repository, focusing on the organization of core libraries.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the Lerna repository, focusing on the organization of core libraries.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/libs/` - Core Libraries",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and contents of the `/libs/` directory, indicating where specific functionalities and utilities live within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and contents of the `/libs/` directory, indicating where specific functionalities and utilities live within the project.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/libs/` - Core Libraries",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout of core libraries and the roles of different modules in the Lerna project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout of core libraries and the roles of different modules in the Lerna project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`/packages/` - Published Packages",
+      "level": 3,
+      "char_count": 59,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/packages/` - Published Packages",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the repository, specifically the location of the main Lerna package.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the repository, specifically the location of the main Lerna package.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/packages/` - Published Packages",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes a specific directory and its purpose within the project layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes a specific directory and its purpose within the project layout.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/packages/` - Published Packages",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the main Lerna package and its location in the directory structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the main Lerna package and its location in the directory structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`/e2e/` - End-to-End Tests",
+      "level": 3,
+      "char_count": 140,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/e2e/` - End-to-End Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and organization of end-to-end tests for Lerna commands.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and organization of end-to-end tests for Lerna commands.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/e2e/` - End-to-End Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a specific directory (`/e2e/`) and its purpose, which relates to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a specific directory (`/e2e/`) and its purpose, which relates to how the project is organized.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/e2e/` - End-to-End Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the structure of end-to-end tests for Lerna commands, which is part of project structure, and also outlines the testing requirements, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the structure of end-to-end tests for Lerna commands, which is part of project structure, and also outlines the testing requirements, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`/__fixtures__/` - Test Fixtures",
+      "level": 3,
+      "char_count": 79,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/__fixtures__/` - Test Fixtures",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and purpose of a specific directory, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and purpose of a specific directory, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/__fixtures__/` - Test Fixtures",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a specific directory (`/__fixtures__/`) and its purpose, which relates to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a specific directory (`/__fixtures__/`) and its purpose, which relates to how the project is organized.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/__fixtures__/` - Test Fixtures",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes test fixtures, which are sample monorepo structures for integration testing, relating to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes test fixtures, which are sample monorepo structures for integration testing, relating to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "TypeScript Configuration",
+      "level": 3,
+      "char_count": 219,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "TypeScript Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on TypeScript configuration, which relates to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on TypeScript configuration, which relates to coding style and conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "TypeScript Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on TypeScript settings, which relate to coding style and formatting conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on TypeScript settings, which relate to coding style and formatting conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "TypeScript Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses TypeScript configuration, which falls under coding style, and mentions Node.js version and module system, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses TypeScript configuration, which falls under coding style, and mentions Node.js version and module system, which relates to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "ESLint Configuration",
+      "level": 3,
+      "char_count": 181,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "ESLint Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses ESLint configuration, which is related to code style and formatting, falling under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses ESLint configuration, which is related to code style and formatting, falling under the coding_style category.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "ESLint Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses ESLint configur",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses ESLint configuration (coding_style) and enforcing module boundaries (architecture).\""
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "ESLint Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily discusses coding style with ESLint configuration, but also enforces module boundaries between packages, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily discusses coding style with ESLint configuration, but also enforces module boundaries between packages, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File Naming and Structure",
+      "level": 3,
+      "char_count": 382,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "File Naming and Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses both the naming conventions and directory layout of various file types in the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section discusses both the naming conventions and directory layout of various file types in the repository.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "File Naming and Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines directory layouts (project_structure) and specific naming conventions (coding_style) for different file types.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section outlines directory layouts (project_structure) and specific naming conventions (coding_style) for different file types.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "File Naming and Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the directory layout and file naming conventions, which fall under project_structure and coding_style categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section primarily describes the directory layout and file naming conventions, which fall under project_structure and coding_style categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Command Development Patterns",
+      "level": 3,
+      "char_count": 398,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Command Development Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the directory layout and implementation details of Lerna commands, which relates to project structure, and also touches on coding conventions and patterns, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the directory layout and implementation details of Lerna commands, which relates to project structure, and also touches on coding conventions and patterns, which falls under coding style.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Command Development Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses directory layout (project_structure), coding practices (coding_style), and testing requirements (workflow_process) for command development.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses directory layout (project_structure), coding practices (coding_style), and testing requirements (workflow_process) for command development.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Command Development Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes where commands are implemented (project_structure), how they interact with shared utilities (architecture), and the coding style for CLI argument parsing and execution.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section describes where commands are implemented (project_structure), how they interact with shared utilities (architecture), and the coding style for CLI argument parsing and execution.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Conventions",
+      "level": 3,
+      "char_count": 326,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Testing Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing conventions, which relates to workflow_process, and also touches on coding_style by implying a specific testing framework and structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing conventions, which relates to workflow_process, and also touches on coding_style by implying a specific testing framework and structure.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Testing Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing conventions, which are part of the workflow process in software development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing conventions, which are part of the workflow process in software development.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Testing Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the use of Jest as the primary testing framework, which falls under coding_style, and outlines testing requirements for unit, integration, and E2E tests, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes the use of Jest as the primary testing framework, which falls under coding_style, and outlines testing requirements for unit, integration, and E2E tests, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Release",
+      "level": 3,
+      "char_count": 357,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and Release",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the build and release process, including tools and versioning, which relates to workflow and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the build and release process, including tools and versioning, which relates to workflow and project structure.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and Release",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines build, release, and publishing workflows (workflow_process) and mentions specific tools and configurations integral to the project's operational setup (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines build, release, and publishing workflows (workflow_process) and mentions specific tools and configurations integral to the project's operational setup (project_structure).\"}\n\n**Rationale Breakdown for Clarity (not part of the required response format but added for understanding):**\n\n- **workflow_process**: \n  - \"Build\" and \"Release\" processes are described, indicating how the project is built and released.\n  - Mention of \"Conventional Commits\" and \"automated versioning\" relates to commit and release workflows.\n  - \"Publishing\" commands for npm packages are part of the workflow.\n\n- **project_structure**:\n  - Implicit in the choice and configuration of specific tools (Nx, TypeScript, esbuild, Lerna's versioning) which are part of how the project is set up and managed.\n  - \"Targets\" with dependency management hints at how the project is structured for build processes.\n\n- **Why not others?**\n  - **coding_style**: No naming, formatting, or style guidelines mentioned.\n  - **architecture**: While tools are mentioned, their architectural role or system design isn't discussed.\n  - **evolution_context**: No mention of project phase, complexity, or historical context.\n  - **agent_rules**: Except for the last line, which is a single directive. However, the dominant content doesn't focus on agent rules, and the instruction is more about workflow restriction than a comprehensive agent strategy."
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and Release",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes build and release processes, including versioning and publishing, which are part of workflow_process, and also mentions the use of Nx and Lerna's versioning system, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes build and release processes, including versioning and publishing, which are part of workflow_process, and also mentions the use of Nx and Lerna's versioning system, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit conventions",
+      "level": 2,
+      "char_count": 695,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Commit conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes commit message conventions and formatting, which relates to both workflow processes and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes commit message conventions and formatting, which relates to both workflow processes and coding style guidelines.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Commit conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules for commit messages and PR titles, which directly relates to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules for commit messages and PR titles, which directly relates to the workflow process.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Commit conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for commit messages and PR titles, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for commit messages and PR titles, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Tools",
+      "level": 2,
+      "char_count": 291,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Development Tools",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the development tools used in the project, including the version of Node.js, package manager, task runner, and testing framework, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the development tools used in the project, including the version of Node.js, package manager, task runner, and testing framework, which relates to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Development Tools",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines key tools and their versions used in the project, which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines key tools and their versions used in the project, which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Development Tools",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the development tools used in the project, which includes coding style tools like TypeScript and project structure tools like Nx.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the development tools used in the project, which includes coding style tools like TypeScript and project structure tools like Nx.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "or use Nx directly",
+      "level": 1,
+      "char_count": 20,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "or use Nx directly",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to run a build task, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to run a build task, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "or use Nx directly",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for executing a build task, which relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for executing a build task, which relates to workflow and process.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "or use Nx directly",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command line instruction, which is related to coding style, and mentions the use of Nx, which is a project structure tool.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a command line instruction, which is related to coding style, and mentions the use of Nx, which is a project structure tool.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Format code",
+      "level": 1,
+      "char_count": 20,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Format code",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section is about code formatting, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section is about code formatting, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Format code",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a command for code formatting, which directly relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a command for code formatting, which directly relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Format code",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command for formatting code, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command for formatting code, which falls under coding style guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check formatting",
+      "level": 1,
+      "char_count": 20,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Check formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is about checking code formatting, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is about checking code formatting, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Check formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section refers to checking formatting, which directly relates to code style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section refers to checking formatting, which directly relates to code style conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Check formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a command for checking code formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a command for checking code formatting.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test a specific command",
+      "level": 1,
+      "char_count": 24,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Test a specific command",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing a specific command, which falls under workflow processes such as testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing a specific command, which falls under workflow processes such as testing requirements.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Test a specific command",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Test a specific command",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and test everything",
+      "level": 1,
+      "char_count": 30,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and test everything",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to build, test, and lint, which falls under workflow processes such as testing requirements and CI/CD.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to build, test, and lint, which falls under workflow processes such as testing requirements and CI/CD.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and test everything",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for executing build, test, and lint tasks, which relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for executing build, test, and lint tasks, which relates to workflow and process.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and test everything",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for building, testing, and linting, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for building, testing, and linting, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Start local registry for E2E testing",
+      "level": 1,
+      "char_count": 32,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Start local registry for E2E testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the testing process, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the testing process, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Start local registry for E2E testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for a testing-related workflow step, which aligns with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for a testing-related workflow step, which aligns with workflow processes.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Start local registry for E2E testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for starting a local registry for end-to-end testing, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for starting a local registry for end-to-end testing, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build package for E2E publishing tests",
+      "level": 1,
+      "char_count": 37,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build package for E2E publishing tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command for building a package for E2E publishing tests, which falls under workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command for building a package for E2E publishing tests, which falls under workflow and testing processes.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build package for E2E publishing tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command and process for building a package, which relates to workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command and process for building a package, which relates to workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build package for E2E publishing tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for building a package as part of end-to-end testing, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for building a package as part of end-to-end testing, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Lerna Configuration",
+      "level": 2,
+      "char_count": 339,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Lerna Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the configuration file and settings for the project, which relates to project structure, and also mentions conventional commits and GitHub releases integration, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the configuration file and settings for the project, which relates to project structure, and also mentions conventional commits and GitHub releases integration, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Lerna Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a key configuration file (project_structure) that influences how the project is managed and versioned (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a key configuration file (project_structure) that influences how the project is managed and versioned (workflow_process).\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Lerna Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the configuration of a project management tool, which impacts both the project structure and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the configuration of a project management tool, which impacts both the project structure and workflow processes.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Guidelines for Claude Code",
+      "level": 1,
+      "char_count": 242,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Guidelines for Claude Code",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the repository's tooling and management setup, indicating its project structure and architectural dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the repository's tooling and management setup, indicating its project structure and architectural dependencies.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Guidelines for Claude Code",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Mentions monorepo management and task runner (project_structure), and implies build/testing workflows (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Mentions monorepo management and task runner (project_structure), and implies build/testing workflows (workflow_process).\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Guidelines for Claude Code",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's structure and the architecture by mentioning the use of Lerna, Nx, and their roles in managing the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's structure and the architecture by mentioning the use of Lerna, Nx, and their roles in managing the repository.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Package Manager",
+      "level": 2,
+      "char_count": 121,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Package Manager",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the package manager used in the project, which relates to project structure, and also implies a coding style by specifying the version and command usage.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the package manager used in the project, which relates to project structure, and also implies a coding style by specifying the version and command usage.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Package Manager",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "Specifies a particular package manager and command usage, which relates to coding and project execution standards.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"Specifies a particular package manager and command usage, which relates to coding and project execution standards.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Package Manager",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section specifies the package manager used in the project, which is part of project structure, and also provides a coding style guideline to use npm commands instead of others.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section specifies the package manager used in the project, which is part of project structure, and also provides a coding style guideline to use npm commands instead of others.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Required checks",
+      "level": 2,
+      "char_count": 962,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Required checks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the testing requirements and commands to be run for ensuring code quality and functionality, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the testing requirements and commands to be run for ensuring code quality and functionality, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Required checks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing and linting commands that must be run and pass as part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing and linting commands that must be run and pass as part of the development workflow.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Required checks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style tools (linting, formatting) and workflow processes (testing requirements, command usage).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style tools (linting, formatting) and workflow processes (testing requirements, command usage).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 53,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is explicitly titled 'Project Structure' and describes the repository's directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is explicitly titled 'Project Structure' and describes the repository's directory layout.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the repository's directory layout, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the repository's directory layout, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the main structure of the monorepo.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the main structure of the monorepo.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`/libs/` - Core Libraries",
+      "level": 3,
+      "char_count": 557,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/libs/` - Core Libraries",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the Lerna repository, focusing on the organization of core libraries.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the Lerna repository, focusing on the organization of core libraries.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/libs/` - Core Libraries",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and contents of the `/libs/` directory, indicating where specific functionalities and utilities live within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and contents of the `/libs/` directory, indicating where specific functionalities and utilities live within the project.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/libs/` - Core Libraries",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout of core libraries and the roles of different modules in the Lerna project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout of core libraries and the roles of different modules in the Lerna project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`/packages/` - Published Packages",
+      "level": 3,
+      "char_count": 59,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/packages/` - Published Packages",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the repository, specifically the location of the main Lerna package.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the repository, specifically the location of the main Lerna package.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/packages/` - Published Packages",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes a specific directory and its purpose within the project layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes a specific directory and its purpose within the project layout.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/packages/` - Published Packages",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the main Lerna package and its location in the directory structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the main Lerna package and its location in the directory structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`/e2e/` - End-to-End Tests",
+      "level": 3,
+      "char_count": 140,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/e2e/` - End-to-End Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and organization of end-to-end tests for Lerna commands.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and organization of end-to-end tests for Lerna commands.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/e2e/` - End-to-End Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a specific directory (`/e2e/`) and its purpose, which relates to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a specific directory (`/e2e/`) and its purpose, which relates to how the project is organized.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/e2e/` - End-to-End Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the structure of end-to-end tests for Lerna commands, which is part of project structure, and also outlines the testing requirements, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the structure of end-to-end tests for Lerna commands, which is part of project structure, and also outlines the testing requirements, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`/__fixtures__/` - Test Fixtures",
+      "level": 3,
+      "char_count": 79,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/__fixtures__/` - Test Fixtures",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and purpose of a specific directory, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and purpose of a specific directory, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/__fixtures__/` - Test Fixtures",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a specific directory (`/__fixtures__/`) and its purpose, which relates to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a specific directory (`/__fixtures__/`) and its purpose, which relates to how the project is organized.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "`/__fixtures__/` - Test Fixtures",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes test fixtures, which are sample monorepo structures for integration testing, relating to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes test fixtures, which are sample monorepo structures for integration testing, relating to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "TypeScript Configuration",
+      "level": 3,
+      "char_count": 219,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "TypeScript Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on TypeScript configuration, which relates to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on TypeScript configuration, which relates to coding style and conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "TypeScript Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on TypeScript settings, which relate to coding style and formatting conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on TypeScript settings, which relate to coding style and formatting conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "TypeScript Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses TypeScript configuration, which falls under coding style, and mentions Node.js version and module system, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses TypeScript configuration, which falls under coding style, and mentions Node.js version and module system, which relates to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "ESLint Configuration",
+      "level": 3,
+      "char_count": 181,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "ESLint Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses ESLint configuration, which is related to code style and formatting, falling under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses ESLint configuration, which is related to code style and formatting, falling under the coding_style category.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "ESLint Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses ESLint configur",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses ESLint configuration (coding_style) and enforcing module boundaries (architecture).\""
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "ESLint Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily discusses coding style with ESLint configuration, but also enforces module boundaries between packages, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily discusses coding style with ESLint configuration, but also enforces module boundaries between packages, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File Naming and Structure",
+      "level": 3,
+      "char_count": 382,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "File Naming and Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses both the naming conventions and directory layout of various file types in the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section discusses both the naming conventions and directory layout of various file types in the repository.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "File Naming and Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines directory layouts (project_structure) and specific naming conventions (coding_style) for different file types.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section outlines directory layouts (project_structure) and specific naming conventions (coding_style) for different file types.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "File Naming and Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the directory layout and file naming conventions, which fall under project_structure and coding_style categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section primarily describes the directory layout and file naming conventions, which fall under project_structure and coding_style categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Command Development Patterns",
+      "level": 3,
+      "char_count": 398,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Command Development Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the directory layout and implementation details of Lerna commands, which relates to project structure, and also touches on coding conventions and patterns, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the directory layout and implementation details of Lerna commands, which relates to project structure, and also touches on coding conventions and patterns, which falls under coding style.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Command Development Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses directory layout (project_structure), coding practices (coding_style), and testing requirements (workflow_process) for command development.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses directory layout (project_structure), coding practices (coding_style), and testing requirements (workflow_process) for command development.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Command Development Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes where commands are implemented (project_structure), how they interact with shared utilities (architecture), and the coding style for CLI argument parsing and execution.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section describes where commands are implemented (project_structure), how they interact with shared utilities (architecture), and the coding style for CLI argument parsing and execution.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Conventions",
+      "level": 3,
+      "char_count": 326,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Testing Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing conventions, which relates to workflow_process, and also touches on coding_style by implying a specific testing framework and structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing conventions, which relates to workflow_process, and also touches on coding_style by implying a specific testing framework and structure.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Testing Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing conventions, which are part of the workflow process in software development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing conventions, which are part of the workflow process in software development.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Testing Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the use of Jest as the primary testing framework, which falls under coding_style, and outlines testing requirements for unit, integration, and E2E tests, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes the use of Jest as the primary testing framework, which falls under coding_style, and outlines testing requirements for unit, integration, and E2E tests, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Release",
+      "level": 3,
+      "char_count": 357,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and Release",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the build and release process, including tools and versioning, which relates to workflow and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the build and release process, including tools and versioning, which relates to workflow and project structure.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and Release",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines build, release, and publishing workflows (workflow_process) and mentions specific tools and configurations integral to the project's operational setup (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines build, release, and publishing workflows (workflow_process) and mentions specific tools and configurations integral to the project's operational setup (project_structure).\"}\n\n**Rationale Breakdown for Clarity (not part of the required response format but added for understanding):**\n\n- **workflow_process**: \n  - \"Build\" and \"Release\" processes are described, indicating how the project is built and released.\n  - Mention of \"Conventional Commits\" and \"automated versioning\" relates to commit and release workflows.\n  - \"Publishing\" commands for npm packages are part of the workflow.\n\n- **project_structure**:\n  - Implicit in the choice and configuration of specific tools (Nx, TypeScript, esbuild, Lerna's versioning) which are part of how the project is set up and managed.\n  - \"Targets\" with dependency management hints at how the project is structured for build processes.\n\n- **Why not others?**\n  - **coding_style**: No naming, formatting, or style guidelines mentioned.\n  - **architecture**: While tools are mentioned, their architectural role or system design isn't discussed.\n  - **evolution_context**: No mention of project phase, complexity, or historical context.\n  - **agent_rules**: Except for the last line, which is a single directive. However, the dominant content doesn't focus on agent rules, and the instruction is more about workflow restriction than a comprehensive agent strategy."
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and Release",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes build and release processes, including versioning and publishing, which are part of workflow_process, and also mentions the use of Nx and Lerna's versioning system, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes build and release processes, including versioning and publishing, which are part of workflow_process, and also mentions the use of Nx and Lerna's versioning system, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit conventions",
+      "level": 2,
+      "char_count": 695,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Commit conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes commit message conventions and formatting, which relates to both workflow processes and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes commit message conventions and formatting, which relates to both workflow processes and coding style guidelines.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Commit conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules for commit messages and PR titles, which directly relates to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules for commit messages and PR titles, which directly relates to the workflow process.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Commit conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for commit messages and PR titles, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for commit messages and PR titles, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Tools",
+      "level": 2,
+      "char_count": 291,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Development Tools",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the development tools used in the project, including the version of Node.js, package manager, task runner, and testing framework, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the development tools used in the project, including the version of Node.js, package manager, task runner, and testing framework, which relates to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Development Tools",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines key tools and their versions used in the project, which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines key tools and their versions used in the project, which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Development Tools",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the development tools used in the project, which includes coding style tools like TypeScript and project structure tools like Nx.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the development tools used in the project, which includes coding style tools like TypeScript and project structure tools like Nx.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "or use Nx directly",
+      "level": 1,
+      "char_count": 20,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "or use Nx directly",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to run a build task, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to run a build task, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "or use Nx directly",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for executing a build task, which relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for executing a build task, which relates to workflow and process.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "or use Nx directly",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a command line instruction, which is related to coding style, and mentions the use of Nx, which is a project structure tool.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a command line instruction, which is related to coding style, and mentions the use of Nx, which is a project structure tool.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Format code",
+      "level": 1,
+      "char_count": 20,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Format code",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section is about code formatting, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section is about code formatting, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Format code",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a command for code formatting, which directly relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a command for code formatting, which directly relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Format code",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command for formatting code, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command for formatting code, which falls under coding style guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check formatting",
+      "level": 1,
+      "char_count": 20,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Check formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is about checking code formatting, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is about checking code formatting, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Check formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section refers to checking formatting, which directly relates to code style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section refers to checking formatting, which directly relates to code style conventions.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Check formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a command for checking code formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a command for checking code formatting.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test a specific command",
+      "level": 1,
+      "char_count": 24,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Test a specific command",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing a specific command, which falls under workflow processes such as testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing a specific command, which falls under workflow processes such as testing requirements.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Test a specific command",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Test a specific command",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and test everything",
+      "level": 1,
+      "char_count": 30,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and test everything",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to build, test, and lint, which falls under workflow processes such as testing requirements and CI/CD.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to build, test, and lint, which falls under workflow processes such as testing requirements and CI/CD.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and test everything",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for executing build, test, and lint tasks, which relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for executing build, test, and lint tasks, which relates to workflow and process.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build and test everything",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for building, testing, and linting, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for building, testing, and linting, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Start local registry for E2E testing",
+      "level": 1,
+      "char_count": 32,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Start local registry for E2E testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the testing process, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the testing process, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Start local registry for E2E testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for a testing-related workflow step, which aligns with workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for a testing-related workflow step, which aligns with workflow processes.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Start local registry for E2E testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for starting a local registry for end-to-end testing, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for starting a local registry for end-to-end testing, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build package for E2E publishing tests",
+      "level": 1,
+      "char_count": 37,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build package for E2E publishing tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command for building a package for E2E publishing tests, which falls under workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command for building a package for E2E publishing tests, which falls under workflow and testing processes.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build package for E2E publishing tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command and process for building a package, which relates to workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command and process for building a package, which relates to workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Build package for E2E publishing tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for building a package as part of end-to-end testing, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for building a package as part of end-to-end testing, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Lerna Configuration",
+      "level": 2,
+      "char_count": 339,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Lerna Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the configuration file and settings for the project, which relates to project structure, and also mentions conventional commits and GitHub releases integration, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the configuration file and settings for the project, which relates to project structure, and also mentions conventional commits and GitHub releases integration, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Lerna Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a key configuration file (project_structure) that influences how the project is managed and versioned (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a key configuration file (project_structure) that influences how the project is managed and versioned (workflow_process).\"}"
+        },
+        {
+          "repo": "lerna/lerna",
+          "section_heading": "Lerna Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the configuration of a project management tool, which impacts both the project structure and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the configuration of a project management tool, which impacts both the project structure and workflow processes.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.4166666666666667,
+    "project_structure": 0.5,
+    "workflow_process": 0.4166666666666667,
+    "architecture": 0.08333333333333333,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.47510744985673353,
+    "project_structure": 0.5404727793696275,
+    "workflow_process": 0.5053724928366762,
+    "architecture": 0.07575214899713467,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

@@ -1,0 +1,2470 @@
+{
+  "repo": "JunDamin__hwpapi",
+  "full_name": "JunDamin/hwpapi",
+  "n_sections": 29,
+  "n_chars": 9148,
+  "sections": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 456,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides an overview of the project, including its purpose, platform, and version, which relates to project structure, and also mentions the version and license, indicating evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides an overview of the project, including its purpose, platform, and version, which relates to project structure, and also mentions the version and license, indicating evolution context.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section provides a high-level overview of the project (project_structure) and mentions the version and license, which relate to its evolution and context (evolution_context).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section provides a high-level overview of the project (project_structure) and mentions the version and license, which relate to its evolution and context (evolution_context).\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose, target platform, users, language, version, and license, which are related to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose, target platform, users, language, version, and license, which are related to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "nbdev Notebook-Driven Development",
+      "level": 3,
+      "char_count": 1013,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "nbdev Notebook-Driven Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the project's directory layout and key files, as well as the workflow process for making code changes using nbdev.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the project's directory layout and key files, as well as the workflow process for making code changes using nbdev.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "nbdev Notebook-Driven Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's directory layout and notebook-to-code generation process (project_structure), and outlines a step-by-step workflow for making code changes (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's directory layout and notebook-to-code generation process (project_structure), and outlines a step-by-step workflow for making code changes (workflow_process).\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "nbdev Notebook-Driven Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project's directory layout, code modification workflow, and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes the project's directory layout, code modification workflow, and coding style guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration Files",
+      "level": 3,
+      "char_count": 179,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Configuration Files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes key files and their roles in the project, which is a characteristic of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes key files and their roles in the project, which is a characteristic of the project_structure category.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Configuration Files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific key files and their roles, indicating how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific key files and their roles, indicating how the project is organized.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Configuration Files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the configuration files and their roles, which relates to project structure, and also mentions nbdev configuration, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the configuration files and their roles, which relates to project structure, and also mentions nbdev configuration, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Class Hierarchy",
+      "level": 3,
+      "char_count": 673,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Class Hierarchy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the core class hierarchy and relationships between classes, which is a key aspect of software architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the core class hierarchy and relationships between classes, which is a key aspect of software architecture.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Class Hierarchy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the structural organization and relationships between core classes and components of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the structural organization and relationships between core classes and components of the system.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Class Hierarchy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the core class hierarchy, module roles, and dependencies, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the core class hierarchy, module roles, and dependencies, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pset-based (preferred)",
+      "level": 1,
+      "char_count": 68,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Pset-based (preferred)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to coding_style due to the discussion of code formatting and syntax, and to architecture because it describes a specific implementation approach using a preferred method.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to coding_style due to the discussion of code formatting and syntax, and to architecture because it describes a specific implementation approach using a preferred method.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Pset-based (preferred)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section demonstrates a specific coding practice (using a particular parameter set for font styling in API calls), which relates to coding conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section demonstrates a specific coding practice (using a particular parameter set for font styling in API calls), which relates to coding conventions.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Pset-based (preferred)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a code snippet with specific formatting and function usage, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a code snippet with specific formatting and function usage, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "HSet-based (legacy, still supported)",
+      "level": 1,
+      "char_count": 105,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HSet-based (legacy, still supported)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section contains code snippets demonstrating a specific coding style and also describes the architecture of the HSet-based legacy system.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section contains code snippets demonstrating a specific coding style and also describes the architecture of the HSet-based legacy system.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HSet-based (legacy, still supported)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes a specific implementation approach (HSet-based) for a module's functionality, implying architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes a specific implementation approach (HSet-based) for a module's functionality, implying architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HSet-based (legacy, still supported)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides code examples with naming conventions and demonstrates the use of a specific module or component, 'hparam' and 'app'.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides code examples with naming conventions and demonstrates the use of a specific module or component, 'hparam' and 'app'.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Backend Abstraction",
+      "level": 3,
+      "char_count": 324,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Backend Abstraction",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the design and structure of the backend implementations, which is a key aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the design and structure of the backend implementations, which is a key aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Backend Abstraction",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes module roles and dependencies in handling different backend implementations.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes module roles and dependencies in handling different backend implementations.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Backend Abstraction",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the roles of different backend implementations and their relationships, which falls under architecture; it also mentions a factory function and naming conventions, which relates to coding_style.",
+          "raw_response": "{\n  \"categories\": [\"architecture\", \"coding_style\"],\n  \"reasoning\": \"The section describes the roles of different backend implementations and their relationships, which falls under architecture; it also mentions a factory function and naming conventions, which relates to coding_style.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Property Descriptor System",
+      "level": 3,
+      "char_count": 293,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Property Descriptor System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the design of property descriptors and their implementation, which relates to architecture, and also mentions type-safe validation and conversion, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section describes the design of property descriptors and their implementation, which relates to architecture, and also mentions type-safe validation and conversion, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Property Descriptor System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a system's design components (property descriptors and metaclass) and their roles, indicating architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a system's design components (property descriptors and metaclass) and their roles, indicating architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Property Descriptor System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a type-safe property descriptor system, which is an architectural design pattern, and also mentions specific coding style conventions for property descriptors.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes a type-safe property descriptor system, which is an architectural design pattern, and also mentions specific coding style conventions for property descriptors.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming Conventions",
+      "level": 3,
+      "char_count": 353,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific naming conventions for different code elements, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific naming conventions for different code elements, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for different code elements (classes, functions, constants, etc.), which directly relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for different code elements (classes, functions, constants, etc.), which directly relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides naming conventions for different types of code elements, which falls under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides naming conventions for different types of code elements, which falls under the coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 3,
+      "char_count": 251,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions, formatting, and code style guidelines for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions, formatting, and code style guidelines for the project.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific conventions for documentation language, method implementation, and coding patterns, all of which pertain to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific conventions for documentation language, method implementation, and coding patterns, all of which pertain to coding style guidelines.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions such as language for docstrings, chaining support, and context managers.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions such as language for docstrings, chaining support, and context managers.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Modules (in hwpapi/)",
+      "level": 3,
+      "char_count": 466,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Modules (in hwpapi/)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the core modules and their roles within the hwpapi directory, indicating both project structure and architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the core modules and their roles within the hwpapi directory, indicating both project structure and architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Modules (in hwpapi/)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key modules in a directory with brief descriptions of their roles, indicating both project structure and architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key modules in a directory with brief descriptions of their roles, indicating both project structure and architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Modules (in hwpapi/)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files in the project, as well as the roles and dependencies of the core modules, which are part of the project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files in the project, as well as the roles and dependencies of the core modules, which are part of the project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Source Notebooks (in nbs/)",
+      "level": 3,
+      "char_count": 141,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Source Notebooks (in nbs/)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files in the repository.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Source Notebooks (in nbs/)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific directory contents and their purposes, indicating project organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific directory contents and their purposes, indicating project organization.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Source Notebooks (in nbs/)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tests",
+      "level": 3,
+      "char_count": 178,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and procedures, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and procedures, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing requirements and integration test dependencies, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing requirements and integration test dependencies, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location of test files and the type of tests used, which relates to workflow_process and project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the location of test files and the type of tests used, which relates to workflow_process and project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 2,
+      "char_count": 217,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the dependencies required for the project, which relates to project structure, and also outlines specific module roles and dependencies, fitting into architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the dependencies required for the project, which relates to project structure, and also outlines specific module roles and dependencies, fitting into architecture.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists dependencies, which inform how the project is set up and organized, aligning with project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists dependencies, which inform how the project is set up and organized, aligning with project structure.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section lists dependencies required for the project, which relates to project structure, and also specifies the role of certain modules, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section lists dependencies required for the project, which relates to project structure, and also specifies the role of certain modules, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New Feature",
+      "level": 3,
+      "char_count": 190,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Feature",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines a step-by-step process for adding a new feature, which aligns with workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines a step-by-step process for adding a new feature, which aligns with workflow and development procedures.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Feature",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for integrating new features, aligning with workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for integrating new features, aligning with workflow and development procedures.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Feature",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes where to add a new feature (project_structure) and the process to follow for adding and testing it (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes where to add a new feature (project_structure) and the process to follow for adding and testing it (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Fixing a Bug",
+      "level": 3,
+      "char_count": 161,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Fixing a Bug",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for fixing a bug, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for fixing a bug, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Fixing a Bug",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for fixing a bug, which relates to workflow and development practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for fixing a bug, which relates to workflow and development practices.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Fixing a Bug",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a step-by-step process for fixing a bug, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a step-by-step process for fixing a bug, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New Action",
+      "level": 3,
+      "char_count": 206,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Action",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a step-by-step process for adding a new action, which relates to workflow_process, and also references specific files and directories, indicating project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a step-by-step process for adding a new action, which relates to workflow_process, and also references specific files and directories, indicating project_structure.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Action",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step procedure for adding a new action, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step procedure for adding a new action, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Action",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides instructions on where to add new actions (project_structure), how to format the code (coding_style), and the process for testing and exporting (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides instructions on where to add new actions (project_structure), how to format the code (coding_style), and the process for testing and exporting (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Refactoring",
+      "level": 3,
+      "char_count": 247,
+      "voted_categories": [
+        "evolution_context",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Refactoring",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses refactoring, technical debt, and code migration, which relates to evolution context, and also mentions maintaining backward compatibility and preferring certain implementations, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"coding_style\"], \"reasoning\": \"This section discusses refactoring, technical debt, and code migration, which relates to evolution context, and also mentions maintaining backward compatibility and preferring certain implementations, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Refactoring",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "evolution_context"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"evolution_context\", \"coding_style\"], \"reasoning\": \"The section discusses past refac",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"coding_style\"], \"reasoning\": \"The section discusses past refactoring (evolution_context) and guidelines for new vs. legacy code (coding_style).\""
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Refactoring",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "The section discusses a major refactoring effort, which is an evolution context, and also mentions the migration from HSet to pset-based approach, which is an architectural change.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"The section discusses a major refactoring effort, which is an evolution context, and also mentions the migration from HSet to pset-based approach, which is an architectural change.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Strategy",
+      "level": 2,
+      "char_count": 267,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Testing Strategy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the testing approach and framework used in the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the testing approach and framework used in the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Testing Strategy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing framework, location, coverage, and approach, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing framework, location, coverage, and approach, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Testing Strategy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines the testing strategy, which is part of the workflow process, and also describes the approach to testing, which relates to the architecture of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines the testing strategy, which is part of the workflow process, and also describes the approach to testing, which relates to the architecture of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Deploy",
+      "level": 2,
+      "char_count": 394,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Build and Deploy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes the build, test, and deployment process of the project, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes the build, test, and deployment process of the project, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Build and Deploy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and workflows for building, testing, documenting, and deploying the project, which are all part of the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and workflows for building, testing, documenting, and deploying the project, which are all part of the development workflow process.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Build and Deploy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes build, test, and deployment workflows, and mentions key project files and directories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes build, test, and deployment workflows, and mentions key project files and directories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "HWP (Hancom Office)",
+      "level": 3,
+      "char_count": 191,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HWP (Hancom Office)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the object model and key components of the HWP API, indicating its focus on architectural design and structure.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the object model and key components of the HWP API, indicating its focus on architectural design and structure.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HWP (Hancom Office)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the object model and interaction methods of the HWP API, which pertains to the system's architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the object model and interaction methods of the HWP API, which pertains to the system's architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HWP (Hancom Office)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the architecture of the HWP software, including its object model and execution method.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the architecture of the HWP software, including its object model and execution method.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Win32com Interface",
+      "level": 3,
+      "char_count": 158,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Win32com Interface",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the interface and interaction with a specific COM object, which relates to the system's architecture and design patterns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the interface and interaction with a specific COM object, which relates to the system's architecture and design patterns.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Win32com Interface",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the interface and operational characteristics of a specific module (Win32com), focusing on its interaction model and data handling, which pertains to architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the interface and operational characteristics of a specific module (Win32com), focusing on its interaction model and data handling, which pertains to architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Win32com Interface",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the interface of a specific module (Win32com) and its usage, including type conversion and cursor-based editing model, which relates to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the interface of a specific module (Win32com) and its usage, including type conversion and cursor-based editing model, which relates to both architecture and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Recent Changes",
+      "level": 2,
+      "char_count": 333,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Recent Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "This section describes recent changes to the project, including refactoring and improvements to the parameter handling system, which relates to both the evolution context and architecture of the project.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"This section describes recent changes to the project, including refactoring and improvements to the parameter handling system, which relates to both the evolution context and architecture of the project.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Recent Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "The section discusses a significant refactoring (evolution_context) with specific architectural changes (architecture).",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"The section discusses a significant refactoring (evolution_context) with specific architectural changes (architecture).\" }"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Recent Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "The section describes significant refactoring of the project, including changes in parameter handling and backend abstraction, which fall under evolution_context and architecture categories.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"The section describes significant refactoring of the project, including changes in parameter handling and backend abstraction, which fall under evolution_context and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Pitfalls",
+      "level": 2,
+      "char_count": 416,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Common Pitfalls",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses common pitfalls related to the development workflow and project setup, such as editing files, running export commands, and platform assumptions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses common pitfalls related to the development workflow and project setup, such as editing files, running export commands, and platform assumptions.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Common Pitfalls",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines common workflow mistakes (e.g., editing files directly, forgetting to run a command) and project-specific assumptions (e.g., platform, dependencies), aligning with workflow_process and project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines common workflow mistakes (e.g., editing files directly, forgetting to run a command) and project-specific assumptions (e.g., platform, dependencies), aligning with workflow_process and project_structure.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Common Pitfalls",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on editing files and running commands, which are part of the workflow process, and also mentions platform-specific code and integration tests, which relate to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on editing files and running commands, which are part of the workflow process, and also mentions platform-specific code and integration tests, which relate to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Basic Usage",
+      "level": 3,
+      "char_count": 129,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Basic Usage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section provides an example of basic usage, which includes code snippets demonstrating how to interact with the hwpapi, indicating both coding style and project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section provides an example of basic usage, which includes code snippets demonstrating how to interact with the hwpapi, indicating both coding style and project structure.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Basic Usage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section demonstrates how to use the library, implying how the project's core functionality is structured and utilized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section demonstrates how to use the library, implying how the project's core functionality is structured and utilized.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Basic Usage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a code example, which is relevant to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a code example, which is relevant to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using Pset (Preferred)",
+      "level": 3,
+      "char_count": 79,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Pset (Preferred)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to coding_style due to the code snippet and architecture because it describes the usage of a specific module or API.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to coding_style due to the code snippet and architecture because it describes the usage of a specific module or API.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Pset (Preferred)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section demonstrates a specific coding practice (using a preferred parameter set for text insertion) which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section demonstrates a specific coding practice (using a preferred parameter set for text insertion) which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Pset (Preferred)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a code snippet demonstrating a specific coding style for inserting text with bold formatting and font size.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a code snippet demonstrating a specific coding style for inserting text with bold formatting and font size.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using Accessors",
+      "level": 3,
+      "char_count": 68,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Accessors",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes how to use specific methods and properties to interact with the application, indicating a focus on the architecture and design of the API.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes how to use specific methods and properties to interact with the application, indicating a focus on the architecture and design of the API.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Accessors",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates how to interact with application components (app, cell) using specific methods, implying architectural design choices.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section demonstrates how to interact with application components (app, cell) using specific methods, implying architectural design choices.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Accessors",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides code examples, which fall under coding_style, and also demonstrates the use of specific components or modules, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides code examples, which fall under coding_style, and also demonstrates the use of specific components or modules, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Resources",
+      "level": 2,
+      "char_count": 183,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location and organization of key resources within the project, such as documentation, examples, and tutorials.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location and organization of key resources within the project, such as documentation, examples, and tutorials.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific directories and files where various project resources are located, indicating how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific directories and files where various project resources are located, indicating how the project is organized.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section describes the location of documentation, examples, tutorials, and migration guides, which relates to project structure, and also mentions migration and refactoring summaries, which relates to evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section describes the location of documentation, examples, tutorials, and migration guides, which relates to project structure, and also mentions migration and refactoring summaries, which relates to evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Notes for AI Assistants",
+      "level": 2,
+      "char_count": 447,
+      "voted_categories": [
+        "architecture",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Notes for AI Assistants",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides guidelines for AI assistants, including understanding code architecture, respecting the bilingual nature of the project, and considering recent refactoring efforts.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\", \"evolution_context\"], \"reasoning\": \"This section provides guidelines for AI assistants, including understanding code architecture, respecting the bilingual nature of the project, and considering recent refactoring efforts.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Notes for AI Assistants",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section provides guidelines on workflow (checking file types, testing), architectural understanding (pset vs HSet, bilingual nature), and evolution context (recent refactoring, transitional patterns).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"evolution_context\"], \"reasoning\": \"The section provides guidelines on workflow (checking file types, testing), architectural understanding (pset vs HSet, bilingual nature), and evolution context (recent refactoring, transitional patterns).\" }"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Notes for AI Assistants",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses project structure (.py files, bilingual nature), architecture (COM interface, architecture decisions), and evolution context (recent refactoring, transitioning patterns).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"evolution_context\"], \"reasoning\": \"The section discusses project structure (.py files, bilingual nature), architecture (COM interface, architecture decisions), and evolution context (recent refactoring, transitioning patterns).\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 456,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides an overview of the project, including its purpose, platform, and version, which relates to project structure, and also mentions the version and license, indicating evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides an overview of the project, including its purpose, platform, and version, which relates to project structure, and also mentions the version and license, indicating evolution context.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section provides a high-level overview of the project (project_structure) and mentions the version and license, which relate to its evolution and context (evolution_context).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section provides a high-level overview of the project (project_structure) and mentions the version and license, which relate to its evolution and context (evolution_context).\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose, target platform, users, language, version, and license, which are related to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose, target platform, users, language, version, and license, which are related to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "nbdev Notebook-Driven Development",
+      "level": 3,
+      "char_count": 1013,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "nbdev Notebook-Driven Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the project's directory layout and key files, as well as the workflow process for making code changes using nbdev.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the project's directory layout and key files, as well as the workflow process for making code changes using nbdev.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "nbdev Notebook-Driven Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's directory layout and notebook-to-code generation process (project_structure), and outlines a step-by-step workflow for making code changes (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's directory layout and notebook-to-code generation process (project_structure), and outlines a step-by-step workflow for making code changes (workflow_process).\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "nbdev Notebook-Driven Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project's directory layout, code modification workflow, and coding style guidelines.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes the project's directory layout, code modification workflow, and coding style guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration Files",
+      "level": 3,
+      "char_count": 179,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Configuration Files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes key files and their roles in the project, which is a characteristic of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes key files and their roles in the project, which is a characteristic of the project_structure category.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Configuration Files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific key files and their roles, indicating how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific key files and their roles, indicating how the project is organized.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Configuration Files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the configuration files and their roles, which relates to project structure, and also mentions nbdev configuration, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the configuration files and their roles, which relates to project structure, and also mentions nbdev configuration, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Class Hierarchy",
+      "level": 3,
+      "char_count": 673,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Class Hierarchy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the core class hierarchy and relationships between classes, which is a key aspect of software architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the core class hierarchy and relationships between classes, which is a key aspect of software architecture.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Class Hierarchy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the structural organization and relationships between core classes and components of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the structural organization and relationships between core classes and components of the system.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Class Hierarchy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the core class hierarchy, module roles, and dependencies, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the core class hierarchy, module roles, and dependencies, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pset-based (preferred)",
+      "level": 1,
+      "char_count": 68,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Pset-based (preferred)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to coding_style due to the discussion of code formatting and syntax, and to architecture because it describes a specific implementation approach using a preferred method.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to coding_style due to the discussion of code formatting and syntax, and to architecture because it describes a specific implementation approach using a preferred method.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Pset-based (preferred)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section demonstrates a specific coding practice (using a particular parameter set for font styling in API calls), which relates to coding conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section demonstrates a specific coding practice (using a particular parameter set for font styling in API calls), which relates to coding conventions.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Pset-based (preferred)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a code snippet with specific formatting and function usage, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a code snippet with specific formatting and function usage, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "HSet-based (legacy, still supported)",
+      "level": 1,
+      "char_count": 105,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HSet-based (legacy, still supported)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section contains code snippets demonstrating a specific coding style and also describes the architecture of the HSet-based legacy system.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section contains code snippets demonstrating a specific coding style and also describes the architecture of the HSet-based legacy system.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HSet-based (legacy, still supported)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes a specific implementation approach (HSet-based) for a module's functionality, implying architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes a specific implementation approach (HSet-based) for a module's functionality, implying architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HSet-based (legacy, still supported)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides code examples with naming conventions and demonstrates the use of a specific module or component, 'hparam' and 'app'.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides code examples with naming conventions and demonstrates the use of a specific module or component, 'hparam' and 'app'.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Backend Abstraction",
+      "level": 3,
+      "char_count": 324,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Backend Abstraction",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the design and structure of the backend implementations, which is a key aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the design and structure of the backend implementations, which is a key aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Backend Abstraction",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes module roles and dependencies in handling different backend implementations.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes module roles and dependencies in handling different backend implementations.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Backend Abstraction",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the roles of different backend implementations and their relationships, which falls under architecture; it also mentions a factory function and naming conventions, which relates to coding_style.",
+          "raw_response": "{\n  \"categories\": [\"architecture\", \"coding_style\"],\n  \"reasoning\": \"The section describes the roles of different backend implementations and their relationships, which falls under architecture; it also mentions a factory function and naming conventions, which relates to coding_style.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Property Descriptor System",
+      "level": 3,
+      "char_count": 293,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Property Descriptor System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the design of property descriptors and their implementation, which relates to architecture, and also mentions type-safe validation and conversion, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section describes the design of property descriptors and their implementation, which relates to architecture, and also mentions type-safe validation and conversion, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Property Descriptor System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a system's design components (property descriptors and metaclass) and their roles, indicating architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a system's design components (property descriptors and metaclass) and their roles, indicating architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Property Descriptor System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a type-safe property descriptor system, which is an architectural design pattern, and also mentions specific coding style conventions for property descriptors.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes a type-safe property descriptor system, which is an architectural design pattern, and also mentions specific coding style conventions for property descriptors.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming Conventions",
+      "level": 3,
+      "char_count": 353,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific naming conventions for different code elements, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific naming conventions for different code elements, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for different code elements (classes, functions, constants, etc.), which directly relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for different code elements (classes, functions, constants, etc.), which directly relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides naming conventions for different types of code elements, which falls under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides naming conventions for different types of code elements, which falls under the coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 3,
+      "char_count": 251,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions, formatting, and code style guidelines for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions, formatting, and code style guidelines for the project.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific conventions for documentation language, method implementation, and coding patterns, all of which pertain to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific conventions for documentation language, method implementation, and coding patterns, all of which pertain to coding style guidelines.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions such as language for docstrings, chaining support, and context managers.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions such as language for docstrings, chaining support, and context managers.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Modules (in hwpapi/)",
+      "level": 3,
+      "char_count": 466,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Modules (in hwpapi/)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the core modules and their roles within the hwpapi directory, indicating both project structure and architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the core modules and their roles within the hwpapi directory, indicating both project structure and architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Modules (in hwpapi/)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key modules in a directory with brief descriptions of their roles, indicating both project structure and architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key modules in a directory with brief descriptions of their roles, indicating both project structure and architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Core Modules (in hwpapi/)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files in the project, as well as the roles and dependencies of the core modules, which are part of the project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files in the project, as well as the roles and dependencies of the core modules, which are part of the project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Source Notebooks (in nbs/)",
+      "level": 3,
+      "char_count": 141,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Source Notebooks (in nbs/)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files in the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files in the repository.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Source Notebooks (in nbs/)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific directory contents and their purposes, indicating project organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific directory contents and their purposes, indicating project organization.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Source Notebooks (in nbs/)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Tests",
+      "level": 3,
+      "char_count": 178,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and procedures, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and procedures, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing requirements and integration test dependencies, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing requirements and integration test dependencies, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location of test files and the type of tests used, which relates to workflow_process and project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the location of test files and the type of tests used, which relates to workflow_process and project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 2,
+      "char_count": 217,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the dependencies required for the project, which relates to project structure, and also outlines specific module roles and dependencies, fitting into architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the dependencies required for the project, which relates to project structure, and also outlines specific module roles and dependencies, fitting into architecture.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists dependencies, which inform how the project is set up and organized, aligning with project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists dependencies, which inform how the project is set up and organized, aligning with project structure.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section lists dependencies required for the project, which relates to project structure, and also specifies the role of certain modules, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section lists dependencies required for the project, which relates to project structure, and also specifies the role of certain modules, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New Feature",
+      "level": 3,
+      "char_count": 190,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Feature",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines a step-by-step process for adding a new feature, which aligns with workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines a step-by-step process for adding a new feature, which aligns with workflow and development procedures.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Feature",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for integrating new features, aligning with workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for integrating new features, aligning with workflow and development procedures.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Feature",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes where to add a new feature (project_structure) and the process to follow for adding and testing it (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes where to add a new feature (project_structure) and the process to follow for adding and testing it (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Fixing a Bug",
+      "level": 3,
+      "char_count": 161,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Fixing a Bug",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for fixing a bug, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for fixing a bug, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Fixing a Bug",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for fixing a bug, which relates to workflow and development practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for fixing a bug, which relates to workflow and development practices.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Fixing a Bug",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a step-by-step process for fixing a bug, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a step-by-step process for fixing a bug, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New Action",
+      "level": 3,
+      "char_count": 206,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Action",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a step-by-step process for adding a new action, which relates to workflow_process, and also references specific files and directories, indicating project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes a step-by-step process for adding a new action, which relates to workflow_process, and also references specific files and directories, indicating project_structure.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Action",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step procedure for adding a new action, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step procedure for adding a new action, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Adding a New Action",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides instructions on where to add new actions (project_structure), how to format the code (coding_style), and the process for testing and exporting (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides instructions on where to add new actions (project_structure), how to format the code (coding_style), and the process for testing and exporting (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Refactoring",
+      "level": 3,
+      "char_count": 247,
+      "voted_categories": [
+        "evolution_context",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Refactoring",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses refactoring, technical debt, and code migration, which relates to evolution context, and also mentions maintaining backward compatibility and preferring certain implementations, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"coding_style\"], \"reasoning\": \"This section discusses refactoring, technical debt, and code migration, which relates to evolution context, and also mentions maintaining backward compatibility and preferring certain implementations, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Refactoring",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "evolution_context"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"evolution_context\", \"coding_style\"], \"reasoning\": \"The section discusses past refac",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"coding_style\"], \"reasoning\": \"The section discusses past refactoring (evolution_context) and guidelines for new vs. legacy code (coding_style).\""
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Refactoring",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "The section discusses a major refactoring effort, which is an evolution context, and also mentions the migration from HSet to pset-based approach, which is an architectural change.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"The section discusses a major refactoring effort, which is an evolution context, and also mentions the migration from HSet to pset-based approach, which is an architectural change.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Strategy",
+      "level": 2,
+      "char_count": 267,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Testing Strategy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the testing approach and framework used in the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the testing approach and framework used in the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Testing Strategy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing framework, location, coverage, and approach, which are all part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing framework, location, coverage, and approach, which are all part of the workflow process.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Testing Strategy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines the testing strategy, which is part of the workflow process, and also describes the approach to testing, which relates to the architecture of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines the testing strategy, which is part of the workflow process, and also describes the approach to testing, which relates to the architecture of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Deploy",
+      "level": 2,
+      "char_count": 394,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Build and Deploy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes the build, test, and deployment process of the project, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes the build, test, and deployment process of the project, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Build and Deploy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and workflows for building, testing, documenting, and deploying the project, which are all part of the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and workflows for building, testing, documenting, and deploying the project, which are all part of the development workflow process.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Build and Deploy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes build, test, and deployment workflows, and mentions key project files and directories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes build, test, and deployment workflows, and mentions key project files and directories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "HWP (Hancom Office)",
+      "level": 3,
+      "char_count": 191,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HWP (Hancom Office)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the object model and key components of the HWP API, indicating its focus on architectural design and structure.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the object model and key components of the HWP API, indicating its focus on architectural design and structure.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HWP (Hancom Office)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the object model and interaction methods of the HWP API, which pertains to the system's architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the object model and interaction methods of the HWP API, which pertains to the system's architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "HWP (Hancom Office)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the architecture of the HWP software, including its object model and execution method.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the architecture of the HWP software, including its object model and execution method.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Win32com Interface",
+      "level": 3,
+      "char_count": 158,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Win32com Interface",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the interface and interaction with a specific COM object, which relates to the system's architecture and design patterns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the interface and interaction with a specific COM object, which relates to the system's architecture and design patterns.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Win32com Interface",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the interface and operational characteristics of a specific module (Win32com), focusing on its interaction model and data handling, which pertains to architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the interface and operational characteristics of a specific module (Win32com), focusing on its interaction model and data handling, which pertains to architectural design.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Win32com Interface",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the interface of a specific module (Win32com) and its usage, including type conversion and cursor-based editing model, which relates to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the interface of a specific module (Win32com) and its usage, including type conversion and cursor-based editing model, which relates to both architecture and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Recent Changes",
+      "level": 2,
+      "char_count": 333,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Recent Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "This section describes recent changes to the project, including refactoring and improvements to the parameter handling system, which relates to both the evolution context and architecture of the project.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"This section describes recent changes to the project, including refactoring and improvements to the parameter handling system, which relates to both the evolution context and architecture of the project.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Recent Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "The section discusses a significant refactoring (evolution_context) with specific architectural changes (architecture).",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"The section discusses a significant refactoring (evolution_context) with specific architectural changes (architecture).\" }"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Recent Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "The section describes significant refactoring of the project, including changes in parameter handling and backend abstraction, which fall under evolution_context and architecture categories.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"The section describes significant refactoring of the project, including changes in parameter handling and backend abstraction, which fall under evolution_context and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Pitfalls",
+      "level": 2,
+      "char_count": 416,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Common Pitfalls",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses common pitfalls related to the development workflow and project setup, such as editing files, running export commands, and platform assumptions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses common pitfalls related to the development workflow and project setup, such as editing files, running export commands, and platform assumptions.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Common Pitfalls",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines common workflow mistakes (e.g., editing files directly, forgetting to run a command) and project-specific assumptions (e.g., platform, dependencies), aligning with workflow_process and project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines common workflow mistakes (e.g., editing files directly, forgetting to run a command) and project-specific assumptions (e.g., platform, dependencies), aligning with workflow_process and project_structure.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Common Pitfalls",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on editing files and running commands, which are part of the workflow process, and also mentions platform-specific code and integration tests, which relate to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on editing files and running commands, which are part of the workflow process, and also mentions platform-specific code and integration tests, which relate to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Basic Usage",
+      "level": 3,
+      "char_count": 129,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Basic Usage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section provides an example of basic usage, which includes code snippets demonstrating how to interact with the hwpapi, indicating both coding style and project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section provides an example of basic usage, which includes code snippets demonstrating how to interact with the hwpapi, indicating both coding style and project structure.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Basic Usage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section demonstrates how to use the library, implying how the project's core functionality is structured and utilized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section demonstrates how to use the library, implying how the project's core functionality is structured and utilized.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Basic Usage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a code example, which is relevant to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a code example, which is relevant to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using Pset (Preferred)",
+      "level": 3,
+      "char_count": 79,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Pset (Preferred)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to coding_style due to the code snippet and architecture because it describes the usage of a specific module or API.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to coding_style due to the code snippet and architecture because it describes the usage of a specific module or API.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Pset (Preferred)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section demonstrates a specific coding practice (using a preferred parameter set for text insertion) which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section demonstrates a specific coding practice (using a preferred parameter set for text insertion) which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Pset (Preferred)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a code snippet demonstrating a specific coding style for inserting text with bold formatting and font size.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a code snippet demonstrating a specific coding style for inserting text with bold formatting and font size.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using Accessors",
+      "level": 3,
+      "char_count": 68,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Accessors",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes how to use specific methods and properties to interact with the application, indicating a focus on the architecture and design of the API.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes how to use specific methods and properties to interact with the application, indicating a focus on the architecture and design of the API.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Accessors",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates how to interact with application components (app, cell) using specific methods, implying architectural design choices.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section demonstrates how to interact with application components (app, cell) using specific methods, implying architectural design choices.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Using Accessors",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides code examples, which fall under coding_style, and also demonstrates the use of specific components or modules, which falls under architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides code examples, which fall under coding_style, and also demonstrates the use of specific components or modules, which falls under architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Resources",
+      "level": 2,
+      "char_count": 183,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location and organization of key resources within the project, such as documentation, examples, and tutorials.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location and organization of key resources within the project, such as documentation, examples, and tutorials.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific directories and files where various project resources are located, indicating how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific directories and files where various project resources are located, indicating how the project is organized.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "The section describes the location of documentation, examples, tutorials, and migration guides, which relates to project structure, and also mentions migration and refactoring summaries, which relates to evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"The section describes the location of documentation, examples, tutorials, and migration guides, which relates to project structure, and also mentions migration and refactoring summaries, which relates to evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Notes for AI Assistants",
+      "level": 2,
+      "char_count": 447,
+      "voted_categories": [
+        "architecture",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Notes for AI Assistants",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides guidelines for AI assistants, including understanding code architecture, respecting the bilingual nature of the project, and considering recent refactoring efforts.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\", \"evolution_context\"], \"reasoning\": \"This section provides guidelines for AI assistants, including understanding code architecture, respecting the bilingual nature of the project, and considering recent refactoring efforts.\"}"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Notes for AI Assistants",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section provides guidelines on workflow (checking file types, testing), architectural understanding (pset vs HSet, bilingual nature), and evolution context (recent refactoring, transitional patterns).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"evolution_context\"], \"reasoning\": \"The section provides guidelines on workflow (checking file types, testing), architectural understanding (pset vs HSet, bilingual nature), and evolution context (recent refactoring, transitional patterns).\" }"
+        },
+        {
+          "repo": "JunDamin/hwpapi",
+          "section_heading": "Notes for AI Assistants",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses project structure (.py files, bilingual nature), architecture (COM interface, architecture decisions), and evolution context (recent refactoring, transitioning patterns).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"evolution_context\"], \"reasoning\": \"The section discusses project structure (.py files, bilingual nature), architecture (COM interface, architecture decisions), and evolution context (recent refactoring, transitioning patterns).\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.27586206896551724,
+    "project_structure": 0.3448275862068966,
+    "workflow_process": 0.27586206896551724,
+    "architecture": 0.3793103448275862,
+    "evolution_context": 0.13793103448275862,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.18629367212313705,
+    "project_structure": 0.41607622770583924,
+    "workflow_process": 0.345101392621549,
+    "architecture": 0.40007329587099927,
+    "evolution_context": 0.18116296115318836,
+    "agent_rules": 0.0
+  }
+}

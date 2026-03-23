@@ -1,0 +1,1328 @@
+{
+  "repo": "DataDog__lading",
+  "full_name": "DataDog/lading",
+  "n_sections": 15,
+  "n_chars": 6987,
+  "sections": [
+    {
+      "heading": "Agent Instructions",
+      "level": 1,
+      "char_count": 160,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Agent Instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "This section is primarily about guidelines for AI agents, but also references Architecture Decision Records, relating to both agent rules and architecture.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"This section is primarily about guidelines for AI agents, but also references Architecture Decision Records, relating to both agent rules and architecture.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Agent Instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly outlines guidelines for AI agents, directly aligning with agent_rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly outlines guidelines for AI agents, directly aligning with agent_rules.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Agent Instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "The section provides rules for AI agents and references Architecture Decision Records.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"The section provides rules for AI agents and references Architecture Decision Records.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quick Reference",
+      "level": 2,
+      "char_count": 348,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Quick Reference",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidelines for validating changes, running tests, and coding practices such as dependency management and data structure choices.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section provides guidelines for validating changes, running tests, and coding practices such as dependency management and data structure choices.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Quick Reference",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding guidelines (coding_style) and CI/CD command references (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding guidelines (coding_style) and CI/CD command references (workflow_process).\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Quick Reference",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on code validation, testing, and dependency management, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on code validation, testing, and dependency management, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Task Routing",
+      "level": 2,
+      "char_count": 1553,
+      "voted_categories": [
+        "architecture",
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Task Routing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses task routing rules, architectural decisions, and testing requirements, which relate to architecture and workflow process, with some coding style guidelines also present.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses task routing rules, architectural decisions, and testing requirements, which relate to architecture and workflow process, with some coding style guidelines also present.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Task Routing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines task-specific rules, architectural decisions (ADRs), and coding style guidelines, respectively.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines task-specific rules, architectural decisions (ADRs), and coding style guidelines, respectively.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Task Routing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the architecture of the project with rules for adding or modifying components, while also specifying coding style and workflow processes such as testing requirements and proofs.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines the architecture of the project with rules for adding or modifying components, while also specifying coding style and workflow processes such as testing requirements and proofs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture Overview",
+      "level": 2,
+      "char_count": 381,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Architecture Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the high-level design and components of the system, including their roles and interactions.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the high-level design and components of the system, including their roles and interactions.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Architecture Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the system's component roles, interactions, and a key design principle, aligning with architectural documentation.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the system's component roles, interactions, and a key design principle, aligning with architectural documentation.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Architecture Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the roles and relationships of different components in the system, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the roles and relationships of different components in the system, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Constraints",
+      "level": 2,
+      "char_count": 339,
+      "voted_categories": [
+        "architecture",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Core Constraints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section outlines core constraints that guide the design and development of Lading, relating to its architecture and informing its evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section outlines core constraints that guide the design and development of Lading, relating to its architecture and informing its evolution context.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Core Constraints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "Outlines foundational design principles (architecture) referencing specific architectural decision records (evolution_context) that shape the project's direction.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Outlines foundational design principles (architecture) referencing specific architectural decision records (evolution_context) that shape the project's direction.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Core Constraints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines core architectural constraints for the project, including performance, determinism, and extensibility, which also reflect the project's evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section outlines core architectural constraints for the project, including performance, determinism, and extensibility, which also reflect the project's evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance",
+      "level": 3,
+      "char_count": 211,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Performance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses performance-related coding principles and algorithm preferences, which relate to coding style, and also references an Architecture Decision Record (ADR), indicating a connection to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses performance-related coding principles and algorithm preferences, which relate to coding style, and also references an Architecture Decision Record (ADR), indicating a connection to architecture.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Performance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines design principles (architecture) that imply a workflow of measuring before optimizing (workflow_process).",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section outlines design principles (architecture) that imply a workflow of measuring before optimizing (workflow_process).\"}\n\n**Rationale Breakdown for Clarity (not part of the required response format but added for understanding):**\n\n- **Architecture (\"architecture\")**: The guidelines provided (\"Pre-allocate when size is known\", \"No allocations in hot paths\", etc.) directly influence the design and structure of the system, indicating how the application should be architecturally approached for performance.\n  \n- **Workflow Process (\"workflow_process\")**: The requirement for \"No optimization without profiling data\" implies a specific workflow step (profiling before optimization), guiding how developers should approach performance improvements within their development cycle. \n\n- **Why not others?**\n  - **Coding Style**: While related, the focus is on broader design and workflow rather than specific coding conventions.\n  - **Project Structure**: There's no mention of how the project is organized.\n  - **Evolution Context**: No discussion of project phase, history, or technical debt.\n  - **Agent Rules**: No directives related to AI agent usage or strategies."
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Performance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for performance optimization and architectural considerations for designing performance-first systems.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for performance optimization and architectural considerations for designing performance-first systems.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Determinism",
+      "level": 3,
+      "char_count": 304,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Determinism",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding conventions and design choices for ensuring determinism in code generation, which relates to both coding style and architectural decisions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding conventions and design choices for ensuring determinism in code generation, which relates to both coding style and architectural decisions.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Determinism",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific coding practices (coding_style) for achieving determinism, which also implies architectural design choices (architecture) for payload generation and data structure selection.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific coding practices (coding_style) for achieving determinism, which also implies architectural design choices (architecture) for payload generation and data structure selection.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Determinism",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for determinism in payload generation and specifies architectural requirements for payload code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for determinism in payload generation and specifies architectural requirements for payload code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling",
+      "level": 3,
+      "char_count": 361,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Error Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses error handling conventions and provides a code example using a specific error handling library, relating to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses error handling conventions and provides a code example using a specific error handling library, relating to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Error Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices for error handling in Rust, such as using Result and avoiding unwrap/expect.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices for error handling in Rust, such as using Result and avoiding unwrap/expect.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Error Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for error handling and describes the use of a specific error handling design pattern.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for error handling and describes the use of a specific error handling design pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 3,
+      "char_count": 334,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, import order, and formatting rules, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, import order, and formatting rules, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions, import placement, formatting preferences, and abstraction rules, all of which pertain to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions, import placement, formatting preferences, and abstraction rules, all of which pertain to coding style guidelines.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, but also includes a rule about creating abstractions, which relates to architecture.",
+          "raw_response": "{\n  \"categories\": [\"coding_style\", \"architecture\"],\n  \"reasoning\": \"The section primarily discusses coding style conventions, but also includes a rule about creating abstractions, which relates to architecture.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 879,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section primarily discusses testing strategies and requirements, which falls under workflow_process, and also touches on design and implementation aspects, such as proofs and property tests, relating to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section primarily discusses testing strategies and requirements, which falls under workflow_process, and also touches on design and implementation aspects, such as proofs and property tests, relating to architecture.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines testing strategies and hierarchies (workflow_process) while also discussing component correctness requirements and dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines testing strategies and hierarchies (workflow_process) while also discussing component correctness requirements and dependencies (architecture).\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the testing strategy and hierarchy, which is part of the architecture, and also outlines the testing requirements and guidelines, which fall under workflow process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section describes the testing strategy and hierarchy, which is part of the architecture, and also outlines the testing requirements and guidelines, which fall under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 3,
+      "char_count": 171,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses dependency management and evaluation criteria, which relates to architecture, and also mentions a decision-making process, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section discusses dependency management and evaluation criteria, which relates to architecture, and also mentions a decision-making process, which falls under workflow_process.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency ",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency evaluation criteria (architecture) and guidelines for when to implement vs. import (workflow_process).\""
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the philosophy for managing dependencies, which is an architectural concern, and also provides guidance on coding style related to dependency management.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses the philosophy for managing dependencies, which is an architectural concern, and also provides guidance on coding style related to dependency management.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation",
+      "level": 2,
+      "char_count": 477,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on documentation conventions, commenting styles, and code formatting, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on documentation conventions, commenting styles, and code formatting, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on documentation style, comment conventions, and character encoding, all of which relate to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on documentation style, comment conventions, and character encoding, all of which relate to coding style guidelines.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on commenting style and documentation, which falls under coding_style, and also mentions crate/module level comments, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on commenting style and documentation, which falls under coding_style, and also mentions crate/module level comments, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Validation Workflow",
+      "level": 2,
+      "char_count": 319,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Validation Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the validation workflow, including specific commands and tasks to be run after code changes, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the validation workflow, including specific commands and tasks to be run after code changes, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Validation Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and tasks for validation, formatting, checking, linting, testing, and other workflow-related processes, which directly relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and tasks for validation, formatting, checking, linting, testing, and other workflow-related processes, which directly relates to workflow processes.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Validation Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commands for code formatting, linting, and testing, which are part of coding style, and also outlines a workflow process for validation after code changes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes commands for code formatting, linting, and testing, which are part of coding style, and also outlines a workflow process for validation after code changes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Property Test Configuration",
+      "level": 2,
+      "char_count": 224,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Property Test Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes test configuration properties and how to override them, which relates to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes test configuration properties and how to override them, which relates to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Property Test Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific test configuration settings and override instructions for different environments (Local and CI), which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific test configuration settings and override instructions for different environments (Local and CI), which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Property Test Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides coding style guidelines for property testing and specifies workflow process for overriding test cases locally.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides coding style guidelines for property testing and specifies workflow process for overriding test cases locally.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Reminders",
+      "level": 2,
+      "char_count": 580,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Key Reminders",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section contains reminders about coding conventions and testing requirements, which relate to coding style, as well as validation and testing workflows, which pertain to workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section contains reminders about coding conventions and testing requirements, which relate to coding style, as well as validation and testing workflows, which pertain to workflow process.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Key Reminders",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section combines specific coding practices (coding_style) with workflow/process directives (workflow_process), with the latter being slightly more prevalent in the listed items.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section combines specific coding practices (coding_style) with workflow/process directives (workflow_process), with the latter being slightly more prevalent in the listed items.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Key Reminders",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines, workflow processes, and architectural considerations for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines, workflow processes, and architectural considerations for the project.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Agent Instructions",
+      "level": 1,
+      "char_count": 160,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Agent Instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "This section is primarily about guidelines for AI agents, but also references Architecture Decision Records, relating to both agent rules and architecture.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"This section is primarily about guidelines for AI agents, but also references Architecture Decision Records, relating to both agent rules and architecture.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Agent Instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly outlines guidelines for AI agents, directly aligning with agent_rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly outlines guidelines for AI agents, directly aligning with agent_rules.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Agent Instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "The section provides rules for AI agents and references Architecture Decision Records.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"The section provides rules for AI agents and references Architecture Decision Records.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quick Reference",
+      "level": 2,
+      "char_count": 348,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Quick Reference",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidelines for validating changes, running tests, and coding practices such as dependency management and data structure choices.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section provides guidelines for validating changes, running tests, and coding practices such as dependency management and data structure choices.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Quick Reference",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding guidelines (coding_style) and CI/CD command references (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides coding guidelines (coding_style) and CI/CD command references (workflow_process).\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Quick Reference",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on code validation, testing, and dependency management, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on code validation, testing, and dependency management, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Task Routing",
+      "level": 2,
+      "char_count": 1553,
+      "voted_categories": [
+        "architecture",
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Task Routing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses task routing rules, architectural decisions, and testing requirements, which relate to architecture and workflow process, with some coding style guidelines also present.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses task routing rules, architectural decisions, and testing requirements, which relate to architecture and workflow process, with some coding style guidelines also present.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Task Routing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines task-specific rules, architectural decisions (ADRs), and coding style guidelines, respectively.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines task-specific rules, architectural decisions (ADRs), and coding style guidelines, respectively.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Task Routing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the architecture of the project with rules for adding or modifying components, while also specifying coding style and workflow processes such as testing requirements and proofs.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines the architecture of the project with rules for adding or modifying components, while also specifying coding style and workflow processes such as testing requirements and proofs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture Overview",
+      "level": 2,
+      "char_count": 381,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Architecture Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the high-level design and components of the system, including their roles and interactions.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the high-level design and components of the system, including their roles and interactions.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Architecture Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the system's component roles, interactions, and a key design principle, aligning with architectural documentation.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the system's component roles, interactions, and a key design principle, aligning with architectural documentation.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Architecture Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the roles and relationships of different components in the system, which aligns with the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the roles and relationships of different components in the system, which aligns with the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Constraints",
+      "level": 2,
+      "char_count": 339,
+      "voted_categories": [
+        "architecture",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Core Constraints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section outlines core constraints that guide the design and development of Lading, relating to its architecture and informing its evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section outlines core constraints that guide the design and development of Lading, relating to its architecture and informing its evolution context.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Core Constraints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "Outlines foundational design principles (architecture) referencing specific architectural decision records (evolution_context) that shape the project's direction.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Outlines foundational design principles (architecture) referencing specific architectural decision records (evolution_context) that shape the project's direction.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Core Constraints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines core architectural constraints for the project, including performance, determinism, and extensibility, which also reflect the project's evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section outlines core architectural constraints for the project, including performance, determinism, and extensibility, which also reflect the project's evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance",
+      "level": 3,
+      "char_count": 211,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Performance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses performance-related coding principles and algorithm preferences, which relate to coding style, and also references an Architecture Decision Record (ADR), indicating a connection to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses performance-related coding principles and algorithm preferences, which relate to coding style, and also references an Architecture Decision Record (ADR), indicating a connection to architecture.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Performance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines design principles (architecture) that imply a workflow of measuring before optimizing (workflow_process).",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section outlines design principles (architecture) that imply a workflow of measuring before optimizing (workflow_process).\"}\n\n**Rationale Breakdown for Clarity (not part of the required response format but added for understanding):**\n\n- **Architecture (\"architecture\")**: The guidelines provided (\"Pre-allocate when size is known\", \"No allocations in hot paths\", etc.) directly influence the design and structure of the system, indicating how the application should be architecturally approached for performance.\n  \n- **Workflow Process (\"workflow_process\")**: The requirement for \"No optimization without profiling data\" implies a specific workflow step (profiling before optimization), guiding how developers should approach performance improvements within their development cycle. \n\n- **Why not others?**\n  - **Coding Style**: While related, the focus is on broader design and workflow rather than specific coding conventions.\n  - **Project Structure**: There's no mention of how the project is organized.\n  - **Evolution Context**: No discussion of project phase, history, or technical debt.\n  - **Agent Rules**: No directives related to AI agent usage or strategies."
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Performance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for performance optimization and architectural considerations for designing performance-first systems.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for performance optimization and architectural considerations for designing performance-first systems.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Determinism",
+      "level": 3,
+      "char_count": 304,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Determinism",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding conventions and design choices for ensuring determinism in code generation, which relates to both coding style and architectural decisions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding conventions and design choices for ensuring determinism in code generation, which relates to both coding style and architectural decisions.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Determinism",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific coding practices (coding_style) for achieving determinism, which also implies architectural design choices (architecture) for payload generation and data structure selection.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific coding practices (coding_style) for achieving determinism, which also implies architectural design choices (architecture) for payload generation and data structure selection.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Determinism",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for determinism in payload generation and specifies architectural requirements for payload code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for determinism in payload generation and specifies architectural requirements for payload code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling",
+      "level": 3,
+      "char_count": 361,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Error Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses error handling conventions and provides a code example using a specific error handling library, relating to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses error handling conventions and provides a code example using a specific error handling library, relating to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Error Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices for error handling in Rust, such as using Result and avoiding unwrap/expect.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices for error handling in Rust, such as using Result and avoiding unwrap/expect.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Error Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines for error handling and describes the use of a specific error handling design pattern.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines for error handling and describes the use of a specific error handling design pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 3,
+      "char_count": 334,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, import order, and formatting rules, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, import order, and formatting rules, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions, import placement, formatting preferences, and abstraction rules, all of which pertain to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions, import placement, formatting preferences, and abstraction rules, all of which pertain to coding style guidelines.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, but also includes a rule about creating abstractions, which relates to architecture.",
+          "raw_response": "{\n  \"categories\": [\"coding_style\", \"architecture\"],\n  \"reasoning\": \"The section primarily discusses coding style conventions, but also includes a rule about creating abstractions, which relates to architecture.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 879,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section primarily discusses testing strategies and requirements, which falls under workflow_process, and also touches on design and implementation aspects, such as proofs and property tests, relating to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section primarily discusses testing strategies and requirements, which falls under workflow_process, and also touches on design and implementation aspects, such as proofs and property tests, relating to architecture.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines testing strategies and hierarchies (workflow_process) while also discussing component correctness requirements and dependencies (architecture).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines testing strategies and hierarchies (workflow_process) while also discussing component correctness requirements and dependencies (architecture).\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the testing strategy and hierarchy, which is part of the architecture, and also outlines the testing requirements and guidelines, which fall under workflow process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section describes the testing strategy and hierarchy, which is part of the architecture, and also outlines the testing requirements and guidelines, which fall under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 3,
+      "char_count": 171,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses dependency management and evaluation criteria, which relates to architecture, and also mentions a decision-making process, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section discusses dependency management and evaluation criteria, which relates to architecture, and also mentions a decision-making process, which falls under workflow_process.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency ",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency evaluation criteria (architecture) and guidelines for when to implement vs. import (workflow_process).\""
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the philosophy for managing dependencies, which is an architectural concern, and also provides guidance on coding style related to dependency management.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses the philosophy for managing dependencies, which is an architectural concern, and also provides guidance on coding style related to dependency management.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation",
+      "level": 2,
+      "char_count": 477,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on documentation conventions, commenting styles, and code formatting, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on documentation conventions, commenting styles, and code formatting, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on documentation style, comment conventions, and character encoding, all of which relate to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on documentation style, comment conventions, and character encoding, all of which relate to coding style guidelines.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on commenting style and documentation, which falls under coding_style, and also mentions crate/module level comments, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on commenting style and documentation, which falls under coding_style, and also mentions crate/module level comments, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Validation Workflow",
+      "level": 2,
+      "char_count": 319,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Validation Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the validation workflow, including specific commands and tasks to be run after code changes, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the validation workflow, including specific commands and tasks to be run after code changes, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Validation Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and tasks for validation, formatting, checking, linting, testing, and other workflow-related processes, which directly relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and tasks for validation, formatting, checking, linting, testing, and other workflow-related processes, which directly relates to workflow processes.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Validation Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commands for code formatting, linting, and testing, which are part of coding style, and also outlines a workflow process for validation after code changes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes commands for code formatting, linting, and testing, which are part of coding style, and also outlines a workflow process for validation after code changes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Property Test Configuration",
+      "level": 2,
+      "char_count": 224,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Property Test Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes test configuration properties and how to override them, which relates to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes test configuration properties and how to override them, which relates to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Property Test Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific test configuration settings and override instructions for different environments (Local and CI), which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific test configuration settings and override instructions for different environments (Local and CI), which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Property Test Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides coding style guidelines for property testing and specifies workflow process for overriding test cases locally.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides coding style guidelines for property testing and specifies workflow process for overriding test cases locally.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Reminders",
+      "level": 2,
+      "char_count": 580,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Key Reminders",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section contains reminders about coding conventions and testing requirements, which relate to coding style, as well as validation and testing workflows, which pertain to workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section contains reminders about coding conventions and testing requirements, which relate to coding style, as well as validation and testing workflows, which pertain to workflow process.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Key Reminders",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section combines specific coding practices (coding_style) with workflow/process directives (workflow_process), with the latter being slightly more prevalent in the listed items.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section combines specific coding practices (coding_style) with workflow/process directives (workflow_process), with the latter being slightly more prevalent in the listed items.\"}"
+        },
+        {
+          "repo": "DataDog/lading",
+          "section_heading": "Key Reminders",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines, workflow processes, and architectural considerations for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines, workflow processes, and architectural considerations for the project.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": false,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.5333333333333333,
+    "project_structure": 0.0,
+    "workflow_process": 0.4666666666666667,
+    "architecture": 0.6,
+    "evolution_context": 0.06666666666666667,
+    "agent_rules": 0.06666666666666667
+  },
+  "category_char_fraction": {
+    "coding_style": 0.6276163228429453,
+    "project_structure": 0.0,
+    "workflow_process": 0.6134618280379461,
+    "architecture": 0.6563770516488481,
+    "evolution_context": 0.05104652913717814,
+    "agent_rules": 0.024092757114892335
+  }
+}

@@ -1,0 +1,1772 @@
+{
+  "repo": "AudiusProject__apps",
+  "full_name": "AudiusProject/apps",
+  "n_sections": 21,
+  "n_chars": 4270,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about providing guidance to Claude Code, which is related to AI-specific directives and agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about providing guidance to Claude Code, which is related to AI-specific directives and agent rules.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 313,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project's components and technologies used, which relates to both the project's structure and its architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project's components and technologies used, which relates to both the project's structure and its architectural design.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists components and technologies (architecture) within a monorepo (project_structure).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists components and technologies (architecture) within a monorepo (project_structure).\" }"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall structure of the project and the different components that make up the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall structure of the project and the different components that make up the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Essential Commands",
+      "level": 3,
+      "char_count": 120,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Essential Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for running commands in specific directories, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for running commands in specific directories, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Essential Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and their execution contexts, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and their execution contexts, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Essential Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on running commands, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines on running commands, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Connect client to local protocol",
+      "level": 1,
+      "char_count": 22,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Connect client to local protocol",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section appears to describe a step in setting up a local development environment, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section appears to describe a step in setting up a local development environment, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Connect client to local protocol",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow step to connect a client, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow step to connect a client, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Connect client to local protocol",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for connecting a client to a local protocol, which is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for connecting a client to a local protocol, which is a part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run web application",
+      "level": 1,
+      "char_count": 126,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run web application",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes commands to run the web application in different environments, which relates to workflow and development processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes commands to run the web application in different environments, which relates to workflow and development processes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run web application",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific commands for running the web application in different environments, which relates to workflow and execution processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific commands for running the web application in different environments, which relates to workflow and execution processes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run web application",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific commands for running the web application in different environments, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific commands for running the web application in different environments, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run mobile applications",
+      "level": 1,
+      "char_count": 93,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run mobile applications",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides instructions on running mobile applications, which falls under workflow processes related to development and testing.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides instructions on running mobile applications, which falls under workflow processes related to development and testing.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run mobile applications",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific commands for running mobile applications locally, which pertains to development workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific commands for running mobile applications locally, which pertains to development workflow processes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run mobile applications",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides npm commands for running mobile applications, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides npm commands for running mobile applications, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 1,
+      "char_count": 134,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes testing requirements and commands, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes testing requirements and commands, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing commands and types, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing commands and types, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing commands and tools, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes testing commands and tools, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Quality",
+      "level": 1,
+      "char_count": 138,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Quality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section is classified under coding_style due to its focus on linting and under workflow_process because it describes a verification process using npm run commands.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section is classified under coding_style due to its focus on linting and under workflow_process because it describes a verification process using npm run commands.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Quality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting and code checks, which relate to coding style conventions and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting and code checks, which relate to coding style conventions and formatting.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Quality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes linting and typechecking, which are coding style tools and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes linting and typechecking, which are coding style tools and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build",
+      "level": 1,
+      "char_count": 55,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Build",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a build command using npm, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a build command using npm, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Build",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Build",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a build command, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a build command, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Service management",
+      "level": 1,
+      "char_count": 107,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Service management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes commands for managing services, which relates to workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes commands for managing services, which relates to workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Service management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines commands for managing service lifecycle (start, stop, logs), which pertains to workflow and operational processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines commands for managing service lifecycle (start, stop, logs), which pertains to workflow and operational processes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Service management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes commands for starting and stopping services, which relates to project structure, and also outlines a workflow process for managing services.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes commands for starting and stopping services, which relates to project structure, and also outlines a workflow process for managing services.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "User actions",
+      "level": 1,
+      "char_count": 68,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "User actions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes specific user actions and commands, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes specific user actions and commands, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "User actions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Lists specific user actions as commands, implying workflow or process steps.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Lists specific user actions as commands, implying workflow or process steps.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "User actions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes user actions, which are part of the project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes user actions, which are part of the project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Monorepo Structure",
+      "level": 3,
+      "char_count": 688,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Monorepo Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the monorepo, outlining the organization of different packages and their purposes.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key components of the monorepo, outlining the organization of different packages and their purposes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Monorepo Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the directory layout and describes key components' locations within the monorepo.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the directory layout and describes key components' locations within the monorepo.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Monorepo Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the monorepo, which aligns with the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the monorepo, which aligns with the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "State Management",
+      "level": 3,
+      "char_count": 176,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "State Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the organization and implementation of state management, which relates to architecture, and also mentions the location of specific code components, which pertains to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the organization and implementation of state management, which relates to architecture, and also mentions the location of specific code components, which pertains to project structure.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "State Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes both the architectural",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes both the architectural design choice (Redux Toolkit with sagas) and the organizational structure of the codebase (slices by domain, shared state location).\""
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "State Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's state management structure and the organization of Redux Toolkit slices by domain, which falls under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's state management structure and the organization of Redux Toolkit slices by domain, which falls under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "API Communication",
+      "level": 3,
+      "char_count": 339,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "API Communication",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the architecture of API communication and the location of relevant code within the project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the architecture of API communication and the location of relevant code within the project structure.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "API Communication",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Describes module roles (architecture) and where specific components live (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes module roles (architecture) and where specific components live (project_structure).\" }"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "API Communication",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of the services layer and API adapters, which falls under project_structure, and also outlines the role of the SDK and services layer in handling protocol interactions, which is related to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of the services layer and API adapters, which falls under project_structure, and also outlines the role of the SDK and services layer in handling protocol interactions, which is related to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Styling Approach",
+      "level": 3,
+      "char_count": 125,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Styling Approach",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the styling approach, which falls under coding style due to its focus on formatting and conventions for CSS and React Native styling.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the styling approach, which falls under coding style due to its focus on formatting and conventions for CSS and React Native styling.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Styling Approach",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on styling methodologies and tools, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on styling methodologies and tools, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Styling Approach",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the styling approach for both web and mobile, which falls under coding_style, and also mentions the project's design tokens, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the styling approach for both web and mobile, which falls under coding_style, and also mentions the project's design tokens, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Strategy",
+      "level": 3,
+      "char_count": 137,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing Strategy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the testing requirements and tools used in the project, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the testing requirements and tools used in the project, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing Strategy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing tools and practices, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing tools and practices, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing Strategy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the choice of testing tools (coding_style) and outlines the testing requirements (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes the choice of testing tools (coding_style) and outlines the testing requirements (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Development Patterns",
+      "level": 3,
+      "char_count": 165,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Key Development Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes key development patterns, including technology choices and design approaches, which relate to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section describes key development patterns, including technology choices and design approaches, which relate to both architecture and coding style.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Key Development Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design patterns ",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design patterns (architecture) and a specific coding language choice with mode (coding_style).\""
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Key Development Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style with TypeScript and strict mode, and architecture with feature flags, offline support, optimistic updates, and Web3 integration.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding style with TypeScript and strict mode, and architecture with feature flags, offline support, optimistic updates, and Web3 integration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When Making Changes",
+      "level": 3,
+      "char_count": 202,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "When Making Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing and verification requirements for different types of changes, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing and verification requirements for different types of changes, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "When Making Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and requirements for the development workflow when making changes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and requirements for the development workflow when making changes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "When Making Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines for testing and verifying changes, which falls under workflow_process, and also mentions the impact of changes on different components of the system, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines for testing and verifying changes, which falls under workflow_process, and also mentions the impact of changes on different components of the system, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Variables",
+      "level": 3,
+      "char_count": 116,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Environment Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location and configuration of environment variables for different parts of the project, which relates to the directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location and configuration of environment variables for different parts of the project, which relates to the directory layout and key files.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Environment Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section points to specific locations within the project directory for environment variables, indicating directory layout and where things live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section points to specific locations within the project directory for environment variables, indicating directory layout and where things live.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Environment Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location of environment variables for different parts of the project, which is related to directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location of environment variables for different parts of the project, which is related to directory layout and key files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Pitfalls",
+      "level": 3,
+      "char_count": 189,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Common Pitfalls",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses common pitfalls related to development environment setup and dependencies, which pertains to both workflow process and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses common pitfalls related to development environment setup and dependencies, which pertains to both workflow process and project structure.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Common Pitfalls",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "Lists prerequisites and environmental setup (workflow_process) and describes how a specific component (audio processing) operates within the system (architecture).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"Lists prerequisites and environmental setup (workflow_process) and describes how a specific component (audio processing) operates within the system (architecture).\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Common Pitfalls",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the necessary environment setup and dependencies for different features, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the necessary environment setup and dependencies for different features, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style and Best Practices",
+      "level": 2,
+      "char_count": 90,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Style and Best Practices",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses specific coding conventions and best practices for using certain hooks.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses specific coding conventions and best practices for using certain hooks.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Style and Best Practices",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a naming convention for a specific variable state, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a naming convention for a specific variable state, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Style and Best Practices",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a naming convention guideline for using `isPending` instead of `isLoading` in tanquery hooks.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a naming convention guideline for using `isPending` instead of `isLoading` in tanquery hooks.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about providing guidance to Claude Code, which is related to AI-specific directives and agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about providing guidance to Claude Code, which is related to AI-specific directives and agent rules.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 313,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project's components and technologies used, which relates to both the project's structure and its architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project's components and technologies used, which relates to both the project's structure and its architectural design.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists components and technologies (architecture) within a monorepo (project_structure).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists components and technologies (architecture) within a monorepo (project_structure).\" }"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall structure of the project and the different components that make up the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall structure of the project and the different components that make up the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Essential Commands",
+      "level": 3,
+      "char_count": 120,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Essential Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for running commands in specific directories, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for running commands in specific directories, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Essential Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and their execution contexts, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and their execution contexts, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Essential Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on running commands, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines on running commands, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Connect client to local protocol",
+      "level": 1,
+      "char_count": 22,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Connect client to local protocol",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section appears to describe a step in setting up a local development environment, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section appears to describe a step in setting up a local development environment, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Connect client to local protocol",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow step to connect a client, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow step to connect a client, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Connect client to local protocol",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for connecting a client to a local protocol, which is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for connecting a client to a local protocol, which is a part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run web application",
+      "level": 1,
+      "char_count": 126,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run web application",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes commands to run the web application in different environments, which relates to workflow and development processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes commands to run the web application in different environments, which relates to workflow and development processes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run web application",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific commands for running the web application in different environments, which relates to workflow and execution processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific commands for running the web application in different environments, which relates to workflow and execution processes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run web application",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific commands for running the web application in different environments, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific commands for running the web application in different environments, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run mobile applications",
+      "level": 1,
+      "char_count": 93,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run mobile applications",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides instructions on running mobile applications, which falls under workflow processes related to development and testing.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides instructions on running mobile applications, which falls under workflow processes related to development and testing.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run mobile applications",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific commands for running mobile applications locally, which pertains to development workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific commands for running mobile applications locally, which pertains to development workflow processes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Run mobile applications",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides npm commands for running mobile applications, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides npm commands for running mobile applications, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 1,
+      "char_count": 134,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes testing requirements and commands, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes testing requirements and commands, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing commands and types, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing commands and types, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing commands and tools, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes testing commands and tools, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Quality",
+      "level": 1,
+      "char_count": 138,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Quality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section is classified under coding_style due to its focus on linting and under workflow_process because it describes a verification process using npm run commands.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section is classified under coding_style due to its focus on linting and under workflow_process because it describes a verification process using npm run commands.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Quality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting and code checks, which relate to coding style conventions and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting and code checks, which relate to coding style conventions and formatting.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Quality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes linting and typechecking, which are coding style tools and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes linting and typechecking, which are coding style tools and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build",
+      "level": 1,
+      "char_count": 55,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Build",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a build command using npm, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a build command using npm, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Build",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Build",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a build command, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a build command, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Service management",
+      "level": 1,
+      "char_count": 107,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Service management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes commands for managing services, which relates to workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes commands for managing services, which relates to workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Service management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines commands for managing service lifecycle (start, stop, logs), which pertains to workflow and operational processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines commands for managing service lifecycle (start, stop, logs), which pertains to workflow and operational processes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Service management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes commands for starting and stopping services, which relates to project structure, and also outlines a workflow process for managing services.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes commands for starting and stopping services, which relates to project structure, and also outlines a workflow process for managing services.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "User actions",
+      "level": 1,
+      "char_count": 68,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "User actions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes specific user actions and commands, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes specific user actions and commands, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "User actions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Lists specific user actions as commands, implying workflow or process steps.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Lists specific user actions as commands, implying workflow or process steps.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "User actions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes user actions, which are part of the project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes user actions, which are part of the project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Monorepo Structure",
+      "level": 3,
+      "char_count": 688,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Monorepo Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the monorepo, outlining the organization of different packages and their purposes.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key components of the monorepo, outlining the organization of different packages and their purposes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Monorepo Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the directory layout and describes key components' locations within the monorepo.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the directory layout and describes key components' locations within the monorepo.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Monorepo Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the monorepo, which aligns with the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the monorepo, which aligns with the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "State Management",
+      "level": 3,
+      "char_count": 176,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "State Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the organization and implementation of state management, which relates to architecture, and also mentions the location of specific code components, which pertains to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the organization and implementation of state management, which relates to architecture, and also mentions the location of specific code components, which pertains to project structure.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "State Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes both the architectural",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes both the architectural design choice (Redux Toolkit with sagas) and the organizational structure of the codebase (slices by domain, shared state location).\""
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "State Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's state management structure and the organization of Redux Toolkit slices by domain, which falls under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's state management structure and the organization of Redux Toolkit slices by domain, which falls under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "API Communication",
+      "level": 3,
+      "char_count": 339,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "API Communication",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the architecture of API communication and the location of relevant code within the project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the architecture of API communication and the location of relevant code within the project structure.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "API Communication",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Describes module roles (architecture) and where specific components live (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Describes module roles (architecture) and where specific components live (project_structure).\" }"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "API Communication",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of the services layer and API adapters, which falls under project_structure, and also outlines the role of the SDK and services layer in handling protocol interactions, which is related to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of the services layer and API adapters, which falls under project_structure, and also outlines the role of the SDK and services layer in handling protocol interactions, which is related to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Styling Approach",
+      "level": 3,
+      "char_count": 125,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Styling Approach",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses the styling approach, which falls under coding style due to its focus on formatting and conventions for CSS and React Native styling.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses the styling approach, which falls under coding style due to its focus on formatting and conventions for CSS and React Native styling.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Styling Approach",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on styling methodologies and tools, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on styling methodologies and tools, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Styling Approach",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the styling approach for both web and mobile, which falls under coding_style, and also mentions the project's design tokens, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the styling approach for both web and mobile, which falls under coding_style, and also mentions the project's design tokens, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Strategy",
+      "level": 3,
+      "char_count": 137,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing Strategy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the testing requirements and tools used in the project, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the testing requirements and tools used in the project, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing Strategy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing tools and practices, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing tools and practices, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Testing Strategy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the choice of testing tools (coding_style) and outlines the testing requirements (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes the choice of testing tools (coding_style) and outlines the testing requirements (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Development Patterns",
+      "level": 3,
+      "char_count": 165,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Key Development Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes key development patterns, including technology choices and design approaches, which relate to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section describes key development patterns, including technology choices and design approaches, which relate to both architecture and coding style.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Key Development Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design patterns ",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines design patterns (architecture) and a specific coding language choice with mode (coding_style).\""
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Key Development Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style with TypeScript and strict mode, and architecture with feature flags, offline support, optimistic updates, and Web3 integration.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding style with TypeScript and strict mode, and architecture with feature flags, offline support, optimistic updates, and Web3 integration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When Making Changes",
+      "level": 3,
+      "char_count": 202,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "When Making Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific testing and verification requirements for different types of changes, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific testing and verification requirements for different types of changes, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "When Making Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and requirements for the development workflow when making changes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and requirements for the development workflow when making changes.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "When Making Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines for testing and verifying changes, which falls under workflow_process, and also mentions the impact of changes on different components of the system, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines for testing and verifying changes, which falls under workflow_process, and also mentions the impact of changes on different components of the system, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Variables",
+      "level": 3,
+      "char_count": 116,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Environment Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location and configuration of environment variables for different parts of the project, which relates to the directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location and configuration of environment variables for different parts of the project, which relates to the directory layout and key files.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Environment Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section points to specific locations within the project directory for environment variables, indicating directory layout and where things live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section points to specific locations within the project directory for environment variables, indicating directory layout and where things live.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Environment Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location of environment variables for different parts of the project, which is related to directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location of environment variables for different parts of the project, which is related to directory layout and key files.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Pitfalls",
+      "level": 3,
+      "char_count": 189,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Common Pitfalls",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses common pitfalls related to development environment setup and dependencies, which pertains to both workflow process and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses common pitfalls related to development environment setup and dependencies, which pertains to both workflow process and project structure.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Common Pitfalls",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "Lists prerequisites and environmental setup (workflow_process) and describes how a specific component (audio processing) operates within the system (architecture).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"Lists prerequisites and environmental setup (workflow_process) and describes how a specific component (audio processing) operates within the system (architecture).\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Common Pitfalls",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the necessary environment setup and dependencies for different features, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the necessary environment setup and dependencies for different features, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style and Best Practices",
+      "level": 2,
+      "char_count": 90,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Style and Best Practices",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses specific coding conventions and best practices for using certain hooks.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses specific coding conventions and best practices for using certain hooks.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Style and Best Practices",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a naming convention for a specific variable state, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a naming convention for a specific variable state, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "AudiusProject/apps",
+          "section_heading": "Code Style and Best Practices",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a naming convention guideline for using `isPending` instead of `isLoading` in tanquery hooks.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a naming convention guideline for using `isPending` instead of `isLoading` in tanquery hooks.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.19047619047619047,
+    "project_structure": 0.2857142857142857,
+    "workflow_process": 0.5238095238095238,
+    "architecture": 0.23809523809523808,
+    "evolution_context": 0.0,
+    "agent_rules": 0.047619047619047616
+  },
+  "category_char_fraction": {
+    "coding_style": 0.1477888730385164,
+    "project_structure": 0.519543509272468,
+    "workflow_process": 0.35748930099857346,
+    "architecture": 0.33723252496433664,
+    "evolution_context": 0.0,
+    "agent_rules": 0.029101283880171185
+  }
+}

@@ -1,0 +1,698 @@
+{
+  "n": 23,
+  "category_vars": [
+    "coding_style_char_frac",
+    "project_structure_char_frac",
+    "workflow_process_char_frac",
+    "architecture_char_frac",
+    "evolution_context_char_frac",
+    "agent_rules_char_frac"
+  ],
+  "project_vars": [
+    "age_months",
+    "stars",
+    "total_commits",
+    "phase_enc",
+    "law_conformance_score",
+    "agent_ratio"
+  ],
+  "correlations": {
+    "coding_style_char_frac": {
+      "age_months": {
+        "spearman_rho": -0.0446,
+        "p_value": 0.8399,
+        "significant": false
+      },
+      "stars": {
+        "spearman_rho": 0.2883,
+        "p_value": 0.1821,
+        "significant": false
+      },
+      "total_commits": {
+        "spearman_rho": 0.2774,
+        "p_value": 0.2001,
+        "significant": false
+      },
+      "phase_enc": {
+        "spearman_rho": -0.2226,
+        "p_value": 0.3073,
+        "significant": false
+      },
+      "law_conformance_score": {
+        "spearman_rho": 0.4309,
+        "p_value": 0.0401,
+        "significant": true
+      },
+      "agent_ratio": {
+        "spearman_rho": -0.2036,
+        "p_value": 0.3515,
+        "significant": false
+      }
+    },
+    "project_structure_char_frac": {
+      "age_months": {
+        "spearman_rho": 0.3349,
+        "p_value": 0.1183,
+        "significant": false
+      },
+      "stars": {
+        "spearman_rho": 0.1519,
+        "p_value": 0.4891,
+        "significant": false
+      },
+      "total_commits": {
+        "spearman_rho": -0.0109,
+        "p_value": 0.9607,
+        "significant": false
+      },
+      "phase_enc": {
+        "spearman_rho": 0.2544,
+        "p_value": 0.2414,
+        "significant": false
+      },
+      "law_conformance_score": {
+        "spearman_rho": -0.1043,
+        "p_value": 0.6358,
+        "significant": false
+      },
+      "agent_ratio": {
+        "spearman_rho": 0.091,
+        "p_value": 0.6797,
+        "significant": false
+      }
+    },
+    "workflow_process_char_frac": {
+      "age_months": {
+        "spearman_rho": 0.1072,
+        "p_value": 0.6262,
+        "significant": false
+      },
+      "stars": {
+        "spearman_rho": 0.1483,
+        "p_value": 0.4996,
+        "significant": false
+      },
+      "total_commits": {
+        "spearman_rho": 0.1018,
+        "p_value": 0.644,
+        "significant": false
+      },
+      "phase_enc": {
+        "spearman_rho": 0.0363,
+        "p_value": 0.8694,
+        "significant": false
+      },
+      "law_conformance_score": {
+        "spearman_rho": 0.1548,
+        "p_value": 0.4807,
+        "significant": false
+      },
+      "agent_ratio": {
+        "spearman_rho": -0.0435,
+        "p_value": 0.8438,
+        "significant": false
+      }
+    },
+    "architecture_char_frac": {
+      "age_months": {
+        "spearman_rho": -0.3552,
+        "p_value": 0.0963,
+        "significant": false
+      },
+      "stars": {
+        "spearman_rho": -0.0965,
+        "p_value": 0.6615,
+        "significant": false
+      },
+      "total_commits": {
+        "spearman_rho": -0.1276,
+        "p_value": 0.5618,
+        "significant": false
+      },
+      "phase_enc": {
+        "spearman_rho": -0.0237,
+        "p_value": 0.9146,
+        "significant": false
+      },
+      "law_conformance_score": {
+        "spearman_rho": -0.011,
+        "p_value": 0.9602,
+        "significant": false
+      },
+      "agent_ratio": {
+        "spearman_rho": 0.2888,
+        "p_value": 0.1814,
+        "significant": false
+      }
+    },
+    "evolution_context_char_frac": {
+      "age_months": {
+        "spearman_rho": 0.0455,
+        "p_value": 0.8366,
+        "significant": false
+      },
+      "stars": {
+        "spearman_rho": 0.1047,
+        "p_value": 0.6344,
+        "significant": false
+      },
+      "total_commits": {
+        "spearman_rho": -0.0452,
+        "p_value": 0.8379,
+        "significant": false
+      },
+      "phase_enc": {
+        "spearman_rho": 0.3006,
+        "p_value": 0.1635,
+        "significant": false
+      },
+      "law_conformance_score": {
+        "spearman_rho": 0.118,
+        "p_value": 0.592,
+        "significant": false
+      },
+      "agent_ratio": {
+        "spearman_rho": 0.1328,
+        "p_value": 0.5459,
+        "significant": false
+      }
+    },
+    "agent_rules_char_frac": {
+      "age_months": {
+        "spearman_rho": -0.2571,
+        "p_value": 0.2363,
+        "significant": false
+      },
+      "stars": {
+        "spearman_rho": -0.2807,
+        "p_value": 0.1946,
+        "significant": false
+      },
+      "total_commits": {
+        "spearman_rho": -0.1112,
+        "p_value": 0.6134,
+        "significant": false
+      },
+      "phase_enc": {
+        "spearman_rho": 0.2432,
+        "p_value": 0.2635,
+        "significant": false
+      },
+      "law_conformance_score": {
+        "spearman_rho": -0.1565,
+        "p_value": 0.4759,
+        "significant": false
+      },
+      "agent_ratio": {
+        "spearman_rho": 0.0551,
+        "p_value": 0.8028,
+        "significant": false
+      }
+    }
+  },
+  "rows": [
+    {
+      "full_name": "VCnoC/Claude-Code-Zen-mcp-Skill-Work",
+      "age_months": 5,
+      "stars": 114,
+      "total_commits": 31,
+      "phase_enc": 1,
+      "law_conformance_score": 0.125,
+      "agent_ratio": 926.0645161290323,
+      "coding_style_char_frac": 0.0,
+      "coding_style_present": 0,
+      "project_structure_char_frac": 0.0,
+      "project_structure_present": 0,
+      "workflow_process_char_frac": 0.0,
+      "workflow_process_present": 0,
+      "architecture_char_frac": 1.0,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 1.0,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "Vortiago/mcp-outline",
+      "age_months": 12,
+      "stars": 116,
+      "total_commits": 82,
+      "phase_enc": 1,
+      "law_conformance_score": 0.875,
+      "agent_ratio": 206.23170731707316,
+      "coding_style_char_frac": 0.43254942499030885,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.30960072360770124,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.43145109187233494,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.6467243829952191,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.020480682258689754,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "apache/skywalking",
+      "age_months": 124,
+      "stars": 24747,
+      "total_commits": 518,
+      "phase_enc": 1,
+      "law_conformance_score": 0.875,
+      "agent_ratio": 20.92664092664093,
+      "coding_style_char_frac": 0.43637105827125217,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.5229105010715379,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.1501173589141749,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.1992040004082049,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.009184610674558629,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "braintree/braintree-web",
+      "age_months": 136,
+      "stars": 448,
+      "total_commits": 57,
+      "phase_enc": 0,
+      "law_conformance_score": 0.75,
+      "agent_ratio": 216.17543859649123,
+      "coding_style_char_frac": 0.3344238458742276,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.2999818247909851,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.539258451472192,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.1990185387131952,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.009269356597600873,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "cellwebb/gac",
+      "age_months": 15,
+      "stars": 303,
+      "total_commits": 1146,
+      "phase_enc": 1,
+      "law_conformance_score": 1.0,
+      "agent_ratio": 5.268760907504363,
+      "coding_style_char_frac": 0.3900583760834955,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.3714841676985671,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.6975057491597382,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.1921103838669733,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.21599150893330973,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "cypress-io/cypress",
+      "age_months": 132,
+      "stars": 49611,
+      "total_commits": 2343,
+      "phase_enc": 1,
+      "law_conformance_score": 0.75,
+      "agent_ratio": 0.6244131455399061,
+      "coding_style_char_frac": 0.0,
+      "coding_style_present": 0,
+      "project_structure_char_frac": 0.0,
+      "project_structure_present": 0,
+      "workflow_process_char_frac": 0.8099838969404187,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.0,
+      "architecture_present": 0,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.5185185185185185,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "felipebarcelospro/igniter-js",
+      "age_months": 16,
+      "stars": 241,
+      "total_commits": 311,
+      "phase_enc": 1,
+      "law_conformance_score": 1.0,
+      "agent_ratio": 77.7588424437299,
+      "coding_style_char_frac": 0.24981959878770385,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.5035839707509501,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.5474575455813729,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.13330446913936594,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.07095781016981767,
+      "evolution_context_present": 1,
+      "agent_rules_char_frac": 0.04762592004618271,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "javascript-obfuscator/javascript-obfuscator",
+      "age_months": 118,
+      "stars": 15908,
+      "total_commits": 41,
+      "phase_enc": 1,
+      "law_conformance_score": 0.875,
+      "agent_ratio": 1065.2682926829268,
+      "coding_style_char_frac": 0.2676805245612585,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.38273135520841944,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.3446565831886933,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.22899964184367855,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.05074799570212414,
+      "evolution_context_present": 1,
+      "agent_rules_char_frac": 0.0,
+      "agent_rules_present": 0
+    },
+    {
+      "full_name": "kubernetes-sigs/cloud-provider-azure",
+      "age_months": 96,
+      "stars": 292,
+      "total_commits": 1999,
+      "phase_enc": 1,
+      "law_conformance_score": 0.625,
+      "agent_ratio": 4.688344172086043,
+      "coding_style_char_frac": 0.5605351170568562,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.3354515050167224,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.19342251950947603,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.29620958751393534,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.0,
+      "agent_rules_present": 0
+    },
+    {
+      "full_name": "lambrospetrou/durable-utils",
+      "age_months": 17,
+      "stars": 85,
+      "total_commits": 86,
+      "phase_enc": 1,
+      "law_conformance_score": 0.625,
+      "agent_ratio": 12.848837209302326,
+      "coding_style_char_frac": 0.5674373795761078,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.1955684007707129,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.23699421965317918,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.0,
+      "architecture_present": 0,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.0,
+      "agent_rules_present": 0
+    },
+    {
+      "full_name": "lerna/lerna",
+      "age_months": 123,
+      "stars": 36093,
+      "total_commits": 151,
+      "phase_enc": 1,
+      "law_conformance_score": 0.625,
+      "agent_ratio": 44.0728476821192,
+      "coding_style_char_frac": 0.47510744985673353,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.5404727793696275,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.5053724928366762,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.07575214899713467,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.0,
+      "agent_rules_present": 0
+    },
+    {
+      "full_name": "nanobrowser/nanobrowser",
+      "age_months": 15,
+      "stars": 12462,
+      "total_commits": 368,
+      "phase_enc": 1,
+      "law_conformance_score": 1.0,
+      "agent_ratio": 30.07608695652174,
+      "coding_style_char_frac": 0.6197772913295898,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.503188350623394,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.5299324260017132,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.16807842390787095,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.023222613495764727,
+      "evolution_context_present": 1,
+      "agent_rules_char_frac": 0.01237270391167793,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "nats-io/nats.go",
+      "age_months": 163,
+      "stars": 6498,
+      "total_commits": 228,
+      "phase_enc": 1,
+      "law_conformance_score": 0.875,
+      "agent_ratio": 32.3421052631579,
+      "coding_style_char_frac": 0.2779681215551914,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.647102636675108,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.40771637122002086,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.18829137494413825,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.015194398927454193,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "noahlh/celestite",
+      "age_months": 92,
+      "stars": 236,
+      "total_commits": 5,
+      "phase_enc": 1,
+      "law_conformance_score": 0.125,
+      "agent_ratio": 627.2,
+      "coding_style_char_frac": 0.0,
+      "coding_style_present": 0,
+      "project_structure_char_frac": 0.7107736804049168,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.4967462039045553,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.42913955169920465,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.0368763557483731,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "pcingola/SnpEff",
+      "age_months": 146,
+      "stars": 303,
+      "total_commits": 92,
+      "phase_enc": 1,
+      "law_conformance_score": 0.5,
+      "agent_ratio": 91.83695652173913,
+      "coding_style_char_frac": 0.014020563493123247,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.7457604486580318,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.31633061824008546,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.23661370009347044,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.013619975964748298,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "popstas/telegram-download-chat",
+      "age_months": 10,
+      "stars": 83,
+      "total_commits": 138,
+      "phase_enc": 1,
+      "law_conformance_score": 0.75,
+      "agent_ratio": 27.22463768115942,
+      "coding_style_char_frac": 0.02628883578012974,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.504950495049505,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.08193922840559918,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.7200409696142028,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.03482417207237965,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "rpmuller/pyquante2",
+      "age_months": 179,
+      "stars": 159,
+      "total_commits": 49,
+      "phase_enc": 1,
+      "law_conformance_score": 0.125,
+      "agent_ratio": 67.14285714285714,
+      "coding_style_char_frac": 0.07788595271210014,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.7127955493741307,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.29763560500695413,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.12795549374130738,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.2426981919332406,
+      "evolution_context_present": 1,
+      "agent_rules_char_frac": 0.029554937413073714,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "run-llama/LlamaIndexTS",
+      "age_months": 33,
+      "stars": 3068,
+      "total_commits": 1205,
+      "phase_enc": 2,
+      "law_conformance_score": 0.5,
+      "agent_ratio": 3.5975103734439835,
+      "coding_style_char_frac": 0.3157507360157017,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.5890578999018645,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.3621197252208047,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.39548577036310106,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.021589793915603533,
+      "evolution_context_present": 1,
+      "agent_rules_char_frac": 0.025024533856722278,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "saleor/macaw-ui",
+      "age_months": 80,
+      "stars": 115,
+      "total_commits": 90,
+      "phase_enc": 1,
+      "law_conformance_score": 0.625,
+      "agent_ratio": 54.9,
+      "coding_style_char_frac": 0.7075062742413871,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.540497376226329,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.24845995893223818,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.15537303216974674,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.0,
+      "agent_rules_present": 0
+    },
+    {
+      "full_name": "scopewu/qrcode.vue",
+      "age_months": 107,
+      "stars": 810,
+      "total_commits": 51,
+      "phase_enc": 1,
+      "law_conformance_score": 0.75,
+      "agent_ratio": 105.58823529411765,
+      "coding_style_char_frac": 0.7086500924594206,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.3443599753441545,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.2736798849393877,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.2190260941031436,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.03554551058146702,
+      "agent_rules_present": 1
+    },
+    {
+      "full_name": "simstudioai/sim",
+      "age_months": 14,
+      "stars": 27023,
+      "total_commits": 3816,
+      "phase_enc": 0,
+      "law_conformance_score": 1.0,
+      "agent_ratio": 3.2911425576519915,
+      "coding_style_char_frac": 0.8958122255994596,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.42814927389395474,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.15096251266464034,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.5735393448159406,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.0,
+      "agent_rules_present": 0
+    },
+    {
+      "full_name": "snowplow/snowplow-javascript-tracker",
+      "age_months": 152,
+      "stars": 581,
+      "total_commits": 219,
+      "phase_enc": 1,
+      "law_conformance_score": 0.75,
+      "agent_ratio": 70.97260273972603,
+      "coding_style_char_frac": 0.6377402446126965,
+      "coding_style_present": 1,
+      "project_structure_char_frac": 0.3456610366919045,
+      "project_structure_present": 1,
+      "workflow_process_char_frac": 0.16584158415841585,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.3262958648806057,
+      "architecture_present": 1,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.0,
+      "agent_rules_present": 0
+    },
+    {
+      "full_name": "the-cafe/git-ai-commit",
+      "age_months": 19,
+      "stars": 82,
+      "total_commits": 119,
+      "phase_enc": 1,
+      "law_conformance_score": 0.25,
+      "agent_ratio": 13.159663865546218,
+      "coding_style_char_frac": 0.0,
+      "coding_style_present": 0,
+      "project_structure_char_frac": 0.0,
+      "project_structure_present": 0,
+      "workflow_process_char_frac": 1.0,
+      "workflow_process_present": 1,
+      "architecture_char_frac": 0.0,
+      "architecture_present": 0,
+      "evolution_context_char_frac": 0.0,
+      "evolution_context_present": 0,
+      "agent_rules_char_frac": 0.1400375939849624,
+      "agent_rules_present": 1
+    }
+  ]
+}

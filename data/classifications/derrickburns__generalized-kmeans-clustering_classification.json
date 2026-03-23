@@ -1,0 +1,2812 @@
+{
+  "repo": "derrickburns__generalized-kmeans-clustering",
+  "full_name": "derrickburns/generalized-kmeans-clustering",
+  "n_sections": 32,
+  "n_chars": 13688,
+  "sections": [
+    {
+      "heading": "CLAUDE.md \u2014 Maintainer Copilot for *generalized-kmeans-clustering*",
+      "level": 1,
+      "char_count": 958,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "CLAUDE.md \u2014 Maintainer Copilot for *generalized-kmeans-clustering*",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines the project's norms, API guarantees, and engineering standards, while also describing the modular package structure and Spark API usage, which are relevant to multiple categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"agent_rules\"], \"reasoning\": \"This section outlines the project's norms, API guarantees, and engineering standards, while also describing the modular package structure and Spark API usage, which are relevant to multiple categories.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "CLAUDE.md \u2014 Maintainer Copilot for *generalized-kmeans-clustering*",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines the project's modular package structure (project_structure), highlights key architectural components (architecture), and mentions Scala engineering standards (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines the project's modular package structure (project_structure), highlights key architectural components (architecture), and mentions Scala engineering standards (coding_style).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **project_structure**: Mention of \"modular package structure with `kernels/` and `strategies/impl/` subpackages\".\n- **architecture**: Overview of architectural design with specific module roles (\"`kernels/`\", \"`strategies/impl/`\") and technology stack (Spark DataFrame/ML API, Scala versions).\n- **coding_style**: Reference to \"Scala engineering standards\" implying conventions for coding."
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "CLAUDE.md \u2014 Maintainer Copilot for *generalized-kmeans-clustering*",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's architecture, including its modular package structure and subpackages, as well as the primary surface and API versions, which relate to the project's structure.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's architecture, including its modular package structure and subpackages, as well as the primary surface and API versions, which relate to the project's structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "0) Operating Principles (do these every time)",
+      "level": 2,
+      "char_count": 931,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0) Operating Principles (do these every time)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines operating principles that guide coding style, workflow processes, and architectural decisions in the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines operating principles that guide coding style, workflow processes, and architectural decisions in the project.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0) Operating Principles (do these every time)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines general coding practices (coding_style), influences how the project is maintained and organized (project_structure), and dictates how work should be done and reviewed (workflow_process).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\", \"project_structure\"], \"reasoning\": \"The section outlines general coding practices (coding_style), influences how the project is maintained and organized (project_structure), and dictates how work should be done and reviewed (workflow_process).\"}\n\n---\n\n**Breakdown for clarity (not part of the official response format but added for explanatory purposes):**\n\n- **workflow_process**: Points 5 (Tight PRs), 6 (Maintain the roadmap) directly relate to workflow and process.\n- **coding_style**: Points 1 (Use of specific API), 4 (Determinism), 7 (Use of shared model helpers) influence coding practices.\n- **project_structure**: Point 6 (Management of `ROADMAP.md` and `CHANGELOG.md`) implies organization and structure aspects. \n- **Point 2** could arguably touch on **architecture** (due to mention of model JSON and persistence schemas) and **workflow_process** (migration/round-trip tests), but the dominant theme across the section led to the chosen categories.\n- **Point 3** is more about a development philosophy and doesn't strongly align with any of the provided categories in a dominant way."
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0) Operating Principles (do these every time)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on coding style, workflow process, and architecture, including API usage, determinism, PR requirements, and model helper usage.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines on coding style, workflow process, and architecture, including API usage, determinism, PR requirements, and model helper usage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "0.1) Roadmap Maintenance",
+      "level": 2,
+      "char_count": 803,
+      "voted_categories": [
+        "workflow_process",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0.1) Roadmap Maintenance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses maintaining the project roadmap, updating priorities, and referencing roadmap items in commit messages, which relates to workflow process, evolution context, and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\", \"project_structure\"], \"reasoning\": \"This section discusses maintaining the project roadmap, updating priorities, and referencing roadmap items in commit messages, which relates to workflow process, evolution context, and project structure.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0.1) Roadmap Maintenance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines processes for maintaining the roadmap (workflow) and discusses project priorities, context, and evolution (evolution context).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section outlines processes for maintaining the roadmap (workflow) and discusses project priorities, context, and evolution (evolution context).\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0.1) Roadmap Maintenance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines workflow processes for managing the project roadmap, discusses evolution context such as bug fixes and architectural improvements, and provides agent rules for Claude's involvement in roadmap maintenance.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\", \"agent_rules\"], \"reasoning\": \"The section outlines workflow processes for managing the project roadmap, discusses evolution context such as bug fixes and architectural improvements, and provides agent rules for Claude's involvement in roadmap maintenance.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1) Project Snapshot (facts Claude must anchor to)",
+      "level": 2,
+      "char_count": 1106,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "1) Project Snapshot (facts Claude must anchor to)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project's key components, including package structure and module descriptions, which relates to project_structure, and also describes module roles and dependencies, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project's key components, including package structure and module descriptions, which relates to project_structure, and also describes module roles and dependencies, which relates to architecture.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "1) Project Snapshot (facts Claude must anchor to)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines the project",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines the project's package structure (project_structure) and describes key components' roles and dependencies (architecture).\""
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "1) Project Snapshot (facts Claude must anchor to)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project's structure, including package structure and dependencies, and coding style, such as naming conventions and supported languages and versions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the project's structure, including package structure and dependencies, and coding style, such as naming conventions and supported languages and versions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2) What Good Help Looks Like",
+      "level": 2,
+      "char_count": 340,
+      "voted_categories": [
+        "workflow_process",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "2) What Good Help Looks Like",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines the expected delivery and behavior of Claude, including specific requirements for pull requests, patches, and reviews, which relates to both workflow process and agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section outlines the expected delivery and behavior of Claude, including specific requirements for pull requests, patches, and reviews, which relates to both workflow process and agent rules.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "2) What Good Help Looks Like",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "Outlines specific deliverables and requirements for Claude's assistance (agent_rules) within the context of contributing to the project (workflow_process).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"Outlines specific deliverables and requirements for Claude's assistance (agent_rules) within the context of contributing to the project (workflow_process).\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "2) What Good Help Looks Like",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the expected format for pull requests, patches, and review comments, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the expected format for pull requests, patches, and review comments, which falls under workflow process guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "(A) Add/adjust a DF Param",
+      "level": 3,
+      "char_count": 236,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(A) Add/adjust a DF Param",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes a specific step in the development workflow, including testing and validation, while also implying a change to the project's evolution, such as adding a new parameter to an existing model.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section describes a specific step in the development workflow, including testing and validation, while also implying a change to the project's evolution, such as adding a new parameter to an existing model.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(A) Add/adjust a DF Param",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines a specific development task (workflow_process) involving architectural changes (architecture) to the GeneralizedKMeans model.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a specific development task (workflow_process) involving architectural changes (architecture) to the GeneralizedKMeans model.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(A) Add/adjust a DF Param",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on coding style for adding a parameter and workflow process for updating model persistence, validation, and testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on coding style for adding a parameter and workflow process for updating model persistence, validation, and testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "(B) SE fast path perf (crossJoin)",
+      "level": 3,
+      "char_count": 219,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(B) SE fast path perf (crossJoin)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses auditing and proposing a plan for performance optimization, which relates to workflow process, and also mentions specific design and implementation details, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses auditing and proposing a plan for performance optimization, which relates to workflow process, and also mentions specific design and implementation details, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(B) SE fast path perf (crossJoin)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses a specific ",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses a specific optimization plan (architecture) with requirements for explain plans and micro-benchmarks in CI (workflow_process).\""
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(B) SE fast path perf (crossJoin)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses a specific design pattern for performance optimization (architecture) and outlines a plan for testing and continuous integration (workflow_process).",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses a specific design pattern for performance optimization (architecture) and outlines a plan for testing and continuous integration (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "(C) Streaming snapshots",
+      "level": 3,
+      "char_count": 165,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(C) Streaming snapshots",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses testing requirements, recovery scenarios, and documentation of operational steps, which relates to workflow processes, and also touches on project evolution and refinement, indicating evolution context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses testing requirements, recovery scenarios, and documentation of operational steps, which relates to workflow processes, and also touches on project evolution and refinement, indicating evolution context.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(C) Streaming snapshots",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section discusses testing requirements (workflow_process) and state schema (architecture), with both aspects being equally dominant in the context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses testing requirements (workflow_process) and state schema (architecture), with both aspects being equally dominant in the context.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(C) Streaming snapshots",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses design patterns (idempotent snapshot load, reuse of seeds) and operational steps, which fall under architecture, as well as testing requirements (state schema tests, recovery scenario test), which fall under workflow process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses design patterns (idempotent snapshot load, reuse of seeds) and operational steps, which fall under architecture, as well as testing requirements (state schema tests, recovery scenario test), which fall under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "(D) KL/IS domain safety",
+      "level": 3,
+      "char_count": 163,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(D) KL/IS domain safety",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses enforcing specific coding assumptions and adding error messages, which relates to coding style, and also mentions documentation and guidance, which touches on workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses enforcing specific coding assumptions and adding error messages, which relates to coding style, and also mentions documentation and guidance, which touches on workflow process.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(D) KL/IS domain safety",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses adding error messages and documentation (workflow_process) and specific code adjustments (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section discusses adding error messages and documentation (workflow_process) and specific code adjustments (coding_style).\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(D) KL/IS domain safety",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidance on coding style (error messages, documentation) and architecture (enforcing positivity assumptions, input transformation).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidance on coding style (error messages, documentation) and architecture (enforcing positivity assumptions, input transformation).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "(E) X-Means scoring",
+      "level": 3,
+      "char_count": 128,
+      "voted_categories": [
+        "workflow_process",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(E) X-Means scoring",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses validation and testing of a specific scoring method, indicating workflow process, and also mentions adding an example and a property test, suggesting evolution context for project improvement and refinement.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses validation and testing of a specific scoring method, indicating workflow process, and also mentions adding an example and a property test, suggesting evolution context for project improvement and refinement.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(E) X-Means scoring",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses validation and testing (workflow_process) on a specific dataset with a goal to ensure correctness, implying an evolutionary step or improvement (evolution_context) in the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section discusses validation and testing (workflow_process) on a specific dataset with a goal to ensure correctness, implying an evolutionary step or improvement (evolution_context) in the project.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(E) X-Means scoring",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses a scoring method (architecture) and suggests adding an example and a property test (coding_style).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses a scoring method (architecture) and suggests adding an example and a property test (coding_style).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture & Design",
+      "level": 3,
+      "char_count": 638,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Architecture & Design",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses design principles and patterns, such as separation of concerns and type modeling, which are characteristic of architecture, and also touches on coding style aspects like preference for certain data types and composition over inheritance.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses design principles and patterns, such as separation of concerns and type modeling, which are characteristic of architecture, and also touches on coding style aspects like preference for certain data types and composition over inheritance.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Architecture & Design",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines design principles and structural decisions for the system, focusing on module roles, dependencies, and design patterns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines design principles and structural decisions for the system, focusing on module roles, dependencies, and design patterns.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Architecture & Design",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses design patterns, module roles, and dependencies, which fall under the 'architecture' category, and also mentions coding style conventions such as preferring enums/ADTs and using typeclasses, which fall under the 'coding_style' category.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses design patterns, module roles, and dependencies, which fall under the 'architecture' category, and also mentions coding style conventions such as preferring enums/ADTs and using typeclasses, which fall under the 'coding_style' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Language & Style (Scala-3 friendly, Scala-2.13 today)",
+      "level": 3,
+      "char_count": 802,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Language & Style (Scala-3 friendly, Scala-2.13 today)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, formatting, and coding practices, such as immutability, explicitness, and error handling, which are all characteristic of the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, formatting, and coding practices, such as immutability, explicitness, and error handling, which are all characteristic of the coding_style category.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Language & Style (Scala-3 friendly, Scala-2.13 today)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, immutability, explicitness, collection preferences, error handling, pattern matching, and style guidelines, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, immutability, explicitness, collection preferences, error handling, pattern matching, and style guidelines, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Language & Style (Scala-3 friendly, Scala-2.13 today)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on coding style, including naming conventions, use of immutability, explicitness, error handling, pattern matching, and collection usage.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on coding style, including naming conventions, use of immutability, explicitness, error handling, pattern matching, and collection usage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Effects, Concurrency, Resource Safety",
+      "level": 3,
+      "char_count": 466,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Effects, Concurrency, Resource Safety",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding conventions and library choices for handling effects, concurrency, and resource safety, which relates to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding conventions and library choices for handling effects, concurrency, and resource safety, which relates to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Effects, Concurrency, Resource Safety",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific technic",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific technical choices (effect stack, concurrency model, resource safety mechanisms) that influence both coding practices (coding_style) and the overall system design (architecture).\""
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Effects, Concurrency, Resource Safety",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on coding style (e.g., using modern effect stacks, structured concurrency, resource safety) and architecture (e.g., streaming, abstracting time/randomness).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on coding style (e.g., using modern effect stacks, structured concurrency, resource safety) and architecture (e.g., streaming, abstracting time/randomness).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Modules, Wiring, DI",
+      "level": 3,
+      "char_count": 144,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Modules, Wiring, DI",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses module roles, dependencies, and design patterns, which are key aspects of architecture, and also touches on directory layout and module descriptions, relating to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section discusses module roles, dependencies, and design patterns, which are key aspects of architecture, and also touches on directory layout and module descriptions, relating to project structure.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Modules, Wiring, DI",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Discusses module responsibilities and wiring (architecture) and implies a structural organization principle (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Discusses module responsibilities and wiring (architecture) and implies a structural organization principle (project_structure).\" }"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Modules, Wiring, DI",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses design patterns (constructor injection, acyclic module graphs) and coding style (avoiding runtime reflection DI).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses design patterns (constructor injection, acyclic module graphs) and coding style (avoiding runtime reflection DI).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Persistence & I/O",
+      "level": 3,
+      "char_count": 158,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Persistence & I/O",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding practices and design decisions related to persistence and I/O, which pertains to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding practices and design decisions related to persistence and I/O, which pertains to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Persistence & I/O",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses design decisions (architecture) and testing practices (workflow_process), with a focus on the former.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses design decisions (architecture) and testing practices (workflow_process), with a focus on the former.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Persistence & I/O",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style conventions for JSON codecs and architecture principles for centralizing retries and circuit breakers.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding style conventions for JSON codecs and architecture principles for centralizing retries and circuit breakers.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Strategy",
+      "level": 3,
+      "char_count": 517,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Testing Strategy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the approach to testing, including types of tests, tools, and strategies, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the approach to testing, including types of tests, tools, and strategies, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Testing Strategy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing approaches, tools, and philosophies, which are integral to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing approaches, tools, and philosophies, which are integral to the workflow and development process.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Testing Strategy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the testing strategy, which includes test types and tools, and the architecture of the tests, such as determinism and golden tests.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the testing strategy, which includes test types and tools, and the architecture of the tests, such as determinism and golden tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling & Observability",
+      "level": 3,
+      "char_count": 286,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Error Handling & Observability",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses error handling and observability, which relates to workflow processes and architectural design patterns for robustness and monitoring.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses error handling and observability, which relates to workflow processes and architectural design patterns for robustness and monitoring.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Error Handling & Observability",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses error handl",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses error handling practices (workflow_process) and architectural decisions for observability (architecture).\""
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Error Handling & Observability",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on error handling and observability, which includes coding style conventions for typed errors and structured logs, as well as architectural considerations for metrics, tracing, and context propagation.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on error handling and observability, which includes coding style conventions for typed errors and structured logs, as well as architectural considerations for metrics, tracing, and context propagation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance & Reliability",
+      "level": 3,
+      "char_count": 275,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Performance & Reliability",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses design principles and best practices for ensuring performance and reliability, which relates to architecture, and also touches on testing and profiling, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section discusses design principles and best practices for ensuring performance and reliability, which relates to architecture, and also touches on testing and profiling, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Performance & Reliability",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses design principles (architecture) and workflow efficiency strategies (workflow_process), with a focus on performance and reliability.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses design principles (architecture) and workflow efficiency strategies (workflow_process), with a focus on performance and reliability.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Performance & Reliability",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on designing algorithms and data structures, which falls under architecture, and also includes coding style advice on profiling and I/O operations.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on designing algorithms and data structures, which falls under architecture, and also includes coding style advice on profiling and I/O operations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build, Tooling & CI",
+      "level": 3,
+      "char_count": 529,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Build, Tooling & CI",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses coding style aspects like compiler flags, formatting, and linting, as well as workflow process elements such as CI and reproducible builds.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses coding style aspects like compiler flags, formatting, and linting, as well as workflow process elements such as CI and reproducible builds.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Build, Tooling & CI",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily discusses c",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily discusses coding style aspects (compiler flags, formatting, linting) and workflow/process aspects (CI/CD, build, tooling configurations).\""
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Build, Tooling & CI",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines and workflow processes related to build, tooling, and CI.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily discusses coding style guidelines and workflow processes related to build, tooling, and CI.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "API & Schema Discipline",
+      "level": 3,
+      "char_count": 284,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "API & Schema Discipline",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses schema-first approach, compatibility, and validation, which relates to architecture and coding style disciplines.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses schema-first approach, compatibility, and validation, which relates to architecture and coding style disciplines.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "API & Schema Discipline",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses design principles (schema-first, backward compatibility) relating to architecture and validation/gate-keeping processes impacting workflow.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses design principles (schema-first, backward compatibility) relating to architecture and validation/gate-keeping processes impacting workflow.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "API & Schema Discipline",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses architectural decisions like schema-first approach and backward compatibility, as well as coding style guidelines for validation.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses architectural decisions like schema-first approach and backward compatibility, as well as coding style guidelines for validation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Folder & Project Layout (example baseline)",
+      "level": 3,
+      "char_count": 165,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Folder & Project Layout (example baseline)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the project, indicating it belongs to the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key components of the project, indicating it belongs to the project_structure category.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Folder & Project Layout (example baseline)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout with key folders and their purposes.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout with key folders and their purposes.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Folder & Project Layout (example baseline)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project, which falls under the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project, which falls under the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Review Checklist (apply every PR)",
+      "level": 3,
+      "char_count": 458,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Code Review Checklist (apply every PR)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines a checklist for code review, which is part of the workflow process, and also specifies coding style guidelines, such as function size and logging practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section outlines a checklist for code review, which is part of the workflow process, and also specifies coding style guidelines, such as function size and logging practices.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Code Review Checklist (apply every PR)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a checklist for code reviews (workflow_process) focusing on coding practices and quality (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines a checklist for code reviews (workflow_process) focusing on coding practices and quality (coding_style).\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Code Review Checklist (apply every PR)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for code review, which includes coding style conventions and workflow processes such as testing requirements and code review guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for code review, which includes coding style conventions and workflow processes such as testing requirements and code review guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Anti-Patterns (hard NOs)",
+      "level": 3,
+      "char_count": 340,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Anti-Patterns (hard NOs)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses design anti-patterns, which relates to architecture, and also mentions coding practices, such as exception handling and test coverage, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses design anti-patterns, which relates to architecture, and also mentions coding practices, such as exception handling and test coverage, which falls under coding style.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Anti-Patterns (hard NOs)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "Lists specific coding anti-patterns (coding_style) and architectural flaws (architecture) to avoid.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"Lists specific coding anti-patterns (coding_style) and architectural flaws (architecture) to avoid.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Anti-Patterns (hard NOs)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes anti-patterns related to architecture (e.g., God services, shared global ECs) and coding style (e.g., exceptions as control flow, ad-hoc JSON in handlers).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes anti-patterns related to architecture (e.g., God services, shared global ECs) and coding style (e.g., exceptions as control flow, ad-hoc JSON in handlers).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "5) Code Review Rubric (Spark/DF specifics)",
+      "level": 2,
+      "char_count": 572,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "5) Code Review Rubric (Spark/DF specifics)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific guidelines for code review, covering both coding style aspects like naming conventions and documentation, and workflow process aspects like testing and determinism.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines specific guidelines for code review, covering both coding style aspects like naming conventions and documentation, and workflow process aspects like testing and determinism.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "5) Code Review Rubric (Spark/DF specifics)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific coding standards (coding_style) and guidelines for reviewing code (workflow_process), with a focus on Spark/DF specifics.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines specific coding standards (coding_style) and guidelines for reviewing code (workflow_process), with a focus on Spark/DF specifics.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "5) Code Review Rubric (Spark/DF specifics)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for code review, focusing on coding style, architecture decisions, and workflow processes related to Spark and DataFrame specifics.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for code review, focusing on coding style, architecture decisions, and workflow processes related to Spark and DataFrame specifics.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "6) Minimal Example (use in docs/tests)",
+      "level": 2,
+      "char_count": 517,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "6) Minimal Example (use in docs/tests)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section contains Scala code with specific formatting and naming conventions, indicating its primary classification as coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section contains Scala code with specific formatting and naming conventions, indicating its primary classification as coding style.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "6) Minimal Example (use in docs/tests)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a minimal example for use in documentation and tests, implying guidance on where or how such examples should be integrated within the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a minimal example for use in documentation and tests, implying guidance on where or how such examples should be integrated within the project structure.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "6) Minimal Example (use in docs/tests)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a code example, which falls under coding_style, and also demonstrates how to use the project's main functionality, which falls under project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a code example, which falls under coding_style, and also demonstrates how to use the project's main functionality, which falls under project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "7) CI Expectations",
+      "level": 2,
+      "char_count": 246,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "7) CI Expectations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines expectations for continuous integration, including testing and performance checks, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines expectations for continuous integration, including testing and performance checks, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "7) CI Expectations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific expectations for Continuous Integration (CI), which directly relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific expectations for Continuous Integration (CI), which directly relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "7) CI Expectations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines CI expectations, which includes coding style guidelines for staying within the existing matrix and keeping performance sanity checks within a certain time limit.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines CI expectations, which includes coding style guidelines for staying within the existing matrix and keeping performance sanity checks within a certain time limit.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Summary",
+      "level": 3,
+      "char_count": 32,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Summary",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section appears to describe the format for a commit summary, which is a common workflow process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section appears to describe the format for a commit summary, which is a common workflow process guideline.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Summary",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the format for a commit summary, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the format for a commit summary, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Summary",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a guideline for writing a change summary, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a guideline for writing a change summary, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Changes",
+      "level": 3,
+      "char_count": 114,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines changes made to the repository, indicating evolution context, and also implies a workflow process by suggesting what needs to be updated or checked.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"workflow_process\"], \"reasoning\": \"This section outlines changes made to the repository, indicating evolution context, and also implies a workflow process by suggesting what needs to be updated or checked.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a checklist for tasks typically associated with the workflow process of making and reviewing changes in a project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a checklist for tasks typically associated with the workflow process of making and reviewing changes in a project.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a checklist for changes, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a checklist for changes, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Risk / Compatibility",
+      "level": 3,
+      "char_count": 86,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Risk / Compatibility",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "This section discusses compatibility and risk, which relates to evolution context, and also touches on persistence schema, which is an architectural concern.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"This section discusses compatibility and risk, which relates to evolution context, and also touches on persistence schema, which is an architectural concern.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Risk / Compatibility",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses compatibility and potential changes to the persistence schema, implying considerations for project evolution and structure.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"The section discusses compatibility and potential changes to the persistence schema, implying considerations for project evolution and structure.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Risk / Compatibility",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses the API surface and persistence schema, which are related to architecture, and mentions potential changes, which is related to evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section discusses the API surface and persistence schema, which are related to architecture, and mentions potential changes, which is related to evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Validation",
+      "level": 3,
+      "char_count": 57,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Validation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing and validation environments, which falls under workflow processes such as testing requirements and CI/CD.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing and validation environments, which falls under workflow processes such as testing requirements and CI/CD.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Validation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing/validation environments and CI configuration, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing/validation environments and CI configuration, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Validation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies coding style in terms of language and framework versions, and workflow process by mentioning CI matrix runs.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section specifies coding style in terms of language and framework versions, and workflow process by mentioning CI matrix runs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "9) Backlog Suggestions (safe, high-ROI)",
+      "level": 2,
+      "char_count": 232,
+      "voted_categories": [
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "9) Backlog Suggestions (safe, high-ROI)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses future development suggestions and potential improvements, indicating evolution context, and also implies a project structure by mentioning specific components and notebooks.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"This section discusses future development suggestions and potential improvements, indicating evolution context, and also implies a project structure by mentioning specific components and notebooks.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "9) Backlog Suggestions (safe, high-ROI)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines future development suggestions, indicating project evolution and planning.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"The section outlines future development suggestions, indicating project evolution and planning.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "9) Backlog Suggestions (safe, high-ROI)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section suggests new features and improvements to the project, which falls under workflow_process, and also mentions specific architectural components like validation helpers and broadcast-threshold diagnostics.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section suggests new features and improvements to the project, which falls under workflow_process, and also mentions specific architectural components like validation helpers and broadcast-threshold diagnostics.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "10) Hallucination Traps (pin these truths)",
+      "level": 2,
+      "char_count": 447,
+      "voted_categories": [
+        "architecture",
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "10) Hallucination Traps (pin these truths)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses design patterns and module implementation details, which falls under architecture, and also touches on coding conventions and API usage, relating to coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses design patterns and module implementation details, which falls under architecture, and also touches on coding conventions and API usage, relating to coding style.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "10) Hallucination Traps (pin these truths)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section contains coding conventions (coding_style), hints on project organization (project_structure), and workflow advice (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section contains coding conventions (coding_style), hints on project organization (project_structure), and workflow advice (workflow_process).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **coding_style**: \"General Bregman \u2260 SE\" suggests a specific coding approach to avoid, and \"Package visibility\" implies naming/access conventions.\n- **project_structure**: \"Package visibility\" also hints at how the project is structured in terms of accessibility.\n- **workflow_process**: \"No RDD API\" implies a guideline on what not to use in the workflow, affecting the development process. \n\n**Note**: The original response format is strictly followed in the first line. The breakdown is an addition for explanatory purposes."
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "10) Hallucination Traps (pin these truths)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines, describes project structure, and outlines architectural considerations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines, describes project structure, and outlines architectural considerations.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md \u2014 Maintainer Copilot for *generalized-kmeans-clustering*",
+      "level": 1,
+      "char_count": 958,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "CLAUDE.md \u2014 Maintainer Copilot for *generalized-kmeans-clustering*",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines the project's norms, API guarantees, and engineering standards, while also describing the modular package structure and Spark API usage, which are relevant to multiple categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"agent_rules\"], \"reasoning\": \"This section outlines the project's norms, API guarantees, and engineering standards, while also describing the modular package structure and Spark API usage, which are relevant to multiple categories.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "CLAUDE.md \u2014 Maintainer Copilot for *generalized-kmeans-clustering*",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines the project's modular package structure (project_structure), highlights key architectural components (architecture), and mentions Scala engineering standards (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines the project's modular package structure (project_structure), highlights key architectural components (architecture), and mentions Scala engineering standards (coding_style).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **project_structure**: Mention of \"modular package structure with `kernels/` and `strategies/impl/` subpackages\".\n- **architecture**: Overview of architectural design with specific module roles (\"`kernels/`\", \"`strategies/impl/`\") and technology stack (Spark DataFrame/ML API, Scala versions).\n- **coding_style**: Reference to \"Scala engineering standards\" implying conventions for coding."
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "CLAUDE.md \u2014 Maintainer Copilot for *generalized-kmeans-clustering*",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's architecture, including its modular package structure and subpackages, as well as the primary surface and API versions, which relate to the project's structure.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's architecture, including its modular package structure and subpackages, as well as the primary surface and API versions, which relate to the project's structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "0) Operating Principles (do these every time)",
+      "level": 2,
+      "char_count": 931,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0) Operating Principles (do these every time)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines operating principles that guide coding style, workflow processes, and architectural decisions in the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines operating principles that guide coding style, workflow processes, and architectural decisions in the project.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0) Operating Principles (do these every time)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines general coding practices (coding_style), influences how the project is maintained and organized (project_structure), and dictates how work should be done and reviewed (workflow_process).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\", \"project_structure\"], \"reasoning\": \"The section outlines general coding practices (coding_style), influences how the project is maintained and organized (project_structure), and dictates how work should be done and reviewed (workflow_process).\"}\n\n---\n\n**Breakdown for clarity (not part of the official response format but added for explanatory purposes):**\n\n- **workflow_process**: Points 5 (Tight PRs), 6 (Maintain the roadmap) directly relate to workflow and process.\n- **coding_style**: Points 1 (Use of specific API), 4 (Determinism), 7 (Use of shared model helpers) influence coding practices.\n- **project_structure**: Point 6 (Management of `ROADMAP.md` and `CHANGELOG.md`) implies organization and structure aspects. \n- **Point 2** could arguably touch on **architecture** (due to mention of model JSON and persistence schemas) and **workflow_process** (migration/round-trip tests), but the dominant theme across the section led to the chosen categories.\n- **Point 3** is more about a development philosophy and doesn't strongly align with any of the provided categories in a dominant way."
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0) Operating Principles (do these every time)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on coding style, workflow process, and architecture, including API usage, determinism, PR requirements, and model helper usage.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section provides guidelines on coding style, workflow process, and architecture, including API usage, determinism, PR requirements, and model helper usage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "0.1) Roadmap Maintenance",
+      "level": 2,
+      "char_count": 803,
+      "voted_categories": [
+        "workflow_process",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0.1) Roadmap Maintenance",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses maintaining the project roadmap, updating priorities, and referencing roadmap items in commit messages, which relates to workflow process, evolution context, and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\", \"project_structure\"], \"reasoning\": \"This section discusses maintaining the project roadmap, updating priorities, and referencing roadmap items in commit messages, which relates to workflow process, evolution context, and project structure.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0.1) Roadmap Maintenance",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines processes for maintaining the roadmap (workflow) and discusses project priorities, context, and evolution (evolution context).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section outlines processes for maintaining the roadmap (workflow) and discusses project priorities, context, and evolution (evolution context).\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "0.1) Roadmap Maintenance",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines workflow processes for managing the project roadmap, discusses evolution context such as bug fixes and architectural improvements, and provides agent rules for Claude's involvement in roadmap maintenance.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\", \"agent_rules\"], \"reasoning\": \"The section outlines workflow processes for managing the project roadmap, discusses evolution context such as bug fixes and architectural improvements, and provides agent rules for Claude's involvement in roadmap maintenance.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1) Project Snapshot (facts Claude must anchor to)",
+      "level": 2,
+      "char_count": 1106,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "1) Project Snapshot (facts Claude must anchor to)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project's key components, including package structure and module descriptions, which relates to project_structure, and also describes module roles and dependencies, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project's key components, including package structure and module descriptions, which relates to project_structure, and also describes module roles and dependencies, which relates to architecture.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "1) Project Snapshot (facts Claude must anchor to)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines the project",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines the project's package structure (project_structure) and describes key components' roles and dependencies (architecture).\""
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "1) Project Snapshot (facts Claude must anchor to)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project's structure, including package structure and dependencies, and coding style, such as naming conventions and supported languages and versions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the project's structure, including package structure and dependencies, and coding style, such as naming conventions and supported languages and versions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2) What Good Help Looks Like",
+      "level": 2,
+      "char_count": 340,
+      "voted_categories": [
+        "workflow_process",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "2) What Good Help Looks Like",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines the expected delivery and behavior of Claude, including specific requirements for pull requests, patches, and reviews, which relates to both workflow process and agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section outlines the expected delivery and behavior of Claude, including specific requirements for pull requests, patches, and reviews, which relates to both workflow process and agent rules.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "2) What Good Help Looks Like",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "Outlines specific deliverables and requirements for Claude's assistance (agent_rules) within the context of contributing to the project (workflow_process).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"Outlines specific deliverables and requirements for Claude's assistance (agent_rules) within the context of contributing to the project (workflow_process).\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "2) What Good Help Looks Like",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the expected format for pull requests, patches, and review comments, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the expected format for pull requests, patches, and review comments, which falls under workflow process guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "(A) Add/adjust a DF Param",
+      "level": 3,
+      "char_count": 236,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(A) Add/adjust a DF Param",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes a specific step in the development workflow, including testing and validation, while also implying a change to the project's evolution, such as adding a new parameter to an existing model.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section describes a specific step in the development workflow, including testing and validation, while also implying a change to the project's evolution, such as adding a new parameter to an existing model.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(A) Add/adjust a DF Param",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines a specific development task (workflow_process) involving architectural changes (architecture) to the GeneralizedKMeans model.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a specific development task (workflow_process) involving architectural changes (architecture) to the GeneralizedKMeans model.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(A) Add/adjust a DF Param",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on coding style for adding a parameter and workflow process for updating model persistence, validation, and testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on coding style for adding a parameter and workflow process for updating model persistence, validation, and testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "(B) SE fast path perf (crossJoin)",
+      "level": 3,
+      "char_count": 219,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(B) SE fast path perf (crossJoin)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses auditing and proposing a plan for performance optimization, which relates to workflow process, and also mentions specific design and implementation details, which pertains to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses auditing and proposing a plan for performance optimization, which relates to workflow process, and also mentions specific design and implementation details, which pertains to architecture.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(B) SE fast path perf (crossJoin)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses a specific ",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses a specific optimization plan (architecture) with requirements for explain plans and micro-benchmarks in CI (workflow_process).\""
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(B) SE fast path perf (crossJoin)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses a specific design pattern for performance optimization (architecture) and outlines a plan for testing and continuous integration (workflow_process).",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses a specific design pattern for performance optimization (architecture) and outlines a plan for testing and continuous integration (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "(C) Streaming snapshots",
+      "level": 3,
+      "char_count": 165,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(C) Streaming snapshots",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses testing requirements, recovery scenarios, and documentation of operational steps, which relates to workflow processes, and also touches on project evolution and refinement, indicating evolution context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses testing requirements, recovery scenarios, and documentation of operational steps, which relates to workflow processes, and also touches on project evolution and refinement, indicating evolution context.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(C) Streaming snapshots",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section discusses testing requirements (workflow_process) and state schema (architecture), with both aspects being equally dominant in the context.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses testing requirements (workflow_process) and state schema (architecture), with both aspects being equally dominant in the context.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(C) Streaming snapshots",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses design patterns (idempotent snapshot load, reuse of seeds) and operational steps, which fall under architecture, as well as testing requirements (state schema tests, recovery scenario test), which fall under workflow process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses design patterns (idempotent snapshot load, reuse of seeds) and operational steps, which fall under architecture, as well as testing requirements (state schema tests, recovery scenario test), which fall under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "(D) KL/IS domain safety",
+      "level": 3,
+      "char_count": 163,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(D) KL/IS domain safety",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses enforcing specific coding assumptions and adding error messages, which relates to coding style, and also mentions documentation and guidance, which touches on workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses enforcing specific coding assumptions and adding error messages, which relates to coding style, and also mentions documentation and guidance, which touches on workflow process.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(D) KL/IS domain safety",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses adding error messages and documentation (workflow_process) and specific code adjustments (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section discusses adding error messages and documentation (workflow_process) and specific code adjustments (coding_style).\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(D) KL/IS domain safety",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidance on coding style (error messages, documentation) and architecture (enforcing positivity assumptions, input transformation).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidance on coding style (error messages, documentation) and architecture (enforcing positivity assumptions, input transformation).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "(E) X-Means scoring",
+      "level": 3,
+      "char_count": 128,
+      "voted_categories": [
+        "workflow_process",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(E) X-Means scoring",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses validation and testing of a specific scoring method, indicating workflow process, and also mentions adding an example and a property test, suggesting evolution context for project improvement and refinement.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"This section discusses validation and testing of a specific scoring method, indicating workflow process, and also mentions adding an example and a property test, suggesting evolution context for project improvement and refinement.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(E) X-Means scoring",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses validation and testing (workflow_process) on a specific dataset with a goal to ensure correctness, implying an evolutionary step or improvement (evolution_context) in the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section discusses validation and testing (workflow_process) on a specific dataset with a goal to ensure correctness, implying an evolutionary step or improvement (evolution_context) in the project.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "(E) X-Means scoring",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses a scoring method (architecture) and suggests adding an example and a property test (coding_style).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses a scoring method (architecture) and suggests adding an example and a property test (coding_style).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture & Design",
+      "level": 3,
+      "char_count": 638,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Architecture & Design",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses design principles and patterns, such as separation of concerns and type modeling, which are characteristic of architecture, and also touches on coding style aspects like preference for certain data types and composition over inheritance.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses design principles and patterns, such as separation of concerns and type modeling, which are characteristic of architecture, and also touches on coding style aspects like preference for certain data types and composition over inheritance.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Architecture & Design",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines design principles and structural decisions for the system, focusing on module roles, dependencies, and design patterns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines design principles and structural decisions for the system, focusing on module roles, dependencies, and design patterns.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Architecture & Design",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses design patterns, module roles, and dependencies, which fall under the 'architecture' category, and also mentions coding style conventions such as preferring enums/ADTs and using typeclasses, which fall under the 'coding_style' category.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses design patterns, module roles, and dependencies, which fall under the 'architecture' category, and also mentions coding style conventions such as preferring enums/ADTs and using typeclasses, which fall under the 'coding_style' category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Language & Style (Scala-3 friendly, Scala-2.13 today)",
+      "level": 3,
+      "char_count": 802,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Language & Style (Scala-3 friendly, Scala-2.13 today)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, formatting, and coding practices, such as immutability, explicitness, and error handling, which are all characteristic of the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, formatting, and coding practices, such as immutability, explicitness, and error handling, which are all characteristic of the coding_style category.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Language & Style (Scala-3 friendly, Scala-2.13 today)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, immutability, explicitness, collection preferences, error handling, pattern matching, and style guidelines, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, immutability, explicitness, collection preferences, error handling, pattern matching, and style guidelines, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Language & Style (Scala-3 friendly, Scala-2.13 today)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on coding style, including naming conventions, use of immutability, explicitness, error handling, pattern matching, and collection usage.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on coding style, including naming conventions, use of immutability, explicitness, error handling, pattern matching, and collection usage.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Effects, Concurrency, Resource Safety",
+      "level": 3,
+      "char_count": 466,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Effects, Concurrency, Resource Safety",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding conventions and library choices for handling effects, concurrency, and resource safety, which relates to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding conventions and library choices for handling effects, concurrency, and resource safety, which relates to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Effects, Concurrency, Resource Safety",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific technic",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines specific technical choices (effect stack, concurrency model, resource safety mechanisms) that influence both coding practices (coding_style) and the overall system design (architecture).\""
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Effects, Concurrency, Resource Safety",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on coding style (e.g., using modern effect stacks, structured concurrency, resource safety) and architecture (e.g., streaming, abstracting time/randomness).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on coding style (e.g., using modern effect stacks, structured concurrency, resource safety) and architecture (e.g., streaming, abstracting time/randomness).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Modules, Wiring, DI",
+      "level": 3,
+      "char_count": 144,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Modules, Wiring, DI",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses module roles, dependencies, and design patterns, which are key aspects of architecture, and also touches on directory layout and module descriptions, relating to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section discusses module roles, dependencies, and design patterns, which are key aspects of architecture, and also touches on directory layout and module descriptions, relating to project structure.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Modules, Wiring, DI",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "Discusses module responsibilities and wiring (architecture) and implies a structural organization principle (project_structure).",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"Discusses module responsibilities and wiring (architecture) and implies a structural organization principle (project_structure).\" }"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Modules, Wiring, DI",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses design patterns (constructor injection, acyclic module graphs) and coding style (avoiding runtime reflection DI).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses design patterns (constructor injection, acyclic module graphs) and coding style (avoiding runtime reflection DI).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Persistence & I/O",
+      "level": 3,
+      "char_count": 158,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Persistence & I/O",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding practices and design decisions related to persistence and I/O, which pertains to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding practices and design decisions related to persistence and I/O, which pertains to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Persistence & I/O",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses design decisions (architecture) and testing practices (workflow_process), with a focus on the former.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses design decisions (architecture) and testing practices (workflow_process), with a focus on the former.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Persistence & I/O",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style conventions for JSON codecs and architecture principles for centralizing retries and circuit breakers.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding style conventions for JSON codecs and architecture principles for centralizing retries and circuit breakers.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Strategy",
+      "level": 3,
+      "char_count": 517,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Testing Strategy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the approach to testing, including types of tests, tools, and strategies, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the approach to testing, including types of tests, tools, and strategies, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Testing Strategy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing approaches, tools, and philosophies, which are integral to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing approaches, tools, and philosophies, which are integral to the workflow and development process.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Testing Strategy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the testing strategy, which includes test types and tools, and the architecture of the tests, such as determinism and golden tests.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the testing strategy, which includes test types and tools, and the architecture of the tests, such as determinism and golden tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling & Observability",
+      "level": 3,
+      "char_count": 286,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Error Handling & Observability",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses error handling and observability, which relates to workflow processes and architectural design patterns for robustness and monitoring.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses error handling and observability, which relates to workflow processes and architectural design patterns for robustness and monitoring.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Error Handling & Observability",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses error handl",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses error handling practices (workflow_process) and architectural decisions for observability (architecture).\""
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Error Handling & Observability",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on error handling and observability, which includes coding style conventions for typed errors and structured logs, as well as architectural considerations for metrics, tracing, and context propagation.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on error handling and observability, which includes coding style conventions for typed errors and structured logs, as well as architectural considerations for metrics, tracing, and context propagation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance & Reliability",
+      "level": 3,
+      "char_count": 275,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Performance & Reliability",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses design principles and best practices for ensuring performance and reliability, which relates to architecture, and also touches on testing and profiling, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section discusses design principles and best practices for ensuring performance and reliability, which relates to architecture, and also touches on testing and profiling, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Performance & Reliability",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses design principles (architecture) and workflow efficiency strategies (workflow_process), with a focus on performance and reliability.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses design principles (architecture) and workflow efficiency strategies (workflow_process), with a focus on performance and reliability.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Performance & Reliability",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on designing algorithms and data structures, which falls under architecture, and also includes coding style advice on profiling and I/O operations.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on designing algorithms and data structures, which falls under architecture, and also includes coding style advice on profiling and I/O operations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build, Tooling & CI",
+      "level": 3,
+      "char_count": 529,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Build, Tooling & CI",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses coding style aspects like compiler flags, formatting, and linting, as well as workflow process elements such as CI and reproducible builds.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses coding style aspects like compiler flags, formatting, and linting, as well as workflow process elements such as CI and reproducible builds.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Build, Tooling & CI",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily discusses c",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily discusses coding style aspects (compiler flags, formatting, linting) and workflow/process aspects (CI/CD, build, tooling configurations).\""
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Build, Tooling & CI",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines and workflow processes related to build, tooling, and CI.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily discusses coding style guidelines and workflow processes related to build, tooling, and CI.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "API & Schema Discipline",
+      "level": 3,
+      "char_count": 284,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "API & Schema Discipline",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses schema-first approach, compatibility, and validation, which relates to architecture and coding style disciplines.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses schema-first approach, compatibility, and validation, which relates to architecture and coding style disciplines.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "API & Schema Discipline",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses design principles (schema-first, backward compatibility) relating to architecture and validation/gate-keeping processes impacting workflow.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"The section discusses design principles (schema-first, backward compatibility) relating to architecture and validation/gate-keeping processes impacting workflow.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "API & Schema Discipline",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses architectural decisions like schema-first approach and backward compatibility, as well as coding style guidelines for validation.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses architectural decisions like schema-first approach and backward compatibility, as well as coding style guidelines for validation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Folder & Project Layout (example baseline)",
+      "level": 3,
+      "char_count": 165,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Folder & Project Layout (example baseline)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the project, indicating it belongs to the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key components of the project, indicating it belongs to the project_structure category.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Folder & Project Layout (example baseline)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout with key folders and their purposes.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout with key folders and their purposes.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Folder & Project Layout (example baseline)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project, which falls under the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project, which falls under the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Review Checklist (apply every PR)",
+      "level": 3,
+      "char_count": 458,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Code Review Checklist (apply every PR)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines a checklist for code review, which is part of the workflow process, and also specifies coding style guidelines, such as function size and logging practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section outlines a checklist for code review, which is part of the workflow process, and also specifies coding style guidelines, such as function size and logging practices.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Code Review Checklist (apply every PR)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a checklist for code reviews (workflow_process) focusing on coding practices and quality (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines a checklist for code reviews (workflow_process) focusing on coding practices and quality (coding_style).\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Code Review Checklist (apply every PR)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for code review, which includes coding style conventions and workflow processes such as testing requirements and code review guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for code review, which includes coding style conventions and workflow processes such as testing requirements and code review guidelines.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Anti-Patterns (hard NOs)",
+      "level": 3,
+      "char_count": 340,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Anti-Patterns (hard NOs)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses design anti-patterns, which relates to architecture, and also mentions coding practices, such as exception handling and test coverage, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses design anti-patterns, which relates to architecture, and also mentions coding practices, such as exception handling and test coverage, which falls under coding style.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Anti-Patterns (hard NOs)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "Lists specific coding anti-patterns (coding_style) and architectural flaws (architecture) to avoid.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"Lists specific coding anti-patterns (coding_style) and architectural flaws (architecture) to avoid.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Anti-Patterns (hard NOs)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes anti-patterns related to architecture (e.g., God services, shared global ECs) and coding style (e.g., exceptions as control flow, ad-hoc JSON in handlers).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes anti-patterns related to architecture (e.g., God services, shared global ECs) and coding style (e.g., exceptions as control flow, ad-hoc JSON in handlers).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "5) Code Review Rubric (Spark/DF specifics)",
+      "level": 2,
+      "char_count": 572,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "5) Code Review Rubric (Spark/DF specifics)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific guidelines for code review, covering both coding style aspects like naming conventions and documentation, and workflow process aspects like testing and determinism.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section outlines specific guidelines for code review, covering both coding style aspects like naming conventions and documentation, and workflow process aspects like testing and determinism.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "5) Code Review Rubric (Spark/DF specifics)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific coding standards (coding_style) and guidelines for reviewing code (workflow_process), with a focus on Spark/DF specifics.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section outlines specific coding standards (coding_style) and guidelines for reviewing code (workflow_process), with a focus on Spark/DF specifics.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "5) Code Review Rubric (Spark/DF specifics)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for code review, focusing on coding style, architecture decisions, and workflow processes related to Spark and DataFrame specifics.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for code review, focusing on coding style, architecture decisions, and workflow processes related to Spark and DataFrame specifics.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "6) Minimal Example (use in docs/tests)",
+      "level": 2,
+      "char_count": 517,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "6) Minimal Example (use in docs/tests)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section contains Scala code with specific formatting and naming conventions, indicating its primary classification as coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section contains Scala code with specific formatting and naming conventions, indicating its primary classification as coding style.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "6) Minimal Example (use in docs/tests)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a minimal example for use in documentation and tests, implying guidance on where or how such examples should be integrated within the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a minimal example for use in documentation and tests, implying guidance on where or how such examples should be integrated within the project structure.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "6) Minimal Example (use in docs/tests)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a code example, which falls under coding_style, and also demonstrates how to use the project's main functionality, which falls under project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a code example, which falls under coding_style, and also demonstrates how to use the project's main functionality, which falls under project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "7) CI Expectations",
+      "level": 2,
+      "char_count": 246,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "7) CI Expectations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines expectations for continuous integration, including testing and performance checks, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines expectations for continuous integration, including testing and performance checks, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "7) CI Expectations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific expectations for Continuous Integration (CI), which directly relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific expectations for Continuous Integration (CI), which directly relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "7) CI Expectations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines CI expectations, which includes coding style guidelines for staying within the existing matrix and keeping performance sanity checks within a certain time limit.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines CI expectations, which includes coding style guidelines for staying within the existing matrix and keeping performance sanity checks within a certain time limit.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Summary",
+      "level": 3,
+      "char_count": 32,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Summary",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section appears to describe the format for a commit summary, which is a common workflow process guideline.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section appears to describe the format for a commit summary, which is a common workflow process guideline.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Summary",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the format for a commit summary, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the format for a commit summary, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Summary",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a guideline for writing a change summary, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a guideline for writing a change summary, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Changes",
+      "level": 3,
+      "char_count": 114,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines changes made to the repository, indicating evolution context, and also implies a workflow process by suggesting what needs to be updated or checked.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"workflow_process\"], \"reasoning\": \"This section outlines changes made to the repository, indicating evolution context, and also implies a workflow process by suggesting what needs to be updated or checked.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a checklist for tasks typically associated with the workflow process of making and reviewing changes in a project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a checklist for tasks typically associated with the workflow process of making and reviewing changes in a project.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a checklist for changes, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a checklist for changes, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Risk / Compatibility",
+      "level": 3,
+      "char_count": 86,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Risk / Compatibility",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "This section discusses compatibility and risk, which relates to evolution context, and also touches on persistence schema, which is an architectural concern.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"This section discusses compatibility and risk, which relates to evolution context, and also touches on persistence schema, which is an architectural concern.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Risk / Compatibility",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses compatibility and potential changes to the persistence schema, implying considerations for project evolution and structure.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"The section discusses compatibility and potential changes to the persistence schema, implying considerations for project evolution and structure.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Risk / Compatibility",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses the API surface and persistence schema, which are related to architecture, and mentions potential changes, which is related to evolution context.",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"This section discusses the API surface and persistence schema, which are related to architecture, and mentions potential changes, which is related to evolution context.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Validation",
+      "level": 3,
+      "char_count": 57,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Validation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing and validation environments, which falls under workflow processes such as testing requirements and CI/CD.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing and validation environments, which falls under workflow processes such as testing requirements and CI/CD.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Validation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing/validation environments and CI configuration, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing/validation environments and CI configuration, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "Validation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies coding style in terms of language and framework versions, and workflow process by mentioning CI matrix runs.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section specifies coding style in terms of language and framework versions, and workflow process by mentioning CI matrix runs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "9) Backlog Suggestions (safe, high-ROI)",
+      "level": 2,
+      "char_count": 232,
+      "voted_categories": [
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "9) Backlog Suggestions (safe, high-ROI)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses future development suggestions and potential improvements, indicating evolution context, and also implies a project structure by mentioning specific components and notebooks.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"project_structure\"], \"reasoning\": \"This section discusses future development suggestions and potential improvements, indicating evolution context, and also implies a project structure by mentioning specific components and notebooks.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "9) Backlog Suggestions (safe, high-ROI)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "The section outlines future development suggestions, indicating project evolution and planning.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"The section outlines future development suggestions, indicating project evolution and planning.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "9) Backlog Suggestions (safe, high-ROI)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section suggests new features and improvements to the project, which falls under workflow_process, and also mentions specific architectural components like validation helpers and broadcast-threshold diagnostics.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section suggests new features and improvements to the project, which falls under workflow_process, and also mentions specific architectural components like validation helpers and broadcast-threshold diagnostics.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "10) Hallucination Traps (pin these truths)",
+      "level": 2,
+      "char_count": 447,
+      "voted_categories": [
+        "architecture",
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "10) Hallucination Traps (pin these truths)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses design patterns and module implementation details, which falls under architecture, and also touches on coding conventions and API usage, relating to coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses design patterns and module implementation details, which falls under architecture, and also touches on coding conventions and API usage, relating to coding style.\"}"
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "10) Hallucination Traps (pin these truths)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section contains coding conventions (coding_style), hints on project organization (project_structure), and workflow advice (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section contains coding conventions (coding_style), hints on project organization (project_structure), and workflow advice (workflow_process).\"}\n\n**Breakdown for clarity (not part of the required response format but added for understanding):**\n\n- **coding_style**: \"General Bregman \u2260 SE\" suggests a specific coding approach to avoid, and \"Package visibility\" implies naming/access conventions.\n- **project_structure**: \"Package visibility\" also hints at how the project is structured in terms of accessibility.\n- **workflow_process**: \"No RDD API\" implies a guideline on what not to use in the workflow, affecting the development process. \n\n**Note**: The original response format is strictly followed in the first line. The breakdown is an addition for explanatory purposes."
+        },
+        {
+          "repo": "derrickburns/generalized-kmeans-clustering",
+          "section_heading": "10) Hallucination Traps (pin these truths)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines, describes project structure, and outlines architectural considerations.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines, describes project structure, and outlines architectural considerations.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.40625,
+    "project_structure": 0.1875,
+    "workflow_process": 0.5625,
+    "architecture": 0.46875,
+    "evolution_context": 0.125,
+    "agent_rules": 0.03125
+  },
+  "category_char_fraction": {
+    "coding_style": 0.5078943128725633,
+    "project_structure": 0.2688094087320767,
+    "workflow_process": 0.4890446270339939,
+    "architecture": 0.5238440470436604,
+    "evolution_context": 0.10061221201868857,
+    "agent_rules": 0.027388432415015304
+  }
+}

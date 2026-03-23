@@ -1,0 +1,1908 @@
+{
+  "repo": "acepanel__panel",
+  "full_name": "acepanel/panel",
+  "n_sections": 22,
+  "n_chars": 6141,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u89d2\u8272\u5b9a\u4e49",
+      "level": 2,
+      "char_count": 139,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u89d2\u8272\u5b9a\u4e49",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section defines the role of Linus Torvalds in the project, setting the context for the project's evolution and guiding the agent's behavior with his unique perspective on code quality and technical foundations.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section defines the role of Linus Torvalds in the project, setting the context for the project's evolution and guiding the agent's behavior with his unique perspective on code quality and technical foundations.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u89d2\u8272\u5b9a\u4e49",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section defines a role (as Linus Torvalds) with a specific perspective for analyzing code quality, implying AI agent directives or personas.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section defines a role (as Linus Torvalds) with a specific perspective for analyzing code quality, implying AI agent directives or personas.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u89d2\u8272\u5b9a\u4e49",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section defines the role of Linus Torvalds as an agent, focusing on his expertise in maintaining code quality and establishing a solid technical foundation, which relates to architecture and agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section defines the role of Linus Torvalds as an agent, focusing on his expertise in maintaining code quality and establishing a solid technical foundation, which relates to architecture and agent rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u6211\u7684\u6838\u5fc3\u54f2\u5b66",
+      "level": 2,
+      "char_count": 459,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6211\u7684\u6838\u5fc3\u54f2\u5b66",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding principles, such as simplicity, good taste, and practicality, which relate to coding style, and also touches on design and architectural aspects, like avoiding complexity and ensuring backward compatibility.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding principles, such as simplicity, good taste, and practicality, which relate to coding style, and also touches on design and architectural aspects, like avoiding complexity and ensuring backward compatibility.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6211\u7684\u6838\u5fc3\u54f2\u5b66",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines coding principles (coding_style) and architectural design philosophies (architecture) guiding the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines coding principles (coding_style) and architectural design philosophies (architecture) guiding the project.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6211\u7684\u6838\u5fc3\u54f2\u5b66",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style principles such as eliminating special cases and limiting indentation levels, as well as architectural principles such as practicality and simplicity.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding style principles such as eliminating special cases and limiting indentation levels, as well as architectural principles such as practicality and simplicity.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u57fa\u7840\u4ea4\u6d41\u89c4\u8303",
+      "level": 3,
+      "char_count": 120,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u57fa\u7840\u4ea4\u6d41\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines communication guidelines, including language and expression style, which relates to workflow process, and also touches on code quality, which is relevant to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section outlines communication guidelines, including language and expression style, which relates to workflow process, and also touches on code quality, which is relevant to coding style.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u57fa\u7840\u4ea4\u6d41\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines communication guidelines that influence how team members interact during the workflow, such as code reviews and discussions.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines communication guidelines that influence how team members interact during the workflow, such as code reviews and discussions.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u57fa\u7840\u4ea4\u6d41\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section discusses language requirements, expression style, and technical focus, which relate to coding style and agent rules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section discusses language requirements, expression style, and technical focus, which relate to coding style and agent rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u9700\u6c42\u786e\u8ba4\u6d41\u7a0b",
+      "level": 3,
+      "char_count": 1563,
+      "voted_categories": [
+        "workflow_process",
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9700\u6c42\u786e\u8ba4\u6d41\u7a0b",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a structured workflow for confirming and analyzing user requirements, which relates to workflow_process, and also touches on architectural considerations such as data structure analysis and complexity review, and coding style principles like simplicity and clarity.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"coding_style\"], \"reasoning\": \"This section describes a structured workflow for confirming and analyzing user requirements, which relates to workflow_process, and also touches on architectural considerations such as data structure analysis and complexity review, and coding style principles like simplicity and clarity.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9700\u6c42\u786e\u8ba4\u6d41\u7a0b",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a detailed workflow process for requirement confirmation and code review, touches on architectural considerations like data structures and complexity, and implies coding style preferences through simplicity and clarity guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines a detailed workflow process for requirement confirmation and code review, touches on architectural considerations like data structures and complexity, and implies coding style preferences through simplicity and clarity guidelines.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9700\u6c42\u786e\u8ba4\u6d41\u7a0b",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines a process for confirming requirements and includes considerations for data structures, complexity, and compatibility, which are aspects of software architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a process for confirming requirements and includes considerations for data structures, complexity, and compatibility, which are aspects of software architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u9879\u76ee\u6982\u8ff0",
+      "level": 2,
+      "char_count": 134,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9879\u76ee\u6982\u8ff0",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the project's overall architecture and technology stack, including the directory layout implied by the front-end and back-end separation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the project's overall architecture and technology stack, including the directory layout implied by the front-end and back-end separation.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9879\u76ee\u6982\u8ff0",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's overall structure (project_structure) and its architectural components (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's overall structure (project_structure) and its architectural components (architecture).\"}\n\n**Rationale for chosen categories:**\n\n1. **project_structure**: While not detailing directory layout, the section outlines the high-level **project structure** in terms of the separation between frontend and backend, which is a fundamental aspect of how the project is organized.\n2. **architecture**: The section explicitly describes the **architectural choices** for both the backend and frontend, including specific technologies and frameworks, which directly relates to the system's design and component boundaries.\n\n**Why not the others?**\n\n- **coding_style**: No naming conventions, formatting, or style guidelines are mentioned.\n- **workflow_process**: There's no information related to development workflows, commits, PRs, testing, or CI/CD.\n- **evolution_context**: The section does not discuss project phase, complexity, technical debt, history, or future plans.\n- **agent_rules**: There are no directives or strategies related to AI agents or tools."
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9879\u76ee\u6982\u8ff0",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's overall structure and architecture, including the choice of programming language, frontend and backend frameworks, and dependency injection.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's overall structure and architecture, including the choice of programming language, frontend and backend frameworks, and dependency injection.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u8bed\u8a00\u548c\u7f16\u7801\u89c4\u8303",
+      "level": 2,
+      "char_count": 25,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u8bed\u8a00\u548c\u7f16\u7801\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions and formatting guidelines for code comments and documentation, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions and formatting guidelines for code comments and documentation, which falls under coding style.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u8bed\u8a00\u548c\u7f16\u7801\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section dictates language use for comments, docs, and responses, which relates to coding conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section dictates language use for comments, docs, and responses, which relates to coding conventions.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u8bed\u8a00\u548c\u7f16\u7801\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses coding style rules regarding the use of simplified Chinese for comments, documentation, and replies.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses coding style rules regarding the use of simplified Chinese for comments, documentation, and replies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u540e\u7aef\u6784\u5efa",
+      "level": 3,
+      "char_count": 96,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u540e\u7aef\u6784\u5efa",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build commands and processes, which falls under workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build commands and processes, which falls under workflow and development procedures.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u540e\u7aef\u6784\u5efa",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes build commands, which are part of the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes build commands, which are part of the development workflow process.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u540e\u7aef\u6784\u5efa",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides build commands for the main program and CLI tool, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides build commands for the main program and CLI tool, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u524d\u7aef\u5f00\u53d1",
+      "level": 3,
+      "char_count": 128,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps and commands for installing dependencies, developing, and building the project, which falls under workflow and development processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps and commands for installing dependencies, developing, and building the project, which falls under workflow and development processes.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for navigating, installing dependencies, and running the application in development and production modes, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for navigating, installing dependencies, and running the application in development and production modes, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of the frontend directory and the commands to install dependencies and run the development server, which falls under project_structure; it also implies the use of a specific package manager (pnpm) and build commands, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location of the frontend directory and the commands to install dependencies and run the development server, which falls under project_structure; it also implies the use of a specific package manager (pnpm) and build commands, which relates to coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u4ee3\u7801\u67b6\u6784",
+      "level": 2,
+      "char_count": 52,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u67b6\u6784",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's architecture, specifically the layered architecture and dependencies between components.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the project's architecture, specifically the layered architecture and dependencies between components.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u67b6\u6784",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the project's architectural layering and dependency structure, which is the core of the 'architecture' category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the project's architectural layering and dependency structure, which is the core of the 'architecture' category.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u67b6\u6784",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's architectural design pattern and dependency relationships between modules.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the project's architectural design pattern and dependency relationships between modules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u6838\u5fc3\u76ee\u5f55\u7ed3\u6784",
+      "level": 3,
+      "char_count": 945,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6838\u5fc3\u76ee\u5f55\u7ed3\u6784",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as module roles and dependencies, indicating a focus on both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files, as well as module roles and dependencies, indicating a focus on both project structure and architecture.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6838\u5fc3\u76ee\u5f55\u7ed3\u6784",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the direct",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout (project_structure) and explains the roles of each module (architecture).\""
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6838\u5fc3\u76ee\u5f55\u7ed3\u6784",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u5f00\u53d1\u65b0\u529f\u80fd\u7684\u6807\u51c6\u6d41\u7a0b",
+      "level": 2,
+      "char_count": 695,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f00\u53d1\u65b0\u529f\u80fd\u7684\u6807\u51c6\u6d41\u7a0b",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the standard process for developing new features, including specific steps and directory layouts, which relates to workflow process, project structure, and architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the standard process for developing new features, including specific steps and directory layouts, which relates to workflow process, project structure, and architecture.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f00\u53d1\u65b0\u529f\u80fd\u7684\u6807\u51c6\u6d41\u7a0b",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines a step-by-step workflow (workflow_process) for developing new features, referencing specific project directories and file locations (project_structure), and describes architectural components like routing, services, biz layers, and dependency injection (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a step-by-step workflow (workflow_process) for developing new features, referencing specific project directories and file locations (project_structure), and describes architectural components like routing, services, biz layers, and dependency injection (architecture).\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f00\u53d1\u65b0\u529f\u80fd\u7684\u6807\u51c6\u6d41\u7a0b",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the standard process for developing new features, including where to add routes, implement service methods, define business interfaces, and implement business interfaces, as well as coding style guidelines for each step.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes the standard process for developing new features, including where to add routes, implement service methods, define business interfaces, and implement business interfaces, as well as coding style guidelines for each step.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Go \u8bed\u8a00\u89c4\u8303",
+      "level": 3,
+      "char_count": 92,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Go \u8bed\u8a00\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific guidelines for coding in Go, including version, standard library usage, and logging practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific guidelines for coding in Go, including version, standard library usage, and logging practices.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Go \u8bed\u8a00\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific language version, standard library adherence, logging package choice, and a utility package for coding practices, all of which pertain to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific language version, standard library adherence, logging package choice, and a utility package for coding practices, all of which pertain to coding style guidelines.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Go \u8bed\u8a00\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines for Go language, including version, standard library usage, and functional programming assistance.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style guidelines for Go language, including version, standard library usage, and functional programming assistance.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u5f53\u524d\u6846\u67b6",
+      "level": 3,
+      "char_count": 118,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f53\u524d\u6846\u67b6",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the framework and dependencies used in the project, which relates to both architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the framework and dependencies used in the project, which relates to both architecture and project structure.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f53\u524d\u6846\u67b6",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key dependencies and frameworks (project_structure) with implications on system design (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key dependencies and frameworks (project_structure) with implications on system design (architecture).\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f53\u524d\u6846\u67b6",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists key libraries and tools used in the project, which falls under project structure, and also describes the roles of these components in the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section lists key libraries and tools used in the project, which falls under project structure, and also describes the roles of these components in the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u52a9\u624b\u51fd\u6570\uff08service \u5c42\uff09",
+      "level": 3,
+      "char_count": 210,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u52a9\u624b\u51fd\u6570\uff08service \u5c42\uff09",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes specific coding conventions and helper functions for the service layer, indicating both coding style and architectural design patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes specific coding conventions and helper functions for the service layer, indicating both coding style and architectural design patterns.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u52a9\u624b\u51fd\u6570\uff08service \u5c42\uff09",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes specific, reusable architectural components (helper functions) within a particular layer (service layer) of the application.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes specific, reusable architectural components (helper functions) within a particular layer (service layer) of the application.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u52a9\u624b\u51fd\u6570\uff08service \u5c42\uff09",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes helper functions used in the service layer, which falls under coding_style, and also provides information on where these functions live in the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes helper functions used in the service layer, which falls under coding_style, and also provides information on where these functions live in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u6570\u636e\u5e93",
+      "level": 3,
+      "char_count": 65,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6570\u636e\u5e93",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the database used in the project and how it is interacted with, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the database used in the project and how it is interacted with, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6570\u636e\u5e93",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section specifies a key technology choice (database) which relates to project structure, and mentions an ORM (GORM) which impacts architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section specifies a key technology choice (database) which relates to project structure, and mentions an ORM (GORM) which impacts architectural design.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6570\u636e\u5e93",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes the choice of SQLite and GORM for database operations, which falls under coding_style and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes the choice of SQLite and GORM for database operations, which falls under coding_style and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u5b89\u5168\u6027",
+      "level": 3,
+      "char_count": 45,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5b89\u5168\u6027",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section discusses security considerations and constraints specific to the AI agent's operation, such as not needing to implement command injection filtering or filename filtering due to the server panel's administrative access model.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section discusses security considerations and constraints specific to the AI agent's operation, such as not needing to implement command injection filtering or filename filtering due to the server panel's administrative access model.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5b89\u5168\u6027",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses a design decision regarding security features based on user roles, which pertains to system architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses a design decision regarding security features based on user roles, which pertains to system architecture.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5b89\u5168\u6027",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses the design decision of not implementing certain security measures, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses the design decision of not implementing certain security measures, which falls under the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u4ee3\u7801\u98ce\u683c",
+      "level": 2,
+      "char_count": 164,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u98ce\u683c",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding conventions, formatting, and style tools, such as using Simplified Chinese for comments, following Go's official style, and utilizing gofmt for formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding conventions, formatting, and style tools, such as using Simplified Chinese for comments, following Go's official style, and utilizing gofmt for formatting.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u98ce\u683c",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions, formatting tools (gofmt), and commentary standards, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions, formatting tools (gofmt), and commentary standards, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u98ce\u683c",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines, including comment language, code formatting, and internationalization.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style guidelines, including comment language, code formatting, and internationalization.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Wire \u4f9d\u8d56\u6ce8\u5165",
+      "level": 2,
+      "char_count": 125,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Wire \u4f9d\u8d56\u6ce8\u5165",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the project's dependency injection using Wire and outlines the steps to add new dependencies, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the project's dependency injection using Wire and outlines the steps to add new dependencies, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Wire \u4f9d\u8d56\u6ce8\u5165",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a project-specific dependency injection setup (project_structure) and a workflow for updating it (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a project-specific dependency injection setup (project_structure) and a workflow for updating it (workflow_process).\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Wire \u4f9d\u8d56\u6ce8\u5165",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the use of Wire for dependency injection, which involves adding providers in specific files and running a command, falling under coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the use of Wire for dependency injection, which involves adding providers in specific files and running a command, falling under coding_style and project_structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u524d\u7aef\u5f00\u53d1\u6ce8\u610f\u4e8b\u9879",
+      "level": 2,
+      "char_count": 204,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1\u6ce8\u610f\u4e8b\u9879",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines specific technologies and frameworks used in the project, such as Vue 3 Composition API and Pinia, as well as coding conventions and component structure guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines specific technologies and frameworks used in the project, such as Vue 3 Composition API and Pinia, as well as coding conventions and component structure guidelines.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1\u6ce8\u610f\u4e8b\u9879",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section outl",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines specific tech stack choices (architecture), references existing component structure (project_structure), and dictates coding practices (coding_style).\""
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1\u6ce8\u610f\u4e8b\u9879",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on coding style, including libraries and tools to use, and also mentions adhering to the project's existing component structure and coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on coding style, including libraries and tools to use, and also mentions adhering to the project's existing component structure and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u914d\u7f6e\u6587\u4ef6",
+      "level": 2,
+      "char_count": 172,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u914d\u7f6e\u6587\u4ef6",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the configuration files and setup process for development, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the configuration files and setup process for development, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u914d\u7f6e\u6587\u4ef6",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on preparing and copying specific configuration files to appropriate directories, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on preparing and copying specific configuration files to appropriate directories, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u914d\u7f6e\u6587\u4ef6",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the location and naming conventions of configuration files, which falls under project_structure and coding_style categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the location and naming conventions of configuration files, which falls under project_structure and coding_style categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u6587\u6863\u5de5\u5177",
+      "level": 3,
+      "char_count": 153,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6587\u6863\u5de5\u5177",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes tools for accessing documentation and searching code, which relates to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes tools for accessing documentation and searching code, which relates to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6587\u6863\u5de5\u5177",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes tools and commands for documentation and code searching, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes tools and commands for documentation and code searching, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6587\u6863\u5de5\u5177",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides tools for resolving library names and accessing official documentation, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides tools for resolving library names and accessing official documentation, which relates to coding style and project structure.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u89d2\u8272\u5b9a\u4e49",
+      "level": 2,
+      "char_count": 139,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u89d2\u8272\u5b9a\u4e49",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section defines the role of Linus Torvalds in the project, setting the context for the project's evolution and guiding the agent's behavior with his unique perspective on code quality and technical foundations.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section defines the role of Linus Torvalds in the project, setting the context for the project's evolution and guiding the agent's behavior with his unique perspective on code quality and technical foundations.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u89d2\u8272\u5b9a\u4e49",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section defines a role (as Linus Torvalds) with a specific perspective for analyzing code quality, implying AI agent directives or personas.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section defines a role (as Linus Torvalds) with a specific perspective for analyzing code quality, implying AI agent directives or personas.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u89d2\u8272\u5b9a\u4e49",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section defines the role of Linus Torvalds as an agent, focusing on his expertise in maintaining code quality and establishing a solid technical foundation, which relates to architecture and agent rules.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section defines the role of Linus Torvalds as an agent, focusing on his expertise in maintaining code quality and establishing a solid technical foundation, which relates to architecture and agent rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u6211\u7684\u6838\u5fc3\u54f2\u5b66",
+      "level": 2,
+      "char_count": 459,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6211\u7684\u6838\u5fc3\u54f2\u5b66",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding principles, such as simplicity, good taste, and practicality, which relate to coding style, and also touches on design and architectural aspects, like avoiding complexity and ensuring backward compatibility.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding principles, such as simplicity, good taste, and practicality, which relate to coding style, and also touches on design and architectural aspects, like avoiding complexity and ensuring backward compatibility.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6211\u7684\u6838\u5fc3\u54f2\u5b66",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section outlines coding principles (coding_style) and architectural design philosophies (architecture) guiding the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section outlines coding principles (coding_style) and architectural design philosophies (architecture) guiding the project.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6211\u7684\u6838\u5fc3\u54f2\u5b66",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style principles such as eliminating special cases and limiting indentation levels, as well as architectural principles such as practicality and simplicity.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding style principles such as eliminating special cases and limiting indentation levels, as well as architectural principles such as practicality and simplicity.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u57fa\u7840\u4ea4\u6d41\u89c4\u8303",
+      "level": 3,
+      "char_count": 120,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u57fa\u7840\u4ea4\u6d41\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines communication guidelines, including language and expression style, which relates to workflow process, and also touches on code quality, which is relevant to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section outlines communication guidelines, including language and expression style, which relates to workflow process, and also touches on code quality, which is relevant to coding style.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u57fa\u7840\u4ea4\u6d41\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines communication guidelines that influence how team members interact during the workflow, such as code reviews and discussions.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines communication guidelines that influence how team members interact during the workflow, such as code reviews and discussions.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u57fa\u7840\u4ea4\u6d41\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "agent_rules"
+          ],
+          "reasoning": "The section discusses language requirements, expression style, and technical focus, which relate to coding style and agent rules.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"agent_rules\"], \"reasoning\": \"The section discusses language requirements, expression style, and technical focus, which relate to coding style and agent rules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u9700\u6c42\u786e\u8ba4\u6d41\u7a0b",
+      "level": 3,
+      "char_count": 1563,
+      "voted_categories": [
+        "workflow_process",
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9700\u6c42\u786e\u8ba4\u6d41\u7a0b",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a structured workflow for confirming and analyzing user requirements, which relates to workflow_process, and also touches on architectural considerations such as data structure analysis and complexity review, and coding style principles like simplicity and clarity.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"coding_style\"], \"reasoning\": \"This section describes a structured workflow for confirming and analyzing user requirements, which relates to workflow_process, and also touches on architectural considerations such as data structure analysis and complexity review, and coding style principles like simplicity and clarity.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9700\u6c42\u786e\u8ba4\u6d41\u7a0b",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a detailed workflow process for requirement confirmation and code review, touches on architectural considerations like data structures and complexity, and implies coding style preferences through simplicity and clarity guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"coding_style\"], \"reasoning\": \"The section outlines a detailed workflow process for requirement confirmation and code review, touches on architectural considerations like data structures and complexity, and implies coding style preferences through simplicity and clarity guidelines.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9700\u6c42\u786e\u8ba4\u6d41\u7a0b",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines a process for confirming requirements and includes considerations for data structures, complexity, and compatibility, which are aspects of software architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a process for confirming requirements and includes considerations for data structures, complexity, and compatibility, which are aspects of software architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u9879\u76ee\u6982\u8ff0",
+      "level": 2,
+      "char_count": 134,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9879\u76ee\u6982\u8ff0",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the project's overall architecture and technology stack, including the directory layout implied by the front-end and back-end separation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the project's overall architecture and technology stack, including the directory layout implied by the front-end and back-end separation.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9879\u76ee\u6982\u8ff0",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's overall structure (project_structure) and its architectural components (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's overall structure (project_structure) and its architectural components (architecture).\"}\n\n**Rationale for chosen categories:**\n\n1. **project_structure**: While not detailing directory layout, the section outlines the high-level **project structure** in terms of the separation between frontend and backend, which is a fundamental aspect of how the project is organized.\n2. **architecture**: The section explicitly describes the **architectural choices** for both the backend and frontend, including specific technologies and frameworks, which directly relates to the system's design and component boundaries.\n\n**Why not the others?**\n\n- **coding_style**: No naming conventions, formatting, or style guidelines are mentioned.\n- **workflow_process**: There's no information related to development workflows, commits, PRs, testing, or CI/CD.\n- **evolution_context**: The section does not discuss project phase, complexity, technical debt, history, or future plans.\n- **agent_rules**: There are no directives or strategies related to AI agents or tools."
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u9879\u76ee\u6982\u8ff0",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's overall structure and architecture, including the choice of programming language, frontend and backend frameworks, and dependency injection.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's overall structure and architecture, including the choice of programming language, frontend and backend frameworks, and dependency injection.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u8bed\u8a00\u548c\u7f16\u7801\u89c4\u8303",
+      "level": 2,
+      "char_count": 25,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u8bed\u8a00\u548c\u7f16\u7801\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions and formatting guidelines for code comments and documentation, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions and formatting guidelines for code comments and documentation, which falls under coding style.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u8bed\u8a00\u548c\u7f16\u7801\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section dictates language use for comments, docs, and responses, which relates to coding conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section dictates language use for comments, docs, and responses, which relates to coding conventions.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u8bed\u8a00\u548c\u7f16\u7801\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses coding style rules regarding the use of simplified Chinese for comments, documentation, and replies.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses coding style rules regarding the use of simplified Chinese for comments, documentation, and replies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u540e\u7aef\u6784\u5efa",
+      "level": 3,
+      "char_count": 96,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u540e\u7aef\u6784\u5efa",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build commands and processes, which falls under workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build commands and processes, which falls under workflow and development procedures.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u540e\u7aef\u6784\u5efa",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes build commands, which are part of the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes build commands, which are part of the development workflow process.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u540e\u7aef\u6784\u5efa",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides build commands for the main program and CLI tool, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides build commands for the main program and CLI tool, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u524d\u7aef\u5f00\u53d1",
+      "level": 3,
+      "char_count": 128,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps and commands for installing dependencies, developing, and building the project, which falls under workflow and development processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps and commands for installing dependencies, developing, and building the project, which falls under workflow and development processes.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for navigating, installing dependencies, and running the application in development and production modes, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for navigating, installing dependencies, and running the application in development and production modes, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of the frontend directory and the commands to install dependencies and run the development server, which falls under project_structure; it also implies the use of a specific package manager (pnpm) and build commands, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location of the frontend directory and the commands to install dependencies and run the development server, which falls under project_structure; it also implies the use of a specific package manager (pnpm) and build commands, which relates to coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u4ee3\u7801\u67b6\u6784",
+      "level": 2,
+      "char_count": 52,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u67b6\u6784",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's architecture, specifically the layered architecture and dependencies between components.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the project's architecture, specifically the layered architecture and dependencies between components.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u67b6\u6784",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the project's architectural layering and dependency structure, which is the core of the 'architecture' category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the project's architectural layering and dependency structure, which is the core of the 'architecture' category.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u67b6\u6784",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's architectural design pattern and dependency relationships between modules.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the project's architectural design pattern and dependency relationships between modules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u6838\u5fc3\u76ee\u5f55\u7ed3\u6784",
+      "level": 3,
+      "char_count": 945,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6838\u5fc3\u76ee\u5f55\u7ed3\u6784",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as module roles and dependencies, indicating a focus on both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files, as well as module roles and dependencies, indicating a focus on both project structure and architecture.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6838\u5fc3\u76ee\u5f55\u7ed3\u6784",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the direct",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout (project_structure) and explains the roles of each module (architecture).\""
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6838\u5fc3\u76ee\u5f55\u7ed3\u6784",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u5f00\u53d1\u65b0\u529f\u80fd\u7684\u6807\u51c6\u6d41\u7a0b",
+      "level": 2,
+      "char_count": 695,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f00\u53d1\u65b0\u529f\u80fd\u7684\u6807\u51c6\u6d41\u7a0b",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the standard process for developing new features, including specific steps and directory layouts, which relates to workflow process, project structure, and architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the standard process for developing new features, including specific steps and directory layouts, which relates to workflow process, project structure, and architecture.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f00\u53d1\u65b0\u529f\u80fd\u7684\u6807\u51c6\u6d41\u7a0b",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines a step-by-step workflow (workflow_process) for developing new features, referencing specific project directories and file locations (project_structure), and describes architectural components like routing, services, biz layers, and dependency injection (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines a step-by-step workflow (workflow_process) for developing new features, referencing specific project directories and file locations (project_structure), and describes architectural components like routing, services, biz layers, and dependency injection (architecture).\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f00\u53d1\u65b0\u529f\u80fd\u7684\u6807\u51c6\u6d41\u7a0b",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the standard process for developing new features, including where to add routes, implement service methods, define business interfaces, and implement business interfaces, as well as coding style guidelines for each step.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes the standard process for developing new features, including where to add routes, implement service methods, define business interfaces, and implement business interfaces, as well as coding style guidelines for each step.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Go \u8bed\u8a00\u89c4\u8303",
+      "level": 3,
+      "char_count": 92,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Go \u8bed\u8a00\u89c4\u8303",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific guidelines for coding in Go, including version, standard library usage, and logging practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific guidelines for coding in Go, including version, standard library usage, and logging practices.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Go \u8bed\u8a00\u89c4\u8303",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific language version, standard library adherence, logging package choice, and a utility package for coding practices, all of which pertain to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific language version, standard library adherence, logging package choice, and a utility package for coding practices, all of which pertain to coding style guidelines.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Go \u8bed\u8a00\u89c4\u8303",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines for Go language, including version, standard library usage, and functional programming assistance.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style guidelines for Go language, including version, standard library usage, and functional programming assistance.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u5f53\u524d\u6846\u67b6",
+      "level": 3,
+      "char_count": 118,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f53\u524d\u6846\u67b6",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the framework and dependencies used in the project, which relates to both architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the framework and dependencies used in the project, which relates to both architecture and project structure.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f53\u524d\u6846\u67b6",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key dependencies and frameworks (project_structure) with implications on system design (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key dependencies and frameworks (project_structure) with implications on system design (architecture).\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5f53\u524d\u6846\u67b6",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists key libraries and tools used in the project, which falls under project structure, and also describes the roles of these components in the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section lists key libraries and tools used in the project, which falls under project structure, and also describes the roles of these components in the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u52a9\u624b\u51fd\u6570\uff08service \u5c42\uff09",
+      "level": 3,
+      "char_count": 210,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u52a9\u624b\u51fd\u6570\uff08service \u5c42\uff09",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes specific coding conventions and helper functions for the service layer, indicating both coding style and architectural design patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes specific coding conventions and helper functions for the service layer, indicating both coding style and architectural design patterns.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u52a9\u624b\u51fd\u6570\uff08service \u5c42\uff09",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes specific, reusable architectural components (helper functions) within a particular layer (service layer) of the application.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes specific, reusable architectural components (helper functions) within a particular layer (service layer) of the application.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u52a9\u624b\u51fd\u6570\uff08service \u5c42\uff09",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes helper functions used in the service layer, which falls under coding_style, and also provides information on where these functions live in the project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes helper functions used in the service layer, which falls under coding_style, and also provides information on where these functions live in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u6570\u636e\u5e93",
+      "level": 3,
+      "char_count": 65,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6570\u636e\u5e93",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the database used in the project and how it is interacted with, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the database used in the project and how it is interacted with, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6570\u636e\u5e93",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section specifies a key technology choice (database) which relates to project structure, and mentions an ORM (GORM) which impacts architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section specifies a key technology choice (database) which relates to project structure, and mentions an ORM (GORM) which impacts architectural design.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6570\u636e\u5e93",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes the choice of SQLite and GORM for database operations, which falls under coding_style and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes the choice of SQLite and GORM for database operations, which falls under coding_style and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u5b89\u5168\u6027",
+      "level": 3,
+      "char_count": 45,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5b89\u5168\u6027",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section discusses security considerations and constraints specific to the AI agent's operation, such as not needing to implement command injection filtering or filename filtering due to the server panel's administrative access model.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section discusses security considerations and constraints specific to the AI agent's operation, such as not needing to implement command injection filtering or filename filtering due to the server panel's administrative access model.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5b89\u5168\u6027",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses a design decision regarding security features based on user roles, which pertains to system architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses a design decision regarding security features based on user roles, which pertains to system architecture.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u5b89\u5168\u6027",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses the design decision of not implementing certain security measures, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses the design decision of not implementing certain security measures, which falls under the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u4ee3\u7801\u98ce\u683c",
+      "level": 2,
+      "char_count": 164,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u98ce\u683c",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding conventions, formatting, and style tools, such as using Simplified Chinese for comments, following Go's official style, and utilizing gofmt for formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding conventions, formatting, and style tools, such as using Simplified Chinese for comments, following Go's official style, and utilizing gofmt for formatting.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u98ce\u683c",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions, formatting tools (gofmt), and commentary standards, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions, formatting tools (gofmt), and commentary standards, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u4ee3\u7801\u98ce\u683c",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style guidelines, including comment language, code formatting, and internationalization.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style guidelines, including comment language, code formatting, and internationalization.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Wire \u4f9d\u8d56\u6ce8\u5165",
+      "level": 2,
+      "char_count": 125,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Wire \u4f9d\u8d56\u6ce8\u5165",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the project's dependency injection using Wire and outlines the steps to add new dependencies, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the project's dependency injection using Wire and outlines the steps to add new dependencies, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Wire \u4f9d\u8d56\u6ce8\u5165",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a project-specific dependency injection setup (project_structure) and a workflow for updating it (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a project-specific dependency injection setup (project_structure) and a workflow for updating it (workflow_process).\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "Wire \u4f9d\u8d56\u6ce8\u5165",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the use of Wire for dependency injection, which involves adding providers in specific files and running a command, falling under coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the use of Wire for dependency injection, which involves adding providers in specific files and running a command, falling under coding_style and project_structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u524d\u7aef\u5f00\u53d1\u6ce8\u610f\u4e8b\u9879",
+      "level": 2,
+      "char_count": 204,
+      "voted_categories": [
+        "coding_style",
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1\u6ce8\u610f\u4e8b\u9879",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines specific technologies and frameworks used in the project, such as Vue 3 Composition API and Pinia, as well as coding conventions and component structure guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines specific technologies and frameworks used in the project, such as Vue 3 Composition API and Pinia, as well as coding conventions and component structure guidelines.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1\u6ce8\u610f\u4e8b\u9879",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section outl",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"The section outlines specific tech stack choices (architecture), references existing component structure (project_structure), and dictates coding practices (coding_style).\""
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u524d\u7aef\u5f00\u53d1\u6ce8\u610f\u4e8b\u9879",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on coding style, including libraries and tools to use, and also mentions adhering to the project's existing component structure and coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides guidelines on coding style, including libraries and tools to use, and also mentions adhering to the project's existing component structure and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u914d\u7f6e\u6587\u4ef6",
+      "level": 2,
+      "char_count": 172,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u914d\u7f6e\u6587\u4ef6",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the configuration files and setup process for development, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the configuration files and setup process for development, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u914d\u7f6e\u6587\u4ef6",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on preparing and copying specific configuration files to appropriate directories, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on preparing and copying specific configuration files to appropriate directories, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u914d\u7f6e\u6587\u4ef6",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the location and naming conventions of configuration files, which falls under project_structure and coding_style categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the location and naming conventions of configuration files, which falls under project_structure and coding_style categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u6587\u6863\u5de5\u5177",
+      "level": 3,
+      "char_count": 153,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6587\u6863\u5de5\u5177",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes tools for accessing documentation and searching code, which relates to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes tools for accessing documentation and searching code, which relates to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6587\u6863\u5de5\u5177",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes tools and commands for documentation and code searching, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes tools and commands for documentation and code searching, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "acepanel/panel",
+          "section_heading": "\u6587\u6863\u5de5\u5177",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides tools for resolving library names and accessing official documentation, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides tools for resolving library names and accessing official documentation, which relates to coding style and project structure.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.36363636363636365,
+    "project_structure": 0.4090909090909091,
+    "workflow_process": 0.22727272727272727,
+    "architecture": 0.5,
+    "evolution_context": 0.0,
+    "agent_rules": 0.09090909090909091
+  },
+  "category_char_fraction": {
+    "coding_style": 0.4886324491904926,
+    "project_structure": 0.449707199448846,
+    "workflow_process": 0.4481570788839132,
+    "architecture": 0.7733379262831553,
+    "evolution_context": 0.0,
+    "agent_rules": 0.04150878401653462
+  }
+}

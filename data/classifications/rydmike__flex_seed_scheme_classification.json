@@ -1,0 +1,1634 @@
+{
+  "repo": "rydmike__flex_seed_scheme",
+  "full_name": "rydmike/flex_seed_scheme",
+  "n_sections": 19,
+  "n_chars": 7828,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section introduces the purpose of the CLAUDE.md file, which is to guide Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section introduces the purpose of the CLAUDE.md file, which is to guide Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance to the AI agent, Claude Code, on how to work with the code in the repository.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance to the AI agent, Claude Code, on how to work with the code in the repository.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 680,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project, describing its key features and value proposition, which relates to both the project's structure and its architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project, describing its key features and value proposition, which relates to both the project's structure and its architectural design.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level overview of the project, its purpose, and key features, which relates to understanding how the project is conceptualized and structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level overview of the project, its purpose, and key features, which relates to understanding how the project is conceptualized and structured.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and key features of the FlexSeedScheme package, which relates to project structure, and also outlines its architecture, including multiple seed colors, custom chroma settings, and configurable tone mapping.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the purpose and key features of the FlexSeedScheme package, which relates to project structure, and also outlines its architecture, including multiple seed colors, custom chroma settings, and configurable tone mapping.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests with coverage",
+      "level": 1,
+      "char_count": 23,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run tests with coverage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run tests with coverage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to the workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to the workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run tests with coverage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command for running tests with coverage, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a command for running tests with coverage, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run a single test file",
+      "level": 1,
+      "char_count": 48,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run a single test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing procedure, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing procedure, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run a single test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command to execute a specific test file, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command to execute a specific test file, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run a single test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running a test, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running a test, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check if code is properly formatted (fails if not)",
+      "level": 1,
+      "char_count": 53,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check if code is properly formatted (fails if not)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section is about code formatting and using a tool to enforce it, which relates to coding style, and also about a check that fails if formatting is incorrect, implying a workflow or process aspect.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section is about code formatting and using a tool to enforce it, which relates to coding style, and also about a check that fails if formatting is incorrect, implying a workflow or process aspect.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check if code is properly formatted (fails if not)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on enforcing code formatting using a specific tool (dart format), which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on enforcing code formatting using a specific tool (dart format), which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check if code is properly formatted (fails if not)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for formatting code and enforcing coding style, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes a command for formatting code and enforcing coding style, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check for outdated dependencies",
+      "level": 1,
+      "char_count": 24,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check for outdated dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the development workflow, specifically checking for outdated dependencies using a command.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the development workflow, specifically checking for outdated dependencies using a command.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check for outdated dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for dependency management, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for dependency management, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check for outdated dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for checking outdated dependencies, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for checking outdated dependencies, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Version Management",
+      "level": 3,
+      "char_count": 55,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses version management using a specific tool, which relates to the workflow and development process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses version management using a specific tool, which relates to the workflow and development process of the project.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Version management falls under workflow processes as it pertains to how the project is maintained and updated over time.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Version management falls under workflow processes as it pertains to how the project is maintained and updated over time.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a tool used in the project's structure and outlines a workflow process for version management.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a tool used in the project's structure and outlines a workflow process for version management.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use the configured Flutter version",
+      "level": 1,
+      "char_count": 25,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Use the configured Flutter version",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to use a specific Flutter version, which relates to the workflow process of managing dependencies and tools.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to use a specific Flutter version, which relates to the workflow process of managing dependencies and tools.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Use the configured Flutter version",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for using a configured Flutter version, which relates to the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for using a configured Flutter version, which relates to the development workflow process.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Use the configured Flutter version",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a coding style guideline for using a specific Flutter version with fvm.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a coding style guideline for using a specific Flutter version with fvm.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Components",
+      "level": 3,
+      "char_count": 59,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Core Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the organization of the codebase, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the organization of the codebase, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Core Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the high-level organization of the codebase, specifically the directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the high-level organization of the codebase, specifically the directory layout.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Core Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the organization of the codebase into directories, which is a project structure concern.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the organization of the codebase into directories, which is a project structure concern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. `/lib/src/flex/` - FlexSeedScheme Core API",
+      "level": 4,
+      "char_count": 1474,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "1. `/lib/src/flex/` - FlexSeedScheme Core API",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the FlexSeedScheme Core API, while also detailing the roles and dependencies of various modules and classes within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key files of the FlexSeedScheme Core API, while also detailing the roles and dependencies of various modules and classes within the project.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "1. `/lib/src/flex/` - FlexSeedScheme Core API",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout (`/lib/src/flex/`) and explains the roles of key modules within the FlexSeedScheme Core API, outlining their interdependencies and design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout (`/lib/src/flex/`) and explains the roles of key modules within the FlexSeedScheme Core API, outlining their interdependencies and design.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "1. `/lib/src/flex/` - FlexSeedScheme Core API",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory structure of the project and the roles of the modules within the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory structure of the project and the roles of the modules within the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. `/lib/src/mcu/` - Material Color Utilities Fork",
+      "level": 4,
+      "char_count": 1095,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "2. `/lib/src/mcu/` - Material Color Utilities Fork",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the Material Color Utilities fork, as well as the relationships and dependencies between them, indicating both project structure and architectural aspects.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key components of the Material Color Utilities fork, as well as the relationships and dependencies between them, indicating both project structure and architectural aspects.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "2. `/lib/src/mcu/` - Material Color Utilities Fork",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes a directory layout (`/lib/src/mcu/`) and explains the roles of its submodules, focusing on both structure and architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes a directory layout (`/lib/src/mcu/`) and explains the roles of its submodules, focusing on both structure and architectural design.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "2. `/lib/src/mcu/` - Material Color Utilities Fork",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the Material Color Utilities fork, as well as the roles and dependencies of its modules.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files of the Material Color Utilities fork, as well as the roles and dependencies of its modules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Architectural Patterns",
+      "level": 3,
+      "char_count": 908,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Architectural Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key architectural patterns, including the seed-to-scheme flow, generation paths, and palette type system, which are all related to the design and structure of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key architectural patterns, including the seed-to-scheme flow, generation paths, and palette type system, which are all related to the design and structure of the system.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Architectural Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes architectural patterns, component interactions, and design decisions of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes architectural patterns, component interactions, and design decisions of the system.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Architectural Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the architecture of the system, including key patterns, generation paths, and palette type system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the architecture of the system, including key patterns, generation paths, and palette type system.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Strict Analysis",
+      "level": 3,
+      "char_count": 298,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Strict Analysis",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses strict linting rules and code formatting, which falls under coding style, and also mentions CI/CD enforcement, which relates to workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses strict linting rules and code formatting, which falls under coding style, and also mentions CI/CD enforcement, which relates to workflow process.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Strict Analysis",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses linting rules and formatting (coding_style) and enforcement via CI/CD (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses linting rules and formatting (coding_style) and enforcement via CI/CD (workflow_process).\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Strict Analysis",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses linting rules, code formatting, and CI/CD enforcement, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses linting rules, code formatting, and CI/CD enforcement, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Coverage",
+      "level": 3,
+      "char_count": 306,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Test Coverage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses test coverage requirements, test locations, and CI enforcement, which relates to workflow processes, and also mentions specific directory structures, which pertains to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses test coverage requirements, test locations, and CI enforcement, which relates to workflow processes, and also mentions specific directory structures, which pertains to project structure.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Test Coverage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses test coverage requirements and CI enforcement (workflow_process) alongside the location and structure of test files (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section discusses test coverage requirements and CI enforcement (workflow_process) alongside the location and structure of test files (project_structure).\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Test Coverage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of tests in the project structure, the workflow process for enforcing test coverage, and the architecture of the tests for validating different components of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the location of tests in the project structure, the workflow process for enforcing test coverage, and the architecture of the tests for validating different components of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Version Compatibility",
+      "level": 3,
+      "char_count": 198,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Compatibility",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses version requirements and compatibility, which relates to project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section discusses version requirements and compatibility, which relates to project structure and evolution context.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Compatibility",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies version requirements for key project dependencies (Flutter and Dart SDKs), which relates to how the project is set up and its foundational dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies version requirements for key project dependencies (Flutter and Dart SDKs), which relates to how the project is set up and its foundational dependencies.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Compatibility",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section specifies coding style requirements for Flutter and Dart SDK versions and describes the architecture's compatibility with different Flutter versions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section specifies coding style requirements for Flutter and Dart SDK versions and describes the architecture's compatibility with different Flutter versions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Implementation Details",
+      "level": 3,
+      "char_count": 956,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Implementation Details",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses implementation details, including design patterns and coding conventions for handling specific features like monochrome seed handling and expressive on-container colors.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses implementation details, including design patterns and coding conventions for handling specific features like monochrome seed handling and expressive on-container colors.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Implementation Details",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on design patterns and component behaviors of the Flex Seed Scheme implementation.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on design patterns and component behaviors of the Flex Seed Scheme implementation.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Implementation Details",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes specific coding conventions and design patterns for a color scheme library, including the use of modifiers and chaining.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes specific coding conventions and design patterns for a color scheme library, including the use of modifiers and chaining.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File Organization",
+      "level": 3,
+      "char_count": 261,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "File Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "File Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the directory layout and key file locations within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines the directory layout and key file locations within the project.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "File Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 3,
+      "char_count": 134,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the project's dependencies, which relates to both the overall project structure and the architectural design of the system.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the project's dependencies, which relates to both the overall project structure and the architectural design of the system.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists specific dependencies (pro",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists specific dependencies (project_structure) with brief descriptions of their usage (architecture).\""
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists specific dependencies and their versions, which relates to coding style, project structure, and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section lists specific dependencies and their versions, which relates to coding style, project structure, and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Relationship to FlexColorScheme",
+      "level": 3,
+      "char_count": 179,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Relationship to FlexColorScheme",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes the relationship and dependency between FlexSeedScheme and FlexColorScheme, indicating both project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section describes the relationship and dependency between FlexSeedScheme and FlexColorScheme, indicating both project structure and evolution context.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Relationship to FlexColorScheme",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "Describes dependency relationships (architecture) and historical project extraction (evolution_context).",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Describes dependency relationships (architecture) and historical project extraction (evolution_context).\" }"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Relationship to FlexColorScheme",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the relationship between two packages, which is relevant to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the relationship between two packages, which is relevant to project structure and architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section introduces the purpose of the CLAUDE.md file, which is to guide Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section introduces the purpose of the CLAUDE.md file, which is to guide Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance to the AI agent, Claude Code, on how to work with the code in the repository.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance to the AI agent, Claude Code, on how to work with the code in the repository.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 680,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project, describing its key features and value proposition, which relates to both the project's structure and its architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project, describing its key features and value proposition, which relates to both the project's structure and its architectural design.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level overview of the project, its purpose, and key features, which relates to understanding how the project is conceptualized and structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level overview of the project, its purpose, and key features, which relates to understanding how the project is conceptualized and structured.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the purpose and key features of the FlexSeedScheme package, which relates to project structure, and also outlines its architecture, including multiple seed colors, custom chroma settings, and configurable tone mapping.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the purpose and key features of the FlexSeedScheme package, which relates to project structure, and also outlines its architecture, including multiple seed colors, custom chroma settings, and configurable tone mapping.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests with coverage",
+      "level": 1,
+      "char_count": 23,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run tests with coverage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run tests with coverage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to the workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to the workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run tests with coverage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command for running tests with coverage, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a command for running tests with coverage, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run a single test file",
+      "level": 1,
+      "char_count": 48,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run a single test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing procedure, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing procedure, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run a single test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command to execute a specific test file, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command to execute a specific test file, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Run a single test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running a test, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running a test, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check if code is properly formatted (fails if not)",
+      "level": 1,
+      "char_count": 53,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check if code is properly formatted (fails if not)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section is about code formatting and using a tool to enforce it, which relates to coding style, and also about a check that fails if formatting is incorrect, implying a workflow or process aspect.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section is about code formatting and using a tool to enforce it, which relates to coding style, and also about a check that fails if formatting is incorrect, implying a workflow or process aspect.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check if code is properly formatted (fails if not)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on enforcing code formatting using a specific tool (dart format), which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on enforcing code formatting using a specific tool (dart format), which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check if code is properly formatted (fails if not)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for formatting code and enforcing coding style, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes a command for formatting code and enforcing coding style, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Check for outdated dependencies",
+      "level": 1,
+      "char_count": 24,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check for outdated dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the development workflow, specifically checking for outdated dependencies using a command.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the development workflow, specifically checking for outdated dependencies using a command.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check for outdated dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for dependency management, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for dependency management, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Check for outdated dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for checking outdated dependencies, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for checking outdated dependencies, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Version Management",
+      "level": 3,
+      "char_count": 55,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Management",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses version management using a specific tool, which relates to the workflow and development process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses version management using a specific tool, which relates to the workflow and development process of the project.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Management",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Version management falls under workflow processes as it pertains to how the project is maintained and updated over time.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Version management falls under workflow processes as it pertains to how the project is maintained and updated over time.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Management",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a tool used in the project's structure and outlines a workflow process for version management.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes a tool used in the project's structure and outlines a workflow process for version management.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use the configured Flutter version",
+      "level": 1,
+      "char_count": 25,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Use the configured Flutter version",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to use a specific Flutter version, which relates to the workflow process of managing dependencies and tools.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to use a specific Flutter version, which relates to the workflow process of managing dependencies and tools.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Use the configured Flutter version",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for using a configured Flutter version, which relates to the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for using a configured Flutter version, which relates to the development workflow process.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Use the configured Flutter version",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a coding style guideline for using a specific Flutter version with fvm.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a coding style guideline for using a specific Flutter version with fvm.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Components",
+      "level": 3,
+      "char_count": 59,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Core Components",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the organization of the codebase, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the organization of the codebase, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Core Components",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the high-level organization of the codebase, specifically the directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the high-level organization of the codebase, specifically the directory layout.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Core Components",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the organization of the codebase into directories, which is a project structure concern.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the organization of the codebase into directories, which is a project structure concern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. `/lib/src/flex/` - FlexSeedScheme Core API",
+      "level": 4,
+      "char_count": 1474,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "1. `/lib/src/flex/` - FlexSeedScheme Core API",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the FlexSeedScheme Core API, while also detailing the roles and dependencies of various modules and classes within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key files of the FlexSeedScheme Core API, while also detailing the roles and dependencies of various modules and classes within the project.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "1. `/lib/src/flex/` - FlexSeedScheme Core API",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout (`/lib/src/flex/`) and explains the roles of key modules within the FlexSeedScheme Core API, outlining their interdependencies and design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout (`/lib/src/flex/`) and explains the roles of key modules within the FlexSeedScheme Core API, outlining their interdependencies and design.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "1. `/lib/src/flex/` - FlexSeedScheme Core API",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory structure of the project and the roles of the modules within the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory structure of the project and the roles of the modules within the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. `/lib/src/mcu/` - Material Color Utilities Fork",
+      "level": 4,
+      "char_count": 1095,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "2. `/lib/src/mcu/` - Material Color Utilities Fork",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the directory layout and key components of the Material Color Utilities fork, as well as the relationships and dependencies between them, indicating both project structure and architectural aspects.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the directory layout and key components of the Material Color Utilities fork, as well as the relationships and dependencies between them, indicating both project structure and architectural aspects.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "2. `/lib/src/mcu/` - Material Color Utilities Fork",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes a directory layout (`/lib/src/mcu/`) and explains the roles of its submodules, focusing on both structure and architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes a directory layout (`/lib/src/mcu/`) and explains the roles of its submodules, focusing on both structure and architectural design.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "2. `/lib/src/mcu/` - Material Color Utilities Fork",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the Material Color Utilities fork, as well as the roles and dependencies of its modules.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files of the Material Color Utilities fork, as well as the roles and dependencies of its modules.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Architectural Patterns",
+      "level": 3,
+      "char_count": 908,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Architectural Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key architectural patterns, including the seed-to-scheme flow, generation paths, and palette type system, which are all related to the design and structure of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key architectural patterns, including the seed-to-scheme flow, generation paths, and palette type system, which are all related to the design and structure of the system.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Architectural Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes architectural patterns, component interactions, and design decisions of the system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes architectural patterns, component interactions, and design decisions of the system.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Architectural Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the architecture of the system, including key patterns, generation paths, and palette type system.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the architecture of the system, including key patterns, generation paths, and palette type system.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Strict Analysis",
+      "level": 3,
+      "char_count": 298,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Strict Analysis",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses strict linting rules and code formatting, which falls under coding style, and also mentions CI/CD enforcement, which relates to workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses strict linting rules and code formatting, which falls under coding style, and also mentions CI/CD enforcement, which relates to workflow process.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Strict Analysis",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses linting rules and formatting (coding_style) and enforcement via CI/CD (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses linting rules and formatting (coding_style) and enforcement via CI/CD (workflow_process).\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Strict Analysis",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses linting rules, code formatting, and CI/CD enforcement, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses linting rules, code formatting, and CI/CD enforcement, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Coverage",
+      "level": 3,
+      "char_count": 306,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Test Coverage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses test coverage requirements, test locations, and CI enforcement, which relates to workflow processes, and also mentions specific directory structures, which pertains to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses test coverage requirements, test locations, and CI enforcement, which relates to workflow processes, and also mentions specific directory structures, which pertains to project structure.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Test Coverage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses test coverage requirements and CI enforcement (workflow_process) alongside the location and structure of test files (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section discusses test coverage requirements and CI enforcement (workflow_process) alongside the location and structure of test files (project_structure).\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Test Coverage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of tests in the project structure, the workflow process for enforcing test coverage, and the architecture of the tests for validating different components of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the location of tests in the project structure, the workflow process for enforcing test coverage, and the architecture of the tests for validating different components of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Version Compatibility",
+      "level": 3,
+      "char_count": 198,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Compatibility",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses version requirements and compatibility, which relates to project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section discusses version requirements and compatibility, which relates to project structure and evolution context.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Compatibility",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies version requirements for key project dependencies (Flutter and Dart SDKs), which relates to how the project is set up and its foundational dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies version requirements for key project dependencies (Flutter and Dart SDKs), which relates to how the project is set up and its foundational dependencies.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Version Compatibility",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section specifies coding style requirements for Flutter and Dart SDK versions and describes the architecture's compatibility with different Flutter versions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section specifies coding style requirements for Flutter and Dart SDK versions and describes the architecture's compatibility with different Flutter versions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Implementation Details",
+      "level": 3,
+      "char_count": 956,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Implementation Details",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses implementation details, including design patterns and coding conventions for handling specific features like monochrome seed handling and expressive on-container colors.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses implementation details, including design patterns and coding conventions for handling specific features like monochrome seed handling and expressive on-container colors.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Implementation Details",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on design patterns and component behaviors of the Flex Seed Scheme implementation.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on design patterns and component behaviors of the Flex Seed Scheme implementation.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Key Implementation Details",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes specific coding conventions and design patterns for a color scheme library, including the use of modifiers and chaining.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section describes specific coding conventions and design patterns for a color scheme library, including the use of modifiers and chaining.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "File Organization",
+      "level": 3,
+      "char_count": 261,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "File Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "File Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the directory layout and key file locations within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines the directory layout and key file locations within the project.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "File Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 3,
+      "char_count": 134,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the project's dependencies, which relates to both the overall project structure and the architectural design of the system.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the project's dependencies, which relates to both the overall project structure and the architectural design of the system.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists specific dependencies (pro",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists specific dependencies (project_structure) with brief descriptions of their usage (architecture).\""
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists specific dependencies and their versions, which relates to coding style, project structure, and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"architecture\"], \"reasoning\": \"This section lists specific dependencies and their versions, which relates to coding style, project structure, and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Relationship to FlexColorScheme",
+      "level": 3,
+      "char_count": 179,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Relationship to FlexColorScheme",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes the relationship and dependency between FlexSeedScheme and FlexColorScheme, indicating both project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section describes the relationship and dependency between FlexSeedScheme and FlexColorScheme, indicating both project structure and evolution context.\"}"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Relationship to FlexColorScheme",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "Describes dependency relationships (architecture) and historical project extraction (evolution_context).",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"Describes dependency relationships (architecture) and historical project extraction (evolution_context).\" }"
+        },
+        {
+          "repo": "rydmike/flex_seed_scheme",
+          "section_heading": "Relationship to FlexColorScheme",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the relationship between two packages, which is relevant to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the relationship between two packages, which is relevant to project structure and architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.15789473684210525,
+    "project_structure": 0.47368421052631576,
+    "workflow_process": 0.42105263157894735,
+    "architecture": 0.3684210526315789,
+    "evolution_context": 0.05263157894736842,
+    "agent_rules": 0.05263157894736842
+  },
+  "category_char_fraction": {
+    "coding_style": 0.1900261703983716,
+    "project_structure": 0.6376853736551323,
+    "workflow_process": 0.12096539691770863,
+    "architecture": 0.7888921198022681,
+    "evolution_context": 0.026025007269555103,
+    "agent_rules": 0.014829892410584472
+  }
+}

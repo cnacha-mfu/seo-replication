@@ -1,0 +1,1934 @@
+{
+  "repo": "aptos-labs__aptos-docs",
+  "full_name": "aptos-labs/aptos-docs",
+  "n_sections": 23,
+  "n_chars": 7518,
+  "sections": [
+    {
+      "heading": "CLAUDE.md - AI Agent Guidelines for Aptos Documentation",
+      "level": 1,
+      "char_count": 114,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "CLAUDE.md - AI Agent Guidelines for Aptos Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section introduces guidelines for AI agents, which is directly related to agent rules and directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section introduces guidelines for AI agents, which is directly related to agent rules and directives.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "CLAUDE.md - AI Agent Guidelines for Aptos Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces guidelines specifically for AI agents, aligning with agent_rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces guidelines specifically for AI agents, aligning with agent_rules.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "CLAUDE.md - AI Agent Guidelines for Aptos Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidelines for AI agents, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidelines for AI agents, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 263,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides a high-level description of the repository's purpose and content, which is most closely related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides a high-level description of the repository's purpose and content, which is most closely related to project structure.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes the repository's content and technology stack, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes the repository's content and technology stack, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the project's documentation structure and language support.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the project's documentation structure and language support.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Prerequisites",
+      "level": 3,
+      "char_count": 131,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Prerequisites",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific version requirements for tools like Node.js and pnpm, which are essential for the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific version requirements for tools like Node.js and pnpm, which are essential for the development workflow.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Prerequisites",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific tool versions required for the project, which relates to workflow setup and prerequisites for development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific tool versions required for the project, which relates to workflow setup and prerequisites for development.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Prerequisites",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies coding environment prerequisites, including Node.js and pnpm versions, which falls under coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies coding environment prerequisites, including Node.js and pnpm versions, which falls under coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quick Start",
+      "level": 3,
+      "char_count": 178,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Quick Start",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a step-by-step guide on how to set up and start the development server, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides a step-by-step guide on how to set up and start the development server, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Quick Start",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for setting up and running the project, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for setting up and running the project, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Quick Start",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on installing dependencies and setting up environment variables, which relates to project structure, and starting the development server, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on installing dependencies and setting up environment variables, which relates to project structure, and starting the development server, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Essential Commands",
+      "level": 2,
+      "char_count": 463,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Essential Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes essential commands for development, building, and linting, which relates to workflow processes and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes essential commands for development, building, and linting, which relates to workflow processes and coding style conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Essential Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section lists essential development commands, which relates to workflow_process, and includes linting and formatting commands, which pertains to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section lists essential development commands, which relates to workflow_process, and includes linting and formatting commands, which pertains to coding_style.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Essential Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides essential commands for development workflow and code style maintenance.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides essential commands for development workflow and code style maintenance.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 393,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout of the project.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. Linting and Formatting",
+      "level": 3,
+      "char_count": 255,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "1. Linting and Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on linting and formatting checks, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on linting and formatting checks, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "1. Linting and Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting and formatting checks, which are aspects of code style and quality.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting and formatting checks, which are aspects of code style and quality.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "1. Linting and Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting and formatting conventions, which are part of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting and formatting conventions, which are part of coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Translation Requirements",
+      "level": 3,
+      "char_count": 536,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "2. Translation Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory layout for different language versions of documentation and outlines the steps for modifying and translating documentation, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory layout for different language versions of documentation and outlines the steps for modifying and translating documentation, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "2. Translation Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines directory structure for translations (project_structure) and the step-by-step process for modifying docs (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines directory structure for translations (project_structure) and the step-by-step process for modifying docs (workflow_process).\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "2. Translation Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout for documentation in different languages and outlines the process for modifying documentation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout for documentation in different languages and outlines the process for modifying documentation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Commit Message Requirements",
+      "level": 3,
+      "char_count": 483,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "3. Commit Message Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the requirements and format for commit messages, which is a key aspect of the workflow process in a project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the requirements and format for commit messages, which is a key aspect of the workflow process in a project.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "3. Commit Message Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules for commit messages, which is a key part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules for commit messages, which is a key part of the workflow process.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "3. Commit Message Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines commit message requirements, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines commit message requirements, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. Grammar and Style",
+      "level": 3,
+      "char_count": 267,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "4. Grammar and Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on guidelines for writing style, terminology, and language usage, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on guidelines for writing style, terminology, and language usage, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "4. Grammar and Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on language and formatting conventions, which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on language and formatting conventions, which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "4. Grammar and Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on writing style and grammar, which can be considered as coding style, and also outlines a process to follow before committing changes, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on writing style and grammar, which can be considered as coding style, and also outlines a process to follow before committing changes, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "5. Glossary Requirements",
+      "level": 3,
+      "char_count": 612,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "5. Glossary Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the location and formatting requirements of the glossary, which relates to project structure, and also touches on content style and formatting, which is coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the location and formatting requirements of the glossary, which relates to project structure, and also touches on content style and formatting, which is coding style.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "5. Glossary Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section specifies directory locations (project_structure) and defines a formatting style for glossary entries (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section specifies directory locations (project_structure) and defines a formatting style for glossary entries (coding_style).\"}\n\n**Breakdown for clarity (not part of the official response, but for understanding):**\n\n* **project_structure**: Mention of specific file paths (`src/content/docs/...`) indicates how the project is organized.\n* **coding_style**: The defined format for glossary entries (use of markdown, requirements for definition, example, context, and diagrams) aligns with coding style guidelines, albeit for documentation rather than code. \n\n**Official Response (as per instructions)**\n{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section specifies directory locations (project_structure) and defines a formatting style for glossary entries (coding_style).\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "5. Glossary Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides information on the location of the glossary files and guidelines for adding new terms, which falls under project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides information on the location of the glossary files and guidelines for adding new terms, which falls under project structure and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Term Name",
+      "level": 3,
+      "char_count": 132,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Term Name",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [],
+          "reasoning": "The section appears to be a boilerplate definition template with no specific content related to the six categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section appears to be a boilerplate definition template with no specific content related to the six categories.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Term Name",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [],
+          "reasoning": "The section defines terminology, which doesn't directly align with any of the provided technical or procedural categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section defines terminology, which doesn't directly align with any of the provided technical or procedural categories.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Term Name",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a definition and additional context, which suggests it is describing a key term or concept within the project's structure or organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a definition and additional context, which suggests it is describing a key term or concept within the project's structure or organization.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "6. MDX File Structure",
+      "level": 3,
+      "char_count": 191,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "6. MDX File Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the structure and format of MDX files, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the structure and format of MDX files, which relates to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "6. MDX File Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes the structure of specific files (MDX) within the project, focusing on their format and required elements.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes the structure of specific files (MDX) within the project, focusing on their format and required elements.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "6. MDX File Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the MDX file structure, which includes naming conventions and directory layout.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the MDX file structure, which includes naming conventions and directory layout.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "7. Internal Links",
+      "level": 3,
+      "char_count": 179,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "7. Internal Links",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidelines for formatting internal links, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides guidelines for formatting internal links, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "7. Internal Links",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the structure and convention for internal linking within the documentation, which relates to how the project's content is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the structure and convention for internal linking within the documentation, which relates to how the project's content is organized.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "7. Internal Links",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on directory layout and where things live, which falls under the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides guidelines on directory layout and where things live, which falls under the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Writing Style",
+      "level": 3,
+      "char_count": 233,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Writing Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on guidelines for writing clear and accessible documentation, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on guidelines for writing clear and accessible documentation, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Writing Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on language and formatting guidelines for documentation, which aligns with coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on language and formatting guidelines for documentation, which aligns with coding style conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Writing Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily focuses on writing style, which is related to coding style in terms of clear and simple language, defining technical terms, and including code examples.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily focuses on writing style, which is related to coding style in terms of clear and simple language, defining technical terms, and including code examples.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Blocks",
+      "level": 3,
+      "char_count": 156,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Code Blocks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidance on using fenced code blocks with language identifiers, which relates to coding style and formatting conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides guidance on using fenced code blocks with language identifiers, which relates to coding style and formatting conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Code Blocks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a formatting convention for code blocks, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a formatting convention for code blocks, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Code Blocks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions on how to format code blocks, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides instructions on how to format code blocks, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New Documentation Page",
+      "level": 3,
+      "char_count": 301,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Adding a New Documentation Page",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to add a new documentation page, which involves directory layout and file creation, as well as running linting and formatting tools, indicating a mix of project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the steps to add a new documentation page, which involves directory layout and file creation, as well as running linting and formatting tools, indicating a mix of project structure and workflow process categories.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Adding a New Documentation Page",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines steps involving directory structure (project_structure) and specific lint/format commands (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines steps involving directory structure (project_structure) and specific lint/format commands (workflow_process).\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Adding a New Documentation Page",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes where to place new files (project_structure), how to format them (coding_style), and the process for updating the sidebar and running linting and formatting checks (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes where to place new files (project_structure), how to format them (coding_style), and the process for updating the sidebar and running linting and formatting checks (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Updating the Glossary",
+      "level": 3,
+      "char_count": 318,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Updating the Glossary",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to update a specific file in the repository, indicating both the project structure and the workflow process for maintaining documentation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the steps to update a specific file in the repository, indicating both the project structure and the workflow process for maintaining documentation.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Updating the Glossary",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section specifies file locations (project_structure) and formatting rules (alphabetical ordering, content inclusions, which relate to coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section specifies file locations (project_structure) and formatting rules (alphabetical ordering, content inclusions, which relate to coding_style).\"}\n\n**Breakdown for clarity (not part of the required response format):**\n\n- **project_structure**: Mention of specific directory paths and file names (`src/content/docs/...`) indicates how the project is organized.\n- **coding_style**: The requirement for \"alphabetical ordering\" and the structure of the content (definition, examples, links) imply a style guideline for the code/documentation. \n\n**Note**: Some might argue `workflow_process` could apply if considering the \"process\" of updating, but the dominant content focuses on **where** (project_structure) and **how** (coding_style, in terms of organization and formatting) rather than the overarching process or workflow steps."
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Updating the Glossary",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions on where to add new terms in the project structure and how to format them.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides instructions on where to add new terms in the project structure and how to format them.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Resources",
+      "level": 2,
+      "char_count": 198,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides a list of external resources, which is related to the project's directory layout and key files, indicating where to find relevant information.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides a list of external resources, which is related to the project's directory layout and key files, indicating where to find relevant information.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key external resources, implying where developers should look for information, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key external resources, implying where developers should look for information, which relates to project structure.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides links to documentation resources relevant to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides links to documentation resources relevant to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Cursor Cloud specific instructions",
+      "level": 2,
+      "char_count": 139,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Cursor Cloud specific instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the local development environment and requirements for the documentation site, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the local development environment and requirements for the documentation site, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Cursor Cloud specific instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes the setup and dependencies of the project, implying its structural simplicity.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes the setup and dependencies of the project, implying its structural simplicity.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Cursor Cloud specific instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the local development environment and the absence of external services, which is related to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the local development environment and the absence of external services, which is related to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment setup",
+      "level": 3,
+      "char_count": 695,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Environment setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the environment setup, including dependencies and configuration, which relates to project structure, and also mentions specific tools and versions, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the environment setup, including dependencies and configuration, which relates to project structure, and also mentions specific tools and versions, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Environment setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the pr",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's environment setup, which relates to project structure (dependencies, config files like .env) and workflow process (setup for development, ignoring specific warnings during pnpm install).\""
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Environment setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the environment setup, which includes the project structure and coding style tools like Node, pnpm, and their versions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the environment setup, which includes the project structure and coding style tools like Node, pnpm, and their versions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running the dev server",
+      "level": 3,
+      "char_count": 251,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Running the dev server",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of running the development server, which falls under workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of running the development server, which falls under workflow and development procedures.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Running the dev server",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific development workflow step (running the dev server) with associated scripts and expected behaviors.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific development workflow step (running the dev server) with associated scripts and expected behaviors.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Running the dev server",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes command line instructions for starting a dev server, which falls under coding_style, and also outlines the expected behavior during development, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes command line instructions for starting a dev server, which falls under coding_style, and also outlines the expected behavior during development, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting and testing",
+      "level": 3,
+      "char_count": 290,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Linting and testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses linting and testing tools, which relates to coding style, and also mentions Git hooks and commands, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses linting and testing tools, which relates to coding style, and also mentions Git hooks and commands, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Linting and testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses linting and testing tools (coding_style) and their integration with Git hooks and CI-like commands (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses linting and testing tools (coding_style) and their integration with Git hooks and CI-like commands (workflow_process).\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Linting and testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes coding style tools (Biome, Prettier) and workflow processes (Git hooks, test commands).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes coding style tools (Biome, Prettier) and workflow processes (Git hooks, test commands).\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md - AI Agent Guidelines for Aptos Documentation",
+      "level": 1,
+      "char_count": 114,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "CLAUDE.md - AI Agent Guidelines for Aptos Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section introduces guidelines for AI agents, which is directly related to agent rules and directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section introduces guidelines for AI agents, which is directly related to agent rules and directives.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "CLAUDE.md - AI Agent Guidelines for Aptos Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces guidelines specifically for AI agents, aligning with agent_rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces guidelines specifically for AI agents, aligning with agent_rules.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "CLAUDE.md - AI Agent Guidelines for Aptos Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidelines for AI agents, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidelines for AI agents, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 263,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides a high-level description of the repository's purpose and content, which is most closely related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides a high-level description of the repository's purpose and content, which is most closely related to project structure.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes the repository's content and technology stack, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes the repository's content and technology stack, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the project's documentation structure and language support.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the project's documentation structure and language support.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Prerequisites",
+      "level": 3,
+      "char_count": 131,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Prerequisites",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific version requirements for tools like Node.js and pnpm, which are essential for the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific version requirements for tools like Node.js and pnpm, which are essential for the development workflow.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Prerequisites",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific tool versions required for the project, which relates to workflow setup and prerequisites for development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific tool versions required for the project, which relates to workflow setup and prerequisites for development.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Prerequisites",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies coding environment prerequisites, including Node.js and pnpm versions, which falls under coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies coding environment prerequisites, including Node.js and pnpm versions, which falls under coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Quick Start",
+      "level": 3,
+      "char_count": 178,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Quick Start",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a step-by-step guide on how to set up and start the development server, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides a step-by-step guide on how to set up and start the development server, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Quick Start",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for setting up and running the project, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for setting up and running the project, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Quick Start",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on installing dependencies and setting up environment variables, which relates to project structure, and starting the development server, which is a workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides instructions on installing dependencies and setting up environment variables, which relates to project structure, and starting the development server, which is a workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Essential Commands",
+      "level": 2,
+      "char_count": 463,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Essential Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes essential commands for development, building, and linting, which relates to workflow processes and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes essential commands for development, building, and linting, which relates to workflow processes and coding style conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Essential Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section lists essential development commands, which relates to workflow_process, and includes linting and formatting commands, which pertains to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section lists essential development commands, which relates to workflow_process, and includes linting and formatting commands, which pertains to coding_style.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Essential Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides essential commands for development workflow and code style maintenance.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides essential commands for development workflow and code style maintenance.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 393,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout of the project.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "1. Linting and Formatting",
+      "level": 3,
+      "char_count": 255,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "1. Linting and Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on linting and formatting checks, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on linting and formatting checks, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "1. Linting and Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting and formatting checks, which are aspects of code style and quality.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting and formatting checks, which are aspects of code style and quality.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "1. Linting and Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting and formatting conventions, which are part of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting and formatting conventions, which are part of coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Translation Requirements",
+      "level": 3,
+      "char_count": 536,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "2. Translation Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory layout for different language versions of documentation and outlines the steps for modifying and translating documentation, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory layout for different language versions of documentation and outlines the steps for modifying and translating documentation, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "2. Translation Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines directory structure for translations (project_structure) and the step-by-step process for modifying docs (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines directory structure for translations (project_structure) and the step-by-step process for modifying docs (workflow_process).\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "2. Translation Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout for documentation in different languages and outlines the process for modifying documentation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout for documentation in different languages and outlines the process for modifying documentation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "3. Commit Message Requirements",
+      "level": 3,
+      "char_count": 483,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "3. Commit Message Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the requirements and format for commit messages, which is a key aspect of the workflow process in a project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines the requirements and format for commit messages, which is a key aspect of the workflow process in a project.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "3. Commit Message Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules for commit messages, which is a key part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules for commit messages, which is a key part of the workflow process.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "3. Commit Message Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines commit message requirements, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines commit message requirements, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "4. Grammar and Style",
+      "level": 3,
+      "char_count": 267,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "4. Grammar and Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on guidelines for writing style, terminology, and language usage, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on guidelines for writing style, terminology, and language usage, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "4. Grammar and Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on language and formatting conventions, which aligns with coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on language and formatting conventions, which aligns with coding style guidelines.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "4. Grammar and Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on writing style and grammar, which can be considered as coding style, and also outlines a process to follow before committing changes, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on writing style and grammar, which can be considered as coding style, and also outlines a process to follow before committing changes, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "5. Glossary Requirements",
+      "level": 3,
+      "char_count": 612,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "5. Glossary Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the location and formatting requirements of the glossary, which relates to project structure, and also touches on content style and formatting, which is coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the location and formatting requirements of the glossary, which relates to project structure, and also touches on content style and formatting, which is coding style.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "5. Glossary Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section specifies directory locations (project_structure) and defines a formatting style for glossary entries (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section specifies directory locations (project_structure) and defines a formatting style for glossary entries (coding_style).\"}\n\n**Breakdown for clarity (not part of the official response, but for understanding):**\n\n* **project_structure**: Mention of specific file paths (`src/content/docs/...`) indicates how the project is organized.\n* **coding_style**: The defined format for glossary entries (use of markdown, requirements for definition, example, context, and diagrams) aligns with coding style guidelines, albeit for documentation rather than code. \n\n**Official Response (as per instructions)**\n{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section specifies directory locations (project_structure) and defines a formatting style for glossary entries (coding_style).\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "5. Glossary Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides information on the location of the glossary files and guidelines for adding new terms, which falls under project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides information on the location of the glossary files and guidelines for adding new terms, which falls under project structure and coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Term Name",
+      "level": 3,
+      "char_count": 132,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Term Name",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [],
+          "reasoning": "The section appears to be a boilerplate definition template with no specific content related to the six categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section appears to be a boilerplate definition template with no specific content related to the six categories.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Term Name",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [],
+          "reasoning": "The section defines terminology, which doesn't directly align with any of the provided technical or procedural categories.",
+          "raw_response": "{\"categories\": [], \"reasoning\": \"The section defines terminology, which doesn't directly align with any of the provided technical or procedural categories.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Term Name",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a definition and additional context, which suggests it is describing a key term or concept within the project's structure or organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a definition and additional context, which suggests it is describing a key term or concept within the project's structure or organization.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "6. MDX File Structure",
+      "level": 3,
+      "char_count": 191,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "6. MDX File Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the structure and format of MDX files, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the structure and format of MDX files, which relates to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "6. MDX File Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes the structure of specific files (MDX) within the project, focusing on their format and required elements.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes the structure of specific files (MDX) within the project, focusing on their format and required elements.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "6. MDX File Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the MDX file structure, which includes naming conventions and directory layout.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the MDX file structure, which includes naming conventions and directory layout.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "7. Internal Links",
+      "level": 3,
+      "char_count": 179,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "7. Internal Links",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidelines for formatting internal links, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides guidelines for formatting internal links, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "7. Internal Links",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the structure and convention for internal linking within the documentation, which relates to how the project's content is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the structure and convention for internal linking within the documentation, which relates to how the project's content is organized.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "7. Internal Links",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines on directory layout and where things live, which falls under the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides guidelines on directory layout and where things live, which falls under the project_structure category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Writing Style",
+      "level": 3,
+      "char_count": 233,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Writing Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on guidelines for writing clear and accessible documentation, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on guidelines for writing clear and accessible documentation, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Writing Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on language and formatting guidelines for documentation, which aligns with coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on language and formatting guidelines for documentation, which aligns with coding style conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Writing Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily focuses on writing style, which is related to coding style in terms of clear and simple language, defining technical terms, and including code examples.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily focuses on writing style, which is related to coding style in terms of clear and simple language, defining technical terms, and including code examples.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Blocks",
+      "level": 3,
+      "char_count": 156,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Code Blocks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidance on using fenced code blocks with language identifiers, which relates to coding style and formatting conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides guidance on using fenced code blocks with language identifiers, which relates to coding style and formatting conventions.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Code Blocks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a formatting convention for code blocks, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a formatting convention for code blocks, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Code Blocks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions on how to format code blocks, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides instructions on how to format code blocks, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding a New Documentation Page",
+      "level": 3,
+      "char_count": 301,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Adding a New Documentation Page",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to add a new documentation page, which involves directory layout and file creation, as well as running linting and formatting tools, indicating a mix of project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the steps to add a new documentation page, which involves directory layout and file creation, as well as running linting and formatting tools, indicating a mix of project structure and workflow process categories.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Adding a New Documentation Page",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines steps involving directory structure (project_structure) and specific lint/format commands (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines steps involving directory structure (project_structure) and specific lint/format commands (workflow_process).\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Adding a New Documentation Page",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes where to place new files (project_structure), how to format them (coding_style), and the process for updating the sidebar and running linting and formatting checks (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes where to place new files (project_structure), how to format them (coding_style), and the process for updating the sidebar and running linting and formatting checks (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Updating the Glossary",
+      "level": 3,
+      "char_count": 318,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Updating the Glossary",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to update a specific file in the repository, indicating both the project structure and the workflow process for maintaining documentation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the steps to update a specific file in the repository, indicating both the project structure and the workflow process for maintaining documentation.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Updating the Glossary",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section specifies file locations (project_structure) and formatting rules (alphabetical ordering, content inclusions, which relate to coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section specifies file locations (project_structure) and formatting rules (alphabetical ordering, content inclusions, which relate to coding_style).\"}\n\n**Breakdown for clarity (not part of the required response format):**\n\n- **project_structure**: Mention of specific directory paths and file names (`src/content/docs/...`) indicates how the project is organized.\n- **coding_style**: The requirement for \"alphabetical ordering\" and the structure of the content (definition, examples, links) imply a style guideline for the code/documentation. \n\n**Note**: Some might argue `workflow_process` could apply if considering the \"process\" of updating, but the dominant content focuses on **where** (project_structure) and **how** (coding_style, in terms of organization and formatting) rather than the overarching process or workflow steps."
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Updating the Glossary",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions on where to add new terms in the project structure and how to format them.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides instructions on where to add new terms in the project structure and how to format them.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Resources",
+      "level": 2,
+      "char_count": 198,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Resources",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides a list of external resources, which is related to the project's directory layout and key files, indicating where to find relevant information.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides a list of external resources, which is related to the project's directory layout and key files, indicating where to find relevant information.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Resources",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key external resources, implying where developers should look for information, which relates to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key external resources, implying where developers should look for information, which relates to project structure.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Resources",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides links to documentation resources relevant to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides links to documentation resources relevant to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Cursor Cloud specific instructions",
+      "level": 2,
+      "char_count": 139,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Cursor Cloud specific instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the local development environment and requirements for the documentation site, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the local development environment and requirements for the documentation site, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Cursor Cloud specific instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes the setup and dependencies of the project, implying its structural simplicity.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes the setup and dependencies of the project, implying its structural simplicity.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Cursor Cloud specific instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the local development environment and the absence of external services, which is related to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the local development environment and the absence of external services, which is related to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment setup",
+      "level": 3,
+      "char_count": 695,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Environment setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the environment setup, including dependencies and configuration, which relates to project structure, and also mentions specific tools and versions, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the environment setup, including dependencies and configuration, which relates to project structure, and also mentions specific tools and versions, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Environment setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the pr",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's environment setup, which relates to project structure (dependencies, config files like .env) and workflow process (setup for development, ignoring specific warnings during pnpm install).\""
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Environment setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the environment setup, which includes the project structure and coding style tools like Node, pnpm, and their versions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the environment setup, which includes the project structure and coding style tools like Node, pnpm, and their versions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running the dev server",
+      "level": 3,
+      "char_count": 251,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Running the dev server",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of running the development server, which falls under workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of running the development server, which falls under workflow and development procedures.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Running the dev server",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific development workflow step (running the dev server) with associated scripts and expected behaviors.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific development workflow step (running the dev server) with associated scripts and expected behaviors.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Running the dev server",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes command line instructions for starting a dev server, which falls under coding_style, and also outlines the expected behavior during development, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes command line instructions for starting a dev server, which falls under coding_style, and also outlines the expected behavior during development, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting and testing",
+      "level": 3,
+      "char_count": 290,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Linting and testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses linting and testing tools, which relates to coding style, and also mentions Git hooks and commands, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses linting and testing tools, which relates to coding style, and also mentions Git hooks and commands, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Linting and testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses linting and testing tools (coding_style) and their integration with Git hooks and CI-like commands (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses linting and testing tools (coding_style) and their integration with Git hooks and CI-like commands (workflow_process).\"}"
+        },
+        {
+          "repo": "aptos-labs/aptos-docs",
+          "section_heading": "Linting and testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes coding style tools (Biome, Prettier) and workflow processes (Git hooks, test commands).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes coding style tools (Biome, Prettier) and workflow processes (Git hooks, test commands).\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.43478260869565216,
+    "project_structure": 0.4782608695652174,
+    "workflow_process": 0.34782608695652173,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.043478260869565216
+  },
+  "category_char_fraction": {
+    "coding_style": 0.513425789318383,
+    "project_structure": 0.5643257598111537,
+    "workflow_process": 0.388462673354972,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.01681912068456772
+  }
+}

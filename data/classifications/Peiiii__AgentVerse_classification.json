@@ -1,0 +1,570 @@
+{
+  "repo": "Peiiii__AgentVerse",
+  "full_name": "Peiiii/AgentVerse",
+  "n_sections": 6,
+  "n_chars": 2686,
+  "sections": [
+    {
+      "heading": "\u603b\u5219",
+      "level": 2,
+      "char_count": 723,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u603b\u5219",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines the overall development principles, testing requirements, and deployment processes, which belong to workflow_process, and also touches on architecture and agent_rules with its mentions of component dependencies and AI-specific development strategies.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"agent_rules\"], \"reasoning\": \"This section outlines the overall development principles, testing requirements, and deployment processes, which belong to workflow_process, and also touches on architecture and agent_rules with its mentions of component dependencies and AI-specific development strategies.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u603b\u5219",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific development and deployment processes (workflow_process) with implicit architectural constraints (architecture) on implementation uniqueness and dependency rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines specific development and deployment processes (workflow_process) with implicit architectural constraints (architecture) on implementation uniqueness and dependency rules.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u603b\u5219",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines the development workflow process and includes rules for code verification, testing, and deployment, as well as architectural guidelines for component dependencies and UI design.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines the development workflow process and includes rules for code verification, testing, and deployment, as well as architectural guidelines for component dependencies and UI design.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workflows",
+      "level": 2,
+      "char_count": 168,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Workflows",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses workflows and governance strategies, which relates to workflow processes, and also mentions specific file paths and directories, indicating project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses workflows and governance strategies, which relates to workflow processes, and also mentions specific file paths and directories, indicating project structure.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Workflows",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specifi",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific workflow-related documents (workflow_process) within a particular directory structure (.agent/workflows/), implying a project organization aspect (project_structure).\""
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Workflows",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the architecture rules and workflow processes, and points to specific files in the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section describes the architecture rules and workflow processes, and points to specific files in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u8fed\u4ee3\u5236\u5ea6\uff08docs/logs\uff09",
+      "level": 2,
+      "char_count": 143,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u8fed\u4ee3\u5236\u5ea6\uff08docs/logs\uff09",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory structure for iteration logs and the required documents for each iteration, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory structure for iteration logs and the required documents for each iteration, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u8fed\u4ee3\u5236\u5ea6\uff08docs/logs\uff09",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a workflow process for iterations (workflow_process) and specifies a directory structure for storing iteration logs (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a workflow process for iterations (workflow_process) and specifies a directory structure for storing iteration logs (project_structure).\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u8fed\u4ee3\u5236\u5ea6\uff08docs/logs\uff09",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory layout for iterations and outlines the documentation requirements for each version, including testing, deployment, and optional documents.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory layout for iterations and outlines the documentation requirements for each version, including testing, deployment, and optional documents.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u6307\u4ee4/Command \u673a\u5236",
+      "level": 2,
+      "char_count": 328,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u6307\u4ee4/Command \u673a\u5236",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the command mechanism, including the location of command records, the process of creating new commands, and the structure of command files, which relates to both workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the command mechanism, including the location of command records, the process of creating new commands, and the structure of command files, which relates to both workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u6307\u4ee4/Command \u673a\u5236",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines command",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines command mechanisms (workflow_process) and specifies file locations/structures (project_structure).\""
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u6307\u4ee4/Command \u673a\u5236",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the structure of the command files and the process for adding or modifying commands.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the structure of the command files and the process for adding or modifying commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u89c4\u5219/Rule \u673a\u5236",
+      "level": 2,
+      "char_count": 207,
+      "voted_categories": [
+        "agent_rules",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u89c4\u5219/Rule \u673a\u5236",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the rules and mechanisms for maintaining and updating rules in the AgentVerse repository, which relates to agent rules, and also touches on the workflow process for creating and modifying rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"workflow_process\"], \"reasoning\": \"This section primarily describes the rules and mechanisms for maintaining and updating rules in the AgentVerse repository, which relates to agent rules, and also touches on the workflow process for creating and modifying rules.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u89c4\u5219/Rule \u673a\u5236",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines AI-specific rule mechanisms (agent_rules) with implicit workflow implications for rule creation/modification (workflow_process).",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines AI-specific rule mechanisms (agent_rules) with implicit workflow implications for rule creation/modification (workflow_process).\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u89c4\u5219/Rule \u673a\u5236",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the process for creating and maintaining rules, which are AI-specific directives.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section describes the process for creating and maintaining rules, which are AI-specific directives.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Rulebook",
+      "level": 2,
+      "char_count": 1010,
+      "voted_categories": [
+        "workflow_process",
+        "architecture",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Rulebook",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines rules and guidelines for development, testing, and code management, which relates to workflow processes, architectural constraints, and agent-specific directives.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"agent_rules\"], \"reasoning\": \"This section outlines rules and guidelines for development, testing, and code management, which relates to workflow processes, architectural constraints, and agent-specific directives.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Rulebook",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific rules governing development workflow (validation, testing, commit practices) and architectural constraints (repository access, presenter exposure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines specific rules governing development workflow (validation, testing, commit practices) and architectural constraints (repository access, presenter exposure).\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Rulebook",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines workflow processes such as post-development stage validation, commit rules, and testing requirements, as well as agent-specific rules like communication language and reply prefixes.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines workflow processes such as post-development stage validation, commit rules, and testing requirements, as well as agent-specific rules like communication language and reply prefixes.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "\u603b\u5219",
+      "level": 2,
+      "char_count": 723,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u603b\u5219",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines the overall development principles, testing requirements, and deployment processes, which belong to workflow_process, and also touches on architecture and agent_rules with its mentions of component dependencies and AI-specific development strategies.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"agent_rules\"], \"reasoning\": \"This section outlines the overall development principles, testing requirements, and deployment processes, which belong to workflow_process, and also touches on architecture and agent_rules with its mentions of component dependencies and AI-specific development strategies.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u603b\u5219",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific development and deployment processes (workflow_process) with implicit architectural constraints (architecture) on implementation uniqueness and dependency rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines specific development and deployment processes (workflow_process) with implicit architectural constraints (architecture) on implementation uniqueness and dependency rules.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u603b\u5219",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines the development workflow process and includes rules for code verification, testing, and deployment, as well as architectural guidelines for component dependencies and UI design.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines the development workflow process and includes rules for code verification, testing, and deployment, as well as architectural guidelines for component dependencies and UI design.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workflows",
+      "level": 2,
+      "char_count": 168,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Workflows",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses workflows and governance strategies, which relates to workflow processes, and also mentions specific file paths and directories, indicating project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses workflows and governance strategies, which relates to workflow processes, and also mentions specific file paths and directories, indicating project structure.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Workflows",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specifi",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific workflow-related documents (workflow_process) within a particular directory structure (.agent/workflows/), implying a project organization aspect (project_structure).\""
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Workflows",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the architecture rules and workflow processes, and points to specific files in the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section describes the architecture rules and workflow processes, and points to specific files in the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u8fed\u4ee3\u5236\u5ea6\uff08docs/logs\uff09",
+      "level": 2,
+      "char_count": 143,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u8fed\u4ee3\u5236\u5ea6\uff08docs/logs\uff09",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory structure for iteration logs and the required documents for each iteration, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory structure for iteration logs and the required documents for each iteration, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u8fed\u4ee3\u5236\u5ea6\uff08docs/logs\uff09",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines a workflow process for iterations (workflow_process) and specifies a directory structure for storing iteration logs (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a workflow process for iterations (workflow_process) and specifies a directory structure for storing iteration logs (project_structure).\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u8fed\u4ee3\u5236\u5ea6\uff08docs/logs\uff09",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory layout for iterations and outlines the documentation requirements for each version, including testing, deployment, and optional documents.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory layout for iterations and outlines the documentation requirements for each version, including testing, deployment, and optional documents.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u6307\u4ee4/Command \u673a\u5236",
+      "level": 2,
+      "char_count": 328,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u6307\u4ee4/Command \u673a\u5236",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the command mechanism, including the location of command records, the process of creating new commands, and the structure of command files, which relates to both workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the command mechanism, including the location of command records, the process of creating new commands, and the structure of command files, which relates to both workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u6307\u4ee4/Command \u673a\u5236",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines command",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines command mechanisms (workflow_process) and specifies file locations/structures (project_structure).\""
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u6307\u4ee4/Command \u673a\u5236",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the structure of the command files and the process for adding or modifying commands.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the structure of the command files and the process for adding or modifying commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "\u89c4\u5219/Rule \u673a\u5236",
+      "level": 2,
+      "char_count": 207,
+      "voted_categories": [
+        "agent_rules",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u89c4\u5219/Rule \u673a\u5236",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the rules and mechanisms for maintaining and updating rules in the AgentVerse repository, which relates to agent rules, and also touches on the workflow process for creating and modifying rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"workflow_process\"], \"reasoning\": \"This section primarily describes the rules and mechanisms for maintaining and updating rules in the AgentVerse repository, which relates to agent rules, and also touches on the workflow process for creating and modifying rules.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u89c4\u5219/Rule \u673a\u5236",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines AI-specific rule mechanisms (agent_rules) with implicit workflow implications for rule creation/modification (workflow_process).",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines AI-specific rule mechanisms (agent_rules) with implicit workflow implications for rule creation/modification (workflow_process).\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "\u89c4\u5219/Rule \u673a\u5236",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the process for creating and maintaining rules, which are AI-specific directives.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section describes the process for creating and maintaining rules, which are AI-specific directives.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Rulebook",
+      "level": 2,
+      "char_count": 1010,
+      "voted_categories": [
+        "workflow_process",
+        "architecture",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Rulebook",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section outlines rules and guidelines for development, testing, and code management, which relates to workflow processes, architectural constraints, and agent-specific directives.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\", \"agent_rules\"], \"reasoning\": \"This section outlines rules and guidelines for development, testing, and code management, which relates to workflow processes, architectural constraints, and agent-specific directives.\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Rulebook",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific rules governing development workflow (validation, testing, commit practices) and architectural constraints (repository access, presenter exposure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines specific rules governing development workflow (validation, testing, commit practices) and architectural constraints (repository access, presenter exposure).\"}"
+        },
+        {
+          "repo": "Peiiii/AgentVerse",
+          "section_heading": "Rulebook",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines workflow processes such as post-development stage validation, commit rules, and testing requirements, as well as agent-specific rules like communication language and reply prefixes.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section outlines workflow processes such as post-development stage validation, commit rules, and testing requirements, as well as agent-specific rules like communication language and reply prefixes.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": false,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.5,
+    "workflow_process": 1.0,
+    "architecture": 0.3333333333333333,
+    "evolution_context": 0.0,
+    "agent_rules": 0.3333333333333333
+  },
+  "category_char_fraction": {
+    "coding_style": 0.0,
+    "project_structure": 0.24777045366421094,
+    "workflow_process": 1.0,
+    "architecture": 0.6719658782473827,
+    "evolution_context": 0.0,
+    "agent_rules": 0.4718883288096161
+  }
+}

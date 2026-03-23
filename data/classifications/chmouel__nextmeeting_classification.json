@@ -1,0 +1,548 @@
+{
+  "repo": "chmouel__nextmeeting",
+  "full_name": "chmouel/nextmeeting",
+  "n_sections": 6,
+  "n_chars": 2324,
+  "sections": [
+    {
+      "heading": "Project Structure & Module Organization",
+      "level": 2,
+      "char_count": 305,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the directory layout and key files, but also mentions CI configuration, making it relevant to both project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section primarily describes the directory layout and key files, but also mentions CI configuration, making it relevant to both project structure and workflow process categories.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section primarily outlin",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines the project's directory layout and key locations (project_structure), with a secondary mention of CI workflow specifics (workflow_process).\""
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as the CI workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout and key files, as well as the CI workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build, Test, and Development Commands",
+      "level": 2,
+      "char_count": 297,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development workflow commands, including testing and linting, which relates to workflow_process, and also touches on coding_style through the mention of linting and formatting tools.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes development workflow commands, including testing and linting, which relates to workflow_process, and also touches on coding_style through the mention of linting and formatting tools.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building, testing, and developing the project, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building, testing, and developing the project, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides commands for installing dependencies, running the project locally, linting, formatting, testing, and checking code coverage, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides commands for installing dependencies, running the project locally, linting, formatting, testing, and checking code coverage, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Style & Naming Conventions",
+      "level": 2,
+      "char_count": 444,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, formatting, and linting, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, formatting, and linting, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively discusses naming conventions, indentation, linters, formatting tools, and import order, all of which are coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively discusses naming conventions, indentation, linters, formatting tools, and import order, all of which are coding style guidelines.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, including language version, indentation, naming conventions, linter usage, formatting, and import order.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions, including language version, indentation, naming conventions, linter usage, formatting, and import order.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Guidelines",
+      "level": 2,
+      "char_count": 300,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Testing Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines testing requirements and guidelines, which falls under workflow_process, and also touches on code organization and formatting, relating to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines testing requirements and guidelines, which falls under workflow_process, and also touches on code organization and formatting, relating to coding_style.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Testing Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing requirements and commands, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing requirements and commands, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Testing Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on test framework and file structure (coding_style), and outlines the process for running tests (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on test framework and file structure (coding_style), and outlines the process for running tests (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit & Pull Request Guidelines",
+      "level": 2,
+      "char_count": 348,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines commit and pull request guidelines, which falls under workflow_process, and also touches on coding style with conventional commit formats.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines commit and pull request guidelines, which falls under workflow_process, and also touches on coding style with conventional commit formats.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific guidelines for commits and pull requests, which are core aspects of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific guidelines for commits and pull requests, which are core aspects of the workflow process.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for commit and pull request styles, which falls under coding_style, and also outlines workflow processes for creating PRs and commits.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for commit and pull request styles, which falls under coding_style, and also outlines workflow processes for creating PRs and commits.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security & Configuration Tips",
+      "level": 2,
+      "char_count": 377,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Security & Configuration Tips",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses configuration and setup of the project, including external tools and environment variables, which relates to project structure, and also touches on testing and local setup, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses configuration and setup of the project, including external tools and environment variables, which relates to project structure, and also touches on testing and local setup, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Security & Configuration Tips",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses project setup and environment configuration (project_structure) and implies testing requirements (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses project setup and environment configuration (project_structure) and implies testing requirements (workflow_process).\"}\n\n**Rationale Breakdown (for clarity, not part of the required response format)**\n\n- **project_structure**: \n  - Mention of specific environment configuration (`GCALCLI_DEFAULT_CALENDAR`, `--google-domain`, `.envrc`, `PATH` setup) implies how the project is set up and where certain configurations live.\n  - Discussion of tool dependencies (`gcalcli`, `notify-send`, `direnv`) relates to the project's structural dependencies.\n\n- **workflow_process**:\n  - The implication that OAuth must be configured \"before testing\" suggests a step in the workflow or process for working with the project, albeit indirectly.\n  - **Note**: This category might be considered a weaker fit compared to `project_structure` if the implication of a workflow step is deemed too indirect. However, given the instructions to focus on dominant content and the presence of an implicit workflow directive, it's included.\n\n- **Not Chosen but Considered**:\n  - **coding_style**: No naming conventions, formatting, or code style guidelines are mentioned.\n  - **architecture**: Dependencies are mentioned, but their roles or how they integrate architecturally beyond setup are not discussed.\n  - **evolution_context**: No project phase, complexity, or historical context is provided.\n  - **agent_rules**: No AI-specific directives or agent strategies are mentioned."
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Security & Configuration Tips",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides information on external tools and environment configuration, which falls under project_structure, and also discusses local setup and CLI flags, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides information on external tools and environment configuration, which falls under project_structure, and also discusses local setup and CLI flags, which relates to coding_style.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Structure & Module Organization",
+      "level": 2,
+      "char_count": 305,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the directory layout and key files, but also mentions CI configuration, making it relevant to both project structure and workflow process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section primarily describes the directory layout and key files, but also mentions CI configuration, making it relevant to both project structure and workflow process categories.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section primarily outlin",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines the project's directory layout and key locations (project_structure), with a secondary mention of CI workflow specifics (workflow_process).\""
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Project Structure & Module Organization",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as the CI workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout and key files, as well as the CI workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build, Test, and Development Commands",
+      "level": 2,
+      "char_count": 297,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes development workflow commands, including testing and linting, which relates to workflow_process, and also touches on coding_style through the mention of linting and formatting tools.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes development workflow commands, including testing and linting, which relates to workflow_process, and also touches on coding_style through the mention of linting and formatting tools.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building, testing, and developing the project, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building, testing, and developing the project, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Build, Test, and Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides commands for installing dependencies, running the project locally, linting, formatting, testing, and checking code coverage, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides commands for installing dependencies, running the project locally, linting, formatting, testing, and checking code coverage, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Coding Style & Naming Conventions",
+      "level": 2,
+      "char_count": 444,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, formatting, and linting, which are all key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, formatting, and linting, which are all key aspects of coding style.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section exclusively discusses naming conventions, indentation, linters, formatting tools, and import order, all of which are coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section exclusively discusses naming conventions, indentation, linters, formatting tools, and import order, all of which are coding style guidelines.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Coding Style & Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, including language version, indentation, naming conventions, linter usage, formatting, and import order.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions, including language version, indentation, naming conventions, linter usage, formatting, and import order.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing Guidelines",
+      "level": 2,
+      "char_count": 300,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Testing Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines testing requirements and guidelines, which falls under workflow_process, and also touches on code organization and formatting, relating to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines testing requirements and guidelines, which falls under workflow_process, and also touches on code organization and formatting, relating to coding_style.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Testing Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing requirements and commands, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing requirements and commands, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Testing Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on test framework and file structure (coding_style), and outlines the process for running tests (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on test framework and file structure (coding_style), and outlines the process for running tests (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commit & Pull Request Guidelines",
+      "level": 2,
+      "char_count": 348,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines commit and pull request guidelines, which falls under workflow_process, and also touches on coding style with conventional commit formats.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines commit and pull request guidelines, which falls under workflow_process, and also touches on coding style with conventional commit formats.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific guidelines for commits and pull requests, which are core aspects of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific guidelines for commits and pull requests, which are core aspects of the workflow process.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Commit & Pull Request Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for commit and pull request styles, which falls under coding_style, and also outlines workflow processes for creating PRs and commits.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for commit and pull request styles, which falls under coding_style, and also outlines workflow processes for creating PRs and commits.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Security & Configuration Tips",
+      "level": 2,
+      "char_count": 377,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Security & Configuration Tips",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses configuration and setup of the project, including external tools and environment variables, which relates to project structure, and also touches on testing and local setup, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses configuration and setup of the project, including external tools and environment variables, which relates to project structure, and also touches on testing and local setup, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Security & Configuration Tips",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses project setup and environment configuration (project_structure) and implies testing requirements (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses project setup and environment configuration (project_structure) and implies testing requirements (workflow_process).\"}\n\n**Rationale Breakdown (for clarity, not part of the required response format)**\n\n- **project_structure**: \n  - Mention of specific environment configuration (`GCALCLI_DEFAULT_CALENDAR`, `--google-domain`, `.envrc`, `PATH` setup) implies how the project is set up and where certain configurations live.\n  - Discussion of tool dependencies (`gcalcli`, `notify-send`, `direnv`) relates to the project's structural dependencies.\n\n- **workflow_process**:\n  - The implication that OAuth must be configured \"before testing\" suggests a step in the workflow or process for working with the project, albeit indirectly.\n  - **Note**: This category might be considered a weaker fit compared to `project_structure` if the implication of a workflow step is deemed too indirect. However, given the instructions to focus on dominant content and the presence of an implicit workflow directive, it's included.\n\n- **Not Chosen but Considered**:\n  - **coding_style**: No naming conventions, formatting, or code style guidelines are mentioned.\n  - **architecture**: Dependencies are mentioned, but their roles or how they integrate architecturally beyond setup are not discussed.\n  - **evolution_context**: No project phase, complexity, or historical context is provided.\n  - **agent_rules**: No AI-specific directives or agent strategies are mentioned."
+        },
+        {
+          "repo": "chmouel/nextmeeting",
+          "section_heading": "Security & Configuration Tips",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section provides information on external tools and environment configuration, which falls under project_structure, and also discusses local setup and CLI flags, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section provides information on external tools and environment configuration, which falls under project_structure, and also discusses local setup and CLI flags, which relates to coding_style.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.6666666666666666,
+    "project_structure": 0.3333333333333333,
+    "workflow_process": 0.8333333333333334,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.6706904876871077,
+    "project_structure": 0.32930951231289235,
+    "workflow_process": 0.785610816030903,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

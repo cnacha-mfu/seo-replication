@@ -1,0 +1,3444 @@
+{
+  "repo": "cbyrohl__scida",
+  "full_name": "cbyrohl/scida",
+  "n_sections": 41,
+  "n_chars": 11883,
+  "sections": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 580,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project, including its purpose, key features, and technical details, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project, including its purpose, key features, and technical details, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose, key features, and architectural design (e.g., unified interface, extensible architecture), aligning with both project overview (structure) and system design (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose, key features, and architectural design (e.g., unified interface, extensible architecture), aligning with both project overview (structure) and system design (architecture).\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose, key features, and extensible architecture, which fall under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose, key features, and extensible architecture, which fall under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Setup",
+      "level": 2,
+      "char_count": 105,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the project's dependency management and command prefix, which relates to both project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the project's dependency management and command prefix, which relates to both project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Mentions dependency management tool (project_structure) and command prefix workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Mentions dependency management tool (project_structure) and command prefix workflow (workflow_process).\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project's dependency management tool and coding style for running Python commands.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the project's dependency management tool and coding style for running Python commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Installation",
+      "level": 3,
+      "char_count": 119,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Installation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the installation process and dependency management, which is related to the project's structure and setup.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the installation process and dependency management, which is related to the project's structure and setup.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Installation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for installing dependencies, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for installing dependencies, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Installation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on installing dependencies, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on installing dependencies, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Commands",
+      "level": 3,
+      "char_count": 343,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Running Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes running commands for testing, type checking, code formatting, and import sorting, which relates to workflow processes and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes running commands for testing, type checking, code formatting, and import sorting, which relates to workflow processes and coding style conventions.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Running Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for running tests, type checking, code formatting, and import sorting, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for running tests, type checking, code formatting, and import sorting, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Running Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes commands for code formatting, import sorting, and running tests, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes commands for code formatting, import sorting, and running tests, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Development Commands",
+      "level": 3,
+      "char_count": 371,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines common development commands, which pertains to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines common development commands, which pertains to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific commands for development tasks, which relates to the workflow and process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists specific commands for development tasks, which relates to the workflow and process of the project.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for tasks related to testing, documentation, and versioning, which are part of the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides specific commands for tasks related to testing, documentation, and versioning, which are part of the development workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Git Worktree Workflow for Feature Development",
+      "level": 3,
+      "char_count": 169,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Git Worktree Workflow for Feature Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a development workflow using git worktrees for feature development, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a development workflow using git worktrees for feature development, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Git Worktree Workflow for Feature Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific Git workflow practice for feature development, which relates to the team's development process and collaboration guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific Git workflow practice for feature development, which relates to the team's development process and collaboration guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Git Worktree Workflow for Feature Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for feature development using git worktrees.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for feature development using git worktrees.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Create a new feature branch and worktree",
+      "level": 1,
+      "char_count": 90,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Create a new feature branch and worktree",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the development workflow, specifically creating a new feature branch and worktree, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the development workflow, specifically creating a new feature branch and worktree, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Create a new feature branch and worktree",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific git workflow process for creating a feature branch and worktree.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific git workflow process for creating a feature branch and worktree.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Create a new feature branch and worktree",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for creating a new feature branch and worktree in git.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for creating a new feature branch and worktree in git.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Work in the worktree",
+      "level": 1,
+      "char_count": 22,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Work in the worktree",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes navigating to a specific directory within the repository, indicating a focus on directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes navigating to a specific directory within the repository, indicating a focus on directory layout and key files.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Work in the worktree",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a directory path and command, implying guidance on where to work within the project's structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a directory path and command, implying guidance on where to work within the project's structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Work in the worktree",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for navigating the project directory, which is related to workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for navigating the project directory, which is related to workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When done, clean up",
+      "level": 1,
+      "char_count": 658,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "When done, clean up",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory structure and key rules for managing worktrees and branches, which relates to project structure, and also outlines workflow processes such as committing and testing.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory structure and key rules for managing worktrees and branches, which relates to project structure, and also outlines workflow processes such as committing and testing.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "When done, clean up",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory structure (project_structure) and outlines specific workflow rules and commands for managing worktrees and branches (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory structure (project_structure) and outlines specific workflow rules and commands for managing worktrees and branches (workflow_process).\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "When done, clean up",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout of the project and provides workflow rules for managing branches and commits.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout of the project and provides workflow rules for managing branches and commits.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Directory Structure",
+      "level": 3,
+      "char_count": 1304,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Directory Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Directory Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Directory Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as the roles and dependencies of modules and components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files, as well as the roles and dependencies of modules and components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`BaseDataset` / `Dataset` (interface.py)",
+      "level": 4,
+      "char_count": 210,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`BaseDataset` / `Dataset` (interface.py)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the design and composition of a specific class, indicating its role and dependencies within the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the design and composition of a specific class, indicating its role and dependencies within the project's architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`BaseDataset` / `Dataset` (interface.py)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes class hierarchy, metaclass usage, and key methods, focusing on design and structure.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes class hierarchy, metaclass usage, and key methods, focusing on design and structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`BaseDataset` / `Dataset` (interface.py)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the role and design of a base class, which is an architecture concern, and also mentions the use of a metaclass, which is a coding style consideration.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the role and design of a base class, which is an architecture concern, and also mentions the use of a metaclass, which is a coding style consideration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`FieldContainer` (fields.py)",
+      "level": 4,
+      "char_count": 275,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`FieldContainer` (fields.py)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the design and functionality of a specific class, `FieldContainer`, which is a key architectural component of the project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the design and functionality of a specific class, `FieldContainer`, which is a key architectural component of the project.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`FieldContainer` (fields.py)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a specific module's (fields.py) functionality, data structures, and key methods, focusing on design and component role.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a specific module's (fields.py) functionality, data structures, and key methods, focusing on design and component role.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`FieldContainer` (fields.py)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the role and key methods of a specific component in the codebase, while also providing coding style information about its usage and functionality.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the role and key methods of a specific component in the codebase, while also providing coding style information about its usage and functionality.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`DatasetSeries` (series.py)",
+      "level": 4,
+      "char_count": 170,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`DatasetSeries` (series.py)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a specific module and class, indicating its role and functionality, which relates to architecture, and also mentions a file, suggesting a connection to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes a specific module and class, indicating its role and functionality, which relates to architecture, and also mentions a file, suggesting a connection to project structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`DatasetSeries` (series.py)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the role and design of a specific module/class (`DatasetSeries`), indicating its functionality and implementation details.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the role and design of a specific module/class (`DatasetSeries`), indicating its functionality and implementation details.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`DatasetSeries` (series.py)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the role and design of the DatasetSeries class, and mentions a coding style tool, the delay_init decorator.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the role and design of the DatasetSeries class, and mentions a coding style tool, the delay_init decorator.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Mixins (interfaces/mixins/)",
+      "level": 4,
+      "char_count": 218,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins (interfaces/mixins/)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes module roles and dependencies, specifically detailing the purpose and functionality of various mixins.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes module roles and dependencies, specifically detailing the purpose and functionality of various mixins.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins (interfaces/mixins/)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes specific module roles and functionalities (Mixins), which pertains to architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes specific module roles and functionalities (Mixins), which pertains to architectural design.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins (interfaces/mixins/)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the roles and functionalities of different mixins, which are components of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the roles and functionalities of different mixins, which are components of the system's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type Detection Flow",
+      "level": 3,
+      "char_count": 316,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Type Detection Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the module's internal workflow and class composition, which is a key aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the module's internal workflow and class composition, which is a key aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Type Detection Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a specific technical process of type detection, which relates to the system's design and component interaction, falling under architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a specific technical process of type detection, which relates to the system's design and component interaction, falling under architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Type Detection Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the architecture of the type detection flow and includes coding style details such as method and class naming conventions.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the architecture of the type detection flow and includes coding style details such as method and class naming conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "In registries.py",
+      "level": 1,
+      "char_count": 132,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "In registries.py",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key files and module descriptions, specifically registries in the project, and also outlines dependencies and module roles within the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key files and module descriptions, specifically registries in the project, and also outlines dependencies and module roles within the architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "In registries.py",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines registries that map strings to class types, which is indicative of architectural design for component registration and dependency management.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines registries that map strings to class types, which is indicative of architectural design for component registration and dependency management.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "In registries.py",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section defines coding style for registries and also describes the architecture of the registries used in the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section defines coding style for registries and also describes the architecture of the registries used in the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Auto-registration via __init_subclass__",
+      "level": 1,
+      "char_count": 191,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Auto-registration via __init_subclass__",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses a specific coding technique using __init_subclass__ for auto-registration and implies a design pattern, thus belonging to both coding_style and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses a specific coding technique using __init_subclass__ for auto-registration and implies a design pattern, thus belonging to both coding_style and architecture categories.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Auto-registration via __init_subclass__",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses a design pattern (auto-registration using __init_subclass__) for module dependencies and component behavior.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses a design pattern (auto-registration using __init_subclass__) for module dependencies and component behavior.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Auto-registration via __init_subclass__",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates a coding style using class methods and inheritance, and also showcases a design pattern for auto-registration in the architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates a coding style using class methods and inheritance, and also showcases a design pattern for auto-registration in the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pattern for New Dataset Types",
+      "level": 3,
+      "char_count": 687,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Pattern for New Dataset Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section provides a code example with a specific naming convention and class structure, indicating coding style, and also describes a custom dataset class with its role and dependencies, relating to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section provides a code example with a specific naming convention and class structure, indicating coding style, and also describes a custom dataset class with its role and dependencies, relating to architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Pattern for New Dataset Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines a custom dataset class with specific implementation details, indicating design pattern and module role within the architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines a custom dataset class with specific implementation details, indicating design pattern and module role within the architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Pattern for New Dataset Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides a code example for creating a custom dataset, demonstrating coding style and architecture design patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides a code example for creating a custom dataset, demonstrating coding style and architecture design patterns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Registering Derived Fields",
+      "level": 3,
+      "char_count": 265,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Registering Derived Fields",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to coding_style due to the Python code snippet and to architecture because it describes a specific module or field registration mechanism.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to coding_style due to the Python code snippet and to architecture because it describes a specific module or field registration mechanism.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Registering Derived Fields",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines a custom, project-specific data processing component (derived field registration) which relates to the overall system design and module roles.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines a custom, project-specific data processing component (derived field registration) which relates to the overall system design and module roles.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Registering Derived Fields",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides a code snippet demonstrating the registration of derived fields, which reflects coding style and architectural design patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides a code snippet demonstrating the registration of derived fields, which reflects coding style and architectural design patterns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Structure",
+      "level": 3,
+      "char_count": 495,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the test suite, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the test suite, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the directory layout and describes key files within the 'tests/' directory.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines the directory layout and describes key files within the 'tests/' directory.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout of the test files and their roles, which falls under project_structure, and also implies testing requirements, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout of the test files and their roles, which falls under project_structure, and also implies testing requirements, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Data Handling",
+      "level": 3,
+      "char_count": 274,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Data Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses test data handling, which relates to workflow processes and project structure in terms of how tests are organized and managed.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses test data handling, which relates to workflow processes and project structure in terms of how tests are organized and managed.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Data Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing setup and environment configuration, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing setup and environment configuration, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Data Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style for tests and workflow process for handling test data.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style for tests and workflow process for handling test data.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run specific test file",
+      "level": 1,
+      "char_count": 37,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run specific test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing workflow process using pytest.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing workflow process using pytest.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run specific test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for executing a test, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for executing a test, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run specific test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing requirement, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing requirement, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests matching pattern",
+      "level": 1,
+      "char_count": 24,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run tests matching pattern",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to run tests, which falls under workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to run tests, which falls under workflow and testing processes.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run tests matching pattern",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run tests matching pattern",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run with coverage",
+      "level": 1,
+      "char_count": 25,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run with coverage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to run tests with coverage, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to run tests with coverage, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run with coverage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running tests with coverage, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running tests with coverage, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run with coverage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests with coverage, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests with coverage, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Nox Sessions",
+      "level": 3,
+      "char_count": 143,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Nox Sessions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing procedures and report generation, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing procedures and report generation, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Nox Sessions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific test and coverage report commands, which relate to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific test and coverage report commands, which relate to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Nox Sessions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes different testing requirements and configurations, which falls under the workflow_process category, and also mentions running tests across different Python versions, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes different testing requirements and configurations, which falls under the workflow_process category, and also mentions running tests across different Python versions, which relates to coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "User Configuration",
+      "level": 3,
+      "char_count": 157,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "User Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location and management of a key configuration file, which pertains to the project's directory layout and file organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location and management of a key configuration file, which pertains to the project's directory layout and file organization.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "User Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location and management of a key configuration file, which pertains to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location and management of a key configuration file, which pertains to how the project is structured.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "User Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location and configuration of a key file, which falls under project_structure, and also mentions the file format (YAML), which is a coding_style consideration.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location and configuration of a key file, which falls under project_structure, and also mentions the file format (YAML), which is a coding_style consideration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Variables",
+      "level": 3,
+      "char_count": 199,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Environment Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes environment variables that override config file locations and directories, which pertains to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes environment variables that override config file locations and directories, which pertains to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Environment Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes key directories and file locations, which pertains to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes key directories and file locations, which pertains to how the project is organized.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Environment Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location of key files and directories in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location of key files and directories in the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Unit Configuration",
+      "level": 3,
+      "char_count": 151,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Unit Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the location and format of unit configuration files, which relates to project structure, and also mentions a specific format, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the location and format of unit configuration files, which relates to project structure, and also mentions a specific format, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Unit Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "Lists specific file locations (project_structure) and mentions a specific format (pint) for unit definitions (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"Lists specific file locations (project_structure) and mentions a specific format (pint) for unit definitions (coding_style).\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Unit Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of unit files in the project structure and specifies the coding style for unit definitions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location of unit files in the project structure and specifies the coding style for unit definitions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building Docs",
+      "level": 3,
+      "char_count": 145,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Building Docs",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build and deployment commands, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build and deployment commands, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Building Docs",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building and deploying documentation, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building and deploying documentation, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Building Docs",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the commands for building and serving documentation, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the commands for building and serving documentation, which relates to project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation Stack",
+      "level": 3,
+      "char_count": 134,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Documentation Stack",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the documentation tools used in the project, which relates to project structure, and also mentions a specific docstring style, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the documentation tools used in the project, which relates to project structure, and also mentions a specific docstring style, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Documentation Stack",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines tools and configurations for organizing and generating documentation, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines tools and configurations for organizing and generating documentation, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Documentation Stack",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the tools used for documentation (project_structure) and specifies the docstring style (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the tools used for documentation (project_structure) and specifies the docstring style (coding_style).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Style Guidelines",
+      "level": 3,
+      "char_count": 123,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Style Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific tools and conventions for code formatting, import sorting, linting, and type hints, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific tools and conventions for code formatting, import sorting, linting, and type hints, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Style Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific tools and conventions for code formatting, import ordering, linting, and type hints, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific tools and conventions for code formatting, import ordering, linting, and type hints, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Style Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific tools and practices for code formatting, import sorting, linting, and type hints.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific tools and practices for code formatting, import sorting, linting, and type hints.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Docstring Format (NumPy style)",
+      "level": 3,
+      "char_count": 312,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Docstring Format (NumPy style)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes the format for writing docstrings in the code, specifically following the NumPy style, which falls under coding conventions and style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes the format for writing docstrings in the code, specifically following the NumPy style, which falls under coding conventions and style guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Docstring Format (NumPy style)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a formatting convention for docstrings, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a formatting convention for docstrings, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Docstring Format (NumPy style)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on docstring format, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on docstring format, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Logging",
+      "level": 3,
+      "char_count": 114,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Logging",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section is classified under coding_style due to the example code demonstrating logging practices and under architecture as it implies a design choice for handling logging within the system.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section is classified under coding_style due to the example code demonstrating logging practices and under architecture as it implies a design choice for handling logging within the system.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Logging",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on logging implementation in code, which relates to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on logging implementation in code, which relates to coding conventions and style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Logging",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides an example of logging practices, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides an example of logging practices, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Lazy Evaluation",
+      "level": 3,
+      "char_count": 131,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Lazy Evaluation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the design pattern of lazy evaluation used in the project, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the design pattern of lazy evaluation used in the project, which falls under the architecture category.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Lazy Evaluation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a specific design choice (lazy evaluation with dask arrays) impacting how data is handled, which relates to architectural decisions.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a specific design choice (lazy evaluation with dask arrays) impacting how data is handled, which relates to architectural decisions.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Lazy Evaluation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style in terms of lazy evaluation and also touches on architecture by describing how data is loaded and processed.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding style in terms of lazy evaluation and also touches on architecture by describing how data is loaded and processed.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Virtual Caching",
+      "level": 3,
+      "char_count": 149,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Virtual Caching",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes a design pattern for reducing memory footprint, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes a design pattern for reducing memory footprint, which falls under the architecture category.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Virtual Caching",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a specific design approach (virtual caching) to manage data, impacting how the system is structured internally.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a specific design approach (virtual caching) to manage data, impacting how the system is structured internally.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Virtual Caching",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses a design pattern for reducing memory footprint (architecture) and a specific coding style for controlling this feature via a parameter (coding_style).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses a design pattern for reducing memory footprint (architecture) and a specific coding style for controlling this feature via a parameter (coding_style).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Mixins dynamically composed at load time",
+      "level": 1,
+      "char_count": 66,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins dynamically composed at load time",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses dynamic composition of mixins, which relates to architecture and also shows code, touching on coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses dynamic composition of mixins, which relates to architecture and also shows code, touching on coding style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins dynamically composed at load time",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses dynamic composition of mixins, which relates to design patterns and component structure.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses dynamic composition of mixins, which relates to design patterns and component structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins dynamically composed at load time",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the dynamic composition of mixins, which is an architectural design pattern.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the dynamic composition of mixins, which is an architectural design pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CandidateStatus for Type Detection",
+      "level": 3,
+      "char_count": 327,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "CandidateStatus for Type Detection",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section contains Python code with class definitions and import statements, indicating coding style, and also describes a module role, suggesting architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section contains Python code with class definitions and import statements, indicating coding style, and also describes a module role, suggesting architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "CandidateStatus for Type Detection",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines a class and its method for type detection, which relates to the design and structure of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines a class and its method for type detection, which relates to the design and structure of the system's architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "CandidateStatus for Type Detection",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates coding style through the use of a class and its methods, and architecture by showcasing a module's role and component boundaries.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding style through the use of a class and its methods, and architecture by showcasing a module's role and component boundaries.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Gotchas",
+      "level": 2,
+      "char_count": 379,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Gotchas",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines and best practices for coding and testing in the project, including specific commands and functions to use, which relates to coding style, and also touches on testing requirements, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides guidelines and best practices for coding and testing in the project, including specific commands and functions to use, which relates to coding style, and also touches on testing requirements, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Gotchas",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific operational guidelines (workflow_process) and references project-specific locations/data handling (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific operational guidelines (workflow_process) and references project-specific locations/data handling (project_structure).\"}\n\n**Rationale Breakdown for Clarity (not part of the official response format but added for understanding):**\n\n- **workflow_process**: Points 1, 4, and 6 imply specific operational guidelines or rules for working with the project (e.g., always using a certain command, setting a path for tests, understanding the difference between recipes and fields which affects development workflow).\n- **project_structure**: Points 2, 3, and 5 touch upon how the project is structured in terms of technology choices (Dask, pint for units) and data storage conventions (_metadata_raw), which relates to understanding where and how things are organized within the project. \n\n**Official Response (as per the requested format)**\n\n{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific operational guidelines (workflow_process) and references project-specific locations/data handling (project_structure).\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Gotchas",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides coding style guidelines and describes project-specific structures and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides coding style guidelines and describes project-specific structures and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Inspecting Dataset Structure",
+      "level": 3,
+      "char_count": 170,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Inspecting Dataset Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section belongs to both project_structure and coding_style as it describes how to inspect the dataset structure and includes code snippets that follow specific formatting and naming conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section belongs to both project_structure and coding_style as it describes how to inspect the dataset structure and includes code snippets that follow specific formatting and naming conventions.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Inspecting Dataset Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on understanding the layout and organization of the dataset, akin to understanding project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on understanding the layout and organization of the dataset, akin to understanding project directory layout.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Inspecting Dataset Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the structure of the dataset, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the structure of the dataset, which is a key aspect of project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Debugging Type Detection",
+      "level": 3,
+      "char_count": 97,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Debugging Type Detection",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section contains code with specific import and logging configurations, indicating coding style, and also implies a project structure by referencing a data loading module.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section contains code with specific import and logging configurations, indicating coding style, and also implies a project structure by referencing a data loading module.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Debugging Type Detection",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on setting up logging configuration, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on setting up logging configuration, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Debugging Type Detection",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section demonstrates coding style with logging and importing, and project structure by referencing a specific data path.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section demonstrates coding style with logging and importing, and project structure by referencing a specific data path.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Working with Units",
+      "level": 3,
+      "char_count": 203,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Working with Units",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides code examples and explains how to work with units in the scida repository, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides code examples and explains how to work with units in the scida repository, which relates to coding style and project structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Working with Units",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates how data units are handled within the system, implying architectural design for unit management.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section demonstrates how data units are handled within the system, implying architectural design for unit management.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Working with Units",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides examples of coding style and project structure, specifically how to load data with specific units and access data within the project's structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides examples of coding style and project structure, specifically how to load data with specific units and access data within the project's structure.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 580,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project, including its purpose, key features, and technical details, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project, including its purpose, key features, and technical details, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose, key features, and architectural design (e.g., unified interface, extensible architecture), aligning with both project overview (structure) and system design (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose, key features, and architectural design (e.g., unified interface, extensible architecture), aligning with both project overview (structure) and system design (architecture).\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose, key features, and extensible architecture, which fall under project_structure and architecture categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose, key features, and extensible architecture, which fall under project_structure and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Setup",
+      "level": 2,
+      "char_count": 105,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the project's dependency management and command prefix, which relates to both project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the project's dependency management and command prefix, which relates to both project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Mentions dependency management tool (project_structure) and command prefix workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Mentions dependency management tool (project_structure) and command prefix workflow (workflow_process).\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Project Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project's dependency management tool and coding style for running Python commands.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the project's dependency management tool and coding style for running Python commands.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Installation",
+      "level": 3,
+      "char_count": 119,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Installation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the installation process and dependency management, which is related to the project's structure and setup.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the installation process and dependency management, which is related to the project's structure and setup.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Installation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow for installing dependencies, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow for installing dependencies, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Installation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides instructions on installing dependencies, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides instructions on installing dependencies, which relates to coding style and project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running Commands",
+      "level": 3,
+      "char_count": 343,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Running Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes running commands for testing, type checking, code formatting, and import sorting, which relates to workflow processes and coding style conventions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes running commands for testing, type checking, code formatting, and import sorting, which relates to workflow processes and coding style conventions.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Running Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for running tests, type checking, code formatting, and import sorting, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for running tests, type checking, code formatting, and import sorting, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Running Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes commands for code formatting, import sorting, and running tests, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes commands for code formatting, import sorting, and running tests, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Development Commands",
+      "level": 3,
+      "char_count": 371,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Development Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines common development commands, which pertains to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines common development commands, which pertains to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Development Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific commands for development tasks, which relates to the workflow and process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists specific commands for development tasks, which relates to the workflow and process of the project.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Development Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for tasks related to testing, documentation, and versioning, which are part of the development workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides specific commands for tasks related to testing, documentation, and versioning, which are part of the development workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Git Worktree Workflow for Feature Development",
+      "level": 3,
+      "char_count": 169,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Git Worktree Workflow for Feature Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a development workflow using git worktrees for feature development, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a development workflow using git worktrees for feature development, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Git Worktree Workflow for Feature Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific Git workflow practice for feature development, which relates to the team's development process and collaboration guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific Git workflow practice for feature development, which relates to the team's development process and collaboration guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Git Worktree Workflow for Feature Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for feature development using git worktrees.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for feature development using git worktrees.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Create a new feature branch and worktree",
+      "level": 1,
+      "char_count": 90,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Create a new feature branch and worktree",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a step in the development workflow, specifically creating a new feature branch and worktree, which falls under workflow process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a step in the development workflow, specifically creating a new feature branch and worktree, which falls under workflow process guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Create a new feature branch and worktree",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific git workflow process for creating a feature branch and worktree.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific git workflow process for creating a feature branch and worktree.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Create a new feature branch and worktree",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific workflow process for creating a new feature branch and worktree in git.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific workflow process for creating a new feature branch and worktree in git.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Work in the worktree",
+      "level": 1,
+      "char_count": 22,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Work in the worktree",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes navigating to a specific directory within the repository, indicating a focus on directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes navigating to a specific directory within the repository, indicating a focus on directory layout and key files.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Work in the worktree",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a directory path and command, implying guidance on where to work within the project's structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a directory path and command, implying guidance on where to work within the project's structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Work in the worktree",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for navigating the project directory, which is related to workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a command for navigating the project directory, which is related to workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When done, clean up",
+      "level": 1,
+      "char_count": 658,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "When done, clean up",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory structure and key rules for managing worktrees and branches, which relates to project structure, and also outlines workflow processes such as committing and testing.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory structure and key rules for managing worktrees and branches, which relates to project structure, and also outlines workflow processes such as committing and testing.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "When done, clean up",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory structure (project_structure) and outlines specific workflow rules and commands for managing worktrees and branches (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory structure (project_structure) and outlines specific workflow rules and commands for managing worktrees and branches (workflow_process).\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "When done, clean up",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout of the project and provides workflow rules for managing branches and commits.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout of the project and provides workflow rules for managing branches and commits.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Directory Structure",
+      "level": 3,
+      "char_count": 1304,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Directory Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Directory Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Directory Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as the roles and dependencies of modules and components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files, as well as the roles and dependencies of modules and components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`BaseDataset` / `Dataset` (interface.py)",
+      "level": 4,
+      "char_count": 210,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`BaseDataset` / `Dataset` (interface.py)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the design and composition of a specific class, indicating its role and dependencies within the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the design and composition of a specific class, indicating its role and dependencies within the project's architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`BaseDataset` / `Dataset` (interface.py)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes class hierarchy, metaclass usage, and key methods, focusing on design and structure.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes class hierarchy, metaclass usage, and key methods, focusing on design and structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`BaseDataset` / `Dataset` (interface.py)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the role and design of a base class, which is an architecture concern, and also mentions the use of a metaclass, which is a coding style consideration.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the role and design of a base class, which is an architecture concern, and also mentions the use of a metaclass, which is a coding style consideration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`FieldContainer` (fields.py)",
+      "level": 4,
+      "char_count": 275,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`FieldContainer` (fields.py)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the design and functionality of a specific class, `FieldContainer`, which is a key architectural component of the project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the design and functionality of a specific class, `FieldContainer`, which is a key architectural component of the project.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`FieldContainer` (fields.py)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a specific module's (fields.py) functionality, data structures, and key methods, focusing on design and component role.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a specific module's (fields.py) functionality, data structures, and key methods, focusing on design and component role.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`FieldContainer` (fields.py)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the role and key methods of a specific component in the codebase, while also providing coding style information about its usage and functionality.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the role and key methods of a specific component in the codebase, while also providing coding style information about its usage and functionality.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "`DatasetSeries` (series.py)",
+      "level": 4,
+      "char_count": 170,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`DatasetSeries` (series.py)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a specific module and class, indicating its role and functionality, which relates to architecture, and also mentions a file, suggesting a connection to project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes a specific module and class, indicating its role and functionality, which relates to architecture, and also mentions a file, suggesting a connection to project structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`DatasetSeries` (series.py)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the role and design of a specific module/class (`DatasetSeries`), indicating its functionality and implementation details.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the role and design of a specific module/class (`DatasetSeries`), indicating its functionality and implementation details.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "`DatasetSeries` (series.py)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the role and design of the DatasetSeries class, and mentions a coding style tool, the delay_init decorator.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the role and design of the DatasetSeries class, and mentions a coding style tool, the delay_init decorator.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Mixins (interfaces/mixins/)",
+      "level": 4,
+      "char_count": 218,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins (interfaces/mixins/)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes module roles and dependencies, specifically detailing the purpose and functionality of various mixins.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes module roles and dependencies, specifically detailing the purpose and functionality of various mixins.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins (interfaces/mixins/)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes specific module roles and functionalities (Mixins), which pertains to architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes specific module roles and functionalities (Mixins), which pertains to architectural design.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins (interfaces/mixins/)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the roles and functionalities of different mixins, which are components of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the roles and functionalities of different mixins, which are components of the system's architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Type Detection Flow",
+      "level": 3,
+      "char_count": 316,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Type Detection Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the module's internal workflow and class composition, which is a key aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the module's internal workflow and class composition, which is a key aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Type Detection Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a specific technical process of type detection, which relates to the system's design and component interaction, falling under architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a specific technical process of type detection, which relates to the system's design and component interaction, falling under architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Type Detection Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the architecture of the type detection flow and includes coding style details such as method and class naming conventions.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the architecture of the type detection flow and includes coding style details such as method and class naming conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "In registries.py",
+      "level": 1,
+      "char_count": 132,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "In registries.py",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key files and module descriptions, specifically registries in the project, and also outlines dependencies and module roles within the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key files and module descriptions, specifically registries in the project, and also outlines dependencies and module roles within the architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "In registries.py",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines registries that map strings to class types, which is indicative of architectural design for component registration and dependency management.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines registries that map strings to class types, which is indicative of architectural design for component registration and dependency management.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "In registries.py",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section defines coding style for registries and also describes the architecture of the registries used in the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section defines coding style for registries and also describes the architecture of the registries used in the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Auto-registration via __init_subclass__",
+      "level": 1,
+      "char_count": 191,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Auto-registration via __init_subclass__",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses a specific coding technique using __init_subclass__ for auto-registration and implies a design pattern, thus belonging to both coding_style and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses a specific coding technique using __init_subclass__ for auto-registration and implies a design pattern, thus belonging to both coding_style and architecture categories.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Auto-registration via __init_subclass__",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses a design pattern (auto-registration using __init_subclass__) for module dependencies and component behavior.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses a design pattern (auto-registration using __init_subclass__) for module dependencies and component behavior.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Auto-registration via __init_subclass__",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates a coding style using class methods and inheritance, and also showcases a design pattern for auto-registration in the architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates a coding style using class methods and inheritance, and also showcases a design pattern for auto-registration in the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pattern for New Dataset Types",
+      "level": 3,
+      "char_count": 687,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Pattern for New Dataset Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section provides a code example with a specific naming convention and class structure, indicating coding style, and also describes a custom dataset class with its role and dependencies, relating to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section provides a code example with a specific naming convention and class structure, indicating coding style, and also describes a custom dataset class with its role and dependencies, relating to architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Pattern for New Dataset Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines a custom dataset class with specific implementation details, indicating design pattern and module role within the architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines a custom dataset class with specific implementation details, indicating design pattern and module role within the architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Pattern for New Dataset Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides a code example for creating a custom dataset, demonstrating coding style and architecture design patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides a code example for creating a custom dataset, demonstrating coding style and architecture design patterns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Registering Derived Fields",
+      "level": 3,
+      "char_count": 265,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Registering Derived Fields",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section belongs to coding_style due to the Python code snippet and to architecture because it describes a specific module or field registration mechanism.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section belongs to coding_style due to the Python code snippet and to architecture because it describes a specific module or field registration mechanism.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Registering Derived Fields",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines a custom, project-specific data processing component (derived field registration) which relates to the overall system design and module roles.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines a custom, project-specific data processing component (derived field registration) which relates to the overall system design and module roles.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Registering Derived Fields",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides a code snippet demonstrating the registration of derived fields, which reflects coding style and architectural design patterns.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides a code snippet demonstrating the registration of derived fields, which reflects coding style and architectural design patterns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Structure",
+      "level": 3,
+      "char_count": 495,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the test suite, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the test suite, which is a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines the directory layout and describes key files within the 'tests/' directory.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines the directory layout and describes key files within the 'tests/' directory.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout of the test files and their roles, which falls under project_structure, and also implies testing requirements, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout of the test files and their roles, which falls under project_structure, and also implies testing requirements, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Data Handling",
+      "level": 3,
+      "char_count": 274,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Data Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses test data handling, which relates to workflow processes and project structure in terms of how tests are organized and managed.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses test data handling, which relates to workflow processes and project structure in terms of how tests are organized and managed.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Data Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing setup and environment configuration, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing setup and environment configuration, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Test Data Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style for tests and workflow process for handling test data.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style for tests and workflow process for handling test data.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run specific test file",
+      "level": 1,
+      "char_count": 37,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run specific test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing workflow process using pytest.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing workflow process using pytest.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run specific test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for executing a test, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for executing a test, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run specific test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing requirement, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing requirement, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests matching pattern",
+      "level": 1,
+      "char_count": 24,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run tests matching pattern",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to run tests, which falls under workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to run tests, which falls under workflow and testing processes.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run tests matching pattern",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run tests matching pattern",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run with coverage",
+      "level": 1,
+      "char_count": 25,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run with coverage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to run tests with coverage, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to run tests with coverage, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run with coverage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running tests with coverage, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running tests with coverage, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Run with coverage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests with coverage, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests with coverage, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Nox Sessions",
+      "level": 3,
+      "char_count": 143,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Nox Sessions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing procedures and report generation, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing procedures and report generation, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Nox Sessions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific test and coverage report commands, which relate to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific test and coverage report commands, which relate to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Nox Sessions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes different testing requirements and configurations, which falls under the workflow_process category, and also mentions running tests across different Python versions, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes different testing requirements and configurations, which falls under the workflow_process category, and also mentions running tests across different Python versions, which relates to coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "User Configuration",
+      "level": 3,
+      "char_count": 157,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "User Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location and management of a key configuration file, which pertains to the project's directory layout and file organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location and management of a key configuration file, which pertains to the project's directory layout and file organization.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "User Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location and management of a key configuration file, which pertains to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location and management of a key configuration file, which pertains to how the project is structured.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "User Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location and configuration of a key file, which falls under project_structure, and also mentions the file format (YAML), which is a coding_style consideration.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location and configuration of a key file, which falls under project_structure, and also mentions the file format (YAML), which is a coding_style consideration.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Variables",
+      "level": 3,
+      "char_count": 199,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Environment Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes environment variables that override config file locations and directories, which pertains to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes environment variables that override config file locations and directories, which pertains to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Environment Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes key directories and file locations, which pertains to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes key directories and file locations, which pertains to how the project is organized.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Environment Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location of key files and directories in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location of key files and directories in the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Unit Configuration",
+      "level": 3,
+      "char_count": 151,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Unit Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the location and format of unit configuration files, which relates to project structure, and also mentions a specific format, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the location and format of unit configuration files, which relates to project structure, and also mentions a specific format, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Unit Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "Lists specific file locations (project_structure) and mentions a specific format (pint) for unit definitions (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"Lists specific file locations (project_structure) and mentions a specific format (pint) for unit definitions (coding_style).\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Unit Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of unit files in the project structure and specifies the coding style for unit definitions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location of unit files in the project structure and specifies the coding style for unit definitions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building Docs",
+      "level": 3,
+      "char_count": 145,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Building Docs",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build and deployment commands, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build and deployment commands, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Building Docs",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building and deploying documentation, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building and deploying documentation, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Building Docs",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the commands for building and serving documentation, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the commands for building and serving documentation, which relates to project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation Stack",
+      "level": 3,
+      "char_count": 134,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Documentation Stack",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the documentation tools used in the project, which relates to project structure, and also mentions a specific docstring style, which pertains to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the documentation tools used in the project, which relates to project structure, and also mentions a specific docstring style, which pertains to coding style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Documentation Stack",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines tools and configurations for organizing and generating documentation, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines tools and configurations for organizing and generating documentation, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Documentation Stack",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the tools used for documentation (project_structure) and specifies the docstring style (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the tools used for documentation (project_structure) and specifies the docstring style (coding_style).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Style Guidelines",
+      "level": 3,
+      "char_count": 123,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Style Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section outlines specific tools and conventions for code formatting, import sorting, linting, and type hints, which are all aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section outlines specific tools and conventions for code formatting, import sorting, linting, and type hints, which are all aspects of coding style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Style Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific tools and conventions for code formatting, import ordering, linting, and type hints, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific tools and conventions for code formatting, import ordering, linting, and type hints, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Style Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific tools and practices for code formatting, import sorting, linting, and type hints.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific tools and practices for code formatting, import sorting, linting, and type hints.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Docstring Format (NumPy style)",
+      "level": 3,
+      "char_count": 312,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Docstring Format (NumPy style)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes the format for writing docstrings in the code, specifically following the NumPy style, which falls under coding conventions and style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes the format for writing docstrings in the code, specifically following the NumPy style, which falls under coding conventions and style guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Docstring Format (NumPy style)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a formatting convention for docstrings, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a formatting convention for docstrings, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Docstring Format (NumPy style)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on docstring format, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on docstring format, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Logging",
+      "level": 3,
+      "char_count": 114,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Logging",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section is classified under coding_style due to the example code demonstrating logging practices and under architecture as it implies a design choice for handling logging within the system.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section is classified under coding_style due to the example code demonstrating logging practices and under architecture as it implies a design choice for handling logging within the system.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Logging",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on logging implementation in code, which relates to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on logging implementation in code, which relates to coding conventions and style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Logging",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides an example of logging practices, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides an example of logging practices, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Lazy Evaluation",
+      "level": 3,
+      "char_count": 131,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Lazy Evaluation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes the design pattern of lazy evaluation used in the project, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes the design pattern of lazy evaluation used in the project, which falls under the architecture category.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Lazy Evaluation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a specific design choice (lazy evaluation with dask arrays) impacting how data is handled, which relates to architectural decisions.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a specific design choice (lazy evaluation with dask arrays) impacting how data is handled, which relates to architectural decisions.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Lazy Evaluation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section discusses coding style in terms of lazy evaluation and also touches on architecture by describing how data is loaded and processed.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section discusses coding style in terms of lazy evaluation and also touches on architecture by describing how data is loaded and processed.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Virtual Caching",
+      "level": 3,
+      "char_count": 149,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Virtual Caching",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes a design pattern for reducing memory footprint, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes a design pattern for reducing memory footprint, which falls under the architecture category.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Virtual Caching",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a specific design approach (virtual caching) to manage data, impacting how the system is structured internally.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a specific design approach (virtual caching) to manage data, impacting how the system is structured internally.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Virtual Caching",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses a design pattern for reducing memory footprint (architecture) and a specific coding style for controlling this feature via a parameter (coding_style).",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section discusses a design pattern for reducing memory footprint (architecture) and a specific coding style for controlling this feature via a parameter (coding_style).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Mixins dynamically composed at load time",
+      "level": 1,
+      "char_count": 66,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins dynamically composed at load time",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses dynamic composition of mixins, which relates to architecture and also shows code, touching on coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section discusses dynamic composition of mixins, which relates to architecture and also shows code, touching on coding style.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins dynamically composed at load time",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section discusses dynamic composition of mixins, which relates to design patterns and component structure.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section discusses dynamic composition of mixins, which relates to design patterns and component structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Mixins dynamically composed at load time",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the dynamic composition of mixins, which is an architectural design pattern.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the dynamic composition of mixins, which is an architectural design pattern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CandidateStatus for Type Detection",
+      "level": 3,
+      "char_count": 327,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "CandidateStatus for Type Detection",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section contains Python code with class definitions and import statements, indicating coding style, and also describes a module role, suggesting architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section contains Python code with class definitions and import statements, indicating coding style, and also describes a module role, suggesting architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "CandidateStatus for Type Detection",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines a class and its method for type detection, which relates to the design and structure of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines a class and its method for type detection, which relates to the design and structure of the system's architecture.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "CandidateStatus for Type Detection",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates coding style through the use of a class and its methods, and architecture by showcasing a module's role and component boundaries.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section demonstrates coding style through the use of a class and its methods, and architecture by showcasing a module's role and component boundaries.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Gotchas",
+      "level": 2,
+      "char_count": 379,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Gotchas",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines and best practices for coding and testing in the project, including specific commands and functions to use, which relates to coding style, and also touches on testing requirements, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides guidelines and best practices for coding and testing in the project, including specific commands and functions to use, which relates to coding style, and also touches on testing requirements, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Gotchas",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific operational guidelines (workflow_process) and references project-specific locations/data handling (project_structure).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific operational guidelines (workflow_process) and references project-specific locations/data handling (project_structure).\"}\n\n**Rationale Breakdown for Clarity (not part of the official response format but added for understanding):**\n\n- **workflow_process**: Points 1, 4, and 6 imply specific operational guidelines or rules for working with the project (e.g., always using a certain command, setting a path for tests, understanding the difference between recipes and fields which affects development workflow).\n- **project_structure**: Points 2, 3, and 5 touch upon how the project is structured in terms of technology choices (Dask, pint for units) and data storage conventions (_metadata_raw), which relates to understanding where and how things are organized within the project. \n\n**Official Response (as per the requested format)**\n\n{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines specific operational guidelines (workflow_process) and references project-specific locations/data handling (project_structure).\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Common Gotchas",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides coding style guidelines and describes project-specific structures and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides coding style guidelines and describes project-specific structures and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Inspecting Dataset Structure",
+      "level": 3,
+      "char_count": 170,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Inspecting Dataset Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section belongs to both project_structure and coding_style as it describes how to inspect the dataset structure and includes code snippets that follow specific formatting and naming conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section belongs to both project_structure and coding_style as it describes how to inspect the dataset structure and includes code snippets that follow specific formatting and naming conventions.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Inspecting Dataset Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on understanding the layout and organization of the dataset, akin to understanding project directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on understanding the layout and organization of the dataset, akin to understanding project directory layout.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Inspecting Dataset Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the structure of the dataset, which is a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the structure of the dataset, which is a key aspect of project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Debugging Type Detection",
+      "level": 3,
+      "char_count": 97,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Debugging Type Detection",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section contains code with specific import and logging configurations, indicating coding style, and also implies a project structure by referencing a data loading module.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section contains code with specific import and logging configurations, indicating coding style, and also implies a project structure by referencing a data loading module.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Debugging Type Detection",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on setting up logging configuration, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on setting up logging configuration, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Debugging Type Detection",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section demonstrates coding style with logging and importing, and project structure by referencing a specific data path.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section demonstrates coding style with logging and importing, and project structure by referencing a specific data path.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Working with Units",
+      "level": 3,
+      "char_count": 203,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Working with Units",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides code examples and explains how to work with units in the scida repository, which relates to coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides code examples and explains how to work with units in the scida repository, which relates to coding style and project structure.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Working with Units",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section demonstrates how data units are handled within the system, implying architectural design for unit management.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section demonstrates how data units are handled within the system, implying architectural design for unit management.\"}"
+        },
+        {
+          "repo": "cbyrohl/scida",
+          "section_heading": "Working with Units",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides examples of coding style and project structure, specifically how to load data with specific units and access data within the project's structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides examples of coding style and project structure, specifically how to load data with specific units and access data within the project's structure.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.34146341463414637,
+    "project_structure": 0.36585365853658536,
+    "workflow_process": 0.2926829268292683,
+    "architecture": 0.34146341463414637,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.34037698412698414,
+    "project_structure": 0.47351190476190474,
+    "workflow_process": 0.2636904761904762,
+    "architecture": 0.36875,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

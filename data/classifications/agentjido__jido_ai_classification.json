@@ -1,0 +1,704 @@
+{
+  "repo": "agentjido__jido_ai",
+  "full_name": "agentjido/jido_ai",
+  "n_sections": 8,
+  "n_chars": 1791,
+  "sections": [
+    {
+      "heading": "Intent",
+      "level": 2,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Intent",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the intent of building AI agents with specific strategies and policies, which aligns with agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes the intent of building AI agents with specific strategies and policies, which aligns with agent_rules category.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Intent",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section focuses on defining the strategy and policy for AI agents, which directly relates to agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section focuses on defining the strategy and policy for AI agents, which directly relates to agent rules.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Intent",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the overall design of the AI agents and their runtime policies, which falls under the architecture and agent_rules categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section describes the overall design of the AI agents and their runtime policies, which falls under the architecture and agent_rules categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Runtime Baseline",
+      "level": 2,
+      "char_count": 52,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Runtime Baseline",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section specifies runtime dependencies and versions, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section specifies runtime dependencies and versions, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Runtime Baseline",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies baseline versions for key technologies (Elixir, OTP) which informs project setup and dependencies, aligning with project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies baseline versions for key technologies (Elixir, OTP) which informs project setup and dependencies, aligning with project structure.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Runtime Baseline",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section specifies the required Elixir and OTP versions, which falls under coding_style, and also provides information about the project's runtime environment, which is part of project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section specifies the required Elixir and OTP versions, which falls under coding_style, and also provides information about the project's runtime environment, which is part of project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commands",
+      "level": 2,
+      "char_count": 280,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific commands and their associated actions for testing, formatting, and quality checks, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines specific commands and their associated actions for testing, formatting, and quality checks, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific commands with their associated actions, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists specific commands with their associated actions, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commands related to code formatting, testing, and quality checks, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes commands related to code formatting, testing, and quality checks, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture Snapshot",
+      "level": 2,
+      "char_count": 313,
+      "voted_categories": [
+        "architecture",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Architecture Snapshot",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the high-level architecture and component boundaries of the Jido.AI system, including module roles and dependencies, as well as AI-specific directives for agent strategy and tool use.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the high-level architecture and component boundaries of the Jido.AI system, including module roles and dependencies, as well as AI-specific directives for agent strategy and tool use.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Architecture Snapshot",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines module roles, dependencies, and component boundaries of the AI system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines module roles, dependencies, and component boundaries of the AI system's architecture.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Architecture Snapshot",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the roles and dependencies of different modules in the project, as well as the strategy agents and AI-specific directives.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section describes the roles and dependencies of different modules in the project, as well as the strategy agents and AI-specific directives.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Standards",
+      "level": 2,
+      "char_count": 327,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines explicit standards for model selection, input/output schemas, and error contracts, which pertains to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines explicit standards for model selection, input/output schemas, and error contracts, which pertains to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines design principles (architecture) and specific AI tool usage guidelines (agent_rules).",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section outlines design principles (architecture) and specific AI tool usage guidelines (agent_rules).\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines and architectural principles for tool integration and behavior.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines and architectural principles for tool integration and behavior.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing and QA",
+      "level": 2,
+      "char_count": 226,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Testing and QA",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and strategies, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and strategies, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Testing and QA",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing strategies, test organization, and validation practices, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing strategies, test organization, and validation practices, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Testing and QA",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines testing requirements and strategies, which fall under workflow_process, and also discusses error handling and runtime behavior, which relate to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines testing requirements and strategies, which fall under workflow_process, and also discusses error handling and runtime behavior, which relate to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Release Hygiene",
+      "level": 2,
+      "char_count": 244,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Release Hygiene",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily discusses commit and release management, which falls under workflow_process, and also touches on project structure through the mention of specific files like CHANGELOG.md.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily discusses commit and release management, which falls under workflow_process, and also touches on project structure through the mention of specific files like CHANGELOG.md.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Release Hygiene",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on commit formatting (Conventional Commits), release versioning (semver), and specific update rules for project documents (CHANGELOG, guides, migration notes), all of which pertain to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on commit formatting (Conventional Commits), release versioning (semver), and specific update rules for project documents (CHANGELOG, guides, migration notes), all of which pertain to workflow processes.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Release Hygiene",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines for versioning, commit format, and documentation updates, which are part of the workflow process, and also mentions the CHANGELOG.md file, which is related to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides guidelines for versioning, commit format, and documentation updates, which are part of the workflow process, and also mentions the CHANGELOG.md file, which is related to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "References",
+      "level": 2,
+      "char_count": 73,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "References",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section lists key files and directories, indicating the project's layout and organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section lists key files and directories, indicating the project's layout and organization.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "References",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key files and directories, indicating how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key files and directories, indicating how the project is organized.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "References",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key files and directories in the project, which fits the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key files and directories in the project, which fits the project_structure category.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Intent",
+      "level": 2,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Intent",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the intent of building AI agents with specific strategies and policies, which aligns with agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section describes the intent of building AI agents with specific strategies and policies, which aligns with agent_rules category.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Intent",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section focuses on defining the strategy and policy for AI agents, which directly relates to agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section focuses on defining the strategy and policy for AI agents, which directly relates to agent rules.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Intent",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the overall design of the AI agents and their runtime policies, which falls under the architecture and agent_rules categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section describes the overall design of the AI agents and their runtime policies, which falls under the architecture and agent_rules categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Runtime Baseline",
+      "level": 2,
+      "char_count": 52,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Runtime Baseline",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section specifies runtime dependencies and versions, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section specifies runtime dependencies and versions, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Runtime Baseline",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies baseline versions for key technologies (Elixir, OTP) which informs project setup and dependencies, aligning with project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies baseline versions for key technologies (Elixir, OTP) which informs project setup and dependencies, aligning with project structure.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Runtime Baseline",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section specifies the required Elixir and OTP versions, which falls under coding_style, and also provides information about the project's runtime environment, which is part of project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section specifies the required Elixir and OTP versions, which falls under coding_style, and also provides information about the project's runtime environment, which is part of project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Commands",
+      "level": 2,
+      "char_count": 280,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific commands and their associated actions for testing, formatting, and quality checks, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines specific commands and their associated actions for testing, formatting, and quality checks, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific commands with their associated actions, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists specific commands with their associated actions, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes commands related to code formatting, testing, and quality checks, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes commands related to code formatting, testing, and quality checks, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architecture Snapshot",
+      "level": 2,
+      "char_count": 313,
+      "voted_categories": [
+        "architecture",
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Architecture Snapshot",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "This section describes the high-level architecture and component boundaries of the Jido.AI system, including module roles and dependencies, as well as AI-specific directives for agent strategy and tool use.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"This section describes the high-level architecture and component boundaries of the Jido.AI system, including module roles and dependencies, as well as AI-specific directives for agent strategy and tool use.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Architecture Snapshot",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines module roles, dependencies, and component boundaries of the AI system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines module roles, dependencies, and component boundaries of the AI system's architecture.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Architecture Snapshot",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section describes the roles and dependencies of different modules in the project, as well as the strategy agents and AI-specific directives.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section describes the roles and dependencies of different modules in the project, as well as the strategy agents and AI-specific directives.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Standards",
+      "level": 2,
+      "char_count": 327,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Standards",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines explicit standards for model selection, input/output schemas, and error contracts, which pertains to both coding style and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines explicit standards for model selection, input/output schemas, and error contracts, which pertains to both coding style and architecture.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Standards",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines design principles (architecture) and specific AI tool usage guidelines (agent_rules).",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section outlines design principles (architecture) and specific AI tool usage guidelines (agent_rules).\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Standards",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides coding style guidelines and architectural principles for tool integration and behavior.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides coding style guidelines and architectural principles for tool integration and behavior.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing and QA",
+      "level": 2,
+      "char_count": 226,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Testing and QA",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and strategies, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and strategies, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Testing and QA",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing strategies, test organization, and validation practices, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing strategies, test organization, and validation practices, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Testing and QA",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines testing requirements and strategies, which fall under workflow_process, and also discusses error handling and runtime behavior, which relate to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines testing requirements and strategies, which fall under workflow_process, and also discusses error handling and runtime behavior, which relate to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Release Hygiene",
+      "level": 2,
+      "char_count": 244,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Release Hygiene",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily discusses commit and release management, which falls under workflow_process, and also touches on project structure through the mention of specific files like CHANGELOG.md.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily discusses commit and release management, which falls under workflow_process, and also touches on project structure through the mention of specific files like CHANGELOG.md.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Release Hygiene",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on commit formatting (Conventional Commits), release versioning (semver), and specific update rules for project documents (CHANGELOG, guides, migration notes), all of which pertain to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on commit formatting (Conventional Commits), release versioning (semver), and specific update rules for project documents (CHANGELOG, guides, migration notes), all of which pertain to workflow processes.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "Release Hygiene",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section provides guidelines for versioning, commit format, and documentation updates, which are part of the workflow process, and also mentions the CHANGELOG.md file, which is related to project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section provides guidelines for versioning, commit format, and documentation updates, which are part of the workflow process, and also mentions the CHANGELOG.md file, which is related to project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "References",
+      "level": 2,
+      "char_count": 73,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "References",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section lists key files and directories, indicating the project's layout and organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section lists key files and directories, indicating the project's layout and organization.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "References",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key files and directories, indicating how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key files and directories, indicating how the project is organized.\"}"
+        },
+        {
+          "repo": "agentjido/jido_ai",
+          "section_heading": "References",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key files and directories in the project, which fits the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key files and directories in the project, which fits the project_structure category.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.125,
+    "project_structure": 0.375,
+    "workflow_process": 0.375,
+    "architecture": 0.25,
+    "evolution_context": 0.0,
+    "agent_rules": 0.25
+  },
+  "category_char_fraction": {
+    "coding_style": 0.20222634508348794,
+    "project_structure": 0.22820037105751392,
+    "workflow_process": 0.46382189239332094,
+    "architecture": 0.39579468150896724,
+    "evolution_context": 0.0,
+    "agent_rules": 0.2566481137909709
+  }
+}

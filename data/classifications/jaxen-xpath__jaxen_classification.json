@@ -1,0 +1,2092 @@
+{
+  "repo": "jaxen-xpath__jaxen",
+  "full_name": "jaxen-xpath/jaxen",
+  "n_sections": 25,
+  "n_chars": 8133,
+  "sections": [
+    {
+      "heading": "Jaxen XPath Engine for Java",
+      "level": 1,
+      "char_count": 381,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Jaxen XPath Engine for Java",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes the project's overall context, including its purpose, compatibility, and build system, which relates to both project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section describes the project's overall context, including its purpose, compatibility, and build system, which relates to both project structure and evolution context.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Jaxen XPath Engine for Java",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "Mentions multi-module Maven project (project_structure) and Java 1.5+ compatibility (evolution_context).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"Mentions multi-module Maven project (project_structure) and Java 1.5+ compatibility (evolution_context).\"}\n\n**Breakdown for clarity (not part of the required response format):**\n\n* **project_structure**: \"multi-module Maven project\" indicates how the project is organized, which is a key aspect of project structure.\n* **evolution_context**: \"Java 1.5+ compatibility\" provides context about the project's compatibility requirements, reflecting its evolution or maintenance considerations. \n\n**Note**: The rest of the content (e.g., description of Jaxen, advice on referencing instructions) doesn't strongly align with the provided categories or is considered boilerplate for an introductory section."
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Jaxen XPath Engine for Java",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's target object models and multi-module Maven structure, as well as its compatibility with Java 1.5+, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's target object models and multi-module Maven structure, as well as its compatibility with Java 1.5+, which relates to both project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Test Requirements",
+      "level": 3,
+      "char_count": 199,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Build and Test Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the requirements for building and testing the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the requirements for building and testing the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Build and Test Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific requirements for building and testing the project, which directly relates to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific requirements for building and testing the project, which directly relates to the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Build and Test Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section specifies coding style requirements (Maven and Java versions) and workflow process requirements (Internet for Maven dependencies and JavaDoc generation).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section specifies coding style requirements (Maven and Java versions) and workflow process requirements (Internet for Maven dependencies and JavaDoc generation).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Essential Build Commands with Timing",
+      "level": 3,
+      "char_count": 99,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Essential Build Commands with Timing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section focuses on build commands and testing rules, which are key aspects of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section focuses on build commands and testing rules, which are key aspects of the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Essential Build Commands with Timing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on build commands and testing practices, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on build commands and testing practices, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Essential Build Commands with Timing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for build commands and testing, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for build commands and testing, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Set Java 8 environment (REQUIRED - modern JDK 17+ will fail)",
+      "level": 1,
+      "char_count": 49,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment (REQUIRED - modern JDK 17+ will fail)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a specific instruction for setting up the Java environment, which is a workflow process requirement.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides a specific instruction for setting up the Java environment, which is a workflow process requirement.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment (REQUIRED - modern JDK 17+ will fail)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Specifies a required environment setup step for the project, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Specifies a required environment setup step for the project, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment (REQUIRED - modern JDK 17+ will fail)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a coding environment requirement, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a coding environment requirement, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Package without JavaDoc (avoids network issues) - takes ~11 seconds",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Package without JavaDoc (avoids network issues) - takes ~11 seconds",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific Maven command to package the project without generating JavaDoc, which relates to the workflow process of building and testing the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific Maven command to package the project without generating JavaDoc, which relates to the workflow process of building and testing the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Package without JavaDoc (avoids network issues) - takes ~11 seconds",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific Maven command to package the project, which relates to the build workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific Maven command to package the project, which relates to the build workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Package without JavaDoc (avoids network issues) - takes ~11 seconds",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging the project, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging the project, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Note: May fail if JavaDoc cannot access external URLs",
+      "level": 1,
+      "char_count": 71,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Note: May fail if JavaDoc cannot access external URLs",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command and environment setup for building the project, which relates to workflow and build processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command and environment setup for building the project, which relates to workflow and build processes.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Note: May fail if JavaDoc cannot access external URLs",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process using Maven, indicating a workflow instruction.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process using Maven, indicating a workflow instruction.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Note: May fail if JavaDoc cannot access external URLs",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for building the project, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions for building the project, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Critical Java Compatibility Issue",
+      "level": 4,
+      "char_count": 379,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Critical Java Compatibility Issue",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses a critical compatibility issue related to the project's configuration and its evolution over time, specifically regarding Java version support.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section discusses a critical compatibility issue related to the project's configuration and its evolution over time, specifically regarding Java version support.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Critical Java Compatibility Issue",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses build process requirements (workflow_process) and Java version compatibility impacting code compilation (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section discusses build process requirements (workflow_process) and Java version compatibility impacting code compilation (coding_style).\"}\n\n**Rationale for chosen categories:**\n\n1. **workflow_process**: The primary focus is on the build process, specifying requirements for successful compilation, which directly relates to the workflow (e.g., setting `JAVA_HOME`, dealing with build failures).\n2. **coding_style**: While not discussing style per se, the Java version specification indirectly influences coding choices (e.g., compatibility with Java 8 features, avoiding Java 1.5 limitations), thus tangentially relating to coding style constraints.\n\n**Rejected categories with brief reasons:**\n\n- **project_structure**: No discussion of directory layout or key files beyond `pom.xml`, which is more about configuration than structure in this context.\n- **architecture**: No mention of module roles, dependencies (beyond Java version), or design patterns.\n- **evolution_context**: Although it implies a historical context (outdated Java version), the focus is on resolving the immediate compatibility issue rather than discussing project evolution or history.\n- **agent_rules**: No directives or strategies related to AI agents or their operation."
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Critical Java Compatibility Issue",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses a compatibility issue related to the project's Java version specified in the pom.xml file, which falls under project_structure, and also provides a solution involving the use of a specific Java version, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses a compatibility issue related to the project's Java version specified in the pom.xml file, which falls under project_structure, and also provides a solution involving the use of a specific Java version, which relates to coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 3,
+      "char_count": 842,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is dominated by a description of the directory layout and key files in the Jaxen project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is dominated by a description of the directory layout and key files in the Jaxen project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Set Java 8 environment first",
+      "level": 1,
+      "char_count": 49,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a specific setup instruction for the Java environment, which is related to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides a specific setup instruction for the Java environment, which is related to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a specific setup command necessary for the development workflow, indicating an environmental prerequisite for working on the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a specific setup command necessary for the development workflow, indicating an environmental prerequisite for working on the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions for setting up the Java 8 environment, which is related to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides instructions for setting up the Java 8 environment, which is related to coding style and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Package verification - takes ~11 seconds, NEVER CANCEL",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "2. Package verification - takes ~11 seconds, NEVER CANCEL",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the build process, which is related to workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the build process, which is related to workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "2. Package verification - takes ~11 seconds, NEVER CANCEL",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command with a Maven flag, indicating a workflow or build process instruction.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command with a Maven flag, indicating a workflow or build process instruction.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "2. Package verification - takes ~11 seconds, NEVER CANCEL",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for building the project, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for building the project, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Manual Functional Validation",
+      "level": 3,
+      "char_count": 94,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Manual Functional Validation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement after making changes, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement after making changes, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Manual Functional Validation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific testing requirement after making changes, which relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific testing requirement after making changes, which relates to workflow and process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Manual Functional Validation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a testing requirement, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a testing requirement, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Create and run functional test",
+      "level": 1,
+      "char_count": 1104,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Create and run functional test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section contains Java code with specific formatting and import order, indicating coding style, and also implies a project structure through the creation of a test class.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section contains Java code with specific formatting and import order, indicating coding style, and also implies a project structure through the creation of a test class.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Create and run functional test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a step-by-step guide on creating and running a functional test, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a step-by-step guide on creating and running a functional test, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Create and run functional test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides a functional test, which is part of the workflow process, and also demonstrates coding style for testing purposes.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides a functional test, which is part of the workflow process, and also demonstrates coding style for testing purposes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Compile and run test",
+      "level": 1,
+      "char_count": 268,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Compile and run test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to compile and run a test, which falls under workflow processes such as testing requirements and build procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps to compile and run a test, which falls under workflow processes such as testing requirements and build procedures.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Compile and run test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific, step-by-step process for compiling and running tests, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific, step-by-step process for compiling and running tests, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Compile and run test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on compiling and running tests, which involves coding style (compilation command) and workflow process (test execution).",
+          "raw_response": "{\n  \"categories\": [\"coding_style\", \"workflow_process\"],\n  \"reasoning\": \"The section provides instructions on compiling and running tests, which involves coding style (compilation command) and workflow process (test execution).\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Suites Information",
+      "level": 3,
+      "char_count": 296,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Test Suites Information",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and test execution, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and test execution, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Test Suites Information",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on test suites, their execution, and the testing framework, which relates to workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on test suites, their execution, and the testing framework, which relates to workflow and development process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Test Suites Information",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes test execution and custom test framework, which relates to workflow_process, and also provides information about core and integration tests, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes test execution and custom test framework, which relates to workflow_process, and also provides information about core and integration tests, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Working with XPath Engine Code",
+      "level": 3,
+      "char_count": 329,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Working with XPath Engine Code",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key packages and their roles, indicating both the project's directory layout and module dependencies, which are aspects of project structure and architecture respectively.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key packages and their roles, indicating both the project's directory layout and module dependencies, which are aspects of project structure and architecture respectively.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Working with XPath Engine Code",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key packages (project_structure) with descriptions of their functional roles (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key packages (project_structure) with descriptions of their functional roles (architecture).\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Working with XPath Engine Code",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes key packages and their roles, which falls under project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes key packages and their roles, which falls under project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding New XPath Functions",
+      "level": 3,
+      "char_count": 209,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Adding New XPath Functions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the steps to add new XPath functions, which involves implementing an interface, adding to a function context, and running tests, indicating workflow and project structure information.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the steps to add new XPath functions, which involves implementing an interface, adding to a function context, and running tests, indicating workflow and project structure information.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Adding New XPath Functions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a step-",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a step-by-step process (workflow) for adding new functions, including where to add code and tests (project structure).\""
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Adding New XPath Functions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for adding new XPath functions, specifies where to add them in the project structure, and outlines workflow processes such as unit testing and running the full test suite.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for adding new XPath functions, specifies where to add them in the project structure, and outlines workflow processes such as unit testing and running the full test suite.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Set Java 8 environment first",
+      "level": 1,
+      "char_count": 49,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides setup instructions for the Java environment, which relates to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides setup instructions for the Java environment, which relates to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a specific setup command necessary for the development workflow, indicating an environmental prerequisite for working on the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a specific setup command necessary for the development workflow, indicating an environmental prerequisite for working on the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions for setting up the Java 8 environment, which is related to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides instructions for setting up the Java 8 environment, which is related to coding style and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run specific test class",
+      "level": 1,
+      "char_count": 29,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Run specific test class",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command to run a specific test class, which falls under workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides a command to run a specific test class, which falls under workflow and testing processes.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Run specific test class",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for executing a test class, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for executing a test class, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Run specific test class",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running tests, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running tests, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Build Issues",
+      "level": 3,
+      "char_count": 585,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Common Build Issues",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses solutions to common build issues, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses solutions to common build issues, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Common Build Issues",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on resolving build and test issues, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on resolving build and test issues, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Common Build Issues",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses build issues and their solutions, which are related to workflow processes, and also mentions JavaDoc generation and command-line properties, which are coding style related.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section primarily discusses build issues and their solutions, which are related to workflow processes, and also mentions JavaDoc generation and command-line properties, which are coding style related.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependency Information",
+      "level": 3,
+      "char_count": 189,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Dependency Information",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the project's dependencies, which relates to both project structure and architecture, as it outlines the components and libraries used in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the project's dependencies, which relates to both project structure and architecture, as it outlines the components and libraries used in the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Dependency Information",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific dependencies and plugins, which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific dependencies and plugins, which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Dependency Information",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section lists dependencies and build plugins, which pertains to project structure, and also mentions a specific JUnit version that affects test writing style, which is coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section lists dependencies and build plugins, which pertains to project structure, and also mentions a specific JUnit version that affects test writing style, which is coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance Expectations",
+      "level": 3,
+      "char_count": 200,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Performance Expectations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific performance expectations for build, test, and package processes, which falls under workflow guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines specific performance expectations for build, test, and package processes, which falls under workflow guidelines.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Performance Expectations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines expected durations for build, test, and package tasks, which relates to workflow and process management.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines expected durations for build, test, and package tasks, which relates to workflow and process management.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Performance Expectations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines performance expectations for build and test execution, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines performance expectations for build and test execution, which are part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CI/CD Integration",
+      "level": 2,
+      "char_count": 303,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "CI/CD Integration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses the project's CI/CD configuration and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses the project's CI/CD configuration and testing requirements.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "CI/CD Integration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on CI/CD configuration and troubleshooting, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on CI/CD configuration and troubleshooting, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "CI/CD Integration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the CI/CD process and the specific tools used, which falls under workflow_process, and also mentions the Java version and Maven cache, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the CI/CD process and the specific tools used, which falls under workflow_process, and also mentions the Java version and Maven cache, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Release Process",
+      "level": 2,
+      "char_count": 166,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Release Process",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the key requirements and process for releasing the project, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the key requirements and process for releasing the project, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Release Process",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific requirements and procedures for a release process, which is a workflow-related activity.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific requirements and procedures for a release process, which is a workflow-related activity.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Release Process",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for releasing software, including version management via GitHub PRs, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for releasing software, including version management via GitHub PRs, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Modified Files",
+      "level": 3,
+      "char_count": 294,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Frequently Modified Files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section lists key files and directories, indicating the project's directory layout and where important components live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section lists key files and directories, indicating the project's directory layout and where important components live.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Frequently Modified Files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key files and directories, indicating where important components live within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key files and directories, indicating where important components live within the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Frequently Modified Files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key files and their locations in the project directory structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key files and their locations in the project directory structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration Files",
+      "level": 3,
+      "char_count": 323,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Configuration Files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes key configuration files and their locations, which relates to project structure, and also mentions testing and validation procedures before committing, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes key configuration files and their locations, which relates to project structure, and also mentions testing and validation procedures before committing, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Configuration Files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Lists key configuration files (project_structure) and mentions testing before committing (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Lists key configuration files (project_structure) and mentions testing before committing (workflow_process).\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Configuration Files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section lists key project files and their locations, and also includes a workflow instruction for validating changes before committing.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section lists key project files and their locations, and also includes a workflow instruction for validating changes before committing.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Jaxen XPath Engine for Java",
+      "level": 1,
+      "char_count": 381,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Jaxen XPath Engine for Java",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section describes the project's overall context, including its purpose, compatibility, and build system, which relates to both project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section describes the project's overall context, including its purpose, compatibility, and build system, which relates to both project structure and evolution context.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Jaxen XPath Engine for Java",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "Mentions multi-module Maven project (project_structure) and Java 1.5+ compatibility (evolution_context).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"Mentions multi-module Maven project (project_structure) and Java 1.5+ compatibility (evolution_context).\"}\n\n**Breakdown for clarity (not part of the required response format):**\n\n* **project_structure**: \"multi-module Maven project\" indicates how the project is organized, which is a key aspect of project structure.\n* **evolution_context**: \"Java 1.5+ compatibility\" provides context about the project's compatibility requirements, reflecting its evolution or maintenance considerations. \n\n**Note**: The rest of the content (e.g., description of Jaxen, advice on referencing instructions) doesn't strongly align with the provided categories or is considered boilerplate for an introductory section."
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Jaxen XPath Engine for Java",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's target object models and multi-module Maven structure, as well as its compatibility with Java 1.5+, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's target object models and multi-module Maven structure, as well as its compatibility with Java 1.5+, which relates to both project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Test Requirements",
+      "level": 3,
+      "char_count": 199,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Build and Test Requirements",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the requirements for building and testing the project, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the requirements for building and testing the project, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Build and Test Requirements",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific requirements for building and testing the project, which directly relates to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific requirements for building and testing the project, which directly relates to the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Build and Test Requirements",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section specifies coding style requirements (Maven and Java versions) and workflow process requirements (Internet for Maven dependencies and JavaDoc generation).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section specifies coding style requirements (Maven and Java versions) and workflow process requirements (Internet for Maven dependencies and JavaDoc generation).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Essential Build Commands with Timing",
+      "level": 3,
+      "char_count": 99,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Essential Build Commands with Timing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section focuses on build commands and testing rules, which are key aspects of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section focuses on build commands and testing rules, which are key aspects of the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Essential Build Commands with Timing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on build commands and testing practices, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on build commands and testing practices, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Essential Build Commands with Timing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for build commands and testing, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for build commands and testing, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Set Java 8 environment (REQUIRED - modern JDK 17+ will fail)",
+      "level": 1,
+      "char_count": 49,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment (REQUIRED - modern JDK 17+ will fail)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a specific instruction for setting up the Java environment, which is a workflow process requirement.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides a specific instruction for setting up the Java environment, which is a workflow process requirement.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment (REQUIRED - modern JDK 17+ will fail)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "Specifies a required environment setup step for the project, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"Specifies a required environment setup step for the project, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment (REQUIRED - modern JDK 17+ will fail)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a coding environment requirement, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a coding environment requirement, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Package without JavaDoc (avoids network issues) - takes ~11 seconds",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Package without JavaDoc (avoids network issues) - takes ~11 seconds",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific Maven command to package the project without generating JavaDoc, which relates to the workflow process of building and testing the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific Maven command to package the project without generating JavaDoc, which relates to the workflow process of building and testing the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Package without JavaDoc (avoids network issues) - takes ~11 seconds",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific Maven command to package the project, which relates to the build workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific Maven command to package the project, which relates to the build workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Package without JavaDoc (avoids network issues) - takes ~11 seconds",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for packaging the project, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for packaging the project, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Note: May fail if JavaDoc cannot access external URLs",
+      "level": 1,
+      "char_count": 71,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Note: May fail if JavaDoc cannot access external URLs",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command and environment setup for building the project, which relates to workflow and build processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command and environment setup for building the project, which relates to workflow and build processes.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Note: May fail if JavaDoc cannot access external URLs",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build process using Maven, indicating a workflow instruction.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build process using Maven, indicating a workflow instruction.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Note: May fail if JavaDoc cannot access external URLs",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for building the project, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides instructions for building the project, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Critical Java Compatibility Issue",
+      "level": 4,
+      "char_count": 379,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Critical Java Compatibility Issue",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section discusses a critical compatibility issue related to the project's configuration and its evolution over time, specifically regarding Java version support.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section discusses a critical compatibility issue related to the project's configuration and its evolution over time, specifically regarding Java version support.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Critical Java Compatibility Issue",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses build process requirements (workflow_process) and Java version compatibility impacting code compilation (coding_style).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section discusses build process requirements (workflow_process) and Java version compatibility impacting code compilation (coding_style).\"}\n\n**Rationale for chosen categories:**\n\n1. **workflow_process**: The primary focus is on the build process, specifying requirements for successful compilation, which directly relates to the workflow (e.g., setting `JAVA_HOME`, dealing with build failures).\n2. **coding_style**: While not discussing style per se, the Java version specification indirectly influences coding choices (e.g., compatibility with Java 8 features, avoiding Java 1.5 limitations), thus tangentially relating to coding style constraints.\n\n**Rejected categories with brief reasons:**\n\n- **project_structure**: No discussion of directory layout or key files beyond `pom.xml`, which is more about configuration than structure in this context.\n- **architecture**: No mention of module roles, dependencies (beyond Java version), or design patterns.\n- **evolution_context**: Although it implies a historical context (outdated Java version), the focus is on resolving the immediate compatibility issue rather than discussing project evolution or history.\n- **agent_rules**: No directives or strategies related to AI agents or their operation."
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Critical Java Compatibility Issue",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section discusses a compatibility issue related to the project's Java version specified in the pom.xml file, which falls under project_structure, and also provides a solution involving the use of a specific Java version, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section discusses a compatibility issue related to the project's Java version specified in the pom.xml file, which falls under project_structure, and also provides a solution involving the use of a specific Java version, which relates to coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 3,
+      "char_count": 842,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is dominated by a description of the directory layout and key files in the Jaxen project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is dominated by a description of the directory layout and key files in the Jaxen project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Set Java 8 environment first",
+      "level": 1,
+      "char_count": 49,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a specific setup instruction for the Java environment, which is related to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides a specific setup instruction for the Java environment, which is related to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a specific setup command necessary for the development workflow, indicating an environmental prerequisite for working on the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a specific setup command necessary for the development workflow, indicating an environmental prerequisite for working on the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions for setting up the Java 8 environment, which is related to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides instructions for setting up the Java 8 environment, which is related to coding style and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "2. Package verification - takes ~11 seconds, NEVER CANCEL",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "2. Package verification - takes ~11 seconds, NEVER CANCEL",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the build process, which is related to workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the build process, which is related to workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "2. Package verification - takes ~11 seconds, NEVER CANCEL",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command with a Maven flag, indicating a workflow or build process instruction.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command with a Maven flag, indicating a workflow or build process instruction.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "2. Package verification - takes ~11 seconds, NEVER CANCEL",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for building the project, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for building the project, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Manual Functional Validation",
+      "level": 3,
+      "char_count": 94,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Manual Functional Validation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing requirement after making changes, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing requirement after making changes, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Manual Functional Validation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific testing requirement after making changes, which relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific testing requirement after making changes, which relates to workflow and process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Manual Functional Validation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a testing requirement, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a testing requirement, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Create and run functional test",
+      "level": 1,
+      "char_count": 1104,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Create and run functional test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section contains Java code with specific formatting and import order, indicating coding style, and also implies a project structure through the creation of a test class.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section contains Java code with specific formatting and import order, indicating coding style, and also implies a project structure through the creation of a test class.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Create and run functional test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a step-by-step guide on creating and running a functional test, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a step-by-step guide on creating and running a functional test, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Create and run functional test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides a functional test, which is part of the workflow process, and also demonstrates coding style for testing purposes.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides a functional test, which is part of the workflow process, and also demonstrates coding style for testing purposes.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Compile and run test",
+      "level": 1,
+      "char_count": 268,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Compile and run test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to compile and run a test, which falls under workflow processes such as testing requirements and build procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps to compile and run a test, which falls under workflow processes such as testing requirements and build procedures.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Compile and run test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific, step-by-step process for compiling and running tests, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific, step-by-step process for compiling and running tests, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Compile and run test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions on compiling and running tests, which involves coding style (compilation command) and workflow process (test execution).",
+          "raw_response": "{\n  \"categories\": [\"coding_style\", \"workflow_process\"],\n  \"reasoning\": \"The section provides instructions on compiling and running tests, which involves coding style (compilation command) and workflow process (test execution).\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Suites Information",
+      "level": 3,
+      "char_count": 296,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Test Suites Information",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements and test execution, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements and test execution, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Test Suites Information",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on test suites, their execution, and the testing framework, which relates to workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on test suites, their execution, and the testing framework, which relates to workflow and development process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Test Suites Information",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes test execution and custom test framework, which relates to workflow_process, and also provides information about core and integration tests, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes test execution and custom test framework, which relates to workflow_process, and also provides information about core and integration tests, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Working with XPath Engine Code",
+      "level": 3,
+      "char_count": 329,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Working with XPath Engine Code",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key packages and their roles, indicating both the project's directory layout and module dependencies, which are aspects of project structure and architecture respectively.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key packages and their roles, indicating both the project's directory layout and module dependencies, which are aspects of project structure and architecture respectively.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Working with XPath Engine Code",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key packages (project_structure) with descriptions of their functional roles (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key packages (project_structure) with descriptions of their functional roles (architecture).\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Working with XPath Engine Code",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes key packages and their roles, which falls under project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes key packages and their roles, which falls under project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Adding New XPath Functions",
+      "level": 3,
+      "char_count": 209,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Adding New XPath Functions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the steps to add new XPath functions, which involves implementing an interface, adding to a function context, and running tests, indicating workflow and project structure information.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the steps to add new XPath functions, which involves implementing an interface, adding to a function context, and running tests, indicating workflow and project structure information.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Adding New XPath Functions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a step-",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section outlines a step-by-step process (workflow) for adding new functions, including where to add code and tests (project structure).\""
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Adding New XPath Functions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides coding style guidelines for adding new XPath functions, specifies where to add them in the project structure, and outlines workflow processes such as unit testing and running the full test suite.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides coding style guidelines for adding new XPath functions, specifies where to add them in the project structure, and outlines workflow processes such as unit testing and running the full test suite.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Set Java 8 environment first",
+      "level": 1,
+      "char_count": 49,
+      "voted_categories": [],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides setup instructions for the Java environment, which relates to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides setup instructions for the Java environment, which relates to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a specific setup command necessary for the development workflow, indicating an environmental prerequisite for working on the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides a specific setup command necessary for the development workflow, indicating an environmental prerequisite for working on the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Set Java 8 environment first",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides instructions for setting up the Java 8 environment, which is related to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides instructions for setting up the Java 8 environment, which is related to coding style and conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run specific test class",
+      "level": 1,
+      "char_count": 29,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Run specific test class",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command to run a specific test class, which falls under workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides a command to run a specific test class, which falls under workflow and testing processes.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Run specific test class",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for executing a test class, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for executing a test class, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Run specific test class",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running tests, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running tests, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Build Issues",
+      "level": 3,
+      "char_count": 585,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Common Build Issues",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily discusses solutions to common build issues, which relates to the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily discusses solutions to common build issues, which relates to the workflow process of the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Common Build Issues",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on resolving build and test issues, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on resolving build and test issues, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Common Build Issues",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses build issues and their solutions, which are related to workflow processes, and also mentions JavaDoc generation and command-line properties, which are coding style related.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section primarily discusses build issues and their solutions, which are related to workflow processes, and also mentions JavaDoc generation and command-line properties, which are coding style related.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependency Information",
+      "level": 3,
+      "char_count": 189,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Dependency Information",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the project's dependencies, which relates to both project structure and architecture, as it outlines the components and libraries used in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the project's dependencies, which relates to both project structure and architecture, as it outlines the components and libraries used in the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Dependency Information",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific dependencies and plugins, which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific dependencies and plugins, which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Dependency Information",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section lists dependencies and build plugins, which pertains to project structure, and also mentions a specific JUnit version that affects test writing style, which is coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section lists dependencies and build plugins, which pertains to project structure, and also mentions a specific JUnit version that affects test writing style, which is coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Performance Expectations",
+      "level": 3,
+      "char_count": 200,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Performance Expectations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines specific performance expectations for build, test, and package processes, which falls under workflow guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines specific performance expectations for build, test, and package processes, which falls under workflow guidelines.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Performance Expectations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines expected durations for build, test, and package tasks, which relates to workflow and process management.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines expected durations for build, test, and package tasks, which relates to workflow and process management.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Performance Expectations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines performance expectations for build and test execution, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines performance expectations for build and test execution, which are part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CI/CD Integration",
+      "level": 2,
+      "char_count": 303,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "CI/CD Integration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses the project's CI/CD configuration and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses the project's CI/CD configuration and testing requirements.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "CI/CD Integration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on CI/CD configuration and troubleshooting, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on CI/CD configuration and troubleshooting, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "CI/CD Integration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the CI/CD process and the specific tools used, which falls under workflow_process, and also mentions the Java version and Maven cache, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the CI/CD process and the specific tools used, which falls under workflow_process, and also mentions the Java version and Maven cache, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Release Process",
+      "level": 2,
+      "char_count": 166,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Release Process",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the key requirements and process for releasing the project, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines the key requirements and process for releasing the project, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Release Process",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific requirements and procedures for a release process, which is a workflow-related activity.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific requirements and procedures for a release process, which is a workflow-related activity.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Release Process",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for releasing software, including version management via GitHub PRs, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for releasing software, including version management via GitHub PRs, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Modified Files",
+      "level": 3,
+      "char_count": 294,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Frequently Modified Files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section lists key files and directories, indicating the project's directory layout and where important components live.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section lists key files and directories, indicating the project's directory layout and where important components live.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Frequently Modified Files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key files and directories, indicating where important components live within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key files and directories, indicating where important components live within the project.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Frequently Modified Files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists key files and their locations in the project directory structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists key files and their locations in the project directory structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration Files",
+      "level": 3,
+      "char_count": 323,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Configuration Files",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes key configuration files and their locations, which relates to project structure, and also mentions testing and validation procedures before committing, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes key configuration files and their locations, which relates to project structure, and also mentions testing and validation procedures before committing, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Configuration Files",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Lists key configuration files (project_structure) and mentions testing before committing (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Lists key configuration files (project_structure) and mentions testing before committing (workflow_process).\"}"
+        },
+        {
+          "repo": "jaxen-xpath/jaxen",
+          "section_heading": "Configuration Files",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section lists key project files and their locations, and also includes a workflow instruction for validating changes before committing.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section lists key project files and their locations, and also includes a workflow instruction for validating changes before committing.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.08,
+    "project_structure": 0.32,
+    "workflow_process": 0.72,
+    "architecture": 0.04,
+    "evolution_context": 0.04,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.22507208984671423,
+    "project_structure": 0.4471088177265139,
+    "workflow_process": 0.6261951737744726,
+    "architecture": 0.04993170435574442,
+    "evolution_context": 0.05782364546972226,
+    "agent_rules": 0.0
+  }
+}

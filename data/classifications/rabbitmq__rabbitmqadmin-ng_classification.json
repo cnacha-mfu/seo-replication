@@ -1,0 +1,1186 @@
+{
+  "repo": "rabbitmq__rabbitmqadmin-ng",
+  "full_name": "rabbitmq/rabbitmqadmin-ng",
+  "n_sections": 14,
+  "n_chars": 4995,
+  "sections": [
+    {
+      "heading": "Overview",
+      "level": 2,
+      "char_count": 120,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a general introduction to the project, which is a key aspect of understanding the project's structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a general introduction to the project, which is a key aspect of understanding the project's structure.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project, which aligns with project structure by introducing the tool's purpose and its relation to RabbitMQ.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project, which aligns with project structure by introducing the tool's purpose and its relation to RabbitMQ.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose and its target API, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose and its target API, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Test",
+      "level": 2,
+      "char_count": 230,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Build and Test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the build and test workflow process, including commands for building, formatting, and running tests, while also touching on coding style through the use of formatting tools like cargo fmt.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the build and test workflow process, including commands for building, formatting, and running tests, while also touching on coding style through the use of formatting tools like cargo fmt.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Build and Test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building, formatting, and testing the project, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building, formatting, and testing the project, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Build and Test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for building, formatting, and testing code, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for building, formatting, and testing code, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Node Configuration",
+      "level": 3,
+      "char_count": 197,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Test Node Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes test setup requirements and references a specific script, relating to both workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes test setup requirements and references a specific script, relating to both workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Test Node Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific setup requirement for running test suites, which relates to the workflow and testing process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific setup requirement for running test suites, which relates to the workflow and testing process.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Test Node Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes a test environment setup, which is part of the workflow process, and also mentions the configuration of a RabbitMQ node, which relates to the architecture category.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes a test environment setup, which is part of the workflow process, and also mentions the configuration of a RabbitMQ node, which relates to the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Implementation",
+      "level": 3,
+      "char_count": 758,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Implementation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists the directory layout and key files of the project, indicating its dominant content is related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists the directory layout and key files of the project, indicating its dominant content is related to project structure.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Implementation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists specific files and their roles within the project's directory, outlining how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists specific files and their roles within the project's directory, outlining how the project is organized.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Implementation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as the roles of different modules and components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files, as well as the roles of different modules and components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 415,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the testing framework and directory structure for tests, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the testing framework and directory structure for tests, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing structures and scripts, which relates to workflow processes such as testing requirements and CI setup.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing structures and scripts, which relates to workflow processes such as testing requirements and CI setup.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the project's testing structure and the location of test files, as well as CI setup scripts.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the project's testing structure and the location of test files, as well as CI setup scripts.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Dependencies",
+      "level": 2,
+      "char_count": 358,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Key Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes key dependencies, which relates to both the project's structure and its architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes key dependencies, which relates to both the project's structure and its architectural design.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Key Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key dependencies (project_structure) and describes their roles in the system (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key dependencies (project_structure) and describes their roles in the system (architecture).\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Key Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section lists key dependencies of the project, which relates to project structure, and also describes the role of each dependency, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section lists key dependencies of the project, which relates to project structure, and also describes the role of each dependency, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Target Rust Version",
+      "level": 2,
+      "char_count": 53,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Target Rust Version",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the target Rust version, which relates to coding style and compatibility.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses the target Rust version, which relates to coding style and compatibility.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Target Rust Version",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies a key dependency version, which relates to how the project is set up and configured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies a key dependency version, which relates to how the project is set up and configured.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Target Rust Version",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies the target Rust version, which is related to coding style and tooling.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies the target Rust version, which is related to coding style and tooling.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Rust Code Style",
+      "level": 2,
+      "char_count": 510,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Rust Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on Rust coding conventions, import statements, and code formatting tools like cargo fmt and clippy.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on Rust coding conventions, import statements, and code formatting tools like cargo fmt and clippy.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Rust Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section primarily outlines R",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section primarily outlines Rust coding style conventions (coding_style) but also specifies where different types of tests should be located (project_structure).\""
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Rust Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on coding style (use of imports, formatting) and workflow process (test placement, running cargo fmt and clippy).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on coding style (use of imports, formatting) and workflow process (test placement, running cargo fmt and clippy).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Comments",
+      "level": 2,
+      "char_count": 75,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Comments",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on commenting code, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on commenting code, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Comments",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on guidelines for adding comments, which relates to code style and readability conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on guidelines for adding comments, which relates to code style and readability conventions.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Comments",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on commenting practices, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on commenting practices, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Git Instructions",
+      "level": 2,
+      "char_count": 152,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Git Instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines for commit messages, which is a key aspect of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides guidelines for commit messages, which is a key aspect of the workflow process.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Git Instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules for commit messages, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules for commit messages, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Git Instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for committing code, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for committing code, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Style Guide",
+      "level": 2,
+      "char_count": 45,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Style Guide",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on Markdown formatting, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on Markdown formatting, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Style Guide",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a specific formatting rule, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines a specific formatting rule, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Style Guide",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a style guide for Markdown list items, which falls under coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a style guide for Markdown list items, which falls under coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Iterative Reviews",
+      "level": 3,
+      "char_count": 335,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Iterative Reviews",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a review process with specific rules and guidelines for iterative reviews after completing a task.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a review process with specific rules and guidelines for iterative reviews after completing a task.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Iterative Reviews",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific review process to follow after completing a task, which relates to workflow and development practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific review process to follow after completing a task, which relates to workflow and development practices.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Iterative Reviews",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a review process for changes, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a review process for changes, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "How to Roll (Produce) a New Release",
+      "level": 3,
+      "char_count": 957,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "How to Roll (Produce) a New Release",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the step-by-step workflow process for producing a new release, including commit messages, tagging, and pushing, while also touching on project structure through file updates like Cargo.toml and CHANGELOG.md.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the step-by-step workflow process for producing a new release, including commit messages, tagging, and pushing, while also touching on project structure through file updates like Cargo.toml and CHANGELOG.md.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "How to Roll (Produce) a New Release",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for releasing a new version, focusing on commit, tagging, and publishing workflows.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for releasing a new version, focusing on commit, tagging, and publishing workflows.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "How to Roll (Produce) a New Release",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for producing a new release, including commit and tagging rules, version bumping, and CI/CD actions.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for producing a new release, including commit and tagging rules, version bumping, and CI/CD actions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "GitHub Actions",
+      "level": 3,
+      "char_count": 375,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "GitHub Actions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the release workflow and validation steps, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the release workflow and validation steps, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "GitHub Actions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific CI/CD pipeline details (GitHub Actions workflow) and validation steps, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific CI/CD pipeline details (GitHub Actions workflow) and validation steps, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "GitHub Actions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of a GitHub Action for release workflow and mentions tools for verifying YAML file syntax.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes the use of a GitHub Action for release workflow and mentions tools for verifying YAML file syntax.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Overview",
+      "level": 2,
+      "char_count": 120,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a general introduction to the project, which is a key aspect of understanding the project's structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a general introduction to the project, which is a key aspect of understanding the project's structure.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project, which aligns with project structure by introducing the tool's purpose and its relation to RabbitMQ.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project, which aligns with project structure by introducing the tool's purpose and its relation to RabbitMQ.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose and its target API, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose and its target API, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Test",
+      "level": 2,
+      "char_count": 230,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Build and Test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes the build and test workflow process, including commands for building, formatting, and running tests, while also touching on coding style through the use of formatting tools like cargo fmt.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes the build and test workflow process, including commands for building, formatting, and running tests, while also touching on coding style through the use of formatting tools like cargo fmt.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Build and Test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building, formatting, and testing the project, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building, formatting, and testing the project, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Build and Test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides instructions for building, formatting, and testing code, which falls under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides instructions for building, formatting, and testing code, which falls under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Node Configuration",
+      "level": 3,
+      "char_count": 197,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Test Node Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes test setup requirements and references a specific script, relating to both workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes test setup requirements and references a specific script, relating to both workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Test Node Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific setup requirement for running test suites, which relates to the workflow and testing process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific setup requirement for running test suites, which relates to the workflow and testing process.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Test Node Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes a test environment setup, which is part of the workflow process, and also mentions the configuration of a RabbitMQ node, which relates to the architecture category.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes a test environment setup, which is part of the workflow process, and also mentions the configuration of a RabbitMQ node, which relates to the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Implementation",
+      "level": 3,
+      "char_count": 758,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Implementation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists the directory layout and key files of the project, indicating its dominant content is related to project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists the directory layout and key files of the project, indicating its dominant content is related to project structure.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Implementation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section lists specific files and their roles within the project's directory, outlining how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section lists specific files and their roles within the project's directory, outlining how the project is organized.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Implementation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and key files, as well as the roles of different modules and components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and key files, as well as the roles of different modules and components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 415,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the testing framework and directory structure for tests, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the testing framework and directory structure for tests, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing structures and scripts, which relates to workflow processes such as testing requirements and CI setup.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing structures and scripts, which relates to workflow processes such as testing requirements and CI setup.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the project's testing structure and the location of test files, as well as CI setup scripts.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"The section describes the project's testing structure and the location of test files, as well as CI setup scripts.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Dependencies",
+      "level": 2,
+      "char_count": 358,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Key Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes key dependencies, which relates to both the project's structure and its architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes key dependencies, which relates to both the project's structure and its architectural design.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Key Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key dependencies (project_structure) and describes their roles in the system (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key dependencies (project_structure) and describes their roles in the system (architecture).\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Key Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section lists key dependencies of the project, which relates to project structure, and also describes the role of each dependency, which relates to architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section lists key dependencies of the project, which relates to project structure, and also describes the role of each dependency, which relates to architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Target Rust Version",
+      "level": 2,
+      "char_count": 53,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Target Rust Version",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the target Rust version, which relates to coding style and compatibility.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses the target Rust version, which relates to coding style and compatibility.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Target Rust Version",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies a key dependency version, which relates to how the project is set up and configured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies a key dependency version, which relates to how the project is set up and configured.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Target Rust Version",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies the target Rust version, which is related to coding style and tooling.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies the target Rust version, which is related to coding style and tooling.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Rust Code Style",
+      "level": 2,
+      "char_count": 510,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Rust Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on Rust coding conventions, import statements, and code formatting tools like cargo fmt and clippy.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on Rust coding conventions, import statements, and code formatting tools like cargo fmt and clippy.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Rust Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section primarily outlines R",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section primarily outlines Rust coding style conventions (coding_style) but also specifies where different types of tests should be located (project_structure).\""
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Rust Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on coding style (use of imports, formatting) and workflow process (test placement, running cargo fmt and clippy).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on coding style (use of imports, formatting) and workflow process (test placement, running cargo fmt and clippy).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Comments",
+      "level": 2,
+      "char_count": 75,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Comments",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on commenting code, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on commenting code, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Comments",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on guidelines for adding comments, which relates to code style and readability conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on guidelines for adding comments, which relates to code style and readability conventions.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Comments",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on commenting practices, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on commenting practices, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Git Instructions",
+      "level": 2,
+      "char_count": 152,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Git Instructions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines for commit messages, which is a key aspect of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides guidelines for commit messages, which is a key aspect of the workflow process.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Git Instructions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific rules for commit messages, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific rules for commit messages, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Git Instructions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for committing code, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides guidelines for committing code, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Style Guide",
+      "level": 2,
+      "char_count": 45,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Style Guide",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on Markdown formatting, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on Markdown formatting, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Style Guide",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a specific formatting rule, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines a specific formatting rule, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Style Guide",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a style guide for Markdown list items, which falls under coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a style guide for Markdown list items, which falls under coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Iterative Reviews",
+      "level": 3,
+      "char_count": 335,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Iterative Reviews",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a review process with specific rules and guidelines for iterative reviews after completing a task.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a review process with specific rules and guidelines for iterative reviews after completing a task.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Iterative Reviews",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a specific review process to follow after completing a task, which relates to workflow and development practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a specific review process to follow after completing a task, which relates to workflow and development practices.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "Iterative Reviews",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a review process for changes, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a review process for changes, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "How to Roll (Produce) a New Release",
+      "level": 3,
+      "char_count": 957,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "How to Roll (Produce) a New Release",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes the step-by-step workflow process for producing a new release, including commit messages, tagging, and pushing, while also touching on project structure through file updates like Cargo.toml and CHANGELOG.md.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes the step-by-step workflow process for producing a new release, including commit messages, tagging, and pushing, while also touching on project structure through file updates like Cargo.toml and CHANGELOG.md.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "How to Roll (Produce) a New Release",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for releasing a new version, focusing on commit, tagging, and publishing workflows.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for releasing a new version, focusing on commit, tagging, and publishing workflows.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "How to Roll (Produce) a New Release",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for producing a new release, including commit and tagging rules, version bumping, and CI/CD actions.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for producing a new release, including commit and tagging rules, version bumping, and CI/CD actions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "GitHub Actions",
+      "level": 3,
+      "char_count": 375,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "GitHub Actions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the release workflow and validation steps, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the release workflow and validation steps, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "GitHub Actions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific CI/CD pipeline details (GitHub Actions workflow) and validation steps, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific CI/CD pipeline details (GitHub Actions workflow) and validation steps, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "rabbitmq/rabbitmqadmin-ng",
+          "section_heading": "GitHub Actions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of a GitHub Action for release workflow and mentions tools for verifying YAML file syntax.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes the use of a GitHub Action for release workflow and mentions tools for verifying YAML file syntax.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.35714285714285715,
+    "project_structure": 0.21428571428571427,
+    "workflow_process": 0.5,
+    "architecture": 0.07142857142857142,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.19934497816593885,
+    "project_structure": 0.2698689956331878,
+    "workflow_process": 0.5810043668122271,
+    "architecture": 0.07816593886462882,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

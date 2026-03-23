@@ -1,0 +1,1318 @@
+{
+  "repo": "zigflow__zigflow",
+  "full_name": "zigflow/zigflow",
+  "n_sections": 15,
+  "n_chars": 7343,
+  "sections": [
+    {
+      "heading": "Claude Instructions (zigflow)",
+      "level": 1,
+      "char_count": 318,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Claude Instructions (zigflow)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "This section contains directives for Claude on how to treat Zigflow, indicating agent rules, and also describes the underlying technology and design priorities of Zigflow, relating to architecture.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"This section contains directives for Claude on how to treat Zigflow, indicating agent rules, and also describes the underlying technology and design priorities of Zigflow, relating to architecture.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Claude Instructions (zigflow)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "The section defines how Claude should treat the project (agent_rules) and outlines core architectural priorities of the project (architecture).",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"The section defines how Claude should treat the project (agent_rules) and outlines core architectural priorities of the project (architecture).\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Claude Instructions (zigflow)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the design and priorities of the Zigflow module, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the design and priorities of the Zigflow module, which falls under the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming convention",
+      "level": 2,
+      "char_count": 363,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Naming convention",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions for the project, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions for the project, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Naming convention",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly outlines naming conventions for the project, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly outlines naming conventions for the project, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Naming convention",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions for the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core intent of the project",
+      "level": 2,
+      "char_count": 250,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Core intent of the project",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the core intent and design of the project, which relates to its overall structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the core intent and design of the project, which relates to its overall structure and architecture.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Core intent of the project",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the system's core functionality and design principles, which relate to its architectural goals.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the system's core functionality and design principles, which relate to its architectural goals.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Core intent of the project",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the core intent and design principles of the project, which falls under architecture, and also implies the system's structure, which falls under project_structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the core intent and design principles of the project, which falls under architecture, and also implies the system's structure, which falls under project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Technology stack (authoritative)",
+      "level": 2,
+      "char_count": 421,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Technology stack (authoritative)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the technology stack and constraints of the project, which relates to both the overall architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the technology stack and constraints of the project, which relates to both the overall architecture and project structure.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Technology stack (authoritative)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"Lists specific technologies (arch",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"Lists specific technologies (architecture) with constraints on their usage (workflow_process).\""
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Technology stack (authoritative)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section lists the technologies used in the project and their specific implementations, which falls under project_structure; it also specifies the use of jq-style expressions, which can be considered a coding_style decision.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section lists the technologies used in the project and their specific implementations, which falls under project_structure; it also specifies the use of jq-style expressions, which can be considered a coding_style decision.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architectural principles",
+      "level": 2,
+      "char_count": 329,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Architectural principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines fundamental design principles and guidelines that shape the overall structure and behavior of the system, which is the core concern of the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines fundamental design principles and guidelines that shape the overall structure and behavior of the system, which is the core concern of the architecture category.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Architectural principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines fundamental design principles guiding the system's structure and behavior, which is characteristic of architectural concerns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines fundamental design principles guiding the system's structure and behavior, which is characteristic of architectural concerns.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Architectural principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines architectural principles such as treating workflow definitions as data, enforcing deterministic execution, and preferring explicit errors and validation.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines architectural principles such as treating workflow definitions as data, enforcing deterministic execution, and preferring explicit errors and validation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workflow handling rules",
+      "level": 2,
+      "char_count": 425,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Workflow handling rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section primarily outlines rules for handling workflows, which relates to workflow processes, and also includes specific directives for Claude, fitting into agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section primarily outlines rules for handling workflows, which relates to workflow processes, and also includes specific directives for Claude, fitting into agent rules.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Workflow handling rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific workflow handling rules (workflow_process) that also imply architectural design decisions on validation and execution (architecture).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines specific workflow handling rules (workflow_process) that also imply architectural design decisions on validation and execution (architecture).\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Workflow handling rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines workflow handling rules, which fall under workflow_process, and also discusses the architecture of the system in terms of validation and runtime expressions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines workflow handling rules, which fall under workflow_process, and also discusses the architecture of the system in terms of validation and runtime expressions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Validation philosophy",
+      "level": 2,
+      "char_count": 293,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Validation philosophy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines the design principles and guidelines for validation in the project, which relates to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section outlines the design principles and guidelines for validation in the project, which relates to both architecture and coding style.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Validation philosophy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines design principles for validation, which is a fundamental aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines design principles for validation, which is a fundamental aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Validation philosophy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines coding style guidelines for validation and architectural principles for error handling.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines coding style guidelines for validation and architectural principles for error handling.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Temporal-specific constraints",
+      "level": 2,
+      "char_count": 332,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Temporal-specific constraints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section outlines constraints on workflow code and activities, which relates to both workflow process and architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section outlines constraints on workflow code and activities, which relates to both workflow process and architecture.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Temporal-specific constraints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific operational rules (workflow_process) that also imply architectural design decisions (architecture) for Temporal workflows.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines specific operational rules (workflow_process) that also imply architectural design decisions (architecture) for Temporal workflows.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Temporal-specific constraints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines workflow process rules and constraints, as well as architectural guidelines for activities and serialization.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines workflow process rules and constraints, as well as architectural guidelines for activities and serialization.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CLI & configuration behavior",
+      "level": 2,
+      "char_count": 276,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "CLI & configuration behavior",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses coding conventions and best practices for CLI flags and configuration behavior, which relates to coding style, and also touches on workflow process aspects such as validation and error handling.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses coding conventions and best practices for CLI flags and configuration behavior, which relates to coding style, and also touches on workflow process aspects such as validation and error handling.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "CLI & configuration behavior",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on explicit and safe coding practices (coding_style) for CLI interactions and defines how the workflow should behave in terms of validation and errors (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section focuses on explicit and safe coding practices (coding_style) for CLI interactions and defines how the workflow should behave in terms of validation and errors (workflow_process).\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "CLI & configuration behavior",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for coding style in CLI flags and also outlines workflow process for error handling and validation.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for coding style in CLI flags and also outlines workflow process for error handling and validation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code style & structure",
+      "level": 2,
+      "char_count": 1187,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Code style & structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses code style and structure guidelines, as well as testing and linting procedures, which belong to both coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses code style and structure guidelines, as well as testing and linting procedures, which belong to both coding_style and workflow_process categories.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Code style & structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines coding conventions and style guidelines (coding_style), but also specifies testing and linting procedures as part of the development workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines coding conventions and style guidelines (coding_style), but also specifies testing and linting procedures as part of the development workflow (workflow_process).\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Code style & structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on coding style, project structure, and workflow process, including naming conventions, function design, linting, and testing requirements.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on coding style, project structure, and workflow process, including naming conventions, function design, linting, and testing requirements.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation expectations",
+      "level": 2,
+      "char_count": 310,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation expectations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines expectations for documentation, which is a key aspect of the workflow process in software development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines expectations for documentation, which is a key aspect of the workflow process in software development.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation expectations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines guidelines for documentation, which relates to the workflow process of maintaining and contributing to the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines guidelines for documentation, which relates to the workflow process of maintaining and contributing to the project.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation expectations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines documentation expectations, which pertain to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines documentation expectations, which pertain to project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Writing Style Rules",
+      "level": 2,
+      "char_count": 246,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Writing Style Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific rules for writing style, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific rules for writing style, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Writing Style Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific rules for writing style, which relates to formatting and conventions, falling under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific rules for writing style, which relates to formatting and conventions, falling under coding style guidelines.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Writing Style Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on writing style, which is a part of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on writing style, which is a part of coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Creative scope & default assumptions",
+      "level": 2,
+      "char_count": 488,
+      "voted_categories": [
+        "agent_rules",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Creative scope & default assumptions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "evolution_context"
+          ],
+          "reasoning": "This section outlines the default assumptions and creative scope for Claude, which pertains to agent rules, and also touches on the project's evolution context by considering backwards compatibility and cautious feature addition.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"evolution_context\"], \"reasoning\": \"This section outlines the default assumptions and creative scope for Claude, which pertains to agent rules, and also touches on the project's evolution context by considering backwards compatibility and cautious feature addition.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Creative scope & default assumptions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines the project's evolutionary approach (evolution_context) and directly instructs Claude's behavior (agent_rules).",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"agent_rules\"], \"reasoning\": \"The section outlines the project's evolutionary approach (evolution_context) and directly instructs Claude's behavior (agent_rules).\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Creative scope & default assumptions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines the role of the project as a workflow engine and provides guidelines for Claude's behavior in building or modifying functionality, which aligns with both architecture and agent_rules categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section outlines the role of the project as a workflow engine and provides guidelines for Claude's behavior in building or modifying functionality, which aligns with both architecture and agent_rules categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When unsure",
+      "level": 2,
+      "char_count": 212,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "When unsure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines guidelines for handling unclear situations, which relates to workflow process, and also touches on coding principles like correctness and determinism, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section outlines guidelines for handling unclear situations, which relates to workflow process, and also touches on coding principles like correctness and determinism, which falls under coding style.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "When unsure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines guidelines for handling uncertainty during development, which relates to workflow and decision-making processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines guidelines for handling uncertainty during development, which relates to workflow and decision-making processes.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "When unsure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidelines for handling unclear situations, which can be considered as part of workflow process, and also includes AI-specific directives for the agent, such as preferring correctness and determinism.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section provides guidelines for handling unclear situations, which can be considered as part of workflow process, and also includes AI-specific directives for the agent, such as preferring correctness and determinism.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation Drift & Behavioural Changes",
+      "level": 2,
+      "char_count": 1407,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation Drift & Behavioural Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section discusses the process of handling behavioural changes and documentation updates, which relates to workflow and evolution context, and also provides directives for Claude, fitting into agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section discusses the process of handling behavioural changes and documentation updates, which relates to workflow and evolution context, and also provides directives for Claude, fitting into agent rules.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation Drift & Behavioural Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines procedural guidelines (workflow_process) for handling behavioural changes and documentation alignment, with references to architectural principles (architecture) as authoritative indicators for resolving discrepancies.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines procedural guidelines (workflow_process) for handling behavioural changes and documentation alignment, with references to architectural principles (architecture) as authoritative indicators for resolving discrepancies.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation Drift & Behavioural Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines the process for handling changes in behavior and documentation, and discusses the role of tests and validation logic in determining intended behavior, which aligns with workflow process and architecture categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines the process for handling changes in behavior and documentation, and discusses the role of tests and validation logic in determining intended behavior, which aligns with workflow process and architecture categories.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Claude Instructions (zigflow)",
+      "level": 1,
+      "char_count": 318,
+      "voted_categories": [
+        "agent_rules",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Claude Instructions (zigflow)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "This section contains directives for Claude on how to treat Zigflow, indicating agent rules, and also describes the underlying technology and design priorities of Zigflow, relating to architecture.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"This section contains directives for Claude on how to treat Zigflow, indicating agent rules, and also describes the underlying technology and design priorities of Zigflow, relating to architecture.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Claude Instructions (zigflow)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules",
+            "architecture"
+          ],
+          "reasoning": "The section defines how Claude should treat the project (agent_rules) and outlines core architectural priorities of the project (architecture).",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"architecture\"], \"reasoning\": \"The section defines how Claude should treat the project (agent_rules) and outlines core architectural priorities of the project (architecture).\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Claude Instructions (zigflow)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the design and priorities of the Zigflow module, which falls under the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the design and priorities of the Zigflow module, which falls under the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming convention",
+      "level": 2,
+      "char_count": 363,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Naming convention",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section primarily discusses naming conventions for the project, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section primarily discusses naming conventions for the project, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Naming convention",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly outlines naming conventions for the project, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly outlines naming conventions for the project, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Naming convention",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions for the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Core intent of the project",
+      "level": 2,
+      "char_count": 250,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Core intent of the project",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the core intent and design of the project, which relates to its overall structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the core intent and design of the project, which relates to its overall structure and architecture.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Core intent of the project",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes the system's core functionality and design principles, which relate to its architectural goals.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes the system's core functionality and design principles, which relate to its architectural goals.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Core intent of the project",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the core intent and design principles of the project, which falls under architecture, and also implies the system's structure, which falls under project_structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes the core intent and design principles of the project, which falls under architecture, and also implies the system's structure, which falls under project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Technology stack (authoritative)",
+      "level": 2,
+      "char_count": 421,
+      "voted_categories": [
+        "architecture",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Technology stack (authoritative)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the technology stack and constraints of the project, which relates to both the overall architecture and project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"This section describes the technology stack and constraints of the project, which relates to both the overall architecture and project structure.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Technology stack (authoritative)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"Lists specific technologies (arch",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"Lists specific technologies (architecture) with constraints on their usage (workflow_process).\""
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Technology stack (authoritative)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section lists the technologies used in the project and their specific implementations, which falls under project_structure; it also specifies the use of jq-style expressions, which can be considered a coding_style decision.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section lists the technologies used in the project and their specific implementations, which falls under project_structure; it also specifies the use of jq-style expressions, which can be considered a coding_style decision.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Architectural principles",
+      "level": 2,
+      "char_count": 329,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Architectural principles",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines fundamental design principles and guidelines that shape the overall structure and behavior of the system, which is the core concern of the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines fundamental design principles and guidelines that shape the overall structure and behavior of the system, which is the core concern of the architecture category.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Architectural principles",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines fundamental design principles guiding the system's structure and behavior, which is characteristic of architectural concerns.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines fundamental design principles guiding the system's structure and behavior, which is characteristic of architectural concerns.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Architectural principles",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines architectural principles such as treating workflow definitions as data, enforcing deterministic execution, and preferring explicit errors and validation.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines architectural principles such as treating workflow definitions as data, enforcing deterministic execution, and preferring explicit errors and validation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Workflow handling rules",
+      "level": 2,
+      "char_count": 425,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Workflow handling rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "This section primarily outlines rules for handling workflows, which relates to workflow processes, and also includes specific directives for Claude, fitting into agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"This section primarily outlines rules for handling workflows, which relates to workflow processes, and also includes specific directives for Claude, fitting into agent rules.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Workflow handling rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific workflow handling rules (workflow_process) that also imply architectural design decisions on validation and execution (architecture).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines specific workflow handling rules (workflow_process) that also imply architectural design decisions on validation and execution (architecture).\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Workflow handling rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines workflow handling rules, which fall under workflow_process, and also discusses the architecture of the system in terms of validation and runtime expressions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines workflow handling rules, which fall under workflow_process, and also discusses the architecture of the system in terms of validation and runtime expressions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Validation philosophy",
+      "level": 2,
+      "char_count": 293,
+      "voted_categories": [
+        "architecture",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Validation philosophy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines the design principles and guidelines for validation in the project, which relates to both architecture and coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"This section outlines the design principles and guidelines for validation in the project, which relates to both architecture and coding style.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Validation philosophy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section outlines design principles for validation, which is a fundamental aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section outlines design principles for validation, which is a fundamental aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Validation philosophy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section outlines coding style guidelines for validation and architectural principles for error handling.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section outlines coding style guidelines for validation and architectural principles for error handling.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Temporal-specific constraints",
+      "level": 2,
+      "char_count": 332,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Temporal-specific constraints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section outlines constraints on workflow code and activities, which relates to both workflow process and architecture.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section outlines constraints on workflow code and activities, which relates to both workflow process and architecture.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Temporal-specific constraints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines specific operational rules (workflow_process) that also imply architectural design decisions (architecture) for Temporal workflows.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines specific operational rules (workflow_process) that also imply architectural design decisions (architecture) for Temporal workflows.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Temporal-specific constraints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines workflow process rules and constraints, as well as architectural guidelines for activities and serialization.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines workflow process rules and constraints, as well as architectural guidelines for activities and serialization.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CLI & configuration behavior",
+      "level": 2,
+      "char_count": 276,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "CLI & configuration behavior",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses coding conventions and best practices for CLI flags and configuration behavior, which relates to coding style, and also touches on workflow process aspects such as validation and error handling.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses coding conventions and best practices for CLI flags and configuration behavior, which relates to coding style, and also touches on workflow process aspects such as validation and error handling.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "CLI & configuration behavior",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on explicit and safe coding practices (coding_style) for CLI interactions and defines how the workflow should behave in terms of validation and errors (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section focuses on explicit and safe coding practices (coding_style) for CLI interactions and defines how the workflow should behave in terms of validation and errors (workflow_process).\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "CLI & configuration behavior",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines for coding style in CLI flags and also outlines workflow process for error handling and validation.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines for coding style in CLI flags and also outlines workflow process for error handling and validation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code style & structure",
+      "level": 2,
+      "char_count": 1187,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Code style & structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses code style and structure guidelines, as well as testing and linting procedures, which belong to both coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses code style and structure guidelines, as well as testing and linting procedures, which belong to both coding_style and workflow_process categories.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Code style & structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily outlines coding conventions and style guidelines (coding_style), but also specifies testing and linting procedures as part of the development workflow (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines coding conventions and style guidelines (coding_style), but also specifies testing and linting procedures as part of the development workflow (workflow_process).\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Code style & structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on coding style, project structure, and workflow process, including naming conventions, function design, linting, and testing requirements.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on coding style, project structure, and workflow process, including naming conventions, function design, linting, and testing requirements.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation expectations",
+      "level": 2,
+      "char_count": 310,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation expectations",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines expectations for documentation, which is a key aspect of the workflow process in software development.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section outlines expectations for documentation, which is a key aspect of the workflow process in software development.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation expectations",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines guidelines for documentation, which relates to the workflow process of maintaining and contributing to the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines guidelines for documentation, which relates to the workflow process of maintaining and contributing to the project.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation expectations",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines documentation expectations, which pertain to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines documentation expectations, which pertain to project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Writing Style Rules",
+      "level": 2,
+      "char_count": 246,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Writing Style Rules",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific rules for writing style, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific rules for writing style, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Writing Style Rules",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific rules for writing style, which relates to formatting and conventions, falling under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific rules for writing style, which relates to formatting and conventions, falling under coding style guidelines.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Writing Style Rules",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on writing style, which is a part of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on writing style, which is a part of coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Creative scope & default assumptions",
+      "level": 2,
+      "char_count": 488,
+      "voted_categories": [
+        "agent_rules",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Creative scope & default assumptions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules",
+            "evolution_context"
+          ],
+          "reasoning": "This section outlines the default assumptions and creative scope for Claude, which pertains to agent rules, and also touches on the project's evolution context by considering backwards compatibility and cautious feature addition.",
+          "raw_response": "{\"categories\": [\"agent_rules\", \"evolution_context\"], \"reasoning\": \"This section outlines the default assumptions and creative scope for Claude, which pertains to agent rules, and also touches on the project's evolution context by considering backwards compatibility and cautious feature addition.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Creative scope & default assumptions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines the project's evolutionary approach (evolution_context) and directly instructs Claude's behavior (agent_rules).",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"agent_rules\"], \"reasoning\": \"The section outlines the project's evolutionary approach (evolution_context) and directly instructs Claude's behavior (agent_rules).\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Creative scope & default assumptions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "agent_rules"
+          ],
+          "reasoning": "The section outlines the role of the project as a workflow engine and provides guidelines for Claude's behavior in building or modifying functionality, which aligns with both architecture and agent_rules categories.",
+          "raw_response": "{\"categories\": [\"architecture\", \"agent_rules\"], \"reasoning\": \"The section outlines the role of the project as a workflow engine and provides guidelines for Claude's behavior in building or modifying functionality, which aligns with both architecture and agent_rules categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "When unsure",
+      "level": 2,
+      "char_count": 212,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "When unsure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section outlines guidelines for handling unclear situations, which relates to workflow process, and also touches on coding principles like correctness and determinism, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section outlines guidelines for handling unclear situations, which relates to workflow process, and also touches on coding principles like correctness and determinism, which falls under coding style.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "When unsure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines guidelines for handling uncertainty during development, which relates to workflow and decision-making processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines guidelines for handling uncertainty during development, which relates to workflow and decision-making processes.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "When unsure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidelines for handling unclear situations, which can be considered as part of workflow process, and also includes AI-specific directives for the agent, such as preferring correctness and determinism.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"agent_rules\"], \"reasoning\": \"The section provides guidelines for handling unclear situations, which can be considered as part of workflow process, and also includes AI-specific directives for the agent, such as preferring correctness and determinism.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation Drift & Behavioural Changes",
+      "level": 2,
+      "char_count": 1407,
+      "voted_categories": [
+        "workflow_process",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation Drift & Behavioural Changes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "evolution_context",
+            "agent_rules"
+          ],
+          "reasoning": "This section discusses the process of handling behavioural changes and documentation updates, which relates to workflow and evolution context, and also provides directives for Claude, fitting into agent rules.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"evolution_context\", \"agent_rules\"], \"reasoning\": \"This section discusses the process of handling behavioural changes and documentation updates, which relates to workflow and evolution context, and also provides directives for Claude, fitting into agent rules.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation Drift & Behavioural Changes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines procedural guidelines (workflow_process) for handling behavioural changes and documentation alignment, with references to architectural principles (architecture) as authoritative indicators for resolving discrepancies.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines procedural guidelines (workflow_process) for handling behavioural changes and documentation alignment, with references to architectural principles (architecture) as authoritative indicators for resolving discrepancies.\"}"
+        },
+        {
+          "repo": "zigflow/zigflow",
+          "section_heading": "Documentation Drift & Behavioural Changes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section outlines the process for handling changes in behavior and documentation, and discusses the role of tests and validation logic in determining intended behavior, which aligns with workflow process and architecture categories.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section outlines the process for handling changes in behavior and documentation, and discusses the role of tests and validation logic in determining intended behavior, which aligns with workflow process and architecture categories.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.3333333333333333,
+    "project_structure": 0.13333333333333333,
+    "workflow_process": 0.4666666666666667,
+    "architecture": 0.5333333333333333,
+    "evolution_context": 0.06666666666666667,
+    "agent_rules": 0.13333333333333333
+  },
+  "category_char_fraction": {
+    "coding_style": 0.3449030188128919,
+    "project_structure": 0.0978562053376112,
+    "workflow_process": 0.6050751057313694,
+    "architecture": 0.5505323027563074,
+    "evolution_context": 0.07116814933644451,
+    "agent_rules": 0.1175441155024063
+  }
+}

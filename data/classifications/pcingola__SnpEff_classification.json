@@ -1,0 +1,2264 @@
+{
+  "repo": "pcingola__SnpEff",
+  "full_name": "pcingola/SnpEff",
+  "n_sections": 27,
+  "n_chars": 8449,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "IMPORTANT: Documentation Policy",
+      "level": 2,
+      "char_count": 512,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "IMPORTANT: Documentation Policy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the documentation policy, which pertains to project structure by defining where different types of documentation should reside, and workflow process by guiding developers on what information should be included in this file.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section outlines the documentation policy, which pertains to project structure by defining where different types of documentation should reside, and workflow process by guiding developers on what information should be included in this file.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "IMPORTANT: Documentation Policy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section dictates where s",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section dictates where specific types of documentation should reside (project_structure) and outlines guidelines for developer actions (workflow_process).\""
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "IMPORTANT: Documentation Policy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the project structure by specifying where user-facing documentation should be placed and also describes the workflow process by stating that this file is only for developer guidance and not for user-facing documentation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines the project structure by specifying where user-facing documentation should be placed and also describes the workflow process by stating that this file is only for developer guidance and not for user-facing documentation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 286,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides a general overview of the project, including its purpose and documentation location, which relates to project structure, and also gives context about the project's functionality and history, touching on evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides a general overview of the project, including its purpose and documentation location, which relates to project structure, and also gives context about the project's functionality and history, touching on evolution context.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level project description and mentions the location of documentation source files, which relates to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level project description and mentions the location of documentation source files, which relates to how the project is organized.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall purpose and functionality of the project, and mentions the use of Java and VCF files, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall purpose and functionality of the project, and mentions the use of Java and VCF files, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build System",
+      "level": 2,
+      "char_count": 81,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build system and automation tools used in the project, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build system and automation tools used in the project, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Mention of build tool (Maven) relates to project structure, while automation tasks (BDS) imply workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Mention of build tool (Maven) relates to project structure, while automation tasks (BDS) imply workflow processes.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the build system (project_structure) and the tool used for automation tasks (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the build system (project_structure) and the tool used for automation tasks (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build SnpEff JAR with dependencies",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build SnpEff JAR with dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the build process, which falls under workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the build process, which falls under workflow and development procedures.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build SnpEff JAR with dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build SnpEff JAR with dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a build command, which falls under coding_style, and the process of building the JAR, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes a build command, which falls under coding_style, and the process of building the JAR, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running SnpEff",
+      "level": 3,
+      "char_count": 65,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Running SnpEff",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run SnpEff, which falls under workflow processes as it outlines a specific procedure for executing the tool.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run SnpEff, which falls under workflow processes as it outlines a specific procedure for executing the tool.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Running SnpEff",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific execution procedure for the tool, which relates to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific execution procedure for the tool, which relates to the workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Running SnpEff",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes how to run SnpEff, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes how to run SnpEff, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using the wrapper script",
+      "level": 1,
+      "char_count": 26,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Using the wrapper script",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to use a script, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to use a script, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Using the wrapper script",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes how to use a script with options, which relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes how to use a script with options, which relates to workflow and process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Using the wrapper script",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes how to use a script, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes how to use a script, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Direct JAR execution",
+      "level": 1,
+      "char_count": 105,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Direct JAR execution",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes how to execute a JAR file with specific Java options, which relates to coding style and execution conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes how to execute a JAR file with specific Java options, which relates to coding style and execution conventions.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Direct JAR execution",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes how to execute a key project file (JAR) with specific configuration, implying project setup or key file usage.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes how to execute a key project file (JAR) with specific configuration, implying project setup or key file usage.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Direct JAR execution",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project structure by providing the main class and how to execute the JAR file, and also includes coding style information with the Java command line options.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the project structure by providing the main class and how to execute the JAR file, and also includes coding style information with the Java command line options.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 43,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses testing requirements, which is a key aspect of workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses testing requirements, which is a key aspect of workflow processes.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing requirements, which is a key aspect of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes testing requirements, which is a key aspect of the workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of JUnit Jupiter for testing, which falls under workflow_process, and also mentions a specific coding style tool, JUnit 5, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes the use of JUnit Jupiter for testing, which falls under workflow_process, and also mentions a specific coding style tool, JUnit 5, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run specific test class",
+      "level": 1,
+      "char_count": 28,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run specific test class",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command to run tests, which falls under workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command to run tests, which falls under workflow and testing processes.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run specific test class",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running a test class, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running a test class, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run specific test class",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing workflow process using Maven.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing workflow process using Maven.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run BDS-based integration tests",
+      "level": 1,
+      "char_count": 261,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run BDS-based integration tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of running integration tests, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of running integration tests, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run BDS-based integration tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the location and types of test files, implying guidelines for testing within the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the location and types of test files, implying guidelines for testing within the workflow.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run BDS-based integration tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location of test files, which relates to project structure, and also outlines the process for running integration tests.",
+          "raw_response": "{\n  \"categories\": [\"workflow_process\", \"project_structure\"],\n  \"reasoning\": \"The section describes the location of test files, which relates to project structure, and also outlines the process for running integration tests.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Packages",
+      "level": 3,
+      "char_count": 985,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Core Packages",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the core packages and their roles in the project, indicating both the directory layout and module dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the core packages and their roles in the project, indicating both the directory layout and module dependencies.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Core Packages",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key packages and their roles, indicating both project organization (project_structure) and modular design (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key packages and their roles, indicating both project organization (project_structure) and modular design (architecture).\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Core Packages",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the main packages and their roles in the project, as well as the dependencies and relationships between them.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the main packages and their roles in the project, as well as the dependencies and relationships between them.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Command Line Structure",
+      "level": 3,
+      "char_count": 366,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Command Line Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the command line structure and dispatching to subcommand implementations, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the command line structure and dispatching to subcommand implementations, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Command Line Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the organizational structure of the command-line implementation within the repository, focusing on directory and class layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the organizational structure of the command-line implementation within the repository, focusing on directory and class layout.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Command Line Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure of the project's command line interface and the roles of its subcommands, which are implemented as classes in the project's codebase.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure of the project's command line interface and the roles of its subcommands, which are implemented as classes in the project's codebase.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration",
+      "level": 3,
+      "char_count": 354,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files for configuration management in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files for configuration management in the project.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location and organization of configuration files within the project directory.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location and organization of configuration files within the project directory.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location and naming conventions of configuration files, which falls under project_structure and coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location and naming conventions of configuration files, which falls under project_structure and coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Database Building",
+      "level": 2,
+      "char_count": 82,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Database Building",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory layout and key files involved in database building, as well as the orchestration process using BDS scripts.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory layout and key files involved in database building, as well as the orchestration process using BDS scripts.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Database Building",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a specific directory and file location (`src/bds/make.bds`) related to database building, which pertains to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a specific directory and file location (`src/bds/make.bds`) related to database building, which pertains to how the project is organized.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Database Building",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of database building scripts and their role in the project, which falls under project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of database building scripts and their role in the project, which falls under project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build a specific genome database (requires genome data in data/ directory)",
+      "level": 1,
+      "char_count": 43,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build a specific genome database (requires genome data in data/ directory)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command and step required to build a genome database, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command and step required to build a genome database, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build a specific genome database (requires genome data in data/ directory)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow step for building a genome database, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow step for building a genome database, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build a specific genome database (requires genome data in data/ directory)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for building a genome database, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for building a genome database, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Download pre-built database",
+      "level": 1,
+      "char_count": 207,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download pre-built database",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the expected directory layout and file structure for genome data.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the expected directory layout and file structure for genome data.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download pre-built database",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies expected directory structure and file locations for genome data.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies expected directory structure and file locations for genome data.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download pre-built database",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of genome data in the project structure and provides a command-line instruction, which is related to coding style.",
+          "raw_response": "{\n  \"categories\": [\"project_structure\", \"coding_style\"],\n  \"reasoning\": \"The section describes the location of genome data in the project structure and provides a command-line instruction, which is related to coding style.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Java Version",
+      "level": 2,
+      "char_count": 75,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Java Version",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section specifies a project requirement related to the compiler configuration in a key file, which is a aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section specifies a project requirement related to the compiler configuration in a key file, which is a aspect of project structure.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Java Version",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies a project requirement tied to a key file (pom.xml), relating to project setup and configuration.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies a project requirement tied to a key file (pom.xml), relating to project setup and configuration.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Java Version",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies the Java version, which is a coding style decision",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies the Java version, which is a coding style decision\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Design Patterns",
+      "level": 2,
+      "char_count": 421,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key Design Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes design patterns used in the implementation of SnpEff, which is a key aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes design patterns used in the implementation of SnpEff, which is a key aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key Design Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explicitly describes design patterns and their application to module roles and component interactions, which is central to architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes design patterns and their application to module roles and component interactions, which is central to architectural design.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key Design Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes design patterns and serialization methods used in the project, which are aspects of software architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes design patterns and serialization methods used in the project, which are aspects of software architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "BDS Automation (make.bds)",
+      "level": 2,
+      "char_count": 395,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "BDS Automation (make.bds)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the main entry point for development tasks and how to run it, which relates to workflow processes, and also mentions a specific file location, indicating project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the main entry point for development tasks and how to run it, which relates to workflow processes, and also mentions a specific file location, indicating project structure.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "BDS Automation (make.bds)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes a development workflow tool and its usage for various development tasks.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes a development workflow tool and its usage for various development tasks.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "BDS Automation (make.bds)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the main entry point for development tasks and how to run it, which falls under project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the main entry point for development tasks and how to run it, which falls under project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and test options",
+      "level": 3,
+      "char_count": 575,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build and test options",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines various build and test options, which falls under workflow processes such as testing requirements and CI/CD.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines various build and test options, which falls under workflow processes such as testing requirements and CI/CD.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build and test options",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and options for building, testing, and generating project artifacts, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and options for building, testing, and generating project artifacts, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build and test options",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes build and test options, which relate to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes build and test options, which relate to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Download options",
+      "level": 3,
+      "char_count": 800,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download options",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes download options for genome datasets, which relates to how the project is structured and where data is sourced.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes download options for genome datasets, which relates to how the project is structured and where data is sourced.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download options",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific download options for genome datasets, which relates to how project resources (in this case, data) are organized and accessed, falling under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific download options for genome datasets, which relates to how project resources (in this case, data) are organized and accessed, falling under project structure.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download options",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the available download options for different genome datasets, which is related to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the available download options for different genome datasets, which is related to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Upload options (S3)",
+      "level": 3,
+      "char_count": 299,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Upload options (S3)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes upload options and commands for storing data on S3, which relates to the workflow and deployment process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes upload options and commands for storing data on S3, which relates to the workflow and deployment process of the project.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Upload options (S3)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific upload options and commands, which relates to the workflow and process of managing and deploying resources (in this case, to S3).",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific upload options and commands, which relates to the workflow and process of managing and deploying resources (in this case, to S3).\" }"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Upload options (S3)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes specific commands for uploading different types of files to S3, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes specific commands for uploading different types of files to S3, which relates to project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "AWS/S3 configuration",
+      "level": 3,
+      "char_count": 281,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "AWS/S3 configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes configuration settings for AWS/S3, which relates to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes configuration settings for AWS/S3, which relates to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "AWS/S3 configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific configuration settings for AWS/S3, which relates to how project resources (in this case, databases and releases) are organized and accessed, falling under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific configuration settings for AWS/S3, which relates to how project resources (in this case, databases and releases) are organized and accessed, falling under project structure.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "AWS/S3 configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the configuration of AWS/S3, which is part of the project structure, and also includes naming conventions for the S3 bucket and paths, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the configuration of AWS/S3, which is part of the project structure, and also includes naming conventions for the S3 bucket and paths, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Ensembl/MANE/Flybase version options",
+      "level": 3,
+      "char_count": 608,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Ensembl/MANE/Flybase version options",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes configuration options for integrating with external databases and genome versions, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes configuration options for integrating with external databases and genome versions, which relates to project structure and architecture.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Ensembl/MANE/Flybase version options",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines configuration options for database versions and genome references, which relates to how the project's data/resources are structured and accessed.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines configuration options for database versions and genome references, which relates to how the project's data/resources are structured and accessed.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Ensembl/MANE/Flybase version options",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the configuration options for different database versions, which is related to the project's structure and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the configuration options for different database versions, which is related to the project's structure and dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key directories used by make.bds",
+      "level": 3,
+      "char_count": 276,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key directories used by make.bds",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files used by the project, which is a clear indicator of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files used by the project, which is a clear indicator of project structure.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key directories used by make.bds",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key directories and their purposes, describing the project's directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key directories and their purposes, describing the project's directory layout.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key directories used by make.bds",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the key directories used in the project, which is a component of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the key directories used in the project, which is a component of project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Companion Tool: SnpSift",
+      "level": 2,
+      "char_count": 172,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Companion Tool: SnpSift",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the repository's relationship with another tool and the build process, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the repository's relationship with another tool and the build process, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Companion Tool: SnpSift",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Mentions build script location and tool distribution, implying project layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Mentions build script location and tool distribution, implying project layout and key files.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Companion Tool: SnpSift",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the relationship between two tools, SnpEff and SnpSift, and their distribution, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the relationship between two tools, SnpEff and SnpSift, and their distribution, which relates to project structure and architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "IMPORTANT: Documentation Policy",
+      "level": 2,
+      "char_count": 512,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "IMPORTANT: Documentation Policy",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section outlines the documentation policy, which pertains to project structure by defining where different types of documentation should reside, and workflow process by guiding developers on what information should be included in this file.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section outlines the documentation policy, which pertains to project structure by defining where different types of documentation should reside, and workflow process by guiding developers on what information should be included in this file.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "IMPORTANT: Documentation Policy",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section dictates where s",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section dictates where specific types of documentation should reside (project_structure) and outlines guidelines for developer actions (workflow_process).\""
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "IMPORTANT: Documentation Policy",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines the project structure by specifying where user-facing documentation should be placed and also describes the workflow process by stating that this file is only for developer guidance and not for user-facing documentation.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section outlines the project structure by specifying where user-facing documentation should be placed and also describes the workflow process by stating that this file is only for developer guidance and not for user-facing documentation.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 286,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides a general overview of the project, including its purpose and documentation location, which relates to project structure, and also gives context about the project's functionality and history, touching on evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides a general overview of the project, including its purpose and documentation location, which relates to project structure, and also gives context about the project's functionality and history, touching on evolution context.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level project description and mentions the location of documentation source files, which relates to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level project description and mentions the location of documentation source files, which relates to how the project is organized.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall purpose and functionality of the project, and mentions the use of Java and VCF files, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall purpose and functionality of the project, and mentions the use of Java and VCF files, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build System",
+      "level": 2,
+      "char_count": 81,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build system and automation tools used in the project, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build system and automation tools used in the project, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Mention of build tool (Maven) relates to project structure, while automation tasks (BDS) imply workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Mention of build tool (Maven) relates to project structure, while automation tasks (BDS) imply workflow processes.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the build system (project_structure) and the tool used for automation tasks (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the build system (project_structure) and the tool used for automation tasks (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build SnpEff JAR with dependencies",
+      "level": 1,
+      "char_count": 41,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build SnpEff JAR with dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the build process, which falls under workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the build process, which falls under workflow and development procedures.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build SnpEff JAR with dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific build command, which is part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific build command, which is part of the development workflow.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build SnpEff JAR with dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a build command, which falls under coding_style, and the process of building the JAR, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes a build command, which falls under coding_style, and the process of building the JAR, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Running SnpEff",
+      "level": 3,
+      "char_count": 65,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Running SnpEff",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run SnpEff, which falls under workflow processes as it outlines a specific procedure for executing the tool.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run SnpEff, which falls under workflow processes as it outlines a specific procedure for executing the tool.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Running SnpEff",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific execution procedure for the tool, which relates to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific execution procedure for the tool, which relates to the workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Running SnpEff",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes how to run SnpEff, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes how to run SnpEff, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Using the wrapper script",
+      "level": 1,
+      "char_count": 26,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Using the wrapper script",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to use a script, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to use a script, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Using the wrapper script",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes how to use a script with options, which relates to workflow and process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes how to use a script with options, which relates to workflow and process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Using the wrapper script",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes how to use a script, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes how to use a script, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Direct JAR execution",
+      "level": 1,
+      "char_count": 105,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Direct JAR execution",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes how to execute a JAR file with specific Java options, which relates to coding style and execution conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes how to execute a JAR file with specific Java options, which relates to coding style and execution conventions.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Direct JAR execution",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes how to execute a key project file (JAR) with specific configuration, implying project setup or key file usage.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes how to execute a key project file (JAR) with specific configuration, implying project setup or key file usage.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Direct JAR execution",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the project structure by providing the main class and how to execute the JAR file, and also includes coding style information with the Java command line options.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the project structure by providing the main class and how to execute the JAR file, and also includes coding style information with the Java command line options.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 43,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses testing requirements, which is a key aspect of workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section discusses testing requirements, which is a key aspect of workflow processes.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing requirements, which is a key aspect of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes testing requirements, which is a key aspect of the workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of JUnit Jupiter for testing, which falls under workflow_process, and also mentions a specific coding style tool, JUnit 5, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes the use of JUnit Jupiter for testing, which falls under workflow_process, and also mentions a specific coding style tool, JUnit 5, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run specific test class",
+      "level": 1,
+      "char_count": 28,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run specific test class",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command to run tests, which falls under workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command to run tests, which falls under workflow and testing processes.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run specific test class",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running a test class, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running a test class, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run specific test class",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing workflow process using Maven.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing workflow process using Maven.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run BDS-based integration tests",
+      "level": 1,
+      "char_count": 261,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run BDS-based integration tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of running integration tests, which falls under workflow and testing procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of running integration tests, which falls under workflow and testing procedures.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run BDS-based integration tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the location and types of test files, implying guidelines for testing within the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the location and types of test files, implying guidelines for testing within the workflow.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Run BDS-based integration tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location of test files, which relates to project structure, and also outlines the process for running integration tests.",
+          "raw_response": "{\n  \"categories\": [\"workflow_process\", \"project_structure\"],\n  \"reasoning\": \"The section describes the location of test files, which relates to project structure, and also outlines the process for running integration tests.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Core Packages",
+      "level": 3,
+      "char_count": 985,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Core Packages",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the core packages and their roles in the project, indicating both the directory layout and module dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the core packages and their roles in the project, indicating both the directory layout and module dependencies.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Core Packages",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key packages and their roles, indicating both project organization (project_structure) and modular design (architecture).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key packages and their roles, indicating both project organization (project_structure) and modular design (architecture).\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Core Packages",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the main packages and their roles in the project, as well as the dependencies and relationships between them.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the main packages and their roles in the project, as well as the dependencies and relationships between them.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Command Line Structure",
+      "level": 3,
+      "char_count": 366,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Command Line Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the command line structure and dispatching to subcommand implementations, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the command line structure and dispatching to subcommand implementations, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Command Line Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the organizational structure of the command-line implementation within the repository, focusing on directory and class layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the organizational structure of the command-line implementation within the repository, focusing on directory and class layout.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Command Line Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the structure of the project's command line interface and the roles of its subcommands, which are implemented as classes in the project's codebase.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the structure of the project's command line interface and the roles of its subcommands, which are implemented as classes in the project's codebase.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration",
+      "level": 3,
+      "char_count": 354,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files for configuration management in the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files for configuration management in the project.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the location and organization of configuration files within the project directory.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the location and organization of configuration files within the project directory.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location and naming conventions of configuration files, which falls under project_structure and coding_style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location and naming conventions of configuration files, which falls under project_structure and coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Database Building",
+      "level": 2,
+      "char_count": 82,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Database Building",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the directory layout and key files involved in database building, as well as the orchestration process using BDS scripts.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the directory layout and key files involved in database building, as well as the orchestration process using BDS scripts.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Database Building",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes a specific directory and file location (`src/bds/make.bds`) related to database building, which pertains to how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes a specific directory and file location (`src/bds/make.bds`) related to database building, which pertains to how the project is organized.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Database Building",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the location of database building scripts and their role in the project, which falls under project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the location of database building scripts and their role in the project, which falls under project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build a specific genome database (requires genome data in data/ directory)",
+      "level": 1,
+      "char_count": 43,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build a specific genome database (requires genome data in data/ directory)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific command and step required to build a genome database, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific command and step required to build a genome database, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build a specific genome database (requires genome data in data/ directory)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command-line workflow step for building a genome database, which relates to the project's workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command-line workflow step for building a genome database, which relates to the project's workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build a specific genome database (requires genome data in data/ directory)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for building a genome database, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for building a genome database, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Download pre-built database",
+      "level": 1,
+      "char_count": 207,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download pre-built database",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the expected directory layout and file structure for genome data.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the expected directory layout and file structure for genome data.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download pre-built database",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies expected directory structure and file locations for genome data.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies expected directory structure and file locations for genome data.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download pre-built database",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of genome data in the project structure and provides a command-line instruction, which is related to coding style.",
+          "raw_response": "{\n  \"categories\": [\"project_structure\", \"coding_style\"],\n  \"reasoning\": \"The section describes the location of genome data in the project structure and provides a command-line instruction, which is related to coding style.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Java Version",
+      "level": 2,
+      "char_count": 75,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Java Version",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section specifies a project requirement related to the compiler configuration in a key file, which is a aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section specifies a project requirement related to the compiler configuration in a key file, which is a aspect of project structure.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Java Version",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Specifies a project requirement tied to a key file (pom.xml), relating to project setup and configuration.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Specifies a project requirement tied to a key file (pom.xml), relating to project setup and configuration.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Java Version",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies the Java version, which is a coding style decision",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies the Java version, which is a coding style decision\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Design Patterns",
+      "level": 2,
+      "char_count": 421,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key Design Patterns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes design patterns used in the implementation of SnpEff, which is a key aspect of the system's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes design patterns used in the implementation of SnpEff, which is a key aspect of the system's architecture.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key Design Patterns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explicitly describes design patterns and their application to module roles and component interactions, which is central to architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explicitly describes design patterns and their application to module roles and component interactions, which is central to architectural design.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key Design Patterns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes design patterns and serialization methods used in the project, which are aspects of software architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes design patterns and serialization methods used in the project, which are aspects of software architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "BDS Automation (make.bds)",
+      "level": 2,
+      "char_count": 395,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "BDS Automation (make.bds)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the main entry point for development tasks and how to run it, which relates to workflow processes, and also mentions a specific file location, indicating project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes the main entry point for development tasks and how to run it, which relates to workflow processes, and also mentions a specific file location, indicating project structure.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "BDS Automation (make.bds)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes a development workflow tool and its usage for various development tasks.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes a development workflow tool and its usage for various development tasks.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "BDS Automation (make.bds)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the main entry point for development tasks and how to run it, which falls under project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the main entry point for development tasks and how to run it, which falls under project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and test options",
+      "level": 3,
+      "char_count": 575,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build and test options",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines various build and test options, which falls under workflow processes such as testing requirements and CI/CD.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines various build and test options, which falls under workflow processes such as testing requirements and CI/CD.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build and test options",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and options for building, testing, and generating project artifacts, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and options for building, testing, and generating project artifacts, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Build and test options",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes build and test options, which relate to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes build and test options, which relate to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Download options",
+      "level": 3,
+      "char_count": 800,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download options",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes download options for genome datasets, which relates to how the project is structured and where data is sourced.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes download options for genome datasets, which relates to how the project is structured and where data is sourced.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download options",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific download options for genome datasets, which relates to how project resources (in this case, data) are organized and accessed, falling under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific download options for genome datasets, which relates to how project resources (in this case, data) are organized and accessed, falling under project structure.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Download options",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the available download options for different genome datasets, which is related to the project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the available download options for different genome datasets, which is related to the project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Upload options (S3)",
+      "level": 3,
+      "char_count": 299,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Upload options (S3)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes upload options and commands for storing data on S3, which relates to the workflow and deployment process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes upload options and commands for storing data on S3, which relates to the workflow and deployment process of the project.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Upload options (S3)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific upload options and commands, which relates to the workflow and process of managing and deploying resources (in this case, to S3).",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific upload options and commands, which relates to the workflow and process of managing and deploying resources (in this case, to S3).\" }"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Upload options (S3)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes specific commands for uploading different types of files to S3, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes specific commands for uploading different types of files to S3, which relates to project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "AWS/S3 configuration",
+      "level": 3,
+      "char_count": 281,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "AWS/S3 configuration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes configuration settings for AWS/S3, which relates to the project's directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes configuration settings for AWS/S3, which relates to the project's directory layout and key files.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "AWS/S3 configuration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific configuration settings for AWS/S3, which relates to how project resources (in this case, databases and releases) are organized and accessed, falling under project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific configuration settings for AWS/S3, which relates to how project resources (in this case, databases and releases) are organized and accessed, falling under project structure.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "AWS/S3 configuration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the configuration of AWS/S3, which is part of the project structure, and also includes naming conventions for the S3 bucket and paths, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the configuration of AWS/S3, which is part of the project structure, and also includes naming conventions for the S3 bucket and paths, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Ensembl/MANE/Flybase version options",
+      "level": 3,
+      "char_count": 608,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Ensembl/MANE/Flybase version options",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes configuration options for integrating with external databases and genome versions, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes configuration options for integrating with external databases and genome versions, which relates to project structure and architecture.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Ensembl/MANE/Flybase version options",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines configuration options for database versions and genome references, which relates to how the project's data/resources are structured and accessed.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines configuration options for database versions and genome references, which relates to how the project's data/resources are structured and accessed.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Ensembl/MANE/Flybase version options",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the configuration options for different database versions, which is related to the project's structure and dependencies.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the configuration options for different database versions, which is related to the project's structure and dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key directories used by make.bds",
+      "level": 3,
+      "char_count": 276,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key directories used by make.bds",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files used by the project, which is a clear indicator of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files used by the project, which is a clear indicator of project structure.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key directories used by make.bds",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists key directories and their purposes, describing the project's directory layout.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists key directories and their purposes, describing the project's directory layout.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Key directories used by make.bds",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the key directories used in the project, which is a component of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the key directories used in the project, which is a component of project structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Companion Tool: SnpSift",
+      "level": 2,
+      "char_count": 172,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Companion Tool: SnpSift",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the repository's relationship with another tool and the build process, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the repository's relationship with another tool and the build process, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Companion Tool: SnpSift",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Mentions build script location and tool distribution, implying project layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Mentions build script location and tool distribution, implying project layout and key files.\"}"
+        },
+        {
+          "repo": "pcingola/SnpEff",
+          "section_heading": "Companion Tool: SnpSift",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the relationship between two tools, SnpEff and SnpSift, and their distribution, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the relationship between two tools, SnpEff and SnpSift, and their distribution, which relates to project structure and architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.037037037037037035,
+    "project_structure": 0.5925925925925926,
+    "workflow_process": 0.4444444444444444,
+    "architecture": 0.1111111111111111,
+    "evolution_context": 0.0,
+    "agent_rules": 0.037037037037037035
+  },
+  "category_char_fraction": {
+    "coding_style": 0.014020563493123247,
+    "project_structure": 0.7457604486580318,
+    "workflow_process": 0.31633061824008546,
+    "architecture": 0.23661370009347044,
+    "evolution_context": 0.0,
+    "agent_rules": 0.013619975964748298
+  }
+}

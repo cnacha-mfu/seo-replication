@@ -1,0 +1,1724 @@
+{
+  "repo": "saleor__macaw-ui",
+  "full_name": "saleor/macaw-ui",
+  "n_sections": 20,
+  "n_chars": 4941,
+  "sections": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 285,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project's purpose and technology stack, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project's purpose and technology stack, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the project's purpose and key technologies, implying its place in the overall project structure and architectural choices.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the project's purpose and key technologies, implying its place in the overall project structure and architectural choices.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose, its focus on specific types of interfaces, and the use of specific libraries for styling and component foundations.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose, its focus on specific types of interfaces, and the use of specific libraries for styling and component foundations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development",
+      "level": 3,
+      "char_count": 196,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes development commands and scripts, which falls under workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes development commands and scripts, which falls under workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for development workflows, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for development workflows, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes development commands, which fall under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes development commands, which fall under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing & Quality",
+      "level": 3,
+      "char_count": 175,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing & Quality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing and quality assurance processes, including commands for running tests, type checking, and linting, which relate to both workflow and coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing and quality assurance processes, including commands for running tests, type checking, and linting, which relate to both workflow and coding style.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing & Quality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for testing, type checking, and linting, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for testing, type checking, and linting, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing & Quality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes commands for running tests, type checking, and linting, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes commands for running tests, type checking, and linting, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building",
+      "level": 3,
+      "char_count": 203,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Building",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build commands and scripts, which falls under workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build commands and scripts, which falls under workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Building",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific build commands and their purposes, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific build commands and their purposes, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Building",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific build commands and their purposes, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific build commands and their purposes, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Changesets (Version Management)",
+      "level": 3,
+      "char_count": 75,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Changesets (Version Management)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of managing changesets, which is related to the workflow and version control process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of managing changesets, which is related to the workflow and version control process.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Changesets (Version Management)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for managing changesets, which relates to version control workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for managing changesets, which relates to version control workflow.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Changesets (Version Management)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for managing changesets, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for managing changesets, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Styling System",
+      "level": 3,
+      "char_count": 490,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the styling system, which relates to coding style, and also mentions specific file locations and component implementations, which pertains to project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the styling system, which relates to coding style, and also mentions specific file locations and component implementations, which pertains to project structure.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses coding conventions for styling (coding_style) and specifies file locations within the project (project_structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses coding conventions for styling (coding_style) and specifies file locations within the project (project_structure).\"}\n\n**Rationale Breakdown:**\n\n* **coding_style**: \n  - The section outlines specific styling approaches (Vanilla Extract, Sprinkles) which relate to coding conventions for styling, hence fitting the `coding_style` category.\n  - Mention of type-safe CSS-in-TypeScript also pertains to coding style preferences.\n\n* **project_structure**: \n  - The specification of exact file locations for different styling components (e.g., `src/theme/sprinkles.css.ts`, `src/components/Box`) indicates how the project is structured, aligning with the `project_structure` category.\n\n* **Why not others?**\n  - **workflow_process**, **architecture**, **evolution_context**, and **agent_rules** are not dominant here because the focus is on styling implementation details and their locations, not on workflow, architectural design, project evolution, or AI agent directives."
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the styling system used in the project, which includes coding style conventions and project structure details such as file locations and component hierarchy.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the styling system used in the project, which includes coding style conventions and project structure details such as file locations and component hierarchy.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Theming",
+      "level": 3,
+      "char_count": 399,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Theming",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses theming, which relates to coding style due to the use of CSS variables and theme consistency, and also touches on project structure by mentioning specific files and directories like `src/theme/themes/`.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses theming, which relates to coding style due to the use of CSS variables and theme consistency, and also touches on project structure by mentioning specific files and directories like `src/theme/themes/`.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Theming",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses coding conventions (theming best practices, CSS variable usage) and references specific project directories (src/theme/themes/), aligning with both coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses coding conventions (theming best practices, CSS variable usage) and references specific project directories (src/theme/themes/), aligning with both coding_style and project_structure categories.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Theming",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of built-in themes in the project structure and provides guidelines for using CSS variables and theme context, which are coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location of built-in themes in the project structure and provides guidelines for using CSS variables and theme context, which are coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Component Structure",
+      "level": 3,
+      "char_count": 565,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the directory layout and file organization of components, as well as coding conventions for component implementation and styling.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the directory layout and file organization of components, as well as coding conventions for component implementation and styling.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes both the directory layout and file structure (project_structure) and specific implementation details like styling and component extension patterns (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes both the directory layout and file structure (project_structure) and specific implementation details like styling and component extension patterns (coding_style).\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and file structure of components, coding style for component implementation and styling, and the use of Radix UI primitives and sprinkles styling props for component architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and file structure of components, coding style for component implementation and styling, and the use of Radix UI primitives and sprinkles styling props for component architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Path Aliases",
+      "level": 3,
+      "char_count": 126,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Path Aliases",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses import order and directory layout conventions, which relate to both coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses import order and directory layout conventions, which relate to both coding style and project structure.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Path Aliases",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses import con",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses import conventions (coding_style) and project directory resolution (project_structure).\""
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Path Aliases",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a naming convention for internal imports and the directory layout for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes a naming convention for internal imports and the directory layout for the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Import Order (ESLint enforced)",
+      "level": 3,
+      "char_count": 149,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Import Order (ESLint enforced)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes the import order, which is a coding style convention enforced by ESLint.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes the import order, which is a coding style convention enforced by ESLint.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Import Order (ESLint enforced)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a specific rule for organizing import statements, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines a specific rule for organizing import statements, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Import Order (ESLint enforced)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for import order, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for import order, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "TypeScript",
+      "level": 3,
+      "char_count": 150,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "TypeScript",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on TypeScript configuration and coding conventions, such as strict mode and target ES version, which are characteristic of coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on TypeScript configuration and coding conventions, such as strict mode and target ES version, which are characteristic of coding style guidelines.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "TypeScript",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific TypeScript configuration and usage conventions, which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific TypeScript configuration and usage conventions, which pertain to coding style.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "TypeScript",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses TypeScript configuration and component usage conventions, which fall under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses TypeScript configuration and component usage conventions, which fall under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Styling",
+      "level": 3,
+      "char_count": 230,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, formatting, and code style tools, such as using Vanilla Extract recipes and avoiding inline styles.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, formatting, and code style tools, such as using Vanilla Extract recipes and avoiding inline styles.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, formatting, and linting rules related to styling.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, formatting, and linting rules related to styling.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using Vanilla Extract recipes, avoiding inline styles, and disallowing console statements, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using Vanilla Extract recipes, avoiding inline styles, and disallowing console statements, which are all related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 161,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses testing requirements and setup, which relates to workflow_process, and also touches on coding_style by mentioning a specific testing environment and setup file.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses testing requirements and setup, which relates to workflow_process, and also touches on coding_style by mentioning a specific testing environment and setup file.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing tools and the requirement to run tests before committing, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing tools and the requirement to run tests before committing, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing tools and setup (coding_style) and a requirement to run tests before committing (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes testing tools and setup (coding_style) and a requirement to run tests before committing (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dessert Box",
+      "level": 3,
+      "char_count": 180,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dessert Box",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific coding pattern and library usage, which relates to coding style, and also touches on component composition, which is an architectural concern.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes a specific coding pattern and library usage, which relates to coding style, and also touches on component composition, which is an architectural concern.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dessert Box",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a design pattern for component composition using a specific library.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a design pattern for component composition using a specific library.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dessert Box",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes the use of a specific library and coding pattern for component composition, which falls under coding_style and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes the use of a specific library and coding pattern for component composition, which falls under coding_style and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Component Registration",
+      "level": 3,
+      "char_count": 146,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Registration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the directory layout and import structure of the project, while also implying a naming convention for components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the directory layout and import structure of the project, while also implying a naming convention for components.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Registration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes a key file and import structure, indicating how components are organized and accessed within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes a key file and import structure, indicating how components are organized and accessed within the project.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Registration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the directory layout for components and a single import point, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the directory layout for components and a single import point, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Storybook",
+      "level": 3,
+      "char_count": 183,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Storybook",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the development environment and coding practices for a specific tool, Storybook, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the development environment and coding practices for a specific tool, Storybook, which relates to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Storybook",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a key development tool's integration (Storybook) and its configuration (TS rules override), relating to both project setup and coding conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes a key development tool's integration (Storybook) and its configuration (TS rules override), relating to both project setup and coding conventions.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Storybook",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a primary development environment and the location of component stories, which relates to project structure, and also mentions TypeScript rules and ESLint overrides, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes a primary development environment and the location of component stories, which relates to project structure, and also mentions TypeScript rules and ESLint overrides, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies Notes",
+      "level": 2,
+      "char_count": 175,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dependencies Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the dependencies required for the project, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the dependencies required for the project, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dependencies Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific technical requirements and tools for the project, which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific technical requirements and tools for the project, which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dependencies Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section specifies coding style requirements (React 16.8+, Node 20 or 22) and project structure details (pnpm as package manager, lucide-react as optional peer dependency).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section specifies coding style requirements (React 16.8+, Node 20 or 22) and project structure details (pnpm as package manager, lucide-react as optional peer dependency).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pre-commit Hooks",
+      "level": 2,
+      "char_count": 147,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Pre-commit Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses pre-commit hooks that enforce coding style with linting and formatting tools, and also relates to the workflow process by ensuring code quality before committing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses pre-commit hooks that enforce coding style with linting and formatting tools, and also relates to the workflow process by ensuring code quality before committing.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Pre-commit Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses code formatting tools (coding_style) and a pre-commit check (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses code formatting tools (coding_style) and a pre-commit check (workflow_process).\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Pre-commit Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the use of Husky and lint-staged for enforcing coding style and formatting, and it is part of the workflow process for committing code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes the use of Husky and lint-staged for enforcing coding style and formatting, and it is part of the workflow process for committing code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Publishing Flow",
+      "level": 2,
+      "char_count": 132,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Publishing Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps involved in publishing changes, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps involved in publishing changes, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Publishing Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for managing publishing, which directly relates to workflow and CI/CD practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for managing publishing, which directly relates to workflow and CI/CD practices.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Publishing Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for managing changes, documenting changes, and publishing to npm, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for managing changes, documenting changes, and publishing to npm, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "ADRs (Architecture Decision Records)",
+      "level": 2,
+      "char_count": 216,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "ADRs (Architecture Decision Records)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section is classified as architecture because it discusses key architectural decisions and design choices for the MacawUI project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section is classified as architecture because it discusses key architectural decisions and design choices for the MacawUI project.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "ADRs (Architecture Decision Records)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section contains Architecture Decision Records (ADRs) which directly relate to architectural design (architecture) and provide historical context on project decisions (evolution_context).",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section contains Architecture Decision Records (ADRs) which directly relate to architectural design (architecture) and provide historical context on project decisions (evolution_context).\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "ADRs (Architecture Decision Records)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes architectural decisions and their locations within the project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes architectural decisions and their locations within the project structure.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 285,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section provides an overview of the project's purpose and technology stack, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section provides an overview of the project's purpose and technology stack, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Describes the project's purpose and key technologies, implying its place in the overall project structure and architectural choices.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Describes the project's purpose and key technologies, implying its place in the overall project structure and architectural choices.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose, its focus on specific types of interfaces, and the use of specific libraries for styling and component foundations.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose, its focus on specific types of interfaces, and the use of specific libraries for styling and component foundations.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development",
+      "level": 3,
+      "char_count": 196,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes development commands and scripts, which falls under workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes development commands and scripts, which falls under workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for development workflows, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for development workflows, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes development commands, which fall under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes development commands, which fall under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing & Quality",
+      "level": 3,
+      "char_count": 175,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing & Quality",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily describes testing and quality assurance processes, including commands for running tests, type checking, and linting, which relate to both workflow and coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily describes testing and quality assurance processes, including commands for running tests, type checking, and linting, which relate to both workflow and coding style.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing & Quality",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for testing, type checking, and linting, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for testing, type checking, and linting, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing & Quality",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes commands for running tests, type checking, and linting, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes commands for running tests, type checking, and linting, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Building",
+      "level": 3,
+      "char_count": 203,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Building",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build commands and scripts, which falls under workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build commands and scripts, which falls under workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Building",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific build commands and their purposes, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific build commands and their purposes, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Building",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific build commands and their purposes, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific build commands and their purposes, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Changesets (Version Management)",
+      "level": 3,
+      "char_count": 75,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Changesets (Version Management)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the process of managing changesets, which is related to the workflow and version control process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the process of managing changesets, which is related to the workflow and version control process.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Changesets (Version Management)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for managing changesets, which relates to version control workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for managing changesets, which relates to version control workflow.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Changesets (Version Management)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for managing changesets, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for managing changesets, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Styling System",
+      "level": 3,
+      "char_count": 490,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the styling system, which relates to coding style, and also mentions specific file locations and component implementations, which pertains to project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the styling system, which relates to coding style, and also mentions specific file locations and component implementations, which pertains to project structure.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses coding conventions for styling (coding_style) and specifies file locations within the project (project_structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses coding conventions for styling (coding_style) and specifies file locations within the project (project_structure).\"}\n\n**Rationale Breakdown:**\n\n* **coding_style**: \n  - The section outlines specific styling approaches (Vanilla Extract, Sprinkles) which relate to coding conventions for styling, hence fitting the `coding_style` category.\n  - Mention of type-safe CSS-in-TypeScript also pertains to coding style preferences.\n\n* **project_structure**: \n  - The specification of exact file locations for different styling components (e.g., `src/theme/sprinkles.css.ts`, `src/components/Box`) indicates how the project is structured, aligning with the `project_structure` category.\n\n* **Why not others?**\n  - **workflow_process**, **architecture**, **evolution_context**, and **agent_rules** are not dominant here because the focus is on styling implementation details and their locations, not on workflow, architectural design, project evolution, or AI agent directives."
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes the styling system used in the project, which includes coding style conventions and project structure details such as file locations and component hierarchy.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes the styling system used in the project, which includes coding style conventions and project structure details such as file locations and component hierarchy.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Theming",
+      "level": 3,
+      "char_count": 399,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Theming",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses theming, which relates to coding style due to the use of CSS variables and theme consistency, and also touches on project structure by mentioning specific files and directories like `src/theme/themes/`.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses theming, which relates to coding style due to the use of CSS variables and theme consistency, and also touches on project structure by mentioning specific files and directories like `src/theme/themes/`.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Theming",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section discusses coding conventions (theming best practices, CSS variable usage) and references specific project directories (src/theme/themes/), aligning with both coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses coding conventions (theming best practices, CSS variable usage) and references specific project directories (src/theme/themes/), aligning with both coding_style and project_structure categories.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Theming",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the location of built-in themes in the project structure and provides guidelines for using CSS variables and theme context, which are coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the location of built-in themes in the project structure and provides guidelines for using CSS variables and theme context, which are coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Component Structure",
+      "level": 3,
+      "char_count": 565,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the directory layout and file organization of components, as well as coding conventions for component implementation and styling.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the directory layout and file organization of components, as well as coding conventions for component implementation and styling.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes both the directory layout and file structure (project_structure) and specific implementation details like styling and component extension patterns (coding_style).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes both the directory layout and file structure (project_structure) and specific implementation details like styling and component extension patterns (coding_style).\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section describes the directory layout and file structure of components, coding style for component implementation and styling, and the use of Radix UI primitives and sprinkles styling props for component architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"architecture\"], \"reasoning\": \"The section describes the directory layout and file structure of components, coding style for component implementation and styling, and the use of Radix UI primitives and sprinkles styling props for component architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Path Aliases",
+      "level": 3,
+      "char_count": 126,
+      "voted_categories": [
+        "coding_style",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Path Aliases",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses import order and directory layout conventions, which relate to both coding style and project structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section discusses import order and directory layout conventions, which relate to both coding style and project structure.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Path Aliases",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses import con",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section discusses import conventions (coding_style) and project directory resolution (project_structure).\""
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Path Aliases",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes a naming convention for internal imports and the directory layout for the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes a naming convention for internal imports and the directory layout for the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Import Order (ESLint enforced)",
+      "level": 3,
+      "char_count": 149,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Import Order (ESLint enforced)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes the import order, which is a coding style convention enforced by ESLint.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes the import order, which is a coding style convention enforced by ESLint.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Import Order (ESLint enforced)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines a specific rule for organizing import statements, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines a specific rule for organizing import statements, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Import Order (ESLint enforced)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for import order, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for import order, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "TypeScript",
+      "level": 3,
+      "char_count": 150,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "TypeScript",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on TypeScript configuration and coding conventions, such as strict mode and target ES version, which are characteristic of coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on TypeScript configuration and coding conventions, such as strict mode and target ES version, which are characteristic of coding style guidelines.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "TypeScript",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific TypeScript configuration and usage conventions, which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific TypeScript configuration and usage conventions, which pertain to coding style.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "TypeScript",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses TypeScript configuration and component usage conventions, which fall under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses TypeScript configuration and component usage conventions, which fall under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Styling",
+      "level": 3,
+      "char_count": 230,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, formatting, and code style tools, such as using Vanilla Extract recipes and avoiding inline styles.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, formatting, and code style tools, such as using Vanilla Extract recipes and avoiding inline styles.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions, formatting, and linting rules related to styling.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions, formatting, and linting rules related to styling.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Styling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using Vanilla Extract recipes, avoiding inline styles, and disallowing console statements, which are all related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using Vanilla Extract recipes, avoiding inline styles, and disallowing console statements, which are all related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 161,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section discusses testing requirements and setup, which relates to workflow_process, and also touches on coding_style by mentioning a specific testing environment and setup file.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section discusses testing requirements and setup, which relates to workflow_process, and also touches on coding_style by mentioning a specific testing environment and setup file.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines testing tools and the requirement to run tests before committing, which pertains to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines testing tools and the requirement to run tests before committing, which pertains to workflow processes.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing tools and setup (coding_style) and a requirement to run tests before committing (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes testing tools and setup (coding_style) and a requirement to run tests before committing (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dessert Box",
+      "level": 3,
+      "char_count": 180,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dessert Box",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes a specific coding pattern and library usage, which relates to coding style, and also touches on component composition, which is an architectural concern.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes a specific coding pattern and library usage, which relates to coding style, and also touches on component composition, which is an architectural concern.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dessert Box",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a design pattern for component composition using a specific library.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a design pattern for component composition using a specific library.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dessert Box",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section describes the use of a specific library and coding pattern for component composition, which falls under coding_style and architecture categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section describes the use of a specific library and coding pattern for component composition, which falls under coding_style and architecture categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Component Registration",
+      "level": 3,
+      "char_count": 146,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Registration",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the directory layout and import structure of the project, while also implying a naming convention for components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the directory layout and import structure of the project, while also implying a naming convention for components.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Registration",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Describes a key file and import structure, indicating how components are organized and accessed within the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Describes a key file and import structure, indicating how components are organized and accessed within the project.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Component Registration",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the directory layout for components and a single import point, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes the directory layout for components and a single import point, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Storybook",
+      "level": 3,
+      "char_count": 183,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Storybook",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the development environment and coding practices for a specific tool, Storybook, which relates to both project structure and coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes the development environment and coding practices for a specific tool, Storybook, which relates to both project structure and coding style.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Storybook",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a key development tool's integration (Storybook) and its configuration (TS rules override), relating to both project setup and coding conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes a key development tool's integration (Storybook) and its configuration (TS rules override), relating to both project setup and coding conventions.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Storybook",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a primary development environment and the location of component stories, which relates to project structure, and also mentions TypeScript rules and ESLint overrides, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"The section describes a primary development environment and the location of component stories, which relates to project structure, and also mentions TypeScript rules and ESLint overrides, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies Notes",
+      "level": 2,
+      "char_count": 175,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dependencies Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the dependencies required for the project, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the dependencies required for the project, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dependencies Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines specific technical requirements and tools for the project, which relates to how the project is set up and organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines specific technical requirements and tools for the project, which relates to how the project is set up and organized.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Dependencies Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section specifies coding style requirements (React 16.8+, Node 20 or 22) and project structure details (pnpm as package manager, lucide-react as optional peer dependency).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section specifies coding style requirements (React 16.8+, Node 20 or 22) and project structure details (pnpm as package manager, lucide-react as optional peer dependency).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Pre-commit Hooks",
+      "level": 2,
+      "char_count": 147,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Pre-commit Hooks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses pre-commit hooks that enforce coding style with linting and formatting tools, and also relates to the workflow process by ensuring code quality before committing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses pre-commit hooks that enforce coding style with linting and formatting tools, and also relates to the workflow process by ensuring code quality before committing.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Pre-commit Hooks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses code formatting tools (coding_style) and a pre-commit check (workflow_process).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses code formatting tools (coding_style) and a pre-commit check (workflow_process).\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Pre-commit Hooks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the use of Husky and lint-staged for enforcing coding style and formatting, and it is part of the workflow process for committing code.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes the use of Husky and lint-staged for enforcing coding style and formatting, and it is part of the workflow process for committing code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Publishing Flow",
+      "level": 2,
+      "char_count": 132,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Publishing Flow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps involved in publishing changes, which falls under workflow and process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps involved in publishing changes, which falls under workflow and process guidelines.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Publishing Flow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for managing publishing, which directly relates to workflow and CI/CD practices.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for managing publishing, which directly relates to workflow and CI/CD practices.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "Publishing Flow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for managing changes, documenting changes, and publishing to npm, which aligns with the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for managing changes, documenting changes, and publishing to npm, which aligns with the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "ADRs (Architecture Decision Records)",
+      "level": 2,
+      "char_count": 216,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "ADRs (Architecture Decision Records)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section is classified as architecture because it discusses key architectural decisions and design choices for the MacawUI project.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section is classified as architecture because it discusses key architectural decisions and design choices for the MacawUI project.\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "ADRs (Architecture Decision Records)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture",
+            "evolution_context"
+          ],
+          "reasoning": "The section contains Architecture Decision Records (ADRs) which directly relate to architectural design (architecture) and provide historical context on project decisions (evolution_context).",
+          "raw_response": "{\"categories\": [\"architecture\", \"evolution_context\"], \"reasoning\": \"The section contains Architecture Decision Records (ADRs) which directly relate to architectural design (architecture) and provide historical context on project decisions (evolution_context).\"}"
+        },
+        {
+          "repo": "saleor/macaw-ui",
+          "section_heading": "ADRs (Architecture Decision Records)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "project_structure"
+          ],
+          "reasoning": "The section describes architectural decisions and their locations within the project structure.",
+          "raw_response": "{\"categories\": [\"architecture\", \"project_structure\"], \"reasoning\": \"The section describes architectural decisions and their locations within the project structure.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.65,
+    "project_structure": 0.4,
+    "workflow_process": 0.35,
+    "architecture": 0.15,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.7075062742413871,
+    "project_structure": 0.540497376226329,
+    "workflow_process": 0.24845995893223818,
+    "architecture": 0.15537303216974674,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

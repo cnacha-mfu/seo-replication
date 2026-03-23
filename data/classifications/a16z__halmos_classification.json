@@ -1,0 +1,1914 @@
+{
+  "repo": "a16z__halmos",
+  "full_name": "a16z/halmos",
+  "n_sections": 23,
+  "n_chars": 3892,
+  "sections": [
+    {
+      "heading": "Project Context",
+      "level": 1,
+      "char_count": 385,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Project Context",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "This section provides context about the project's purpose, focus, and technical dependencies, which relates to both evolution context and architecture.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"This section provides context about the project's purpose, focus, and technical dependencies, which relates to both evolution context and architecture.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Project Context",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "Describes project's purpose, technology stack, and key integrations, indicating both context (evolution_context) and architectural design (architecture).",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"Describes project's purpose, technology stack, and key integrations, indicating both context (evolution_context) and architectural design (architecture).\" }"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Project Context",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the role and dependencies of the Halmos tool, which fits the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the role and dependencies of the Halmos tool, which fits the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "run unit tests only (2-3s)",
+      "level": 1,
+      "char_count": 62,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run unit tests only (2-3s)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing command, indicating a workflow process related to testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing command, indicating a workflow process related to testing requirements.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run unit tests only (2-3s)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a command for running a specific subset of unit tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a command for running a specific subset of unit tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run unit tests only (2-3s)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running unit tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running unit tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "run regression/e2e tests (2-3m)",
+      "level": 1,
+      "char_count": 47,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run regression/e2e tests (2-3m)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing process, which falls under workflow_process due to its focus on testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing process, which falls under workflow_process due to its focus on testing requirements.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run regression/e2e tests (2-3m)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command and its expected duration, which relates to workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command and its expected duration, which relates to workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run regression/e2e tests (2-3m)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Python \u2265 3.11",
+      "level": 3,
+      "char_count": 130,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Python \u2265 3.11",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on specifying a minimum Python version and guiding the use of language features, which pertains to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on specifying a minimum Python version and guiding the use of language features, which pertains to coding conventions and style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Python \u2265 3.11",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "Specifies a language version requirement, impacting coding practices and compatibility.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"Specifies a language version requirement, impacting coding practices and compatibility.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Python \u2265 3.11",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses language features and version compatibility, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses language features and version compatibility, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Avoid Introducing New Dependencies",
+      "level": 3,
+      "char_count": 177,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Introducing New Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses avoiding new dependencies, which relates to architecture and also implies a workflow process guideline for managing dependencies.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section discusses avoiding new dependencies, which relates to architecture and also implies a workflow process guideline for managing dependencies.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Introducing New Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses dependency management (project_structure) and imposes a rule on adding dependencies (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency management (project_structure) and imposes a rule on adding dependencies (workflow_process).\"}\n\n**Rationale Breakdown (for clarity, not part of the required response format)**\n\n* **project_structure**: The primary focus is on managing dependencies, which falls under how the project is structured in terms of its components and external integrations.\n* **workflow_process**: The section implies a workflow rule or guideline for developers to follow when considering new dependencies, affecting the development and possibly review process. \n\n**Note**: While one might argue for `architecture` due to dependency implications on system design, the dominant content here is more about the rule (workflow) and dependency management (structure) than architectural design decisions. \n\n---\n\n**Actual Response (as per instructions)**\n\n{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency management (project_structure) and imposes a rule on adding dependencies (workflow_process).\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Introducing New Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on code style and architecture, specifically regarding the use of external dependencies.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on code style and architecture, specifically regarding the use of external dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Meaningful Names",
+      "level": 3,
+      "char_count": 150,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Meaningful Names",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Meaningful Names",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions for variables, functions, and classes, which is a fundamental aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions for variables, functions, and classes, which is a fundamental aspect of coding style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Meaningful Names",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for naming conventions in coding.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for naming conventions in coding.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Follow PEP 8",
+      "level": 3,
+      "char_count": 87,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Follow PEP 8",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly mentions following PEP 8, a style guide for Python code, which falls under coding conventions and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly mentions following PEP 8, a style guide for Python code, which falls under coding conventions and formatting.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Follow PEP 8",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly mentions adhering to PEP 8, a Python style guide, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly mentions adhering to PEP 8, a Python style guide, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Follow PEP 8",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses adhering to a specific coding style guide, PEP 8, and using a tool, `ruff`, to enforce it.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses adhering to a specific coding style guide, PEP 8, and using a tool, `ruff`, to enforce it.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Docstrings",
+      "level": 3,
+      "char_count": 139,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Docstrings",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on documenting code with docstrings, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on documenting code with docstrings, which is a coding style convention.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Docstrings",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on documentation standards for code elements, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on documentation standards for code elements, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Docstrings",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on documenting code using docstrings, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on documenting code using docstrings, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Keep It Simple",
+      "level": 3,
+      "char_count": 138,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Keep It Simple",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses favoring straightforward solutions and refactoring long functions, which relates to coding style and software architecture principles.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses favoring straightforward solutions and refactoring long functions, which relates to coding style and software architecture principles.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Keep It Simple",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section advises on code simpl",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section advises on code simplicity and function length (coding_style), and implies testing requirements (workflow_process).\""
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Keep It Simple",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on code simplicity and function length, which are aspects of coding style, and also touches on refactoring for better architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on code simplicity and function length, which are aspects of coding style, and also touches on refactoring for better architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use List Comprehensions",
+      "level": 3,
+      "char_count": 94,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use List Comprehensions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidance on coding preferences, specifically advocating for list comprehensions over manual loops for readability.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides guidance on coding preferences, specifically advocating for list comprehensions over manual loops for readability.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use List Comprehensions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section advises on a specific coding practice (list comprehensions over manual loops) for readability, which pertains to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section advises on a specific coding practice (list comprehensions over manual loops) for readability, which pertains to coding style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use List Comprehensions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on coding style, specifically recommending the use of list comprehensions over manual loops.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on coding style, specifically recommending the use of list comprehensions over manual loops.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Handle Exceptions",
+      "level": 3,
+      "char_count": 236,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Handle Exceptions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on error handling best practices, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on error handling best practices, which is a coding style convention.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Handle Exceptions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices for error handling, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices for error handling, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Handle Exceptions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on how to handle exceptions in code, which falls under coding style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on how to handle exceptions in code, which falls under coding style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Virtual Environments",
+      "level": 3,
+      "char_count": 110,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Virtual Environments",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses isolating project dependencies, which relates to coding style and best practices for managing dependencies.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses isolating project dependencies, which relates to coding style and best practices for managing dependencies.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Virtual Environments",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on dependency isolation, which relates to coding practices and environment setup, aligning with coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on dependency isolation, which relates to coding practices and environment setup, aligning with coding_style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Virtual Environments",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines on managing project dependencies and environment setup, which falls under project_structure and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section provides guidelines on managing project dependencies and environment setup, which falls under project_structure and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Write Tests",
+      "level": 3,
+      "char_count": 103,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Write Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Write Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing requirements, which is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing requirements, which is a part of the workflow process.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Write Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on writing tests, which is part of the workflow process, and recommends using pytest, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on writing tests, which is part of the workflow process, and recommends using pytest, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Type Hints",
+      "level": 3,
+      "char_count": 168,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Type Hints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and code style tools, specifically the use of type hints in code annotation.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and code style tools, specifically the use of type hints in code annotation.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Type Hints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on type hinting syntax preferences, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on type hinting syntax preferences, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Type Hints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using type hints in code, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using type hints in code, which falls under coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Avoid Global Variables",
+      "level": 3,
+      "char_count": 95,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Global Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses minimizing global variables, which is a coding style guideline.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses minimizing global variables, which is a coding style guideline.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Global Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section advises on minimizing global variables, which pertains to coding_style for its impact on code readability and maintainability, and architecture for its influence on system design and dependency management.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section advises on minimizing global variables, which pertains to coding_style for its impact on code readability and maintainability, and architecture for its influence on system design and dependency management.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Global Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section provides guidelines on coding style by discouraging the use of global variables and suggests an alternative design pattern of using module-level singletons.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section provides guidelines on coding style by discouraging the use of global variables and suggests an alternative design pattern of using module-level singletons.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Dataclasses, Preferably Immutable",
+      "level": 3,
+      "char_count": 89,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Dataclasses, Preferably Immutable",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the use of dataclasses with specific parameters, which pertains to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses the use of dataclasses with specific parameters, which pertains to coding conventions and style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Dataclasses, Preferably Immutable",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific coding convention (using dataclasses with particular attributes) which directly relates to code style and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific coding convention (using dataclasses with particular attributes) which directly relates to code style and formatting.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Dataclasses, Preferably Immutable",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a coding style guideline for using dataclasses.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a coding style guideline for using dataclasses.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Avoid Raw Dicts and Tuples",
+      "level": 3,
+      "char_count": 145,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Raw Dicts and Tuples",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidelines for using specific data structures, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides guidelines for using specific data structures, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Raw Dicts and Tuples",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using specific data structures (dicts and tuples), which relates to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using specific data structures (dicts and tuples), which relates to coding conventions and style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Raw Dicts and Tuples",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using dataclasses and tuples, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using dataclasses and tuples, which falls under coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Algebraic Data Types",
+      "level": 3,
+      "char_count": 132,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Algebraic Data Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding conventions and design patterns related to data type modeling, which pertains to both coding style and software architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding conventions and design patterns related to data type modeling, which pertains to both coding style and software architecture.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Algebraic Data Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section advises on a specific cod",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section advises on a specific coding practice (coding_style) using algebraic data types and also impacts the overall system design (architecture).\""
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Algebraic Data Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidance on using specific coding style (union types and match statements) and architecture (avoiding deep inheritance trees).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidance on using specific coding style (union types and match statements) and architecture (avoiding deep inheritance trees).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Context Managers",
+      "level": 3,
+      "char_count": 126,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Context Managers",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on a specific coding practice, namely the use of context managers, which falls under naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on a specific coding practice, namely the use of context managers, which falls under naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Context Managers",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific programming practice (using `with` statements for resource management), which relates to coding conventions and best practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific programming practice (using `with` statements for resource management), which relates to coding conventions and best practices.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Context Managers",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on using 'with' statements, which is a coding style recommendation for managing resources.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on using 'with' statements, which is a coding style recommendation for managing resources.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Early Exits",
+      "level": 3,
+      "char_count": 122,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Early Exits",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses reducing nesting and input validation, which pertains to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses reducing nesting and input validation, which pertains to coding conventions and style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Early Exits",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific coding practice to reduce nesting, which relates to code style and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific coding practice to reduce nesting, which relates to code style and formatting.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Early Exits",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on coding style, specifically on reducing nesting through early validation and returns.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on coding style, specifically on reducing nesting through early validation and returns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Outside of Early Exits, Avoid Multiple Returns",
+      "level": 3,
+      "char_count": 119,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Outside of Early Exits, Avoid Multiple Returns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the avoidance of multiple returns in code, which pertains to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses the avoidance of multiple returns in code, which pertains to coding conventions and style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Outside of Early Exits, Avoid Multiple Returns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific coding practice (use of return statements) to improve code readability and maintainability.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific coding practice (use of return statements) to improve code readability and maintainability.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Outside of Early Exits, Avoid Multiple Returns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on the use of return statements, which is a coding style concern.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on the use of return statements, which is a coding style concern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Avoid Low Information Comments",
+      "level": 3,
+      "char_count": 145,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Low Information Comments",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and code commenting best practices, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and code commenting best practices, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Low Information Comments",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on guidelines for writing meaningful comments, which relates to code quality and style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on guidelines for writing meaningful comments, which relates to code quality and style conventions.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Low Information Comments",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on writing comments, which is a part of coding style",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on writing comments, which is a part of coding style\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Don't Use Monkey-Patching",
+      "level": 3,
+      "char_count": 70,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Don't Use Monkey-Patching",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses a specific coding practice to avoid, which falls under naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses a specific coding practice to avoid, which falls under naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Don't Use Monkey-Patching",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section advises against a specific coding practice (monkey-patching), which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section advises against a specific coding practice (monkey-patching), which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Don't Use Monkey-Patching",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses coding practices, specifically advising against monkey-patching, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses coding practices, specifically advising against monkey-patching, which falls under coding_style.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Project Context",
+      "level": 1,
+      "char_count": 385,
+      "voted_categories": [
+        "evolution_context",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Project Context",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "This section provides context about the project's purpose, focus, and technical dependencies, which relates to both evolution context and architecture.",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"This section provides context about the project's purpose, focus, and technical dependencies, which relates to both evolution context and architecture.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Project Context",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context",
+            "architecture"
+          ],
+          "reasoning": "Describes project's purpose, technology stack, and key integrations, indicating both context (evolution_context) and architectural design (architecture).",
+          "raw_response": "{\"categories\": [\"evolution_context\", \"architecture\"], \"reasoning\": \"Describes project's purpose, technology stack, and key integrations, indicating both context (evolution_context) and architectural design (architecture).\" }"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Project Context",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes the role and dependencies of the Halmos tool, which fits the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes the role and dependencies of the Halmos tool, which fits the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "run unit tests only (2-3s)",
+      "level": 1,
+      "char_count": 62,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run unit tests only (2-3s)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing command, indicating a workflow process related to testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing command, indicating a workflow process related to testing requirements.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run unit tests only (2-3s)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a command for running a specific subset of unit tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a command for running a specific subset of unit tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run unit tests only (2-3s)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running unit tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running unit tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "run regression/e2e tests (2-3m)",
+      "level": 1,
+      "char_count": 47,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run regression/e2e tests (2-3m)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing process, which falls under workflow_process due to its focus on testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing process, which falls under workflow_process due to its focus on testing requirements.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run regression/e2e tests (2-3m)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command and its expected duration, which relates to workflow and testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command and its expected duration, which relates to workflow and testing requirements.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "run regression/e2e tests (2-3m)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Python \u2265 3.11",
+      "level": 3,
+      "char_count": 130,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Python \u2265 3.11",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on specifying a minimum Python version and guiding the use of language features, which pertains to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on specifying a minimum Python version and guiding the use of language features, which pertains to coding conventions and style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Python \u2265 3.11",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "Specifies a language version requirement, impacting coding practices and compatibility.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"Specifies a language version requirement, impacting coding practices and compatibility.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Python \u2265 3.11",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses language features and version compatibility, which falls under coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses language features and version compatibility, which falls under coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Avoid Introducing New Dependencies",
+      "level": 3,
+      "char_count": 177,
+      "voted_categories": [
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Introducing New Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses avoiding new dependencies, which relates to architecture and also implies a workflow process guideline for managing dependencies.",
+          "raw_response": "{\"categories\": [\"architecture\", \"workflow_process\"], \"reasoning\": \"This section discusses avoiding new dependencies, which relates to architecture and also implies a workflow process guideline for managing dependencies.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Introducing New Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses dependency management (project_structure) and imposes a rule on adding dependencies (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency management (project_structure) and imposes a rule on adding dependencies (workflow_process).\"}\n\n**Rationale Breakdown (for clarity, not part of the required response format)**\n\n* **project_structure**: The primary focus is on managing dependencies, which falls under how the project is structured in terms of its components and external integrations.\n* **workflow_process**: The section implies a workflow rule or guideline for developers to follow when considering new dependencies, affecting the development and possibly review process. \n\n**Note**: While one might argue for `architecture` due to dependency implications on system design, the dominant content here is more about the rule (workflow) and dependency management (structure) than architectural design decisions. \n\n---\n\n**Actual Response (as per instructions)**\n\n{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section discusses dependency management (project_structure) and imposes a rule on adding dependencies (workflow_process).\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Introducing New Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on code style and architecture, specifically regarding the use of external dependencies.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on code style and architecture, specifically regarding the use of external dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Meaningful Names",
+      "level": 3,
+      "char_count": 150,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Meaningful Names",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Meaningful Names",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on naming conventions for variables, functions, and classes, which is a fundamental aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on naming conventions for variables, functions, and classes, which is a fundamental aspect of coding style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Meaningful Names",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for naming conventions in coding.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for naming conventions in coding.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Follow PEP 8",
+      "level": 3,
+      "char_count": 87,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Follow PEP 8",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly mentions following PEP 8, a style guide for Python code, which falls under coding conventions and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly mentions following PEP 8, a style guide for Python code, which falls under coding conventions and formatting.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Follow PEP 8",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section explicitly mentions adhering to PEP 8, a Python style guide, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section explicitly mentions adhering to PEP 8, a Python style guide, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Follow PEP 8",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses adhering to a specific coding style guide, PEP 8, and using a tool, `ruff`, to enforce it.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses adhering to a specific coding style guide, PEP 8, and using a tool, `ruff`, to enforce it.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Docstrings",
+      "level": 3,
+      "char_count": 139,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Docstrings",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on documenting code with docstrings, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on documenting code with docstrings, which is a coding style convention.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Docstrings",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on documentation standards for code elements, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on documentation standards for code elements, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Docstrings",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on documenting code using docstrings, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on documenting code using docstrings, which is a coding style convention.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Keep It Simple",
+      "level": 3,
+      "char_count": 138,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Keep It Simple",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses favoring straightforward solutions and refactoring long functions, which relates to coding style and software architecture principles.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses favoring straightforward solutions and refactoring long functions, which relates to coding style and software architecture principles.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Keep It Simple",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section advises on code simpl",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section advises on code simplicity and function length (coding_style), and implies testing requirements (workflow_process).\""
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Keep It Simple",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on code simplicity and function length, which are aspects of coding style, and also touches on refactoring for better architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on code simplicity and function length, which are aspects of coding style, and also touches on refactoring for better architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use List Comprehensions",
+      "level": 3,
+      "char_count": 94,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use List Comprehensions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidance on coding preferences, specifically advocating for list comprehensions over manual loops for readability.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides guidance on coding preferences, specifically advocating for list comprehensions over manual loops for readability.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use List Comprehensions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section advises on a specific coding practice (list comprehensions over manual loops) for readability, which pertains to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section advises on a specific coding practice (list comprehensions over manual loops) for readability, which pertains to coding style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use List Comprehensions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on coding style, specifically recommending the use of list comprehensions over manual loops.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on coding style, specifically recommending the use of list comprehensions over manual loops.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Handle Exceptions",
+      "level": 3,
+      "char_count": 236,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Handle Exceptions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on error handling best practices, which is a coding style convention.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on error handling best practices, which is a coding style convention.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Handle Exceptions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on specific coding practices for error handling, which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on specific coding practices for error handling, which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Handle Exceptions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on how to handle exceptions in code, which falls under coding style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on how to handle exceptions in code, which falls under coding style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Virtual Environments",
+      "level": 3,
+      "char_count": 110,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Virtual Environments",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses isolating project dependencies, which relates to coding style and best practices for managing dependencies.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses isolating project dependencies, which relates to coding style and best practices for managing dependencies.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Virtual Environments",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on dependency isolation, which relates to coding practices and environment setup, aligning with coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on dependency isolation, which relates to coding practices and environment setup, aligning with coding_style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Virtual Environments",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides guidelines on managing project dependencies and environment setup, which falls under project_structure and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section provides guidelines on managing project dependencies and environment setup, which falls under project_structure and workflow_process categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Write Tests",
+      "level": 3,
+      "char_count": 103,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Write Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses testing requirements, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily discusses testing requirements, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Write Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing requirements, which is a part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing requirements, which is a part of the workflow process.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Write Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on writing tests, which is part of the workflow process, and recommends using pytest, which relates to coding style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section provides guidelines on writing tests, which is part of the workflow process, and recommends using pytest, which relates to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Type Hints",
+      "level": 3,
+      "char_count": 168,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Type Hints",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and code style tools, specifically the use of type hints in code annotation.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and code style tools, specifically the use of type hints in code annotation.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Type Hints",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on type hinting syntax preferences, which relates to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on type hinting syntax preferences, which relates to coding style conventions.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Type Hints",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using type hints in code, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using type hints in code, which falls under coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Avoid Global Variables",
+      "level": 3,
+      "char_count": 95,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Global Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses minimizing global variables, which is a coding style guideline.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses minimizing global variables, which is a coding style guideline.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Global Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section advises on minimizing global variables, which pertains to coding_style for its impact on code readability and maintainability, and architecture for its influence on system design and dependency management.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section advises on minimizing global variables, which pertains to coding_style for its impact on code readability and maintainability, and architecture for its influence on system design and dependency management.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Global Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section provides guidelines on coding style by discouraging the use of global variables and suggests an alternative design pattern of using module-level singletons.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section provides guidelines on coding style by discouraging the use of global variables and suggests an alternative design pattern of using module-level singletons.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Dataclasses, Preferably Immutable",
+      "level": 3,
+      "char_count": 89,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Dataclasses, Preferably Immutable",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the use of dataclasses with specific parameters, which pertains to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses the use of dataclasses with specific parameters, which pertains to coding conventions and style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Dataclasses, Preferably Immutable",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific coding convention (using dataclasses with particular attributes) which directly relates to code style and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific coding convention (using dataclasses with particular attributes) which directly relates to code style and formatting.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Dataclasses, Preferably Immutable",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a coding style guideline for using dataclasses.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a coding style guideline for using dataclasses.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Avoid Raw Dicts and Tuples",
+      "level": 3,
+      "char_count": 145,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Raw Dicts and Tuples",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section provides guidelines for using specific data structures, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section provides guidelines for using specific data structures, which falls under coding style conventions.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Raw Dicts and Tuples",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using specific data structures (dicts and tuples), which relates to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using specific data structures (dicts and tuples), which relates to coding conventions and style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Raw Dicts and Tuples",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on using dataclasses and tuples, which falls under coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on using dataclasses and tuples, which falls under coding style conventions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Algebraic Data Types",
+      "level": 3,
+      "char_count": 132,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Algebraic Data Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses coding conventions and design patterns related to data type modeling, which pertains to both coding style and software architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses coding conventions and design patterns related to data type modeling, which pertains to both coding style and software architecture.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Algebraic Data Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section advises on a specific cod",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section advises on a specific coding practice (coding_style) using algebraic data types and also impacts the overall system design (architecture).\""
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Algebraic Data Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidance on using specific coding style (union types and match statements) and architecture (avoiding deep inheritance trees).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidance on using specific coding style (union types and match statements) and architecture (avoiding deep inheritance trees).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Context Managers",
+      "level": 3,
+      "char_count": 126,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Context Managers",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on a specific coding practice, namely the use of context managers, which falls under naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on a specific coding practice, namely the use of context managers, which falls under naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Context Managers",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific programming practice (using `with` statements for resource management), which relates to coding conventions and best practices.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific programming practice (using `with` statements for resource management), which relates to coding conventions and best practices.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Context Managers",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on using 'with' statements, which is a coding style recommendation for managing resources.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on using 'with' statements, which is a coding style recommendation for managing resources.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Use Early Exits",
+      "level": 3,
+      "char_count": 122,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Early Exits",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses reducing nesting and input validation, which pertains to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses reducing nesting and input validation, which pertains to coding conventions and style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Early Exits",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific coding practice to reduce nesting, which relates to code style and formatting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific coding practice to reduce nesting, which relates to code style and formatting.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Use Early Exits",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on coding style, specifically on reducing nesting through early validation and returns.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on coding style, specifically on reducing nesting through early validation and returns.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Outside of Early Exits, Avoid Multiple Returns",
+      "level": 3,
+      "char_count": 119,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Outside of Early Exits, Avoid Multiple Returns",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section discusses the avoidance of multiple returns in code, which pertains to coding conventions and style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section discusses the avoidance of multiple returns in code, which pertains to coding conventions and style.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Outside of Early Exits, Avoid Multiple Returns",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific coding practice (use of return statements) to improve code readability and maintainability.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific coding practice (use of return statements) to improve code readability and maintainability.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Outside of Early Exits, Avoid Multiple Returns",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines on the use of return statements, which is a coding style concern.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines on the use of return statements, which is a coding style concern.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Avoid Low Information Comments",
+      "level": 3,
+      "char_count": 145,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Low Information Comments",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on naming conventions and code commenting best practices, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on naming conventions and code commenting best practices, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Low Information Comments",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on guidelines for writing meaningful comments, which relates to code quality and style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on guidelines for writing meaningful comments, which relates to code quality and style conventions.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Avoid Low Information Comments",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidance on writing comments, which is a part of coding style",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidance on writing comments, which is a part of coding style\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Don't Use Monkey-Patching",
+      "level": 3,
+      "char_count": 70,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Don't Use Monkey-Patching",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses a specific coding practice to avoid, which falls under naming conventions and code style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses a specific coding practice to avoid, which falls under naming conventions and code style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Don't Use Monkey-Patching",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section advises against a specific coding practice (monkey-patching), which relates to coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section advises against a specific coding practice (monkey-patching), which relates to coding style guidelines.\"}"
+        },
+        {
+          "repo": "a16z/halmos",
+          "section_heading": "Don't Use Monkey-Patching",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section discusses coding practices, specifically advising against monkey-patching, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section discusses coding practices, specifically advising against monkey-patching, which falls under coding_style.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": false,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.782608695652174,
+    "project_structure": 0.0,
+    "workflow_process": 0.17391304347826086,
+    "architecture": 0.21739130434782608,
+    "evolution_context": 0.043478260869565216,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.7478005865102639,
+    "project_structure": 0.0,
+    "workflow_process": 0.12675138481590095,
+    "architecture": 0.3020527859237537,
+    "evolution_context": 0.12544802867383512,
+    "agent_rules": 0.0
+  }
+}

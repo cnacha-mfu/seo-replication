@@ -1,0 +1,950 @@
+{
+  "repo": "rpmuller__pyquante2",
+  "full_name": "rpmuller/pyquante2",
+  "n_sections": 11,
+  "n_chars": 3290,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 85,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about providing guidance for Claude Code, indicating it's about AI-specific directives and rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about providing guidance for Claude Code, indicating it's about AI-specific directives and rules.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance for Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance for Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 307,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides a general description of the project and its current status, including its publication on PyPI, which relates to both project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides a general description of the project and its current status, including its publication on PyPI, which relates to both project structure and evolution context.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "The section provides project status and version, indicating its current phase and history.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"The section provides project status and version, indicating its current phase and history.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall purpose and functionality of the project, as well as the specific quantum chemistry methods implemented, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall purpose and functionality of the project, as well as the specific quantum chemistry methods implemented, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 1036,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the pyquante2 repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the pyquante2 repository.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests with doctests",
+      "level": 1,
+      "char_count": 46,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Run tests with doctests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run tests with doctests, which falls under testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run tests with doctests, which falls under testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Run tests with doctests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Run tests with doctests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build package for PyPI",
+      "level": 1,
+      "char_count": 138,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Build package for PyPI",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to build and verify a package for PyPI, which falls under workflow and release processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps to build and verify a package for PyPI, which falls under workflow and release processes.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Build package for PyPI",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for building and verifying a package, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for building and verifying a package, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Build package for PyPI",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the build process for packaging the project for PyPI, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the build process for packaging the project for PyPI, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Publish to PyPI (see VERSION_MANAGEMENT.md first!)",
+      "level": 1,
+      "char_count": 81,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Publish to PyPI (see VERSION_MANAGEMENT.md first!)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to publish the project to PyPI, which falls under workflow and release processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps to publish the project to PyPI, which falls under workflow and release processes.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Publish to PyPI (see VERSION_MANAGEMENT.md first!)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for publishing to PyPI, which relates to workflow and deployment processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for publishing to PyPI, which relates to workflow and deployment processes.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Publish to PyPI (see VERSION_MANAGEMENT.md first!)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for publishing to PyPI, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for publishing to PyPI, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 200,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes testing requirements and procedures, which falls under workflow_process, and also mentions the location of tests, relating to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes testing requirements and procedures, which falls under workflow_process, and also mentions the location of tests, relating to project_structure.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes testing procedures and commands, which relate to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes testing procedures and commands, which relate to the workflow process.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the location of tests in the project structure and outlines the workflow process for running tests.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the location of tests in the project structure and outlines the workflow process for running tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 2,
+      "char_count": 224,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, Python version requirements, and the use of specific libraries and testing methods, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, Python version requirements, and the use of specific libraries and testing methods, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions (class names), required Python version, and coding practices (use of doctests, absence of type annotations), all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions (class names), required Python version, and coding practices (use of doctests, absence of type annotations), all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, such as naming conventions, Python version requirement, and the use of doctests.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions, such as naming conventions, Python version requirement, and the use of doctests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Concepts",
+      "level": 2,
+      "char_count": 252,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Key Concepts",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explains key concepts related to the design and functionality of the pyquante2 project, which is indicative of architectural content.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explains key concepts related to the design and functionality of the pyquante2 project, which is indicative of architectural content.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Key Concepts",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines core technical concepts and algorithms central to the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines core technical concepts and algorithms central to the project's architecture.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Key Concepts",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key components and concepts of the project, which is relevant to the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key components and concepts of the project, which is relevant to the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 2,
+      "char_count": 116,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines the dependencies required for the project, which relates to both the project structure and the overall architecture of the system.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines the dependencies required for the project, which relates to both the project structure and the overall architecture of the system.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Lists dependencies by type (core, dev/test, build), implying both project structure organization and workflow/process implications.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Lists dependencies by type (core, dev/test, build), implying both project structure organization and workflow/process implications.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists the project's dependencies, which is part of the project structure, and also provides information about the use of Cython for C extensions, which relates to the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section lists the project's dependencies, which is part of the project structure, and also provides information about the use of Cython for C extensions, which relates to the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Notes",
+      "level": 2,
+      "char_count": 391,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context",
+            "workflow_process"
+          ],
+          "reasoning": "This section contains notes about the repository's directory layout, archived code, package management, and version management, which relate to project structure, evolution context, and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\", \"workflow_process\"], \"reasoning\": \"This section contains notes about the repository's directory layout, archived code, package management, and version management, which relate to project structure, evolution context, and workflow process.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses directory layout (project_structure), pre-version-bump tasks (workflow_process), and future development context (evolution_context).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section discusses directory layout (project_structure), pre-version-bump tasks (workflow_process), and future development context (evolution_context).\" }"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses the location of Cython extensions and archived code, package management, version bumping process, and future tasks.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section discusses the location of Cython extensions and archived code, package management, version bumping process, and future tasks.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 85,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about providing guidance for Claude Code, indicating it's about AI-specific directives and rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about providing guidance for Claude Code, indicating it's about AI-specific directives and rules.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section provides guidance for Claude Code, an AI agent, which aligns with the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section provides guidance for Claude Code, an AI agent, which aligns with the agent_rules category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 307,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context"
+          ],
+          "reasoning": "This section provides a general description of the project and its current status, including its publication on PyPI, which relates to both project structure and evolution context.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\"], \"reasoning\": \"This section provides a general description of the project and its current status, including its publication on PyPI, which relates to both project structure and evolution context.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "evolution_context"
+          ],
+          "reasoning": "The section provides project status and version, indicating its current phase and history.",
+          "raw_response": "{\"categories\": [\"evolution_context\"], \"reasoning\": \"The section provides project status and version, indicating its current phase and history.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the overall purpose and functionality of the project, as well as the specific quantum chemistry methods implemented, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the overall purpose and functionality of the project, as well as the specific quantum chemistry methods implemented, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 1036,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the pyquante2 repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the pyquante2 repository.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests with doctests",
+      "level": 1,
+      "char_count": 46,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Run tests with doctests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes how to run tests with doctests, which falls under testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes how to run tests with doctests, which falls under testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Run tests with doctests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Run tests with doctests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests, which falls under workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests, which falls under workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build package for PyPI",
+      "level": 1,
+      "char_count": 138,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Build package for PyPI",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to build and verify a package for PyPI, which falls under workflow and release processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps to build and verify a package for PyPI, which falls under workflow and release processes.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Build package for PyPI",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines a step-by-step process for building and verifying a package, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines a step-by-step process for building and verifying a package, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Build package for PyPI",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the build process for packaging the project for PyPI, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the build process for packaging the project for PyPI, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Publish to PyPI (see VERSION_MANAGEMENT.md first!)",
+      "level": 1,
+      "char_count": 81,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Publish to PyPI (see VERSION_MANAGEMENT.md first!)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the steps to publish the project to PyPI, which falls under workflow and release processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the steps to publish the project to PyPI, which falls under workflow and release processes.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Publish to PyPI (see VERSION_MANAGEMENT.md first!)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for publishing to PyPI, which relates to workflow and deployment processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for publishing to PyPI, which relates to workflow and deployment processes.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Publish to PyPI (see VERSION_MANAGEMENT.md first!)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the process for publishing to PyPI, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the process for publishing to PyPI, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 2,
+      "char_count": 200,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section primarily describes testing requirements and procedures, which falls under workflow_process, and also mentions the location of tests, relating to project_structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section primarily describes testing requirements and procedures, which falls under workflow_process, and also mentions the location of tests, relating to project_structure.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes testing procedures and commands, which relate to the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes testing procedures and commands, which relate to the workflow process.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the location of tests in the project structure and outlines the workflow process for running tests.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the location of tests in the project structure and outlines the workflow process for running tests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 2,
+      "char_count": 224,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions, Python version requirements, and the use of specific libraries and testing methods, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses naming conventions, Python version requirements, and the use of specific libraries and testing methods, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions (class names), required Python version, and coding practices (use of doctests, absence of type annotations), all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions (class names), required Python version, and coding practices (use of doctests, absence of type annotations), all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, such as naming conventions, Python version requirement, and the use of doctests.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions, such as naming conventions, Python version requirement, and the use of doctests.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Concepts",
+      "level": 2,
+      "char_count": 252,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Key Concepts",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section explains key concepts related to the design and functionality of the pyquante2 project, which is indicative of architectural content.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section explains key concepts related to the design and functionality of the pyquante2 project, which is indicative of architectural content.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Key Concepts",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section defines core technical concepts and algorithms central to the project's architecture.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section defines core technical concepts and algorithms central to the project's architecture.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Key Concepts",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes key components and concepts of the project, which is relevant to the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes key components and concepts of the project, which is relevant to the architecture category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 2,
+      "char_count": 116,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines the dependencies required for the project, which relates to both the project structure and the overall architecture of the system.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines the dependencies required for the project, which relates to both the project structure and the overall architecture of the system.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Lists dependencies by type (core, dev/test, build), implying both project structure organization and workflow/process implications.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Lists dependencies by type (core, dev/test, build), implying both project structure organization and workflow/process implications.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section lists the project's dependencies, which is part of the project structure, and also provides information about the use of Cython for C extensions, which relates to the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section lists the project's dependencies, which is part of the project structure, and also provides information about the use of Cython for C extensions, which relates to the architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Notes",
+      "level": 2,
+      "char_count": 391,
+      "voted_categories": [
+        "project_structure",
+        "evolution_context",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Notes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "evolution_context",
+            "workflow_process"
+          ],
+          "reasoning": "This section contains notes about the repository's directory layout, archived code, package management, and version management, which relate to project structure, evolution context, and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"evolution_context\", \"workflow_process\"], \"reasoning\": \"This section contains notes about the repository's directory layout, archived code, package management, and version management, which relate to project structure, evolution context, and workflow process.\"}"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Notes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses directory layout (project_structure), pre-version-bump tasks (workflow_process), and future development context (evolution_context).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section discusses directory layout (project_structure), pre-version-bump tasks (workflow_process), and future development context (evolution_context).\" }"
+        },
+        {
+          "repo": "rpmuller/pyquante2",
+          "section_heading": "Notes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process",
+            "evolution_context"
+          ],
+          "reasoning": "The section discusses the location of Cython extensions and archived code, package management, version bumping process, and future tasks.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\", \"evolution_context\"], \"reasoning\": \"The section discusses the location of Cython extensions and archived code, package management, version bumping process, and future tasks.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": true,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.09090909090909091,
+    "project_structure": 0.45454545454545453,
+    "workflow_process": 0.45454545454545453,
+    "architecture": 0.18181818181818182,
+    "evolution_context": 0.18181818181818182,
+    "agent_rules": 0.09090909090909091
+  },
+  "category_char_fraction": {
+    "coding_style": 0.07788595271210014,
+    "project_structure": 0.7127955493741307,
+    "workflow_process": 0.29763560500695413,
+    "architecture": 0.12795549374130738,
+    "evolution_context": 0.2426981919332406,
+    "agent_rules": 0.029554937413073714
+  }
+}

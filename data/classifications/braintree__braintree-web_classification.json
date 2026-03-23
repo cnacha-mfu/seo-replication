@@ -1,0 +1,3284 @@
+{
+  "repo": "braintree__braintree-web",
+  "full_name": "braintree/braintree-web",
+  "n_sections": 39,
+  "n_chars": 12322,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about providing guidance to Claude Code, which is related to AI-specific directives and agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about providing guidance to Claude Code, which is related to AI-specific directives and agent rules.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Component-Specific Documentation",
+      "level": 2,
+      "char_count": 671,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component-Specific Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the organization and location of component-specific documentation within the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the organization and location of component-specific documentation within the repository.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component-Specific Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists components and their respective documentation locations within the repository, describing how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists components and their respective documentation locations within the repository, describing how the project is organized.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component-Specific Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines the directory layout and module descriptions, as well as the roles and dependencies of each component.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines the directory layout and module descriptions, as well as the roles and dependencies of each component.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Tools",
+      "level": 2,
+      "char_count": 163,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Tools",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the location and usage of a development tool, relating to project structure, and also touches on testing and development workflow, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the location and usage of a development tool, relating to project structure, and also touches on testing and development workflow, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Tools",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Mentions a specific directory (project_structure) and tools for testing and development workflows (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Mentions a specific directory (project_structure) and tools for testing and development workflows (workflow_process).\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Tools",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses using Storybook for interactive component development and visual testing, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses using Storybook for interactive component development and visual testing, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development",
+      "level": 3,
+      "char_count": 128,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build commands and procedures, which falls under workflow and development processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build commands and procedures, which falls under workflow and development processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and processes for building components, which relates to workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and processes for building components, which relates to workflow and development procedures.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides build commands for components, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides build commands for components, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Local Build Testing",
+      "level": 3,
+      "char_count": 335,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local Build Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes local build testing procedures, including specific npm commands for building and testing the SDK, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes local build testing procedures, including specific npm commands for building and testing the SDK, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local Build Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific commands and processes for local build testing, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific commands and processes for local build testing, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local Build Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes npm scripts for building and testing, which falls under coding_style, and also outlines the local development workflow, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes npm scripts for building and testing, which falls under coding_style, and also outlines the local development workflow, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 249,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing procedures and commands, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing procedures and commands, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and processes for testing, which is a key part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and processes for testing, which is a key part of the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes testing commands and conventions, which falls under workflow_process, and also includes a coding_style tool (Jest).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes testing commands and conventions, which falls under workflow_process, and also includes a coding_style tool (Jest).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting and Formatting",
+      "level": 3,
+      "char_count": 140,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Linting and Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on linting and formatting, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on linting and formatting, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Linting and Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting and formatting tools, which are directly related to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting and formatting tools, which are directly related to coding style conventions.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Linting and Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of linting and formatting tools for maintaining code style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes the use of linting and formatting tools for maintaining code style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation and Development Tools",
+      "level": 3,
+      "char_count": 454,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Documentation and Development Tools",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes development tools and commands, which relates to workflow processes, and also implies the project structure by mentioning specific directories and files like Storybook tests.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes development tools and commands, which relates to workflow processes, and also implies the project structure by mentioning specific directories and files like Storybook tests.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Documentation and Development Tools",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific development and testing commands, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists specific development and testing commands, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Documentation and Development Tools",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes npm scripts for generating documentation and running tests, which pertains to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes npm scripts for generating documentation and running tests, which pertains to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 3,
+      "char_count": 353,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build System",
+      "level": 3,
+      "char_count": 259,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build system, including directory layout and task management, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build system, including directory layout and task management, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes both the project's build output structure (dist/, components.json, tasks/) and the workflow/tools used for building (Gulp, Browserify).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes both the project's build output structure (dist/, components.json, tasks/) and the workflow/tools used for building (Gulp, Browserify).\" }"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build system, which involves the use of Gulp and Browserify, and the directory layout for tasks and output, which falls under project_structure; it also mentions coding conventions for component-specific tasks and environment variable transforms, which is coding_style; and it outlines the build process, which is workflow_process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes the build system, which involves the use of Gulp and Browserify, and the directory layout for tasks and output, which falls under project_structure; it also mentions coding conventions for component-specific tasks and environment variable transforms, which is coding_style; and it outlines the build process, which is workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 215,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses testing configurations and directory structures, which relate to both workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses testing configurations and directory structures, which relate to both workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing tools and configurations, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing tools and configurations, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section discusses the use of Jest for unit testing, the structure of tests, integration tests with WebDriver, and component development with Storybook, which involves coding style, workflow process, and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses the use of Jest for unit testing, the structure of tests, integration tests with WebDriver, and component development with Storybook, which involves coding style, workflow process, and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Standard Component Creation",
+      "level": 3,
+      "char_count": 342,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Standard Component Creation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes a lifecycle pattern for component creation, which relates to the design and structure of the system, indicating it belongs to the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes a lifecycle pattern for component creation, which relates to the design and structure of the system, indicating it belongs to the architecture category.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Standard Component Creation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a standardized lifecycle pattern for component creation, implying design principles and component behavior, which falls under architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a standardized lifecycle pattern for component creation, implying design principles and component behavior, which falls under architectural design.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Standard Component Creation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a lifecycle pattern for creating components, which falls under architecture, and also mentions a specific coding style with the use of `basicComponentVerification.verify()`.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes a lifecycle pattern for creating components, which falls under architecture, and also mentions a specific coding style with the use of `basicComponentVerification.verify()`.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Component Structure",
+      "level": 3,
+      "char_count": 633,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the structure and organization of a component within the project, including its directory layout and dependencies, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the structure and organization of a component within the project, including its directory layout and dependencies, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on the internal structure and implementation details of a component, indicating architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on the internal structure and implementation details of a component, indicating architectural design.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the structure of a component and its creation process, which falls under architecture; it also includes code snippets with a specific coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the structure of a component and its creation process, which falls under architecture; it also includes code snippets with a specific coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling",
+      "level": 3,
+      "char_count": 430,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Error Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses error handling conventions and provides a code example, which relates to coding style, and also touches on module roles and dependencies, pertaining to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses error handling conventions and provides a code example, which relates to coding style, and also touches on module roles and dependencies, pertaining to architecture.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Error Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific coding convention for error handling using a custom error class.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific coding convention for error handling using a custom error class.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Error Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on how to handle errors using a specific coding style and architecture, namely the use of the `BraintreeError` class for error conditions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on how to handle errors using a specific coding style and architecture, namely the use of the `BraintreeError` class for error conditions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Browserify Pipeline",
+      "level": 3,
+      "char_count": 253,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Browserify Pipeline",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the build pipeline for the project, which relates to coding style due to the use of specific tools like envify and UglifyJS, and project structure due to the overall organization of the build process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the build pipeline for the project, which relates to coding style due to the use of specific tools like envify and UglifyJS, and project structure due to the overall organization of the build process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Browserify Pipeline",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes build pipel",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes build pipeline steps (workflow_process) focusing on code transformation and optimization (coding_style).\""
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Browserify Pipeline",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the coding style for production builds and the workflow process for using Browserify pipeline.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes the coding style for production builds and the workflow process for using Browserify pipeline.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build Outputs",
+      "level": 3,
+      "char_count": 104,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build Outputs",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project's build outputs.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project's build outputs.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build Outputs",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific directory outputs, implying project structure organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific directory outputs, implying project structure organization.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build Outputs",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout for build outputs.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout for build outputs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Component Build Tasks",
+      "level": 3,
+      "char_count": 183,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Build Tasks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes build and lint tasks for individual components, which relates to workflow processes, and also mentions specific files and directories, indicating project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes build and lint tasks for individual components, which relates to workflow processes, and also mentions specific files and directories, indicating project structure.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Build Tasks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific build and linting tasks for components, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific build and linting tasks for components, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Build Tasks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes naming conventions for build and lint tasks (coding_style) and the location of individual gulp tasks within the project structure (project_structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes naming conventions for build and lint tasks (coding_style) and the location of individual gulp tasks within the project structure (project_structure).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Structure",
+      "level": 3,
+      "char_count": 133,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the organization of tests within the project and testing configurations, which relates to both project structure and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the organization of tests within the project and testing configurations, which relates to both project structure and workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the test directory structure (project_structure) and test configurations/settings (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the test directory structure (project_structure) and test configurations/settings (workflow_process).\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the structure of tests, which relates to coding style, project structure, and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses the structure of tests, which relates to coding style, project structure, and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Helpers",
+      "level": 3,
+      "char_count": 234,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Helpers",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location and purpose of test helper files and functions within the project directory.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location and purpose of test helper files and functions within the project directory.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Helpers",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific helper files and their locations within the repository, indicating how project components are organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific helper files and their locations within the repository, indicating how project components are organized.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Helpers",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the naming conventions and file locations of test helpers, which falls under coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the naming conventions and file locations of test helpers, which falls under coding_style and project_structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Single test file",
+      "level": 1,
+      "char_count": 31,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section is classified under workflow_process because it appears to be related to testing, specifically mentioning a test file and Jest, which is a testing framework.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section is classified under workflow_process because it appears to be related to testing, specifically mentioning a test file and Jest, which is a testing framework.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a test file location and command, implying testing workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a test file location and command, implying testing workflow.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running a test, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running a test, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "With coverage",
+      "level": 1,
+      "char_count": 48,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With coverage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command for running tests with coverage, which relates to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command for running tests with coverage, which relates to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With coverage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests with coverage, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests with coverage, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With coverage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing command, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing command, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Setup",
+      "level": 3,
+      "char_count": 221,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes setting up environment variables and creating a configuration file, which relates to both project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes setting up environment variables and creating a configuration file, which relates to both project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on setting up a specific file (.env) with development settings, which relates to how the project is structured and configured locally.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on setting up a specific file (.env) with development settings, which relates to how the project is structured and configured locally.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides instructions for setting up a specific coding style (.env file) and project structure (environment variables).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides instructions for setting up a specific coding style (.env file) and project structure (environment variables).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Analytics and Logging",
+      "level": 3,
+      "char_count": 197,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Analytics and Logging",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses analytics and logging, which relates to workflow process for debugging and also touches on architecture in terms of component interactions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses analytics and logging, which relates to workflow process for debugging and also touches on architecture in terms of component interactions.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Analytics and Logging",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes a specific component's functionality and its interaction (sending analytics events), which relates to system design and component roles.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes a specific component's functionality and its interaction (sending analytics events), which relates to system design and component roles.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Analytics and Logging",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a code snippet demonstrating naming conventions and formatting (coding_style), and also shows the location of the analytics library in the project directory (project_structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a code snippet demonstrating naming conventions and formatting (coding_style), and also shows the location of the analytics library in the project directory (project_structure).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Error Codes",
+      "level": 3,
+      "char_count": 255,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Common Error Codes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section lists error codes related to component interactions and compatibility, indicating a focus on system architecture and module dependencies.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section lists error codes related to component interactions and compatibility, indicating a focus on system architecture and module dependencies.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Common Error Codes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Lists error codes related to component compatibility and configuration, implying architectural dependencies and boundaries.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Lists error codes related to component compatibility and configuration, implying architectural dependencies and boundaries.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Common Error Codes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a list of error codes, which is a coding style convention for handling errors in the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a list of error codes, which is a coding style convention for handling errors in the codebase.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Frame Communication Issues",
+      "level": 3,
+      "char_count": 448,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Frame Communication Issues",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section provides debugging guidance and references other files, indicating workflow process and project structure information.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section provides debugging guidance and references other files, indicating workflow process and project structure information.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Frame Communication Issues",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on debugging steps and guidelines for handling specific issues, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on debugging steps and guidelines for handling specific issues, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Frame Communication Issues",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidance on where to find debugging information for specific components (project_structure) and outlines a process for debugging general issues (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidance on where to find debugging information for specific components (project_structure) and outlines a process for debugging general issues (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Structure",
+      "level": 3,
+      "char_count": 173,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the testing setup and tools used, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the testing setup and tools used, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing requirements, which is a key aspect of workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes testing requirements, which is a key aspect of workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the use of WebDriverIO with BrowserStack for integration tests, which falls under workflow_process, and also mentions the architecture of the testing setup across multiple browsers.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the use of WebDriverIO with BrowserStack for integration tests, which falls under workflow_process, and also mentions the architecture of the testing setup across multiple browsers.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Custom Browser Commands",
+      "level": 3,
+      "char_count": 800,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Custom Browser Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes custom browser commands for testing and interacting with the Braintree web application, which relates to workflow process and architecture categories due to its focus on testing requirements and module dependencies.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes custom browser commands for testing and interacting with the Braintree web application, which relates to workflow process and architecture categories due to its focus on testing requirements and module dependencies.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Custom Browser Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes custom browser commands for testing, which relates to workflow processes in software development, particularly testing and CI/CD integration.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes custom browser commands for testing, which relates to workflow processes in software development, particularly testing and CI/CD integration.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Custom Browser Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes custom browser commands, their registration, and usage, which falls under coding style and project structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes custom browser commands, their registration, and usage, which falls under coding style and project structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Writing Integration Tests",
+      "level": 3,
+      "char_count": 585,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Writing Integration Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section is primarily about writing integration tests, which falls under workflow_process, and also includes code snippets that demonstrate coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section is primarily about writing integration tests, which falls under workflow_process, and also includes code snippets that demonstrate coding_style.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Writing Integration Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing requirements, specifically writing integration tests, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing requirements, specifically writing integration tests, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Writing Integration Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides an example of coding style for integration tests and outlines a workflow process for testing components.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides an example of coding style for integration tests and outlines a workflow process for testing components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "All tests",
+      "level": 1,
+      "char_count": 24,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "All tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section is classified as workflow_process because it mentions a command to run tests, which is a part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section is classified as workflow_process because it mentions a command to run tests, which is a part of the development workflow.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "All tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a command for running integration tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a command for running integration tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "All tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running integration tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running integration tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "With local build",
+      "level": 1,
+      "char_count": 30,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With local build",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to run a local build test, which falls under workflow processes such as testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to run a local build test, which falls under workflow processes such as testing requirements.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With local build",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running integration tests locally, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running integration tests locally, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With local build",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running local integration tests, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running local integration tests, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Single test file",
+      "level": 1,
+      "char_count": 73,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing command, which falls under workflow processes related to testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing command, which falls under workflow processes related to testing requirements.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific test execution command, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific test execution command, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a test command, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a test command, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Variables",
+      "level": 3,
+      "char_count": 33,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section discusses environment variables required in a specific file, indicating it pertains to the organization and layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section discusses environment variables required in a specific file, indicating it pertains to the organization and layout of the project.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section specifies a required file (.env) and its contents, which pertains to project setup and configuration, a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section specifies a required file (.env) and its contents, which pertains to project setup and configuration, a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the required environment variables, which is part of the project's structure and setup.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the required environment variables, which is part of the project's structure and setup.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Local development(not committed to git)",
+      "level": 1,
+      "char_count": 166,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local development(not committed to git)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes local development environment settings, which relates to how the project is structured and set up for development.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes local development environment settings, which relates to how the project is structured and set up for development.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local development(not committed to git)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines environment variables for local setup, which relates to how the project is structured for development.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines environment variables for local setup, which relates to how the project is structured for development.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local development(not committed to git)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides environment variable naming conventions and values for local development, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides environment variable naming conventions and values for local development, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "For integration tests only",
+      "level": 1,
+      "char_count": 155,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "For integration tests only",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides environment variables for integration tests, which is related to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides environment variables for integration tests, which is related to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "For integration tests only",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides environment variables for integration tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides environment variables for integration tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "For integration tests only",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides environment variables for testing, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides environment variables for testing, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 3,
+      "char_count": 509,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions, formatting rules, and linting tools used in the project.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions, formatting rules, and linting tools used in the project.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions, formatting rules, and tool usage (Prettier, ESLint) related to code style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions, formatting rules, and tool usage (Prettier, ESLint) related to code style.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, including indentation, syntax, equality checks, formatting, and commenting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions, including indentation, syntax, equality checks, formatting, and commenting.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming Conventions",
+      "level": 3,
+      "char_count": 347,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for variables, functions, classes, and constants, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for variables, functions, classes, and constants, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for various code elements, which directly relates to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for various code elements, which directly relates to coding style.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions for variables, functions, classes, and constants, which falls under the coding_style category.",
+          "raw_response": "{\n  \"categories\": [\"coding_style\"],\n  \"reasoning\": \"The section primarily discusses naming conventions for variables, functions, classes, and constants, which falls under the coding_style category.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 3,
+      "char_count": 333,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the dependencies of the project, which relates to project structure, and also touches on module roles and dependencies, which is part of architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the dependencies of the project, which relates to project structure, and also touches on module roles and dependencies, which is part of architecture.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists dependencies which relates to project structure, and specifies module roles (e.g., iframe communication, 3D Secure) touching on architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists dependencies which relates to project structure, and specifies module roles (e.g., iframe communication, 3D Secure) touching on architectural design.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's dependencies, which are part of the project structure, and also outlines the role of these dependencies in the overall architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's dependencies, which are part of the project structure, and also outlines the role of these dependencies in the overall architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Branch Naming Convention",
+      "level": 3,
+      "char_count": 406,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Branch Naming Convention",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses branch naming conventions, which relates to coding style, and also mentions validation by pre-push hooks and CI, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses branch naming conventions, which relates to coding style, and also mentions validation by pre-push hooks and CI, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Branch Naming Convention",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section specifies naming conv",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section specifies naming conventions (coding_style) enforced through automated hooks (workflow_process).\""
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Branch Naming Convention",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes naming conventions for branches, which falls under coding_style, and also outlines pre-push hooks and CI validation, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes naming conventions for branches, which falls under coding_style, and also outlines pre-push hooks and CI validation, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Workflow",
+      "level": 3,
+      "char_count": 789,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines the development workflow and testing requirements, but also touches on coding style and conventions, such as following existing patterns and using specific scripts.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines the development workflow and testing requirements, but also touches on coding style and conventions, such as following existing patterns and using specific scripts.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines development steps (workflow_process) with a focus on testing and linting (coding_style), but the dominant content relates to the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines development steps (workflow_process) with a focus on testing and linting (coding_style), but the dominant content relates to the workflow.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily describes the development workflow process, including coding style guidelines and references to specific architectural components.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily describes the development workflow process, including coding style guidelines and references to specific architectural components.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section is about providing guidance to Claude Code, which is related to AI-specific directives and agent rules.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section is about providing guidance to Claude Code, which is related to AI-specific directives and agent rules.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Component-Specific Documentation",
+      "level": 2,
+      "char_count": 671,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component-Specific Documentation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the organization and location of component-specific documentation within the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the organization and location of component-specific documentation within the repository.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component-Specific Documentation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists components and their respective documentation locations within the repository, describing how the project is organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists components and their respective documentation locations within the repository, describing how the project is organized.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component-Specific Documentation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section outlines the directory layout and module descriptions, as well as the roles and dependencies of each component.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section outlines the directory layout and module descriptions, as well as the roles and dependencies of each component.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Tools",
+      "level": 2,
+      "char_count": 163,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Tools",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the location and usage of a development tool, relating to project structure, and also touches on testing and development workflow, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the location and usage of a development tool, relating to project structure, and also touches on testing and development workflow, which falls under workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Tools",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Mentions a specific directory (project_structure) and tools for testing and development workflows (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Mentions a specific directory (project_structure) and tools for testing and development workflows (workflow_process).\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Tools",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section discusses using Storybook for interactive component development and visual testing, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section discusses using Storybook for interactive component development and visual testing, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development",
+      "level": 3,
+      "char_count": 128,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes build commands and procedures, which falls under workflow and development processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes build commands and procedures, which falls under workflow and development processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and processes for building components, which relates to workflow and development procedures.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and processes for building components, which relates to workflow and development procedures.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides build commands for components, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides build commands for components, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Local Build Testing",
+      "level": 3,
+      "char_count": 335,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local Build Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes local build testing procedures, including specific npm commands for building and testing the SDK, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes local build testing procedures, including specific npm commands for building and testing the SDK, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local Build Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific commands and processes for local build testing, which relates to workflow and development process guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific commands and processes for local build testing, which relates to workflow and development process guidelines.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local Build Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes npm scripts for building and testing, which falls under coding_style, and also outlines the local development workflow, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes npm scripts for building and testing, which falls under coding_style, and also outlines the local development workflow, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 249,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes testing procedures and commands, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes testing procedures and commands, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands and processes for testing, which is a key part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands and processes for testing, which is a key part of the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section describes testing commands and conventions, which falls under workflow_process, and also includes a coding_style tool (Jest).",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section describes testing commands and conventions, which falls under workflow_process, and also includes a coding_style tool (Jest).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting and Formatting",
+      "level": 3,
+      "char_count": 140,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Linting and Formatting",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on linting and formatting, which are key aspects of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on linting and formatting, which are key aspects of coding style.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Linting and Formatting",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on linting and formatting tools, which are directly related to coding style conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on linting and formatting tools, which are directly related to coding style conventions.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Linting and Formatting",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes the use of linting and formatting tools for maintaining code style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes the use of linting and formatting tools for maintaining code style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Documentation and Development Tools",
+      "level": 3,
+      "char_count": 454,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Documentation and Development Tools",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes development tools and commands, which relates to workflow processes, and also implies the project structure by mentioning specific directories and files like Storybook tests.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes development tools and commands, which relates to workflow processes, and also implies the project structure by mentioning specific directories and files like Storybook tests.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Documentation and Development Tools",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section lists specific development and testing commands, which are part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section lists specific development and testing commands, which are part of the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Documentation and Development Tools",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes npm scripts for generating documentation and running tests, which pertains to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes npm scripts for generating documentation and running tests, which pertains to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 3,
+      "char_count": 353,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project, which is the dominant content of the project_structure category.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly describes the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build System",
+      "level": 3,
+      "char_count": 259,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build System",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build system, including directory layout and task management, which relates to project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the build system, including directory layout and task management, which relates to project structure and workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build System",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes both the project's build output structure (dist/, components.json, tasks/) and the workflow/tools used for building (Gulp, Browserify).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes both the project's build output structure (dist/, components.json, tasks/) and the workflow/tools used for building (Gulp, Browserify).\" }"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build System",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the build system, which involves the use of Gulp and Browserify, and the directory layout for tasks and output, which falls under project_structure; it also mentions coding conventions for component-specific tasks and environment variable transforms, which is coding_style; and it outlines the build process, which is workflow_process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes the build system, which involves the use of Gulp and Browserify, and the directory layout for tasks and output, which falls under project_structure; it also mentions coding conventions for component-specific tasks and environment variable transforms, which is coding_style; and it outlines the build process, which is workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Testing",
+      "level": 3,
+      "char_count": 215,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section discusses testing configurations and directory structures, which relate to both workflow processes and project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section discusses testing configurations and directory structures, which relate to both workflow processes and project structure.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing tools and configurations, which are part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing tools and configurations, which are part of the development workflow.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Testing",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section discusses the use of Jest for unit testing, the structure of tests, integration tests with WebDriver, and component development with Storybook, which involves coding style, workflow process, and architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\", \"architecture\"], \"reasoning\": \"The section discusses the use of Jest for unit testing, the structure of tests, integration tests with WebDriver, and component development with Storybook, which involves coding style, workflow process, and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Standard Component Creation",
+      "level": 3,
+      "char_count": 342,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Standard Component Creation",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section describes a lifecycle pattern for component creation, which relates to the design and structure of the system, indicating it belongs to the architecture category.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section describes a lifecycle pattern for component creation, which relates to the design and structure of the system, indicating it belongs to the architecture category.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Standard Component Creation",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Describes a standardized lifecycle pattern for component creation, implying design principles and component behavior, which falls under architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Describes a standardized lifecycle pattern for component creation, implying design principles and component behavior, which falls under architectural design.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Standard Component Creation",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes a lifecycle pattern for creating components, which falls under architecture, and also mentions a specific coding style with the use of `basicComponentVerification.verify()`.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes a lifecycle pattern for creating components, which falls under architecture, and also mentions a specific coding style with the use of `basicComponentVerification.verify()`.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Component Structure",
+      "level": 3,
+      "char_count": 633,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the structure and organization of a component within the project, including its directory layout and dependencies, which relates to both project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the structure and organization of a component within the project, including its directory layout and dependencies, which relates to both project structure and architecture.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section focuses on the internal structure and implementation details of a component, indicating architectural design.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section focuses on the internal structure and implementation details of a component, indicating architectural design.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "architecture",
+            "coding_style"
+          ],
+          "reasoning": "The section describes the structure of a component and its creation process, which falls under architecture; it also includes code snippets with a specific coding style.",
+          "raw_response": "{\"categories\": [\"architecture\", \"coding_style\"], \"reasoning\": \"The section describes the structure of a component and its creation process, which falls under architecture; it also includes code snippets with a specific coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Error Handling",
+      "level": 3,
+      "char_count": 430,
+      "voted_categories": [
+        "coding_style",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Error Handling",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "This section discusses error handling conventions and provides a code example, which relates to coding style, and also touches on module roles and dependencies, pertaining to architecture.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"This section discusses error handling conventions and provides a code example, which relates to coding style, and also touches on module roles and dependencies, pertaining to architecture.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Error Handling",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section focuses on a specific coding convention for error handling using a custom error class.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section focuses on a specific coding convention for error handling using a custom error class.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Error Handling",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section provides guidelines on how to handle errors using a specific coding style and architecture, namely the use of the `BraintreeError` class for error conditions.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"architecture\"], \"reasoning\": \"The section provides guidelines on how to handle errors using a specific coding style and architecture, namely the use of the `BraintreeError` class for error conditions.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Browserify Pipeline",
+      "level": 3,
+      "char_count": 253,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Browserify Pipeline",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the build pipeline for the project, which relates to coding style due to the use of specific tools like envify and UglifyJS, and project structure due to the overall organization of the build process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the build pipeline for the project, which relates to coding style due to the use of specific tools like envify and UglifyJS, and project structure due to the overall organization of the build process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Browserify Pipeline",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes build pipel",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes build pipeline steps (workflow_process) focusing on code transformation and optimization (coding_style).\""
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Browserify Pipeline",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the coding style for production builds and the workflow process for using Browserify pipeline.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes the coding style for production builds and the workflow process for using Browserify pipeline.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build Outputs",
+      "level": 3,
+      "char_count": 104,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build Outputs",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the directory layout and key files of the project's build outputs.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the directory layout and key files of the project's build outputs.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build Outputs",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific directory outputs, implying project structure organization.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific directory outputs, implying project structure organization.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Build Outputs",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout for build outputs.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout for build outputs.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Component Build Tasks",
+      "level": 3,
+      "char_count": 183,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Build Tasks",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section describes build and lint tasks for individual components, which relates to workflow processes, and also mentions specific files and directories, indicating project structure.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section describes build and lint tasks for individual components, which relates to workflow processes, and also mentions specific files and directories, indicating project structure.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Build Tasks",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes specific build and linting tasks for components, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes specific build and linting tasks for components, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Component Build Tasks",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes naming conventions for build and lint tasks (coding_style) and the location of individual gulp tasks within the project structure (project_structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes naming conventions for build and lint tasks (coding_style) and the location of individual gulp tasks within the project structure (project_structure).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Structure",
+      "level": 3,
+      "char_count": 133,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the organization of tests within the project and testing configurations, which relates to both project structure and workflow processes.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the organization of tests within the project and testing configurations, which relates to both project structure and workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the test directory structure (project_structure) and test configurations/settings (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the test directory structure (project_structure) and test configurations/settings (workflow_process).\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses the structure of tests, which relates to coding style, project structure, and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\", \"workflow_process\"], \"reasoning\": \"This section discusses the structure of tests, which relates to coding style, project structure, and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Helpers",
+      "level": 3,
+      "char_count": 234,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Helpers",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes the location and purpose of test helper files and functions within the project directory.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes the location and purpose of test helper files and functions within the project directory.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Helpers",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "Lists specific helper files and their locations within the repository, indicating how project components are organized.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"Lists specific helper files and their locations within the repository, indicating how project components are organized.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Helpers",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section describes the naming conventions and file locations of test helpers, which falls under coding_style and project_structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section describes the naming conventions and file locations of test helpers, which falls under coding_style and project_structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Single test file",
+      "level": 1,
+      "char_count": 31,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section is classified under workflow_process because it appears to be related to testing, specifically mentioning a test file and Jest, which is a testing framework.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section is classified under workflow_process because it appears to be related to testing, specifically mentioning a test file and Jest, which is a testing framework.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a test file location and command, implying testing workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a test file location and command, implying testing workflow.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running a test, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running a test, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "With coverage",
+      "level": 1,
+      "char_count": 48,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With coverage",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command for running tests with coverage, which relates to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command for running tests with coverage, which relates to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With coverage",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running tests with coverage, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running tests with coverage, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With coverage",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing command, which falls under workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing command, which falls under workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Setup",
+      "level": 3,
+      "char_count": 221,
+      "voted_categories": [
+        "project_structure",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Setup",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "coding_style"
+          ],
+          "reasoning": "This section describes setting up environment variables and creating a configuration file, which relates to both project structure and coding style conventions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"coding_style\"], \"reasoning\": \"This section describes setting up environment variables and creating a configuration file, which relates to both project structure and coding style conventions.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Setup",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section focuses on setting up a specific file (.env) with development settings, which relates to how the project is structured and configured locally.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section focuses on setting up a specific file (.env) with development settings, which relates to how the project is structured and configured locally.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Setup",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "This section provides instructions for setting up a specific coding style (.env file) and project structure (environment variables).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"This section provides instructions for setting up a specific coding style (.env file) and project structure (environment variables).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Analytics and Logging",
+      "level": 3,
+      "char_count": 197,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Analytics and Logging",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section discusses analytics and logging, which relates to workflow process for debugging and also touches on architecture in terms of component interactions.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section discusses analytics and logging, which relates to workflow process for debugging and also touches on architecture in terms of component interactions.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Analytics and Logging",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "The section describes a specific component's functionality and its interaction (sending analytics events), which relates to system design and component roles.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"The section describes a specific component's functionality and its interaction (sending analytics events), which relates to system design and component roles.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Analytics and Logging",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section provides a code snippet demonstrating naming conventions and formatting (coding_style), and also shows the location of the analytics library in the project directory (project_structure).",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section provides a code snippet demonstrating naming conventions and formatting (coding_style), and also shows the location of the analytics library in the project directory (project_structure).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Common Error Codes",
+      "level": 3,
+      "char_count": 255,
+      "voted_categories": [
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Common Error Codes",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "This section lists error codes related to component interactions and compatibility, indicating a focus on system architecture and module dependencies.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"This section lists error codes related to component interactions and compatibility, indicating a focus on system architecture and module dependencies.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Common Error Codes",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "architecture"
+          ],
+          "reasoning": "Lists error codes related to component compatibility and configuration, implying architectural dependencies and boundaries.",
+          "raw_response": "{\"categories\": [\"architecture\"], \"reasoning\": \"Lists error codes related to component compatibility and configuration, implying architectural dependencies and boundaries.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Common Error Codes",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a list of error codes, which is a coding style convention for handling errors in the codebase.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a list of error codes, which is a coding style convention for handling errors in the codebase.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Frame Communication Issues",
+      "level": 3,
+      "char_count": 448,
+      "voted_categories": [
+        "workflow_process",
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Frame Communication Issues",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "project_structure"
+          ],
+          "reasoning": "This section provides debugging guidance and references other files, indicating workflow process and project structure information.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"project_structure\"], \"reasoning\": \"This section provides debugging guidance and references other files, indicating workflow process and project structure information.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Frame Communication Issues",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on debugging steps and guidelines for handling specific issues, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on debugging steps and guidelines for handling specific issues, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Frame Communication Issues",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidance on where to find debugging information for specific components (project_structure) and outlines a process for debugging general issues (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section provides guidance on where to find debugging information for specific components (project_structure) and outlines a process for debugging general issues (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Structure",
+      "level": 3,
+      "char_count": 173,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the testing setup and tools used, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes the testing setup and tools used, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes testing requirements, which is a key aspect of workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes testing requirements, which is a key aspect of workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Test Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "The section describes the use of WebDriverIO with BrowserStack for integration tests, which falls under workflow_process, and also mentions the architecture of the testing setup across multiple browsers.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"The section describes the use of WebDriverIO with BrowserStack for integration tests, which falls under workflow_process, and also mentions the architecture of the testing setup across multiple browsers.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Custom Browser Commands",
+      "level": 3,
+      "char_count": 800,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Custom Browser Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "architecture"
+          ],
+          "reasoning": "This section describes custom browser commands for testing and interacting with the Braintree web application, which relates to workflow process and architecture categories due to its focus on testing requirements and module dependencies.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"architecture\"], \"reasoning\": \"This section describes custom browser commands for testing and interacting with the Braintree web application, which relates to workflow process and architecture categories due to its focus on testing requirements and module dependencies.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Custom Browser Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes custom browser commands for testing, which relates to workflow processes in software development, particularly testing and CI/CD integration.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes custom browser commands for testing, which relates to workflow processes in software development, particularly testing and CI/CD integration.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Custom Browser Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section describes custom browser commands, their registration, and usage, which falls under coding style and project structure categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section describes custom browser commands, their registration, and usage, which falls under coding style and project structure categories.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Writing Integration Tests",
+      "level": 3,
+      "char_count": 585,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Writing Integration Tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section is primarily about writing integration tests, which falls under workflow_process, and also includes code snippets that demonstrate coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section is primarily about writing integration tests, which falls under workflow_process, and also includes code snippets that demonstrate coding_style.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Writing Integration Tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section focuses on testing requirements, specifically writing integration tests, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section focuses on testing requirements, specifically writing integration tests, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Writing Integration Tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides an example of coding style for integration tests and outlines a workflow process for testing components.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides an example of coding style for integration tests and outlines a workflow process for testing components.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "All tests",
+      "level": 1,
+      "char_count": 24,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "All tests",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section is classified as workflow_process because it mentions a command to run tests, which is a part of the development workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section is classified as workflow_process because it mentions a command to run tests, which is a part of the development workflow.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "All tests",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section specifies a command for running integration tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section specifies a command for running integration tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "All tests",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running integration tests, which is part of the testing requirements and workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running integration tests, which is part of the testing requirements and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "With local build",
+      "level": 1,
+      "char_count": 30,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With local build",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command to run a local build test, which falls under workflow processes such as testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command to run a local build test, which falls under workflow processes such as testing requirements.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With local build",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running integration tests locally, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running integration tests locally, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "With local build",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a command for running local integration tests, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a command for running local integration tests, which is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Single test file",
+      "level": 1,
+      "char_count": 73,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing command, which falls under workflow processes related to testing requirements.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing command, which falls under workflow processes related to testing requirements.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific test execution command, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific test execution command, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Single test file",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a test command, which is part of the workflow process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a test command, which is part of the workflow process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Environment Variables",
+      "level": 3,
+      "char_count": 33,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Variables",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section discusses environment variables required in a specific file, indicating it pertains to the organization and layout of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section discusses environment variables required in a specific file, indicating it pertains to the organization and layout of the project.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Variables",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section specifies a required file (.env) and its contents, which pertains to project setup and configuration, a key aspect of project structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section specifies a required file (.env) and its contents, which pertains to project setup and configuration, a key aspect of project structure.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Environment Variables",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the required environment variables, which is part of the project's structure and setup.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the required environment variables, which is part of the project's structure and setup.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Local development(not committed to git)",
+      "level": 1,
+      "char_count": 166,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local development(not committed to git)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section describes local development environment settings, which relates to how the project is structured and set up for development.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section describes local development environment settings, which relates to how the project is structured and set up for development.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local development(not committed to git)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section outlines environment variables for local setup, which relates to how the project is structured for development.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section outlines environment variables for local setup, which relates to how the project is structured for development.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Local development(not committed to git)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides environment variable naming conventions and values for local development, which falls under coding_style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides environment variable naming conventions and values for local development, which falls under coding_style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "For integration tests only",
+      "level": 1,
+      "char_count": 155,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "For integration tests only",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section provides environment variables for integration tests, which is related to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section provides environment variables for integration tests, which is related to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "For integration tests only",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides environment variables for integration tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides environment variables for integration tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "For integration tests only",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides environment variables for testing, which relates to coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides environment variables for testing, which relates to coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style",
+      "level": 3,
+      "char_count": 509,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Code Style",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific coding conventions, formatting rules, and linting tools used in the project.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific coding conventions, formatting rules, and linting tools used in the project.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Code Style",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions, formatting rules, and tool usage (Prettier, ESLint) related to code style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions, formatting rules, and tool usage (Prettier, ESLint) related to code style.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Code Style",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses coding style conventions, including indentation, syntax, equality checks, formatting, and commenting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section primarily discusses coding style conventions, including indentation, syntax, equality checks, formatting, and commenting.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Naming Conventions",
+      "level": 3,
+      "char_count": 347,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Naming Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for variables, functions, classes, and constants, which is a key aspect of coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for variables, functions, classes, and constants, which is a key aspect of coding style.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Naming Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions for various code elements, which directly relates to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions for various code elements, which directly relates to coding style.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Naming Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section primarily discusses naming conventions for variables, functions, classes, and constants, which falls under the coding_style category.",
+          "raw_response": "{\n  \"categories\": [\"coding_style\"],\n  \"reasoning\": \"The section primarily discusses naming conventions for variables, functions, classes, and constants, which falls under the coding_style category.\"\n}"
+        }
+      ]
+    },
+    {
+      "heading": "Dependencies",
+      "level": 3,
+      "char_count": 333,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Dependencies",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the dependencies of the project, which relates to project structure, and also touches on module roles and dependencies, which is part of architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the dependencies of the project, which relates to project structure, and also touches on module roles and dependencies, which is part of architecture.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Dependencies",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists dependencies which relates to project structure, and specifies module roles (e.g., iframe communication, 3D Secure) touching on architectural design.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists dependencies which relates to project structure, and specifies module roles (e.g., iframe communication, 3D Secure) touching on architectural design.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Dependencies",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's dependencies, which are part of the project structure, and also outlines the role of these dependencies in the overall architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's dependencies, which are part of the project structure, and also outlines the role of these dependencies in the overall architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Branch Naming Convention",
+      "level": 3,
+      "char_count": 406,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Branch Naming Convention",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section discusses branch naming conventions, which relates to coding style, and also mentions validation by pre-push hooks and CI, which pertains to workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section discusses branch naming conventions, which relates to coding style, and also mentions validation by pre-push hooks and CI, which pertains to workflow process.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Branch Naming Convention",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section specifies naming conv",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section specifies naming conventions (coding_style) enforced through automated hooks (workflow_process).\""
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Branch Naming Convention",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes naming conventions for branches, which falls under coding_style, and also outlines pre-push hooks and CI validation, which is part of workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes naming conventions for branches, which falls under coding_style, and also outlines pre-push hooks and CI validation, which is part of workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Workflow",
+      "level": 3,
+      "char_count": 789,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Workflow",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section primarily outlines the development workflow and testing requirements, but also touches on coding style and conventions, such as following existing patterns and using specific scripts.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section primarily outlines the development workflow and testing requirements, but also touches on coding style and conventions, such as following existing patterns and using specific scripts.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Workflow",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "The section outlines development steps (workflow_process) with a focus on testing and linting (coding_style), but the dominant content relates to the workflow.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"The section outlines development steps (workflow_process) with a focus on testing and linting (coding_style), but the dominant content relates to the workflow.\"}"
+        },
+        {
+          "repo": "braintree/braintree-web",
+          "section_heading": "Development Workflow",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process",
+            "coding_style",
+            "architecture"
+          ],
+          "reasoning": "The section primarily describes the development workflow process, including coding style guidelines and references to specific architectural components.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\", \"architecture\"], \"reasoning\": \"The section primarily describes the development workflow process, including coding style guidelines and references to specific architectural components.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.23076923076923078,
+    "project_structure": 0.3333333333333333,
+    "workflow_process": 0.5641025641025641,
+    "architecture": 0.15384615384615385,
+    "evolution_context": 0.0,
+    "agent_rules": 0.02564102564102564
+  },
+  "category_char_fraction": {
+    "coding_style": 0.3344238458742276,
+    "project_structure": 0.2999818247909851,
+    "workflow_process": 0.539258451472192,
+    "architecture": 0.1990185387131952,
+    "evolution_context": 0.0,
+    "agent_rules": 0.009269356597600873
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "repo": "vincent-uden__miro",
+  "full_name": "vincent-uden/miro",
+  "n_sections": 3,
+  "n_chars": 1589,
+  "sections": [
+    {
+      "heading": "Build/Test Commands",
+      "level": 2,
+      "char_count": 250,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Build/Test Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the commands used for building, testing, and running the application, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes the commands used for building, testing, and running the application, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Build/Test Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building, testing, and running the application, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building, testing, and running the application, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Build/Test Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides build and test commands, which are part of coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides build and test commands, which are part of coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style Guidelines",
+      "level": 2,
+      "char_count": 901,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Code Style Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific guidelines for coding conventions, formatting, and style, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific guidelines for coding conventions, formatting, and style, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Code Style Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions, formatting rules, and coding preferences, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions, formatting rules, and coding preferences, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Code Style Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for naming conventions, formatting, and code style tools, which fall under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for naming conventions, formatting, and code style tools, which fall under the coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Process Guidelines",
+      "level": 2,
+      "char_count": 303,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Development Process Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and preferences for validating and testing code during the development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and preferences for validating and testing code during the development process.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Development Process Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and tools for validating and testing code during development, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and tools for validating and testing code during development, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Development Process Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on code validation and testing, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on code validation and testing, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "Build/Test Commands",
+      "level": 2,
+      "char_count": 250,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Build/Test Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily describes the commands used for building, testing, and running the application, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section primarily describes the commands used for building, testing, and running the application, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Build/Test Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific commands for building, testing, and running the application, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific commands for building, testing, and running the application, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Build/Test Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides build and test commands, which are part of coding style and workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides build and test commands, which are part of coding style and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Style Guidelines",
+      "level": 2,
+      "char_count": 901,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Code Style Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific guidelines for coding conventions, formatting, and style, which is the dominant content of the section.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific guidelines for coding conventions, formatting, and style, which is the dominant content of the section.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Code Style Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section outlines specific naming conventions, formatting rules, and coding preferences, all of which pertain to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section outlines specific naming conventions, formatting rules, and coding preferences, all of which pertain to coding style.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Code Style Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides guidelines for naming conventions, formatting, and code style tools, which fall under the coding_style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides guidelines for naming conventions, formatting, and code style tools, which fall under the coding_style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Development Process Guidelines",
+      "level": 2,
+      "char_count": 303,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Development Process Guidelines",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and preferences for validating and testing code during the development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and preferences for validating and testing code during the development process.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Development Process Guidelines",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section outlines specific steps and tools for validating and testing code during development, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section outlines specific steps and tools for validating and testing code during development, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "vincent-uden/miro",
+          "section_heading": "Development Process Guidelines",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides guidelines on code validation and testing, which fall under coding_style and workflow_process categories.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides guidelines on code validation and testing, which fall under coding_style and workflow_process categories.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": false,
+    "workflow_process": true,
+    "architecture": false,
+    "evolution_context": false,
+    "agent_rules": false
+  },
+  "category_section_fraction": {
+    "coding_style": 0.3333333333333333,
+    "project_structure": 0.0,
+    "workflow_process": 0.6666666666666666,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  },
+  "category_char_fraction": {
+    "coding_style": 0.6196698762035764,
+    "project_structure": 0.0,
+    "workflow_process": 0.38033012379642367,
+    "architecture": 0.0,
+    "evolution_context": 0.0,
+    "agent_rules": 0.0
+  }
+}

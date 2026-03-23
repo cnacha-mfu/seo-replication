@@ -1,0 +1,1532 @@
+{
+  "repo": "nats-io__nats.go",
+  "full_name": "nats-io/nats.go",
+  "n_sections": 18,
+  "n_chars": 7374,
+  "sections": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 220,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides a high-level description of the project and its module path, which is related to directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides a high-level description of the project and its module path, which is related to directory layout and key files.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project's scope and its module path, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project's scope and its module path, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose and its main components, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose and its main components, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Test Commands",
+      "level": 2,
+      "char_count": 252,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Build and Test Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the project's module setup and provides instructions for building and testing, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the project's module setup and provides instructions for building and testing, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Build and Test Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes specific commands and configurations for building and testing the project, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes specific commands and configurations for building and testing the project, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Build and Test Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's module setup for production and testing, and provides instructions for using the test dependencies, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's module setup for production and testing, and provides instructions for using the test dependencies, which relates to both project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run all tests (race detector + internal_testing tag, sequential)",
+      "level": 1,
+      "char_count": 91,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run all tests (race detector + internal_testing tag, sequential)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to run tests with specific flags, which relates to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to run tests with specific flags, which relates to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run all tests (race detector + internal_testing tag, sequential)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run all tests (race detector + internal_testing tag, sequential)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing command, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing command, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run NoRace tests (must be run separately, without -race flag)",
+      "level": 1,
+      "char_count": 78,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run NoRace tests (must be run separately, without -race flag)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing procedure, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing procedure, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run NoRace tests (must be run separately, without -race flag)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command to be executed, which relates to the workflow and testing process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command to be executed, which relates to the workflow and testing process of the project.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run NoRace tests (must be run separately, without -race flag)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing requirement, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing requirement, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run a specific test",
+      "level": 1,
+      "char_count": 77,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run a specific test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to run a specific test, which falls under testing requirements and workflow guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to run a specific test, which falls under testing requirements and workflow guidelines.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run a specific test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run a specific test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for running tests, which is a coding style practice, and also describes a workflow process for testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command for running tests, which is a coding style practice, and also describes a workflow process for testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests for a specific package",
+      "level": 1,
+      "char_count": 119,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run tests for a specific package",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing process, which falls under workflow_process due to its relation to testing requirements and CI/CD guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing process, which falls under workflow_process due to its relation to testing requirements and CI/CD guidelines.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run tests for a specific package",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides specific commands for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run tests for a specific package",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command-line instruction for running tests, which falls under coding_style, and also describes a testing workflow, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command-line instruction for running tests, which falls under coding_style, and also describes a testing workflow, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Vet",
+      "level": 1,
+      "char_count": 33,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Vet",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is about using the go vet command for code analysis, which relates to coding style and linting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is about using the go vet command for code analysis, which relates to coding style and linting.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Vet",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a command for running 'go vet', which is related to code quality and linting, falling under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a command for running 'go vet', which is related to code quality and linting, falling under coding style guidelines.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Vet",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command for code style checking and is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a command for code style checking and is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Static analysis (as CI does it)",
+      "level": 1,
+      "char_count": 38,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Static analysis (as CI does it)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a static analysis process used in CI, which relates to workflow_process, and also touches on coding_style by implying a tool used for linting or code quality checks.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a static analysis process used in CI, which relates to workflow_process, and also touches on coding_style by implying a tool used for linting or code quality checks.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Static analysis (as CI does it)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific static analysis command used in CI, which relates to workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific static analysis command used in CI, which relates to workflow and testing processes.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Static analysis (as CI does it)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a static analysis tool used in the code style and the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes a static analysis tool used in the code style and the workflow process of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting (golangci-lint runs only on jetstream/)",
+      "level": 1,
+      "char_count": 48,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Linting (golangci-lint runs only on jetstream/)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on linting, which is a coding style tool configuration.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on linting, which is a coding style tool configuration.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Linting (golangci-lint runs only on jetstream/)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a linting tool configuration, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a linting tool configuration, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Linting (golangci-lint runs only on jetstream/)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a linting tool and its usage, which falls under coding style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a linting tool and its usage, which falls under coding style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Spell check",
+      "level": 1,
+      "char_count": 62,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Spell check",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is about spell checking code files, which relates to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is about spell checking code files, which relates to coding style and conventions.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Spell check",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a command for spell checking Go files, which relates to maintaining code quality and formatting conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a command for spell checking Go files, which relates to maintaining code quality and formatting conventions.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Spell check",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command for checking spelling in Go files, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command for checking spelling in Go files, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Update test dependencies (never change go.mod for test deps)",
+      "level": 1,
+      "char_count": 36,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Update test dependencies (never change go.mod for test deps)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the workflow process, namely updating test dependencies using a particular command.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the workflow process, namely updating test dependencies using a particular command.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Update test dependencies (never change go.mod for test deps)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for managing test dependencies, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for managing test dependencies, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Update test dependencies (never change go.mod for test deps)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command for managing test dependencies, which falls under coding_style, and also suggests a workflow process for updating test dependencies.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a command for managing test dependencies, which falls under coding_style, and also suggests a workflow process for updating test dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important Build Tags",
+      "level": 2,
+      "char_count": 424,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Important Build Tags",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes build tags that influence the compilation and testing of the code, which relates to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes build tags that influence the compilation and testing of the code, which relates to coding style and conventions.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Important Build Tags",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes key build tags and their impact on test files within the directory structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes key build tags and their impact on test files within the directory structure.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Important Build Tags",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes build tags, which are a coding style convention, and also outlines testing requirements, a workflow process aspect.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes build tags, which are a coding style convention, and also outlines testing requirements, a workflow process aspect.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CI Pipeline (ci.yaml)",
+      "level": 2,
+      "char_count": 274,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CI Pipeline (ci.yaml)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the CI pipeline, which falls under workflow_process, and also mentions linting tools, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes the CI pipeline, which falls under workflow_process, and also mentions linting tools, which relates to coding_style.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CI Pipeline (ci.yaml)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the CI pipeline configuration, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the CI pipeline configuration, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CI Pipeline (ci.yaml)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style tools (lint) and testing requirements (test), which fall under coding_style and workflow_process categories respectively.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style tools (lint) and testing requirements (test), which fall under coding_style and workflow_process categories respectively.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 2608,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the repository.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Architecture",
+      "level": 2,
+      "char_count": 785,
+      "voted_categories": [
+        "project_structure",
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Test Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the organization and layout of test packages and files, as well as the design and boundaries of the test architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the organization and layout of test packages and files, as well as the design and boundaries of the test architecture.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Test Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Describes test directory layout (project_structure) and test execution specifics (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Describes test directory layout (project_structure) and test execution specifics (workflow_process).\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Test Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout for tests (project_structure), the roles and dependencies of different test packages (architecture), and testing requirements and constraints (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout for tests (project_structure), the roles and dependencies of different test packages (architecture), and testing requirements and constraints (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Conventions",
+      "level": 2,
+      "char_count": 987,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Code Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses coding conventions such as license headers, error variables, and options patterns, but also touches on workflow processes like commits requiring sign-off.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses coding conventions such as license headers, error variables, and options patterns, but also touches on workflow processes like commits requiring sign-off.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Code Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines co",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines coding conventions (coding_style) but also touches on commit requirements (workflow_process).\""
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Code Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section primarily discusses coding conventions such as license headers, error variables, options pattern, and interface-driven design, which fall under coding_style, and also mentions the project's external dependencies, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section primarily discusses coding conventions such as license headers, error variables, options pattern, and interface-driven design, which fall under coding_style, and also mentions the project's external dependencies, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Types",
+      "level": 2,
+      "char_count": 479,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Key Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key types and their roles in the project, indicating both the project structure and architectural components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key types and their roles in the project, indicating both the project structure and architectural components.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Key Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key types and their roles, implying project structure organization and architectural component descriptions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key types and their roles, implying project structure organization and architectural component descriptions.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Key Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes key types in the project, which are part of the project structure, and their roles and relationships, which relate to the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes key types in the project, which are part of the project structure, and their roles and relationships, which relate to the architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "section_votes": [
+    {
+      "heading": "CLAUDE.md",
+      "level": 1,
+      "char_count": 102,
+      "voted_categories": [
+        "agent_rules"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CLAUDE.md",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"This section provides guidance specific to Claude Code, indicating it belongs to the agent_rules category.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CLAUDE.md",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section explicitly addresses guidance for Claude Code, indicating AI-specific directives.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CLAUDE.md",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "agent_rules"
+          ],
+          "reasoning": "The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.",
+          "raw_response": "{\"categories\": [\"agent_rules\"], \"reasoning\": \"The section introduces the purpose of the file as providing guidance to an AI agent, Claude Code, when working with the repository's code.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Overview",
+      "level": 2,
+      "char_count": 220,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Overview",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "This section provides a high-level description of the project and its module path, which is related to directory layout and key files.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"This section provides a high-level description of the project and its module path, which is related to directory layout and key files.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Overview",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section provides a high-level description of the project's scope and its module path, which relates to how the project is structured.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section provides a high-level description of the project's scope and its module path, which relates to how the project is structured.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Overview",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes the project's purpose and its main components, which relates to project structure and architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes the project's purpose and its main components, which relates to project structure and architecture.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Build and Test Commands",
+      "level": 2,
+      "char_count": 252,
+      "voted_categories": [
+        "project_structure",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Build and Test Commands",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes the project's module setup and provides instructions for building and testing, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"This section describes the project's module setup and provides instructions for building and testing, which relates to both project structure and workflow process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Build and Test Commands",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section primarily describes specific commands and configurations for building and testing the project, which relates to workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section primarily describes specific commands and configurations for building and testing the project, which relates to workflow processes.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Build and Test Commands",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the project's module setup for production and testing, and provides instructions for using the test dependencies, which relates to both project structure and workflow process.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"The section describes the project's module setup for production and testing, and provides instructions for using the test dependencies, which relates to both project structure and workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run all tests (race detector + internal_testing tag, sequential)",
+      "level": 1,
+      "char_count": 91,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run all tests (race detector + internal_testing tag, sequential)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to run tests with specific flags, which relates to testing requirements and workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to run tests with specific flags, which relates to testing requirements and workflow processes.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run all tests (race detector + internal_testing tag, sequential)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run all tests (race detector + internal_testing tag, sequential)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a testing command, which falls under workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a testing command, which falls under workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run NoRace tests (must be run separately, without -race flag)",
+      "level": 1,
+      "char_count": 78,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run NoRace tests (must be run separately, without -race flag)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific testing procedure, which falls under workflow processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific testing procedure, which falls under workflow processes.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run NoRace tests (must be run separately, without -race flag)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing command to be executed, which relates to the workflow and testing process of the project.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing command to be executed, which relates to the workflow and testing process of the project.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run NoRace tests (must be run separately, without -race flag)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific testing requirement, which falls under the workflow_process category.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific testing requirement, which falls under the workflow_process category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run a specific test",
+      "level": 1,
+      "char_count": 77,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run a specific test",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a command to run a specific test, which falls under testing requirements and workflow guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a command to run a specific test, which falls under testing requirements and workflow guidelines.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run a specific test",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run a specific test",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command for running tests, which is a coding style practice, and also describes a workflow process for testing.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command for running tests, which is a coding style practice, and also describes a workflow process for testing.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Run tests for a specific package",
+      "level": 1,
+      "char_count": 119,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run tests for a specific package",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a testing process, which falls under workflow_process due to its relation to testing requirements and CI/CD guidelines.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a testing process, which falls under workflow_process due to its relation to testing requirements and CI/CD guidelines.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run tests for a specific package",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section provides specific commands for running tests, which relates to testing requirements within the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section provides specific commands for running tests, which relates to testing requirements within the workflow process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Run tests for a specific package",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section provides a command-line instruction for running tests, which falls under coding_style, and also describes a testing workflow, which falls under workflow_process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section provides a command-line instruction for running tests, which falls under coding_style, and also describes a testing workflow, which falls under workflow_process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Vet",
+      "level": 1,
+      "char_count": 33,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Vet",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is about using the go vet command for code analysis, which relates to coding style and linting.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is about using the go vet command for code analysis, which relates to coding style and linting.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Vet",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a command for running 'go vet', which is related to code quality and linting, falling under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a command for running 'go vet', which is related to code quality and linting, falling under coding style guidelines.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Vet",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command for code style checking and is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a command for code style checking and is part of the workflow process.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Static analysis (as CI does it)",
+      "level": 1,
+      "char_count": 38,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Static analysis (as CI does it)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes a static analysis process used in CI, which relates to workflow_process, and also touches on coding_style by implying a tool used for linting or code quality checks.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes a static analysis process used in CI, which relates to workflow_process, and also touches on coding_style by implying a tool used for linting or code quality checks.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Static analysis (as CI does it)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific static analysis command used in CI, which relates to workflow and testing processes.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific static analysis command used in CI, which relates to workflow and testing processes.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Static analysis (as CI does it)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a static analysis tool used in the code style and the workflow process of the project.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section describes a static analysis tool used in the code style and the workflow process of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Linting (golangci-lint runs only on jetstream/)",
+      "level": 1,
+      "char_count": 48,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Linting (golangci-lint runs only on jetstream/)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section focuses on linting, which is a coding style tool configuration.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section focuses on linting, which is a coding style tool configuration.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Linting (golangci-lint runs only on jetstream/)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section specifies a linting tool configuration, which falls under coding style guidelines.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section specifies a linting tool configuration, which falls under coding style guidelines.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Linting (golangci-lint runs only on jetstream/)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a linting tool and its usage, which falls under coding style category.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a linting tool and its usage, which falls under coding style category.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Spell check",
+      "level": 1,
+      "char_count": 62,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Spell check",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section is about spell checking code files, which relates to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section is about spell checking code files, which relates to coding style and conventions.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Spell check",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section describes a command for spell checking Go files, which relates to maintaining code quality and formatting conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section describes a command for spell checking Go files, which relates to maintaining code quality and formatting conventions.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Spell check",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "The section provides a command for checking spelling in Go files, which is related to coding style.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"The section provides a command for checking spelling in Go files, which is related to coding style.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Update test dependencies (never change go.mod for test deps)",
+      "level": 1,
+      "char_count": 36,
+      "voted_categories": [
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Update test dependencies (never change go.mod for test deps)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "This section describes a specific step in the workflow process, namely updating test dependencies using a particular command.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"This section describes a specific step in the workflow process, namely updating test dependencies using a particular command.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Update test dependencies (never change go.mod for test deps)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes a specific command for managing test dependencies, which relates to the workflow and development process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes a specific command for managing test dependencies, which relates to the workflow and development process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Update test dependencies (never change go.mod for test deps)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section provides a command for managing test dependencies, which falls under coding_style, and also suggests a workflow process for updating test dependencies.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section provides a command for managing test dependencies, which falls under coding_style, and also suggests a workflow process for updating test dependencies.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Important Build Tags",
+      "level": 2,
+      "char_count": 424,
+      "voted_categories": [
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Important Build Tags",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style"
+          ],
+          "reasoning": "This section describes build tags that influence the compilation and testing of the code, which relates to coding style and conventions.",
+          "raw_response": "{\"categories\": [\"coding_style\"], \"reasoning\": \"This section describes build tags that influence the compilation and testing of the code, which relates to coding style and conventions.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Important Build Tags",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes key build tags and their impact on test files within the directory structure.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes key build tags and their impact on test files within the directory structure.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Important Build Tags",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes build tags, which are a coding style convention, and also outlines testing requirements, a workflow process aspect.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes build tags, which are a coding style convention, and also outlines testing requirements, a workflow process aspect.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "CI Pipeline (ci.yaml)",
+      "level": 2,
+      "char_count": 274,
+      "voted_categories": [
+        "workflow_process",
+        "coding_style"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CI Pipeline (ci.yaml)",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "workflow_process",
+            "coding_style"
+          ],
+          "reasoning": "This section describes the CI pipeline, which falls under workflow_process, and also mentions linting tools, which relates to coding_style.",
+          "raw_response": "{\"categories\": [\"workflow_process\", \"coding_style\"], \"reasoning\": \"This section describes the CI pipeline, which falls under workflow_process, and also mentions linting tools, which relates to coding_style.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CI Pipeline (ci.yaml)",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the CI pipeline configuration, which is part of the workflow process.",
+          "raw_response": "{\"categories\": [\"workflow_process\"], \"reasoning\": \"The section describes the CI pipeline configuration, which is part of the workflow process.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "CI Pipeline (ci.yaml)",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes coding style tools (lint) and testing requirements (test), which fall under coding_style and workflow_process categories respectively.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section describes coding style tools (lint) and testing requirements (test), which fall under coding_style and workflow_process categories respectively.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Project Structure",
+      "level": 2,
+      "char_count": 2608,
+      "voted_categories": [
+        "project_structure"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Structure",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the repository.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section is explicitly titled 'Project Structure' and describes the directory layout and key files of the repository.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Structure",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section explicitly outlines the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section explicitly outlines the directory layout and key files of the project.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Project Structure",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure"
+          ],
+          "reasoning": "The section describes the directory layout and key files of the project.",
+          "raw_response": "{\"categories\": [\"project_structure\"], \"reasoning\": \"The section describes the directory layout and key files of the project.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Test Architecture",
+      "level": 2,
+      "char_count": 785,
+      "voted_categories": [
+        "project_structure",
+        "architecture",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Test Architecture",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes the organization and layout of test packages and files, as well as the design and boundaries of the test architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes the organization and layout of test packages and files, as well as the design and boundaries of the test architecture.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Test Architecture",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "workflow_process"
+          ],
+          "reasoning": "Describes test directory layout (project_structure) and test execution specifics (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"workflow_process\"], \"reasoning\": \"Describes test directory layout (project_structure) and test execution specifics (workflow_process).\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Test Architecture",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture",
+            "workflow_process"
+          ],
+          "reasoning": "The section describes the directory layout for tests (project_structure), the roles and dependencies of different test packages (architecture), and testing requirements and constraints (workflow_process).",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\", \"workflow_process\"], \"reasoning\": \"The section describes the directory layout for tests (project_structure), the roles and dependencies of different test packages (architecture), and testing requirements and constraints (workflow_process).\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Code Conventions",
+      "level": 2,
+      "char_count": 987,
+      "voted_categories": [
+        "coding_style",
+        "workflow_process"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Code Conventions",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "This section primarily discusses coding conventions such as license headers, error variables, and options patterns, but also touches on workflow processes like commits requiring sign-off.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"This section primarily discusses coding conventions such as license headers, error variables, and options patterns, but also touches on workflow processes like commits requiring sign-off.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Code Conventions",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "coding_style",
+            "workflow_process"
+          ],
+          "reasoning": "fallback parse: {\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines co",
+          "raw_response": "{\"categories\": [\"coding_style\", \"workflow_process\"], \"reasoning\": \"The section primarily outlines coding conventions (coding_style) but also touches on commit requirements (workflow_process).\""
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Code Conventions",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "coding_style",
+            "project_structure"
+          ],
+          "reasoning": "The section primarily discusses coding conventions such as license headers, error variables, options pattern, and interface-driven design, which fall under coding_style, and also mentions the project's external dependencies, which relates to project_structure.",
+          "raw_response": "{\"categories\": [\"coding_style\", \"project_structure\"], \"reasoning\": \"The section primarily discusses coding conventions such as license headers, error variables, options pattern, and interface-driven design, which fall under coding_style, and also mentions the project's external dependencies, which relates to project_structure.\"}"
+        }
+      ]
+    },
+    {
+      "heading": "Key Types",
+      "level": 2,
+      "char_count": 479,
+      "voted_categories": [
+        "project_structure",
+        "architecture"
+      ],
+      "model_classifications": [
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Key Types",
+          "model": "meta/llama-3.3-70b-instruct",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "This section describes key types and their roles in the project, indicating both the project structure and architectural components.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"This section describes key types and their roles in the project, indicating both the project structure and architectural components.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Key Types",
+          "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "Lists key types and their roles, implying project structure organization and architectural component descriptions.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"Lists key types and their roles, implying project structure organization and architectural component descriptions.\"}"
+        },
+        {
+          "repo": "nats-io/nats.go",
+          "section_heading": "Key Types",
+          "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+          "categories": [
+            "project_structure",
+            "architecture"
+          ],
+          "reasoning": "The section describes key types in the project, which are part of the project structure, and their roles and relationships, which relate to the architecture.",
+          "raw_response": "{\"categories\": [\"project_structure\", \"architecture\"], \"reasoning\": \"The section describes key types in the project, which are part of the project structure, and their roles and relationships, which relate to the architecture.\"}"
+        }
+      ]
+    }
+  ],
+  "category_present": {
+    "coding_style": true,
+    "project_structure": true,
+    "workflow_process": true,
+    "architecture": true,
+    "evolution_context": false,
+    "agent_rules": true
+  },
+  "category_section_fraction": {
+    "coding_style": 0.3888888888888889,
+    "project_structure": 0.2777777777777778,
+    "workflow_process": 0.5555555555555556,
+    "architecture": 0.1111111111111111,
+    "evolution_context": 0.0,
+    "agent_rules": 0.05555555555555555
+  },
+  "category_char_fraction": {
+    "coding_style": 0.2779681215551914,
+    "project_structure": 0.647102636675108,
+    "workflow_process": 0.40771637122002086,
+    "architecture": 0.18829137494413825,
+    "evolution_context": 0.0,
+    "agent_rules": 0.015194398927454193
+  }
+}
