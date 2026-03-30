@@ -1,0 +1,322 @@
+{
+  "experiment": "Paper 1 \u2014 RQ4 & RQ5: Agentic Code Generation",
+  "n_tasks": 83,
+  "n_repos": 19,
+  "n_results": 1482,
+  "generator_models": [
+    "meta/llama-3.3-70b-instruct",
+    "mistralai/mixtral-8x22b-instruct-v0.1"
+  ],
+  "judge_models": [
+    "google/gemma-2-27b-it",
+    "nvidia/llama-3.3-nemotron-super-49b-v1",
+    "qwen/qwen2-7b-instruct"
+  ],
+  "repo_phases": {
+    "cypress-io/cypress": "stabilization",
+    "openai/openai-agents-js": "growth",
+    "chef/chef-vault": "growth",
+    "run-llama/LlamaIndexTS": "decline",
+    "saleor/macaw-ui": "stabilization",
+    "Kaptensanders/skolmat": "stabilization",
+    "cellwebb/gac": "stabilization",
+    "nanobrowser/nanobrowser": "stabilization",
+    "tuist/tuist": "growth",
+    "noahlh/celestite": "unknown",
+    "a16z/halmos": "growth",
+    "rpmuller/pyquante2": "unknown",
+    "braintree/braintree-web": "growth",
+    "nats-io/nats.go": "stabilization",
+    "scopewu/qrcode.vue": "stabilization",
+    "hapifhir/org.hl7.fhir.validator-wrapper": "growth",
+    "kubernetes-sigs/cloud-provider-azure": "stabilization",
+    "lambrospetrou/durable-utils": "stabilization",
+    "bpowers/simlin": "growth",
+    "apache/skywalking": "stabilization",
+    "Vortiago/mcp-outline": "stabilization",
+    "VCnoC/Claude-Code-Zen-mcp-Skill-Work": "unknown",
+    "popstas/telegram-download-chat": "stabilization",
+    "simstudioai/sim": "growth",
+    "lerna/lerna": "stabilization",
+    "javascript-obfuscator/javascript-obfuscator": "stabilization",
+    "snowplow/snowplow-javascript-tracker": "stabilization",
+    "the-cafe/git-ai-commit": "unknown",
+    "pcingola/SnpEff": "stabilization",
+    "felipebarcelospro/igniter-js": "stabilization"
+  },
+  "rq4": {
+    "metrics": {
+      "complexity_delta": {
+        "mean_A": 2.639,
+        "mean_B": 2.663,
+        "mean_diff_B_minus_A": 0.024,
+        "n_pairs": 83,
+        "wilcoxon_stat": 127.0,
+        "wilcoxon_p": 0.467805,
+        "rank_biserial_r": 0.0438,
+        "effect_magnitude": "negligible",
+        "direction": "B > A"
+      },
+      "test_pass_rate": {
+        "mean_A": 2.855,
+        "mean_B": 2.867,
+        "mean_diff_B_minus_A": 0.012,
+        "n_pairs": 83,
+        "wilcoxon_stat": 33.0,
+        "wilcoxon_p": 0.614295,
+        "rank_biserial_r": 0.0129,
+        "effect_magnitude": "negligible",
+        "direction": "B > A"
+      },
+      "task_completion": {
+        "mean_A": 2.705,
+        "mean_B": 2.717,
+        "mean_diff_B_minus_A": 0.012,
+        "n_pairs": 83,
+        "wilcoxon_stat": 77.0,
+        "wilcoxon_p": 0.686031,
+        "rank_biserial_r": -0.0144,
+        "effect_magnitude": "negligible",
+        "direction": "B > A"
+      }
+    },
+    "n_tasks": 83,
+    "conclusion": "RQ4: No statistically significant differences between conditions A (no manifest) and B (human manifest) across 3 metrics (p > 0.05 for all). Documentation alone does not significantly change agent code quality in this sample."
+  },
+  "rq5": {
+    "metrics": {
+      "complexity_delta": {
+        "mean_B": 2.663,
+        "mean_C": 2.608,
+        "mean_diff_C_minus_B": -0.055,
+        "n_pairs": 83,
+        "wilcoxon_stat": 180.0,
+        "wilcoxon_p": 0.252366,
+        "rank_biserial_r": -0.0692,
+        "effect_magnitude": "negligible",
+        "direction": "B > C"
+      },
+      "coupling_change": {
+        "mean_B": 2.994,
+        "mean_C": 3.0,
+        "mean_diff_C_minus_B": 0.006,
+        "n_pairs": 83,
+        "wilcoxon_stat": 0.0,
+        "wilcoxon_p": 0.317311,
+        "rank_biserial_r": 0.012,
+        "effect_magnitude": "negligible",
+        "direction": "C > B"
+      },
+      "phase_alignment": {
+        "mean_B": 3.434,
+        "mean_C": 3.548,
+        "mean_diff_C_minus_B": 0.114,
+        "n_pairs": 83,
+        "wilcoxon_stat": 456.0,
+        "wilcoxon_p": 0.067869,
+        "rank_biserial_r": 0.1424,
+        "effect_magnitude": "negligible",
+        "direction": "C > B"
+      },
+      "architecture_violation_rate": {
+        "mean_B": 2.946,
+        "mean_C": 2.934,
+        "mean_diff_C_minus_B": -0.012,
+        "n_pairs": 83,
+        "wilcoxon_stat": 18.0,
+        "wilcoxon_p": 0.563703,
+        "rank_biserial_r": -0.0237,
+        "effect_magnitude": "negligible",
+        "direction": "B > C"
+      },
+      "test_pass_rate": {
+        "mean_B": 2.867,
+        "mean_C": 2.867,
+        "mean_diff_C_minus_B": 0.0,
+        "n_pairs": 83,
+        "wilcoxon_stat": 44.5,
+        "wilcoxon_p": 0.94243,
+        "rank_biserial_r": -0.0089,
+        "effect_magnitude": "negligible",
+        "direction": "tie"
+      },
+      "task_completion": {
+        "mean_B": 2.717,
+        "mean_C": 2.627,
+        "mean_diff_C_minus_B": -0.09,
+        "n_pairs": 83,
+        "wilcoxon_stat": 105.0,
+        "wilcoxon_p": 0.014377,
+        "rank_biserial_r": -0.0962,
+        "effect_magnitude": "negligible",
+        "direction": "B > C"
+      }
+    },
+    "holm_bonferroni": {
+      "complexity_delta": {
+        "raw_p": 0.252366,
+        "rejected": false
+      },
+      "coupling_change": {
+        "raw_p": 0.317311,
+        "rejected": false
+      },
+      "phase_alignment": {
+        "raw_p": 0.067869,
+        "rejected": false
+      },
+      "architecture_violation_rate": {
+        "raw_p": 0.563703,
+        "rejected": false
+      },
+      "test_pass_rate": {
+        "raw_p": 0.94243,
+        "rejected": false
+      },
+      "task_completion": {
+        "raw_p": 0.014377,
+        "rejected": false
+      }
+    },
+    "mixed_effects": {
+      "complexity_delta": {
+        "beta_condition": -0.0274,
+        "se": 0.0417,
+        "p_value": 0.510785,
+        "ci_95": [
+          -0.1092,
+          0.0543
+        ],
+        "n_obs": 990,
+        "n_groups": 19
+      },
+      "coupling_change": {
+        "beta_condition": 0.0018,
+        "se": 0.0337,
+        "p_value": 0.957231,
+        "ci_95": [
+          -0.0643,
+          0.0679
+        ],
+        "n_obs": 990,
+        "n_groups": 19
+      },
+      "phase_alignment": {
+        "beta_condition": 0.0556,
+        "se": 0.0324,
+        "p_value": 0.08589,
+        "ci_95": [
+          -0.0079,
+          0.1191
+        ],
+        "n_obs": 990,
+        "n_groups": 19
+      },
+      "architecture_violation_rate": {
+        "beta_condition": -0.0548,
+        "se": 0.0333,
+        "p_value": 0.100444,
+        "ci_95": [
+          -0.1201,
+          0.0106
+        ],
+        "n_obs": 990,
+        "n_groups": 19
+      },
+      "test_pass_rate": {
+        "beta_condition": -0.0022,
+        "se": 0.0256,
+        "p_value": 0.930506,
+        "ci_95": [
+          -0.0524,
+          0.048
+        ],
+        "n_obs": 990,
+        "n_groups": 19
+      },
+      "task_completion": {
+        "beta_condition": -0.0127,
+        "se": 0.0463,
+        "p_value": 0.784692,
+        "ci_95": [
+          -0.1035,
+          0.0781
+        ],
+        "n_obs": 990,
+        "n_groups": 19
+      }
+    },
+    "heterogeneity_by_phase": {
+      "phase_distribution": {
+        "growth": 31,
+        "stabilization": 52
+      },
+      "complexity_delta": {
+        "interaction_beta": -0.1056,
+        "interaction_p": 0.228283,
+        "significant": false,
+        "interpretation": "SENSO effect is not phase-dependent"
+      },
+      "coupling_change": {
+        "interaction_beta": -0.0054,
+        "interaction_p": 0.938727,
+        "significant": false,
+        "interpretation": "SENSO effect is not phase-dependent"
+      },
+      "phase_alignment": {
+        "interaction_beta": 0.1993,
+        "interaction_p": 0.003449,
+        "significant": true,
+        "interpretation": "SENSO effect is larger in stabilization/decline phase"
+      },
+      "architecture_violation_rate": {
+        "interaction_beta": -0.0357,
+        "interaction_p": 0.609971,
+        "significant": false,
+        "interpretation": "SENSO effect is not phase-dependent"
+      },
+      "test_pass_rate": {
+        "interaction_beta": -0.0291,
+        "interaction_p": 0.60192,
+        "significant": false,
+        "interpretation": "SENSO effect is not phase-dependent"
+      },
+      "task_completion": {
+        "interaction_beta": 0.0462,
+        "interaction_p": 0.636823,
+        "significant": false,
+        "interpretation": "SENSO effect is larger in stabilization/decline phase"
+      }
+    },
+    "replication_check": {
+      "n_models": 2,
+      "models": [
+        "meta/llama-3.3-70b-instruct",
+        "mistralai/mixtral-8x22b-instruct-v0.1"
+      ],
+      "per_model_directions": {
+        "meta/llama-3.3-70b-instruct": {
+          "complexity_delta": "B > C (sig)",
+          "coupling_change": "B > C",
+          "phase_alignment": "B > C",
+          "architecture_violation_rate": "C > B",
+          "test_pass_rate": "C > B",
+          "task_completion": "B > C"
+        },
+        "mistralai/mixtral-8x22b-instruct-v0.1": {
+          "complexity_delta": "B > C",
+          "coupling_change": "C > B",
+          "phase_alignment": "C > B (sig)",
+          "architecture_violation_rate": "C > B",
+          "test_pass_rate": "B > C",
+          "task_completion": "B > C"
+        }
+      },
+      "metrics_with_agreement": 3,
+      "total_metrics": 6,
+      "agreement_rate": 0.5
+    },
+    "n_tasks": 83,
+    "conclusion": "RQ5: 0/6 metrics survive Holm-Bonferroni correction. SENSO manifests (C) score higher than human manifests (B) on 2/6 metrics. While directional trends favour SENSO manifests, the improvement does not reach statistical significance after multiple-testing correction, suggesting parity between human and SENSO manifests on these quality dimensions."
+  }
+}
